@@ -1,0 +1,91 @@
+{
+	empty_weight: 5.0f
+	icon: {
+		id: "mysticalagriculture:coral_essence"
+	}
+	id: "33807823894F5AC1"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{
+			id: "412C15D020A3B881"
+			item: {
+				count: 1
+				id: "mysticalagriculture:inferium_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "28DBE9261AB1B9C9"
+			item: {
+				count: 1
+				id: "mysticalagriculture:earth_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "5F6A281851FB037C"
+			item: {
+				count: 1
+				id: "mysticalagriculture:water_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "3AA395F5362E84A5"
+			item: {
+				count: 1
+				id: "mysticalagriculture:fire_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "62CDFCED1F165538"
+			item: {
+				count: 1
+				id: "mysticalagriculture:coral_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "590C7D158C4202CA"
+			item: {
+				count: 1
+				id: "mysticalagriculture:armadillo_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "21179C707C54FE3E"
+			item: {
+				count: 1
+				id: "mysticalagriculture:rubber_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "4C64BCF0EF885791"
+			item: {
+				count: 1
+				id: "mysticalagriculture:saltpeter_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "7EC84B432F72A8DE"
+			item: {
+				count: 1
+				id: "mysticalagriculture:apatite_seeds"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "3BE47882EBD77D22"
+			item: {
+				count: 1
+				id: "mysticalagriculture:air_seeds"
+			}
+			weight: 0.2f
+		}
+	]
+}

@@ -566,6 +566,9 @@
 		{
 			dependencies: ["03F62F0E4DEE0C1C"]
 			hide_until_deps_visible: true
+			icon: {
+				id: "minecraft:shulker_box"
+			}
 			id: "3C8CDA5FB3B3E5DD"
 			rewards: [{
 				id: "64BFB079C058C073"
@@ -906,16 +909,25 @@
 			}
 			id: "38FCDBC67E137073"
 			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "738C3631FA49D6B6"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "738C3631FA49D6B6"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					team_reward: false
+					type: "item"
 				}
-				team_reward: false
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "55FF61DC4F29DB33"
+					table_id: 3711098186976156353L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				icon: {
 					id: "minecraft:clock"
