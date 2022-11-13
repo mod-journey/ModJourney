@@ -2142,7 +2142,6 @@
 	quest.75BA799EEA809FA5.quest_desc: ["Noch viel viel viel mehr stacken!"]
 	quest.75BA799EEA809FA5.quest_subtitle: "MEEEEEEEHR IV"
 	quest.75E7086CBC6DD98F.title: "Nether Quartz IV"
-	quest.75EE38089094F5A0.title: "Sawdust"
 	quest.7600E42EC1039D65.quest_desc: ["Ein Block, welcher Entities pusht. Mobs können auf natürliche Weise hier drauf spawnen"]
 	quest.7626A78AFD6D9253.title: "Silber II"
 	quest.764E50746BC2A66F.quest_subtitle: "Speicher für deine Flüssigkeiten!"
@@ -2209,7 +2208,7 @@
 	quest.7AD9631F43AD87FD.quest_subtitle: "Put it in I"
 	quest.7AECB62DC58378D5.title: "Lotterie"
 	quest.7AFD7B0DAA8D7791.quest_desc: ["Du benötigst den Catalyst, um den Undergarden besuchen zu können. Platziere Steinziegel, in einer mindestgröße wie ein Netherportal und rechtklicke mit dem Catalyst."]
-	quest.7AFFEA1B611A8CB9.quest_desc: ["Froststeel kann ab Höhe 80 gefunden werden. Findet man nur in kalten Biomen im Undergarden."]
+	quest.7AFFEA1B611A8CB9.quest_desc: ["Froststeel kann &4&lunter&r Höhe 81 gefunden werden. Findet man nur in kalten Biomen im Undergarden."]
 	quest.7AFFEA1B611A8CB9.title: "Froststeel"
 	quest.7B0B511E8A8D0C10.quest_desc: ["Wird aus Diamanten hergestellt."]
 	quest.7B63B6CB65BC3172.quest_desc: ["Noch viel mehr Flüssigkeitspeicher? Dafür ist der Jumbo-Tank."]

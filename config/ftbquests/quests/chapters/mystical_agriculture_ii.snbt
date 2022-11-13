@@ -1484,6 +1484,7 @@
 					count: 1
 					id: "mysticalagriculture:grains_of_infinity_seeds"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
