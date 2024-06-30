@@ -1,9 +1,10 @@
 {
 	chapter_groups: [
-		{ id: "4010DABBE90E310E", title: "Willkommen im Modpack" }
-		{ id: "4E6CD185FB7DD457", title: "Overworld" }
-		{ id: "681B6F4AD984402A", title: "The Nether" }
-		{ id: "7990A32B3F4B170E", title: "The End" }
-		{ id: "524CDEDD30F391D1", title: "admin" }
+		{ id: "00D014EB3FA9ED8A", title: "Stage I" }
+		{ id: "4B1BD2A866D0526F", title: "Stage II" }
+		{ id: "29AF41F0C879F47B", title: "Stage III" }
+		{ id: "0C536217AA8FF9E1", title: "Stage IV" }
+		{ id: "16F9BB65CBA165C2", title: "Magie" }
+		{ id: "12D6D4D26DC1B099", title: "Adventure" }
 	]
 }

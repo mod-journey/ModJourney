@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blue_skie"
+	group: "12D6D4D26DC1B099"
+	id: "78C685D65397D126"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "blue Skies"
+}
