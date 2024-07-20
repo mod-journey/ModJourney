@@ -37,13 +37,14 @@ const advanced_atos = [
     'invar',
     'electrum',
     'bronze',
-    'iron',
-    'gold',
     'diamond',
-    'copper',
     'enderium',
     'lumium',
     'signalum',
     'constantan',
-    'brass'
+    'brass',
+    'gold',
+    'iron',
+    'copper'
   ]
+//manipulation on array in Script advanced_ores.js on Line #41

@@ -15,61 +15,51 @@
 	admin: {
 		# Allows admins to extinguish themselves or a player using a command
 		extinguish: {
-			# Default: true
 			enabled: true
 		}
 
 		# Allows admins to fully feed themselves or a player using a command
 		feed: {
-			# Default: true
 			enabled: true
 		}
 
 		# Allows admins to toggle flying status using a command, without having to use Creative Mode
 		fly: {
-			# Default: true
 			enabled: true
 		}
 
 		# Allows admins to toggle invincibility using a command, without having to use Creative Mode
 		god: {
-			# Default: true
 			enabled: true
 		}
 
 		# Allows admins to fully heal (health, food, fire, potion effects) themselves or a player using a command
 		heal: {
-			# Default: true
 			enabled: true
 		}
 
 		# Allows admins to view other users' inventories using a command
 		invsee: {
-			# Default: true
 			enabled: true
 		}
 
 		# Allows admins to configure kits of items that can be given to players.
 		kit: {
-			# Default: true
 			enabled: true
 		}
 
 		# Allows admins to restrict players from chatting by using a command to mute (or unmute) them
 		mute: {
-			# Default: true
 			enabled: true
 		}
 
 		# Allows admins to change walk speed for themselves or a player
 		speed: {
-			# Default: true
 			enabled: true
 		}
 
 		# Allows admins to change the location of offline players.
 		tp_offline: {
-			# Default: true
 			enabled: true
 		}
 	}
@@ -78,73 +68,61 @@
 	misc: {
 		# Allows users to access an Anvil GUI without needing an Anvil.
 		anvil: {
-			# Default: true
-			enabled: true
+			enabled: false
 		}
 
 		# Allows users to access a Crafting Table GUI without needing a Crafting Table.
 		crafting: {
-			# Default: true
-			enabled: true
+			enabled: false
 		}
 
 		# Allows users to access their ender chest, as well as admins to manage other players' ender chests.
 		enderchest: {
-			# Default: true
 			enabled: true
 		}
 
 		# Allows users to set a custom hat as their head item by using a command
 		hat: {
-			# Default: true
-			enabled: true
+			enabled: false
 		}
 
 		# Allows users to kick themselves from the server, for example if they are stuck or desynced
 		kickme: {
-			# Default: true
-			enabled: true
+			enabled: false
 		}
 
 		# Allows users to view leaderboard stats about everyone on the server.
 		leaderboard: {
-			# Default: true
 			enabled: true
 		}
 
 		# Allows users to list nearby players, sorted by distance
 		near: {
-			# Default: true
-			enabled: true
+			enabled: false
 		}
 
 		# Allows users to change their display name, as well as admins to change nicknames for other users
 		nick: {
-			# Default: true
-			enabled: true
+			enabled: false
 		}
 
 		# Allows users to announce their recording or streaming status to the server by using commands
 		rec: {
-			# Default: true
 			enabled: true
 		}
 
 		# Allows users to access a Smithing Table GUI without needing a Smithing Table.
 		smithing: {
-			# Default: true
-			enabled: true
+			enabled: false
 		}
 
 		# Allows users to access a Stonecutter GUI without needing a Stonecutter.
 		stonecutter: {
-			# Default: true
-			enabled: true
+			enabled: false
 		}
 
 		# Enables usage of a trash can inventory, which can be used to void unneeded items
 		trashcan: {
-			# Default: true
 			enabled: true
 		}
 	}

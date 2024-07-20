@@ -8,7 +8,7 @@
 #
 
 echo "Building client archive"
-ARCHIVE_FILE_NAME=dytech-4-client.zip
+ARCHIVE_FILE_NAME=mod-journey-client.zip
 SCRIPT_DIR="$(dirname "$0")"
 PROJECT_DIR="${SCRIPT_DIR}/../"
 BUILD_DIR=$(realpath "${PROJECT_DIR}build/")

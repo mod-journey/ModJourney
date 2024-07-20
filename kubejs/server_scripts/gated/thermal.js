@@ -16,4 +16,24 @@ ServerEvents.recipes(event => {
         stages.stage1.core
     )
 
+    event.replaceInput(
+        { id: 'thermal:energy_duct_4' },
+        'alltheores:lead_ingot',
+        stages.stage1.core
+    )
+
+    event.replaceInput(
+        { id: 'thermal:fluid_duct_4' },
+        'alltheores:lead_ingot',
+        stages.stage1.core
+    )
+ 
+    event.replaceInput(
+        { id: 'thermal:fluid_duct_windowed_4' },
+        'alltheores:bronze_ingot',
+        stages.stage1.core
+    )
+
+
+
 })

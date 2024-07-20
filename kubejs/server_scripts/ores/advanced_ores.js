@@ -38,8 +38,13 @@ ServerEvents.recipes(event => {
 
 
   var thermal_smelter = (werkstoff) => {
+    advanced_atos.splice(-3)            //Test
+
     advanced_atos.forEach(element => {
-      event.forEachRecipe({id: "thermal:machines/smelter/smelter_" + element + "_plate_to_" + werkstoff}, r => {
+      let smelter1 = "thermal:machines/smelter/smelter_"
+      let smelter2 = "_plate_to_"
+
+      event.forEachRecipe({id: smelter1 + element + smelter2 + werkstoff}, r => {
         let json = r.json
         let output = r.json.get("result").get(0)
         output.add("item", "alltheores:" + element + "_" + werkstoff)
@@ -69,6 +74,7 @@ ServerEvents.recipes(event => {
       });
     });
   }
+  console.log(advanced_atos)
 
   thermal_smelter("ingot");
   thermal_smelter2("dust", "ingot");
