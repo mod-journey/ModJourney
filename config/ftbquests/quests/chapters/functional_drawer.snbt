@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "functional_drawer"
+	group: "00D014EB3FA9ED8A"
+	id: "53C1E22F3D3647F5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "functional drawer"
+}

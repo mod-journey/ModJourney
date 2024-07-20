@@ -58,7 +58,8 @@ JEIEvents.hideItems(event => {
 
     // Mystical Agriculture
     let mystical_hide = [
-        'mysticalagriculture:harvester'
+        'mysticalagriculture:harvester',
+        'mysticalagriculture:soul_extractor'
     ]
 
     // remove all growth accelerators (but keep the first)
@@ -74,6 +75,13 @@ JEIEvents.hideItems(event => {
     mystical_tiers.forEach(tier => {
         mystical_hide.push(Item.of(`mysticalagriculture:${ tier }_growth_accelerator`))
     })
+
+    /**
+     * INFO: this removes all Soul jars even if I try to remove only these with a type (to exclude the empty ja)
+     * @see https://wiki.latvian.dev/books/kubejs-legacy/page/item-and-ingredient
+     */
+    mystical_hide.push(Item.of('mysticalagriculture:soul_jar', '{Souls:0.5d,Type:"mysticalagriculture:fish"}'));
+    //event.hide(Item.withNBT('mysticalagriculture:soul_jar', '{Souls:0.5d,Type:"mysticalagriculture:fish"}'));
 
     mystical_hide.forEach((element) => {
         event.hide(element)
