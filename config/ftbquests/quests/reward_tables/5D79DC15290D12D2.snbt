@@ -1,0 +1,44 @@
+{
+	icon: "botania:elementium_nugget"
+	id: "5D79DC15290D12D2"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ item: "botania:ender_air_bottle" }
+		{ item: "botania:terrasteel_nugget" }
+		{ item: "botania:mana_diamond" }
+		{ item: "botania:mana_pearl" }
+		{ item: "botania:manasteel_ingot" }
+		{ item: "botania:dragonstone" }
+		{ item: "botania:pixie_dust" }
+		{ item: "botania:elementium_ingot" }
+		{
+			item: {
+				Count: 1b
+				id: "botania:mana_tablet"
+				tag: {
+					mana: 500000
+				}
+			}
+		}
+		{ item: "botania:rune_winter" }
+		{ item: "botania:rune_autumn" }
+		{ item: "botania:rune_water" }
+		{ item: "botania:rune_spring" }
+		{ item: "botania:rune_summer" }
+		{ item: "botania:rune_air" }
+		{ item: "botania:rune_earth" }
+		{ item: "botania:rune_fire" }
+		{ item: "botania:terrasteel_nugget" }
+		{ item: "botania:livingrock" }
+		{ item: "botania:livingwood_log" }
+		{ item: "minecraft:lapis_block" }
+		{ item: "botania:bellows" }
+		{ item: "botania:mana_glass" }
+		{ item: "botania:mana_powder" }
+		{ item: "botania:manaweave_cloth" }
+		{ item: "botania:red_string" }
+		{ item: "botania:dreamwood_twig" }
+	]
+	title: "botania_mid"
+}

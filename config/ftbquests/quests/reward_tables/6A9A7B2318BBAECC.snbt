@@ -1,0 +1,33 @@
+{
+	icon: "botania:manasteel_nugget"
+	id: "6A9A7B2318BBAECC"
+	loot_size: 3
+	order_index: 8
+	rewards: [
+		{ item: "botania:light_gray_petal", random_bonus: 9 }
+		{ item: "botania:gray_petal", random_bonus: 9 }
+		{ item: "botania:pink_petal" }
+		{ item: "botania:lime_petal" }
+		{ item: "botania:yellow_petal" }
+		{ item: "botania:light_blue_petal" }
+		{ item: "botania:magenta_petal" }
+		{ item: "botania:orange_petal" }
+		{ item: "botania:white_petal" }
+		{ item: "botania:mana_pearl", weight: 0.5f }
+		{ item: "botania:manasteel_ingot", weight: 0.5f }
+		{ item: "botania:cyan_petal" }
+		{ item: "botania:purple_petal" }
+		{ item: "botania:blue_petal" }
+		{ item: "botania:brown_petal" }
+		{ item: "botania:green_petal" }
+		{ item: "botania:red_petal" }
+		{ item: "botania:black_petal" }
+		{ item: "botania:mana_diamond", weight: 0.5f }
+		{ item: "botania:mana_powder", weight: 0.5f }
+		{ item: "botania:elementium_nugget", weight: 0.1f }
+		{ item: "botania:manasteel_nugget", weight: 0.1f }
+		{ item: "botania:terrasteel_nugget", weight: 0.1f }
+	]
+	title: "botania_early"
+	use_title: true
+}

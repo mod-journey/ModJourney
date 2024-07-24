@@ -1,0 +1,52 @@
+{
+	icon: "botania:terrasteel_nugget"
+	id: "1A1E97233872878D"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ item: "botania:rune_mana" }
+		{ item: "botania:rune_lust" }
+		{ item: "botania:rune_gluttony" }
+		{ item: "botania:rune_sloth" }
+		{ item: "botania:rune_greed" }
+		{ item: "botania:rune_wrath" }
+		{ item: "botania:rune_envy" }
+		{ item: "botania:rune_pride" }
+		{ item: "botania:livingrock" }
+		{
+			item: {
+				Count: 1b
+				id: "botania:mana_tablet"
+				tag: {
+					mana: 500000
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "botania:mana_ring_greater"
+				tag: {
+					mana: 2000000
+				}
+			}
+		}
+		{ item: "botania:terrasteel_ingot" }
+		{ item: "botania:pure_daisy" }
+		{ item: "botania:mana_pearl" }
+		{ item: "botania:mana_diamond" }
+		{ item: "botania:mana_diamond_block" }
+		{ item: "botania:manasteel_ingot" }
+		{ item: "botania:manasteel_block" }
+		{ item: "botania:life_essence" }
+		{ item: "botania:gaia_ingot" }
+		{ item: "botania:dragonstone" }
+		{ item: "botania:dragonstone_block" }
+		{ item: "botania:pixie_dust" }
+		{ item: "botania:elementium_block" }
+		{ item: "botania:elementium_ingot" }
+		{ item: "botania:fabulous_pool" }
+		{ item: "botania:livingwood_log" }
+	]
+	title: "botania_end"
+}

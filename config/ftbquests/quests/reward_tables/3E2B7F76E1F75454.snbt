@@ -1,0 +1,16 @@
+{
+	icon: "bloodmagic:magicianbloodorb"
+	id: "3E2B7F76E1F75454"
+	loot_size: 3
+	order_index: 9
+	rewards: [
+		{ item: "bloodmagic:steadfastcrystal", random_bonus: 5 }
+		{ item: "bloodmagic:destructivecrystal", random_bonus: 5 }
+		{ item: "bloodmagic:vengefulcrystal", random_bonus: 5 }
+		{ item: "bloodmagic:corrosivecrystal", random_bonus: 5 }
+		{ item: "bloodmagic:defaultcrystal", random_bonus: 5 }
+		{ ignore_reward_blocking: true, item: "bloodmagic:hellforgedparts", weight: 0.02f }
+		{ item: "bloodmagic:blankrune", weight: 0.5f }
+	]
+	title: "bloodmagic_mid"
+}

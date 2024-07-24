@@ -6,6 +6,15 @@
 	id: "791B5B0012F48C8B"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "74167FECEB1B389F"
+		tasks: [{
+			id: "2DFB8C9D4C67989E"
+			item: "bloodmagic:minekey"
+			type: "item"
+		}]
+		x: 2.5d
+		y: -7.5d
+	}]
 	title: "ars noveau"
 }

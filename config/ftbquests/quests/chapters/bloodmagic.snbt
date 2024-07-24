@@ -3,9 +3,582 @@
 	default_quest_shape: ""
 	filename: "bloodmagic"
 	group: "16F9BB65CBA165C2"
+	icon: "bloodmagic:altar"
 	id: "04F3F575A212196A"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 100.0d
+			hover: [ ]
+			image: "mcwwindows:block/light_blue_side"
+			rotation: 90.0d
+			width: 1.0d
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbteams:textures/accept.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 100.0d
+			hover: [ ]
+			image: "mcwwindows:block/light_blue_side"
+			rotation: 90.0d
+			width: 1.0d
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbteams:textures/accept.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbteams:textures/accept.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 100.0d
+			hover: [ ]
+			image: "mcwwindows:block/light_blue_side"
+			rotation: 90.0d
+			width: 1.0d
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 100.0d
+			hover: [ ]
+			image: "mcwwindows:block/light_blue_side"
+			rotation: 90.0d
+			width: 1.0d
+			x: 10.5d
+			y: 18.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mcwwindows:block/light_blue_side"
+			rotation: 90.0d
+			width: 1.0d
+			x: 10.5d
+			y: 27.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["407F543ADE3A3EC3"]
+			description: ["In Blood Magic dreht sich alles um den Blutaltar. Mittels diesen, ist es dir möglich neue Items zu erschaffen, welche Du über einen Rechtsklick in den Altar legst. Finden wir heraus, wie wir unser erstes Blut opfern."]
+			hide: true
+			id: "19ECDD38FF50B386"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Herzlich Willkommen in Blood Magic"
+			tasks: [{
+				id: "5D755300ED16321C"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			title: "Tier 1"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0DD2D5F39A7FC453"]
+			description: ["Wenn Du nicht weißt wohin mit dem gesamten Blut, so kannst Du es in Eimer zwischen Speichern. Eine altbewährte Lagermethode. Du solltest Dir ein paar Eimer abschöpfen, villeicht kannst du diese später ja noch mal gebrauchen."]
+			id: "644466781495F7E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E7E545CF39A77DA"
+				table_id: 4479814402924041300L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Wohin mit dem ganzen Blut?"
+			tasks: [{
+				id: "5B8148FD2156F324"
+				item: "bloodmagic:life_essence_bucket"
+				type: "item"
+			}]
+			title: "Ein Eimer voller Blut"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19ECDD38FF50B386"]
+			description: ["Mittels dem Messer können wir das erste Blut den alten Göttern opfern. Stelle dich neben den Altar und  drücke die Rechte Maustaste. Aber vorsicht, die Götter können nicht genug bekommen, nicht das Du zu viel her gibst. "]
+			id: "0DD2D5F39A7FC453"
+			subtitle: "Das erste Blutopfer"
+			tasks: [{
+				id: "0AF76114D9F5E952"
+				item: {
+					Count: 1b
+					id: "bloodmagic:sacrificialdagger"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Welches Blut?"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["19BE04C1BB555974"]
+			id: "40EFD7E819501CF9"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "33AF13E733B5F2A5"
+				item: "bloodmagic:largebloodstonebrick"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.25d
+		}
+		{
+			dependencies: [
+				"2FC272CE75A8F331"
+				"14CE04121F4CA8D2"
+				"21121DBFE8F9B7EE"
+				"4939382B4D56D3CD"
+				"200F804A2FECD8FE"
+			]
+			hide: true
+			id: "18D30E75DBA755F4"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "44ED309D4D789572"
+				item: {
+					Count: 1b
+					id: "bloodmagic:ritualdiviner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["06417ADE2F421986"]
+			id: "40019D79DA3B4858"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "45EA2F1E2289168B"
+				item: "bloodmagic:hellforgedparts"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 27.75d
+		}
+		{
+			dependencies: [
+				"0F721A48AD385F18"
+				"77AA85B028579CF6"
+			]
+			hide: true
+			id: "1CA9843D124FB9DB"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "2E3109603B4CFA05"
+				item: "bloodmagic:minekey"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["644466781495F7E7"]
+			description: ["Runen stellen ein weiteres wichtiges Utensil in der arkanen Kunst der dunklen Magie da. Die erste der vielen Runen wird wohl mit normalen Steinen im Blut Altar hergestellt. Probier es doch mal direkt aus. "]
+			id: "5687ACBB8EDE2C51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51B7616C05DD7BBE"
+				table_id: 4479814402924041300L
+				type: "loot"
+			}]
+			subtitle: "Die erste von vielen."
+			tasks: [{
+				id: "48E454E00B4D24EC"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			title: "Eine Rune- Nein ein blanke Rune"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7595DD9DE29C0C44"
+				"5687ACBB8EDE2C51"
+			]
+			description: ["Eine Rune benutzt Du um dein Blutaltar zu vergrößern. Im Blood Magic Guide Book wirst Du zu diesen komplexen Strukturen bestimmt fündig. Den überlieferungen zu folge, soll der erste Blood Altar aus 8 weiteren Blanken Runensteinen bestehen."]
+			id: "413828EBD4CE1AA8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B936AF80943EC1A"
+				table_id: 4479814402924041300L
+				type: "loot"
+			}]
+			subtitle: "Slates != Rune"
+			tasks: [{
+				id: "37DB6D5328C6481B"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			title: "Deine erste Runen"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["644466781495F7E7"]
+			description: ["Natürlich braucht es Speicher. Eine bessere Methode Blut zu speichern stellt der Blut Orb da. Dieser bildet sein eigenes Netzwerk und ist gänzlich für neue Mythen und Rituale nutzbar. Auch einige antike Rezepte sollen mit dem Orb als Katalyst funktionieren. Wenn man den Gelehrten glauben schenken darf, so füllt sich dieser im Blut Altar auf."]
+			id: "7595DD9DE29C0C44"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4441469E0EF46B03"
+				table_id: 4479814402924041300L
+				type: "loot"
+			}]
+			subtitle: "Welcher kühne Magier hat auch keinen?"
+			tasks: [{
+				id: "5FFD0112B1E96B7B"
+				item: "bloodmagic:weakbloodorb"
+				type: "item"
+			}]
+			title: "Natürlich ist es ein Orb"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7595DD9DE29C0C44"]
+			description: ["Mittels diesem Item, welches du in die nähe von deinem Altar stellst, kannst Du dich durch Selbstblutentnahme nicht mehr töten. Auch hierfür gibt es ein Multiblock in der zukunft. "]
+			id: "775CA62679CED9AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1558AA6EC79D269D"
+				table_id: 4479814402924041300L
+				type: "loot"
+			}]
+			subtitle: "Ein bisschen mehr Sicherheit"
+			tasks: [{
+				id: "069F0D25DFCC2AA6"
+				item: "bloodmagic:incensealtar"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["413828EBD4CE1AA8"]
+			description: ["Mit einem nun besseren Blut Altar lässt sich ein noch besserer Orb herstellen. Mit diesem werden bestimmt weitere Rezepte freigeschaltet."]
+			id: "5F0DB83F6DED68A3"
+			subtitle: "Natürlich, es folgen sogar noch mehr"
+			tasks: [{
+				id: "4640EF2068FEBE26"
+				item: "bloodmagic:apprenticebloodorb"
+				type: "item"
+			}]
+			title: "Noch ein Orb?"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5F0DB83F6DED68A3"]
+			description: [
+				"Neue Runenelemente wurden gefunden. Probiere doch mal gleich aus diese herzustellen. Sie sollen den Blut Altar signifikant verbessern."
+				""
+				"{@pagebreak}"
+				"&l&1Sacrifice&r"
+				"Mehr Blut durch Mobs"
+				"{@pagebreak}"
+				"&l&1Self Sacrifice &r"
+				"Mehr Blut durch einen Spieler"
+				"{@pagebreak}"
+				"&l&1Rune of the Orb&r"
+				"verbessert die Kapazität des Orbs im Blutaltar"
+			]
+			id: "65E14369D16F30ED"
+			subtitle: "weniger ist nicht mehr"
+			tasks: [{
+				id: "4E86CF48423DE268"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bloodmagic:selfsacrificerune"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:sacrificerune"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:orbcapacityrune"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Mehr Runen"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["65E14369D16F30ED"]
+			description: ["Dein Altar lässt sich ohne Probleme bis auf Stufe 3 Upgraden. Um die Multiblockstruktur kennen zu lernen, nutze bitte das Sankturium, welches Du als Belohnung erhälst. "]
+			id: "4CE85AB71C678CF6"
+			subtitle: "Bis hier hin"
+			tasks: [{
+				id: "22302190657BB6C4"
+				title: "Altar der Stufe 3"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4CE85AB71C678CF6"]
+			id: "2FC272CE75A8F331"
+			tasks: [{
+				id: "647B62E68802267A"
+				item: {
+					Count: 1b
+					id: "bloodmagic:airscribetool"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4CE85AB71C678CF6"]
+			id: "21121DBFE8F9B7EE"
+			tasks: [{
+				id: "0735E216CEF1C0A7"
+				item: {
+					Count: 1b
+					id: "bloodmagic:firescribetool"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4CE85AB71C678CF6"]
+			id: "14CE04121F4CA8D2"
+			tasks: [{
+				id: "6929DEDCF5779D22"
+				item: {
+					Count: 1b
+					id: "bloodmagic:earthscribetool"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4CE85AB71C678CF6"]
+			id: "4939382B4D56D3CD"
+			tasks: [{
+				id: "732BF13B9F7C6884"
+				item: {
+					Count: 1b
+					id: "bloodmagic:waterscribetool"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"0483CB253596FF20"
+				"38C06A9C50CC10B4"
+				"5DA64CADB81708C8"
+			]
+			id: "055723E081112022"
+			tasks: [{
+				id: "65C6EEE2DFDFE18E"
+				item: "bloodmagic:strong_tau"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["18D30E75DBA755F4"]
+			id: "38C06A9C50CC10B4"
+			tasks: [{
+				id: "78C523F9AC5A20FB"
+				item: "bloodmagic:masterritualstone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["18D30E75DBA755F4"]
+			hide: false
+			id: "5DA64CADB81708C8"
+			tasks: [{
+				id: "3049B22991C38D71"
+				item: "bloodmagic:ritualstone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["055723E081112022"]
+			id: "19BE04C1BB555974"
+			tasks: [{
+				id: "7616A7E434BD0BEF"
+				item: "bloodmagic:weakbloodshard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["18D30E75DBA755F4"]
+			id: "0483CB253596FF20"
+			tasks: [{
+				id: "4F62D999021CA3DA"
+				item: "bloodmagic:activationcrystalweak"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["40EFD7E819501CF9"]
+			id: "42D9B4438680C937"
+			tasks: [{
+				id: "4333D7E9404534D6"
+				title: "Tier 4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["42D9B4438680C937"]
+			id: "55F9D00503EA0664"
+			tasks: [{
+				id: "469553EC339A1606"
+				item: "bloodmagic:ritualdivinerdusk"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["55F9D00503EA0664"]
+			id: "0F721A48AD385F18"
+			tasks: [{
+				id: "0BA74A07462271F2"
+				item: "bloodmagic:mineentrancekey"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["55F9D00503EA0664"]
+			icon: "bloodmagic:dungeon_eye"
+			id: "77AA85B028579CF6"
+			tasks: [{
+				id: "72B008863DBD6560"
+				title: "Miners Entry"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["1CA9843D124FB9DB"]
+			id: "61DC0E19528E8BD5"
+			tasks: [{
+				id: "0286B5BD35D02556"
+				item: "bloodmagic:rawdemonite"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["61DC0E19528E8BD5"]
+			id: "06417ADE2F421986"
+			tasks: [{
+				id: "6B5753E62DA39A95"
+				title: "Tier 5"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 25.5d
+		}
+	]
 	title: "bloodmagic"
 }
