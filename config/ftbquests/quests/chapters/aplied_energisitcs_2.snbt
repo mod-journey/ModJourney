@@ -1,0 +1,1695 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aplied_energisitcs_2"
+	group: "4B1BD2A866D0526F"
+	icon: "minecraft:cherry_log"
+	id: "081AFFC24F876656"
+	images: [
+		{
+			dependency: "43120BDFFF95EF89"
+			height: 1.0d
+			image: "kubejs:textures/background/green_symboles/letters/a.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.016666666666673d
+			y: -3.2222789115646435d
+		}
+		{
+			dependency: "43120BDFFF95EF89"
+			height: 1.0d
+			image: "kubejs:textures/background/green_symboles/letters/u.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.516666666666673d
+			y: -3.2222789115646435d
+		}
+		{
+			dependency: "43120BDFFF95EF89"
+			height: 1.0d
+			image: "kubejs:textures/background/green_symboles/letters/t.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.016666666666673d
+			y: -3.2222789115646435d
+		}
+		{
+			dependency: "43120BDFFF95EF89"
+			height: 1.0d
+			image: "kubejs:textures/background/green_symboles/letters/o.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.516666666666673d
+			y: -3.2222789115646435d
+		}
+		{
+			dependency: "43120BDFFF95EF89"
+			height: 1.0d
+			image: "kubejs:textures/background/green_symboles/letters/c.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.516666666666673d
+			y: -3.2222789115646435d
+		}
+		{
+			dependency: "43120BDFFF95EF89"
+			height: 1.0d
+			image: "kubejs:textures/background/green_symboles/letters/r.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.016666666666673d
+			y: -3.2222789115646435d
+		}
+		{
+			dependency: "43120BDFFF95EF89"
+			height: 1.0d
+			image: "kubejs:textures/background/green_symboles/letters/a.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.554421768707506d
+			y: -3.227380952380951d
+		}
+		{
+			dependency: "43120BDFFF95EF89"
+			height: 1.0d
+			image: "kubejs:textures/background/green_symboles/letters/f.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.085034013605473d
+			y: -3.2273809523809476d
+		}
+		{
+			dependency: "43120BDFFF95EF89"
+			height: 1.0d
+			image: "kubejs:textures/background/green_symboles/letters/t.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.608503401360544d
+			y: -3.2205782312925315d
+		}
+		{
+			dependency: "43120BDFFF95EF89"
+			height: 1.0d
+			image: "kubejs:textures/background/green_symboles/letters/i.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.016666666666673d
+			y: -3.2222789115646435d
+		}
+		{
+			dependency: "43120BDFFF95EF89"
+			height: 1.0d
+			image: "kubejs:textures/background/green_symboles/letters/n.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.516666666666673d
+			y: -3.2222789115646435d
+		}
+		{
+			dependency: "43120BDFFF95EF89"
+			height: 1.0d
+			image: "kubejs:textures/background/green_symboles/letters/g.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.11870748299321d
+			y: -3.2205782312925315d
+		}
+		{
+			dependency: "43120BDFFF95EF89"
+			height: 1.0d
+			image: "farmersdelight:block/acacia_cabinet_top"
+			order: -1
+			rotation: 0.0d
+			width: 10.0d
+			x: 18.016666666666673d
+			y: -3.2222789115646435d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["AE2 ist eine Storage Mod. Mit dieser Mod kannst Du Items konsolidiert speichern und auf diese dezentral Zugreifen. Du kannst Craftingprozesse automatisieren und die wildesten Konstelationen automatisieren. "]
+			id: "43120BDFFF95EF89"
+			tasks: [{
+				id: "76D43A5CFB25EA8E"
+				title: "Applied Energistics"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["728F7FBD7DA50204"]
+			description: ["Mit dem Meteoritenkompass, lassen sich Meteoriten finden. Schnapp Dir einen, bevor die Wege relativ lang werden. Üblicherweise findest Du Meteoriten aber auch neben Dörfern. "]
+			id: "43EE4C5A2997ADF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AAFE1861127D06B"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3023C760B3327E8C"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["43120BDFFF95EF89"]
+			description: ["In einem Ladegerät lässt sich primär herstellen: Geladener Certus Quartz. Des weiteren kannst Du auch das mittlerweile Neu eingefügte Guide-Buch von Applied darin herstellen, oder auch einen Meteoritenkompass"]
+			id: "728F7FBD7DA50204"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "571ABE608E86F426"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			subtitle: "Der (Lade)gerät"
+			tasks: [{
+				id: "3DA11CF3BBAAF7B9"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["43EE4C5A2997ADF1"]
+			description: [
+				"Die ersten Blöcke findest Du in Meteoriten, welche Du über den Kompass findest. Aus diesen Blöcken wachsen mit der Zeit Certus Quarz Kristalle. Diese kannst Du abbauen, um dein erstes Certus zu erhalten. Baust Du sie mit Glück ab, erhälst du einen größeren Output"
+				"{image:ae2:block/large_quartz_bud width:30 height:30 align:1}"
+			]
+			id: "3FCAD3EFEABBED79"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78BD2AC5AF973D68"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			subtitle: "Dein erstes Certus"
+			tasks: [{
+				id: "78122D38C64820B4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:chipped_budding_quartz"
+							}
+							{
+								Count: 1b
+								id: "ae2:flawed_budding_quartz"
+							}
+							{
+								Count: 1b
+								id: "ae2:flawless_budding_quartz"
+							}
+							{
+								Count: 1b
+								id: "ae2:damaged_budding_quartz"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Budding Certus Quatz blocks"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["728F7FBD7DA50204"]
+			description: ["Einer mit der wichtigsten Schritte, zum Fluix und dem herstellen von Budding Certus Blöcken."]
+			id: "7696FD7E9340DDEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "554C48592AD39DD0"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3CAACF2351091C9A"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7696FD7E9340DDEE"]
+			description: ["Gebe etwas geladenen Certus, Redstone und Netherquartz in ein Wasserbecken und erhalte Fluixkristalle"]
+			id: "45AC3B6AE5C814FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EF7846B38A279AC"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "43A4BF2B447C89B9"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["45AC3B6AE5C814FE"]
+			description: ["Fluixkristalle kannst Du auch crushen. Wird für einige Rezepte benötigt."]
+			id: "33A120F279366798"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39B877C96A9D6506"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "048AC861FC3544AA"
+				item: "ae2:fluix_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["432170C0C4C197D3"]
+			icon: "ae2:flawless_budding_quartz"
+			id: "405A94E52E705D16"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C9AE28E29FDDDA3"
+					table_id: 7376489297141901543L
+					type: "loot"
+				}
+				{
+					id: "424E24891F00913A"
+					item: "ae2:flawless_budding_quartz"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5CB71A602B376DF2"
+				observe_type: 0
+				timer: 5L
+				to_observe: "ae2:flawless_budding_quartz"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3FCAD3EFEABBED79"]
+			description: ["Die Formen des Budding Certus, haben eine Wahrscheinlichkeit kaputt zu gehen. Um eine endlose Certus Quelle zu bekommen, kannst du sogenannte Flawless Blöcke in Meteoriten finden. Nun brauchst Du nur noch eine Möglichkeit, diese mitzunehmen. "]
+			id: "432170C0C4C197D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "679BF167B17D6602"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6D59E25590BD9BBD"
+				title: "Budding Certus"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3FCAD3EFEABBED79"]
+			description: ["Baust Du die Quarzblüten zu früh ab, erhälst Du lediglich Dust."]
+			id: "258FF05B463315D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34B716ACD68A1ADE"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "17FCE45131CBC0D7"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3FCAD3EFEABBED79"]
+			description: ["Sind Die Quarzblüten voll Ausgewachsen, erhälst Du je nach Glück-Level Certusquatzkristalle."]
+			id: "0D02872448C4DA2F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B2F288E7B5EE431"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0504D0FBEFAF8AAD"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["7DC64335DF20BD93"]
+			description: [
+				"Die Gravurmaschine ist gegated auf das Immersive End-Game. "
+				"Um mit Applied weiter zu spielen, wirst Du in Immersive wohl erst mal voran schreiten müssen"
+			]
+			hide: true
+			id: "6932EE98766BBCB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EA5242829A798E8"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "2F2A95F6B97DA1E3"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: 0.040816326530602964d
+			y: 8.494897959183675d
+		}
+		{
+			dependencies: ["3FCAD3EFEABBED79"]
+			description: ["In den Meteoriten gibt es einen Block, der sämtliche Schablonen beinhaltet. Diese wirst Du für weitere Crafting Rezepte in der Mod brauchen"]
+			icon: "ae2:mysterious_cube"
+			id: "1C0E26CDD05060DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B9E2D3D8A17B269"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "6A22912AA2C53229"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "5B7A6A9BFB394DAC"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "6CB1BF0E5C952A8E"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+				{
+					id: "6827BAB1E56BC62A"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7440341BEA541FE2"
+				"2364BE0FC6C27739"
+				"6BCF86700F5B2929"
+			]
+			description: ["Mittels Dem Logikdruck, Redstone und Siliziumdruck, erhälst Du nun einen Logikprozessor."]
+			id: "2C9AFD3062A6F1D7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5009E5CDB265ADB6"
+					table_id: 7376489297141901543L
+					type: "loot"
+				}
+				{
+					count: 6
+					id: "1BD2335DA5ECA4AC"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4CAB2217E428EB6E"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"7440341BEA541FE2"
+				"6AB3A23E011C7A70"
+				"2364BE0FC6C27739"
+			]
+			description: ["Mit dem Kalkulationsdruck, einem Redstone und einem Siliziumdruck erhälst du einen Kalkulationsprozessor."]
+			id: "06D400071D147855"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F41AEC2049DA476"
+					table_id: 7376489297141901543L
+					type: "loot"
+				}
+				{
+					count: 6
+					id: "782119273420B726"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "214DF570655368AF"
+				item: "ae2:calculation_processor"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"7440341BEA541FE2"
+				"2364BE0FC6C27739"
+				"7B0B511E8A8D0C10"
+			]
+			id: "154B06B7D7A7D495"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DF7AB91DAB85886"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "770956FD4415907B"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"33A120F279366798"
+				"4CAB2217E428EB6E"
+			]
+			description: ["Eine wichtige Komponente in AE2 um Peripheriegeräte herzustellen."]
+			hide: true
+			id: "6AEC7D9E608F9708"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13DC78A305C694EB"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5E1602FFD0016785"
+				item: "ae2:formation_core"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"33A120F279366798"
+				"4CAB2217E428EB6E"
+			]
+			description: ["Eine wichtige Komponente in AE2 um Peripheriegeräte herzustellen."]
+			hide: true
+			id: "3020FE733C32B9C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24E4093DE8BC8222"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "10DD719221167FBD"
+				item: "ae2:annihilation_core"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6932EE98766BBCB7"]
+			description: ["Wird aus Diamanten hergestellt."]
+			id: "7B0B511E8A8D0C10"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B635D01B83CEE57"
+					table_id: 7376489297141901543L
+					type: "loot"
+				}
+				{
+					count: 4
+					id: "0CD28EBA997E6E78"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43A3D13FA4EA016B"
+				item: "ae2:printed_engineering_processor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6932EE98766BBCB7"]
+			description: ["Wird aus Certus hergestellt."]
+			id: "6AB3A23E011C7A70"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "32A229E73E84D793"
+					table_id: 7376489297141901543L
+					type: "loot"
+				}
+				{
+					count: 4
+					id: "4D8CAE105C1220C1"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53455924ADAE930B"
+				item: "ae2:printed_calculation_processor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6932EE98766BBCB7"]
+			description: ["Wird aus Gold hergestellt"]
+			id: "6BCF86700F5B2929"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A1077406D6CEB1C"
+					table_id: 7376489297141901543L
+					type: "loot"
+				}
+				{
+					count: 4
+					id: "420E60E5EFB6D678"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D89C129C5C5EF69"
+				item: "ae2:printed_logic_processor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2F2A95F6B97DA1E3"]
+			description: ["Das mit wichtigste Material in der Halbleitertechnologie."]
+			hide: true
+			id: "2364BE0FC6C27739"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "76C32B78879FCE40"
+					table_id: 7376489297141901543L
+					type: "loot"
+				}
+				{
+					count: 12
+					id: "52FA4D1036820322"
+					item: "ae2:silicon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "66B3C4004B81BA7B"
+				item: "ae2:printed_silicon"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2F2A95F6B97DA1E3"]
+			description: ["Redstone, eine wichtige Zutat im Prozessorbau."]
+			hide: true
+			id: "7440341BEA541FE2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "69D166B6AF88F7B1"
+					table_id: 7376489297141901543L
+					type: "loot"
+				}
+				{
+					count: 12
+					id: "40AD20A12BFE4EC4"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A5D105A3FC47ACE"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6AEC7D9E608F9708"]
+			description: ["Mit einem Exportbus, lassen sich Items oder Flüssigkeiten aus deinem System, in andere Container transferieren. Du musst aktiv einen Filter angeben, sodass exportiert werden kann. Auf der rechten Seite der GUI kannst Du Karten hinzufügen. Dazu später mehr."]
+			id: "379B63836CDB3221"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55C793B29A366047"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3CEA0D1578DDEEE7"
+				item: "ae2:export_bus"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3020FE733C32B9C3"]
+			description: ["Importiert aktiv Items oder Flüssigkeiten in dein ME-System. In der GUI lassen sich Filter einstellen. Auf der rechten Seite der GUI lassen sich Karten einfügen. Dazu später mehr."]
+			id: "1F1DABCEE502A81F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6382514CFF14556C"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0908315D4DDEAFD7"
+				item: "ae2:import_bus"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1F1DABCEE502A81F"
+				"379B63836CDB3221"
+			]
+			description: ["Mit einer ME-Schnittstelle kannst Du eine gewisse Anzahl an Items bereit stellen, welche dort gelagert werden und auf Abruf bereit sind. Außerdem lassen sich Items in die Schnittstelle transferieren. Über eine Schnittstelle, lässt sich auch das ME-System auslesen."]
+			id: "3E2D2775E7DF1B39"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D89B84A51588392"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2D3CAB5817910400"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3E2D2775E7DF1B39"]
+			description: [
+				"Ein Speicherbus erkennt den Container vor sich. Ob Truhe, Flüssigkeitenbehälter, das ist relativ egal. Dieser Speicher wird deinem ME-System hinzugefügt und ist ein Valider Speicher."
+				"Du kannst im Speicherbus einen Filter anlegen, aus den Items die aktuell dort zur Verfügung stehen. Kannst ihn einstellen, das dieser nur Items reinlegen soll, den Inhalt aber nicht sieht, oder eben auch umgekehrt. Platziere doch mal einen Speicherbus an eine Schnittstelle und hänge eine Konsole dran. Es passieren wilde Dinge."
+			]
+			id: "4A07C521E93B0968"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B478A2F55F8D88C"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "66D91015F7CDA3E8"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["154B06B7D7A7D495"]
+			description: ["Ein ME-Laufwerk bietet Dir die Möglichkeit, 10 Festplatten an dein System anzubinden. "]
+			id: "084F397A9654B3BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21E14A406BD2FA32"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "78C28689325CA9C0"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["154B06B7D7A7D495"]
+			description: ["Im ME-Requester kannst Du vorhandene Autocraftingrezepte auf einen Füllstand X vorbereiten lassen, sodass diese immer Vorrätig ist. Im gleichen Zuge bestimmst Du auch die Craftinggröße. DU kannst mehrere ME-Requester an deinem System anschließen und sie konsolidiert mittels der Requester-Konsole abrufen."]
+			icon: "merequester:requester"
+			id: "7CD185434F97FCA8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C2D77DA1670C657"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "2396B9FF25D4BAF9"
+					item: "merequester:requester"
+					type: "item"
+				}
+				{
+					id: "7BC23DE8625FA3CE"
+					item: "merequester:requester_terminal"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["154B06B7D7A7D495"]
+			description: [
+				"Ein Teil eines Mutliblocks, welcher benötigt wird, um Craftingrezepte Effizienter und schneller herzustellen."
+				"{@pagebreak}"
+				"&l&4Siehe:&r"
+				""
+				"{ \"text\": \"Auto-Crafting\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1784BD61EB8B6FDC\" } }"
+			]
+			id: "4086F2F3E18117DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CCF40797DDBC3C1"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2F2A116D911E58D6"
+				item: "ae2:crafting_accelerator"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["154B06B7D7A7D495"]
+			id: "6A3531865C75203E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A37AE23A262F702"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2B45D593E6A71D73"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["154B06B7D7A7D495"]
+			description: ["Mit einer ME-Schnittstelle kannst Du eine gewisse Anzahl an Items bereit stellen, welche dort gelagert werden und auf Abruf bereit sind. Außerdem lassen sich Items in die Schnittstelle transferieren. Über eine Schnittstelle, lässt sich auch das ME-System auslesen."]
+			id: "170D5325211091C5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "562B678AFD344016"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4B69D9AF940BCADB"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["154B06B7D7A7D495"]
+			description: [
+				"Über die Schablonen-Konsolen lassen sich Schablonen für das Auto-Crafting anlegen und konsolidiert an einem Fleck einordnen. Dazu im Bereich Autocrafting mehr."
+				""
+				"{@pagebreak}"
+				"&l&4Siehe:&r"
+				""
+				"{ \"text\": \"Auto-Crafting\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1784BD61EB8B6FDC\" } }"
+			]
+			id: "1FCAC2791A2BDF7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F0DC1B00EF4C1BF"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "27F76464974E7EF2"
+					item: "ae2:pattern_access_terminal"
+					type: "item"
+				}
+				{
+					id: "3210BE826A754531"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			description: ["In Applied wird alles in Channel bemessen. Die Channel - Kapazität liegt standartgemäß bei 8 und 32. Ein einfaches Fluix Kabel, kann 8 Channel verwalten. Genauso auch ein schlaues Kabel. Hast Du ein System was unter 8 Channel braucht, also einfach nur Items von vllt. A nach B schicken soll, brauchst du keinen Controller. Dieser bietet dir 32 Channel, auf jeder Seite an. "]
+			id: "04B5F7C440645BFB"
+			tasks: [{
+				id: "4A01A483B2C56682"
+				title: "Nice to know"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			description: ["Konsolen, Import- \\& Exportbus, Schnittstellen usw. sind sogenannte Peripherie. Ein jenes solcher Zusatzteile, belegt ein Channel auf deinem Kabel."]
+			id: "2AF2078918509008"
+			tasks: [{
+				id: "0CB57C52EC082C7F"
+				title: "Zusatzgeräte"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			id: "2AB80EFB7C8F9CCB"
+			tasks: [{
+				id: "24A8A24E61340ED0"
+				title: "Channels"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			id: "459DB482DFC5891B"
+			tasks: [{
+				id: "158417DB496C63A0"
+				title: "Debugging"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1784BD61EB8B6FDC"]
+			description: [
+				"Der Multiblock muss immer ein Rechteck bilden und mindestens einen Fertigungsspeicher beinhalten. Somit ist auch ein einzelner Fertigungspeicher ein Valider Prozessor für das Autocrafting."
+				"Außerdem kann die Fertigungseinheit als Füllmaterial im Multiblock benutzt werden, um diesen zu Vervollständigen. Einen Vorteil bringen diese Blöcke aber im Multiblock nicht."
+			]
+			id: "47DF718336469399"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "385A7ACF40CC033B"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4761A4A0F62E178F"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A2B6704E919F2BB"]
+			description: [
+				"Teil des Multiblocks."
+				"Die Prozessoreinheit sorgt für Parallele abarbeitung eines Rezepts. Hat man nun mehrere Schritte zu craften, oder auch viele parallele Aufträge, so sollte man die Anzahl an den sogenannten Prozessoreinheiten erhöhen. "
+				"Craftet man zum Beispiel Stöcke: "
+				"Stamm > Planks"
+				"Planks > Stöcke "
+				""
+				"Somit sollten hier mindestens zwei Prozessoreinheiten da sein, damit das Rezept parallel angearbeitet werden kann und kein leerlauf entsteht."
+			]
+			id: "51A5F68FDD62187E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6001A7CD5904CC87"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3AEA2B841E73AAFF"
+				item: "ae2:crafting_accelerator"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -1.0d
+		}
+		{
+			id: "6449DDB8B3D313D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41FA1B546B22CA91"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "262B34F718FE55C7"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["06D400071D147855"]
+			description: ["Die Fertigungskonsole, ist ein Zugangspunkt zu Deinem ME-System. Außerdem ist eine Werkbank mit integriert. "]
+			id: "40A763619721F2D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05D6F52409511216"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4499A6AD840E8149"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["06D400071D147855"]
+			description: ["Die Speicherkarte, kann Einstellungen speichern, wie Filter oder eingelegte Zusatzkarten in Geräten. \"Shift + Rechtsklick\" kopiert die Einstellung. Mittels einem Rechtklick, wird die Einstellung dann auf das neue Gerät übertragen. Es müssen Geräte der gleichen Baugruppe sein. Außerdem lässt sich die Speicherkarte auch für die Tunnelkonfiguration benutzen und ist ein wichtiger Bestandteil davon. Dazu später mehr im Kapitel:"]
+			id: "7F0B55925E6BB823"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F4532F5518182C8"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3CE7BA1AFF26850C"
+				item: {
+					Count: 1
+					id: "ae2:memory_card"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["06D400071D147855"]
+			description: ["Mit dem Füllstandsemitter kannst Du ein Redstone-Signal ausgeben, welches nach Itemfüllstand und Einstellung unterschiedlich ist. Durch eine Fertigungskarte lassen sich so Rezepte herstellen, welche sonst nur schwer automatisierbar sind. Maschinen die so auf Redstone reagieren, oder aber auch Bauteile mit einer implementieren Redstonekarte lassen sich so steuern."]
+			id: "222CCB6904E94D05"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32CD08D58A4E820F"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "274738ACA2E40223"
+				item: "ae2:level_emitter"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["06D400071D147855"]
+			description: ["Mit einer Speicherzellenwerkbank lassen sich Speicherzellen Hard-Formatieren, sodass hier nur die angegebenen Items darauf gespeichert werden können. Update-Karten können so auch auf die Zellen gebracht werden. So lassen sich z.B. eine Umkehrungskarte und eine Ungenauigkeitskarte darauf legen. Nun kann man Rüstung hinzufügen als Filter und schon hat man ein recht sauberes ME-System. "]
+			id: "2842882E7E709D30"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62F9D33238EF0114"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "10515A13E9E806E9"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["06D400071D147855"]
+			description: [
+				"Das Grundmodul für den Prozessor beim Autocrafting. Teil eines Multiblocks."
+				""
+				"{@pagebreak}"
+				"&l&4Siehe:&r"
+				""
+				"{ \"text\": \"Auto-Crafting\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1784BD61EB8B6FDC\" } }"
+			]
+			id: "46007DFEA68D9AA0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36B6FFCF31F9A28A"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "381E90A6A2ED2D6D"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["06D400071D147855"]
+			description: ["Eine erweiterte Speicherkomponente. Diese wird aus 3 x 1k Speicherkomponenten hergestellt."]
+			id: "3AA73B8FD2461794"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B5524BD99AF1529"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "418DBE034678C6D2"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["06D400071D147855"]
+			description: ["Der Drahtlose Zugangspunkt, ermöglicht Dir Wireless auf dein ME-System zuzugreifen. "]
+			id: "285A519325E14E23"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C1F3004F0E173CE"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5A1FBA168DB23037"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["06D400071D147855"]
+			description: [
+				"Ein Basismodul für Update-Karten."
+				""
+				""
+				"{ \"text\": \"Nähere Beschreibung\", \"underlined\": \"true\", \"color\": \"red\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0AB6B0BC4CDCB54F\" } }"
+			]
+			id: "4893E67ED9A2FD40"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C5BA1A5F3D0E995"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "08182F134C2F1213"
+				item: "ae2:advanced_card"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["06D400071D147855"]
+			description: [
+				"Ein Basismodul für Update-Karten."
+				""
+				""
+				"{ \"text\": \"Nähere Bschreibung\", \"underlined\": \"true\", \"color\": \"red\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6032E9282E0CB1DD\" } }"
+			]
+			id: "6D2CB936DA4BA56A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "684B05A57560F2A9"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "79AAF46EB3A268A0"
+				item: "ae2:basic_card"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2C9AFD3062A6F1D7"]
+			description: [
+				"Der ME-IO Port transferiert schnell Items von Festplatten auf ein vorhandenes System, oder auch umgekehrt. "
+				""
+				"&l&4Bitte Aufpassen:&r"
+				"Kann für massive Lags Sorgen"
+			]
+			id: "6F393C46B730C789"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3075345F385BACA9"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6229D46BA3C37F1D"
+				item: "ae2:io_port"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2C9AFD3062A6F1D7"]
+			description: [
+				"Ein Quantentunnel ermöglicht dir dein System Dimensionsübergreifen oder einfach auf Distanz zu bauen. Du benötigst 2 x8 Ringe. 2 x 1 Quantenkammer und ein parr Quantenverschränkte Singularitäten. "
+				""
+				"Um ein paar Quantenverschränkte Singularitäten herzustellen, schmeißt du einfach eine Singularität mit Enderstaub neben ein tnt. Das Zündest du an. Raus kommt das verschränkte Singularitätspaar"
+			]
+			id: "53384F1CAA1193C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51E05B05CEBFFA8B"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "59182F585120A722"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					id: "79BD101E2710BAC2"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					id: "3C35D0EA44BEAC2A"
+					item: "ae2:singularity"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2C9AFD3062A6F1D7"]
+			description: ["Deine erste Speicherkomponente. Daraus kannst Du dir deine ersten Speicherzellen oder deinen ersten Prozessor bauen um schnell größere herzustellen. Bedenke, das es nicht immer die größten Speicherkomponenten braucht um effektiv viele verschiedene Items zu Speichern."]
+			id: "09878609373929E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37EA4408E3A8EE5E"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "25FBEF7A3010541E"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2C9AFD3062A6F1D7"]
+			description: ["Eine Konsole. Gewährt Dir Zugriff auf dein ME-System. "]
+			id: "1274A16CCC2F9F25"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FE9064CE2E3BF5C"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3F192911E61515FD"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["214DF570655368AF"]
+			hide: true
+			id: "0AB6B0BC4CDCB54F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64ED79F5FDDB3186"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6C5CC3D18354662A"
+				item: "ae2:advanced_card"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["214DF570655368AF"]
+			hide: true
+			id: "6032E9282E0CB1DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E33D7E153930DA5"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1BE1A81E3129790C"
+				item: "ae2:basic_card"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0AB6B0BC4CDCB54F"]
+			id: "7FFFE7F06BF8115C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D6139DD9CB7E485"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0A695E77ECB369D3"
+				item: "ae2:inverter_card"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0AB6B0BC4CDCB54F"]
+			id: "357BF596A36CC80F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "726A6C2374207A92"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1825873897B457A8"
+				item: "ae2:equal_distribution_card"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0AB6B0BC4CDCB54F"]
+			id: "304225C3868E82EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54D37E8E36767BC5"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0146D7FDB62901AA"
+				item: "ae2:fuzzy_card"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0AB6B0BC4CDCB54F"]
+			id: "45B554092CB5ED7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6235D7E6B2621D98"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "63F94ABCA09336B3"
+				item: "ae2wtlib:magnet_card"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0AB6B0BC4CDCB54F"]
+			id: "4017EB0409B76AAF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EA078C1FEABC360"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "536DAC2DD2D1E59B"
+				item: "megacells:compression_card"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0AB6B0BC4CDCB54F"]
+			id: "3AADA31841BC9129"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "435983A08451B52F"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0FB3AAFF6DE420CD"
+				item: "ae2:energy_card"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["3AADA31841BC9129"]
+			id: "09676AC0DBDF507F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40A81936525FA61A"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "03EEDDF78C0DB83E"
+				item: "megacells:greater_energy_card"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6032E9282E0CB1DD"]
+			id: "3B279BB5F92FBF58"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1506E239D6F8B448"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "58D8C022F4FA5120"
+				item: "ae2:capacity_card"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6032E9282E0CB1DD"]
+			id: "026272F9CF7A8047"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "257CDF12E341B95A"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "16DD54393F481AB4"
+				item: "ae2:void_card"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6032E9282E0CB1DD"]
+			id: "0E05C8E051268AD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F095A7D43D29A27"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "61FE8958C329CF37"
+				item: "ae2:redstone_card"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6032E9282E0CB1DD"]
+			id: "485A3002F4BD15FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49EE58EC9B22AB9A"
+				table_id: 7376489297141901543L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "21BD15FCB533EC1E"
+				item: "ae2:crafting_card"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["76D43A5CFB25EA8E"]
+			description: [
+				"In dem Abschnitt gehen wir genauer auf Autocrafting ein. Es braucht grundlegend zwei Dinge: "
+				""
+				"&41.&r Einen Prozessor, welcher ein Multiblock darstellt. "
+				"&42.&r Ein Crafting Rezept, welches in deinem System abgerufen werden kann. "
+				" &4a.&r Fertingungsrezepte"
+				" &4b.&r Bereitstellung durch Emitter."
+				" &4c.&r Bereitstellung durch Maschinen."
+			]
+			hide: true
+			id: "1784BD61EB8B6FDC"
+			tasks: [{
+				id: "7DD0E37F862D3EC4"
+				title: "autocrafting"
+				type: "checkmark"
+			}]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47DF718336469399"]
+			description: ["Jedes Craftingrezept braucht eine gewisse Anzahl an Bytes um verarbeitet zu werden. Somit gibt der Fertigungsspeicher an, wie groß dein Craftingrezept sein kann. Außerdem kann der Fertigungsspeicher standartgemäß ein Rezept nach dem anderen abarbeiten. Um paralleles Craften zu gewährleisten. Baue weitere Prozessoreinheiten."]
+			id: "6A2B6704E919F2BB"
+			tasks: [{
+				id: "062537D2E620DB9E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:256k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:64k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:16k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:4k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:1k_crafting_storage"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Fertingungsspeicher"
+			x: 22.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51A5F68FDD62187E"]
+			description: ["Kann in den Multiblock integriert werden, und zeigt das aktuelle Craftingrezept an, welches gerade vom Prozessor verarbeitet wird."]
+			id: "039871909EFF48A3"
+			tasks: [{
+				id: "01C0D4815C058430"
+				item: "ae2:crafting_monitor"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["039871909EFF48A3"]
+			description: [
+				"Der Prozessor hat eine GUI, in dieser kannst Du Festlegen, von wem der Prozessor benutzt werden darf. Vom Spieler, vom System, oder von beiden."
+				"{@pagebreak}"
+				"Sollte dein ME-System voll sein, so bleiben die Ressourcen im Prozessor. "
+				"{@pagebreak}"
+				"Sollte Ein Craftingauftrag nicht beendet werden, da das ME-System den Auftrag nicht als Fertig anerkennt, so musst Du den Auftrag manuell abbrechen. "
+				"{@pagebreak}"
+				"Items müssen effektiv in das ME-System aufgenommen werden, sodass der Prozessor auch einen Fortschritt erkennt. Es reicht nicht aus, die Items mittels Speicherbus abzurufen."
+			]
+			id: "70F69B127FBB0069"
+			tasks: [{
+				id: "3431FF0D1CEAA984"
+				title: "Nice to know"
+				type: "checkmark"
+			}]
+			x: 20.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BE9012B79628576"]
+			description: ["Den Schablonenprovider gibt es ein mal in Flach und als Block. In diesen Block werden die Schablonen gelegt, welche Rezepte beinhalten. Außerdem hat der Schablonenprovider ein Rückgabeinventar. In der GUI auf der Linken Seite kann man außerdem Einstellen, ob Rezepte warten müssen, bis das Zielinventar leer ist, oder ob z.B. die Hauptzutat durch den Provider zurück in das ME gekommen ist. Außerdem kann man diesen auch konfigurieren, sodass dieser auf Redstonesignale hört."]
+			id: "2FE06EF9861456E9"
+			tasks: [
+				{
+					id: "2FD43ACD12E51FF9"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "595F9B01F49AAB7D"
+					item: "ae2:cable_pattern_provider"
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3BE9012B79628576"]
+			description: ["Der Molekularassembler führt die eigentlichen Craftingaufgaben aus. Temporär bekommt die Schablonenkonsole eine Kopie vom Patternprovider und craftet das Rezept durch. Du kannst auch einen Molekularassembler direkt mit einer Schablone bestücken und diesen als Crafter benutzen. Der Molekularassembler kann außerdem mit Beschleunigungkarten ausgerüstet werden, sodass diee Crafting-Geschwindigkeit erhöht wird."]
+			id: "3FDE2CC1A40D72FD"
+			tasks: [{
+				id: "3209DD544E95870B"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1784BD61EB8B6FDC"]
+			description: [
+				"Schablonen kannst Du im Pattern Terminal erstellen. Es gibt 4 Einstellungen, welche Du auswählen kannst."
+				"1. Fertigungsrezepte - mittels Button Craftingtable"
+				"2. Kreierungsrezepte - Button Ofen"
+				"3. Schmiedetischrezepte"
+				"4. Steinsägenrezepte"
+				"{@pagebreak}"
+				"Fertigungsrezepte."
+				"Diese werden  in einen Schablonenprovider gelegt. Dieser muss an einem Molekularassembler angeschlossen sein."
+				""
+				"{@pagebreak}"
+				"Kreierungsrezepte"
+				"Hier muss das Rezept, also die Schablone auch wieder in einen Schablonenprovider gelegt werden. Dieser versucht aktiv die Materialien rauszudrücken. Nun liegt es an dir die Logik zu bauen, wie die Maschine die Items aufnimmt."
+				""
+				"{@pagebreak}"
+				"Schmiede und Steinsägerezepte"
+				"Diese kommen in einen Schablonenprovider. Es müssen sowohl Molekularassembler als auch entweder ein Schmiedetisch oder eine Steinsäge neben dem Schablonenprovide sein."
+			]
+			id: "3BE9012B79628576"
+			tasks: [{
+				id: "3F71D0747D6019CD"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["273F072768D87F2B"]
+			id: "70CC4EC63E49C538"
+			tasks: [{
+				id: "19F18DB98FB120D7"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["273F072768D87F2B"]
+			id: "22D317F1C462DD27"
+			tasks: [{
+				id: "527E56FDF18236FE"
+				item: "ae2:level_emitter"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["273F072768D87F2B"]
+			id: "5AE90AC31CD60938"
+			tasks: [{
+				id: "6F48C4683A9313B5"
+				item: "ae2:export_bus"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1784BD61EB8B6FDC"]
+			description: ["Die Fertigungskarte kann verwendet werden, um automatisiert Craftingprozesse anzustoßen. "]
+			id: "273F072768D87F2B"
+			tasks: [{
+				id: "4ABA5406E16E3ACC"
+				item: "ae2:crafting_card"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+	]
+	title: "Applied Energisitcs 2"
+}

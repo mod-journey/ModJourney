@@ -1,11 +1,666 @@
 {
+	autofocus_id: "7E5BBD28E9BD33E9"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "powah"
 	group: "29AF41F0C879F47B"
+	icon: "powah:crystal_nitro"
 	id: "794E571853408FC4"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["03993D2DCBC69C3A"]
+			hide: true
+			id: "69CA3D774927EF1E"
+			tasks: [{
+				id: "145A870C0B729954"
+				item: "powah:energizing_orb"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["145A870C0B729954"]
+			hide: true
+			id: "5575DAA609A1653F"
+			tasks: [{
+				id: "6E4A0480A2FD0E54"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["145A870C0B729954"]
+			hide: true
+			id: "5A53721FA691E42D"
+			tasks: [{
+				id: "55602CE4076CABEB"
+				item: "ae2:lime_smart_cable"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["145A870C0B729954"]
+			hide: true
+			id: "5B9197AEA594B8FF"
+			tasks: [{
+				id: "4A053B82BBF8A36A"
+				item: "ae2:lime_smart_cable"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["145A870C0B729954"]
+			hide: true
+			id: "264AEBD459722F69"
+			tasks: [{
+				id: "2F45857B2E09755B"
+				item: "ae2:lime_smart_cable"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["145A870C0B729954"]
+			hide: true
+			id: "348D33A33244CCB1"
+			tasks: [{
+				id: "59B644510467E6D8"
+				item: "ae2:import_bus"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["145A870C0B729954"]
+			hide: true
+			id: "05253CB12A987A6F"
+			tasks: [{
+				id: "3B1FE275CE49B155"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["145A870C0B729954"]
+			hide: true
+			id: "594CC0531D8E4D79"
+			tasks: [{
+				id: "089C63A6C7EEF82C"
+				item: "ae2:yellow_smart_cable"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["03993D2DCBC69C3A"]
+			id: "758A2E3DE508726E"
+			tasks: [{
+				count: 5L
+				id: "0693CF784C27FECF"
+				item: "powah:energy_cable_basic"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["145A870C0B729954"]
+			hide: true
+			id: "0665D5AE32BC0269"
+			tasks: [{
+				id: "3814AA0129860B66"
+				item: "ae2:yellow_smart_cable"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"13B7A3863BECAD64"
+				"4E1D47FF582DA376"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Willkommen bei Powah, hier lernst Du die Basics der Mod, was jeder Block macht und vor allem wie man diese Mod spielend leicht automatisiert."]
+			id: "7E5BBD28E9BD33E9"
+			tasks: [{
+				id: "667A2BE5B955BA43"
+				title: "gar nicht über(powah)t"
+				type: "checkmark"
+			}]
+			x: 0.04285714285714448d
+			y: -0.27857142857142847d
+		}
+		{
+			dependencies: ["2496090B13AD140C"]
+			description: ["Ein Item, welches Energie aus Items zieht und in dein aktuelles Netzwerk einspeist. "]
+			id: "0BB0BC7C847CE06A"
+			subtitle: "Entlade alles!"
+			tasks: [{
+				id: "37FEF5AD23A7D270"
+				item: "powah:energy_discharger_starter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2496090B13AD140C"]
+			description: [
+				"Eine Multiblockstruktur, welche 36 Blöcke von diesem benötigt. Sorge dafür das Du eine freie Fläche von 3 x 4 x 4 Blöcken hast setze einen Reaktor Block. und der Rest des Reaktor baut sich automatisch auf. "
+				"Dieser wird standartmäßig mit Uranite betrieben und ist auf eine Kühlung angewiesen."
+				"{@pagebreak}"
+				"Du kannst den Reaktor auch wieder mit Wasser kühlen, um Ressourcen einzusparen. Um mehr Energie zu erzeugen, kannst Du Kohlenstoffhaltiges wie Kohle oder Holz hinzu gegen. Außerdem auch Redstone. Dessweitern kann man auch mit Feste Stoffe zum Kühlen benutzen, welche aber eine Wasserkühlung voraussetzen. "
+				"{@pagebreak}"
+				"Mittels dem Auto Mode, schaltet der Reaktor bei einem vollen internen Energie Speicher automatisch ab. Sollte dieser unter 70% fallen, schaltet sich der Generator automatisch wieder ein."
+			]
+			id: "1840E2C4550564D5"
+			subtitle: "Wie funktioniert der Reaktor?"
+			tasks: [{
+				id: "012FE9916E44930D"
+				item: "powah:reactor_starter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2496090B13AD140C"]
+			description: ["Ein Block, welcher aus Sonnenlicht Energie gewinnt. Wenn Du diesen mit einer Lens of Ender kombinierst, arbeitet die Solarpanele auch durch Blöcke hindurch und ist nicht mehr direkt auf Sonnenlicht angewiesen."]
+			id: "48F3472B18648E82"
+			subtitle: "Die Kraft der Sonne"
+			tasks: [{
+				id: "7782A9D070868419"
+				item: "powah:solar_panel_starter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2496090B13AD140C"]
+			description: [
+				"Verbrenne was Dir lieb ist, um Strom zu erzeugen. "
+				"Nicht sehr Nachhaltig"
+			]
+			id: "181C5275E9678EDC"
+			subtitle: "Verbrenne alles.."
+			tasks: [{
+				id: "32BBAC68FD41F329"
+				item: "powah:furnator_starter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2496090B13AD140C"]
+			description: ["Wandelt Lava in Energie um."]
+			id: "6D8C8F5FCCC086C0"
+			subtitle: "Pumpe den Nether leer."
+			tasks: [{
+				id: "4D60B0B641198D2D"
+				item: "powah:magmator_starter"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2496090B13AD140C"]
+			description: ["Ein Block welcher Energie aus Thermik herstellt. Den Heißen Block unter den Reaktor und den Reaktor aktiv mit Wasser kühlen. "]
+			id: "48A426951585B3E6"
+			subtitle: "Passiv Strom."
+			tasks: [{
+				id: "48E1F29179A8BA0E"
+				item: "powah:thermo_generator_starter"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2DE28895E3897B29"]
+			description: [
+				"Ein Akku, welcher für das Inventar benutzt werden kann um Items aufzuladen, oder um die Kapazität deines, Ender - Wireless Netzwerks zu erhöhen."
+				"{@pagebreak}"
+				"&lEndercell&r"
+				"In der GUI deiner Endercell Shift + Rechtsklick und du erhälst die Kapazität, samt den gespeicherten Strom ein mal addiert dazu. Die I/O Rate bleibt gleich."
+			]
+			id: "5F2DC3215BEC9C68"
+			tasks: [{
+				id: "578729ED52E9C785"
+				item: {
+					Count: 1
+					id: "powah:battery_starter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DE28895E3897B29"]
+			description: ["Ein Block um Flux Energy (FE) zu speichern"]
+			id: "004FACEE5A1D9E61"
+			tasks: [{
+				id: "6E14EC223D839E32"
+				item: "powah:energy_cell_starter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DE28895E3897B29"]
+			description: [
+				"Ein Block, welcher UUID, also Spielergebunden ist. Dieser beinhaltet mehrere Channels, welche genutzt werden können. Dieser Block ist dein Wireless Input. Kann aber auch als Speicher benutzt werden. Die gesamt Speicherkapazität kann erhöht werden, durch Akkus. Die I/O Rate bleibt gleich. Mit den sogenannten Ender Gates, kann man den Strom, welcher in deinem Netzwerk gespeichert ist, Wireless an Maschinen übertragen. "
+				""
+				"{@pagebreak}"
+				"&4&lQuellen:&r"
+				""
+				"{ \"text\": \"Flux Batterie\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5F2DC3215BEC9C68\" } }"
+				""
+				"{ \"text\": \"Ender Gates\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60B7003EF62EB651\" } }"
+			]
+			id: "181561179B55197E"
+			tasks: [{
+				id: "477F2CC306A15CA4"
+				item: "powah:ender_cell_starter"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DE28895E3897B29"]
+			description: ["Kabel. Welche Du seperat in einer GUI mittels Rechtsklick als Eingabe/Ausgabe definieren kannst."]
+			id: "3AE05262BCF6560F"
+			tasks: [{
+				id: "7AC03D76A91346F2"
+				item: "powah:energy_cable_starter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DE28895E3897B29"]
+			description: [
+				"Das sind Wireless Empfänger von deinem Ender Netzwerk. Auch hier kannst du die Channel einstellen. Willst du die ID löschen, so lege den Plug einfach in ein Crafting-Terminal. Damit werden die NBT Daten des Users aus dem Item entfernt."
+				""
+				"&l&4Siehe:&r"
+				""
+				"{ \"text\": \"Ender Cells\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"181561179B55197E\" } }"
+			]
+			id: "60B7003EF62EB651"
+			tasks: [{
+				id: "5E14D1CDB7A67D30"
+				item: "powah:ender_gate_starter"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DE28895E3897B29"]
+			description: ["Um Wireless Strom zu beziehen, kannst Du dieses Item nutzen. Mittels einer Player Card, welche an dich gebunden ist, ist dieser Block dein persönlicher Stromzugangspunkt."]
+			id: "39A2FE8389D8CF87"
+			tasks: [{
+				id: "2C0C73AD09CC6188"
+				item: "powah:player_transmitter_starter"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DE28895E3897B29"]
+			description: ["Ermöglicht das Laden von FE basierten Items in einem Container, Kiste, Storage. "]
+			id: "08377ECC8FA7DD80"
+			tasks: [{
+				id: "485388830735E5AA"
+				item: "powah:energy_hopper_starter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DE28895E3897B29"]
+			description: ["Ein Teil einer Multiblockstruktur. Diese kannst Du nutzen, um deine Orb in Fusing Rezepten mit Strom zu versorgen. Wie man dies mittels Autocrafting hinbekommt, lernst du in der folge Quest."]
+			id: "663D58FDB00228B1"
+			tasks: [{
+				id: "4946A8367B176176"
+				item: "powah:energizing_rod_starter"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7E5BBD28E9BD33E9"]
+			id: "2496090B13AD140C"
+			tasks: [{
+				id: "62F2C4411EA05CAE"
+				title: "Energieproduktion"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2496090B13AD140C"]
+			description: ["Es gibt Funktionsblöcke, welche Energie speichern, verbrauchen oder abgeben"]
+			id: "2DE28895E3897B29"
+			tasks: [{
+				id: "50C71CBAE6E38C8A"
+				title: "Funktionsblöcke"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["03993D2DCBC69C3A"]
+			id: "1FCFB67BE712AB97"
+			tasks: [{
+				id: "766EE6E559391240"
+				item: "powah:energizing_rod_basic"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1FCFB67BE712AB97"]
+			id: "0C9A56AE665B29A7"
+			tasks: [{
+				id: "7ECDC7A818E2660D"
+				item: "powah:energizing_rod_hardened"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0C9A56AE665B29A7"]
+			id: "5E039C48CE24F1FD"
+			tasks: [{
+				id: "2EFAFC71245E6468"
+				item: "powah:energizing_rod_blazing"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5E039C48CE24F1FD"]
+			id: "052F1AB54FECE74C"
+			tasks: [{
+				id: "17AAEAABAB98252C"
+				item: "powah:energizing_rod_niotic"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["052F1AB54FECE74C"]
+			id: "085524FB2AA3BAEF"
+			tasks: [{
+				id: "2EC708F3042794AC"
+				item: "powah:energizing_rod_spirited"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["085524FB2AA3BAEF"]
+			id: "10552CFF145F722D"
+			tasks: [{
+				id: "300F16D66AEA289D"
+				item: "powah:energizing_rod_nitro"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["39A2FE8389D8CF87"]
+			description: [
+				"Um den Player Transmitter zu bauen, benötigst Du eine Player Areal Card. Diese bekommst Du wenn Du mit der Areal Card einen Zombie oder Husk rechtsklickst. Mit dem Ergebnis kannst Du nun weiter craften."
+				""
+				"{image:powah:item/player_aerial_pearl width:30 height:30 align:1}"
+			]
+			id: "399C9B626732C513"
+			subtitle: "Wie kommt der Zombie hier rein?"
+			tasks: [{
+				id: "79C104E82169752F"
+				item: "powah:aerial_pearl"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["39A2FE8389D8CF87"]
+			description: [
+				"Um die (Dimensional) Player Card zu erhalten musst du mit der Player Card entweder einen Enderman oder eine Endermite rechtklicken. "
+				""
+				"Klickst Du ein Enderman mittels Rechtsklick, beschränkt sich dein Ender Netzwerk nur auf eine Dimension. "
+				"Klickst Du hingegen eine Endermite an, funktioniert das Endernetzwerk Interdimensional."
+				""
+				"{image:powah:item/binding_card_dim width:30 height:30 align:1}"
+			]
+			id: "695526C12D5AE2E6"
+			subtitle: "Auf die Enderperle, fertig. los...."
+			tasks: [{
+				id: "5C00342F490A218C"
+				item: "powah:binding_card"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"10552CFF145F722D"
+				"085524FB2AA3BAEF"
+			]
+			dependency_requirement: "one_completed"
+			id: "08BDD4ADC8DDB9C2"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "611F306A250EA20E"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			x: -5.24285714285714d
+			y: 12.489285714285714d
+		}
+		{
+			dependencies: ["052F1AB54FECE74C"]
+			id: "28467BD83047B107"
+			tasks: [{
+				id: "59F4FF0EA6036BAF"
+				item: "powah:crystal_spirited"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5E039C48CE24F1FD"]
+			id: "4E85CB4C5C6BF88E"
+			tasks: [{
+				id: "550008E319723D5D"
+				item: "powah:crystal_niotic"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0C9A56AE665B29A7"]
+			id: "7885A68DC52188F3"
+			tasks: [{
+				id: "54F405423421A525"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1FCFB67BE712AB97"]
+			id: "0E287F74847CB367"
+			tasks: [{
+				id: "0589C8044AC283E8"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7885A68DC52188F3"]
+			description: [
+				"Ein Guter Moderator für den "
+				"{ \"text\": \"Thermo Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"48A426951585B3E6\" } }"
+			]
+			id: "3253AC6BB40CD3AD"
+			tasks: [{
+				id: "317A6719917A432C"
+				item: "powah:blazing_crystal_block"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2DE28895E3897B29"]
+			description: [
+				"Hier gezeigt, ist das Starter-Set. Es gibt noch weitere Stufen, die mehr Energie erzeugen und mehr Energie brauchen. Gebe im JEI einfach @powah ein und Du wirst fündig. "
+				"Die Mod unterteilt sich in folgende Klassen: "
+				"1. Starter"
+				"2. Basic"
+				"3. Hardend"
+				"4. Blazing"
+				"5. Niotic"
+				"6. Spirited"
+				"7. Nitro"
+			]
+			id: "14FBB805C032D907"
+			tasks: [{
+				id: "5EF66C8DDB6EC1D6"
+				title: "und noch mehr"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"13B7A3863BECAD64"
+				"4E1D47FF582DA376"
+			]
+			id: "012414144A7C0228"
+			tasks: [{
+				id: "6FCBFBDD2BEBBDF0"
+				item: "powah:dielectric_paste"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["012414144A7C0228"]
+			id: "5749EC872D93D38E"
+			tasks: [{
+				id: "44F1FBB1AEB926F0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:dielectric_rod_horizontal"
+							}
+							{
+								Count: 1b
+								id: "powah:dielectric_rod"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Dielectric Rods"
+			x: 0.0d
+			y: -1.7714285714285758d
+		}
+		{
+			dependencies: ["488F73A73A492F5A"]
+			hide: true
+			hide_dependency_lines: true
+			id: "4E1D47FF582DA376"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "3E8E75F1EF1000F5"
+				item: "powah:dielectric_casing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.8000000000000007d
+		}
+		{
+			dependencies: ["488F73A73A492F5A"]
+			hide: true
+			id: "13B7A3863BECAD64"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "5A7EC113D64214B2"
+				item: "powah:capacitor_basic"
+				type: "item"
+			}]
+			x: 0.9714285714285751d
+			y: -0.8285714285714256d
+		}
+		{
+			dependencies: ["14FBB805C032D907"]
+			description: ["Ein Teil einer Multiblockstruktur. Diese kannst Du nutzen, um deine Orb in Fusing Rezepten mit Strom zu versorgen. Wie man dies mittels Autocrafting hinbekommt, lernst du in der folge Quest."]
+			disable_toast: true
+			id: "03993D2DCBC69C3A"
+			tasks: [{
+				count: 4L
+				id: "53B18E5BAB3E03CC"
+				item: "powah:energizing_rod_starter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+	]
 	title: "powah"
 }

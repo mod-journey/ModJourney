@@ -24,7 +24,7 @@
 				icon: "botania:pink_shiny_flower"
 				id: "7203F46653E6A739"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "botania:mystical_flowers"
@@ -131,7 +131,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "botania:twig_wand"
 					tag: {
 						bindMode: 1b
@@ -141,7 +141,7 @@
 				}
 				id: "20C49CC4A0A68378"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -225,7 +225,7 @@
 				count: 4L
 				id: "63216B748B7BF887"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:mana_tablet"
 					tag: {
 						mana: 500000
@@ -348,7 +348,7 @@
 				icon: "botania:mana_diamond"
 				id: "6DC12E68337B18EB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
