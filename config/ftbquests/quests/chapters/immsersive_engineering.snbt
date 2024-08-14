@@ -6,39 +6,17 @@
 	id: "486D38DC43A626CE"
 	order_index: 0
 	quest_links: [ ]
-	quests: [
-		{
-			dependencies: ["389EF225ABFDC83F"]
-			id: "7DC64335DF20BD93"
-			tasks: [{
-				id: "59A70CC7D3087473"
-				item: "immersiveengineering:circuit_board"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 4.5d
-		}
-		{
-			id: "10548EF32418E00B"
-			tasks: [{
-				id: "5D08DCEE24C04175"
-				item: "immersiveengineering:coal_coke"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["10548EF32418E00B"]
-			id: "389EF225ABFDC83F"
-			tasks: [{
-				id: "2E5EEDF90B67F70D"
-				item: "alltheores:steel_ingot"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 1.0d
-		}
-	]
+	quests: [{
+		id: "7DC64335DF20BD93"
+		shape: "gear"
+		size: 1.5d
+		tasks: [{
+			id: "59A70CC7D3087473"
+			item: "immersiveengineering:circuit_board"
+			type: "item"
+		}]
+		x: 2.25d
+		y: 9.0d
+	}]
 	title: "Immsersive Engineering"
 }

@@ -6,6 +6,16 @@
 	id: "488F73A73A492F5A"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "0A07C47718CD1F80"
+		shape: "gear"
+		tasks: [{
+			id: "298FF4BD216DF363"
+			item: "ad_astra:glacio_stone"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 2.5d
+	}]
 	title: "ad Astra"
 }
