@@ -171,6 +171,25 @@ JEIEvents.hideItems(event => {
         )
     });
 
+    //remove all cataclysm Boss Items from JEI. Problem: Any broken spawner and vial jar also also included.
+    const cataclysm_boss_mobs = [
+        "cataclysm:the_harbinger",
+        "cataclysm:the_leviathan",
+        "cataclysm:amethyst_crab",
+        "cataclysm:ancient_remnant",
+        "cataclysm:modern_remnant",
+        "cataclysm:ignis",
+        "cataclysm:ender_guardian",
+        "cataclysm:netherite_monstrosity",
+        "cataclysm:ender_golem"
+    ]
+
+    cataclysm_boss_mobs.forEach(element => {
+        event.hide(Item.of('enderio:filled_soul_vial', '{BlockEntityTag:{EntityStorage:{Entity:{id:' + element + '}}}}'))
+        event.hide(Item.of('enderio:broken_spawner', '{BlockEntityTag:{EntityStorage:{Entity:{id:' + element + '}}}}'))
+        event.hide( element + '_spawn_egg' )
+    });
+
 
     //alltheores - Other Ores werden removed
     const other_oreToRemove = [
@@ -197,9 +216,10 @@ JEIEvents.hideItems(event => {
 
     other_oreToRemove.forEach((atm_ore) => {
         event.hide(`alltheores:other_${ atm_ore }_ore`)
-        event.hide(Item.of('ae2:facade', '{item:"alltheores:other_' + atm_ore + '_ore"}'
-        ))
+        event.hide(Item.of('ae2:facade', '{item:"alltheores:other_' + atm_ore + '_ore"}'))
     })
 
     event.hide(Item.of('mekanism:creative_chemical_tank'))
+
+
 })

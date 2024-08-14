@@ -3,6 +3,36 @@
 		name: "Member"
 		power: 1
 		condition: "always_active"
+		command.home: false
+		command.spawnpoint: false
+		command.tpa: false
+		command.tpahere: false
+	}
+	# this rank is given after the first week
+	weekling: {
+		name: "Weekling"
+		power: 2
+		command.spawn: true
+	}
+	# this rank is given after the second week
+	double-weekling: {
+		name: "Double Weekling"
+		power: 3
+		command.back: true
+		command.home: true
+		command.tpa: true
+		command.tpahere: true
+		ftbchunks.max_claimed: 75
+	}
+	# this rank is given after the third week
+	triple-weekling: {
+		name: "Trible Weekling"
+		power: 3
+	}
+	monthling: {
+		name: "Monthling"
+		power: 4
+		ftbchunks.max_claimed: 100
 	}
 	vip: {
 		name: "VIP"
@@ -12,7 +42,13 @@
 	admin: {
 		name: "Admin"
 		power: 1000
-		condition: "op"
+		#condition: "op"
+		condition: "creative_mode"
 		ftbranks.name_format: "&2{name}"
+		command.back: true
+		command.home: true
+		command.spawn: true
+		command.tpa: true
+		command.tpahere: true
 	}
 }

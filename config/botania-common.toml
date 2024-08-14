@@ -1,20 +1,15 @@
 #Set this to false to disable the animation when an item is charging on top of a mana pool
 chargeAnimation = true
 #Turn this off ONLY IF you're on an extremely large world with an exaggerated count of Mana Spreaders/Mana Pools and are experiencing TPS lag. This toggles whether flowers are strict with their checking for connecting to pools/spreaders or just check whenever possible.
-flowerBindingForceCheck = true
+flowerBindingForceCheck = false
 #Set to false to disable the ability for the Hand of Ender to pickpocket other players' ender chests
-enderPickpocket = true
+enderPickpocket = false
 #Set this to false to disable the Mana Enchanter. Since some people find it OP or something. This only disables the entry and creation. Old ones that are already in the world will stay.
 manaEnchanter = true
 #Set this to false to disable the Relic System. This only disables the entries, drops and achievements. Old ones that are already in the world will stay.
 relics = true
 #Set this to true to invert the Ring of Magnetization's controls (from shift to stop to shift to work)
 invertMagnetRing = false
-#List of modids to prioritize when choosing a random ore from the tag.
-#By default, the chosen ore is randomly picked from all ores in the ore's tag.
-#Ores from mods present on this list will be picked over mods listed lower or not listed at all.
-#Applying changes at runtime requires /reload afterwards.
-orechidPriorityMods = []
 
 [blockBreakingParticles]
 	#Set this to false to remove the block breaking particles from the flowers and other items in the mod.

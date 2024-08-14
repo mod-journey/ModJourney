@@ -1,15 +1,15 @@
 ServerEvents.recipes(event => {
-    event.forEachRecipe({ type: 'immersiveengineering:mineral_mix' }, r => { 
+    event.forEachRecipe({ type: 'immersiveengineering:mineral_mix' }, r => {
         let json = r.json;
         let dim = r.json.get("dimensions")
         //console.log(Object.keys(r))                                  // Liefert Informationen bezüglich der IDs in den Logs
-        dim['add(com.google.gson.JsonElement)']("minecraft:dimension") //https://discord.com/channels/303440391124942858/1127448911871737936/1127667372023631872
+        dim['add(com.google.gson.JsonElement)']("farming:dim") //https://discord.com/channels/303440391124942858/1127448911871737936/1127667372023631872
         //console.log(dim)
         //console.log(r.getId())
         event.custom(
             r.json
         ).id(r.getId())
-    }); 
+    });
 });
 
 /* Hier werden die Rezepte aus der initalisierung für den Excavator abgegriffen. und der
