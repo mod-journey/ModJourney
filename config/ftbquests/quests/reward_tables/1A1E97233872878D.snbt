@@ -15,7 +15,7 @@
 		{ item: "botania:livingrock" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "botania:mana_tablet"
 				tag: {
 					mana: 500000
@@ -24,7 +24,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "botania:mana_ring_greater"
 				tag: {
 					mana: 2000000

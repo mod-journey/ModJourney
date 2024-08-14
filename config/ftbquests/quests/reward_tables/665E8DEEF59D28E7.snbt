@@ -1,0 +1,37 @@
+{
+	empty_weight: 10.0f
+	icon: "ae2:crafting_accelerator"
+	id: "665E8DEEF59D28E7"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ item: "ae2:logic_processor" }
+		{ item: "ae2:calculation_processor" }
+		{ item: "ae2:engineering_processor" }
+		{ item: "ae2:fluix_smart_cable" }
+		{ item: "ae2:matter_ball" }
+		{ item: "ae2:silicon" }
+		{ item: "ae2:certus_quartz_dust" }
+		{ item: "ae2:charged_certus_quartz_crystal" }
+		{ item: "ae2:certus_quartz_crystal" }
+		{ item: "ae2:nether_quartz_wrench" }
+		{ item: "ae2:sky_stone_block" }
+		{ item: "ae2:crafting_unit" }
+		{ item: "ae2:sky_dust" }
+		{ item: "ae2:fluix_glass_cable" }
+		{ item: "ae2:quartz_fiber" }
+		{ item: "ae2:flawless_budding_quartz" }
+		{ item: "ae2:advanced_card" }
+		{ item: "ae2:basic_card" }
+		{ item: "ae2:cell_component_1k" }
+		{ item: "ae2:cell_component_4k" }
+		{ item: "ae2:singularity" }
+		{ item: "ae2:fluid_cell_housing" }
+		{ item: "ae2:item_cell_housing" }
+		{ item: "ae2:logic_processor_press" }
+		{ item: "ae2:engineering_processor_press" }
+		{ item: "ae2:calculation_processor_press" }
+		{ item: "ae2:silicon_press" }
+	]
+	title: "Applied"
+}

@@ -1,0 +1,11 @@
+{
+	icon: "minecraft:netherite_block"
+	id: "0C5E1025AB548FEE"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "kubejs:quest_1" }
+		{ item: "kubejs:quest_2" }
+	]
+	title: "Nether"
+}

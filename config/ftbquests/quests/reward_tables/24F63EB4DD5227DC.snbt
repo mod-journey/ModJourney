@@ -1,0 +1,37 @@
+{
+	icon: "mysticalagriculture:tertium_essence"
+	id: "24F63EB4DD5227DC"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "mysticalagriculture:iron_seeds" }
+		{ item: "mysticalagriculture:copper_seeds" }
+		{ item: "mysticalagriculture:nether_quartz_seeds" }
+		{ item: "mysticalagriculture:glowstone_seeds" }
+		{ item: "mysticalagriculture:redstone_seeds" }
+		{ item: "mysticalagriculture:obsidian_seeds" }
+		{ item: "mysticalagriculture:prismarine_seeds" }
+		{ item: "mysticalagriculture:zombie_seeds" }
+		{ item: "mysticalagriculture:skeleton_seeds" }
+		{ item: "mysticalagriculture:creeper_seeds" }
+		{ item: "mysticalagriculture:spider_seeds" }
+		{ item: "mysticalagriculture:rabbit_seeds" }
+		{ item: "mysticalagriculture:tin_seeds" }
+		{ item: "mysticalagriculture:bronze_seeds" }
+		{ item: "mysticalagriculture:zinc_seeds" }
+		{ item: "mysticalagriculture:brass_seeds" }
+		{ item: "mysticalagriculture:silver_seeds" }
+		{ item: "mysticalagriculture:lead_seeds" }
+		{ item: "mysticalagriculture:graphite_seeds" }
+		{ item: "mysticalagriculture:blizz_seeds" }
+		{ item: "mysticalagriculture:blitz_seeds" }
+		{ item: "mysticalagriculture:basalz_seeds" }
+		{ item: "mysticalagriculture:copper_alloy_seeds" }
+		{ item: "mysticalagriculture:redstone_alloy_seeds" }
+		{ item: "mysticalagriculture:conductive_alloy_seeds" }
+		{ item: "mysticalagriculture:manasteel_seeds" }
+		{ item: "mysticalagriculture:sky_stone_seeds" }
+		{ item: "mysticalagriculture:certus_quartz_seeds" }
+	]
+	title: "Tier3"
+}

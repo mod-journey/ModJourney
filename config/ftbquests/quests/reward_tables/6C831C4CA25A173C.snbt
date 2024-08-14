@@ -1,0 +1,12 @@
+{
+	icon: "minecraft:chest"
+	id: "6C831C4CA25A173C"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ item: "botania:cyan_petal" }
+		{ item: "botania:blue_petal" }
+		{ item: "botania:yellow_petal" }
+	]
+	title: "Test"
+}

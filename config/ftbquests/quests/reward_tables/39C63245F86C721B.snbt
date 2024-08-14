@@ -1,0 +1,45 @@
+{
+	icon: "mysticalagriculture:imperium_essence"
+	id: "39C63245F86C721B"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "mysticalagriculture:gold_seeds" }
+		{ item: "mysticalagriculture:lapis_lazuli_seeds" }
+		{ item: "mysticalagriculture:end_seeds" }
+		{ item: "mysticalagriculture:experience_seeds" }
+		{ item: "mysticalagriculture:blaze_seeds" }
+		{ item: "mysticalagriculture:ghast_seeds" }
+		{ item: "mysticalagriculture:enderman_seeds" }
+		{ item: "mysticalagriculture:steel_seeds" }
+		{ item: "mysticalagriculture:nickel_seeds" }
+		{ item: "mysticalagriculture:constantan_seeds" }
+		{ item: "mysticalagriculture:electrum_seeds" }
+		{ item: "mysticalagriculture:invar_seeds" }
+		{ item: "mysticalagriculture:mithril_seeds" }
+		{ item: "mysticalagriculture:tungsten_seeds" }
+		{ item: "mysticalagriculture:titanium_seeds" }
+		{ item: "mysticalagriculture:uranium_seeds" }
+		{ item: "mysticalagriculture:chrome_seeds" }
+		{ item: "mysticalagriculture:ruby_seeds" }
+		{ item: "mysticalagriculture:sapphire_seeds" }
+		{ item: "mysticalagriculture:peridot_seeds" }
+		{ item: "mysticalagriculture:soulium_seeds" }
+		{ item: "mysticalagriculture:signalum_seeds" }
+		{ item: "mysticalagriculture:lumium_seeds" }
+		{ item: "mysticalagriculture:hop_graphite_seeds" }
+		{ item: "mysticalagriculture:soularium_seeds" }
+		{ item: "mysticalagriculture:dark_steel_seeds" }
+		{ item: "mysticalagriculture:pulsating_alloy_seeds" }
+		{ item: "mysticalagriculture:energetic_alloy_seeds" }
+		{ item: "mysticalagriculture:elementium_seeds" }
+		{ item: "mysticalagriculture:osmium_seeds" }
+		{ item: "mysticalagriculture:fluorite_seeds" }
+		{ item: "mysticalagriculture:refined_glowstone_seeds" }
+		{ item: "mysticalagriculture:refined_obsidian_seeds" }
+		{ item: "mysticalagriculture:fluix_seeds" }
+		{ item: "mysticalagriculture:energized_steel_seeds" }
+		{ item: "mysticalagriculture:blazing_crystal_seeds" }
+	]
+	title: "Tier4"
+}

@@ -1,0 +1,32 @@
+{
+	icon: "mysticalagriculture:prudentium_essence"
+	id: "67D5535CC0B3DD64"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "mysticalagriculture:chicken_seeds" }
+		{ item: "mysticalagriculture:nature_seeds" }
+		{ item: "mysticalagriculture:dye_seeds" }
+		{ item: "mysticalagriculture:nether_seeds" }
+		{ item: "mysticalagriculture:coal_seeds" }
+		{ item: "mysticalagriculture:coral_seeds" }
+		{ item: "mysticalagriculture:honey_seeds" }
+		{ item: "mysticalagriculture:amethyst_seeds" }
+		{ item: "mysticalagriculture:pig_seeds" }
+		{ item: "mysticalagriculture:sulfur_seeds" }
+		{ item: "mysticalagriculture:silicon_seeds" }
+		{ item: "mysticalagriculture:rubber_seeds" }
+		{ item: "mysticalagriculture:turtle_seeds" }
+		{ item: "mysticalagriculture:slime_seeds" }
+		{ item: "mysticalagriculture:fish_seeds" }
+		{ item: "mysticalagriculture:squid_seeds" }
+		{ item: "mysticalagriculture:sheep_seeds" }
+		{ item: "mysticalagriculture:cow_seeds" }
+		{ item: "mysticalagriculture:aluminum_seeds" }
+		{ item: "mysticalagriculture:apatite_seeds" }
+		{ item: "mysticalagriculture:grains_of_infinity_seeds" }
+		{ item: "mysticalagriculture:mystical_flower_seeds" }
+		{ item: "mysticalagriculture:saltpeter_seeds" }
+	]
+	title: "Tier2"
+}

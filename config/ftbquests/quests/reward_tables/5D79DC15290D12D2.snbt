@@ -14,7 +14,7 @@
 		{ item: "botania:elementium_ingot" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "botania:mana_tablet"
 				tag: {
 					mana: 500000

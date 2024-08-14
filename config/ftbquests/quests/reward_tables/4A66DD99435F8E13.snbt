@@ -1,0 +1,15 @@
+{
+	icon: "mysticalagriculture:inferium_essence"
+	id: "4A66DD99435F8E13"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "mysticalagriculture:deepslate_seeds" }
+		{ item: "mysticalagriculture:inferium_seeds" }
+		{ item: "mysticalagriculture:stone_seeds" }
+		{ item: "mysticalagriculture:dirt_seeds" }
+		{ item: "mysticalagriculture:wood_seeds" }
+		{ item: "mysticalagriculture:ice_seeds" }
+	]
+	title: "Tier1"
+}
