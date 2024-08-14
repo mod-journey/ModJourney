@@ -3,19 +3,19 @@
 	default_quest_shape: ""
 	filename: "industrial_forgoing"
 	group: "4B1BD2A866D0526F"
+	icon: "minecraft:birch_log"
 	id: "755B9005FE1A4302"
 	order_index: 0
 	quest_links: [ ]
 	quests: [{
-		dependencies: ["7DC64335DF20BD93"]
-		id: "478BBE183CD3DD6D"
+		id: "55DC368F1E3A12A9"
 		tasks: [{
-			id: "7D1241BFC5DFBEF3"
-			item: "thermal:rf_coil"
-			type: "item"
+			id: "4B3C3A33F7CA71DE"
+			title: "Radon"
+			type: "custom"
 		}]
 		x: 2.5d
-		y: -2.0d
+		y: -6.0d
 	}]
 	title: "Industrial Foregoing"
 }

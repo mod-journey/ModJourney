@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "extreme_reactors"
 	group: "29AF41F0C879F47B"
+	icon: "minecraft:cherry_log"
 	id: "5F4F40A7D501FDEE"
 	order_index: 0
 	quest_links: [ ]
