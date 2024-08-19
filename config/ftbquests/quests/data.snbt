@@ -17,6 +17,6 @@
 	}
 	pause_game: false
 	progression_mode: "flexible"
-	title: "Minecraft Modded V.1-dev"
+	title: "Minecraft Mod Journey"
 	version: 13
 }
