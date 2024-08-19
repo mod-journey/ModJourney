@@ -1,0 +1,12 @@
+{
+	icon: "industrialforegoing:laser_drill"
+	id: "247187814ADF8B4E"
+	loot_size: 2
+	order_index: 12
+	rewards: [
+		{ count: 2, item: "enderio:dark_steel_ingot", random_bonus: 2, weight: 2.0f }
+		{ count: 2, item: "enderio:dark_steel_nugget", random_bonus: 18, weight: 10.0f }
+		{ item: "enderio:dark_bimetal_gear" }
+	]
+	title: "Ore Laser Supply"
+}

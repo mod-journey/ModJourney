@@ -1,0 +1,8 @@
+{
+	icon: "industrialforegoing:laser_drill"
+	id: "22AD71CAA19374E6"
+	loot_size: 1
+	order_index: 13
+	rewards: [{ count: 4, icon: "industrialforegoing:laser_drill", item: "industrialforegoing:laser_drill", random_bonus: 8 }]
+	title: "Ore Laser Drill"
+}
