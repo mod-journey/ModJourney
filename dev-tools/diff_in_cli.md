@@ -1,0 +1,1 @@
+#diff -u --suppress-common-lines <(sort modlist_old.html) <(sort modlist.html) > vergleich.txt

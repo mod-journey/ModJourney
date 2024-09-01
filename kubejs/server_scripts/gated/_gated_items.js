@@ -18,6 +18,8 @@ const stages = {
     },
     stage2 : {
         core: 'ad_astra:glacio_stone',
+        // indirect gated via darksteel and ender io allow smelting
+        gear: 'enderio:dark_bimetal_gear',
         second: '',
         endgame: '',
         magic: {

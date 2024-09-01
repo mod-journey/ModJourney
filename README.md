@@ -2,7 +2,7 @@
 
 <!-- TODO Discord Link mit Dylan abstimmen / Server-ID erfragen -->
 [![Minecraft Version](https://img.shields.io/badge/For%20Minecraft-1.20.1-yellow.svg?style=flat)](#introduction)
-[![Discord](https://img.shields.io/discord/691927762755387402?style=flat&logo=discord&label=Discord&color=7289DA)](https://discord.gg/Xuu4Wn3ay2)
+[![Discord](https://img.shields.io/discord/807398168139530271?style=flat&logo=discord&label=Discord&color=7289DA)](https://discord.gg/Xuu4Wn3ay2)
 [![CurseForge Downloads](https://img.shields.io/curseforge/dt/1067408?style=flat&logo=curseforge&color=e04e14
 )](https://www.curseforge.com/minecraft/modpacks/mod-journey)
 

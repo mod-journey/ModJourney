@@ -1,6 +1,6 @@
 // priority: 0
 
-/* 
+/*
   Das Abbauen des Schaufelradbaggers wird primär, nach Priorität in der Hauptkonfiguration festgelegt. Hier ist die
   Priorität auf "alltheores,minecraft"
   Somit werden nur noch Erze aus diesen beiden Oberklassen gemint.
@@ -10,21 +10,29 @@
 
 ServerEvents.tags('item', event => {
   let other_oreToUntag = [
-  'aluminum', 
-  'lead', 
-  'nickel', 
-  'osmium', 
-  'platinum', 
-  'silver', 
-  'tin', 
-  'uranium', 
-  'zinc', 
-  'iridium'
+  'aluminum',
+  'lead',
+  'nickel',
+  'osmium',
+  'platinum',
+  'silver',
+  'tin',
+  'uranium',
+  'zinc',
+  'iridium',
+  'emerald',
+  'gold',
+  'copper',
+  'redstone',
+  'iron',
+  'coal'
+
+
   ]
 
   other_oreToUntag.forEach((other) => {
       event.removeAllTagsFrom(`alltheores:other_${other}_ore`)
-      event.add(`remove:other_${other}`, `alltheores:other_${other}_ore`) 
+      event.add(`remove:items`, `alltheores:other_${other}_ore`)
   })
 
 })

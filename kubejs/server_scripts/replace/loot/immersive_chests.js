@@ -2,7 +2,7 @@
 LootJS.modifiers((event) => {
     const chestBanList = [
         'immersiveengineering:nugget_nickel',
-        'minecraft:iron_ingot',
+        //'minecraft:iron_ingot',
         'immersiveengineering:stick_treated',
         'immersiveengineering:ingot_aluminum',
         'immersiveengineering:stick_aluminum',
@@ -14,13 +14,13 @@ LootJS.modifiers((event) => {
         'immersiveengineering:component_iron',
         'immersiveengineering:stick_steel',
         'immersiveengineering:nugget_silver',
-        'minecraft:copper_ingot'
+        //'minecraft:copper_ingot'
     ]
 
 
     event
       .addLootTypeModifier([LootType.CHEST, LootType.UNKNOWN])
-      .anyDimension("minecraft:overworld")
+      //.anyDimension("mod_journey:farmworld")
       .removeLoot(Ingredient.of(chestBanList))
       .addAlternativesLoot(
         LootEntry.of("minecraft:apple").when((c) => c.randomChance(0.8)),

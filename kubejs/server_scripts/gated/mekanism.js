@@ -1,14 +1,29 @@
 //priority 0
 
-console.log(' ^dndern der Gated Mekanism Items')
 
 ServerEvents.recipes(event => {
+    let mekanismCoreItem = 'mekanism:steel_casing';
 
     // Void Chassis
     event.replaceInput(
-        { id: 'mekanism:steel_casing' },         // Filterung nach Rezept-ID.
-        'alltheores:osmium_ingot',            // Das Item, was ersetzt werden soll.
-        stages.stage3.core                 // Womit wird das Item ersetzt!
+        { id: mekanismCoreItem },
+        'alltheores:osmium_ingot',
+        stages.stage3.core
+    )
+
+    event.replaceInput([
+            { id: 'mekanism:metallurgic_infuser' },
+            { id: 'mekanismgenerators:generator/heat' }
+        ],
+        'minecraft:furnace',
+        mekanismCoreItem
+    )
+
+    // Replace redstone on bottom/middle
+    replacer.replaceInputByPosition(
+        { id: 'mekanism:electrolytic_separator' },
+        1,2,
+        { 'item': mekanismCoreItem }
     )
 
 })

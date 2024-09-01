@@ -24,11 +24,15 @@ ServerEvents.recipes(event => {
 
     // 'sophisticatedbackpacks:everlasting_upgrade'
 
+    /*
     // Potential endgame item - Singularity was not working
     event.replaceInput(
         'sophisticatedbackpacks:inception_upgrade',
         // 'minecraft:diamond', Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:diamond"}')
         'minecraft:diamond', 'extendedcrafting:crystaltine_ingot'
     );
+     */
+
+    event.remove({id: 'sophisticatedbackpacks:inception_upgrade'});
 
 })

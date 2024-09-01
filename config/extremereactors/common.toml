@@ -20,23 +20,23 @@
 		#Lower this if your server's players are building ginormous Reactors.
 		#Bigger Y sizes have far less performance impact than X/Z sizes.
 		#Range: 3 ~ 256
-		maxReactorHeight = 48
+		maxReactorHeight = 16
 		#The maximum valid size of a Reactor in the X/Z plane, in blocks.
 		#Lower this if your server's players are building ginormous Reactors.
 		#Range: 3 ~ 256
-		maxReactorSize = 32
+		maxReactorSize = 16
 		#A multiplier for balancing Reactor power production. Stacks with powerProductionMultiplier.
 		#Range: 0.5 ~ 100.0
-		reactorPowerProductionMultiplier = 1.0
+		reactorPowerProductionMultiplier = 2.0
 
 	#Define how Turbines works
 	[common.turbine]
 		#The maximum valid height of a Turbine (Y axis), in blocks.
 		#Range: 5 ~ 256
-		maxTurbineHeight = 32
+		maxTurbineHeight = 16
 		#The maximum valid size of a Turbine in the X/Z plane, in blocks.
 		#Range: 5 ~ 256
-		maxTurbineSize = 32
+		maxTurbineSize = 16
 		#A multiplier for balancing rotor sizes.
 		#Multiplies the amount of energy lost to aerodynamic drag per tick.
 		#Range: 0.5 ~ 10.0
@@ -57,7 +57,7 @@
 		#A multiplier for balancing turbine power production.
 		#Stacks with powerProductionMultiplier.
 		#Range: 0.5 ~ 10.0
-		turbinePowerProductionMultiplier = 1.0
+		turbinePowerProductionMultiplier = 2.0
 
 	#Define how Fluidizer works
 	[common.fluidizer]
@@ -78,7 +78,7 @@
 		#If false, disables all world gen from Extreme Reactors;
 		#all other worldgen settings are automatically ignored.
 		enableWorldGen = true
-		#Re-run world gen in chunks that have already been generated (once they have been loaded), 
+		#Re-run world gen in chunks that have already been generated (once they have been loaded),
 		#but have not been modified by Extreme Reactors before.
 		enableWorldRegeneration = false
 		#User-set world generation version.
@@ -118,9 +118,9 @@
 		#The maximum valid size of a Energizer in the Y dimension, in blocks.
 		#Lower this if your server's players are building ginormous Energizer.
 		#Range: 3 ~ 32
-		maxEnergizerHeight = 32
+		maxEnergizerHeight = 16
 		#The maximum valid size of a Energizer in the X/Z plane, in blocks.
 		#Lower this if your server's players are building ginormous Energizer.
 		#Range: 3 ~ 32
-		maxEnergizerSize = 32
+		maxEnergizerSize = 16
 

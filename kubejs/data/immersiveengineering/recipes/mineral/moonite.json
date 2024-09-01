@@ -1,0 +1,49 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "dimensions": [
+    "ad_astra:moon"
+  ],
+  "fail_chance": 0.2,
+  "ores": [
+    {
+      "chance": 0.3,
+      "output": {
+        "item": "ad_astra:moon_iron_ore"
+      }
+    },
+    {
+      "chance": 0.7,
+      "output": {
+        "item": "ad_astra:moon_cheese_ore"
+      }
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "item": "ad_astra:moon_desh_ore"
+      }
+    }
+
+  ],
+  "spoils": [
+    {
+      "chance": 0.2,
+      "output": {
+        "item": "ad_astra:moon_ice_shard_ore"
+      }
+    },
+    {
+      "chance": 0.5,
+      "output": {
+        "item": "ad_astra:moon_stone"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "item": "ad_astra:moon_sand"
+      }
+    }
+  ],
+  "weight": 15
+}

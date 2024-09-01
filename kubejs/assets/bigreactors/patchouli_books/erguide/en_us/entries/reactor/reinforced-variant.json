@@ -1,0 +1,17 @@
+{
+    "name": "Reinforced",
+    "icon": "bigreactors:reinforced_reactorcasing",
+    "category": "bigreactors:reactor-variants",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "text",
+            "text": "You can build the reinforced-variants bigger, to store and produce morge energy.$(br2)In our Modpack Mod Journey, we've capped the size of Reactors to 16 for all size."
+        },
+        {
+            "type": "text",
+            "text": "Reinforced Reactors pay they superior structural integrity by being a bit more expensive to craft and not as efficient as the other variants but nothing that their superior generation capacity can't overcome."
+        }
+    ]
+}

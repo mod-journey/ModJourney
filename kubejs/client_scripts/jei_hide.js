@@ -56,6 +56,17 @@ JEIEvents.hideItems(event => {
     event.hide('botania:laputa_shard')
 
 
+    let mekanism_hide = [
+        'mekanismadditions:walkie_talkie',
+        'mekanism:upgrade_anchor',
+        'mekanismadditions:obsidian_tnt',
+        'mekanism:dimensional_stabilizer'
+    ]
+    mekanism_hide.forEach((itemName) => {
+        event.hide(itemName)
+    })
+
+
     // Mystical Agriculture
     let mystical_hide = [
         'mysticalagriculture:harvester',
@@ -190,6 +201,76 @@ JEIEvents.hideItems(event => {
         event.hide( element + '_spawn_egg' )
     });
 
+    //removen der Concrete Botany Pots
+    let dyes = [
+        'white',
+        'orange',
+        'magenta',
+        'light_blue',
+        'yellow',
+        'lime',
+        'pink',
+        'gray',
+        'light_gray',
+        'cyan',
+        'purple',
+        'blue',
+        'brown',
+        'green',
+        'red',
+        'black'
+    ]
+
+    dyes.forEach(colour => {
+        event.hide(Item.of(`botanypots:${colour}_concrete_hopper_botany_pot`))
+        event.hide(Item.of(`botanypots:${colour}_concrete_botany_pot`))
+    });
+
+
+    let extreme_remove = [
+        //kreativgedöns
+        'bigreactors:basic_turbinecreativesteamgenerator',
+        'bigreactors:reinforced_turbinecreativesteamgenerator',
+        'bigreactors:reinforced_reactorcreativewatergenerator',
+        //für cc
+        'bigreactors:reinforced_turbinecomputerport',
+        'bigreactors:reinforced_reactorcomputerport',
+
+        //battery zu OP pro Modul 680T FE
+        'bigreactors:energizerpowerport_fe',
+        'bigreactors:energizerstatus',
+        'bigreactors:energizercomputerport',
+        'bigreactors:energizercell',
+        'bigreactors:energizercasing',
+        'bigreactors:energizercontroller',
+        'bigreactors:energycore',
+        'bigreactors:energizerchargingport_fe'
+    ]
+
+    extreme_remove.forEach(element => {
+        event.hide(Item.of(element))
+    });
+
+
+    //remove Ars Items from JEI
+   let ars_remove = [
+        'ars_nouveau:ritual_moonfall',
+        'ars_nouveau:ritual_cloudshaping',
+        'ars_nouveau:ritual_sunrise',
+        'ars_nouveau:ritual_conjure_island_plains',
+        'ars_nouveau:ritual_forestation',
+        'ars_nouveau:ritual_flowering',
+        'ars_nouveau:ritual_conjure_island_desert',
+        'ars_nouveau:spell_turret',
+        'ars_nouveau:timer_spell_turret',
+        'ars_nouveau:basic_spell_turret',
+        'ars_nouveau:rotating_spell_turret',
+        'ars_nouveau:storage_lectern'
+    ]
+
+    ars_remove.forEach(element => {
+        event.hide(Item.of(element))
+    });
 
     //alltheores - Other Ores werden removed
     const other_oreToRemove = [

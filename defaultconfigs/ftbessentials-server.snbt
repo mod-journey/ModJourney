@@ -204,7 +204,7 @@
 			# Whitelisted dimension ID's for /rtp (if non-empty, player *must* be in one of these dimensions)
 			# Wildcarded dimensions (e.g. 'somemod:*') are supported
 			# Default: []
-			dimension_whitelist: ["farming:dim"]
+			dimension_whitelist: ["mod_journey:farmworld"]
 
 			# Default: true
 			enabled: true

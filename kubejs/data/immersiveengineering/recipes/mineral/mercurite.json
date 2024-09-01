@@ -1,0 +1,36 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "dimensions": [
+      "ad_astra:mercury"
+    ],
+    "fail_chance": 0.2,
+    "ores": [
+    {
+        "chance": 0.7,
+        "output": {
+            "item": "ad_astra:mercury_iron_ore"
+        }
+    }
+    ],
+    "spoils": [
+      {
+        "chance": 0.2,
+        "output": {
+            "item": "minecraft:magma_block"
+        }
+      },
+      {
+        "chance": 0.4,
+        "output": {
+            "item": "ad_astra:mercury_stone"
+        }
+      },
+      {
+        "chance": 0.2,
+        "output": {
+            "item": "minecraft:blackstone"
+        }
+      }
+    ],
+    "weight": 15
+  }

@@ -14,4 +14,56 @@ ItemEvents.tooltip(event => {
         ])
     })
 
+
+    //Antimatter Ingot
+
+    //Fügt den Scrolls eine Beschreibung hinzu
+    let mod_journey_items = [
+        'mod_journey:anti_ingot',
+        'mod_journey:antimatter_block'
+    ]
+    mod_journey_items.forEach(items => {
+        event.addAdvanced(items, (item, advanced, text) => {
+            if (!event.shift) {
+                text.add(1, [
+                    Text.gold('Hold '),
+                    Text.yellow('Shift '),
+                    Text.gold('to see more info.')
+                ])
+            }
+        })
+    });
+
+
+    //Antimaterie Ingot
+    event.addAdvanced('mod_journey:anti_ingot', (item, advanced, text) => {
+        if (event.shift) {
+            text.add(1,[
+                Text.green("Hochkomprimierter Block aus Antimaterie")
+            ])
+        }
+    })
+
+    //Antimaterie Block
+    event.addAdvanced('mod_journey:antimatter_block', (item, advanced, text) => {
+        if (event.shift) {
+            text.add(1,[
+                Text.green("Hochkomprimiertes Ingot aus Antimaterie")
+            ])
+        }
+    })
+
+
+
+    event.addAdvanced('mod_journey:the_rod_of_real_life', (item, advanced, text) => {
+        text.add(1, [ Text.yellow('Using at own risk...') ])
+        text.add(2, [
+            Text.gold('Hold '),
+            Text.green('ALT '),
+            Text.gold('and '),
+            Text.green('F4 '),
+            Text.gold('to return to real life')
+        ])
+    })
+
 })

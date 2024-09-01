@@ -1,0 +1,54 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "dimensions": [
+      "ad_astra:glacio"
+    ],
+    "fail_chance": 0.2,
+    "ores": [
+      {
+        "chance": 0.2,
+        "output": {
+          "item": "ad_astra:glacio_iron_ore"
+        }
+      },
+      {
+        "chance": 0.4,
+        "output": {
+          "item": "ad_astra:glacio_copper_ore"
+        }
+      },
+      {
+        "chance": 0.2,
+        "output": {
+          "item": "ad_astra:glacio_coal_ore"
+        }
+      }
+    ],
+    "spoils": [
+      {
+        "chance": 0.1,
+        "output": {
+          "item": "ad_astra:glacio_ice_shard_ore"
+        }
+      },
+      {
+        "chance": 0.5,
+        "output": {
+          "item": "ad_astra:glacio_stone"
+        }
+      },
+      {
+        "chance": 0.4,
+        "output": {
+          "item": "minecraft:packed_ice"
+        }
+      },
+      {
+        "chance": 0.3,
+        "output": {
+          "item": "ad_astra:permafrost"
+        }
+      }
+    ],
+    "weight": 15
+  }
