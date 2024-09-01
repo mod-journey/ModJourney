@@ -3,9 +3,658 @@
 	default_quest_shape: ""
 	filename: "sophicated_bagbacks"
 	group: "12D6D4D26DC1B099"
+	icon: "sophisticatedbackpacks:backpack"
 	id: "498D9D93A15CB670"
-	order_index: 0
+	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
-	title: "Sophicated Backbacks"
+	quests: [
+		{
+			dependencies: ["120748C2D29DA6FC"]
+			description: ["Genug Platz für die ersten Touren! Insgesamt 27 Slots und einen Upgrade Slot!"]
+			hide: true
+			id: "44041124EDB0DD59"
+			shape: "square"
+			subtitle: "Basic Rucksack"
+			tasks: [{
+				id: "5F18E7D36AB74EEF"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:backpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"44041124EDB0DD59"
+				"120748C2D29DA6FC"
+			]
+			description: ["Die Basis für alle eure Upgrades!"]
+			hide: true
+			id: "1DA3986217ADE592"
+			shape: "square"
+			subtitle: "Craftet Upgrades Leute!"
+			tasks: [{
+				id: "30761B73744FB36A"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44041124EDB0DD59"]
+			description: ["Platz für noch mehr Zeug. 28 Slots und 2 Upgrade Slots!"]
+			id: "68DE5BDE3F537F42"
+			subtitle: "Eisener Rucksack!"
+			tasks: [{
+				id: "1170A612D35F6B14"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["68DE5BDE3F537F42"]
+			description: ["Mit 81 Slots und 3 Upgrade Slots, bietet er noch mehr Platz!"]
+			id: "537E339058A7D8F8"
+			subtitle: "Güldener Rucksack"
+			tasks: [{
+				id: "300D73D0E0C2295B"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["537E339058A7D8F8"]
+			description: ["120 Slots und 5 Upgrade Slots. Besser geht nicht! Oder etwa doch..."]
+			id: "24BAA2C1FA713866"
+			subtitle: "Dia Rucksack!"
+			tasks: [{
+				id: "5448EF73BD5D5CA1"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["24BAA2C1FA713866"]
+			description: ["Genau so viele Slots wie der Dia Rucksack, also 120, aber dafür 7 Upgrade Slots!"]
+			id: "1A6F631FCF135230"
+			subtitle: "None Plus Ultra Rucksack"
+			tasks: [{
+				id: "0E6CD97CF52C9408"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			description: ["Mit einem eigenem Backpack und den passenden Upgrades, lässt sich so viel mehr schaffen! Craftet euch einen und ihr werdet schon sehen welche Vorteile es hat!"]
+			icon: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 3847130
+					clothColor: 3847130
+				}
+			}
+			id: "120748C2D29DA6FC"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Ich bin der Looter-King!"
+			tasks: [{
+				id: "32A3B13F973EF6CA"
+				title: "Backpack"
+				type: "checkmark"
+			}]
+			title: "Sophisticated Backpacks"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			dependency_requirement: "all_started"
+			description: ["Mehr als nur 64 mal Stackbar!"]
+			id: "3886DDD04C153233"
+			subtitle: "MOOOOREEEE I"
+			tasks: [{
+				id: "16FF79145D05D03D"
+				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3886DDD04C153233"]
+			dependency_requirement: "all_started"
+			description: ["Noch mehr stacken!"]
+			id: "077C86B2B3E3546C"
+			subtitle: "MOOOOREEEE II"
+			tasks: [{
+				id: "649567DDB61AB590"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["077C86B2B3E3546C"]
+			description: ["Noch viel mehr stacken!"]
+			id: "73F0DA7E5B71D4C9"
+			subtitle: "MOOOOREEEE III"
+			tasks: [{
+				id: "5E960B7306B68BBB"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["73F0DA7E5B71D4C9"]
+			description: ["Noch viel viel viel mehr stacken!"]
+			id: "75BA799EEA809FA5"
+			subtitle: "MOOOOREEEE IV"
+			tasks: [{
+				id: "2612EF961F992D96"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["75BA799EEA809FA5"]
+			description: ["Wer will so viel den überhaupt stacken."]
+			id: "574EEBFC1C74B329"
+			subtitle: "MOOOOREEEE V"
+			tasks: [{
+				id: "7BF565C08E211049"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			description: ["Aufgesammelte Items kommen direkt in den Rucksack."]
+			id: "7AD9631F43AD87FD"
+			subtitle: "Put it in I"
+			tasks: [{
+				id: "63CC929DF9953528"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7AD9631F43AD87FD"]
+			description: ["Mehr Filteroptionen!"]
+			id: "6D06A0D7D85691CC"
+			subtitle: "Put it in II"
+			tasks: [{
+				id: "22E8545E2FB71B59"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			description: ["Filter Items die rein und raus gehen beim Rucksack!"]
+			id: "7BDF271FC28A9299"
+			subtitle: "Lange Leitung I"
+			tasks: [{
+				id: "07FE4CD2264B8EA9"
+				item: "sophisticatedbackpacks:filter_upgrade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7BDF271FC28A9299"]
+			description: ["Noch mehr Filteroptionen!"]
+			id: "3CD003B49F0BCB3B"
+			subtitle: "Lange Leitung II"
+			tasks: [{
+				id: "0E89727B90146E3E"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			description: ["Magnetisiert herumliegende Items und saugt sie auf!"]
+			id: "22C805CD0CA544E5"
+			subtitle: "Ich bin Rombo I"
+			tasks: [{
+				id: "1001158358E8DAEC"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22C805CD0CA544E5"]
+			description: ["Mehr Filteroptionen!"]
+			id: "70C8460C5B716A0A"
+			subtitle: "Ich bin Rombo II"
+			tasks: [{
+				id: "085D2B887CDDA2F7"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			description: ["Niewieder selber essen! Du wirst gefüttert!"]
+			id: "1B2FE7C5CBB54589"
+			subtitle: "Fütterungszeit I"
+			tasks: [{
+				id: "3D7663A13603FF20"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B2FE7C5CBB54589"]
+			description: ["Mehr Optionen wann und wie du gefüttert wirst!"]
+			id: "26430E5AE2EF3D6F"
+			subtitle: "Fütterungszeit II"
+			tasks: [{
+				id: "77B846CBCB084678"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			description: ["2x2 Rezepte werden Platz sparend gelagert"]
+			id: "6E80082139A42376"
+			subtitle: "Mach mal kleiner I"
+			tasks: [{
+				id: "45D615875C501AE2"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E80082139A42376"]
+			description: ["2x2 und 3x3 Rezepte werden Platz sparend gelagert."]
+			id: "50861A06499F6A87"
+			subtitle: "Mach mal kleiner II"
+			tasks: [{
+				id: "5A4E6C77EEF5B1E9"
+				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			description: ["Vernichte automatisch Items deiner Wahl!"]
+			id: "3DA44DE3F547CCE6"
+			subtitle: "Wer will den S....ß I"
+			tasks: [{
+				id: "49A61643ADC0EBD4"
+				item: "sophisticatedbackpacks:void_upgrade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3DA44DE3F547CCE6"]
+			description: ["Mehr Filteroptionen!"]
+			id: "0555F3309ADAE672"
+			subtitle: "Wer will den S....ß II"
+			tasks: [{
+				id: "4901D20F6B151688"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			description: ["Wieder auffüllen von Items!"]
+			id: "0C27E1D2CE9711CD"
+			subtitle: "Voll machen bitte I"
+			tasks: [{
+				id: "71D5E7E281CE744E"
+				item: "sophisticatedbackpacks:restock_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C27E1D2CE9711CD"]
+			description: ["Selbe Funktion aber mehr Filteroptionen"]
+			id: "33AA5240D8DC2EC9"
+			subtitle: "Voll machen bitte II"
+			tasks: [{
+				id: "37A81907DCAEA93A"
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			description: ["Lager Items schneller irgendwo ab!"]
+			id: "70E808383CECC9A1"
+			subtitle: "Quick Stack I"
+			tasks: [{
+				id: "2E5784352F7B751A"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["70E808383CECC9A1"]
+			description: ["Mehr Filteroptionen!"]
+			id: "438D14498160D7CF"
+			subtitle: "Quick Stack II"
+			tasks: [{
+				id: "6717A309E8680E8B"
+				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			description: ["Füllt automatisch deine Hand nach wenn Items ausgehen!"]
+			id: "0060F8847CDD18D9"
+			subtitle: "Ich brauche mehr I"
+			tasks: [{
+				id: "359EA20F5A89C1B6"
+				item: "sophisticatedbackpacks:refill_upgrade"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0060F8847CDD18D9"]
+			description: ["Merh Optionen und Itemauswahl per klick auf das Mausrad!"]
+			id: "654C023F49F46370"
+			subtitle: "Ich brauche mehr II"
+			tasks: [{
+				id: "584310EED498909F"
+				item: "sophisticatedbackpacks:advanced_refill_upgrade"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			description: ["Ofen im Rucksack, was sollte da schief gehen."]
+			id: "61BAEC3E8D33CC67"
+			subtitle: "Ofen to go I"
+			tasks: [{
+				id: "492E2E3548019D2B"
+				item: "sophisticatedbackpacks:smelting_upgrade"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["61BAEC3E8D33CC67"]
+			description: ["Input und Output sind jetzt automatisiert."]
+			id: "0B7993AC1A4CB9D9"
+			subtitle: "Ofen to go II"
+			tasks: [{
+				id: "0327C612A9632DC4"
+				item: "sophisticatedbackpacks:auto_smelting_upgrade"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			description: ["Smoke dein Essen und das To-Go!"]
+			id: "37137208FC2D7F9A"
+			subtitle: "Grillen geht immer I"
+			tasks: [{
+				id: "0EAD563A0EE87722"
+				item: "sophisticatedbackpacks:smoking_upgrade"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["37137208FC2D7F9A"]
+			description: ["Input und Output sind automatisierbar."]
+			id: "44EA03142D3BA39E"
+			subtitle: "Grillen geht immer II"
+			tasks: [{
+				id: "66AE12F4375A0731"
+				item: "sophisticatedbackpacks:auto_smoking_upgrade"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			description: ["Schneller Erze verarbeiten mit dem Blast Furnace!"]
+			id: "4765FE21496CDB09"
+			subtitle: "Blast it I"
+			tasks: [{
+				id: "3F6F02E0331E4E6C"
+				item: "sophisticatedbackpacks:blasting_upgrade"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4765FE21496CDB09"]
+			description: ["Input und Output sind jetzt automatisierbar!"]
+			id: "5CDBF914FFF477D7"
+			subtitle: "Blast it II"
+			tasks: [{
+				id: "668C2A31012289D8"
+				item: "sophisticatedbackpacks:auto_blasting_upgrade"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			description: ["Richtig der Rucksack kann als Pumpe arbeiten. Wie? Keine Ahnung Frag jemand anderes!"]
+			id: "6E93D46AB70FC4EA"
+			subtitle: "Feuchte Angelegenheit I"
+			tasks: [{
+				id: "35B2BB016241B534"
+				item: "sophisticatedbackpacks:pump_upgrade"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E93D46AB70FC4EA"]
+			description: ["Mehr Filteroptionen!"]
+			id: "6207186159232DB8"
+			subtitle: "Feuchte Angelegenheit II"
+			tasks: [{
+				id: "4316128E7E87A09A"
+				item: "sophisticatedbackpacks:advanced_pump_upgrade"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			description: ["Nie wieder das richtige Item zum Abbauen auswählen müssen!"]
+			id: "7556BC1029C2B666"
+			subtitle: "Switcheru I"
+			tasks: [{
+				id: "0D65C38B8CCCF482"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7556BC1029C2B666"]
+			description: ["Mehr Optionen und Wrenches können auch geswitched werden!"]
+			id: "541FAC3028FB33D8"
+			subtitle: "Switcheru II"
+			tasks: [{
+				id: "719740D197718C97"
+				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			description: ["Dein Rucksack ist unkaputtbar!"]
+			id: "378D7B50458C9799"
+			subtitle: "I am Superman!"
+			tasks: [{
+				id: "081B29F3ADAAD3C4"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			description: ["Nie wieder eine Werkbank craften, benutz deinen Rucksack dafür!"]
+			id: "2F43B87E319D7520"
+			subtitle: "Werkbank to go!"
+			tasks: [{
+				id: "24B7CEF2BB7E3144"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			description: ["Mach mal Mucke!"]
+			id: "7C756D847549EF66"
+			subtitle: "Drop the Beat!"
+			tasks: [{
+				id: "7C43F827EBA884FD"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			description: ["Wer will einen Stonecutter to go haben? Du? Hier bitte."]
+			id: "3EC2CF7E940184C9"
+			subtitle: "Ich bin ein Meißel!"
+			tasks: [{
+				id: "19F8C7F99A3D65B9"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			description: ["Flüssigkeiten kannst du jetzt auch mit deinem Rucksack transportieren!"]
+			id: "4759C2D9F4C40115"
+			subtitle: "Flasche to go!"
+			tasks: [{
+				id: "1F48F0E37DE674B4"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			description: ["Dein Rucksack kann jetzt auch Strom speichern!"]
+			id: "778B1BEFC6341B66"
+			subtitle: "Elektrisierend!"
+			tasks: [{
+				id: "2F95BCE38F0B81A3"
+				item: "sophisticatedbackpacks:battery_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			description: ["XP kann jetzt auch mit dem Rücksack gepumpt werden. Wieso? Darum!"]
+			id: "789913E88083A2FF"
+			subtitle: "Damn Son!"
+			tasks: [{
+				id: "40D2B2B312010CFE"
+				item: "sophisticatedbackpacks:xp_pump_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			description: ["Ein Amboss to go, warum auch nicht!"]
+			id: "377AD83C93A06928"
+			subtitle: "Hammerschlag!"
+			tasks: [{
+				id: "627AF892D7947FAC"
+				item: "sophisticatedbackpacks:anvil_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+	]
+	title: "Sophisticated Backbacks"
 }

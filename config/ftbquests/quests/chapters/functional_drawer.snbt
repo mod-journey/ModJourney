@@ -39,7 +39,7 @@
 			y: -9.5d
 		}
 		{
-			description: ["Versuche deine Systeme so klein wie möglich zu halten. Große Systeme, mit ungefilterten Zugriffen, egal welcher Art verursachen Lags. Diese gilt es zu vermeiden. Baue Smart, sodass jeder seinen Spielspaß auf den Server beibehät."]
+			description: ["Versuche deine Systeme so klein wie möglich zu halten. Große Systeme, mit ungefilterten Zugriffen, egal welcher Art verursachen Lags. Diese gilt es zu vermeiden. Baue Smart, sodass jeder seinen Spielspaß auf dem Server beibehät."]
 			disable_toast: true
 			id: "1CA7D865E47A7D27"
 			tasks: [{

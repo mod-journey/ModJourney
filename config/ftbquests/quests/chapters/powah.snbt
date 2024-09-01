@@ -485,6 +485,7 @@
 				"085524FB2AA3BAEF"
 			]
 			dependency_requirement: "one_completed"
+			hide: false
 			id: "08BDD4ADC8DDB9C2"
 			shape: "gear"
 			size: 1.5d

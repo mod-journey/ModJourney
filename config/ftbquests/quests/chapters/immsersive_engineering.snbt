@@ -1,22 +1,187 @@
 {
+	autofocus_id: "19BDD9A98862D1F7"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "immsersive_engineering"
 	group: "00D014EB3FA9ED8A"
+	icon: "minecraft:dried_kelp_block"
 	id: "486D38DC43A626CE"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "7DC64335DF20BD93"
-		shape: "gear"
-		size: 1.5d
-		tasks: [{
-			id: "59A70CC7D3087473"
-			item: "immersiveengineering:circuit_board"
-			type: "item"
-		}]
-		x: 2.25d
-		y: 9.0d
-	}]
-	title: "Immsersive Engineering"
+	quests: [
+		{
+			id: "7DC64335DF20BD93"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "59A70CC7D3087473"
+				item: "immersiveengineering:circuit_board"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 14.25d
+		}
+		{
+			id: "19BDD9A98862D1F7"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				advancement: "immersiveengineering:main/main_root"
+				criterion: ""
+				id: "1F326C0A753BE0FE"
+				title: "Das Handbuch"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19BDD9A98862D1F7"]
+			id: "321F619E8B5074C1"
+			tasks: [{
+				advancement: "immersiveengineering:main/mb_blastfurnace"
+				criterion: ""
+				id: "21B304ED655A56D1"
+				title: "Coke Ofen"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["19BDD9A98862D1F7"]
+			id: "55E997BC13673CDC"
+			tasks: [{
+				advancement: "immersiveengineering:main/mb_blastfurnace"
+				criterion: ""
+				id: "5083BB2FD886AD79"
+				title: "Hochofen"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "49B65584F6D6176D"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_crusher"
+				criterion: ""
+				id: "16B47C2D8B044D03"
+				type: "advancement"
+			}]
+			title: "Zerkleinerer"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			id: "6039F64AD027BA19"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_refinery"
+				criterion: ""
+				id: "0D4ED9DB465D113A"
+				title: "Raffenerie"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			id: "6DE018DFA945800B"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_fermenter"
+				criterion: ""
+				id: "4AAE59316F980F71"
+				title: "Fermenter"
+				type: "advancement"
+			}]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			id: "0B04E60647C11A1D"
+			tasks: [{
+				id: "18B5C663F76F8B59"
+				item: "immersiveengineering:plate_duroplast"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			id: "637144EBE8BA9D39"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_metalpress"
+				criterion: ""
+				id: "32FF7AAA5FD69B16"
+				title: "Metallpresse"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["55E997BC13673CDC"]
+			id: "41D498DF0CB2E1F7"
+			tasks: [{
+				id: "56B8758F3DF86641"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			id: "1ADAFCF3A4253B6E"
+			tasks: [{
+				id: "49DA294500A30649"
+				item: "immersiveengineering:phenolic_resin_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			id: "393D75C8A0E73B80"
+			tasks: [{
+				id: "7FF7A4FA8DCD1C7F"
+				item: "immersiveengineering:acetaldehyde_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			id: "0E2EC3ABC7500783"
+			tasks: [{
+				id: "3498CB53CD79EAC7"
+				item: "immersiveengineering:ethanol_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			id: "3F60E405CEADC649"
+			tasks: [{
+				id: "5314CBF2A27F3517"
+				item: "immersiveengineering:dynamo"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			id: "17016F720123E259"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_improvedblastfurnace"
+				criterion: ""
+				id: "7F5AABAAC83CC66B"
+				title: "Verbesserter Hochofen"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+	]
+	title: "Immersive Engineering"
 }

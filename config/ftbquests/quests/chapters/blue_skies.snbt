@@ -1,0 +1,239 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blue_skies"
+	group: "4B1BD2A866D0526F"
+	icon: "blue_skies:blue_journal"
+	id: "13792A57E56A306D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:spyglass"
+			id: "2D93732882C77D34"
+			shape: "octagon"
+			tasks: [
+				{
+					id: "45719E22691FE2F6"
+					item: {
+						Count: 1
+						id: "blue_skies:zeal_lighter"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Trade dir Ein Zealfeuerzeug"
+					type: "item"
+				}
+				{
+					id: "6051587D5CD87E44"
+					item: "blue_skies:blue_journal"
+					title: "Trade dir Ein Blaues Tagebuch"
+					type: "item"
+				}
+				{
+					icon: "minecraft:spyglass"
+					id: "2041ED0C946F25C5"
+					structure: "#blue_skies:gatekeeper_houses"
+					title: "Finde Ein Gatekeeper House"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "026B9FF404AEA42D"
+			shape: "hexagon"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "blue_skies:everdawn_portal"
+				id: "2CC503728D6D0642"
+				title: "Everdawn"
+				type: "dimension"
+			}]
+			title: "Nur noch ein schritt ins Portal"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "460860A0F0CCC4E1"
+			shape: "hexagon"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "blue_skies:everbright_portal"
+				id: "03BC595DF682AD4B"
+				title: "Everbright"
+				type: "dimension"
+			}]
+			title: "Nur noch ein schritt ins Portal"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["Finde Alle Hölzer im Everdawn"]
+			id: "4A57684ABED4A3A4"
+			tasks: [
+				{
+					id: "642FF84C010A32EB"
+					item: "blue_skies:dusk_log"
+					type: "item"
+				}
+				{
+					id: "3E75248453FC4B8F"
+					item: "blue_skies:maple_log"
+					type: "item"
+				}
+				{
+					id: "0109B2C52279854D"
+					item: "blue_skies:lunar_log"
+					type: "item"
+				}
+			]
+			title: "Holz Sammler"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			description: ["Finde Pyrope und Aquit auf ca. mittlerer Höhe unter der oberfläche"]
+			id: "4BE494C590D81A5C"
+			tasks: [
+				{
+					id: "338A717787B86F20"
+					item: "blue_skies:pyrope_gem"
+					type: "item"
+				}
+				{
+					id: "7D8EB49BDD2CD20C"
+					item: "blue_skies:aquite"
+					type: "item"
+				}
+			]
+			title: "Grund Metalle?"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			description: ["Finde charoit und Diopsid Sehr Tief unter der Oberfläche"]
+			id: "3BE3C3FAFD8DEFD6"
+			tasks: [
+				{
+					id: "46411A2602DEF81F"
+					item: "blue_skies:diopside_gem"
+					type: "item"
+				}
+				{
+					id: "77EB1ED7BA706DB0"
+					item: "blue_skies:charoite"
+					type: "item"
+				}
+			]
+			title: "Die Besten Materialien aus dem Everdawn"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			description: ["Finde 5 Horizonit etwas Tiefer unter der Erde"]
+			id: "00B3CE4A66835442"
+			shape: "pentagon"
+			tasks: [{
+				count: 5L
+				id: "07DD79BF19F1C354"
+				item: "blue_skies:horizonite_ingot"
+				type: "item"
+			}]
+			title: "Heißes Eisen?"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "24E4F0946133DA9C"
+			shape: "pentagon"
+			tasks: [{
+				id: "57C0868197229AD9"
+				item: "blue_skies:horizonite_forge"
+				title: "Crafte Die Horizonitschmiede"
+				type: "item"
+			}]
+			title: "Ein Echt Heißer Ofen"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "7D2F2A0BEEDA04C7"
+			shape: "pentagon"
+			tasks: [
+				{
+					icon: "minecraft:spyglass"
+					id: "0D4F6DF1A13CC607"
+					structure: "blue_skies:everdawn_blinding_dungeon"
+					title: "Finde den Blinding Dungeon"
+					type: "structure"
+				}
+				{
+					entity: "blue_skies:alchemist"
+					icon: "blue_skies:alchemy_table"
+					id: "76F96F8D84D30423"
+					title: "Besiege den Alchemisten"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "20052B94A8BF0094"
+			shape: "pentagon"
+			tasks: [
+				{
+					icon: "minecraft:spyglass"
+					id: "01BD2A1FE8967AB2"
+					structure: "blue_skies:everbright_blinding_dungeon"
+					title: "Finde den Blinding Dungeon"
+					type: "structure"
+				}
+				{
+					entity: "blue_skies:summoner"
+					icon: "blue_skies:summoning_table"
+					id: "3F5D84724A01A915"
+					title: "Besiege den Beschwörer"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "492E5E8E2DC49D14"
+			tasks: [
+				{
+					id: "785B30301763F601"
+					item: "blue_skies:starlit_log"
+					type: "item"
+				}
+				{
+					id: "3406B42ED466CCE0"
+					item: "blue_skies:bluebright_log"
+					type: "item"
+				}
+			]
+			title: "Holz Sammler"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "56EC43612E86483A"
+			tasks: [{
+				count: 5L
+				id: "4279C1F958EFA401"
+				item: "blue_skies:falsite_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+	]
+	title: "Blue Skies"
+}

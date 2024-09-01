@@ -1,0 +1,34 @@
+{
+	icon: "minecraft:chest"
+	id: "05800BEABBDEC066"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ item: "minecraft:iron_ingot" }
+		{ item: "minecraft:iron_bars" }
+		{ item: "enderio:copper_alloy_nugget" }
+		{ item: "enderio:energetic_alloy_nugget" }
+		{ item: "enderio:vibrant_alloy_nugget" }
+		{ item: "enderio:redstone_alloy_nugget" }
+		{ item: "enderio:conductive_alloy_nugget" }
+		{ item: "enderio:conductive_alloy_nugget" }
+		{ item: "enderio:pulsating_alloy_nugget" }
+		{ item: "enderio:dark_steel_nugget" }
+		{ item: "enderio:soularium_nugget" }
+		{ item: "enderio:end_steel_nugget" }
+		{ item: "enderio:silicon" }
+		{ item: "enderio:copper_alloy_ingot" }
+		{ item: "minecraft:redstone" }
+		{ item: "minecraft:gold_ingot" }
+		{ item: "minecraft:glowstone_dust" }
+		{ item: "enderio:energetic_alloy_ingot" }
+		{ item: "minecraft:ender_pearl" }
+		{ item: "enderio:powdered_coal" }
+		{ item: "minecraft:obsidian" }
+		{ item: "minecraft:soul_sand" }
+		{ item: "enderio:dark_steel_ingot" }
+		{ item: "enderio:pulsating_alloy_ingot" }
+		{ item: "enderio:vibrant_alloy_ingot" }
+	]
+	title: "EnderIO"
+}

@@ -1,0 +1,21 @@
+{
+	icon: "minecraft:chest"
+	id: "5CBC42F60AB8C8D7"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{
+			item: { Count: 5, id: "minecraft:redstone" }
+		}
+		{
+			item: { Count: 5, id: "mekanism:alloy_infused" }
+		}
+		{
+			item: { Count: 3, id: "mekanism:basic_control_circuit" }
+		}
+		{
+			item: { Count: 3, id: "alltheores:osmium_ingot" }
+		}
+	]
+	title: "Meka1"
+}

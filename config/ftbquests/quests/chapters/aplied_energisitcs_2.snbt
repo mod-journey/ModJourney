@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "aplied_energisitcs_2"
 	group: "4B1BD2A866D0526F"
-	icon: "minecraft:cherry_log"
+	icon: "ae2:certus_quartz_wrench"
 	id: "081AFFC24F876656"
 	images: [
 		{
@@ -129,6 +129,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["7DC64335DF20BD93"]
 			description: ["AE2 ist eine Storage Mod. Mit dieser Mod kannst Du Items konsolidiert speichern und auf diese dezentral Zugreifen. Du kannst Craftingprozesse automatisieren und die wildesten Konstelationen automatisieren. "]
 			id: "43120BDFFF95EF89"
 			tasks: [{
@@ -160,6 +161,7 @@
 		{
 			dependencies: ["43120BDFFF95EF89"]
 			description: ["In einem Ladegerät lässt sich primär herstellen: Geladener Certus Quartz. Des weiteren kannst Du auch das mittlerweile Neu eingefügte Guide-Buch von Applied darin herstellen, oder auch einen Meteoritenkompass"]
+			hide: true
 			id: "728F7FBD7DA50204"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -294,9 +296,10 @@
 				}
 			]
 			tasks: [{
-				id: "5CB71A602B376DF2"
+				disable_toast: true
+				id: "7C39473C3E3F41E1"
 				observe_type: 0
-				timer: 5L
+				timer: 0L
 				to_observe: "ae2:flawless_budding_quartz"
 				type: "observation"
 			}]
@@ -359,7 +362,11 @@
 		}
 		{
 			can_repeat: false
-			dependencies: ["7DC64335DF20BD93"]
+			dependencies: [
+				"7DC64335DF20BD93"
+				"76D43A5CFB25EA8E"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"Die Gravurmaschine ist gegated auf das Immersive End-Game. "
 				"Um mit Applied weiter zu spielen, wirst Du in Immersive wohl erst mal voran schreiten müssen"
@@ -546,6 +553,7 @@
 		{
 			dependencies: ["6932EE98766BBCB7"]
 			description: ["Wird aus Diamanten hergestellt."]
+			hide: true
 			id: "7B0B511E8A8D0C10"
 			rewards: [
 				{
@@ -572,6 +580,7 @@
 		{
 			dependencies: ["6932EE98766BBCB7"]
 			description: ["Wird aus Certus hergestellt."]
+			hide: true
 			id: "6AB3A23E011C7A70"
 			rewards: [
 				{
@@ -598,6 +607,7 @@
 		{
 			dependencies: ["6932EE98766BBCB7"]
 			description: ["Wird aus Gold hergestellt"]
+			hide: true
 			id: "6BCF86700F5B2929"
 			rewards: [
 				{
@@ -931,11 +941,16 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["1784BD61EB8B6FDC"]
+			dependencies: [
+				"1784BD61EB8B6FDC"
+				"214DF570655368AF"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"Der Multiblock muss immer ein Rechteck bilden und mindestens einen Fertigungsspeicher beinhalten. Somit ist auch ein einzelner Fertigungspeicher ein Valider Prozessor für das Autocrafting."
 				"Außerdem kann die Fertigungseinheit als Füllmaterial im Multiblock benutzt werden, um diesen zu Vervollständigen. Einen Vorteil bringen diese Blöcke aber im Multiblock nicht."
 			]
+			hide: true
 			id: "47DF718336469399"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1270,8 +1285,8 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["214DF570655368AF"]
-			hide: true
+			dependencies: ["06D400071D147855"]
+			hide_dependency_lines: true
 			id: "0AB6B0BC4CDCB54F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1288,8 +1303,9 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["214DF570655368AF"]
-			hide: true
+			dependencies: ["06D400071D147855"]
+			hide: false
+			hide_dependency_lines: true
 			id: "6032E9282E0CB1DD"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1493,7 +1509,7 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["76D43A5CFB25EA8E"]
+			dependencies: ["43120BDFFF95EF89"]
 			description: [
 				"In dem Abschnitt gehen wir genauer auf Autocrafting ein. Es braucht grundlegend zwei Dinge: "
 				""
@@ -1504,6 +1520,7 @@
 				" &4c.&r Bereitstellung durch Maschinen."
 			]
 			hide: true
+			hide_dependency_lines: true
 			id: "1784BD61EB8B6FDC"
 			tasks: [{
 				id: "7DD0E37F862D3EC4"
@@ -1617,7 +1634,11 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["1784BD61EB8B6FDC"]
+			dependencies: [
+				"1784BD61EB8B6FDC"
+				"0504D0FBEFAF8AAD"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"Schablonen kannst Du im Pattern Terminal erstellen. Es gibt 4 Einstellungen, welche Du auswählen kannst."
 				"1. Fertigungsrezepte - mittels Button Craftingtable"
@@ -1636,6 +1657,7 @@
 				"Schmiede und Steinsägerezepte"
 				"Diese kommen in einen Schablonenprovider. Es müssen sowohl Molekularassembler als auch entweder ein Schmiedetisch oder eine Steinsäge neben dem Schablonenprovide sein."
 			]
+			hide: true
 			id: "3BE9012B79628576"
 			tasks: [{
 				id: "3F71D0747D6019CD"
@@ -1647,6 +1669,7 @@
 		}
 		{
 			dependencies: ["273F072768D87F2B"]
+			hide: false
 			id: "70CC4EC63E49C538"
 			tasks: [{
 				id: "19F18DB98FB120D7"
@@ -1658,6 +1681,7 @@
 		}
 		{
 			dependencies: ["273F072768D87F2B"]
+			hide: false
 			id: "22D317F1C462DD27"
 			tasks: [{
 				id: "527E56FDF18236FE"
@@ -1669,6 +1693,7 @@
 		}
 		{
 			dependencies: ["273F072768D87F2B"]
+			hide: false
 			id: "5AE90AC31CD60938"
 			tasks: [{
 				id: "6F48C4683A9313B5"
@@ -1679,8 +1704,13 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["1784BD61EB8B6FDC"]
+			dependencies: [
+				"1784BD61EB8B6FDC"
+				"214DF570655368AF"
+			]
+			dependency_requirement: "one_completed"
 			description: ["Die Fertigungskarte kann verwendet werden, um automatisiert Craftingprozesse anzustoßen. "]
+			hide: true
 			id: "273F072768D87F2B"
 			tasks: [{
 				id: "4ABA5406E16E3ACC"
@@ -1690,6 +1720,19 @@
 			x: 15.0d
 			y: -2.0d
 		}
+		{
+			hide: true
+			id: "77E4B7D94243624D"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "567381DBC2D7DC52"
+				item: "megacells:sky_steel_ingot"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.75d
+		}
 	]
-	title: "Applied Energisitcs 2"
+	title: "Applied Energistics 2"
 }

@@ -5,8 +5,282 @@
 	group: "29AF41F0C879F47B"
 	icon: "minecraft:cherry_log"
 	id: "5F4F40A7D501FDEE"
+	images: [
+		{
+			height: 2.0d
+			image: "alltheores:item/uranium_ingot"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.4224489795918203d
+			y: -2.2105442176870724d
+		}
+		{
+			height: 2.0d
+			image: "bigreactors:item/yellorium_ingot"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5204081632653228d
+			y: -2.2676870748299365d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/background/green_symboles/letters/i.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/background/green_symboles/letters/i.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.010204081632679163d
+			y: -2.3248299319727934d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: [
+				"Herzlich Willkommen in Extreme Reactors. Gut in unserem Modpack nicht ganz so Extrem."
+				"Gleich vorne Weg: "
+				"&2&lYellorium ist identisch zu Uran&r."
+			]
+			id: "280D95E313DDA71D"
+			rewards: [{
+				id: "79398FEFDE1829F8"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "bigreactors:erguide"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D0A3B350C73C428"
+				title: "Extreme Reactor"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			description: ["Dein erster Reaktor, mit einer maximal Größe von 5x5x5 und der kleinsten Größe von 3x3x3."]
+			id: "6BEAD403B7CB0490"
+			tasks: [
+				{
+					id: "3A78A41E1797DB85"
+					item: "bigreactors:basic_reactorcontroller"
+					type: "item"
+				}
+				{
+					id: "685AF51593FC0C57"
+					item: "bigreactors:basic_reactorfuelrod"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "458543F3D40D831F"
+					item: { Count: 2, id: "bigreactors:basic_reactorsolidaccessport" }
+					type: "item"
+				}
+				{
+					id: "467957C94D183A88"
+					item: "bigreactors:basic_reactorcontrolrod"
+					type: "item"
+				}
+				{
+					id: "6AC033C6237366C8"
+					item: "bigreactors:basic_reactorpowertapfe_passive"
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "6D2D49D0A5751049"
+					item: { Count: 21, id: "bigreactors:basic_reactorcasing" }
+					type: "item"
+				}
+			]
+			title: "Basic Reactor"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			description: ["Graphit wird aus Kohle hergestellt. Das wirst Du brauchen. Viel sogar."]
+			id: "1E86BC238F738A44"
+			tasks: [{
+				id: "414EEACD339EF3A3"
+				item: "bigreactors:graphite_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["mit den basic Reactoren lassen sich Multiblöcke bis auf eine größe von 5x5x5 bauen. "]
+			id: "3D755E72F89F3702"
+			tasks: [{
+				id: "3FFCF6ACDE04C9BF"
+				item: "bigreactors:basic_reactorcasing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["Die Access Ports sind die Zugangspunkte zum Reaktor. Diese kannst Du Rechtsklicken. In der GUI kannst Du einstellen, ob dieser als Eingabe- oder Ausgabepunkt dienen soll. Außerdem kannst Du hier manuell triggern, ob dieser In- oder Output Material ausgeben soll. Die Ausgabe erfolgt in Fester Form, also als Ingot."]
+			icon: "bigreactors:reinforced_reactorsolidaccessport"
+			id: "66DEEA92B5F386C0"
+			tasks: [{
+				id: "5FC19862AC343856"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bigreactors:reinforced_reactorsolidaccessport"
+							}
+							{
+								Count: 1b
+								id: "bigreactors:basic_reactorsolidaccessport"
+							}
+						]
+					}
+				}
+				title: "Access Ports"
+				type: "item"
+			}]
+			title: "Any Access Port"
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			description: ["Du kannst hiermit deinen Reaktor verwandeln in einen aktiv gekühlten Reaktor. Somit generierst du Dampf. Diesen kannst Du nutzen um eine Turbine zu betreiben. Du brauchst 2 dieser Ports. Auch hier kannst Du definieren, dass es sich um ein Eingangs- oder Ausgangsport handelt. "]
+			id: "646646E999822E90"
+			tasks: [{
+				id: "2FFC4BAF4B3382CF"
+				item: "bigreactors:reinforced_reactorfluidaccessport"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			description: ["Auch für die Turbine gibt es eine Basic Form. Mein Rat an der Stelle, solltet ihr in betracht ziehen über Extreme-Reactors Strom zu beziehen, baut direkt die Advanced Turbine. Spart Euch die Ressourcen. "]
+			id: "4B86830BAFA84372"
+			optional: true
+			tasks: [{
+				id: "70BF93F210FDF0DD"
+				item: "bigreactors:basic_turbinecontroller"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			description: ["Energy Ports sind die Schnittstelle für Energie. Hier kannst Du Energie aus dem Reaktor in dein Energienetzwerk einspeisen. Es gibt zwei Arten. Die Aktiven und Passiven Energy Ports. Der Unterschied liegt darin, dass man aktiv den Strom aus den passiven Ports rausziehen muss, während die aktiven versuchen diesen direkt an den Benachbarten Block abzugeben."]
+			id: "21A66CAA4865D3D0"
+			tasks: [{
+				id: "68E959AF3630EE80"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bigreactors:reinforced_reactorpowertapfe_active"
+							}
+							{
+								Count: 1b
+								id: "bigreactors:reinforced_reactorpowertapfe_passive"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Energy Ports"
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			description: ["Mit den Reinforced Reactoren lassen sich in unserem Modpack Multiblöcke bis zu einer größe von 16x16x16 bauen."]
+			id: "68CBEF963313DC33"
+			tasks: [{
+				id: "232D2252C3A0B094"
+				item: "bigreactors:reinforced_reactorcasing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			description: ["Prinzipiell spielt es keine Rolle, ob Du Glas oder Ramen benutzt. Wichtig an der Stelle ist, dass die Ecken und das außen Gerüst immer Frames enthalten. Der innen Bereich der Flächen kann ausgefüllt werden mit Glas, aus optischen Gründen."]
+			id: "50C6D9F519D225F4"
+			tasks: [{
+				id: "3FB587E9242CE09F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bigreactors:basic_reactorglass"
+							}
+							{
+								Count: 1b
+								id: "bigreactors:reinforced_reactorglass"
+							}
+						]
+					}
+				}
+				title: "Any Reactor-Glass"
+				type: "item"
+			}]
+			title: "Glas oder Ramen"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Nimmst Du aktiv aus den Access Ports Ingots in die Hand und versuchst sie ins Inventar zu legen, wirst du mittels ESC das Menü verlassen müssen. Die Items kannst Du dennoch normal ins Inventar shiften."
+				"{@pagebreak}"
+				"Betätigst Du den SCRAM Button im Controll Interface, so wirst Du den reaktor starten müssen, an die Reactor-Controll-Rods gehen diesen Wert um mindestens 2% reduzieren und auf Change all drücken müssen. Anschließend kannst Du den Reaktor wieder mit 100% betreiben und dieser startet auch wieder. "
+				"{@pagebreak}"
+				"Hast Du deinen Reaktor vorher Aktiv gekühlt und stellst diesen dann auf Passiv um, wird der Reaktor seine Leistung (Verbrauchsreaktor) nicht mehr erreichen. Ich empfehle den Multiblock abzureißen und Neu zu bauen. "
+			]
+			id: "3154E80F60E99856"
+			tasks: [{
+				id: "074D1299CC61739F"
+				title: "kleinere Bugs"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"entfällt bei uns im Modpack. Eine Zelle speichert knapp 700 T/FE. Der Draconic Reactor wäre neidisch auf den Multiblock. Ausgebaut entspräche der Multiblock ~ 1.8 Exa FE. Wurde die Maßeinheit schon erreicht?"
+				"{@pagebreak}"
+				"Um es greifbarer zu machen das wäre eine 1 gefolgt von 18 Nullen. "
+			]
+			id: "4D3EA87317F9F6BA"
+			tasks: [{
+				id: "0734E682569CEA3F"
+				title: "Energizer"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+	]
 	title: "Extreme Reactors"
 }

@@ -1,0 +1,62 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "daily"
+	group: "78025998DBB7AC61"
+	id: "36A8DA96146170E0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "38FCDBC67E137073"
+			rewards: [{
+				id: "738C3631FA49D6B6"
+				item: "thermal:silver_coin"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "30D9E8CD52F44C9A"
+				title: "4h"
+				type: "custom"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "396F40615B82EEAE"
+			rewards: [{
+				id: "3794768E3EF425BD"
+				item: "thermal:gold_coin"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "51300044341BFFCC"
+				title: "24h"
+				type: "custom"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			id: "713BAEC12C32CB67"
+			rewards: [{
+				id: "51DDD3A1750A6474"
+				item: "minecraft:oak_log"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "24A0B0ED3ABF66A9"
+				title: "1m"
+				type: "custom"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+	]
+	title: "Daily"
+}

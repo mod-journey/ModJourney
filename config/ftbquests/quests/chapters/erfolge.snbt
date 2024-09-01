@@ -1,0 +1,103 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "erfolge"
+	group: "78025998DBB7AC61"
+	id: "430393DC3F2A60F9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "19F49C59DEE1D1B8"
+			tasks: [{
+				id: "00F0A1749EFF1260"
+				title: "asd"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"19F49C59DEE1D1B8"
+				"658293F4023BA2CF"
+				"38A1825FA5A19034"
+			]
+			description: ["asdasdaftgrthetrh"]
+			hide: true
+			hide_text_until_complete: true
+			id: "1FBE343F411AB05C"
+			min_required_dependencies: 2
+			tasks: [{
+				count: 64L
+				id: "43CBD26E85397366"
+				item: "minecraft:purpur_block"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "658293F4023BA2CF"
+			tasks: [{
+				id: "6EC447F076D0AD8D"
+				title: "qwer"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "38A1825FA5A19034"
+			tasks: [{
+				id: "7CDE53AFBE3F5752"
+				title: "sdf"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1FBE343F411AB05C"]
+			hide: false
+			id: "6BD48A88459DAC60"
+			tasks: [{
+				id: "098D5FE5F2EB9512"
+				item: "minecraft:birch_planks"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6BD48A88459DAC60"]
+			id: "1C1B8D7465C607B3"
+			tasks: [{
+				id: "60EFF87CEA024059"
+				item: "minecraft:oak_wood"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "14F41333B9ECFD49"
+			rewards: [{
+				auto: "invisible"
+				id: "433084737024B424"
+				ignore_reward_blocking: true
+				stage: ""
+				tags: ["magie"]
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "2476CF9AA2EEA7BF"
+				title: "Magie"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 0.5d
+		}
+	]
+	title: "Erfolge"
+}

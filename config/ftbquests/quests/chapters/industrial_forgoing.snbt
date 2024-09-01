@@ -3,19 +3,53 @@
 	default_quest_shape: ""
 	filename: "industrial_forgoing"
 	group: "4B1BD2A866D0526F"
-	icon: "minecraft:birch_log"
+	icon: "minecraft:dried_kelp_block"
 	id: "755B9005FE1A4302"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "55DC368F1E3A12A9"
-		tasks: [{
-			id: "4B3C3A33F7CA71DE"
-			title: "Radon"
-			type: "custom"
-		}]
-		x: 2.5d
-		y: -6.0d
-	}]
+	quests: [
+		{
+			id: "55DC368F1E3A12A9"
+			tasks: [{
+				id: "4B3C3A33F7CA71DE"
+				title: "Radon"
+				type: "custom"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			id: "56DED3A681E039B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1005DB88BD1F9254"
+				table_id: 2626029047110404942L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "17683B8295FD0359"
+				title: "TEST"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			id: "3F43A51AF14B6FF9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0406FB3BD61565EC"
+				table_id: 2498778483368621286L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7D8711AACA216C27"
+				item: "industrialforegoing:fluid_laser_base"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+	]
 	title: "Industrial Foregoing"
 }

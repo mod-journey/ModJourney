@@ -3,9 +3,1018 @@
 	default_quest_shape: ""
 	filename: "enderio"
 	group: "29AF41F0C879F47B"
+	icon: {
+		Count: 1
+		id: "enderio:soul_engine"
+		tag: { }
+	}
 	id: "3A1DE0DE95E27169"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["488F73A73A492F5A"]
+			id: "2F46349E2FB2FB5E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "366DE9787815C241"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3FCD42BFBF8E5A11"
+				item: "enderio:primitive_alloy_smelter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F46349E2FB2FB5E"]
+			id: "43EC5FE25FE59E04"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "342B530BC9762059"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "665CA948342D570E"
+				item: "enderio:void_chassis"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["43EC5FE25FE59E04"]
+			id: "27D6FC9CD8EB9972"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BCAC79648042415"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "052ABD7FD728611F"
+				item: "enderio:alloy_smelter"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["43EC5FE25FE59E04"]
+			id: "4C72FCF52B1BCF62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F42C2358DCDE48A"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6FB0E6FF833F2007"
+				item: "enderio:stirling_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["43EC5FE25FE59E04"]
+			id: "09DE377FBFD4EEE6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A69E9BA53F0C7E6"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "37B1ED1D03B8284E"
+				item: "enderio:sag_mill"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["43EC5FE25FE59E04"]
+			id: "4DD6674128E5E84E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71E8B5C715744099"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "30874CBB78C324A8"
+				item: "enderio:impulse_hopper"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["43EC5FE25FE59E04"]
+			id: "3C78EC2BA4D9C768"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4539155C5532E2F0"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6734653B33AFEE5F"
+				item: "enderio:crafter"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["43EC5FE25FE59E04"]
+			id: "1984B3E8D4571351"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79CAF046CA92427C"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "099344A3366953CD"
+				item: "enderio:wired_charger"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["43EC5FE25FE59E04"]
+			id: "0280DF9600A31C64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03AA9D9B8A124BC3"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "174C91B35DF37B66"
+				item: "enderio:painting_machine"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["43EC5FE25FE59E04"]
+			id: "6961BD48A05266D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25C07DF7E5476A7E"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "106728410ECC8369"
+				item: "enderio:drain"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27D6FC9CD8EB9972"]
+			id: "2D5CF655D3B6B361"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48F0C29D80B27B86"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6C3B7B71F7188A9E"
+				item: "enderio:copper_alloy_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["27D6FC9CD8EB9972"]
+			id: "5FEDA60DCF0982AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F6ABAD0A8B4815E"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4FD71B2D319A9333"
+				item: "enderio:energetic_alloy_ingot"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27D6FC9CD8EB9972"]
+			id: "5A802C9BD8C0E462"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36FE243F9DCF13C7"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1E55AA8A0CC3C173"
+				item: "enderio:vibrant_alloy_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["27D6FC9CD8EB9972"]
+			id: "47DA21CC25CC9E31"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54EC066137F5E153"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "442BDFE8FD0FED4B"
+				item: "enderio:redstone_alloy_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27D6FC9CD8EB9972"]
+			id: "6FF44DFF744F00D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60A19A0DDB118892"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7FDC996AB6743097"
+				item: "enderio:conductive_alloy_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["27D6FC9CD8EB9972"]
+			id: "005D59ED47854E72"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4945958514200BD8"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7CEC0BA6335D2088"
+				item: "enderio:pulsating_alloy_ingot"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["27D6FC9CD8EB9972"]
+			id: "35C09FD3A573FBE5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CFA430553D9C364"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "30E0F04FD48DCB38"
+				item: "enderio:soularium_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["35C09FD3A573FBE5"]
+			id: "5AB9C7D5C08514D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "216AF68C7525074F"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2DD075F311617C8A"
+				item: "enderio:ensouled_chassis"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5AB9C7D5C08514D3"]
+			id: "2CA56084383CCE54"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DDC8031E3E5E56B"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "33288E290AD475B3"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1FECF498C9884A41"]
+			id: "0F6BA187373980D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AD24AA503D791AB"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3AD768C54FA319FB"
+				item: "enderio:soul_binder"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5999BDA8E21BF652"]
+			id: "0C2DA9F1898DDD23"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E97D5FB3B95A06C"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "34F5DD272F059BF9"
+				item: {
+					Count: 1
+					id: "enderio:powered_spawner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1FECF498C9884A41"]
+			id: "2530D1CD2EB009FD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "620767CA7364CB7F"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "57D625BEAA0A25F7"
+				item: {
+					Count: 1
+					id: "enderio:soul_engine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5AB9C7D5C08514D3"]
+			id: "1F8F537E56CCED3F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1573E247EFE9A6CC"
+				type: "loot"
+			}]
+			subtitle: "Speichere deine Spieler Experience im XP Obelisk. Die eingepeicherte Experience lässt sich jederzeit zurück transferien. Solltest du die Flüssigkeit in flüssiger Form benötigen, kannst du diese mit einem Flüssigkeitsrohr abpumpen oder dem Obelisken hinzufügen"
+			tasks: [{
+				id: "7C32151A50AA50C1"
+				item: "enderio:xp_obelisk"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["488F73A73A492F5A"]
+			id: "5317D16EC35D2E6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "490F20CE0B8515AC"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "199AB05CA66B7446"
+				item: "enderio:conduit_binder_composite"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5317D16EC35D2E6F"]
+			id: "2FE5DB7958850DBB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "285BBC25E809E438"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3ABE95DE8CE5EC40"
+				item: "enderio:conduit_binder"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2FE5DB7958850DBB"]
+			id: "266A20F09376D14B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "712B982C68512FF4"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3BAE03D98B3D2A35"
+				item: "enderio:energy_conduit"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FE5DB7958850DBB"]
+			id: "77686E29A21BD2CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A4AAC8AF24BDA1A"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "525B76D8CD307F34"
+				item: "enderio:fluid_conduit"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2FE5DB7958850DBB"]
+			id: "7D8477083E7E406B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C9504704791E3B0"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5439622E64532007"
+				item: "enderio:pressurized_fluid_conduit"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2FE5DB7958850DBB"]
+			id: "2880A9BBB43A3354"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "293A6DD0A20A3365"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "320CE2E1C23B1801"
+				item: "enderio:ender_fluid_conduit"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2FE5DB7958850DBB"]
+			id: "2549895C11DA2A72"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "576363968594526B"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4FF9469476EFA496"
+				item: "enderio:redstone_conduit"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2FE5DB7958850DBB"]
+			id: "4597219C75AC74FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22664E7B7F186AC3"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "542ABDF838676327"
+				item: "enderio:item_conduit"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2FE5DB7958850DBB"]
+			id: "600D1DCA8A309FA2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "792720ABF891B0E9"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "616111FD3BD2E751"
+				item: "enderio:dense_me_conduit"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2FE5DB7958850DBB"]
+			id: "56F71D6AE8B46F84"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D55F2BFCD7AD171"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0990B1683E3DABD6"
+				item: "enderio:me_conduit"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2FE5DB7958850DBB"]
+			id: "0D8911CE6BFF3641"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3389759EC07DFF93"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "15AD6B6264A553A6"
+				item: "enderio:chemical_conduit"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2FE5DB7958850DBB"]
+			id: "124F5E06E6C28F5E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FD9019B28E04372"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "466E4C65E9CE136C"
+				item: "enderio:ender_chemical_conduit"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2FE5DB7958850DBB"]
+			id: "35D0209045F7808D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34C61F7E02A12033"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "095AC37DBF20415A"
+				item: "enderio:heat_conduit"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["488F73A73A492F5A"]
+			id: "711BD2AFB5308AC5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5857FD9591F5BCB7"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3BA010EDF39A3A0B"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["711BD2AFB5308AC5"]
+			id: "6D6BDB34D4A1234F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B0BEA794099BC0F"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0848782F5CD57CD0"
+				item: "enderio:basic_capacitor"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D6BDB34D4A1234F"]
+			id: "10419829E1390C09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27EA06F9D5E69268"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "06F5AEA450EE6F2C"
+				item: "enderio:double_layer_capacitor"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["10419829E1390C09"]
+			id: "54137297CBF0DF96"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AC49588F86F6D29"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "352F5C8DC6E1DE6F"
+				item: "enderio:octadic_capacitor"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6D6BDB34D4A1234F"]
+			id: "2ED3978C8CC2913E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D037108D30764D6"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7E60208FD6E3C56D"
+				item: "enderio:basic_capacitor_bank"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["10419829E1390C09"]
+			id: "7131127D8E70DE3A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "796B152CABE2C94A"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1BA0094EF52378C8"
+				item: "enderio:advanced_capacitor_bank"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["54137297CBF0DF96"]
+			id: "519721DF1164FE4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27E877251A1FDDD6"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7E91D1398797DB61"
+				item: "enderio:vibrant_capacitor_bank"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6D6BDB34D4A1234F"]
+			id: "2243B88F25C286AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49935DD1335A19ED"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "09BA167CC0225FF7"
+				item: "enderio:energetic_photovoltaic_module"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["10419829E1390C09"]
+			id: "09247D960B99AA44"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61F1DFF241A245CA"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4E0B1F249656ADCD"
+				item: "enderio:pulsating_photovoltaic_module"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["54137297CBF0DF96"]
+			id: "0B681B3613C89D7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A047A8DF79B3DA0"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3725A41AABCA293C"
+				item: "enderio:vibrant_photovoltaic_module"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2FE5DB7958850DBB"]
+			id: "2C17E9EA8E4934F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33C80DD8796EC342"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "04877F9798D0B635"
+				item: "enderio:yeta_wrench"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2CA56084383CCE54"]
+			id: "1FECF498C9884A41"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6804C0B3A55B8D07"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2E79612594839F7A"
+				item: "enderio:zombie_electrode"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2CA56084383CCE54"]
+			id: "5999BDA8E21BF652"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70DBE9A9175F605A"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2E150EC8D262AAF7"
+				item: "enderio:z_logic_controller"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["005D59ED47854E72"]
+			id: "3E6D24F69315E37B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AFA9207DA6F7DCE"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0E3F9CA4F56F201B"
+				item: "enderio:travel_anchor"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3E6D24F69315E37B"]
+			dependency_requirement: "all_started"
+			id: "09D13F484D269069"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19FB7C9FE9D7C386"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3E0BC5CB4A1E5006"
+				item: {
+					Count: 1
+					id: "enderio:staff_of_travelling"
+					tag: {
+						Energy: {
+							EnergyStored: 0
+							MaxEnergyStored: 100000
+							MaxEnergyUse: 100000
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27D6FC9CD8EB9972"]
+			id: "10382E88CA309FC9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B9250024D9FEBB3"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "45B0E86EAA7D1CAB"
+				item: "enderio:dark_steel_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["10382E88CA309FC9"]
+			id: "1C943785CEBDE751"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72314AE013DB362B"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "08A6B5430A42CE0C"
+				item: {
+					Count: 1
+					id: "enderio:dark_steel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0C2DA9F1898DDD23"
+				"0F6BA187373980D6"
+				"2530D1CD2EB009FD"
+			]
+			id: "7E09B6005EC482B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A125B7AFDDB601A"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			subtitle: "Bind a Soul to the Vial"
+			tasks: [{
+				id: "58E53D98373BFEEF"
+				item: "enderio:empty_soul_vial"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"1F8F537E56CCED3F"
+				"5A3F197163224055"
+			]
+			id: "3563D0E47D3E64BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46585A17A51E0E9E"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			subtitle: "Baue eine Mobfarm aus EnderIO Komponennten um an Liquid EXP zu gelangen "
+			tasks: [{
+				id: "0571DBBB62FF9C0E"
+				item: "enderio:xp_juice_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3563D0E47D3E64BD"]
+			id: "43566D2C92804642"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75FD178D836795FA"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5A303EE97C836137"
+				item: "enderio:fluid_tank"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7E09B6005EC482B2"]
+			id: "5A3F197163224055"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47B1AA9449FB50E2"
+				table_id: 396329870010794086L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3E53E12A5185ECCD"
+				item: "enderio:xp_vacuum"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.0d
+		}
+	]
 	title: "EnderIO"
 }
