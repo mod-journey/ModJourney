@@ -630,7 +630,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["1DA3986217ADE592"]
+			dependencies: [
+				"1DA3986217ADE592"
+				"6207186159232DB8"
+			]
 			description: ["XP kann jetzt auch mit dem Rücksack gepumpt werden. Wieso? Darum!"]
 			id: "789913E88083A2FF"
 			subtitle: "Damn Son!"
@@ -639,8 +642,8 @@
 				item: "sophisticatedbackpacks:xp_pump_upgrade"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 3.0d
+			x: 10.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1DA3986217ADE592"]
@@ -652,7 +655,7 @@
 				item: "sophisticatedbackpacks:anvil_upgrade"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.0d
 			y: 3.0d
 		}
 	]

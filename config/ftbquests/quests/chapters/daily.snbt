@@ -9,6 +9,11 @@
 	quests: [
 		{
 			can_repeat: true
+			icon: {
+				Count: 1
+				id: "thermal:silver_coin"
+				tag: { }
+			}
 			id: "38FCDBC67E137073"
 			rewards: [{
 				id: "738C3631FA49D6B6"
@@ -25,36 +30,22 @@
 			y: -3.0d
 		}
 		{
-			id: "396F40615B82EEAE"
+			icon: "thermal:gold_coin"
+			id: "146D1D0765124A16"
+			repeatable: true
 			rewards: [{
-				id: "3794768E3EF425BD"
+				id: "728A1DCE92FF0C65"
 				item: "thermal:gold_coin"
-				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
-				id: "51300044341BFFCC"
-				title: "24h"
-				type: "custom"
+				elapsedTime: 86400L
+				gameTime: "system"
+				id: "597813E4951FDC5E"
+				type: "questsadditions:time"
 			}]
+			title: "Daily"
 			x: 0.5d
-			y: -3.0d
-		}
-		{
-			can_repeat: true
-			id: "713BAEC12C32CB67"
-			rewards: [{
-				id: "51DDD3A1750A6474"
-				item: "minecraft:oak_log"
-				team_reward: false
-				type: "item"
-			}]
-			tasks: [{
-				id: "24A0B0ED3ABF66A9"
-				title: "1m"
-				type: "custom"
-			}]
-			x: -2.5d
 			y: -3.0d
 		}
 	]

@@ -186,7 +186,7 @@
 				{
 					count: 4L
 					id: "4CD352B7C16FF682"
-					item: { Count: 4, id: "alltheores:iron_dust" }
+					item: "alltheores:iron_dust"
 					type: "item"
 				}
 			]
@@ -295,13 +295,13 @@
 				{
 					count: 4L
 					id: "5E5AA8E040C947FE"
-					item: { Count: 4, id: "minecraft:iron_ingot" }
+					item: "minecraft:iron_ingot"
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "0068F8C3BD52E532"
-					item: { Count: 4, id: "alltheores:osmium_ingot" }
+					item: "alltheores:osmium_ingot"
 					type: "item"
 				}
 			]
@@ -315,7 +315,7 @@
 			tasks: [{
 				count: 2L
 				id: "2834B1434AB5EC30"
-				item: { Count: 2, id: "mekanism:ingot_refined_glowstone" }
+				item: "mekanism:ingot_refined_glowstone"
 				type: "item"
 			}]
 			x: -14.5d
@@ -635,7 +635,7 @@
 			tasks: [{
 				count: 16L
 				id: "31FA4C6590A0D65C"
-				item: { Count: 16, id: "mekanism:bio_fuel" }
+				item: "mekanism:bio_fuel"
 				type: "item"
 			}]
 			x: -17.5d
@@ -685,7 +685,7 @@
 			tasks: [{
 				count: 8L
 				id: "20AD460901EDCDE4"
-				item: { Count: 8, id: "mekanism:substrate" }
+				item: "mekanism:substrate"
 				type: "item"
 			}]
 			x: -17.5d
@@ -1043,7 +1043,7 @@
 				{
 					count: 4L
 					id: "103EF5847FB48CC9"
-					item: { Count: 4, id: "mekanismgenerators:advanced_solar_generator" }
+					item: "mekanismgenerators:advanced_solar_generator"
 					type: "item"
 				}
 			]
@@ -1158,7 +1158,7 @@
 				{
 					count: 2L
 					id: "1332EE8BDECE5795"
-					item: { Count: 2, id: "mekanism:induction_port" }
+					item: "mekanism:induction_port"
 					type: "item"
 				}
 				{

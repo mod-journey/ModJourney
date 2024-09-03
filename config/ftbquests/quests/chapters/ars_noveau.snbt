@@ -3,9 +3,299 @@
 	default_quest_shape: ""
 	filename: "ars_noveau"
 	group: "16F9BB65CBA165C2"
+	icon: "ars_nouveau:archmage_spell_book"
 	id: "791B5B0012F48C8B"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: ["Zaubersprüche, Rituale, Magische Apparaturen und Tierbegleiter. Das und noch mehr bietet Ars Nouveau."]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:arcanist_hood"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1E78C6170EC5067E"
+			subtitle: "Willkommen bei Ars Nouveau"
+			tasks: [{
+				id: "47B9EA7DBC0FE347"
+				title: "Los geht's!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E78C6170EC5067E"]
+			description: ["Gut, dass der Minecraft Charakter übermäßig stark ist. Jetzt muss nur noch in Intelligenz geskillt werden. Dafür brauchst du das &l&5Große Buch, wo alles drin steht&r. Mit dem ersten Spellbook kannst du Tier 1 Zauber wirken und hast jegliche Informationen gesammelt an einer Stelle."]
+			id: "77D31EC2C76058E2"
+			subtitle: "...und so ein dickes Buch auch."
+			tasks: [{
+				id: "24AF965390A4C6A8"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			title: "Aller Anfang ist schwer..."
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["77D31EC2C76058E2"]
+			description: [
+				"Öffne hierzu dein Spellbook in deiner Hand (Default: C)."
+				"Grundsätzlich gilt: Jeder Spell braucht mindestens eine Form (auf welche Weise wird der Effekt ausgeführt) und einen Effekt."
+				"Später können auch Modifikationen oder mehrere Formen/Effekte hinzugefügt werden."
+				""
+				"Die Formen, Effekte und Modifikationen heißen Glyphen."
+			]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:spell_parchment"
+				tag: { }
+			}
+			id: "5C7D0094496E8E53"
+			subtitle: "Wie funktioniert das?"
+			tasks: [{
+				id: "24F8B896271FC943"
+				title: "Dein erster Spell"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["77D31EC2C76058E2"]
+			description: [
+				"Das Wort Mana stammt aus dem Polynesischen und...achso, wie es hier funktioniert."
+				"Zum wirken deiner Spells benötigst du Mana. Dieses siehst du in der Regel links unten neben deiner Inventarleiste. Glyphen und dessen Zusammensetzungen kosten mehr oder weniger Mana, je nach Stärke, Tier und Effekt."
+				"Die Menge an Mana und dessen Regeneration ist steigerbar durch Erlernen weiterer Glyphen, Magische Rüstung, Mana Potions etc."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "ars_nouveau:mana_regen_potion_long"
+				}
+			}
+			id: "5C36E3B78AB146C0"
+			tasks: [{
+				id: "5B9E238DC485BE38"
+				title: "Mana"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["77D31EC2C76058E2"]
+			description: ["Auch in Ars Nouveau gibt es eigene Holzarten, die für die verschiedensten Sachen benötigt werden. Die vier verschiedenen Archwood Baumarten sind überall in der Overworld zu finden. Jede von ihnen hat auch seine eigenen leckeren Früchte für die Frutarier unter euch."]
+			id: "18DAE72E4F2B32E0"
+			subtitle: "Magische Materialien für magische Werkzeuge"
+			tasks: [
+				{
+					id: "1A3D083FE8DD2698"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:logs/archwood"
+						}
+					}
+					title: "Archwood"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "46F5091042DAC929"
+					item: "ars_nouveau:archwood_planks"
+					type: "item"
+				}
+			]
+			title: "Archwood"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18DAE72E4F2B32E0"]
+			description: [
+				"Um weitere Glyphen zum Zaubern zu bekommen, brauchst du einen magischen Tisch, an dem du deine Studien im Spellbook festhalten kannst. Dazu stellst du den Tisch in die Welt und interagioerst mit ihm, während du dein Spellbook in der Hand hast."
+				""
+				"Zum erlernen der Glyphen sind dann immer XP und bestimmte Items nötig, die aus deiner Hand auf den Tisch gelegt werden."
+			]
+			id: "4C813B4746E751B2"
+			tasks: [{
+				id: "4EAED3CC3D1DEE70"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			title: "Mehr Glyphen, mehr Magie!"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4C813B4746E751B2"]
+			description: [
+				"Die Imbuement Chamber wird benutzt, um verschiedene elementare Essenzen etc. herzustellen, indem Items mit der magischen Ressource \"Source\" durchdrungen werden."
+				"Dieser Block stellt selbstständig die nötige Source her, kann aber auch von außen beschleunigt werden."
+			]
+			id: "540D952C52F19CB4"
+			subtitle: "Ist das noch Magie oder schon Technik?"
+			tasks: [{
+				id: "64720B4A034165B1"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			title: "Der erste Apparat"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["540D952C52F19CB4"]
+			description: ["Eines der wichtigsten Items, das in der Imbuement Chamber hergestellt wird, sind Source Gems. Dafür musst du nur ein Stück Lapis Lazuli oder eine Amethystscherbe hineinlegen und seine Magie wirken lassen."]
+			id: "30268E4E09E5A13C"
+			tasks: [{
+				id: "781F5BA89245D1C5"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "Uuuhh, Shiny!"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["30268E4E09E5A13C"]
+			description: [
+				"Bestimmt fragst du dich, ob es möglich ist, Source auch irgendwie zu sammeln und zu lagern."
+				"Sehet und staunet: Ein Source Jar."
+				""
+				"Besser als jedes Honigglas."
+			]
+			id: "0EE9BD17F58E71EC"
+			tasks: [{
+				id: "7AC5EABB617B01E6"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			title: "Flüssiges Gold? Flüssige Magie!"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0EE9BD17F58E71EC"]
+			description: ["Source kann auf die unterschiedlichsten Arten und Weisen produziert und aus verschiedenen Quellen bezogen werden."]
+			id: "27DA0134EECFA2F7"
+			tasks: [{
+				id: "04CF943E4A7B7748"
+				title: "Sourceproduktion"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["27DA0134EECFA2F7"]
+			description: [
+				"Source wächst nicht auf Bäumen...oder zumindest nicht direkt."
+				""
+				"Mit dieser Apparatur wird Source durch das natürliche Wachstum von Pflanzen und Bäumen produziert."
+				"Die Betonung liegt dabei auf &lNATÜRLICH!&r, also kein Bonemeal oder dergleichen."
+			]
+			id: "5F442ACC0CCC3DEE"
+			tasks: [{
+				id: "30B05F6BCE480392"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			title: "Die Macht der Pflanzen"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["27DA0134EECFA2F7"]
+			description: [
+				"Diese Apparatur produziert Source aus Nahrungsquellen. Je besser die Nahrung, desto mehr Source wird daraus gemacht."
+				""
+				"Magische Nahrungsquellen aus Ars Nouveau bringen sogar noch mehr Source ein."
+			]
+			id: "41A2BB314608A5F0"
+			tasks: [{
+				id: "0CACEACA91C4034B"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			title: "Die Macht der Nahrung"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["27DA0134EECFA2F7"]
+			description: [
+				"Diese Apparatur produziert Source aus brennbaren Materialien. Archwood bringt dabei größere Erträge, mit der Blazing Variante sogar noch mehr."
+				""
+				"Achtung: Nahe Steinblöcke können mit der Zeit zu Lava schmelzen!"
+				""
+				"Auf naher Lava können Lava Lilys erscheinen."
+			]
+			id: "3C50BD72E832D66A"
+			tasks: [{
+				id: "5D9E703771E5454C"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			title: "Die Macht der Hitze"
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["27DA0134EECFA2F7"]
+			description: ["Diese Apparatur produziert Source, wenn in dessen Nähe Mobs sterben oder Tiere sich vermehren."]
+			id: "4B03A47B6DCFAF22"
+			tasks: [{
+				id: "6818E55DD139D5DA"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			title: "Die Macht der Lebensenergie"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["27DA0134EECFA2F7"]
+			description: [
+				"Diese Apparatur produziert Source aus Tränken, die sich in nahen Potion Jars befinden."
+				""
+				"Die Menge ist abhängig von den Tränken."
+			]
+			id: "0C2CF50BADD2E02D"
+			optional: true
+			tasks: [{
+				id: "3A2EAE824DDE42FB"
+				item: "ars_nouveau:alchemical_sourcelink"
+				type: "item"
+			}]
+			title: "Die Macht der Alchemie"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0C2CF50BADD2E02D"
+				"27DA0134EECFA2F7"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Genau das Richtige, um große Mengen an Tränken zu lagern und zu verarbeiten."]
+			id: "0D8E474F76C125F7"
+			tasks: [{
+				id: "21F6AEB9395E849B"
+				item: "ars_nouveau:potion_jar"
+				type: "item"
+			}]
+			title: "Große Trankbehälter"
+			x: 3.0d
+			y: 9.0d
+		}
+	]
 	title: "ars noveau"
 }

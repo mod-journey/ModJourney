@@ -14,7 +14,7 @@
 				title: "asd"
 				type: "checkmark"
 			}]
-			x: -1.5d
+			x: -5.5d
 			y: -2.0d
 		}
 		{
@@ -34,7 +34,7 @@
 				item: "minecraft:purpur_block"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -5.5d
 			y: 0.0d
 		}
 		{
@@ -44,7 +44,7 @@
 				title: "qwer"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -4.0d
 			y: -2.0d
 		}
 		{
@@ -54,7 +54,7 @@
 				title: "sdf"
 				type: "checkmark"
 			}]
-			x: -3.0d
+			x: -7.0d
 			y: -2.0d
 		}
 		{
@@ -66,7 +66,7 @@
 				item: "minecraft:birch_planks"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -5.5d
 			y: 2.0d
 		}
 		{
@@ -77,7 +77,7 @@
 				item: "minecraft:oak_wood"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -5.5d
 			y: 4.5d
 		}
 		{

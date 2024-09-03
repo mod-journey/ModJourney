@@ -10,6 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0B04E60647C11A1D"]
 			id: "7DC64335DF20BD93"
 			shape: "gear"
 			size: 1.5d
@@ -18,20 +19,43 @@
 				item: "immersiveengineering:circuit_board"
 				type: "item"
 			}]
-			x: 2.25d
-			y: 14.25d
+			x: -0.5d
+			y: 14.0d
 		}
 		{
 			id: "19BDD9A98862D1F7"
+			rewards: [{
+				id: "2F82AD826A612B60"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.5d
-			tasks: [{
-				advancement: "immersiveengineering:main/main_root"
-				criterion: ""
-				id: "1F326C0A753BE0FE"
-				title: "Das Handbuch"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					id: "027E6B6FB00156F1"
+					item: {
+						Count: 1
+						id: "immersiveengineering:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72A46FCD79BB4453"
+					item: {
+						Count: 1
+						id: "immersiveengineering:wirecutter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Erste Werkzeuge"
 			x: 2.5d
 			y: 2.0d
 		}
@@ -39,7 +63,7 @@
 			dependencies: ["19BDD9A98862D1F7"]
 			id: "321F619E8B5074C1"
 			tasks: [{
-				advancement: "immersiveengineering:main/mb_blastfurnace"
+				advancement: "immersiveengineering:main/mb_cokeoven"
 				criterion: ""
 				id: "21B304ED655A56D1"
 				title: "Coke Ofen"
@@ -62,6 +86,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["41D498DF0CB2E1F7"]
 			id: "49B65584F6D6176D"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_crusher"
@@ -70,10 +95,11 @@
 				type: "advancement"
 			}]
 			title: "Zerkleinerer"
-			x: -5.5d
+			x: -3.5d
 			y: -0.5d
 		}
 		{
+			dependencies: ["41D498DF0CB2E1F7"]
 			id: "6039F64AD027BA19"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_refinery"
@@ -82,10 +108,11 @@
 				title: "Raffenerie"
 				type: "advancement"
 			}]
-			x: -5.0d
-			y: 5.0d
+			x: -3.5d
+			y: 4.5d
 		}
 		{
+			dependencies: ["41D498DF0CB2E1F7"]
 			id: "6DE018DFA945800B"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_fermenter"
@@ -95,17 +122,21 @@
 				type: "advancement"
 			}]
 			x: -9.0d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
+			dependencies: [
+				"1ADAFCF3A4253B6E"
+				"19267DFA9EB783BF"
+			]
 			id: "0B04E60647C11A1D"
 			tasks: [{
 				id: "18B5C663F76F8B59"
 				item: "immersiveengineering:plate_duroplast"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 12.0d
+			x: -0.5d
+			y: 10.5d
 		}
 		{
 			id: "637144EBE8BA9D39"
@@ -116,61 +147,79 @@
 				title: "Metallpresse"
 				type: "advancement"
 			}]
-			x: 7.0d
-			y: 5.0d
+			x: 5.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["55E997BC13673CDC"]
 			id: "41D498DF0CB2E1F7"
 			tasks: [{
-				id: "56B8758F3DF86641"
-				item: "immersiveengineering:ingot_steel"
+				id: "5AE347FA991EC91F"
+				item: "alltheores:steel_ingot"
 				type: "item"
 			}]
 			x: -3.5d
 			y: 2.0d
 		}
 		{
+			dependencies: [
+				"393D75C8A0E73B80"
+				"321F619E8B5074C1"
+			]
 			id: "1ADAFCF3A4253B6E"
 			tasks: [{
 				id: "49DA294500A30649"
 				item: "immersiveengineering:phenolic_resin_bucket"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 9.5d
+			x: -0.5d
+			y: 7.0d
 		}
 		{
+			dependencies: [
+				"0E2EC3ABC7500783"
+				"6039F64AD027BA19"
+			]
 			id: "393D75C8A0E73B80"
 			tasks: [{
 				id: "7FF7A4FA8DCD1C7F"
 				item: "immersiveengineering:acetaldehyde_bucket"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -6.5d
 			y: 7.0d
 		}
 		{
+			dependencies: ["6DE018DFA945800B"]
 			id: "0E2EC3ABC7500783"
-			tasks: [{
-				id: "3498CB53CD79EAC7"
-				item: "immersiveengineering:ethanol_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3498CB53CD79EAC7"
+					item: "immersiveengineering:ethanol_bucket"
+					type: "item"
+				}
+				{
+					id: "67E5D99595D14B0D"
+					item: "alltheores:silver_plate"
+					type: "item"
+				}
+			]
 			x: -9.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
+			dependencies: ["0788F9E6D027F21F"]
 			id: "3F60E405CEADC649"
 			tasks: [{
 				id: "5314CBF2A27F3517"
 				item: "immersiveengineering:dynamo"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 5.0d
+			x: 5.5d
+			y: -0.5d
 		}
 		{
+			dependencies: ["55E997BC13673CDC"]
 			id: "17016F720123E259"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_improvedblastfurnace"
@@ -180,7 +229,119 @@
 				type: "advancement"
 			}]
 			x: -0.5d
-			y: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "19267DFA9EB783BF"
+			tasks: [{
+				id: "4CF4EA5B086B370F"
+				item: "immersiveengineering:mold_plate"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3F60E405CEADC649"]
+			id: "2E3BDF304CE0F4D2"
+			tasks: [{
+				id: "49C4C64AE7D0D567"
+				item: "immersiveengineering:watermill"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["19BDD9A98862D1F7"]
+			id: "0788F9E6D027F21F"
+			tasks: [
+				{
+					count: 2L
+					id: "241D11FF09860C60"
+					item: "immersiveengineering:connector_lv"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7DAF3EEA29E56197"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7A643B513592928A"
+					item: "immersiveengineering:connector_lv_relay"
+					type: "item"
+				}
+			]
+			title: "Verkabelung"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F60E405CEADC649"]
+			id: "18C4B2B100643801"
+			tasks: [{
+				id: "04D21A81AAA1824D"
+				item: "immersiveengineering:windmill"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2E3BDF304CE0F4D2"
+				"18C4B2B100643801"
+				"115AB3F93465A685"
+			]
+			dependency_requirement: "one_completed"
+			hide: true
+			hide_dependency_lines: true
+			id: "6C7984DF59D8E26C"
+			tasks: [{
+				id: "0BB78D5FDA226CFA"
+				item: "immersiveengineering:capacitor_lv"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6C7984DF59D8E26C"]
+			id: "7A633DD4525F4618"
+			tasks: [{
+				id: "0EA1872377FF538A"
+				item: "immersiveengineering:capacitor_mv"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7A633DD4525F4618"]
+			id: "1342E29C40F48729"
+			tasks: [{
+				id: "5788824EE9E73578"
+				item: "immersiveengineering:capacitor_hv"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0788F9E6D027F21F"]
+			id: "115AB3F93465A685"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "555BC7FB691206A3"
+				item: "immersiveengineering:thermoelectric_generator"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
 		}
 	]
 	title: "Immersive Engineering"
