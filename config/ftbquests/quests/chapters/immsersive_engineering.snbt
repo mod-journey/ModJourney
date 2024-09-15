@@ -57,10 +57,10 @@
 			]
 			title: "Erste Werkzeuge"
 			x: 2.5d
-			y: 2.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["19BDD9A98862D1F7"]
+			dependencies: ["6F5C2EEF4E3ECCEA"]
 			id: "321F619E8B5074C1"
 			tasks: [{
 				advancement: "immersiveengineering:main/mb_cokeoven"
@@ -73,7 +73,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["19BDD9A98862D1F7"]
+			dependencies: ["6F5C2EEF4E3ECCEA"]
 			id: "55E997BC13673CDC"
 			tasks: [{
 				advancement: "immersiveengineering:main/mb_blastfurnace"
@@ -139,6 +139,10 @@
 			y: 10.5d
 		}
 		{
+			dependencies: [
+				"0788F9E6D027F21F"
+				"6F5C2EEF4E3ECCEA"
+			]
 			id: "637144EBE8BA9D39"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_metalpress"
@@ -148,7 +152,7 @@
 				type: "advancement"
 			}]
 			x: 5.5d
-			y: 7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["55E997BC13673CDC"]
@@ -216,7 +220,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -0.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["55E997BC13673CDC"]
@@ -232,6 +236,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["637144EBE8BA9D39"]
 			id: "19267DFA9EB783BF"
 			tasks: [{
 				id: "4CF4EA5B086B370F"
@@ -250,7 +255,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["19BDD9A98862D1F7"]
@@ -277,7 +282,7 @@
 			]
 			title: "Verkabelung"
 			x: 5.5d
-			y: 2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3F60E405CEADC649"]
@@ -288,7 +293,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -340,7 +345,109 @@
 				item: "immersiveengineering:thermoelectric_generator"
 				type: "item"
 			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["637144EBE8BA9D39"]
+			id: "3AD73917C403B8D4"
+			tasks: [{
+				id: "6759DD3EE42EF4E6"
+				item: "immersiveengineering:mold_gear"
+				type: "item"
+			}]
 			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["637144EBE8BA9D39"]
+			id: "190068EC7EA9328E"
+			tasks: [{
+				id: "51A15BA0D9F16886"
+				item: "immersiveengineering:mold_wire"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			id: "2CACA64616A52B62"
+			tasks: [{
+				id: "529F8127290FFFEC"
+				item: {
+					Count: 1
+					id: "immersiveengineering:survey_tools"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2CACA64616A52B62"]
+			id: "344CBA812CE2EDA5"
+			tasks: [{
+				id: "0C01C483F7852CBA"
+				item: "immersiveengineering:sample_drill"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["344CBA812CE2EDA5"]
+			id: "74BB74DD34553BDC"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_excavator"
+				criterion: ""
+				id: "2BA6D98F7912E925"
+				type: "advancement"
+			}]
+			x: -13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19267DFA9EB783BF"]
+			id: "5DED0C844BACDB83"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_dieselgen"
+				criterion: ""
+				id: "3A144CDDD2AA92CC"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["55E997BC13673CDC"]
+			id: "0609243607AE829F"
+			tasks: [{
+				count: 2L
+				id: "18870151FB1F8601"
+				item: { Count: 2, id: "immersiveengineering:blastfurnace_preheater" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["19BDD9A98862D1F7"]
+			description: [
+				"Das &9Ingenieurshandbuch&r beschreibt, wie man aus vielen unterschiedlichen Blöcken große Maschinen zusammenbaut."
+				""
+				"Wenn die Blöcke der Maschine korrekt plaziert sind, reicht ein Klick mit dem Ingenieurshandhammer, um die Blöcke in eine Multiblock-Maschine zu verwandeln."
+			]
+			id: "6F5C2EEF4E3ECCEA"
+			subtitle: "Eine Maschine aus vielen Blöcken"
+			tasks: [{
+				id: "66A3304C4C6E7629"
+				title: "Multiblocks"
+				type: "checkmark"
+			}]
+			x: 2.5d
 			y: 2.0d
 		}
 	]
