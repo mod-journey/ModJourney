@@ -1,23 +1,25 @@
 {
+	autofocus_id: "1D18FA062A8CDBDE"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "industrial_forgoing"
 	group: "4B1BD2A866D0526F"
 	icon: "minecraft:dried_kelp_block"
 	id: "755B9005FE1A4302"
+	images: [{
+		color: 1019157
+		dependency: "534AEFBDAFA3754C"
+		height: 1.0d
+		hover: ["grüner pointer"]
+		image: "ftbchunks:textures/waypoint_default.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: -0.5d
+		y: -3.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
-		{
-			id: "55DC368F1E3A12A9"
-			tasks: [{
-				id: "4B3C3A33F7CA71DE"
-				title: "Radon"
-				type: "custom"
-			}]
-			x: -9.0d
-			y: -2.0d
-		}
 		{
 			dependencies: ["22EAA39C771097BA"]
 			id: "3F43A51AF14B6FF9"
@@ -27,11 +29,14 @@
 				table_id: 2498778483368621286L
 				type: "loot"
 			}]
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "7D8711AACA216C27"
 				item: "industrialforegoing:fluid_laser_base"
 				type: "item"
 			}]
+			title: "&2 Fluid Laser"
 			x: -3.0d
 			y: 5.5d
 		}
@@ -55,8 +60,8 @@
 				"54C0801350CC8CE7"
 			]
 			id: "2EEB5D5E78C0F724"
-			shape: "diamond"
-			size: 1.5d
+			shape: "pentagon"
+			size: 1.2d
 			tasks: [{
 				id: "2FBE10A5A8181FDD"
 				item: "industrialforegoing:machine_frame_simple"
@@ -71,8 +76,8 @@
 				"2EEB5D5E78C0F724"
 			]
 			id: "22EAA39C771097BA"
-			shape: "diamond"
-			size: 1.5d
+			shape: "pentagon"
+			size: 1.2d
 			tasks: [{
 				id: "40142716650CEAA8"
 				item: "industrialforegoing:machine_frame_advanced"
@@ -87,8 +92,8 @@
 				"545E1A2C4F9C2E1E"
 			]
 			id: "01CEFF4178663647"
-			shape: "diamond"
-			size: 1.5d
+			shape: "pentagon"
+			size: 1.2d
 			tasks: [{
 				id: "3EEFBBE8CCC5DA1B"
 				item: "industrialforegoing:machine_frame_supreme"
@@ -175,6 +180,7 @@
 				table_id: 2626029047110404942L
 				type: "loot"
 			}]
+			size: 1.2d
 			tasks: [{
 				id: "60897503FB9F3CDC"
 				item: "industrialforegoing:ore_laser_base"
@@ -195,6 +201,12 @@
 			y: 2.5d
 		}
 		{
+			dependencies: [
+				"7DC64335DF20BD93"
+				"589407ECB629164D"
+			]
+			dependency_requirement: "one_completed"
+			hide: true
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"
@@ -220,8 +232,8 @@
 				type: "item"
 			}]
 			title: "Industrial Handbuch"
-			x: -0.5d
-			y: -5.0d
+			x: -2.5d
+			y: -2.5d
 		}
 	]
 	title: "Industrial Foregoing"
