@@ -8,6 +8,7 @@
 	id: "3D16A9014EC265AC"
 	images: [
 		{
+			dependency: "67E0A85291DD6898"
 			height: 2.5d
 			image: "ftbquests:block/barrier_open"
 			rotation: 0.0d
@@ -16,6 +17,7 @@
 			y: 3.0d
 		}
 		{
+			dependency: "67E0A85291DD6898"
 			height: 2.5d
 			image: "ftbquests:block/barrier_open"
 			rotation: 0.0d
@@ -24,6 +26,7 @@
 			y: 6.0d
 		}
 		{
+			dependency: "67E0A85291DD6898"
 			height: 2.0d
 			image: "ae2:block/controller_lights"
 			rotation: 0.0d
@@ -36,9 +39,13 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["611F306A250EA20E"]
+			dependencies: [
+				"611F306A250EA20E"
+				"1037AFA7BDC22B53"
+			]
+			dependency_requirement: "one_completed"
 			description: ["Das ist das Staged-In Item für Mekanism"]
-			hide: false
+			hide: true
 			id: "67E0A85291DD6898"
 			shape: "diamond"
 			size: 1.5d
@@ -258,10 +265,31 @@
 			dependencies: ["6C5BE975156902BA"]
 			id: "75EE38089094F5A0"
 			tasks: [{
-				id: "429505956CFDC11D"
-				item: "mekanism:sawdust"
+				id: "57D878DC04D60CE7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "immersiveengineering:dust_wood"
+							}
+							{
+								Count: 1b
+								id: "mekanism:sawdust"
+							}
+							{
+								Count: 1b
+								id: "thermal:sawdust"
+							}
+						]
+					}
+				}
+				title: "Any Sawdust"
 				type: "item"
 			}]
+			title: "Sawdust"
 			x: -10.5d
 			y: -4.5d
 		}
@@ -333,6 +361,8 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["67E0A85291DD6898"]
+			hide_dependency_lines: true
 			id: "18EDBCF5CA37E870"
 			subtitle: "Damit kannst du deine Machinen verbsern"
 			tasks: [{
@@ -380,8 +410,8 @@
 			dependencies: ["213B59D4A4A2309C"]
 			id: "36807C2AED0608DA"
 			tasks: [{
-				id: "2C4205DA0926C4E4"
-				item: "mekanism:ingot_steel"
+				id: "46549FBF15C5A5BB"
+				item: "alltheores:steel_ingot"
 				type: "item"
 			}]
 			x: -2.0d
@@ -715,6 +745,7 @@
 		}
 		{
 			dependencies: ["1C84F8611AA48F76"]
+			icon: "mekanismgenerators:electromagnetic_coil"
 			id: "32CCA4CEC3CE9954"
 			tasks: [
 				{
@@ -784,6 +815,7 @@
 		{
 			dependencies: ["06269AB8ABA02861"]
 			description: ["Du kannst hin auch erweitern "]
+			icon: "mekanismgenerators:fission_fuel_assembly"
 			id: "1C84F8611AA48F76"
 			tasks: [
 				{
@@ -832,6 +864,7 @@
 		}
 		{
 			dependencies: ["015E570ECC1C439F"]
+			icon: "mekanism:supercharged_coil"
 			id: "04FE57976FCDA353"
 			tasks: [
 				{
@@ -894,6 +927,7 @@
 				"732256E339B0D5FC"
 				"50BA018956B58618"
 			]
+			icon: "mekanismgenerators:fusion_reactor_controller"
 			id: "4B9318FBFB1FF36F"
 			shape: "pentagon"
 			size: 2.0d
@@ -954,6 +988,8 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["67E0A85291DD6898"]
+			hide_dependency_lines: true
 			id: "6170EFC850A5AAEB"
 			tasks: [{
 				id: "62B7957B587CCE66"
@@ -975,6 +1011,8 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["67E0A85291DD6898"]
+			hide_dependency_lines: true
 			id: "42E3E1F38CFE5BFC"
 			tasks: [{
 				id: "6A7CEA7FF235B975"
@@ -1073,6 +1111,8 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["67E0A85291DD6898"]
+			hide_dependency_lines: true
 			id: "27106D1C6E307236"
 			tasks: [{
 				id: "6BFA15D4F03765D6"
@@ -1116,6 +1156,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["67E0A85291DD6898"]
+			hide_dependency_lines: true
 			id: "2E846156A5634DFA"
 			tasks: [{
 				id: "56991B44E3C69DD2"
@@ -1127,6 +1169,7 @@
 		}
 		{
 			dependencies: ["1C84F8611AA48F76"]
+			icon: "mekanism:laser"
 			id: "50BA018956B58618"
 			tasks: [
 				{
@@ -1148,6 +1191,7 @@
 		}
 		{
 			dependencies: ["2E846156A5634DFA"]
+			icon: "mekanism:basic_induction_provider"
 			id: "50E017A67D63471B"
 			tasks: [
 				{

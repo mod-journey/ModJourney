@@ -368,6 +368,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["56EC43612E86483A"]
 			description: ["Man kann Falsite Nuggets nutzen anstatt Lapis beim Verzaubern"]
 			id: "649B767D5C690C73"
 			tasks: [{

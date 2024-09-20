@@ -8,36 +8,43 @@
 	id: "5F4F40A7D501FDEE"
 	images: [
 		{
+			dependency: "280D95E313DDA71D"
 			height: 2.0d
+			hover: ["forge:uran"]
 			image: "alltheores:item/uranium_ingot"
 			rotation: 0.0d
 			width: 2.0d
-			x: -1.4224489795918203d
-			y: -2.2105442176870724d
+			x: -3.5d
+			y: -3.385714285714279d
 		}
 		{
+			dependency: "280D95E313DDA71D"
 			height: 2.0d
+			hover: ["forge:yellorium"]
 			image: "bigreactors:item/yellorium_ingot"
 			rotation: 0.0d
 			width: 2.0d
-			x: 1.5204081632653228d
-			y: -2.2676870748299365d
+			x: -0.5571428571428569d
+			y: -3.442857142857143d
 		}
 		{
+			dependency: "280D95E313DDA71D"
 			height: 1.0d
 			image: "kubejs:textures/background/green_symboles/letters/i.png"
 			rotation: 90.0d
 			width: 1.0d
-			x: 0.0d
-			y: -2.0d
+			x: -2.0775510204081797d
+			y: -3.1751700680272066d
 		}
 		{
+			dependency: "280D95E313DDA71D"
 			height: 1.0d
+			hover: ["gleichheitszeichen"]
 			image: "kubejs:textures/background/green_symboles/letters/i.png"
 			rotation: 90.0d
 			width: 1.0d
-			x: 0.010204081632679163d
-			y: -2.3248299319727934d
+			x: -2.0673469387755006d
+			y: -3.5d
 		}
 		{
 			height: 1.0d
@@ -48,6 +55,7 @@
 			y: 24.0d
 		}
 		{
+			dependency: "280D95E313DDA71D"
 			height: 2.0d
 			image: "botania:block/alchemy_catalyst_overlay"
 			rotation: 0.0d
@@ -55,18 +63,34 @@
 			x: 19.0d
 			y: 12.0d
 		}
+		{
+			color: 1019157
+			dependency: "280D95E313DDA71D"
+			height: 1.0d
+			hover: ["grüner pointer"]
+			image: "ftbchunks:textures/waypoint_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.019047619047611875d
+			y: 0.7238095238095283d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0A07C47718CD1F80"]
+			dependencies: [
+				"0A07C47718CD1F80"
+				"12D3B4B92CA5252C"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"Herzlich Willkommen in Extreme Reactors. Gut in unserem Modpack nicht ganz so Extrem."
 				"Gleich vorne Weg: "
 				"&2&lYellorium ist identisch zu Uran&r."
 			]
 			id: "280D95E313DDA71D"
+			invisible_until_tasks: 1
 			rewards: [{
 				id: "79398FEFDE1829F8"
 				item: {
@@ -85,8 +109,8 @@
 				title: "Extreme Reactor"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -0.5d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3D755E72F89F3702"]
@@ -128,7 +152,7 @@
 			]
 			title: "Basic Reactor"
 			x: 1.5d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["280D95E313DDA71D"]
@@ -139,7 +163,7 @@
 				item: "bigreactors:graphite_ingot"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: 1.5d
 		}
 		{
@@ -152,7 +176,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["68CBEF963313DC33"]
@@ -207,7 +231,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["68CBEF963313DC33"]
@@ -287,14 +311,16 @@
 				"{@pagebreak}"
 				"Hast Du deinen Reaktor vorher Aktiv gekühlt und stellst diesen dann auf Passiv um, wird der Reaktor seine Leistung (Verbrauchsreaktor) nicht mehr erreichen. Ich empfehle den Multiblock abzureißen und Neu zu bauen. "
 			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
 			id: "3154E80F60E99856"
 			tasks: [{
 				id: "074D1299CC61739F"
 				title: "kleinere Bugs"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: -0.5d
+			x: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["280D95E313DDA71D"]
@@ -303,6 +329,8 @@
 				"{@pagebreak}"
 				"Um es greifbarer zu machen das wäre eine 1 gefolgt von 18 Nullen. "
 			]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
 			id: "4D3EA87317F9F6BA"
 			subtitle: "Der Energizer"
 			tasks: [{
@@ -310,8 +338,8 @@
 				title: "Energizer"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: -0.5d
+			x: -3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -386,7 +414,10 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["280D95E313DDA71D"]
 			description: ["Die Think (Spülbecken) soll dein bester Freund sein."]
+			hide: true
+			hide_dependency_lines: true
 			id: "1DB2485BC022595E"
 			shape: "pentagon"
 			tasks: [{
@@ -454,7 +485,10 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["280D95E313DDA71D"]
 			description: ["Füge Yellorium/Uran mit hinzu. "]
+			hide: true
+			hide_dependency_lines: true
 			id: "13A18FED2817D59A"
 			shape: "pentagon"
 			tasks: [{
@@ -692,10 +726,13 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["280D95E313DDA71D"]
 			description: [
 				"Zu finden im Nether. "
 				"&5WIP:&r Wurde wohl auch auf Glacio schon gefunden."
 			]
+			hide: true
+			hide_dependency_lines: true
 			id: "60B95EE1477F2724"
 			shape: "pentagon"
 			tasks: [{

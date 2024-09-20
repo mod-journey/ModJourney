@@ -1,18 +1,54 @@
 {
+	autofocus_id: "19ECDD38FF50B386"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "bloodmagic"
 	group: "16F9BB65CBA165C2"
 	icon: "bloodmagic:altar"
 	id: "04F3F575A212196A"
-	images: [{
-		height: 1.0d
-		image: "mcwwindows:block/light_blue_side"
-		rotation: 90.0d
-		width: 1.0d
-		x: 10.5d
-		y: 27.0d
-	}]
+	images: [
+		{
+			height: 1.0d
+			image: "mcwwindows:block/light_blue_side"
+			rotation: 90.0d
+			width: 1.0d
+			x: 10.5d
+			y: 27.0d
+		}
+		{
+			color: 1019157
+			dependency: "19ECDD38FF50B386"
+			height: 1.0d
+			hover: ["grüner pointer"]
+			image: "ftbchunks:textures/waypoint_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			color: 1019157
+			dependency: "19ECDD38FF50B386"
+			height: 1.0d
+			hover: ["grüner pointer"]
+			image: "ftbchunks:textures/waypoint_default.png"
+			rotation: 180.0d
+			width: 1.0d
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			color: 1019157
+			dependency: "19ECDD38FF50B386"
+			height: 1.0d
+			hover: ["grüner pointer"]
+			image: "ftbchunks:textures/waypoint_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.696428571428577d
+			y: -2.0714285714285623d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

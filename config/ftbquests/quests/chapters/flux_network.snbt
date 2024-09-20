@@ -1,4 +1,5 @@
 {
+	autofocus_id: "04D1A0A91AE72503"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "flux_network"
@@ -9,7 +10,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["794E571853408FC4"]
+			dependencies: [
+				"794E571853408FC4"
+				"401717FD15981E80"
+			]
+			dependency_requirement: "one_completed"
 			id: "04D1A0A91AE72503"
 			shape: "pentagon"
 			size: 2.0d

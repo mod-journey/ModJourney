@@ -1,5 +1,6 @@
 {
 	chapter_groups: [
+		{ id: "138E6CC1C80F610D", title: "&2Admin" }
 		{ id: "78025998DBB7AC61", title: "&b&6Allgemein" }
 		{ id: "00D014EB3FA9ED8A", title: "&b&6Stage I" }
 		{ id: "4B1BD2A866D0526F", title: "&b&6Stage II" }

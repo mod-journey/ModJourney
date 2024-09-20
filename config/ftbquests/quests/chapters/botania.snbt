@@ -6,6 +6,17 @@
 	group: "16F9BB65CBA165C2"
 	icon: "botania:elven_spreader"
 	id: "04B310FD4BE76150"
+	images: [{
+		color: 1019157
+		dependency: "34B0ABA33385F0EC"
+		height: 1.0d
+		hover: ["grüner pointer"]
+		image: "ftbchunks:textures/waypoint_default.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: -6.8750000000000036d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -222,7 +233,6 @@
 				type: "loot"
 			}]
 			tasks: [{
-				count: 4L
 				id: "63216B748B7BF887"
 				item: {
 					Count: 1
@@ -467,7 +477,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 0.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0178C5D120D50957"]
@@ -490,7 +500,7 @@
 					count: 5L
 					id: "2AA422F278ACA92C"
 					item: "botania:livingrock"
-					only_from_crafting: true
+					only_from_crafting: false
 					type: "item"
 				}
 			]
@@ -507,7 +517,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 1.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5C5F38C8C9C0F723"]
@@ -518,7 +528,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 1.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5C5F38C8C9C0F723"]
@@ -529,7 +539,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 2.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["5C5F38C8C9C0F723"]
@@ -540,13 +550,14 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 2.0d
+			y: 8.5d
 		}
 		{
 			dependencies: [
 				"7BCB1A3305D7B09C"
 				"2028A35AA44C8F55"
 			]
+			description: ["Du benötigst mindestens einen halben Manapool um diese Ingot herzustellen."]
 			id: "671FB6732DEC8471"
 			shape: "gear"
 			size: 1.5d
@@ -594,7 +605,6 @@
 			id: "2110D091E58418EF"
 			tasks: [
 				{
-					consume_items: true
 					count: 8L
 					id: "3EA381F3F3E01962"
 					item: "botania:livingwood_log"

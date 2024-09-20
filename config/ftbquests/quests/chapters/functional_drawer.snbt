@@ -10,6 +10,10 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"1CA7D865E47A7D27"
+				"11440B533262C7FB"
+			]
 			id: "61474F5C289C9886"
 			tasks: [{
 				id: "1175F6769E43539F"
@@ -20,6 +24,7 @@
 						value: "functionalstorage:drawer"
 					}
 				}
+				title: "Custom Drawer"
 				type: "item"
 			}]
 			title: "Deine ersten Drawer"
@@ -27,7 +32,7 @@
 			y: -6.0d
 		}
 		{
-			description: ["Functional Storage != Storage Drawer. In den Vergangen Packs wurde auf Storage Drawer gesetzt. Dies haben wir dieses Jahr geändert. Somit werden einige Vorteile, schon durch diese Mod erzeugt. Wireless-Crafting ist so nun möglich und stark vereinfacht."]
+			description: ["Functional Storage ist ungleich Storage Drawer. In den Vergangen Packs wurde auf Storage Drawer gesetzt. Dies haben wir dieses Jahr geändert. Somit werden einige Vorteile, schon durch diese Mod erzeugt. Wireless-Crafting ist so nun möglich und stark vereinfacht."]
 			disable_toast: true
 			id: "11440B533262C7FB"
 			tasks: [{
@@ -35,7 +40,7 @@
 				title: "Functional Stroge"
 				type: "checkmark"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: -9.5d
 		}
 		{
@@ -47,8 +52,8 @@
 				title: "Die größe des Systems"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: -11.0d
+			x: -4.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["61474F5C289C9886"]

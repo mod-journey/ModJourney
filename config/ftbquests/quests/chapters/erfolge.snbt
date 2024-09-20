@@ -3,90 +3,39 @@
 	default_quest_shape: ""
 	filename: "erfolge"
 	group: "78025998DBB7AC61"
+	icon: "minecraft:writable_book"
 	id: "430393DC3F2A60F9"
+	images: [
+		{
+			color: 1019157
+			height: 1.0d
+			hover: ["grüner pointer"]
+			image: "ftbchunks:textures/waypoint_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -19.0d
+			y: -3.0d
+		}
+		{
+			color: 3614107
+			height: 1.0d
+			image: "ftbchunks:textures/waypoint_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -19.0d
+			y: -4.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
-		{
-			id: "19F49C59DEE1D1B8"
-			tasks: [{
-				id: "00F0A1749EFF1260"
-				title: "asd"
-				type: "checkmark"
-			}]
-			x: -5.5d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"19F49C59DEE1D1B8"
-				"658293F4023BA2CF"
-				"38A1825FA5A19034"
-			]
-			description: ["asdasdaftgrthetrh"]
-			hide: true
-			hide_text_until_complete: true
-			id: "1FBE343F411AB05C"
-			min_required_dependencies: 2
-			tasks: [{
-				count: 64L
-				id: "43CBD26E85397366"
-				item: "minecraft:purpur_block"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 0.0d
-		}
-		{
-			id: "658293F4023BA2CF"
-			tasks: [{
-				id: "6EC447F076D0AD8D"
-				title: "qwer"
-				type: "checkmark"
-			}]
-			x: -4.0d
-			y: -2.0d
-		}
-		{
-			id: "38A1825FA5A19034"
-			tasks: [{
-				id: "7CDE53AFBE3F5752"
-				title: "sdf"
-				type: "checkmark"
-			}]
-			x: -7.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["1FBE343F411AB05C"]
-			hide: false
-			id: "6BD48A88459DAC60"
-			tasks: [{
-				id: "098D5FE5F2EB9512"
-				item: "minecraft:birch_planks"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["6BD48A88459DAC60"]
-			id: "1C1B8D7465C607B3"
-			tasks: [{
-				id: "60EFF87CEA024059"
-				item: "minecraft:oak_wood"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 4.5d
-		}
 		{
 			id: "14F41333B9ECFD49"
 			rewards: [{
 				auto: "invisible"
 				id: "433084737024B424"
 				ignore_reward_blocking: true
-				stage: ""
+				stage: "Magie"
 				tags: ["magie"]
 				type: "gamestage"
 			}]
@@ -96,7 +45,169 @@
 				type: "checkmark"
 			}]
 			x: -12.5d
-			y: 0.5d
+			y: -1.0d
+		}
+		{
+			icon: "industrialforegoing:fluid_sieving_machine"
+			id: "589407ECB629164D"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "1AA066707E0EF4B5"
+				item: "mod_journey:scroll1"
+				type: "item"
+			}]
+			title: "Let's show: Industrial Foregoing"
+			x: -14.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_3_rocket"
+				tag: { }
+			}
+			id: "0B7B7C7A1366C9D1"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "344255FBADB92524"
+				item: "mod_journey:scroll2"
+				type: "item"
+			}]
+			title: "Let's show: Ad Astra"
+			x: -12.5d
+			y: 3.0d
+		}
+		{
+			icon: "thermal:machine_insolator"
+			id: "429795EB7B105CB3"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "4EFA8D4479207B6F"
+				item: "mod_journey:scroll3"
+				type: "item"
+			}]
+			title: "Let's show: Thermal Series"
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			icon: "ae2:certus_quartz_wrench"
+			id: "7C598C88ABF08E11"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "2D9639F17DB8264A"
+				item: "mod_journey:scroll4"
+				type: "item"
+			}]
+			title: "Let's show: AE2"
+			x: -14.0d
+			y: 4.5d
+		}
+		{
+			icon: "bigreactors:basic_reactorfuelrod"
+			id: "12D3B4B92CA5252C"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "4750AFCEE49CDF0F"
+				item: "mod_journey:scroll5"
+				type: "item"
+			}]
+			title: "Let's show: Extreme Reactor"
+			x: -12.5d
+			y: 4.5d
+		}
+		{
+			icon: "powah:crystal_nitro"
+			id: "54E91CBDA4D83EDE"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "3307308966668DD6"
+				item: "mod_journey:scroll6"
+				type: "item"
+			}]
+			title: "Let's show: Powah!"
+			x: -11.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "enderio:soul_engine"
+				tag: { }
+			}
+			id: "4AED5A8C9C70A9C9"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "79E2BBFB779AEA1A"
+				item: "mod_journey:scroll7"
+				type: "item"
+			}]
+			title: "Let's show: Ender IO"
+			x: -14.0d
+			y: 6.0d
+		}
+		{
+			hide: true
+			icon: "fluxnetworks:flux_dust"
+			id: "401717FD15981E80"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "791A2688CD5F77E3"
+				item: "mod_journey:scroll8"
+				type: "item"
+			}]
+			title: "Let's show: Flux Network"
+			x: -12.5d
+			y: 6.0d
+		}
+		{
+			icon: "mekanism:atomic_disassembler"
+			id: "1037AFA7BDC22B53"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "7A28AA8977951CC7"
+				item: "mod_journey:scroll9"
+				type: "item"
+			}]
+			title: "Let's show: Mekanism"
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			description: ["Blaue Pointer geben an, dass es sich um ein sogenanntes \"gated-out\" Item handelt. Dieses Item muss gefertigt werden, sodass ihr mehr Progress aus anderen Mods freischaltet."]
+			id: "4714ADC72743367C"
+			tasks: [{
+				id: "56CE3F986D67E885"
+				title: "Rote Checkmark"
+				type: "checkmark"
+			}]
+			title: "Blaue Checkmark"
+			x: -17.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"Grüne Pointer geben an, dass das Item um welches sich die Quest handelt, von uns modifiziert wurde. "
+				"Es handelt sich um sogenannte \"gatet-in\" Items. Diese werden aus einer vorigen Stage freigeschaltet."
+			]
+			id: "7F5165B07AC3898B"
+			tasks: [{
+				id: "2BE970218C62BC8F"
+				title: "Rote Checkmark"
+				type: "checkmark"
+			}]
+			title: "Grüne Checkmark"
+			x: -17.5d
+			y: -3.0d
 		}
 	]
 	title: "Erfolge"

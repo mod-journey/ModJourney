@@ -4,8 +4,18 @@
 	default_quest_shape: ""
 	filename: "immsersive_engineering"
 	group: "00D014EB3FA9ED8A"
-	icon: "minecraft:dried_kelp_block"
+	icon: "immersiveengineering:windmill_blade"
 	id: "486D38DC43A626CE"
+	images: [{
+		color: 1019157
+		height: 1.0d
+		hover: ["grüner pointer"]
+		image: "ftbchunks:textures/waypoint_default.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 2.5d
+		y: -1.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -427,7 +437,7 @@
 			tasks: [{
 				count: 2L
 				id: "18870151FB1F8601"
-				item: { Count: 2, id: "immersiveengineering:blastfurnace_preheater" }
+				item: "immersiveengineering:blastfurnace_preheater"
 				type: "item"
 			}]
 			x: -0.5d

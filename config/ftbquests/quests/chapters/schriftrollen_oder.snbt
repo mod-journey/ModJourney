@@ -1,0 +1,47 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "schriftrollen_oder"
+	group: "138E6CC1C80F610D"
+	id: "63656124524EAA9C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "70689E6F159E0ED8"
+			rewards: [{
+				command: "/team join orga @s"
+				elevate_perms: true
+				id: "55C34DD660B509C3"
+				type: "command"
+			}]
+			tasks: [{
+				id: "1CA24C7580C2B7C0"
+				title: "orga an"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			id: "587D6479AE3AB402"
+			rewards: [{
+				command: "/team leave @s"
+				elevate_perms: true
+				id: "57EF9F483E3D78F2"
+				type: "command"
+			}]
+			tasks: [{
+				id: "347818BBCEA7CEA4"
+				title: "orga aus"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+	]
+	title: "administrative Befehle"
+}

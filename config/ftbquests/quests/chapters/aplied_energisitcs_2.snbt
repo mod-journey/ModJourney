@@ -1,4 +1,5 @@
 {
+	autofocus_id: "43120BDFFF95EF89"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "aplied_energisitcs_2"
@@ -12,8 +13,8 @@
 			image: "kubejs:textures/background/green_symboles/letters/a.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 15.016666666666673d
-			y: -3.2222789115646435d
+			x: 13.516666666666673d
+			y: 0.005102040816307607d
 		}
 		{
 			dependency: "43120BDFFF95EF89"
@@ -21,8 +22,8 @@
 			image: "kubejs:textures/background/green_symboles/letters/u.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 15.516666666666673d
-			y: -3.2222789115646435d
+			x: 14.016666666666673d
+			y: 0.005102040816307607d
 		}
 		{
 			dependency: "43120BDFFF95EF89"
@@ -30,8 +31,8 @@
 			image: "kubejs:textures/background/green_symboles/letters/t.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 16.016666666666673d
-			y: -3.2222789115646435d
+			x: 14.516666666666673d
+			y: 0.005102040816307607d
 		}
 		{
 			dependency: "43120BDFFF95EF89"
@@ -39,8 +40,8 @@
 			image: "kubejs:textures/background/green_symboles/letters/o.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 16.516666666666673d
-			y: -3.2222789115646435d
+			x: 15.016666666666673d
+			y: 0.005102040816307607d
 		}
 		{
 			dependency: "43120BDFFF95EF89"
@@ -48,8 +49,8 @@
 			image: "kubejs:textures/background/green_symboles/letters/c.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 17.516666666666673d
-			y: -3.2222789115646435d
+			x: 16.016666666666673d
+			y: 0.005102040816307607d
 		}
 		{
 			dependency: "43120BDFFF95EF89"
@@ -57,8 +58,8 @@
 			image: "kubejs:textures/background/green_symboles/letters/r.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 18.016666666666673d
-			y: -3.2222789115646435d
+			x: 16.516666666666673d
+			y: 0.005102040816307607d
 		}
 		{
 			dependency: "43120BDFFF95EF89"
@@ -66,8 +67,8 @@
 			image: "kubejs:textures/background/green_symboles/letters/a.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 18.554421768707506d
-			y: -3.227380952380951d
+			x: 17.054421768707506d
+			y: 0.0d
 		}
 		{
 			dependency: "43120BDFFF95EF89"
@@ -75,8 +76,8 @@
 			image: "kubejs:textures/background/green_symboles/letters/f.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 19.085034013605473d
-			y: -3.2273809523809476d
+			x: 17.585034013605473d
+			y: 3.552713678800501E-15d
 		}
 		{
 			dependency: "43120BDFFF95EF89"
@@ -84,8 +85,8 @@
 			image: "kubejs:textures/background/green_symboles/letters/t.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 19.608503401360544d
-			y: -3.2205782312925315d
+			x: 18.108503401360544d
+			y: 0.0068027210884196165d
 		}
 		{
 			dependency: "43120BDFFF95EF89"
@@ -93,8 +94,8 @@
 			image: "kubejs:textures/background/green_symboles/letters/i.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 20.016666666666673d
-			y: -3.2222789115646435d
+			x: 18.516666666666673d
+			y: 0.005102040816307607d
 		}
 		{
 			dependency: "43120BDFFF95EF89"
@@ -102,8 +103,8 @@
 			image: "kubejs:textures/background/green_symboles/letters/n.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 20.516666666666673d
-			y: -3.2222789115646435d
+			x: 19.016666666666673d
+			y: 0.005102040816307607d
 		}
 		{
 			dependency: "43120BDFFF95EF89"
@@ -111,8 +112,8 @@
 			image: "kubejs:textures/background/green_symboles/letters/g.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 21.11870748299321d
-			y: -3.2205782312925315d
+			x: 19.61870748299321d
+			y: 0.0068027210884196165d
 		}
 		{
 			dependency: "43120BDFFF95EF89"
@@ -121,17 +122,38 @@
 			order: -1
 			rotation: 0.0d
 			width: 10.0d
-			x: 18.016666666666673d
-			y: -3.2222789115646435d
+			x: 16.516666666666673d
+			y: 0.005102040816307607d
+		}
+		{
+			color: 1019157
+			dependency: "43120BDFFF95EF89"
+			height: 1.0d
+			hover: ["grüner pointer"]
+			image: "ftbchunks:textures/waypoint_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 7.5d
 		}
 	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7DC64335DF20BD93"]
+			dependencies: [
+				"7DC64335DF20BD93"
+				"7C598C88ABF08E11"
+			]
+			dependency_requirement: "one_completed"
 			description: ["AE2 ist eine Storage Mod. Mit dieser Mod kannst Du Items konsolidiert speichern und auf diese dezentral Zugreifen. Du kannst Craftingprozesse automatisieren und die wildesten Konstelationen automatisieren. "]
+			hide: true
 			id: "43120BDFFF95EF89"
+			rewards: [{
+				id: "7B6730F846852DE5"
+				item: "ae2:guide"
+				type: "item"
+			}]
 			tasks: [{
 				id: "76D43A5CFB25EA8E"
 				title: "Applied Energistics"
@@ -161,7 +183,6 @@
 		{
 			dependencies: ["43120BDFFF95EF89"]
 			description: ["In einem Ladegerät lässt sich primär herstellen: Geladener Certus Quartz. Des weiteren kannst Du auch das mittlerweile Neu eingefügte Guide-Buch von Applied darin herstellen, oder auch einen Meteoritenkompass"]
-			hide: true
 			id: "728F7FBD7DA50204"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -362,16 +383,12 @@
 		}
 		{
 			can_repeat: false
-			dependencies: [
-				"7DC64335DF20BD93"
-				"76D43A5CFB25EA8E"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["43120BDFFF95EF89"]
 			description: [
 				"Die Gravurmaschine ist gegated auf das Immersive End-Game. "
 				"Um mit Applied weiter zu spielen, wirst Du in Immersive wohl erst mal voran schreiten müssen"
 			]
-			hide: true
+			hide_dependency_lines: true
 			id: "6932EE98766BBCB7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -507,10 +524,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: [
-				"33A120F279366798"
-				"4CAB2217E428EB6E"
-			]
+			dependencies: ["33A120F279366798"]
 			description: ["Eine wichtige Komponente in AE2 um Peripheriegeräte herzustellen."]
 			hide: true
 			id: "6AEC7D9E608F9708"
@@ -529,10 +543,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"33A120F279366798"
-				"4CAB2217E428EB6E"
-			]
+			dependencies: ["33A120F279366798"]
 			description: ["Eine wichtige Komponente in AE2 um Peripheriegeräte herzustellen."]
 			hide: true
 			id: "3020FE733C32B9C3"
@@ -553,7 +564,6 @@
 		{
 			dependencies: ["6932EE98766BBCB7"]
 			description: ["Wird aus Diamanten hergestellt."]
-			hide: true
 			id: "7B0B511E8A8D0C10"
 			rewards: [
 				{
@@ -580,7 +590,6 @@
 		{
 			dependencies: ["6932EE98766BBCB7"]
 			description: ["Wird aus Certus hergestellt."]
-			hide: true
 			id: "6AB3A23E011C7A70"
 			rewards: [
 				{
@@ -607,7 +616,6 @@
 		{
 			dependencies: ["6932EE98766BBCB7"]
 			description: ["Wird aus Gold hergestellt"]
-			hide: true
 			id: "6BCF86700F5B2929"
 			rewards: [
 				{
@@ -632,9 +640,9 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["2F2A95F6B97DA1E3"]
+			dependencies: ["6932EE98766BBCB7"]
 			description: ["Das mit wichtigste Material in der Halbleitertechnologie."]
-			hide: true
+			hide_dependency_lines: true
 			id: "2364BE0FC6C27739"
 			rewards: [
 				{
@@ -659,9 +667,9 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["2F2A95F6B97DA1E3"]
+			dependencies: ["6932EE98766BBCB7"]
 			description: ["Redstone, eine wichtige Zutat im Prozessorbau."]
-			hide: true
+			hide_dependency_lines: true
 			id: "7440341BEA541FE2"
 			rewards: [
 				{
@@ -899,6 +907,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["43120BDFFF95EF89"]
 			description: ["In Applied wird alles in Channel bemessen. Die Channel - Kapazität liegt standartgemäß bei 8 und 32. Ein einfaches Fluix Kabel, kann 8 Channel verwalten. Genauso auch ein schlaues Kabel. Hast Du ein System was unter 8 Channel braucht, also einfach nur Items von vllt. A nach B schicken soll, brauchst du keinen Controller. Dieser bietet dir 32 Channel, auf jeder Seite an. "]
 			id: "04B5F7C440645BFB"
 			tasks: [{
@@ -906,10 +915,11 @@
 				title: "Nice to know"
 				type: "checkmark"
 			}]
-			x: -6.5d
+			x: -1.5d
 			y: -0.5d
 		}
 		{
+			dependencies: ["43120BDFFF95EF89"]
 			description: ["Konsolen, Import- \\& Exportbus, Schnittstellen usw. sind sogenannte Peripherie. Ein jenes solcher Zusatzteile, belegt ein Channel auf deinem Kabel."]
 			id: "2AF2078918509008"
 			tasks: [{
@@ -917,40 +927,16 @@
 				title: "Zusatzgeräte"
 				type: "checkmark"
 			}]
-			x: -6.5d
+			x: -1.5d
 			y: 0.5d
 		}
 		{
-			id: "2AB80EFB7C8F9CCB"
-			tasks: [{
-				id: "24A8A24E61340ED0"
-				title: "Channels"
-				type: "checkmark"
-			}]
-			x: -5.5d
-			y: 0.5d
-		}
-		{
-			id: "459DB482DFC5891B"
-			tasks: [{
-				id: "158417DB496C63A0"
-				title: "Debugging"
-				type: "checkmark"
-			}]
-			x: -7.5d
-			y: 0.5d
-		}
-		{
-			dependencies: [
-				"1784BD61EB8B6FDC"
-				"214DF570655368AF"
-			]
+			dependencies: ["1784BD61EB8B6FDC"]
 			dependency_requirement: "one_completed"
 			description: [
 				"Der Multiblock muss immer ein Rechteck bilden und mindestens einen Fertigungsspeicher beinhalten. Somit ist auch ein einzelner Fertigungspeicher ein Valider Prozessor für das Autocrafting."
 				"Außerdem kann die Fertigungseinheit als Füllmaterial im Multiblock benutzt werden, um diesen zu Vervollständigen. Einen Vorteil bringen diese Blöcke aber im Multiblock nicht."
 			]
-			hide: true
 			id: "47DF718336469399"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -963,8 +949,8 @@
 				item: "ae2:crafting_unit"
 				type: "item"
 			}]
-			x: 20.5d
-			y: -2.0d
+			x: 19.0d
+			y: 1.2273809523809511d
 		}
 		{
 			dependencies: ["6A2B6704E919F2BB"]
@@ -989,24 +975,8 @@
 				item: "ae2:crafting_accelerator"
 				type: "item"
 			}]
-			x: 20.5d
-			y: -1.0d
-		}
-		{
-			id: "6449DDB8B3D313D2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "41FA1B546B22CA91"
-				table_id: 7376489297141901543L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "262B34F718FE55C7"
-				item: "ae2:controller"
-				type: "item"
-			}]
-			x: -6.5d
-			y: 2.0d
+			x: 19.0d
+			y: 2.227380952380951d
 		}
 		{
 			dependencies: ["06D400071D147855"]
@@ -1174,7 +1144,7 @@
 				"Ein Basismodul für Update-Karten."
 				""
 				""
-				"{ \"text\": \"Nähere Bschreibung\", \"underlined\": \"true\", \"color\": \"red\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6032E9282E0CB1DD\" } }"
+				"{ \"text\": \"Nähere Beschreibung\", \"underlined\": \"true\", \"color\": \"red\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6032E9282E0CB1DD\" } }"
 			]
 			id: "6D2CB936DA4BA56A"
 			rewards: [{
@@ -1285,7 +1255,8 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["06D400071D147855"]
+			dependencies: ["43120BDFFF95EF89"]
+			description: ["Eine Basis-Upgrade Karte"]
 			hide_dependency_lines: true
 			id: "0AB6B0BC4CDCB54F"
 			rewards: [{
@@ -1303,7 +1274,8 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["06D400071D147855"]
+			dependencies: ["43120BDFFF95EF89"]
+			description: ["Eine Basis-Upgrade Karte"]
 			hide: false
 			hide_dependency_lines: true
 			id: "6032E9282E0CB1DD"
@@ -1323,6 +1295,10 @@
 		}
 		{
 			dependencies: ["0AB6B0BC4CDCB54F"]
+			description: [
+				"Den eingestellten Filter ein mal Negieren. "
+				"Du gibst als Filter Redstone an, schmeißt die Karte in den Upgrade-Slot und es wird alles außer Redstone ausgewählt!"
+			]
 			id: "7FFFE7F06BF8115C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1340,6 +1316,12 @@
 		}
 		{
 			dependencies: ["0AB6B0BC4CDCB54F"]
+			description: [
+				"Stell Dir die Karte vor, die willst verschiedene Volumes auf einem Laufwerk erstellen. "
+				"in Windoof z.B. C:\\\\ V:\\\\ D:\\\\."
+				""
+				"So in etwa funktioniert die Karte. Du kannst sagen, dass X Bytes für ein Item vorgesehen sind, der Rest aber frei wäre. "
+			]
 			id: "357BF596A36CC80F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1357,6 +1339,10 @@
 		}
 		{
 			dependencies: ["0AB6B0BC4CDCB54F"]
+			description: [
+				"NBTs sind mir doch egal. "
+				"Willst Du Rüstungen Filtern, Gems oder Bücher. Dann ist die Karte das Richtige für Dich. "
+			]
 			id: "304225C3868E82EF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1374,6 +1360,7 @@
 		}
 		{
 			dependencies: ["0AB6B0BC4CDCB54F"]
+			description: ["Ein Upgrade für u.A. deine Wireless Konsole. Du kannst entscheiden, ob Items direkt in dein ME-System transferiert werden, oder in dein Spielerinventar. Außerdem hast Du für beide Optionen einen White- oder Blacklist Filter."]
 			id: "45B554092CB5ED7F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1391,6 +1378,7 @@
 		}
 		{
 			dependencies: ["0AB6B0BC4CDCB54F"]
+			description: ["Eine Karte aus dem Add-On Mega-Cells. Gebe Items im Filter an, um diese automatisch zu komprimieren."]
 			id: "4017EB0409B76AAF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1408,6 +1396,7 @@
 		}
 		{
 			dependencies: ["0AB6B0BC4CDCB54F"]
+			description: ["Mehr Energie für deine Drahtloskonsole oder Wireless Gerärte"]
 			id: "3AADA31841BC9129"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1425,6 +1414,7 @@
 		}
 		{
 			dependencies: ["3AADA31841BC9129"]
+			description: ["Noch mehr Energie. Ist quasi ein Akku"]
 			id: "09676AC0DBDF507F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1442,6 +1432,10 @@
 		}
 		{
 			dependencies: ["6032E9282E0CB1DD"]
+			description: [
+				"Du brauchst mehr Items die Du Filtern willst? "
+				"Ja dann ist die Karte das richtige. "
+			]
 			id: "3B279BB5F92FBF58"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1459,6 +1453,7 @@
 		}
 		{
 			dependencies: ["6032E9282E0CB1DD"]
+			description: ["Du hast deine ersten 2B Cobble, Steam etc. im ME System und willst ein Limit setzen? Mit dieser Karte zerstörßt Du alle Items die über den angegebenen Speicherplatz hinaus gehen."]
 			id: "026272F9CF7A8047"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1476,6 +1471,7 @@
 		}
 		{
 			dependencies: ["6032E9282E0CB1DD"]
+			description: ["Dein ME-Peripheriegerät ist nun Steuerbar mit Redstone. Ob Puls-, NOR oder normales Singal. Alles mit der Karte steuerbar."]
 			id: "0E05C8E051268AD2"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1493,6 +1489,7 @@
 		}
 		{
 			dependencies: ["6032E9282E0CB1DD"]
+			description: ["Teile deiner Schnittstelle oder deinem Export Bus anhand dieser Karte mit, dass das Item welches exportiert werden soll automatisch gecraftet wird. Außerdem kannst wählen, ob Items auf bestand benutzt werden sollen, oder explizit neu gecraftet wird. Das Item welches gefertigt werden soll, muss von deinem ME-System aus schon Craftbar sein. "]
 			id: "485A3002F4BD15FF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1519,7 +1516,6 @@
 				" &4b.&r Bereitstellung durch Emitter."
 				" &4c.&r Bereitstellung durch Maschinen."
 			]
-			hide: true
 			hide_dependency_lines: true
 			id: "1784BD61EB8B6FDC"
 			tasks: [{
@@ -1527,8 +1523,8 @@
 				title: "autocrafting"
 				type: "checkmark"
 			}]
-			x: 18.0d
-			y: -2.0d
+			x: 16.5d
+			y: 1.2273809523809511d
 		}
 		{
 			dependencies: ["47DF718336469399"]
@@ -1567,8 +1563,8 @@
 				type: "item"
 			}]
 			title: "Fertingungsspeicher"
-			x: 22.0d
-			y: -1.5d
+			x: 20.5d
+			y: 1.7273809523809511d
 		}
 		{
 			dependencies: ["51A5F68FDD62187E"]
@@ -1579,8 +1575,8 @@
 				item: "ae2:crafting_monitor"
 				type: "item"
 			}]
-			x: 22.0d
-			y: -0.5d
+			x: 20.5d
+			y: 2.727380952380951d
 		}
 		{
 			dependencies: ["039871909EFF48A3"]
@@ -1599,8 +1595,8 @@
 				title: "Nice to know"
 				type: "checkmark"
 			}]
-			x: 20.5d
-			y: 0.0d
+			x: 19.0d
+			y: 3.227380952380951d
 		}
 		{
 			dependencies: ["3BE9012B79628576"]
@@ -1618,8 +1614,8 @@
 					type: "item"
 				}
 			]
-			x: 17.5d
-			y: 0.5d
+			x: 16.0d
+			y: 3.727380952380951d
 		}
 		{
 			dependencies: ["3BE9012B79628576"]
@@ -1630,14 +1626,11 @@
 				item: "ae2:molecular_assembler"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 0.5d
+			x: 17.0d
+			y: 3.727380952380951d
 		}
 		{
-			dependencies: [
-				"1784BD61EB8B6FDC"
-				"0504D0FBEFAF8AAD"
-			]
+			dependencies: ["1784BD61EB8B6FDC"]
 			dependency_requirement: "one_completed"
 			description: [
 				"Schablonen kannst Du im Pattern Terminal erstellen. Es gibt 4 Einstellungen, welche Du auswählen kannst."
@@ -1657,18 +1650,18 @@
 				"Schmiede und Steinsägerezepte"
 				"Diese kommen in einen Schablonenprovider. Es müssen sowohl Molekularassembler als auch entweder ein Schmiedetisch oder eine Steinsäge neben dem Schablonenprovide sein."
 			]
-			hide: true
 			id: "3BE9012B79628576"
 			tasks: [{
 				id: "3F71D0747D6019CD"
 				item: "ae2:blank_pattern"
 				type: "item"
 			}]
-			x: 18.0d
-			y: -0.5d
+			x: 16.5d
+			y: 2.727380952380951d
 		}
 		{
 			dependencies: ["273F072768D87F2B"]
+			description: ["Du kannst die ME-Schnittstelle ebenso nutzen, um Items mittels Fertigungskarte auf vorrat zu produzieren. Platziere z.B. einen Speicherbus dran und gebe dem die Einstellung mit, dass dieser nur gelagerte Items sehen kann."]
 			hide: false
 			id: "70CC4EC63E49C538"
 			tasks: [{
@@ -1676,11 +1669,15 @@
 				item: "ae2:interface"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -0.5d
+			x: 13.5d
+			y: 2.727380952380951d
 		}
 		{
 			dependencies: ["273F072768D87F2B"]
+			description: [
+				"Mittels des Füllstandsemitters, lassen sich Redstonesignale austoßen, während ein Item gefertigt wird oder um ein Item zu fertigen, in Kombination mit einer Fertigungskarte. "
+				"Ansonsten können damit Füllstände gemessen werden, welche ein Redstone-Signal ausgeben, bei erreichen oder Unterschreiten der angegebenen Menge."
+			]
 			hide: false
 			id: "22D317F1C462DD27"
 			tasks: [{
@@ -1688,11 +1685,12 @@
 				item: "ae2:level_emitter"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -1.0d
+			x: 12.5d
+			y: 2.227380952380951d
 		}
 		{
 			dependencies: ["273F072768D87F2B"]
+			description: ["Auch hier kann eine Fertigungskarte installiert werden. Mittels zusätzlicher Beschleunigungskarten, gibst Du die Chargengröße des Craftingprozesses an. "]
 			hide: false
 			id: "5AE90AC31CD60938"
 			tasks: [{
@@ -1700,29 +1698,26 @@
 				item: "ae2:export_bus"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -1.0d
+			x: 14.5d
+			y: 2.227380952380951d
 		}
 		{
-			dependencies: [
-				"1784BD61EB8B6FDC"
-				"214DF570655368AF"
-			]
+			dependencies: ["1784BD61EB8B6FDC"]
 			dependency_requirement: "one_completed"
 			description: ["Die Fertigungskarte kann verwendet werden, um automatisiert Craftingprozesse anzustoßen. "]
-			hide: true
 			id: "273F072768D87F2B"
 			tasks: [{
 				id: "4ABA5406E16E3ACC"
 				item: "ae2:crafting_card"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -2.0d
+			x: 13.5d
+			y: 1.2273809523809511d
 		}
 		{
 			hide: true
 			id: "77E4B7D94243624D"
+			invisible: true
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{

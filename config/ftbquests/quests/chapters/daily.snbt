@@ -30,11 +30,11 @@
 			y: -3.0d
 		}
 		{
+			can_repeat: true
 			icon: "thermal:gold_coin"
 			id: "146D1D0765124A16"
-			repeatable: true
 			rewards: [{
-				id: "728A1DCE92FF0C65"
+				id: "6192944C90CFD3DE"
 				item: "thermal:gold_coin"
 				type: "item"
 			}]

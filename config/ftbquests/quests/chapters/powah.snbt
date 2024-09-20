@@ -18,116 +18,8 @@
 				item: "powah:energizing_orb"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["145A870C0B729954"]
-			hide: true
-			id: "5575DAA609A1653F"
-			tasks: [{
-				id: "6E4A0480A2FD0E54"
-				item: "ae2:pattern_provider"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["145A870C0B729954"]
-			hide: true
-			id: "5A53721FA691E42D"
-			tasks: [{
-				id: "55602CE4076CABEB"
-				item: "ae2:lime_smart_cable"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["145A870C0B729954"]
-			hide: true
-			id: "5B9197AEA594B8FF"
-			tasks: [{
-				id: "4A053B82BBF8A36A"
-				item: "ae2:lime_smart_cable"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["145A870C0B729954"]
-			hide: true
-			id: "264AEBD459722F69"
-			tasks: [{
-				id: "2F45857B2E09755B"
-				item: "ae2:lime_smart_cable"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["145A870C0B729954"]
-			hide: true
-			id: "348D33A33244CCB1"
-			tasks: [{
-				id: "59B644510467E6D8"
-				item: "ae2:import_bus"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["145A870C0B729954"]
-			hide: true
-			id: "05253CB12A987A6F"
-			tasks: [{
-				id: "3B1FE275CE49B155"
-				item: "ae2:storage_bus"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["145A870C0B729954"]
-			hide: true
-			id: "594CC0531D8E4D79"
-			tasks: [{
-				id: "089C63A6C7EEF82C"
-				item: "ae2:yellow_smart_cable"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["03993D2DCBC69C3A"]
-			id: "758A2E3DE508726E"
-			tasks: [{
-				count: 5L
-				id: "0693CF784C27FECF"
-				item: "powah:energy_cable_basic"
-				type: "item"
-			}]
-			x: 1.0d
+			x: 1.5d
 			y: 8.0d
-		}
-		{
-			dependencies: ["145A870C0B729954"]
-			hide: true
-			id: "0665D5AE32BC0269"
-			tasks: [{
-				id: "3814AA0129860B66"
-				item: "ae2:yellow_smart_cable"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -620,7 +512,11 @@
 			y: -1.7714285714285758d
 		}
 		{
-			dependencies: ["488F73A73A492F5A"]
+			dependencies: [
+				"0A07C47718CD1F80"
+				"54E91CBDA4D83EDE"
+			]
+			dependency_requirement: "one_completed"
 			hide: true
 			hide_dependency_lines: true
 			id: "4E1D47FF582DA376"
@@ -635,7 +531,11 @@
 			y: -0.8000000000000007d
 		}
 		{
-			dependencies: ["488F73A73A492F5A"]
+			dependencies: [
+				"0A07C47718CD1F80"
+				"54E91CBDA4D83EDE"
+			]
+			dependency_requirement: "one_completed"
 			hide: true
 			id: "13B7A3863BECAD64"
 			shape: "diamond"
@@ -654,7 +554,6 @@
 			disable_toast: true
 			id: "03993D2DCBC69C3A"
 			tasks: [{
-				count: 4L
 				id: "53B18E5BAB3E03CC"
 				item: "powah:energizing_rod_starter"
 				type: "item"

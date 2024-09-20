@@ -1,4 +1,5 @@
 {
+	autofocus_id: "2F46349E2FB2FB5E"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "enderio"
@@ -13,7 +14,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["488F73A73A492F5A"]
+			dependencies: [
+				"0A07C47718CD1F80"
+				"4AED5A8C9C70A9C9"
+			]
+			dependency_requirement: "one_completed"
 			id: "2F46349E2FB2FB5E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -412,7 +417,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["488F73A73A492F5A"]
+			dependencies: ["0A07C47718CD1F80"]
 			id: "5317D16EC35D2E6F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -633,7 +638,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["488F73A73A492F5A"]
+			dependencies: ["0A07C47718CD1F80"]
 			id: "711BD2AFB5308AC5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -684,23 +689,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["10419829E1390C09"]
-			id: "54137297CBF0DF96"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6AC49588F86F6D29"
-				table_id: 396329870010794086L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "352F5C8DC6E1DE6F"
-				item: "enderio:octadic_capacitor"
-				type: "item"
-			}]
-			x: -14.5d
-			y: 4.0d
-		}
-		{
 			dependencies: ["6D6BDB34D4A1234F"]
 			id: "2ED3978C8CC2913E"
 			rewards: [{
@@ -735,7 +723,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["54137297CBF0DF96"]
+			dependencies: ["64F75C09E1330010"]
 			id: "519721DF1164FE4C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -786,7 +774,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["54137297CBF0DF96"]
+			dependencies: ["64F75C09E1330010"]
 			id: "0B681B3613C89D7D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1014,6 +1002,17 @@
 			}]
 			x: 0.5d
 			y: 11.0d
+		}
+		{
+			dependencies: ["10419829E1390C09"]
+			id: "64F75C09E1330010"
+			tasks: [{
+				id: "3741580ABB8CB343"
+				item: "enderio:octadic_capacitor"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 4.0d
 		}
 	]
 	title: "EnderIO"
