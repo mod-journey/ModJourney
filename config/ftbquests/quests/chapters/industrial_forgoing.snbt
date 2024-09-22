@@ -4,7 +4,7 @@
 	default_quest_shape: ""
 	filename: "industrial_forgoing"
 	group: "4B1BD2A866D0526F"
-	icon: "minecraft:dried_kelp_block"
+	icon: "industrialforegoing:fluid_extractor"
 	id: "755B9005FE1A4302"
 	images: [{
 		color: 1019157
@@ -22,6 +22,13 @@
 	quests: [
 		{
 			dependencies: ["22EAA39C771097BA"]
+			description: [
+				"Der Fluid Laser fördert verschiedene Flüssigkeiten abhängig vom Biom und der eingesetzten Linse."
+				""
+				"Die Laser Base muss dazu in Reichweite von ein oder mehreren Laserbohrern aufgestellt werden."
+				""
+				"Jeder weitere Laserbohrer erhöht die Geschwindigkeit der Förderung."
+			]
 			id: "3F43A51AF14B6FF9"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -148,6 +155,11 @@
 		}
 		{
 			dependencies: ["5A557E0D8DFA312E"]
+			description: [
+				"[ \"Pink Slime wird produziert, wenn Monster oder Tiere von dem \", { \"text\": \"Industriellen Schlachter\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5A557E0D8DFA312E\" } }, \" geschlachtet werden.\" ] "
+				""
+				"Jeder Kreatur liefert dabei eine unterschiedliche Menge."
+			]
 			id: "073EAA0D4341E3AC"
 			tasks: [{
 				id: "4E20BB9F42578882"
@@ -162,7 +174,15 @@
 				"3F43A51AF14B6FF9"
 				"3FDDCD291B208350"
 			]
+			description: [
+				"Um Ether Gas zu fördern, muss der Fluid Laser über einem Wither platziert werden."
+				""
+				"[ \"Um den Wither gefangen zu halten, sollte eine \", { \"text\": \"Statiskammer\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3FDDCD291B208350\" } }, \" verwendet werden.\" ]."
+				""
+				"Stelle sicher, dass die Stromversorgung für die Stasiskammer nicht ausfällt."
+			]
 			id: "545E1A2C4F9C2E1E"
+			subtitle: "Einen Wither melken"
 			tasks: [{
 				id: "3D4FB4E20C467EE0"
 				item: "industrialforegoing:ether_gas_bucket"
@@ -173,6 +193,12 @@
 		}
 		{
 			dependencies: ["01CEFF4178663647"]
+			description: [
+				"Der Erz Laser funktioniert ähnlich wie der Fluid Laser, fördert allerdings abhängig von Dimension und Bohrtiefe unterschiedliche Erze."
+				""
+				"Verschiedene farbige Linsen verändern die Häufigkeit in der bestimmte  Erze gefördert werden. Z.b. erhält man mit einer gelben Linse mehr Gold, aber dafür weniger andere Erze."
+			]
+			hide: true
 			id: "62846CD8CD6D04F4"
 			rewards: [{
 				exclude_from_claim_all: true
