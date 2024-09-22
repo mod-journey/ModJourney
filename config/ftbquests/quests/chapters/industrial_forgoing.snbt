@@ -15,7 +15,7 @@
 		rotation: 0.0d
 		width: 1.0d
 		x: -0.5d
-		y: -3.5d
+		y: -5.214285714285719d
 	}]
 	order_index: 0
 	quest_links: [ ]
@@ -258,8 +258,136 @@
 				type: "item"
 			}]
 			title: "Industrial Handbuch"
-			x: -2.5d
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1D18FA062A8CDBDE"]
+			hide_dependency_lines: true
+			id: "2B916E825296EE08"
+			tasks: [{
+				id: "529549FD453DF22F"
+				item: "industrialforegoing:common_black_hole_unit"
+				type: "item"
+			}]
+			x: 5.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["2B916E825296EE08"]
+			id: "68633C79BDD01406"
+			tasks: [{
+				id: "4AB17FE5D2E8E4AB"
+				item: "industrialforegoing:pity_black_hole_unit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68633C79BDD01406"]
+			id: "2B3D82A486BE4B4C"
+			tasks: [{
+				id: "0C3202C694CE3D6A"
+				item: "industrialforegoing:simple_black_hole_unit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2B3D82A486BE4B4C"]
+			id: "42939B8856056179"
+			tasks: [{
+				id: "232EB915B6AD16D6"
+				item: "industrialforegoing:advanced_black_hole_unit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["42939B8856056179"]
+			id: "016B55A8155259C3"
+			tasks: [{
+				id: "6B314ACDD4214084"
+				item: "industrialforegoing:supreme_black_hole_unit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1D18FA062A8CDBDE"]
+			hide_dependency_lines: true
+			id: "7D0F0E86349E2DED"
+			tasks: [{
+				id: "77FA602618CA9249"
+				item: "industrialforegoing:common_black_hole_tank"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7D0F0E86349E2DED"]
+			id: "357C705927A0EA59"
+			tasks: [{
+				id: "324C1250EBBF7D1F"
+				item: "industrialforegoing:pity_black_hole_tank"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["357C705927A0EA59"]
+			id: "38B43BC69F84335B"
+			tasks: [{
+				id: "18F2ACDE86A4CDBB"
+				item: "industrialforegoing:simple_black_hole_tank"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["38B43BC69F84335B"]
+			id: "7CFED4161D98036E"
+			tasks: [{
+				id: "469026531D5B8C4E"
+				item: "industrialforegoing:advanced_black_hole_tank"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7CFED4161D98036E"]
+			id: "7F4CDE3D40DBB97A"
+			tasks: [{
+				id: "25227329FC77ED40"
+				item: "industrialforegoing:supreme_black_hole_tank"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"7F4CDE3D40DBB97A"
+				"016B55A8155259C3"
+			]
+			description: ["Der Controller ermöglicht mehrere Black Hole Tanks oder Units in einem Block zu lagern."]
+			id: "082E43A5EEBDF80B"
+			subtitle: "16 in 1"
+			tasks: [{
+				id: "536D851BBD6A191B"
+				item: "industrialforegoing:black_hole_controller"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 11.0d
 		}
 	]
 	title: "Industrial Foregoing"
