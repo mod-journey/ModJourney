@@ -4,7 +4,7 @@
 	default_quest_shape: ""
 	filename: "immsersive_engineering"
 	group: "00D014EB3FA9ED8A"
-	icon: "immersiveengineering:windmill_blade"
+	icon: "immersiveengineering:watermill"
 	id: "486D38DC43A626CE"
 	images: [{
 		color: 1019157
@@ -33,6 +33,11 @@
 			y: 14.0d
 		}
 		{
+			description: [
+				"Mit dem &9Hammer&r können die ersten Metallplatten hergestellt und Multiblockstrukturen formiert werden."
+				""
+				"Mit dem &9Kabelschneider&r stellt man aus Metallplatten die ersten Kabel her und kann verlegte Kabel wieder abbauen."
+			]
 			id: "19BDD9A98862D1F7"
 			rewards: [{
 				id: "2F82AD826A612B60"
@@ -381,6 +386,8 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["19BDD9A98862D1F7"]
+			hide_dependency_lines: true
 			id: "2CACA64616A52B62"
 			tasks: [{
 				id: "529F8127290FFFEC"
@@ -398,6 +405,7 @@
 		}
 		{
 			dependencies: ["2CACA64616A52B62"]
+			hide: true
 			id: "344CBA812CE2EDA5"
 			tasks: [{
 				id: "0C01C483F7852CBA"
@@ -409,6 +417,7 @@
 		}
 		{
 			dependencies: ["344CBA812CE2EDA5"]
+			hide: true
 			id: "74BB74DD34553BDC"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_excavator"
