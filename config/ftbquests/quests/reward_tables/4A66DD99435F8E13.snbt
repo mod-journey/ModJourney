@@ -10,6 +10,10 @@
 		{ item: "mysticalagriculture:dirt_seeds" }
 		{ item: "mysticalagriculture:wood_seeds" }
 		{ item: "mysticalagriculture:ice_seeds" }
+		{ item: "mysticalagriculture:air_seeds" }
+		{ item: "mysticalagriculture:fire_seeds" }
+		{ item: "mysticalagriculture:earth_seeds" }
+		{ item: "mysticalagriculture:water_seeds" }
 	]
 	title: "Tier1"
 }
