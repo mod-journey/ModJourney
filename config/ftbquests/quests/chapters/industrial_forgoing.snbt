@@ -506,11 +506,18 @@
 			]
 			description: ["Der Controller ermöglicht mehrere Black Hole Tanks oder Units in einem Block zu lagern."]
 			id: "082E43A5EEBDF80B"
-			rewards: [{
-				id: "4786EB44A0DA955F"
-				item: "thermal:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4786EB44A0DA955F"
+					item: "thermal:bronze_coin"
+					type: "item"
+				}
+				{
+					id: "75764435DA78D457"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
 			subtitle: "16 in 1"
 			tasks: [{
 				id: "536D851BBD6A191B"
@@ -519,6 +526,35 @@
 			}]
 			x: 6.75d
 			y: 11.0d
+		}
+		{
+			dependencies: ["54C0801350CC8CE7"]
+			description: [
+				"Die Maschine kann Blöcke (z.b. Baumstämme) in die Welt platzieren."
+				"Damit das allerdings innerhalb eines geschützen oder geclaimten Gebiet funktioniert, muss in den Team-Einstellungen dieses Gebietes die Einstellung \"Allow All Fake Players\" aktiviert sein."
+			]
+			hide_dependency_lines: true
+			icon: "industrialforegoing:block_placer"
+			id: "7D03336D79310C92"
+			rewards: [{
+				id: "13EA59A13E7C9292"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3DD79F96B5E7DBF0"
+					item: "industrialforegoing:block_placer"
+					type: "item"
+				}
+				{
+					id: "2DFD496EE26F31B9"
+					title: "Allow Fake Player"
+					type: "checkmark"
+				}
+			]
+			x: -9.0d
+			y: 0.0d
 		}
 	]
 	title: "Industrial Foregoing"

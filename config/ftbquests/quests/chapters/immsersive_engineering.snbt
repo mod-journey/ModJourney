@@ -472,6 +472,7 @@
 		}
 		{
 			dependencies: ["0788F9E6D027F21F"]
+			description: ["Plaziere etwas heißes auf einer Seite der Maschine und etwas kaltes auf der anderen um Strom zu produzieren"]
 			id: "115AB3F93465A685"
 			optional: true
 			rewards: [{
@@ -480,6 +481,7 @@
 				type: "item"
 			}]
 			secret: true
+			subtitle: "Heiß gegen Kalt"
 			tasks: [{
 				id: "555BC7FB691206A3"
 				item: "immersiveengineering:thermoelectric_generator"
