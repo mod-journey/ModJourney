@@ -17,13 +17,21 @@
 			}
 			id: "38FCDBC67E137073"
 			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "738C3631FA49D6B6"
-				item: "thermal:silver_coin"
-				team_reward: false
-				type: "item"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "738C3631FA49D6B6"
+					item: "thermal:silver_coin"
+					team_reward: false
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57C0D54EB62471CD"
+					table_id: 8709999448481575308L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				icon: "minecraft:clock"
 				id: "30D9E8CD52F44C9A"

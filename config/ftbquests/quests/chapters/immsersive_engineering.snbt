@@ -22,6 +22,19 @@
 		{
 			dependencies: ["0B04E60647C11A1D"]
 			id: "7DC64335DF20BD93"
+			rewards: [
+				{
+					id: "4260FCB15A379741"
+					item: "thermal:bronze_coin"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "3E4CE6A5DAE3419B"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -39,11 +52,18 @@
 				"Mit dem &9Kabelschneider&r stellt man aus Metallplatten die ersten Kabel her und kann verlegte Kabel wieder abbauen."
 			]
 			id: "19BDD9A98862D1F7"
-			rewards: [{
-				id: "2F82AD826A612B60"
-				item: "immersiveengineering:manual"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2F82AD826A612B60"
+					item: "immersiveengineering:manual"
+					type: "item"
+				}
+				{
+					id: "04A1EA8FF7469EC2"
+					item: "thermal:bronze_coin"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [
@@ -77,6 +97,11 @@
 		{
 			dependencies: ["6F5C2EEF4E3ECCEA"]
 			id: "321F619E8B5074C1"
+			rewards: [{
+				id: "0CC4DEBE2C447AC5"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "immersiveengineering:main/mb_cokeoven"
 				criterion: ""
@@ -90,6 +115,11 @@
 		{
 			dependencies: ["6F5C2EEF4E3ECCEA"]
 			id: "55E997BC13673CDC"
+			rewards: [{
+				id: "4B651D9A893F4CB1"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "immersiveengineering:main/mb_blastfurnace"
 				criterion: ""
@@ -103,6 +133,11 @@
 		{
 			dependencies: ["41D498DF0CB2E1F7"]
 			id: "49B65584F6D6176D"
+			rewards: [{
+				id: "6BEEF4C43CB46887"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_crusher"
 				criterion: ""
@@ -116,6 +151,11 @@
 		{
 			dependencies: ["41D498DF0CB2E1F7"]
 			id: "6039F64AD027BA19"
+			rewards: [{
+				id: "681F70F9D0B91C5A"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_refinery"
 				criterion: ""
@@ -129,6 +169,11 @@
 		{
 			dependencies: ["41D498DF0CB2E1F7"]
 			id: "6DE018DFA945800B"
+			rewards: [{
+				id: "2D49E7E63E56CCFA"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_fermenter"
 				criterion: ""
@@ -145,6 +190,11 @@
 				"19267DFA9EB783BF"
 			]
 			id: "0B04E60647C11A1D"
+			rewards: [{
+				id: "50D43B810D3322FB"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "18B5C663F76F8B59"
 				item: "immersiveengineering:plate_duroplast"
@@ -159,6 +209,11 @@
 				"6F5C2EEF4E3ECCEA"
 			]
 			id: "637144EBE8BA9D39"
+			rewards: [{
+				id: "47312BE3F13F32C2"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_metalpress"
 				criterion: ""
@@ -172,6 +227,11 @@
 		{
 			dependencies: ["55E997BC13673CDC"]
 			id: "41D498DF0CB2E1F7"
+			rewards: [{
+				id: "11307ACD21C67056"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5AE347FA991EC91F"
 				item: "alltheores:steel_ingot"
@@ -186,6 +246,11 @@
 				"321F619E8B5074C1"
 			]
 			id: "1ADAFCF3A4253B6E"
+			rewards: [{
+				id: "4BF2852482BD7C56"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "49DA294500A30649"
 				item: "immersiveengineering:phenolic_resin_bucket"
@@ -200,6 +265,11 @@
 				"6039F64AD027BA19"
 			]
 			id: "393D75C8A0E73B80"
+			rewards: [{
+				id: "31631D6573811A8A"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7FF7A4FA8DCD1C7F"
 				item: "immersiveengineering:acetaldehyde_bucket"
@@ -211,6 +281,11 @@
 		{
 			dependencies: ["6DE018DFA945800B"]
 			id: "0E2EC3ABC7500783"
+			rewards: [{
+				id: "2D960CB92A8E2A48"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3498CB53CD79EAC7"
@@ -229,6 +304,11 @@
 		{
 			dependencies: ["0788F9E6D027F21F"]
 			id: "3F60E405CEADC649"
+			rewards: [{
+				id: "67B1D3F0E4E95553"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5314CBF2A27F3517"
 				item: "immersiveengineering:dynamo"
@@ -240,6 +320,11 @@
 		{
 			dependencies: ["55E997BC13673CDC"]
 			id: "17016F720123E259"
+			rewards: [{
+				id: "73FCDB92442C6039"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_improvedblastfurnace"
 				criterion: ""
@@ -253,6 +338,11 @@
 		{
 			dependencies: ["637144EBE8BA9D39"]
 			id: "19267DFA9EB783BF"
+			rewards: [{
+				id: "7E5E5F31178D26E8"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4CF4EA5B086B370F"
 				item: "immersiveengineering:mold_plate"
@@ -264,6 +354,11 @@
 		{
 			dependencies: ["3F60E405CEADC649"]
 			id: "2E3BDF304CE0F4D2"
+			rewards: [{
+				id: "6F7C310AEC0D991F"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "49C4C64AE7D0D567"
 				item: "immersiveengineering:watermill"
@@ -275,6 +370,11 @@
 		{
 			dependencies: ["19BDD9A98862D1F7"]
 			id: "0788F9E6D027F21F"
+			rewards: [{
+				id: "3CBE9D11F845EEDC"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 2L
@@ -302,6 +402,11 @@
 		{
 			dependencies: ["3F60E405CEADC649"]
 			id: "18C4B2B100643801"
+			rewards: [{
+				id: "06024038BCCA3689"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "04D21A81AAA1824D"
 				item: "immersiveengineering:windmill"
@@ -320,6 +425,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "6C7984DF59D8E26C"
+			rewards: [{
+				id: "2A43FC326BCC74CA"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0BB78D5FDA226CFA"
 				item: "immersiveengineering:capacitor_lv"
@@ -331,6 +441,11 @@
 		{
 			dependencies: ["6C7984DF59D8E26C"]
 			id: "7A633DD4525F4618"
+			rewards: [{
+				id: "791B97EDAC639A5C"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0EA1872377FF538A"
 				item: "immersiveengineering:capacitor_mv"
@@ -342,6 +457,11 @@
 		{
 			dependencies: ["7A633DD4525F4618"]
 			id: "1342E29C40F48729"
+			rewards: [{
+				id: "41A0BCE384161298"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5788824EE9E73578"
 				item: "immersiveengineering:capacitor_hv"
@@ -354,6 +474,11 @@
 			dependencies: ["0788F9E6D027F21F"]
 			id: "115AB3F93465A685"
 			optional: true
+			rewards: [{
+				id: "19F15229D61AEDC6"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			secret: true
 			tasks: [{
 				id: "555BC7FB691206A3"
@@ -366,6 +491,11 @@
 		{
 			dependencies: ["637144EBE8BA9D39"]
 			id: "3AD73917C403B8D4"
+			rewards: [{
+				id: "59273F9E54FA0B99"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6759DD3EE42EF4E6"
 				item: "immersiveengineering:mold_gear"
@@ -377,6 +507,11 @@
 		{
 			dependencies: ["637144EBE8BA9D39"]
 			id: "190068EC7EA9328E"
+			rewards: [{
+				id: "6E3722E1A380EFA0"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "51A15BA0D9F16886"
 				item: "immersiveengineering:mold_wire"
@@ -389,6 +524,11 @@
 			dependencies: ["19BDD9A98862D1F7"]
 			hide_dependency_lines: true
 			id: "2CACA64616A52B62"
+			rewards: [{
+				id: "127BD12033E542BC"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "529F8127290FFFEC"
 				item: {
@@ -407,6 +547,11 @@
 			dependencies: ["2CACA64616A52B62"]
 			hide: true
 			id: "344CBA812CE2EDA5"
+			rewards: [{
+				id: "55A17FC337F6DD0A"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C01C483F7852CBA"
 				item: "immersiveengineering:sample_drill"
@@ -419,6 +564,11 @@
 			dependencies: ["344CBA812CE2EDA5"]
 			hide: true
 			id: "74BB74DD34553BDC"
+			rewards: [{
+				id: "25585B10B2F2B6E3"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_excavator"
 				criterion: ""
@@ -431,6 +581,11 @@
 		{
 			dependencies: ["19267DFA9EB783BF"]
 			id: "5DED0C844BACDB83"
+			rewards: [{
+				id: "70E1EB17F3875F2F"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_dieselgen"
 				criterion: ""
@@ -443,6 +598,11 @@
 		{
 			dependencies: ["55E997BC13673CDC"]
 			id: "0609243607AE829F"
+			rewards: [{
+				id: "306832CD5120B24A"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				count: 2L
 				id: "18870151FB1F8601"
@@ -460,6 +620,11 @@
 				"Wenn die Blöcke der Maschine korrekt plaziert sind, reicht ein Klick mit dem Ingenieurshandhammer, um die Blöcke in eine Multiblock-Maschine zu verwandeln."
 			]
 			id: "6F5C2EEF4E3ECCEA"
+			rewards: [{
+				id: "4E7BBBFAE9AC064B"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Eine Maschine aus vielen Blöcken"
 			tasks: [{
 				id: "66A3304C4C6E7629"

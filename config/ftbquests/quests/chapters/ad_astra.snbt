@@ -28,6 +28,19 @@
 			dependencies: ["100C0B979FD0A1D7"]
 			hide: true
 			id: "0A07C47718CD1F80"
+			rewards: [
+				{
+					id: "026B1F360E9693C2"
+					item: "thermal:bronze_coin"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0592AF4D53B412D1"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -50,6 +63,11 @@
 				"Beim landen, sollte die Space Taste gedrückt werden und aussteigen solltest Du aus der Rakete auch nicht während Du am fliegen bist. "
 			]
 			id: "765CC36D1E9FC407"
+			rewards: [{
+				id: "6FD2531FA3AA27C9"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "44CCC89F490E872A"
 				item: {
@@ -66,6 +84,11 @@
 			dependencies: ["625BCE0C411DF831"]
 			description: ["Von Einem Launchpad aus kannst Du deine Rakete starten."]
 			id: "21631BCC49F3C8AA"
+			rewards: [{
+				id: "3D4B5FF7624A94E0"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "37F0F043112A9362"
 				item: "ad_astra:launch_pad"
@@ -82,6 +105,11 @@
 				"Funfact: Wasser beginnt schon unter dem Gefrierpunkt zu sieden, wenn unter 0,1Pa Druck vorhanden ist. "
 			]
 			id: "391C89DCEF97A976"
+			rewards: [{
+				id: "6FA720305F1DDDBF"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "14DAD6B9F294E542"
 				item: {
@@ -104,6 +132,11 @@
 				"In dem Brustteil des Raumanzugs sind deine Sauerstoffvoräte verbaut. "
 			]
 			id: "6C17B293709B16B2"
+			rewards: [{
+				id: "789AB43FB103543E"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "77B58BD10945996B"
 				item: {
@@ -126,6 +159,11 @@
 				"Es ist nicht nur wichtig sich vor dem Vakuum zu schützen, sondern auch vor der Strahlung welche unser Stern abgibt. Im Normalfall filtert unsere Atmosphäre den meisten Teil davon raus. "
 			]
 			id: "2E9BA93B5FF65F59"
+			rewards: [{
+				id: "7CC555819A6478C6"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4A24859EF470D65D"
 				item: {
@@ -148,6 +186,11 @@
 				"Durch den Druckabfall, würden die gesammelten Gase im Körper schlagartig ausdehnen. "
 			]
 			id: "76CF23596EA32DCC"
+			rewards: [{
+				id: "07583F08D763352C"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F2C25F1CECBEF89"
 				item: {
@@ -166,6 +209,11 @@
 			dependencies: ["6A8AA0E31C3F2F47"]
 			description: ["Teilt Dir mit, ob genug Sauerstoff vorhanden ist. Stößt ein Redstonesiganl aus. "]
 			id: "7D480E2743F86B60"
+			rewards: [{
+				id: "5905B9DBB65CC7B8"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "79A7AB84C2E9532C"
 				item: "ad_astra:oxygen_sensor"
@@ -178,6 +226,11 @@
 			dependencies: ["595FAE939128EC13"]
 			description: ["Du kannst gesammeltes Oxygen abgeben um so einen etwas Lebensfreundlicheren Raum zu gestalten. In einem geschlossenen Raum, wird nicht so viel Oxygen verbraucht. Schaffst Du es eine gescheite Raumstation zu erstellen?"]
 			id: "711EB48525AA6836"
+			rewards: [{
+				id: "1741BE236D75C189"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0BE6D7886896EF1E"
 				item: "ad_astra:oxygen_distributor"
@@ -195,6 +248,11 @@
 			description: ["In der Nasawerkbank baust Du deine Raketen. Um zu anderen Planeten zu reisen, wirst Du dieses Item benötigen."]
 			hide: true
 			id: "625BCE0C411DF831"
+			rewards: [{
+				id: "65B715E604659BBE"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "Schon abgespacet"
@@ -210,6 +268,11 @@
 			dependencies: ["625BCE0C411DF831"]
 			description: ["Ein Raketenbauteil."]
 			id: "61BEBF328D912D14"
+			rewards: [{
+				id: "614344876EC9D058"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2244D68CAF333B56"
 				item: "ad_astra:rocket_nose_cone"
@@ -222,6 +285,11 @@
 			dependencies: ["625BCE0C411DF831"]
 			description: ["Ein Raketenbaueteil."]
 			id: "2DE570D3BFF08F48"
+			rewards: [{
+				id: "1E79D2ED98197F25"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "45A62DA7F52FC09E"
 				item: "ad_astra:rocket_fin"
@@ -234,6 +302,11 @@
 			dependencies: ["625BCE0C411DF831"]
 			description: ["Ein Raketenbauteil."]
 			id: "47D2FFAE08876D53"
+			rewards: [{
+				id: "4A4AF4DAAF96C159"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D0F6200B562CAFB"
 				item: "ad_astra:steel_tank"
@@ -246,6 +319,11 @@
 			dependencies: ["625BCE0C411DF831"]
 			description: ["Ein Raketenbaueteil."]
 			id: "557F56AEDAF2680A"
+			rewards: [{
+				id: "297539CF78D8FFEA"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6998F697760DCA53"
 				item: "alltheores:steel_block"
@@ -258,6 +336,11 @@
 			dependencies: ["21631BCC49F3C8AA"]
 			description: ["Mittels dem Oxygen-Loader lassen sich Oxygentanks oder Eimer befüllen. Diese kannst Du für deinen Raumanzug benutzen. Leite Wasser und Energie in den Block, um Sauerstoff zu erhalten."]
 			id: "12A4F63F84843AA8"
+			rewards: [{
+				id: "722A7310BAA26B32"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "577CB020A280A4B8"
 				item: "ad_astra:oxygen_loader"
@@ -270,6 +353,11 @@
 			dependencies: ["12A4F63F84843AA8"]
 			description: ["Mit den Oxygen-Tanks kannst du Teile deines Raumanzugs craften. Außerdem benötigst Du sie um qxygen nachzutanken. Hast Du vor auf andere Planeten zu fliegen? Nehm dir immer welche auf Vorat mit. "]
 			id: "08EA8E426B32DE48"
+			rewards: [{
+				id: "412DC0FB842E8AD3"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "574D9CF0D0DBE4C3"
 				item: {
@@ -286,6 +374,11 @@
 			dependencies: ["765CC36D1E9FC407"]
 			description: ["Kannst Du den Mann im Mond finden?"]
 			id: "0B83FB0E9BFBE96E"
+			rewards: [{
+				id: "1D1A816FFB99138F"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Mond"
 			tasks: [{
 				advancement: "ad_astra:moon"
@@ -300,6 +393,11 @@
 			dependencies: ["4F8E3C60AFA0D791"]
 			id: "4A5AA364B85BB3BF"
 			optional: true
+			rewards: [{
+				id: "555AA54E145469A6"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "447D463BB7151D71"
 				item: "ad_astra:reinforced_door"
@@ -314,6 +412,11 @@
 			id: "4F8E3C60AFA0D791"
 			invisible: true
 			optional: true
+			rewards: [{
+				id: "070EA4036D2DB44F"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6ADCFD6F6ADADE89"
 				item: "ad_astra:iron_sliding_door"
@@ -326,6 +429,11 @@
 			dependencies: ["4F8E3C60AFA0D791"]
 			id: "4E58A4810774329F"
 			optional: true
+			rewards: [{
+				id: "0D8CC403A53330A8"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7B8735BE11BF7A9D"
 				item: "ad_astra:desh_sliding_door"
@@ -338,6 +446,11 @@
 			dependencies: ["4F8E3C60AFA0D791"]
 			id: "12E035FF886839E0"
 			optional: true
+			rewards: [{
+				id: "60B76A87567E6209"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "725979B58335B984"
 				item: "ad_astra:ostrum_sliding_door"
@@ -350,6 +463,11 @@
 			dependencies: ["4F8E3C60AFA0D791"]
 			id: "3F2F58F2D6E1D74B"
 			optional: true
+			rewards: [{
+				id: "21122101B2765625"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "128FCC01F356C47C"
 				item: "ad_astra:calorite_sliding_door"
@@ -366,6 +484,11 @@
 				"&o(Es reicht einen Orbit vollzumüllen) &r"
 			]
 			id: "12A7A11648BF225C"
+			rewards: [{
+				id: "7CACA87A1F313288"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "639B495E41074485"
 				title: "bevor du losfliegst"
@@ -382,6 +505,11 @@
 				"Man hat uns mitgeteilt, dass einige versteckte Desh-Ressourcen sich mit Void Minern abbauen lassen."
 			]
 			id: "595FAE939128EC13"
+			rewards: [{
+				id: "16A7CB1C10F3C787"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0AAA75540592CD30"
 				item: "ad_astra:desh_ingot"
@@ -394,6 +522,11 @@
 			dependencies: ["625BCE0C411DF831"]
 			description: ["Eine Material was für vielerlei Craftingrezepte benötigt wird. Unter anderem auch für die Rocket Engine"]
 			id: "40DFE8584AA2B00E"
+			rewards: [{
+				id: "2C28F14F95737FE4"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7F44DABDC99952BE"
 				item: "ad_astra:engine_fan"
@@ -406,6 +539,11 @@
 			dependencies: ["625BCE0C411DF831"]
 			description: ["Ein Bauteil für die Rocket Engine."]
 			id: "53D4C7145B96D8E5"
+			rewards: [{
+				id: "187A2566341A6624"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7523239F92C994C9"
 				item: "ad_astra:engine_frame"
@@ -421,6 +559,11 @@
 			]
 			description: ["Ein Raketenbaueteil."]
 			id: "4EAA710CD2A15E03"
+			rewards: [{
+				id: "63D91A43DD12F803"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5149713BD98F52DA"
 				item: {
@@ -456,6 +599,11 @@
 		{
 			dependencies: ["595FAE939128EC13"]
 			id: "683D395362171CB9"
+			rewards: [{
+				id: "0AC81717119F4801"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "18B82F41B80E720D"
 				item: {
@@ -475,6 +623,11 @@
 				"Ideal wenn es keine andere Möglichkeit gibt Strom zu erzeugen."
 			]
 			id: "7A3BD43A426B49A2"
+			rewards: [{
+				id: "22AAE1D3157CA408"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "205AD37D732DE018"
 				item: "ad_astra:solar_panel"
@@ -487,6 +640,11 @@
 			dependencies: ["595FAE939128EC13"]
 			description: ["Wie der Name sagt. Überträgt Flüssigkeiten."]
 			id: "2F6ABA1EE21191DD"
+			rewards: [{
+				id: "5C3C40CF91A8B68A"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3282BD7235A1B502"
 				item: "ad_astra:desh_fluid_pipe"
@@ -499,6 +657,11 @@
 			dependencies: ["595FAE939128EC13"]
 			description: ["Ein Kabel um Strom zu übertragen. nicht mit FE kompatibel"]
 			id: "483E162A53914816"
+			rewards: [{
+				id: "0133BD90512ED358"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3DF19B0C5B9ABDF9"
 				item: "ad_astra:desh_cable"
@@ -514,6 +677,11 @@
 				"Modis: Input, output, normal, nichts."
 			]
 			id: "582888F9B8D79B52"
+			rewards: [{
+				id: "67B276900BA852C0"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "150DB0A6A38ADBCB"
 				item: "ad_astra:wrench"
@@ -526,6 +694,11 @@
 			dependencies: ["0B83FB0E9BFBE96E"]
 			description: ["Nach dem Du genug Desh Erz gesammelt hast, ist es an der Zeit, eine Leistungsstärkere Rakete zu bauen."]
 			id: "759B24F5EB490DB0"
+			rewards: [{
+				id: "4866AC37667DA71A"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5AE36A277FC51586"
 				item: {
@@ -545,6 +718,11 @@
 				"Aufgrund der besseren Technologie, schaffen wir es nun weitere Entfernungen zurück zu legen. Vor allem halten wir nun auch weiteren Umweltbedingungen stand."
 			]
 			id: "741F7F97C31F37DB"
+			rewards: [{
+				id: "154D6076707E07E0"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5ECBADF8901512C0"
 				item: {
@@ -563,6 +741,11 @@
 				"005F625FCFC80A7B"
 			]
 			id: "0FCE3B96F6672403"
+			rewards: [{
+				id: "3579FE9CD2465B8B"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E162A71CF71E63A"
 				item: {
@@ -579,6 +762,11 @@
 			dependencies: ["759B24F5EB490DB0"]
 			description: ["Willkommen auf dem Mars, dem Planeten der wohl am freundlichsten uns Menschen gegenüber ist. Oder?"]
 			id: "16A2F679AEC22F43"
+			rewards: [{
+				id: "18CAE1BE5C1CE870"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Mars"
 			tasks: [{
 				advancement: "ad_astra:mars"
@@ -593,6 +781,11 @@
 			dependencies: ["16A2F679AEC22F43"]
 			description: ["Ostrum Ingot findest Du auf dem Mars. Auch hier sollte man mal Probebohrungen anstellen. Ggf. findest Du versteckte Ostrumvorkommen."]
 			id: "6A8AA0E31C3F2F47"
+			rewards: [{
+				id: "2F0D80E50C5025D9"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6DEAD3B13758CC58"
 				item: "ad_astra:ostrum_ingot"
@@ -604,6 +797,11 @@
 		{
 			dependencies: ["741F7F97C31F37DB"]
 			id: "005F625FCFC80A7B"
+			rewards: [{
+				id: "48659342BC69B8CA"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Venus"
 			tasks: [{
 				advancement: "ad_astra:venus"
@@ -617,6 +815,11 @@
 		{
 			dependencies: ["741F7F97C31F37DB"]
 			id: "2619E71D63B1B7FE"
+			rewards: [{
+				id: "1088E931FDC5D24F"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Merkur"
 			tasks: [{
 				advancement: "ad_astra:mercury"
@@ -631,6 +834,11 @@
 			dependencies: ["62C53AC440B3380E"]
 			description: ["3 Buckets werden zum Start benötigt. Denke daran genug Reserven mitzunehmen, solltest Du losfliegen."]
 			id: "21DA897D037E4872"
+			rewards: [{
+				id: "74BEBC1FBA6C1C30"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				count: 3L
 				id: "7C58AB5D5AA21B8C"
@@ -648,6 +856,11 @@
 			]
 			icon: "ad_astra:oil_bucket"
 			id: "62C53AC440B3380E"
+			rewards: [{
+				id: "16395AB5EFA4A64C"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "52A6B8D493088DD8"
 				title: "Oil?"
@@ -659,6 +872,11 @@
 		{
 			dependencies: ["0FCE3B96F6672403"]
 			id: "100C0B979FD0A1D7"
+			rewards: [{
+				id: "21D80EBB8FED0F2B"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "ad_astra:interstellar"
 				criterion: ""
@@ -676,6 +894,11 @@
 				"Hitze, höherer Atmosphärendruck und Säuren soll dieser Raumanzug abkönnen."
 			]
 			id: "6D367DEA55F87102"
+			rewards: [{
+				id: "2F1B8067E3DA293F"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "33A2AB63DC3F8C20"
 				item: {
@@ -698,6 +921,11 @@
 				"Hitze, höherer Atmosphärendruck und Säuren soll dieser Raumanzug abkönnen."
 			]
 			id: "4FA4161E5D4F5285"
+			rewards: [{
+				id: "356F4A3A3427E8FE"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "404D9EC50CD324CD"
 				item: {
@@ -720,6 +948,11 @@
 				"Hitze, höherer Atmosphärendruck und Säuren soll dieser Raumanzug abkönnen."
 			]
 			id: "6A342B58C9875174"
+			rewards: [{
+				id: "00000422A8F5624B"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6FBF55DE11E972FD"
 				item: {
@@ -742,6 +975,11 @@
 				"Hitze, höherer Atmosphärendruck und Säuren soll dieser Raumanzug abkönnen."
 			]
 			id: "5212A64D43DAD486"
+			rewards: [{
+				id: "51A97DAACA47D0AB"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E7477AEAF5C54FD"
 				item: {
@@ -764,6 +1002,11 @@
 				"...Wasser?"
 			]
 			id: "44D05D9F33C12F52"
+			rewards: [{
+				id: "08FFB67145194C7F"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0EA2CC49754BEB9E"
 				item: "ad_astra:cryo_freezer"
@@ -776,6 +1019,11 @@
 			dependencies: ["44D05D9F33C12F52"]
 			description: ["Cryo Fuel kann benutzt werden als verbesserter Treibstoff. Ein Eimer Cryo Treibstoff ersetzt drei normale Treibstoffeimer."]
 			id: "71E143531BC06CA8"
+			rewards: [{
+				id: "670ACB8BD04422ED"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "551AFA7DECF5638B"
 				item: "ad_astra:cryo_fuel_bucket"
@@ -792,6 +1040,11 @@
 				"Aber Achtung, Fallschaden gibts trotzdem. "
 			]
 			id: "3E5513C235703081"
+			rewards: [{
+				id: "684F0CA4776EF5F6"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Flieg kleiner Vogel - FLIEG!"
 			tasks: [
 				{

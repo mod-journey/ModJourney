@@ -16,6 +16,11 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "04D1A0A91AE72503"
+			rewards: [{
+				id: "74ACEEE9AE6CC85A"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 2.0d
 			subtitle: "Gehe auf Bedrock Ebene. Platziere 1 Redstone Dust auf Bedrock und platziere ein Obsidian."
@@ -30,6 +35,11 @@
 		{
 			dependencies: ["15697EE0C7A58D46"]
 			id: "75611DC723B62AE4"
+			rewards: [{
+				id: "576199E3FC981A29"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Mit Hilfe des Flux Plugs kannst du Remote Energie deinem Netzwerk hinzufügen"
 			tasks: [{
 				id: "7FD6AEFF35253853"
@@ -42,6 +52,11 @@
 		{
 			dependencies: ["15697EE0C7A58D46"]
 			id: "2677B43BE16309EC"
+			rewards: [{
+				id: "78CF3F3EC01299F8"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Mit Hilfe des Flux Points kannst du Energie aus deinem Flux Network verwenden"
 			tasks: [{
 				id: "4BB36A2605F1ED39"
@@ -57,6 +72,11 @@
 				"2677B43BE16309EC"
 			]
 			id: "79ABB8A2C2D1AD3C"
+			rewards: [{
+				id: "5737F634AC21FE04"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Baue in deinem Flux Network einen Zwischenspeicher ein."
 			tasks: [{
 				id: "12A0F40BD32B28CF"
@@ -69,6 +89,11 @@
 		{
 			dependencies: ["79ABB8A2C2D1AD3C"]
 			id: "01AEA72DE639B9C3"
+			rewards: [{
+				id: "7A688720201257B5"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Ein mittelgroßer Energiespeicher für das Flux Network"
 			tasks: [{
 				id: "45F55646352A1361"
@@ -81,6 +106,11 @@
 		{
 			dependencies: ["01AEA72DE639B9C3"]
 			id: "42949BA4369F9B3F"
+			rewards: [{
+				id: "3A2F01EB369F9085"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Ein großer Energiespeicher für das Flux Network"
 			tasks: [{
 				id: "533B68F026630C69"
@@ -93,6 +123,11 @@
 		{
 			dependencies: ["04D1A0A91AE72503"]
 			id: "15697EE0C7A58D46"
+			rewards: [{
+				id: "376B25FEE29B5303"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Aus dem neu gewonnen Flux Dust, kannst du nun einen Flux Core craften!"
 			tasks: [{
 				id: "1DE6630235E3D92A"
@@ -105,6 +140,11 @@
 		{
 			dependencies: ["42949BA4369F9B3F"]
 			id: "7294DBAAA5588E92"
+			rewards: [{
+				id: "725D047664F4EC69"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Zum kopieren von gesetzten Einstellungen des Flux Points und des Flux Plugs."
 			tasks: [{
 				id: "07B74821518C9932"

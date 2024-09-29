@@ -91,17 +91,24 @@
 			]
 			id: "280D95E313DDA71D"
 			invisible_until_tasks: 1
-			rewards: [{
-				id: "79398FEFDE1829F8"
-				item: {
-					Count: 1
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "bigreactors:erguide"
+			rewards: [
+				{
+					id: "79398FEFDE1829F8"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "bigreactors:erguide"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5DC434C7C1A9A72E"
+					item: "thermal:bronze_coin"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
@@ -116,6 +123,11 @@
 			dependencies: ["3D755E72F89F3702"]
 			description: ["Dein erster Reaktor, mit einer maximal Größe von 5x5x5 und der kleinsten Größe von 3x3x3."]
 			id: "6BEAD403B7CB0490"
+			rewards: [{
+				id: "064E7086447772BE"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3A78A41E1797DB85"
@@ -158,6 +170,11 @@
 			dependencies: ["280D95E313DDA71D"]
 			description: ["Graphit wird aus Kohle hergestellt. Das wirst Du brauchen. Viel sogar."]
 			id: "1E86BC238F738A44"
+			rewards: [{
+				id: "2E84CC666980B134"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "414EEACD339EF3A3"
 				item: "bigreactors:graphite_ingot"
@@ -170,6 +187,11 @@
 			dependencies: ["1E86BC238F738A44"]
 			description: ["mit den basic Reactoren lassen sich Multiblöcke bis auf eine größe von 5x5x5 bauen. "]
 			id: "3D755E72F89F3702"
+			rewards: [{
+				id: "79776EB0F782D4D1"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3FFCF6ACDE04C9BF"
 				item: "bigreactors:basic_reactorcasing"
@@ -183,6 +205,11 @@
 			description: ["Die Access Ports sind die Zugangspunkte zum Reaktor. Diese kannst Du Rechtsklicken. In der GUI kannst Du einstellen, ob dieser als Eingabe- oder Ausgabepunkt dienen soll. Außerdem kannst Du hier manuell triggern, ob dieser In- oder Output Material ausgeben soll. Die Ausgabe erfolgt in Fester Form, also als Ingot."]
 			icon: "bigreactors:reinforced_reactorsolidaccessport"
 			id: "66DEEA92B5F386C0"
+			rewards: [{
+				id: "3831EB8086861DDF"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5FC19862AC343856"
 				item: {
@@ -212,6 +239,11 @@
 			dependencies: ["68CBEF963313DC33"]
 			description: ["Du kannst hiermit deinen Reaktor verwandeln in einen aktiv gekühlten Reaktor. Somit generierst du Dampf. Diesen kannst Du nutzen um eine Turbine zu betreiben. Du brauchst 2 dieser Ports. Auch hier kannst Du definieren, dass es sich um ein Eingangs- oder Ausgangsport handelt. "]
 			id: "646646E999822E90"
+			rewards: [{
+				id: "6F41BCA56F2174D6"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2FFC4BAF4B3382CF"
 				item: "bigreactors:reinforced_reactorfluidaccessport"
@@ -225,6 +257,11 @@
 			description: ["Auch für die Turbine gibt es eine Basic Form. Mein Rat an der Stelle, solltet ihr in betracht ziehen über Extreme-Reactors Strom zu beziehen, baut direkt die Advanced Turbine. Spart Euch die Ressourcen. "]
 			id: "4B86830BAFA84372"
 			optional: true
+			rewards: [{
+				id: "7393325606512392"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "70BF93F210FDF0DD"
 				item: "bigreactors:basic_turbinecontroller"
@@ -237,6 +274,11 @@
 			dependencies: ["68CBEF963313DC33"]
 			description: ["Energy Ports sind die Schnittstelle für Energie. Hier kannst Du Energie aus dem Reaktor in dein Energienetzwerk einspeisen. Es gibt zwei Arten. Die Aktiven und Passiven Energy Ports. Der Unterschied liegt darin, dass man aktiv den Strom aus den passiven Ports rausziehen muss, während die aktiven versuchen diesen direkt an den Benachbarten Block abzugeben."]
 			id: "21A66CAA4865D3D0"
+			rewards: [{
+				id: "1253148AA3DE5C08"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "68E959AF3630EE80"
 				item: {
@@ -265,6 +307,11 @@
 			dependencies: ["3D755E72F89F3702"]
 			description: ["Mit den Reinforced Reactoren lassen sich in unserem Modpack Multiblöcke bis zu einer größe von 16x16x16 bauen."]
 			id: "68CBEF963313DC33"
+			rewards: [{
+				id: "06B5355CD5171235"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "232D2252C3A0B094"
 				item: "bigreactors:reinforced_reactorcasing"
@@ -277,6 +324,11 @@
 			dependencies: ["68CBEF963313DC33"]
 			description: ["Prinzipiell spielt es keine Rolle, ob Du Glas oder Ramen benutzt. Wichtig an der Stelle ist, dass die Ecken und das außen Gerüst immer Frames enthalten. Der innen Bereich der Flächen kann ausgefüllt werden mit Glas, aus optischen Gründen."]
 			id: "50C6D9F519D225F4"
+			rewards: [{
+				id: "4CD72DABCEFE8C9B"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3FB587E9242CE09F"
 				item: {
@@ -314,6 +366,11 @@
 			hide_details_until_startable: true
 			hide_text_until_complete: true
 			id: "3154E80F60E99856"
+			rewards: [{
+				id: "128BDB7926C7C0E8"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "074D1299CC61739F"
 				title: "kleinere Bugs"
@@ -332,6 +389,11 @@
 			hide_details_until_startable: true
 			hide_text_until_complete: true
 			id: "4D3EA87317F9F6BA"
+			rewards: [{
+				id: "1D457C951867DDBA"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Der Energizer"
 			tasks: [{
 				id: "0734E682569CEA3F"
@@ -352,6 +414,11 @@
 				"...ja öhm - viel."
 			]
 			id: "4C65447B7738A05F"
+			rewards: [{
+				id: "60331C842BCCDC8C"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "4607EA68920C2AD1"
@@ -365,6 +432,11 @@
 			dependencies: ["4C65447B7738A05F"]
 			description: ["Das Blutonium wirst Du an drei Stellen brauchen."]
 			id: "4AB80401F1CA36D1"
+			rewards: [{
+				id: "6D055E9948A2B26D"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "299A67366DE25CEB"
@@ -378,6 +450,11 @@
 			dependencies: ["13C1BA3695707A9D"]
 			description: ["Gebe Cyanite in Barrenform deinen Reprocessor hinzu."]
 			id: "6CAB591C5279CFFB"
+			rewards: [{
+				id: "44DA25FE0E3E1FB0"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "41DA615D6CD7479C"
@@ -391,6 +468,11 @@
 			dependencies: ["77EA9324D2593A1B"]
 			description: ["Du erhälst Ludicrite. Ein Moderator für deine Turbine"]
 			id: "072EB753A23476A3"
+			rewards: [{
+				id: "72B1326C9D858BE6"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "71DE0E40F8B0CF69"
@@ -404,6 +486,11 @@
 			dependencies: ["6A538CD7EEA9C917"]
 			description: ["Auch schon ein solider Moderator für deine Turbine"]
 			id: "5534116F13F1FECC"
+			rewards: [{
+				id: "498F76B2E73DCEC5"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "6FBF87B45C3B5824"
@@ -419,6 +506,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "1DB2485BC022595E"
+			rewards: [{
+				id: "26F11EB338D3B5AA"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "658964F8434ACEEB"
@@ -434,6 +526,11 @@
 			description: ["Blutonium plus Cyanite in den Reprocessor eingeben."]
 			icon: "bigreactors:cyanite_bucket"
 			id: "3B8445B5B7F0BA62"
+			rewards: [{
+				id: "1864CE35F2C8C89B"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "443763D56F574F63"
@@ -449,6 +546,11 @@
 				"25D5F3B047CA75E4"
 			]
 			id: "77EA9324D2593A1B"
+			rewards: [{
+				id: "349E5A452E8A26F1"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0F19C7C81193D62E"
@@ -462,6 +564,11 @@
 			dependencies: ["4AB80401F1CA36D1"]
 			description: ["Blutonium plus Cyanite in den Reprocessor eingeben."]
 			id: "25D5F3B047CA75E4"
+			rewards: [{
+				id: "1C9F6BED85614189"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "699EE26E98714DD3"
@@ -475,6 +582,11 @@
 			dependencies: ["4AB80401F1CA36D1"]
 			description: ["Gebe Blutonium deinem Fluidizer hinzu."]
 			id: "4ECD09ACFE16E99C"
+			rewards: [{
+				id: "277D5DD9AEB4AA8D"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "14F7D224B90846D3"
@@ -490,6 +602,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "13A18FED2817D59A"
+			rewards: [{
+				id: "072207A23387D035"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "7BEF413D6859D67E"
@@ -504,6 +621,11 @@
 			description: ["Anschließend erhälst Du Verderium"]
 			icon: "bigreactors:verderium_bucket"
 			id: "0DF5AEA45A614607"
+			rewards: [{
+				id: "24457509B127D3E6"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "6CB436B0531DD31A"
@@ -520,6 +642,11 @@
 			]
 			description: ["Achte darauf wie Du den Fluidizer baust. Dieser hat drei verschiedene Modi. "]
 			id: "65EEF8159CC6B174"
+			rewards: [{
+				id: "46C8A74A4F62856A"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6DDDCE0171349167"
@@ -534,6 +661,11 @@
 			description: ["Das Verderium kannst Du wieder einen Reaktor hinzufügen."]
 			icon: "bigreactors:verderium_bucket"
 			id: "0E31ED057ED8CD24"
+			rewards: [{
+				id: "703E991A10F9B259"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "514AB9B8B5329F9A"
@@ -548,6 +680,11 @@
 			dependencies: ["0E31ED057ED8CD24"]
 			description: ["Es muss nicht immer der größte Reaktor sein. "]
 			id: "68D70945E7B41457"
+			rewards: [{
+				id: "42C4576AD5E6ACEA"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "4A3A3D47B61C565B"
@@ -562,6 +699,11 @@
 			description: ["Anschließend erhälst du Rossinite"]
 			icon: "bigreactors:rossinite_bucket"
 			id: "0B7096A5E53E67EF"
+			rewards: [{
+				id: "1D5FE1D615D27AC7"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "03B8AFB323A53EDF"
@@ -575,6 +717,11 @@
 			dependencies: ["058F5156168C41AD"]
 			description: ["Wusstest Du, dass Du deinen Reaktor nicht kühlen musst? Der Verbrauch steigt dadurch und du kannst effektiver umwandeln. Wenn es nur darum geht."]
 			id: "6CBD102C9BA554AF"
+			rewards: [{
+				id: "365403D1786FBAAA"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "28E429B17342EB34"
@@ -589,6 +736,11 @@
 			description: ["Hast Du das Blutonium in flüssiger Form, kannst du es deinem Reactor wieder hinzufügen. Natürlich geht das auch mit Ingots."]
 			icon: "bigreactors:blutonium_bucket"
 			id: "058F5156168C41AD"
+			rewards: [{
+				id: "778F6DE86E408962"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "22B2B7D67662B9A7"
@@ -603,6 +755,11 @@
 			description: ["Anschließend erhälst Du Magentite. Achso das ME-System kann auch mit ExtremeReactors ganz gut."]
 			icon: "bigreactors:magentite_bucket"
 			id: "116CAD3989B3CCF5"
+			rewards: [{
+				id: "7588B37A724BDAE0"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "207D84CA68012ECF"
@@ -618,6 +775,11 @@
 				"3C07F92EF68FCC33"
 			]
 			id: "6A538CD7EEA9C917"
+			rewards: [{
+				id: "3A63FB449836E672"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "4603F7CC08D0185E"
@@ -632,6 +794,11 @@
 			description: ["Gebe Magentite und Ludicrite dem Reprocessor hinzu."]
 			icon: "bigreactors:magentite_bucket"
 			id: "060309360F27D1EA"
+			rewards: [{
+				id: "1140BC5D77008484"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "5CC05D5D8620ACB6"
@@ -645,6 +812,11 @@
 			dependencies: ["072EB753A23476A3"]
 			description: ["Gebe Magentite und Ludicrite dem Reprocessor hinzu."]
 			id: "3C07F92EF68FCC33"
+			rewards: [{
+				id: "0AE6F701710F18A7"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "0B2D7FF6919FAEC2"
@@ -660,6 +832,11 @@
 				"46D6CDBCAB067ECA"
 			]
 			id: "544531C0D2F7DCED"
+			rewards: [{
+				id: "4D091B3DF0B11377"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "032EA9BFF09429CA"
@@ -673,6 +850,11 @@
 			dependencies: ["5534116F13F1FECC"]
 			description: ["Ridiculite und Rossinite mal wieder repocessen."]
 			id: "358328CB0AB4DF09"
+			rewards: [{
+				id: "6D10F3C2A594C5B1"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "7929C9B067AF8C23"
@@ -687,6 +869,11 @@
 			description: ["Ridiculite und Rossinite mal wieder repocessen."]
 			icon: "bigreactors:rossinite_bucket"
 			id: "46D6CDBCAB067ECA"
+			rewards: [{
+				id: "682793091945B693"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "4077DBE330A0215A"
@@ -702,6 +889,11 @@
 				"60B95EE1477F2724"
 			]
 			id: "040C1D850A9C12DF"
+			rewards: [{
+				id: "37DECAECF8E70D09"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "2F91243D34DE2E4A"
@@ -716,6 +908,11 @@
 			description: ["Rossinite und Benitoite mal wieder reprocessen..."]
 			icon: "bigreactors:rossinite_bucket"
 			id: "5C8E6D7BDD2F3D7C"
+			rewards: [{
+				id: "6093258B3C3697D9"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "1476B082F3227F86"
@@ -734,6 +931,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "60B95EE1477F2724"
+			rewards: [{
+				id: "67EB780A53ECF04C"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "563C98530FC6A712"
@@ -747,6 +949,11 @@
 			dependencies: ["040C1D850A9C12DF"]
 			description: ["Super, das noch mit Inanite in den Craftingtable."]
 			id: "47B6FC0234860B71"
+			rewards: [{
+				id: "54E5437145A6EB0A"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "013661E13C8303F0"
@@ -760,6 +967,11 @@
 			dependencies: ["544531C0D2F7DCED"]
 			description: ["8 mal das ganze und man kann sich einen Inaniteblock craften. Vergess das Netherite nicht."]
 			id: "2685BD79EDA932C1"
+			rewards: [{
+				id: "01CD22947315CC08"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "42B671F4FD869406"
@@ -779,6 +991,11 @@
 				"War es das wirklich Wert?"
 			]
 			id: "0B6F1727ECC8D86A"
+			rewards: [{
+				id: "42FEDE482791379F"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E74AC4BB7647314"
 				item: "bigreactors:insanite_block"
@@ -791,6 +1008,11 @@
 			dependencies: ["26B645871A11798E"]
 			description: ["Durch Spaltung wird aus dem Yellorium Cyanite gewonnen"]
 			id: "064778D724C27365"
+			rewards: [{
+				id: "32BBDA4D6BD79C92"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "16277502FDE0FA0F"
@@ -805,6 +1027,11 @@
 			description: ["Gebe Uran oder Yellorium in deinen Reaktor"]
 			icon: "bigreactors:yellorium_bucket"
 			id: "26B645871A11798E"
+			rewards: [{
+				id: "6A551EA0F2CA88D2"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "1CE806849D563B37"
@@ -823,6 +1050,11 @@
 			]
 			icon: "bigreactors:cyanite_bucket"
 			id: "13C1BA3695707A9D"
+			rewards: [{
+				id: "7B0E4CBE7D5B13DF"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "34E99BB60961DDF4"
@@ -836,6 +1068,11 @@
 			dependencies: ["3B859360824909AE"]
 			description: ["Du kannst mit der in den Tasks aufgelisteten Blöcken aktiv Wasser eingeben und Dampf rausziehen. Es gibt sogar einen Block der den Dampf umwandelt in Mekanism Dampf. Hiermit lassen sich Mekanism Turbinen betreiben."]
 			id: "51D668BB5A301993"
+			rewards: [{
+				id: "6E1A40D119A91A38"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "345FF4181B947AB6"
@@ -863,6 +1100,11 @@
 				"Kühlst Du deinen Reaktor Aktiv, so generiert dein Reaktor keinen Strom mehr, diesen beziehst Du dann aus einer Turbine. "
 			]
 			id: "3B859360824909AE"
+			rewards: [{
+				id: "4DD8E54AE288CDB1"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7BD191F74C472357"
 				title: "Aktiv/Passiv"

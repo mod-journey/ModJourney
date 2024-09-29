@@ -30,12 +30,19 @@
 				"Jeder weitere Laserbohrer erhöht die Geschwindigkeit der Förderung."
 			]
 			id: "3F43A51AF14B6FF9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0406FB3BD61565EC"
-				table_id: 2498778483368621286L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0406FB3BD61565EC"
+					table_id: 2498778483368621286L
+					type: "loot"
+				}
+				{
+					id: "56F8B614566F8D73"
+					item: "thermal:bronze_coin"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -50,6 +57,11 @@
 		{
 			dependencies: ["534AEFBDAFA3754C"]
 			id: "1D18FA062A8CDBDE"
+			rewards: [{
+				id: "1F04B7FCC4AA610B"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -67,6 +79,11 @@
 				"54C0801350CC8CE7"
 			]
 			id: "2EEB5D5E78C0F724"
+			rewards: [{
+				id: "2A9EAEF6E33753CF"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.2d
 			tasks: [{
@@ -83,6 +100,11 @@
 				"2EEB5D5E78C0F724"
 			]
 			id: "22EAA39C771097BA"
+			rewards: [{
+				id: "13037565FC83D8B0"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.2d
 			tasks: [{
@@ -99,6 +121,11 @@
 				"545E1A2C4F9C2E1E"
 			]
 			id: "01CEFF4178663647"
+			rewards: [{
+				id: "012D72A68293141D"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.2d
 			tasks: [{
@@ -112,6 +139,11 @@
 		{
 			dependencies: ["1D18FA062A8CDBDE"]
 			id: "54C0801350CC8CE7"
+			rewards: [{
+				id: "43BA4FA0417DB48E"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3ABF7A8DA93422D6"
 				item: "industrialforegoing:fluid_extractor"
@@ -123,6 +155,11 @@
 		{
 			dependencies: ["1D18FA062A8CDBDE"]
 			id: "56805078D263672C"
+			rewards: [{
+				id: "7B5C17571F8889D3"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1DF8FB649AB898AF"
 				item: "industrialforegoing:dissolution_chamber"
@@ -134,6 +171,11 @@
 		{
 			dependencies: ["1D18FA062A8CDBDE"]
 			id: "6E0BCB8B71C2F9F5"
+			rewards: [{
+				id: "4914318BDDC98D36"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "628B7C5381920A4F"
 				item: "industrialforegoing:latex_processing_unit"
@@ -145,6 +187,11 @@
 		{
 			dependencies: ["1D18FA062A8CDBDE"]
 			id: "5A557E0D8DFA312E"
+			rewards: [{
+				id: "0B4AEB17CB5A8F93"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "65ACE7860ABE3017"
 				item: "industrialforegoing:mob_slaughter_factory"
@@ -161,6 +208,11 @@
 				"Jeder Kreatur liefert dabei eine unterschiedliche Menge."
 			]
 			id: "073EAA0D4341E3AC"
+			rewards: [{
+				id: "0C7405F4CA0F2021"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4E20BB9F42578882"
 				item: "industrialforegoing:pink_slime_bucket"
@@ -182,6 +234,11 @@
 				"Stelle sicher, dass die Stromversorgung für die Stasiskammer nicht ausfällt."
 			]
 			id: "545E1A2C4F9C2E1E"
+			rewards: [{
+				id: "159192CA15FCF158"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Einen Wither melken"
 			tasks: [{
 				id: "3D4FB4E20C467EE0"
@@ -200,12 +257,19 @@
 			]
 			hide: true
 			id: "62846CD8CD6D04F4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "15FABB3E1903DE2C"
-				table_id: 2626029047110404942L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15FABB3E1903DE2C"
+					table_id: 2626029047110404942L
+					type: "loot"
+				}
+				{
+					id: "05F49C7C5929021F"
+					item: "thermal:bronze_coin"
+					type: "item"
+				}
+			]
 			size: 1.2d
 			tasks: [{
 				id: "60897503FB9F3CDC"
@@ -218,6 +282,11 @@
 		{
 			dependencies: ["2EEB5D5E78C0F724"]
 			id: "3FDDCD291B208350"
+			rewards: [{
+				id: "5426513FF5D45784"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E5487A5AE86A8D3"
 				item: "industrialforegoing:stasis_chamber"
@@ -241,17 +310,24 @@
 				}
 			}
 			id: "534AEFBDAFA3754C"
-			rewards: [{
-				id: "4E10C67214F025F5"
-				item: {
-					Count: 1
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "industrialforegoing:industrial_foregoing"
+			rewards: [
+				{
+					id: "4E10C67214F025F5"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "industrialforegoing:industrial_foregoing"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "33078EA0292F5EDD"
+					item: "thermal:bronze_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "28EC62C39CC6A2B5"
 				item: "immersiveengineering:circuit_board"
@@ -265,6 +341,11 @@
 			dependencies: ["1D18FA062A8CDBDE"]
 			hide_dependency_lines: true
 			id: "2B916E825296EE08"
+			rewards: [{
+				id: "518FF3B05ED10027"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "529549FD453DF22F"
 				item: "industrialforegoing:common_black_hole_unit"
@@ -276,6 +357,11 @@
 		{
 			dependencies: ["2B916E825296EE08"]
 			id: "68633C79BDD01406"
+			rewards: [{
+				id: "52F37B5680FF0562"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4AB17FE5D2E8E4AB"
 				item: "industrialforegoing:pity_black_hole_unit"
@@ -287,6 +373,11 @@
 		{
 			dependencies: ["68633C79BDD01406"]
 			id: "2B3D82A486BE4B4C"
+			rewards: [{
+				id: "1E80274DAE0E358F"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C3202C694CE3D6A"
 				item: "industrialforegoing:simple_black_hole_unit"
@@ -298,6 +389,11 @@
 		{
 			dependencies: ["2B3D82A486BE4B4C"]
 			id: "42939B8856056179"
+			rewards: [{
+				id: "21838BF193A21CC1"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "232EB915B6AD16D6"
 				item: "industrialforegoing:advanced_black_hole_unit"
@@ -309,6 +405,11 @@
 		{
 			dependencies: ["42939B8856056179"]
 			id: "016B55A8155259C3"
+			rewards: [{
+				id: "2D2BC073971BD57F"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6B314ACDD4214084"
 				item: "industrialforegoing:supreme_black_hole_unit"
@@ -321,6 +422,11 @@
 			dependencies: ["1D18FA062A8CDBDE"]
 			hide_dependency_lines: true
 			id: "7D0F0E86349E2DED"
+			rewards: [{
+				id: "377FBCD25C8081C5"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "77FA602618CA9249"
 				item: "industrialforegoing:common_black_hole_tank"
@@ -332,6 +438,11 @@
 		{
 			dependencies: ["7D0F0E86349E2DED"]
 			id: "357C705927A0EA59"
+			rewards: [{
+				id: "0683BD05A64458CD"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "324C1250EBBF7D1F"
 				item: "industrialforegoing:pity_black_hole_tank"
@@ -343,6 +454,11 @@
 		{
 			dependencies: ["357C705927A0EA59"]
 			id: "38B43BC69F84335B"
+			rewards: [{
+				id: "3E9BF1D87C3DB650"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "18F2ACDE86A4CDBB"
 				item: "industrialforegoing:simple_black_hole_tank"
@@ -354,6 +470,11 @@
 		{
 			dependencies: ["38B43BC69F84335B"]
 			id: "7CFED4161D98036E"
+			rewards: [{
+				id: "638C9E4442C9DBF6"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "469026531D5B8C4E"
 				item: "industrialforegoing:advanced_black_hole_tank"
@@ -365,6 +486,11 @@
 		{
 			dependencies: ["7CFED4161D98036E"]
 			id: "7F4CDE3D40DBB97A"
+			rewards: [{
+				id: "5501FC0129B47592"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "25227329FC77ED40"
 				item: "industrialforegoing:supreme_black_hole_tank"
@@ -380,6 +506,11 @@
 			]
 			description: ["Der Controller ermöglicht mehrere Black Hole Tanks oder Units in einem Block zu lagern."]
 			id: "082E43A5EEBDF80B"
+			rewards: [{
+				id: "4786EB44A0DA955F"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "16 in 1"
 			tasks: [{
 				id: "536D851BBD6A191B"

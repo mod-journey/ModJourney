@@ -13,6 +13,11 @@
 			dependencies: ["03993D2DCBC69C3A"]
 			hide: true
 			id: "69CA3D774927EF1E"
+			rewards: [{
+				id: "11454A7638ADC036"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "145A870C0B729954"
 				item: "powah:energizing_orb"
@@ -29,6 +34,11 @@
 			dependency_requirement: "one_completed"
 			description: ["Willkommen bei Powah, hier lernst Du die Basics der Mod, was jeder Block macht und vor allem wie man diese Mod spielend leicht automatisiert."]
 			id: "7E5BBD28E9BD33E9"
+			rewards: [{
+				id: "4B14982042D3BCCA"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "667A2BE5B955BA43"
 				title: "gar nicht über(powah)t"
@@ -41,6 +51,11 @@
 			dependencies: ["2496090B13AD140C"]
 			description: ["Ein Item, welches Energie aus Items zieht und in dein aktuelles Netzwerk einspeist. "]
 			id: "0BB0BC7C847CE06A"
+			rewards: [{
+				id: "25CC9E82DA30CD45"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Entlade alles!"
 			tasks: [{
 				id: "37FEF5AD23A7D270"
@@ -61,6 +76,11 @@
 				"Mittels dem Auto Mode, schaltet der Reaktor bei einem vollen internen Energie Speicher automatisch ab. Sollte dieser unter 70% fallen, schaltet sich der Generator automatisch wieder ein."
 			]
 			id: "1840E2C4550564D5"
+			rewards: [{
+				id: "1D1AC83BA922CB18"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Wie funktioniert der Reaktor?"
 			tasks: [{
 				id: "012FE9916E44930D"
@@ -74,6 +94,11 @@
 			dependencies: ["2496090B13AD140C"]
 			description: ["Ein Block, welcher aus Sonnenlicht Energie gewinnt. Wenn Du diesen mit einer Lens of Ender kombinierst, arbeitet die Solarpanele auch durch Blöcke hindurch und ist nicht mehr direkt auf Sonnenlicht angewiesen."]
 			id: "48F3472B18648E82"
+			rewards: [{
+				id: "473611ED8269CA93"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Die Kraft der Sonne"
 			tasks: [{
 				id: "7782A9D070868419"
@@ -90,6 +115,11 @@
 				"Nicht sehr Nachhaltig"
 			]
 			id: "181C5275E9678EDC"
+			rewards: [{
+				id: "55004B6E6E11D5DD"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Verbrenne alles.."
 			tasks: [{
 				id: "32BBAC68FD41F329"
@@ -103,6 +133,11 @@
 			dependencies: ["2496090B13AD140C"]
 			description: ["Wandelt Lava in Energie um."]
 			id: "6D8C8F5FCCC086C0"
+			rewards: [{
+				id: "4E36C2DDB26D5925"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Pumpe den Nether leer."
 			tasks: [{
 				id: "4D60B0B641198D2D"
@@ -116,6 +151,11 @@
 			dependencies: ["2496090B13AD140C"]
 			description: ["Ein Block welcher Energie aus Thermik herstellt. Den Heißen Block unter den Reaktor und den Reaktor aktiv mit Wasser kühlen. "]
 			id: "48A426951585B3E6"
+			rewards: [{
+				id: "79E49B186A7C4BC1"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Passiv Strom."
 			tasks: [{
 				id: "48E1F29179A8BA0E"
@@ -134,6 +174,11 @@
 				"In der GUI deiner Endercell Shift + Rechtsklick und du erhälst die Kapazität, samt den gespeicherten Strom ein mal addiert dazu. Die I/O Rate bleibt gleich."
 			]
 			id: "5F2DC3215BEC9C68"
+			rewards: [{
+				id: "2F0C064CF1C0CECD"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "578729ED52E9C785"
 				item: {
@@ -150,6 +195,11 @@
 			dependencies: ["2DE28895E3897B29"]
 			description: ["Ein Block um Flux Energy (FE) zu speichern"]
 			id: "004FACEE5A1D9E61"
+			rewards: [{
+				id: "11E1E87C4E26AEC3"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6E14EC223D839E32"
 				item: "powah:energy_cell_starter"
@@ -171,6 +221,11 @@
 				"{ \"text\": \"Ender Gates\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60B7003EF62EB651\" } }"
 			]
 			id: "181561179B55197E"
+			rewards: [{
+				id: "44B0BAD123E81C25"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "477F2CC306A15CA4"
 				item: "powah:ender_cell_starter"
@@ -183,6 +238,11 @@
 			dependencies: ["2DE28895E3897B29"]
 			description: ["Kabel. Welche Du seperat in einer GUI mittels Rechtsklick als Eingabe/Ausgabe definieren kannst."]
 			id: "3AE05262BCF6560F"
+			rewards: [{
+				id: "4D7C7CB3105CEC04"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7AC03D76A91346F2"
 				item: "powah:energy_cable_starter"
@@ -201,6 +261,11 @@
 				"{ \"text\": \"Ender Cells\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"181561179B55197E\" } }"
 			]
 			id: "60B7003EF62EB651"
+			rewards: [{
+				id: "2F8187CD6886A41E"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E14D1CDB7A67D30"
 				item: "powah:ender_gate_starter"
@@ -213,6 +278,11 @@
 			dependencies: ["2DE28895E3897B29"]
 			description: ["Um Wireless Strom zu beziehen, kannst Du dieses Item nutzen. Mittels einer Player Card, welche an dich gebunden ist, ist dieser Block dein persönlicher Stromzugangspunkt."]
 			id: "39A2FE8389D8CF87"
+			rewards: [{
+				id: "4F3A73E361E931D2"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2C0C73AD09CC6188"
 				item: "powah:player_transmitter_starter"
@@ -225,6 +295,11 @@
 			dependencies: ["2DE28895E3897B29"]
 			description: ["Ermöglicht das Laden von FE basierten Items in einem Container, Kiste, Storage. "]
 			id: "08377ECC8FA7DD80"
+			rewards: [{
+				id: "597884552BFCE1DF"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "485388830735E5AA"
 				item: "powah:energy_hopper_starter"
@@ -237,6 +312,11 @@
 			dependencies: ["2DE28895E3897B29"]
 			description: ["Ein Teil einer Multiblockstruktur. Diese kannst Du nutzen, um deine Orb in Fusing Rezepten mit Strom zu versorgen. Wie man dies mittels Autocrafting hinbekommt, lernst du in der folge Quest."]
 			id: "663D58FDB00228B1"
+			rewards: [{
+				id: "177D6944B34C4459"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4946A8367B176176"
 				item: "powah:energizing_rod_starter"
@@ -248,6 +328,11 @@
 		{
 			dependencies: ["7E5BBD28E9BD33E9"]
 			id: "2496090B13AD140C"
+			rewards: [{
+				id: "407CE4805D45224F"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "62F2C4411EA05CAE"
 				title: "Energieproduktion"
@@ -260,6 +345,11 @@
 			dependencies: ["2496090B13AD140C"]
 			description: ["Es gibt Funktionsblöcke, welche Energie speichern, verbrauchen oder abgeben"]
 			id: "2DE28895E3897B29"
+			rewards: [{
+				id: "2B80FAD2D04C80FC"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "50C71CBAE6E38C8A"
 				title: "Funktionsblöcke"
@@ -271,6 +361,11 @@
 		{
 			dependencies: ["03993D2DCBC69C3A"]
 			id: "1FCFB67BE712AB97"
+			rewards: [{
+				id: "7103D7713BBC28D9"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "766EE6E559391240"
 				item: "powah:energizing_rod_basic"
@@ -282,6 +377,11 @@
 		{
 			dependencies: ["1FCFB67BE712AB97"]
 			id: "0C9A56AE665B29A7"
+			rewards: [{
+				id: "03D7D3CCABEC09A3"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7ECDC7A818E2660D"
 				item: "powah:energizing_rod_hardened"
@@ -293,6 +393,11 @@
 		{
 			dependencies: ["0C9A56AE665B29A7"]
 			id: "5E039C48CE24F1FD"
+			rewards: [{
+				id: "315FDAB6A72CC184"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2EFAFC71245E6468"
 				item: "powah:energizing_rod_blazing"
@@ -304,6 +409,11 @@
 		{
 			dependencies: ["5E039C48CE24F1FD"]
 			id: "052F1AB54FECE74C"
+			rewards: [{
+				id: "6979FBB35F3C22CA"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "17AAEAABAB98252C"
 				item: "powah:energizing_rod_niotic"
@@ -315,6 +425,11 @@
 		{
 			dependencies: ["052F1AB54FECE74C"]
 			id: "085524FB2AA3BAEF"
+			rewards: [{
+				id: "1471206C3DBEFE9C"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2EC708F3042794AC"
 				item: "powah:energizing_rod_spirited"
@@ -326,6 +441,11 @@
 		{
 			dependencies: ["085524FB2AA3BAEF"]
 			id: "10552CFF145F722D"
+			rewards: [{
+				id: "37A135D5DE6C41D0"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "300F16D66AEA289D"
 				item: "powah:energizing_rod_nitro"
@@ -342,6 +462,11 @@
 				"{image:powah:item/player_aerial_pearl width:30 height:30 align:1}"
 			]
 			id: "399C9B626732C513"
+			rewards: [{
+				id: "48E88AAFB7314FFA"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Wie kommt der Zombie hier rein?"
 			tasks: [{
 				id: "79C104E82169752F"
@@ -362,6 +487,11 @@
 				"{image:powah:item/binding_card_dim width:30 height:30 align:1}"
 			]
 			id: "695526C12D5AE2E6"
+			rewards: [{
+				id: "064730D1EA7E7700"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Auf die Enderperle, fertig. los...."
 			tasks: [{
 				id: "5C00342F490A218C"
@@ -379,6 +509,19 @@
 			dependency_requirement: "one_completed"
 			hide: false
 			id: "08BDD4ADC8DDB9C2"
+			rewards: [
+				{
+					id: "216270478ADF5F01"
+					item: "thermal:bronze_coin"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "39CC0E8A4175A907"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -392,6 +535,11 @@
 		{
 			dependencies: ["052F1AB54FECE74C"]
 			id: "28467BD83047B107"
+			rewards: [{
+				id: "50192BD5DC2E6470"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "59F4FF0EA6036BAF"
 				item: "powah:crystal_spirited"
@@ -403,6 +551,11 @@
 		{
 			dependencies: ["5E039C48CE24F1FD"]
 			id: "4E85CB4C5C6BF88E"
+			rewards: [{
+				id: "15872894F46B315F"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "550008E319723D5D"
 				item: "powah:crystal_niotic"
@@ -414,6 +567,11 @@
 		{
 			dependencies: ["0C9A56AE665B29A7"]
 			id: "7885A68DC52188F3"
+			rewards: [{
+				id: "5ABDBAA8A13DDD27"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "54F405423421A525"
 				item: "powah:crystal_blazing"
@@ -425,6 +583,11 @@
 		{
 			dependencies: ["1FCFB67BE712AB97"]
 			id: "0E287F74847CB367"
+			rewards: [{
+				id: "4AB3E6836FD78AFB"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0589C8044AC283E8"
 				item: "powah:steel_energized"
@@ -440,6 +603,11 @@
 				"{ \"text\": \"Thermo Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"48A426951585B3E6\" } }"
 			]
 			id: "3253AC6BB40CD3AD"
+			rewards: [{
+				id: "628E8C4DD8BD76F3"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "317A6719917A432C"
 				item: "powah:blazing_crystal_block"
@@ -462,6 +630,11 @@
 				"7. Nitro"
 			]
 			id: "14FBB805C032D907"
+			rewards: [{
+				id: "071C0523B7905B63"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5EF66C8DDB6EC1D6"
 				title: "und noch mehr"
@@ -476,6 +649,11 @@
 				"4E1D47FF582DA376"
 			]
 			id: "012414144A7C0228"
+			rewards: [{
+				id: "3E4C7C9DC253990C"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6FCBFBDD2BEBBDF0"
 				item: "powah:dielectric_paste"
@@ -487,6 +665,11 @@
 		{
 			dependencies: ["012414144A7C0228"]
 			id: "5749EC872D93D38E"
+			rewards: [{
+				id: "25ECB291CF7F5E08"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "44F1FBB1AEB926F0"
 				item: {
@@ -520,6 +703,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "4E1D47FF582DA376"
+			rewards: [{
+				id: "08CE2C5798BCD98E"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -538,6 +726,11 @@
 			dependency_requirement: "one_completed"
 			hide: true
 			id: "13B7A3863BECAD64"
+			rewards: [{
+				id: "5291D9696FEFCCB7"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -553,6 +746,11 @@
 			description: ["Ein Teil einer Multiblockstruktur. Diese kannst Du nutzen, um deine Orb in Fusing Rezepten mit Strom zu versorgen. Wie man dies mittels Autocrafting hinbekommt, lernst du in der folge Quest."]
 			disable_toast: true
 			id: "03993D2DCBC69C3A"
+			rewards: [{
+				id: "3E7D0E7599AC930B"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "53B18E5BAB3E03CC"
 				item: "powah:energizing_rod_starter"

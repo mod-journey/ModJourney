@@ -13,6 +13,11 @@
 			description: ["Genug Platz für die ersten Touren! Insgesamt 27 Slots und einen Upgrade Slot!"]
 			hide: true
 			id: "44041124EDB0DD59"
+			rewards: [{
+				id: "61A7E23658EA5B09"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Basic Rucksack"
 			tasks: [{
@@ -35,6 +40,11 @@
 			description: ["Die Basis für alle eure Upgrades!"]
 			hide: true
 			id: "1DA3986217ADE592"
+			rewards: [{
+				id: "1AF1862F9B7767C6"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Craftet Upgrades Leute!"
 			tasks: [{
@@ -49,6 +59,11 @@
 			dependencies: ["44041124EDB0DD59"]
 			description: ["Platz für noch mehr Zeug. 28 Slots und 2 Upgrade Slots!"]
 			id: "68DE5BDE3F537F42"
+			rewards: [{
+				id: "43BFDB6B20B295EF"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Eisener Rucksack!"
 			tasks: [{
 				id: "1170A612D35F6B14"
@@ -62,6 +77,11 @@
 			dependencies: ["68DE5BDE3F537F42"]
 			description: ["Mit 81 Slots und 3 Upgrade Slots, bietet er noch mehr Platz!"]
 			id: "537E339058A7D8F8"
+			rewards: [{
+				id: "22BA1C7ED584F630"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Güldener Rucksack"
 			tasks: [{
 				id: "300D73D0E0C2295B"
@@ -75,6 +95,11 @@
 			dependencies: ["537E339058A7D8F8"]
 			description: ["120 Slots und 5 Upgrade Slots. Besser geht nicht! Oder etwa doch..."]
 			id: "24BAA2C1FA713866"
+			rewards: [{
+				id: "79CF4DBC26F04D0E"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Dia Rucksack!"
 			tasks: [{
 				id: "5448EF73BD5D5CA1"
@@ -88,6 +113,11 @@
 			dependencies: ["24BAA2C1FA713866"]
 			description: ["Genau so viele Slots wie der Dia Rucksack, also 120, aber dafür 7 Upgrade Slots!"]
 			id: "1A6F631FCF135230"
+			rewards: [{
+				id: "116C9CCB50527227"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "None Plus Ultra Rucksack"
 			tasks: [{
 				id: "0E6CD97CF52C9408"
@@ -108,6 +138,11 @@
 				}
 			}
 			id: "120748C2D29DA6FC"
+			rewards: [{
+				id: "0BEDE11F3C64FD0A"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Ich bin der Looter-King!"
@@ -125,6 +160,11 @@
 			dependency_requirement: "all_started"
 			description: ["Mehr als nur 64 mal Stackbar!"]
 			id: "3886DDD04C153233"
+			rewards: [{
+				id: "2EDA611A231BBA6C"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "MOOOOREEEE I"
 			tasks: [{
 				id: "16FF79145D05D03D"
@@ -139,6 +179,11 @@
 			dependency_requirement: "all_started"
 			description: ["Noch mehr stacken!"]
 			id: "077C86B2B3E3546C"
+			rewards: [{
+				id: "023777A49950AA90"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "MOOOOREEEE II"
 			tasks: [{
 				id: "649567DDB61AB590"
@@ -152,6 +197,11 @@
 			dependencies: ["077C86B2B3E3546C"]
 			description: ["Noch viel mehr stacken!"]
 			id: "73F0DA7E5B71D4C9"
+			rewards: [{
+				id: "68ABF04D570F02BA"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "MOOOOREEEE III"
 			tasks: [{
 				id: "5E960B7306B68BBB"
@@ -165,6 +215,11 @@
 			dependencies: ["73F0DA7E5B71D4C9"]
 			description: ["Noch viel viel viel mehr stacken!"]
 			id: "75BA799EEA809FA5"
+			rewards: [{
+				id: "11FEDD5F2ABA3A6D"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "MOOOOREEEE IV"
 			tasks: [{
 				id: "2612EF961F992D96"
@@ -178,6 +233,19 @@
 			dependencies: ["75BA799EEA809FA5"]
 			description: ["Wer will so viel den überhaupt stacken."]
 			id: "574EEBFC1C74B329"
+			rewards: [
+				{
+					id: "6D6353DBF1F7E420"
+					item: "thermal:bronze_coin"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "39BF911AB7CE5404"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
 			subtitle: "MOOOOREEEE V"
 			tasks: [{
 				id: "7BF565C08E211049"
@@ -191,6 +259,11 @@
 			dependencies: ["1DA3986217ADE592"]
 			description: ["Aufgesammelte Items kommen direkt in den Rucksack."]
 			id: "7AD9631F43AD87FD"
+			rewards: [{
+				id: "34F3E6EAB7157A06"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Put it in I"
 			tasks: [{
 				id: "63CC929DF9953528"
@@ -204,6 +277,11 @@
 			dependencies: ["7AD9631F43AD87FD"]
 			description: ["Mehr Filteroptionen!"]
 			id: "6D06A0D7D85691CC"
+			rewards: [{
+				id: "455F9F1A9F265CC6"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Put it in II"
 			tasks: [{
 				id: "22E8545E2FB71B59"
@@ -217,6 +295,11 @@
 			dependencies: ["1DA3986217ADE592"]
 			description: ["Filter Items die rein und raus gehen beim Rucksack!"]
 			id: "7BDF271FC28A9299"
+			rewards: [{
+				id: "752049C393B31C89"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Lange Leitung I"
 			tasks: [{
 				id: "07FE4CD2264B8EA9"
@@ -230,6 +313,11 @@
 			dependencies: ["7BDF271FC28A9299"]
 			description: ["Noch mehr Filteroptionen!"]
 			id: "3CD003B49F0BCB3B"
+			rewards: [{
+				id: "29D9805CD09F130D"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Lange Leitung II"
 			tasks: [{
 				id: "0E89727B90146E3E"
@@ -243,6 +331,11 @@
 			dependencies: ["1DA3986217ADE592"]
 			description: ["Magnetisiert herumliegende Items und saugt sie auf!"]
 			id: "22C805CD0CA544E5"
+			rewards: [{
+				id: "6B9517EFACA515AC"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Ich bin Rombo I"
 			tasks: [{
 				id: "1001158358E8DAEC"
@@ -256,6 +349,11 @@
 			dependencies: ["22C805CD0CA544E5"]
 			description: ["Mehr Filteroptionen!"]
 			id: "70C8460C5B716A0A"
+			rewards: [{
+				id: "6958F59AB07F0493"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Ich bin Rombo II"
 			tasks: [{
 				id: "085D2B887CDDA2F7"
@@ -269,6 +367,11 @@
 			dependencies: ["1DA3986217ADE592"]
 			description: ["Niewieder selber essen! Du wirst gefüttert!"]
 			id: "1B2FE7C5CBB54589"
+			rewards: [{
+				id: "0B8C6B391F5223EA"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Fütterungszeit I"
 			tasks: [{
 				id: "3D7663A13603FF20"
@@ -282,6 +385,11 @@
 			dependencies: ["1B2FE7C5CBB54589"]
 			description: ["Mehr Optionen wann und wie du gefüttert wirst!"]
 			id: "26430E5AE2EF3D6F"
+			rewards: [{
+				id: "3FB3179D4960A465"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Fütterungszeit II"
 			tasks: [{
 				id: "77B846CBCB084678"
@@ -295,6 +403,11 @@
 			dependencies: ["1DA3986217ADE592"]
 			description: ["2x2 Rezepte werden Platz sparend gelagert"]
 			id: "6E80082139A42376"
+			rewards: [{
+				id: "602173F461754731"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Mach mal kleiner I"
 			tasks: [{
 				id: "45D615875C501AE2"
@@ -308,6 +421,11 @@
 			dependencies: ["6E80082139A42376"]
 			description: ["2x2 und 3x3 Rezepte werden Platz sparend gelagert."]
 			id: "50861A06499F6A87"
+			rewards: [{
+				id: "4FFFA2757031380B"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Mach mal kleiner II"
 			tasks: [{
 				id: "5A4E6C77EEF5B1E9"
@@ -321,6 +439,11 @@
 			dependencies: ["1DA3986217ADE592"]
 			description: ["Vernichte automatisch Items deiner Wahl!"]
 			id: "3DA44DE3F547CCE6"
+			rewards: [{
+				id: "7960D1D1B65BED1A"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Wer will den S....ß I"
 			tasks: [{
 				id: "49A61643ADC0EBD4"
@@ -334,6 +457,11 @@
 			dependencies: ["3DA44DE3F547CCE6"]
 			description: ["Mehr Filteroptionen!"]
 			id: "0555F3309ADAE672"
+			rewards: [{
+				id: "0F07FE2ACDB61523"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Wer will den S....ß II"
 			tasks: [{
 				id: "4901D20F6B151688"
@@ -347,6 +475,11 @@
 			dependencies: ["1DA3986217ADE592"]
 			description: ["Wieder auffüllen von Items!"]
 			id: "0C27E1D2CE9711CD"
+			rewards: [{
+				id: "5CE6B11A2FB257F6"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Voll machen bitte I"
 			tasks: [{
 				id: "71D5E7E281CE744E"
@@ -360,6 +493,11 @@
 			dependencies: ["0C27E1D2CE9711CD"]
 			description: ["Selbe Funktion aber mehr Filteroptionen"]
 			id: "33AA5240D8DC2EC9"
+			rewards: [{
+				id: "6D5C9D3D25D72278"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Voll machen bitte II"
 			tasks: [{
 				id: "37A81907DCAEA93A"
@@ -373,6 +511,11 @@
 			dependencies: ["1DA3986217ADE592"]
 			description: ["Lager Items schneller irgendwo ab!"]
 			id: "70E808383CECC9A1"
+			rewards: [{
+				id: "60073C2D633D7232"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Quick Stack I"
 			tasks: [{
 				id: "2E5784352F7B751A"
@@ -386,6 +529,11 @@
 			dependencies: ["70E808383CECC9A1"]
 			description: ["Mehr Filteroptionen!"]
 			id: "438D14498160D7CF"
+			rewards: [{
+				id: "186FF9B0EDE6BF72"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Quick Stack II"
 			tasks: [{
 				id: "6717A309E8680E8B"
@@ -399,6 +547,11 @@
 			dependencies: ["1DA3986217ADE592"]
 			description: ["Füllt automatisch deine Hand nach wenn Items ausgehen!"]
 			id: "0060F8847CDD18D9"
+			rewards: [{
+				id: "152772E67692C921"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Ich brauche mehr I"
 			tasks: [{
 				id: "359EA20F5A89C1B6"
@@ -412,6 +565,11 @@
 			dependencies: ["0060F8847CDD18D9"]
 			description: ["Merh Optionen und Itemauswahl per klick auf das Mausrad!"]
 			id: "654C023F49F46370"
+			rewards: [{
+				id: "6B89B1F396B163BF"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Ich brauche mehr II"
 			tasks: [{
 				id: "584310EED498909F"
@@ -425,6 +583,11 @@
 			dependencies: ["1DA3986217ADE592"]
 			description: ["Ofen im Rucksack, was sollte da schief gehen."]
 			id: "61BAEC3E8D33CC67"
+			rewards: [{
+				id: "5311E2D2CC364D94"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Ofen to go I"
 			tasks: [{
 				id: "492E2E3548019D2B"
@@ -438,6 +601,11 @@
 			dependencies: ["61BAEC3E8D33CC67"]
 			description: ["Input und Output sind jetzt automatisiert."]
 			id: "0B7993AC1A4CB9D9"
+			rewards: [{
+				id: "5222415FF65379AD"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Ofen to go II"
 			tasks: [{
 				id: "0327C612A9632DC4"
@@ -451,6 +619,11 @@
 			dependencies: ["1DA3986217ADE592"]
 			description: ["Smoke dein Essen und das To-Go!"]
 			id: "37137208FC2D7F9A"
+			rewards: [{
+				id: "110F7999B9E75F68"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Grillen geht immer I"
 			tasks: [{
 				id: "0EAD563A0EE87722"
@@ -464,6 +637,11 @@
 			dependencies: ["37137208FC2D7F9A"]
 			description: ["Input und Output sind automatisierbar."]
 			id: "44EA03142D3BA39E"
+			rewards: [{
+				id: "520293C1423F5ABA"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Grillen geht immer II"
 			tasks: [{
 				id: "66AE12F4375A0731"
@@ -477,6 +655,11 @@
 			dependencies: ["1DA3986217ADE592"]
 			description: ["Schneller Erze verarbeiten mit dem Blast Furnace!"]
 			id: "4765FE21496CDB09"
+			rewards: [{
+				id: "0FF233A74DCD82DE"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Blast it I"
 			tasks: [{
 				id: "3F6F02E0331E4E6C"
@@ -490,6 +673,11 @@
 			dependencies: ["4765FE21496CDB09"]
 			description: ["Input und Output sind jetzt automatisierbar!"]
 			id: "5CDBF914FFF477D7"
+			rewards: [{
+				id: "4779B5B5CF3481C1"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Blast it II"
 			tasks: [{
 				id: "668C2A31012289D8"
@@ -503,6 +691,11 @@
 			dependencies: ["1DA3986217ADE592"]
 			description: ["Richtig der Rucksack kann als Pumpe arbeiten. Wie? Keine Ahnung Frag jemand anderes!"]
 			id: "6E93D46AB70FC4EA"
+			rewards: [{
+				id: "28CDF6DF1B751E41"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Feuchte Angelegenheit I"
 			tasks: [{
 				id: "35B2BB016241B534"
@@ -516,6 +709,11 @@
 			dependencies: ["6E93D46AB70FC4EA"]
 			description: ["Mehr Filteroptionen!"]
 			id: "6207186159232DB8"
+			rewards: [{
+				id: "5CF6421B93DA0860"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Feuchte Angelegenheit II"
 			tasks: [{
 				id: "4316128E7E87A09A"
@@ -529,6 +727,11 @@
 			dependencies: ["1DA3986217ADE592"]
 			description: ["Nie wieder das richtige Item zum Abbauen auswählen müssen!"]
 			id: "7556BC1029C2B666"
+			rewards: [{
+				id: "70250A5095ED5B0C"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Switcheru I"
 			tasks: [{
 				id: "0D65C38B8CCCF482"
@@ -542,6 +745,11 @@
 			dependencies: ["7556BC1029C2B666"]
 			description: ["Mehr Optionen und Wrenches können auch geswitched werden!"]
 			id: "541FAC3028FB33D8"
+			rewards: [{
+				id: "6A7302C1C1E8D1BD"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Switcheru II"
 			tasks: [{
 				id: "719740D197718C97"
@@ -555,6 +763,11 @@
 			dependencies: ["1DA3986217ADE592"]
 			description: ["Dein Rucksack ist unkaputtbar!"]
 			id: "378D7B50458C9799"
+			rewards: [{
+				id: "7B49E5BB8247531E"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "I am Superman!"
 			tasks: [{
 				id: "081B29F3ADAAD3C4"
@@ -568,6 +781,11 @@
 			dependencies: ["1DA3986217ADE592"]
 			description: ["Nie wieder eine Werkbank craften, benutz deinen Rucksack dafür!"]
 			id: "2F43B87E319D7520"
+			rewards: [{
+				id: "11AD0C6189CF2ED9"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Werkbank to go!"
 			tasks: [{
 				id: "24B7CEF2BB7E3144"
@@ -581,6 +799,11 @@
 			dependencies: ["1DA3986217ADE592"]
 			description: ["Mach mal Mucke!"]
 			id: "7C756D847549EF66"
+			rewards: [{
+				id: "08052B6C57B632D6"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Drop the Beat!"
 			tasks: [{
 				id: "7C43F827EBA884FD"
@@ -594,6 +817,11 @@
 			dependencies: ["1DA3986217ADE592"]
 			description: ["Wer will einen Stonecutter to go haben? Du? Hier bitte."]
 			id: "3EC2CF7E940184C9"
+			rewards: [{
+				id: "4947DBEF75D9BC3B"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Ich bin ein Meißel!"
 			tasks: [{
 				id: "19F8C7F99A3D65B9"
@@ -607,6 +835,11 @@
 			dependencies: ["1DA3986217ADE592"]
 			description: ["Flüssigkeiten kannst du jetzt auch mit deinem Rucksack transportieren!"]
 			id: "4759C2D9F4C40115"
+			rewards: [{
+				id: "4C9CD62F4E994369"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Flasche to go!"
 			tasks: [{
 				id: "1F48F0E37DE674B4"
@@ -620,6 +853,11 @@
 			dependencies: ["1DA3986217ADE592"]
 			description: ["Dein Rucksack kann jetzt auch Strom speichern!"]
 			id: "778B1BEFC6341B66"
+			rewards: [{
+				id: "5F83BF2BA8A58270"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Elektrisierend!"
 			tasks: [{
 				id: "2F95BCE38F0B81A3"
@@ -636,6 +874,11 @@
 			]
 			description: ["XP kann jetzt auch mit dem Rücksack gepumpt werden. Wieso? Darum!"]
 			id: "789913E88083A2FF"
+			rewards: [{
+				id: "25D25C0EFC5CCB84"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Damn Son!"
 			tasks: [{
 				id: "40D2B2B312010CFE"
@@ -649,6 +892,11 @@
 			dependencies: ["1DA3986217ADE592"]
 			description: ["Ein Amboss to go, warum auch nicht!"]
 			id: "377AD83C93A06928"
+			rewards: [{
+				id: "0231217299669127"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Hammerschlag!"
 			tasks: [{
 				id: "627AF892D7947FAC"

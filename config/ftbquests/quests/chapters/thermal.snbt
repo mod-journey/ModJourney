@@ -68,6 +68,11 @@
 		{
 			dependencies: ["0524EAE590378B3C"]
 			id: "7A64B37068D86BEB"
+			rewards: [{
+				id: "5D965D71C809BAE1"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
@@ -81,6 +86,11 @@
 		{
 			dependencies: ["7A64B37068D86BEB"]
 			id: "664DE4738DDB1F77"
+			rewards: [{
+				id: "163CD14D62641B38"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Eine Presse!"
 			tasks: [{
 				id: "6C8E059ACB88958D"
@@ -93,6 +103,11 @@
 		{
 			dependencies: ["7A64B37068D86BEB"]
 			id: "586EFD2747910C1B"
+			rewards: [{
+				id: "6312CBFD9367DD83"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Rohstoff rein, Flüssigkeit raus."
 			tasks: [{
 				id: "388F709C45C771E9"
@@ -105,6 +120,11 @@
 		{
 			dependencies: ["7A64B37068D86BEB"]
 			id: "26BC003C6E939699"
+			rewards: [{
+				id: "436CAF031D39B4A6"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Verbinde eine Flüssigkeit mit einem Feststoff"
 			tasks: [{
 				id: "709EC10D9D9AE86B"
@@ -117,6 +137,11 @@
 		{
 			dependencies: ["7A64B37068D86BEB"]
 			id: "25F5FA0CC57EEBFD"
+			rewards: [{
+				id: "7A69269CB77980EA"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Eine mit Strom betriebene Sägemühle um mehr Holz zu bekommen"
 			tasks: [{
 				id: "68DF3B5FC8AB3553"
@@ -129,6 +154,11 @@
 		{
 			dependencies: ["7A64B37068D86BEB"]
 			id: "23387B6FD57598D5"
+			rewards: [{
+				id: "16570B278CF0BD19"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Zerlegt einen Rohstoff in Einzelteile"
 			tasks: [{
 				id: "40E6C911DA35D23C"
@@ -141,6 +171,11 @@
 		{
 			dependencies: ["7A64B37068D86BEB"]
 			id: "05CD468D86DA4DC1"
+			rewards: [{
+				id: "31A78C7841FB6B3D"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Ein mit Strom betriebener AutoCrafter"
 			tasks: [{
 				id: "6CE63B73C99040E6"
@@ -153,6 +188,11 @@
 		{
 			dependencies: ["7A64B37068D86BEB"]
 			id: "11EFC2D1FB0C5479"
+			rewards: [{
+				id: "2BC0D79D77C46BD2"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Pflanzen und Bäume!"
 			tasks: [{
 				id: "7987FA27DE1D81A7"
@@ -165,6 +205,11 @@
 		{
 			dependencies: ["7A64B37068D86BEB"]
 			id: "35CE63FDE38B74D2"
+			rewards: [{
+				id: "0ECA76C4EA9E71E9"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Flüssigkeit rein, Feststoff raus."
 			tasks: [{
 				id: "29BC6BB7C3B493F6"
@@ -177,6 +222,11 @@
 		{
 			dependencies: ["7A64B37068D86BEB"]
 			id: "0B9F69583404896F"
+			rewards: [{
+				id: "0B3639994CF57153"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Brennbares Material rein um als Output verbranntes Material und Öl zu erhalten. "
 			tasks: [{
 				id: "7EA0B4F9DB959358"
@@ -189,6 +239,11 @@
 		{
 			dependencies: ["7A64B37068D86BEB"]
 			id: "2D3254F9CAF5FD1C"
+			rewards: [{
+				id: "30F475024426C540"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Für die Trankherstellung!"
 			tasks: [{
 				id: "453AC7C0FA4491F0"
@@ -201,6 +256,11 @@
 		{
 			dependencies: ["7A64B37068D86BEB"]
 			id: "0AEAF1A388DE10D7"
+			rewards: [{
+				id: "086B593E1FB1E8DC"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Ein mit Strom betriebener Ofen"
 			tasks: [{
 				id: "668D0F396E1D978E"
@@ -213,6 +273,11 @@
 		{
 			dependencies: ["7A64B37068D86BEB"]
 			id: "013F4DF5BE81AFA4"
+			rewards: [{
+				id: "3523E4972F27E526"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Frakking!"
 			tasks: [{
 				id: "2B59BD86B87F70AC"
@@ -225,6 +290,11 @@
 		{
 			dependencies: ["7A64B37068D86BEB"]
 			id: "38C03105A0BAA33C"
+			rewards: [{
+				id: "47480C0F97BEE6EF"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Ein Zerkleinerer mit Nebenprodukten"
 			tasks: [{
 				id: "2A5812C15A3AF607"
@@ -237,6 +307,11 @@
 		{
 			dependencies: ["7A64B37068D86BEB"]
 			id: "038957C888562E9F"
+			rewards: [{
+				id: "26A28545CDD6136F"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Staub und Wasser werden zu Feststoff"
 			tasks: [{
 				id: "218FEF79ACC95057"
@@ -254,6 +329,11 @@
 			dependency_requirement: "one_completed"
 			hide: true
 			id: "0524EAE590378B3C"
+			rewards: [{
+				id: "0153D7F7D3A76D26"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -267,6 +347,11 @@
 		{
 			dependencies: ["7A64B37068D86BEB"]
 			id: "77FB11E4F613C5D3"
+			rewards: [{
+				id: "2BCC62062C9B629D"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Verbindet mehrere Materialien zu einem"
 			tasks: [{
 				id: "636F12C74A52D8FC"
@@ -279,6 +364,11 @@
 		{
 			dependencies: ["664DE4738DDB1F77"]
 			id: "359D3DE86C878B32"
+			rewards: [{
+				id: "693FD1C48536F86C"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0B56F3D3B9C8DDAC"
@@ -291,6 +381,11 @@
 		{
 			dependencies: ["664DE4738DDB1F77"]
 			id: "3E3F87B3363B7A3B"
+			rewards: [{
+				id: "6AB224BCA3FA4692"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "70D31A97732B6F18"
@@ -303,6 +398,11 @@
 		{
 			dependencies: ["664DE4738DDB1F77"]
 			id: "6A517BFDDB6BA7D4"
+			rewards: [{
+				id: "6ED8C49B4FB5130B"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "696058082E46EBB3"
@@ -315,6 +415,11 @@
 		{
 			dependencies: ["664DE4738DDB1F77"]
 			id: "536B7F5FC5DF83CC"
+			rewards: [{
+				id: "365AA837B653A583"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "60B006C49921AC60"
@@ -327,11 +432,18 @@
 		{
 			dependencies: ["11EFC2D1FB0C5479"]
 			id: "5C368B828B26C7FF"
-			rewards: [{
-				id: "6F4B6AC4C27F7D6C"
-				item: "minecraft:acacia_sapling"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6F4B6AC4C27F7D6C"
+					item: "minecraft:acacia_sapling"
+					type: "item"
+				}
+				{
+					id: "68647C94AE92A698"
+					item: "thermal:bronze_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "492832BDF102DE3F"
 				title: "Probiere es aus mit einem Sappling!"
@@ -343,6 +455,11 @@
 		{
 			dependencies: ["0524EAE590378B3C"]
 			id: "49292699597CF33A"
+			rewards: [{
+				id: "5B071EDB2DC89C96"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0E690B924B5B361F"
 				item: "thermal:dynamo_stirling"
@@ -354,6 +471,11 @@
 		{
 			dependencies: ["0524EAE590378B3C"]
 			id: "6AFAC4515F837869"
+			rewards: [{
+				id: "3673767910B5E85B"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4487DE126504A91C"
 				item: "thermal:dynamo_compression"
@@ -365,6 +487,11 @@
 		{
 			dependencies: ["0524EAE590378B3C"]
 			id: "78313974B45B5432"
+			rewards: [{
+				id: "052FAA0A6CD86570"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6854D5F77103C992"
 				item: "thermal:dynamo_magmatic"
@@ -376,6 +503,11 @@
 		{
 			dependencies: ["0524EAE590378B3C"]
 			id: "10B2848518E2655B"
+			rewards: [{
+				id: "43F2E812DC065D73"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "38C75F20458BCA29"
 				item: "thermal:dynamo_numismatic"
@@ -387,6 +519,11 @@
 		{
 			dependencies: ["0524EAE590378B3C"]
 			id: "62A6E81DF9FC77D2"
+			rewards: [{
+				id: "7CC978579B338A68"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "14A42175FF2755DD"
 				item: "thermal:dynamo_lapidary"
@@ -398,6 +535,11 @@
 		{
 			dependencies: ["0524EAE590378B3C"]
 			id: "602C4708D18EB1B0"
+			rewards: [{
+				id: "5A74C92FB5DC869B"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "11A8D048BBF69CEE"
 				item: "thermal:dynamo_disenchantment"
@@ -409,6 +551,11 @@
 		{
 			dependencies: ["0524EAE590378B3C"]
 			id: "0E49EB43FDAEC452"
+			rewards: [{
+				id: "6CB1A50D6EC16B0C"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F023825A91B5428"
 				item: "thermal:dynamo_gourmand"
@@ -420,6 +567,11 @@
 		{
 			dependencies: ["7A64B37068D86BEB"]
 			id: "7D49AA8CE68E9356"
+			rewards: [{
+				id: "23F93AF0E6A8BCEE"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Nachdem ihr die ersten Maschinen gebaut habt, könnt ihr diese nun mit Upgrades verstärken"
 			tasks: [{
 				id: "0690127887DF6BBF"
@@ -433,6 +585,11 @@
 		{
 			dependencies: ["7D49AA8CE68E9356"]
 			id: "77E1C2D31E604A6E"
+			rewards: [{
+				id: "547B3AF3A450299E"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "768D959CB6108A70"
 				item: "thermal:xp_storage_augment"
@@ -444,6 +601,11 @@
 		{
 			dependencies: ["7D49AA8CE68E9356"]
 			id: "4A1F968E197F6AD8"
+			rewards: [{
+				id: "337A9411C898442A"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "21B8052FB3215453"
 				item: "thermal:rf_coil_augment"
@@ -455,6 +617,11 @@
 		{
 			dependencies: ["7D49AA8CE68E9356"]
 			id: "59F0D628A4E84692"
+			rewards: [{
+				id: "4A8B7AE3C13721AA"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0054263938F9A4E8"
 				item: "thermal:rf_coil_storage_augment"
@@ -466,6 +633,11 @@
 		{
 			dependencies: ["7D49AA8CE68E9356"]
 			id: "0258595EB2057262"
+			rewards: [{
+				id: "3C44D7D7E50F1FAA"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C6DFAFB9F554933"
 				item: "thermal:rf_coil_xfer_augment"
@@ -477,6 +649,11 @@
 		{
 			dependencies: ["7D49AA8CE68E9356"]
 			id: "166109F4626F28C5"
+			rewards: [{
+				id: "72C0828952DB319C"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2607A3C32A6B5705"
 				item: "thermal:fluid_tank_augment"
@@ -488,6 +665,11 @@
 		{
 			dependencies: ["7D49AA8CE68E9356"]
 			id: "45700CEC500B09B4"
+			rewards: [{
+				id: "21BDBCFDA112F402"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6B2AEE21CA5A1747"
 				item: "thermal:item_filter_augment"
@@ -499,6 +681,11 @@
 		{
 			dependencies: ["7D49AA8CE68E9356"]
 			id: "2FA73A66ABA330E3"
+			rewards: [{
+				id: "7A7803A8FFDDC1F4"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3532F7E6272A2E9C"
 				item: "thermal:fluid_filter_augment"
@@ -510,6 +697,11 @@
 		{
 			dependencies: ["7D49AA8CE68E9356"]
 			id: "1306834BBC79B363"
+			rewards: [{
+				id: "4247E06DC1AFAD66"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "258A8A44069C34F3"
 				item: "thermal:machine_speed_augment"
@@ -521,6 +713,11 @@
 		{
 			dependencies: ["7D49AA8CE68E9356"]
 			id: "2C36398E0F9E5B18"
+			rewards: [{
+				id: "08F7DA5FE7FFE84C"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D6BDF62AA04BC84"
 				item: "thermal:machine_efficiency_augment"
@@ -532,6 +729,11 @@
 		{
 			dependencies: ["7D49AA8CE68E9356"]
 			id: "01A66B25FF6BB4D2"
+			rewards: [{
+				id: "71534468B29ED9D6"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "51B05710A8F751EB"
 				item: "thermal:machine_output_augment"
@@ -543,6 +745,11 @@
 		{
 			dependencies: ["7D49AA8CE68E9356"]
 			id: "0FFD285B2ABDC2B2"
+			rewards: [{
+				id: "366B98582696133B"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "52E09E75CF9BE688"
 				item: "thermal:machine_catalyst_augment"
@@ -554,6 +761,11 @@
 		{
 			dependencies: ["7D49AA8CE68E9356"]
 			id: "17CBFC27A3BE726C"
+			rewards: [{
+				id: "313D94E190BAEF5C"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5B145CE0851C2878"
 				item: "thermal:machine_cycle_augment"
@@ -565,6 +777,11 @@
 		{
 			dependencies: ["4ECE88BDAF352ECC"]
 			id: "615F3FA2D8E9F2D7"
+			rewards: [{
+				id: "6B65E9EDCD72602E"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A4CC3B096D1736A"
 				item: "thermal:dynamo_throttle_augment"
@@ -576,6 +793,11 @@
 		{
 			dependencies: ["7D49AA8CE68E9356"]
 			id: "5F19EF913B235466"
+			rewards: [{
+				id: "27ECFE9654805E73"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5B0E52B9BF72F2A4"
 				item: "thermal:machine_null_augment"
@@ -587,6 +809,11 @@
 		{
 			dependencies: ["4ECE88BDAF352ECC"]
 			id: "39665DA9F761F6E5"
+			rewards: [{
+				id: "611EC5D9C2A886C7"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "319B063ABD82FE06"
 				item: "thermal:dynamo_output_augment"
@@ -598,6 +825,11 @@
 		{
 			dependencies: ["4ECE88BDAF352ECC"]
 			id: "6B0EABAE03B84120"
+			rewards: [{
+				id: "3AE2FA8DD1537252"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "24A4C41284E6C0BA"
 				item: "thermal:dynamo_fuel_augment"
@@ -620,6 +852,11 @@
 			dependency_requirement: "one_completed"
 			hide: true
 			id: "4ECE88BDAF352ECC"
+			rewards: [{
+				id: "07A908AEEC7EA334"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "541BB6D3E0F66204"
 				title: "Upgrades für die Dynamos"
@@ -632,6 +869,11 @@
 		{
 			dependencies: ["7D49AA8CE68E9356"]
 			id: "20F217C091323EDF"
+			rewards: [{
+				id: "11019A91EB7FFAAD"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "009368991C4AF966"
 				item: "thermal:upgrade_augment_1"
@@ -643,6 +885,11 @@
 		{
 			dependencies: ["7D49AA8CE68E9356"]
 			id: "36ADB5C1CA364F5F"
+			rewards: [{
+				id: "0586CDBBF4ED8FDB"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6A8FD646ACEEAA2B"
 				item: "thermal:upgrade_augment_2"
@@ -654,6 +901,11 @@
 		{
 			dependencies: ["7D49AA8CE68E9356"]
 			id: "4761467C94840C4A"
+			rewards: [{
+				id: "7101E92273A73423"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4E021261174F000F"
 				item: "thermal:upgrade_augment_3"
@@ -665,6 +917,11 @@
 		{
 			dependencies: ["359D3DE86C878B32"]
 			id: "421053C942FFE45C"
+			rewards: [{
+				id: "2015CB96CF8C63FC"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Der Rahmen für den Energiespeicher!"
 			tasks: [{
 				id: "43C1077E93E5E429"
@@ -677,6 +934,11 @@
 		{
 			dependencies: ["421053C942FFE45C"]
 			id: "154B0F746470B712"
+			rewards: [{
+				id: "30285FB767FD38AB"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Energie Speichern!"
 			tasks: [{
 				id: "46F11E693D1D3CA1"
@@ -701,6 +963,11 @@
 			dependencies: ["0524EAE590378B3C"]
 			hide_dependency_lines: true
 			id: "1592FAC6A60177FC"
+			rewards: [{
+				id: "1EEAF7CDFBEA8389"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -714,6 +981,11 @@
 		{
 			dependencies: ["0524EAE590378B3C"]
 			id: "28CCBF0929A22DBC"
+			rewards: [{
+				id: "176744F93114D73B"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Lade mehrere Items gleichzeitig auf!"
 			tasks: [{
 				id: "480075F4336A6B32"
@@ -726,6 +998,11 @@
 		{
 			dependencies: ["1592FAC6A60177FC"]
 			id: "764E50746BC2A66F"
+			rewards: [{
+				id: "0206E58782E78467"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Speicher für deine Flüssigkeiten!"
 			tasks: [{
 				id: "20A7D7DEFF5E92A9"
@@ -752,6 +1029,11 @@
 			dependencies: ["0524EAE590378B3C"]
 			hide_dependency_lines: true
 			id: "01F699F9E03C2A7A"
+			rewards: [{
+				id: "03AB2FD855565B75"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.2d
 			tasks: [{
@@ -766,6 +1048,11 @@
 			dependencies: ["0524EAE590378B3C"]
 			hide_dependency_lines: true
 			id: "31C8B45668806FBC"
+			rewards: [{
+				id: "6C1140D2E9A4C765"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.2d
 			tasks: [{
@@ -780,6 +1067,11 @@
 			dependencies: ["0524EAE590378B3C"]
 			hide_dependency_lines: true
 			id: "5C7F8F068A111585"
+			rewards: [{
+				id: "3C7897092E4C90FB"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			size: 1.2d
 			tasks: [{
 				id: "01EC2DD91B9DDDFE"
@@ -792,6 +1084,11 @@
 		{
 			dependencies: ["1592FAC6A60177FC"]
 			id: "1F70D2C20154A8B5"
+			rewards: [{
+				id: "7DCBB359DEF94491"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "BIENEN!!!"
 			tasks: [{
 				id: "4762463F3D0491F1"
@@ -804,6 +1101,11 @@
 		{
 			dependencies: ["1592FAC6A60177FC"]
 			id: "2DAD93848DABE5D6"
+			rewards: [{
+				id: "7A6A523207E11D2B"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Extrahiert Latex von Bäumen"
 			tasks: [{
 				id: "4F860AD17D93D3B1"
@@ -816,6 +1118,11 @@
 		{
 			dependencies: ["1592FAC6A60177FC"]
 			id: "35117936FBC60CA3"
+			rewards: [{
+				id: "288475A0BFEA7E43"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Eine Angelmaschine. Machst du den großen Fang?"
 			tasks: [{
 				id: "1C32DFE49EF05A54"
@@ -828,12 +1135,19 @@
 		{
 			dependencies: ["1592FAC6A60177FC"]
 			id: "21C1F8929F00A608"
-			rewards: [{
-				count: 20
-				id: "4DBEF1278A065729"
-				item: "minecraft:wheat_seeds"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 20
+					id: "4DBEF1278A065729"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "63E99F82A759CB23"
+					item: "thermal:bronze_coin"
+					type: "item"
+				}
+			]
 			subtitle: "Pack doch mal ein paar Seeds rein und schau was passiert. "
 			tasks: [{
 				id: "62C6C8B755F2F59A"
@@ -846,6 +1160,11 @@
 		{
 			dependencies: ["0524EAE590378B3C"]
 			id: "21A29EE0D6EDEC90"
+			rewards: [{
+				id: "60E7F2A379385228"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C50C151245FD639"
 				item: "thermal:device_soil_infuser"
@@ -857,6 +1176,11 @@
 		{
 			dependencies: ["1592FAC6A60177FC"]
 			id: "455EEC6211A5D6B1"
+			rewards: [{
+				id: "274FEE98DD1C7DB7"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Eine unendliche Wasserquelle als Maschine!"
 			tasks: [{
 				id: "154FD71FB8759F34"
@@ -869,6 +1193,11 @@
 		{
 			dependencies: ["1592FAC6A60177FC"]
 			id: "1EEE1CC4BE9692A2"
+			rewards: [{
+				id: "289F88AD174A4058"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Lava und Wasser / Eis Mischer"
 			tasks: [{
 				id: "0D42C0FB67AAADAB"
@@ -881,6 +1210,11 @@
 		{
 			dependencies: ["1592FAC6A60177FC"]
 			id: "4D795F9100DE385B"
+			rewards: [{
+				id: "7DD4E7031677C4FA"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Sammelt Items in der Nähe auf."
 			tasks: [{
 				id: "6975469FA35D888E"
@@ -893,6 +1227,11 @@
 		{
 			dependencies: ["1592FAC6A60177FC"]
 			id: "4D9501280F4CFE64"
+			rewards: [{
+				id: "28C299589CC64418"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Sammelt Experience auf und speichert diese als Flüssigkeit."
 			tasks: [{
 				id: "1A17357838363088"
@@ -905,6 +1244,11 @@
 		{
 			dependencies: ["1592FAC6A60177FC"]
 			id: "1083502594200DA4"
+			rewards: [{
+				id: "7E7135D5191EB1F9"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3780D580BEC6162E"
 				item: "thermal:device_potion_diffuser"
@@ -916,6 +1260,11 @@
 		{
 			dependencies: ["1592FAC6A60177FC"]
 			id: "0D454879B07A1A02"
+			rewards: [{
+				id: "6292E308F87EAF07"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			subtitle: "Zerstört Items. Papierkorb eben. Vorher alles gespeichert?"
 			tasks: [{
 				id: "244E8AD59E1C2558"
@@ -928,6 +1277,11 @@
 		{
 			dependencies: ["2DAD93848DABE5D6"]
 			id: "526A49825DAD715D"
+			rewards: [{
+				id: "4AACF315622FA75B"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "057392DFBBAE76BC"
 				item: "thermal:latex_bucket"
@@ -939,6 +1293,11 @@
 		{
 			dependencies: ["526A49825DAD715D"]
 			id: "4B3004A155733871"
+			rewards: [{
+				id: "0EBF3BB4AA091709"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "64E0D9E8213C269B"
 				item: "thermal:rubber"
@@ -951,6 +1310,11 @@
 			dependencies: ["4B3004A155733871"]
 			dependency_requirement: "one_completed"
 			id: "69DA2DCDE346313D"
+			rewards: [{
+				id: "540EC1F597193700"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "61C704116FB66EEA"
 				item: "thermal:cured_rubber"
@@ -962,6 +1326,11 @@
 		{
 			dependencies: ["69DA2DCDE346313D"]
 			id: "17841E468664F33C"
+			rewards: [{
+				id: "676D9B2D0B509606"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2C48FB215C7A9A4C"
 				item: {
@@ -979,6 +1348,11 @@
 		{
 			dependencies: ["69DA2DCDE346313D"]
 			id: "01E746A4EC0A3FCF"
+			rewards: [{
+				id: "55183A72D2BE70A1"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "789F19CD454F12F7"
 				item: {
@@ -996,6 +1370,11 @@
 		{
 			dependencies: ["69DA2DCDE346313D"]
 			id: "5942B88EF1F80AB8"
+			rewards: [{
+				id: "0D6359D2F2C19170"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F41F50CCD365489"
 				item: {
@@ -1013,6 +1392,11 @@
 		{
 			dependencies: ["69DA2DCDE346313D"]
 			id: "07529215969E86E0"
+			rewards: [{
+				id: "6A324CD276DF4E04"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "16E27746093FB806"
 				item: {
@@ -1030,6 +1414,11 @@
 		{
 			dependencies: ["1592FAC6A60177FC"]
 			id: "71026DC5EF76BF76"
+			rewards: [{
+				id: "35DDE510F6F742C5"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0B20BDEF30AE8372"
 				item: {
@@ -1045,6 +1434,11 @@
 		{
 			dependencies: ["359D3DE86C878B32"]
 			id: "688630167FF9D4FA"
+			rewards: [{
+				id: "33CE35B4B655C2DB"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6DD2B537E1A7489B"
 				item: {
@@ -1060,6 +1454,11 @@
 		{
 			dependencies: ["359D3DE86C878B32"]
 			id: "38A752CCA59FC8E5"
+			rewards: [{
+				id: "16079BF314C3CA5F"
+				item: "thermal:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0CC64766DA743E6A"
 				item: {
