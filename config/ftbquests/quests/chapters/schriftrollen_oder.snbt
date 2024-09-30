@@ -42,6 +42,24 @@
 			x: 0.0d
 			y: -2.5d
 		}
+		{
+			id: "0F5F5AB1C96583BE"
+			rewards: [{
+				command: "/ftbquests change_progress @a complete 06058D4919841D02"
+				exclude_from_claim_all: true
+				id: "754B335E939FD476"
+				title: "Freischalten"
+				type: "command"
+			}]
+			subtitle: "Rang freischalten"
+			tasks: [{
+				id: "13B72E616F01E129"
+				title: "1. Woche"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
 	]
 	title: "administrative Befehle"
 }
