@@ -39,7 +39,7 @@ ItemEvents.tooltip(event => {
     event.addAdvanced('mod_journey:anti_ingot', (item, advanced, text) => {
         if (event.shift) {
             text.add(1,[
-                Text.green("Hochkomprimierter Block aus Antimaterie")
+                Text.green("Hochkomprimiertes Ingot aus Antimaterie")
             ])
         }
     })
@@ -48,7 +48,7 @@ ItemEvents.tooltip(event => {
     event.addAdvanced('mod_journey:antimatter_block', (item, advanced, text) => {
         if (event.shift) {
             text.add(1,[
-                Text.green("Hochkomprimiertes Ingot aus Antimaterie")
+                Text.green("Hochkomprimierter Block aus Antimaterie")
             ])
         }
     })

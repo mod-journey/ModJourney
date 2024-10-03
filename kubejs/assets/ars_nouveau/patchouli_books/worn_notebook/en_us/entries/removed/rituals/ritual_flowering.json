@@ -1,0 +1,15 @@
+{
+    "category": "ars_nouveau:removed_items",
+    "icon": "ars_nouveau:ritual_flowering",
+    "name": "item.ars_nouveau.ritual_flowering",
+    "pages": [
+        {
+            "type": "patchouli:image",
+            "images": [
+                "mod_journey:textures/images/rejected.png"
+            ],
+            "text": "ars_nouveau.ritual_desc.ritual_flowering"
+        }
+    ],
+    "sortnum": 7
+}

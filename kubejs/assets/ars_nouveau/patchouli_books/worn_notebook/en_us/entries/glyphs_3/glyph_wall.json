@@ -1,0 +1,15 @@
+{
+    "category": "ars_nouveau:glyphs_3",
+    "icon": "ars_nouveau:glyph_wall",
+    "name": "ars_nouveau.glyph_name.glyph_wall",
+    "pages": [
+        {
+            "type": "patchouli:image",
+            "images": [
+                "mod_journey:textures/images/rejected.png"
+            ],
+            "text": "ars_nouveau.glyph_desc.glyph_wall"
+        }
+    ],
+    "sortnum": 2
+  }

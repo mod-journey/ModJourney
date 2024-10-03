@@ -1,0 +1,14 @@
+{
+    "category": "ars_nouveau:machines",
+    "icon": "ars_nouveau:storage_lectern",
+    "name": "block.ars_nouveau.storage_lectern",
+    "pages": [
+        {
+            "type": "patchouli:image",
+            "images": [
+                "mod_journey:textures/images/rejected.png"
+            ],
+            "text": "ars_nouveau.page1.storage_lectern"
+        }
+    ]
+}

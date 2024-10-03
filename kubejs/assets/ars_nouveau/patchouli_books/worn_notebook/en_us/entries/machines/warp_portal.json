@@ -1,0 +1,14 @@
+{
+    "category": "ars_nouveau:machines",
+    "icon": "ars_nouveau:ritual_warping",
+    "name": "ars_nouveau.page.warp_portal",
+    "pages": [
+        {
+            "type": "patchouli:image",
+            "images": [
+                "mod_journey:textures/images/rejected.png"
+            ],
+            "text": "ars_nouveau.page1.warp_portal"
+        }
+    ]
+}

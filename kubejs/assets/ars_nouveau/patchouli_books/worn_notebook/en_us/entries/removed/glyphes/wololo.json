@@ -1,0 +1,15 @@
+{
+    "category": "ars_nouveau:removed_items",
+    "icon": "ars_nouveau:wololo",
+    "name": "ars_nouveau.glyph_name.wololo",
+    "pages": [
+        {
+            "type": "patchouli:image",
+            "images": [
+                "mod_journey:textures/images/rejected.png"
+            ],
+            "text": "ars_nouveau.glyph_desc.wololo"
+        }
+    ],
+    "sortnum": 9
+  }

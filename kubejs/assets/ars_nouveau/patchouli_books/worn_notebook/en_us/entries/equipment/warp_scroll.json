@@ -1,0 +1,15 @@
+{
+    "category": "ars_nouveau:equipment",
+    "icon": "ars_nouveau:warp_scroll",
+    "name": "item.ars_nouveau.warp_scroll",
+    "pages": [
+        {
+            "type": "patchouli:image",
+            "images": [
+                "mod_journey:textures/images/rejected.png"
+            ],
+            "text": "ars_nouveau.adv.desc.warp_scroll"
+        }
+    ],
+    "sortnum": 2
+}

@@ -1,0 +1,15 @@
+{
+  "category": "ars_nouveau:removed_items",
+  "icon": "ars_nouveau:ritual_conjure_island_plains",
+  "name": "item.ars_nouveau.ritual_conjure_island_plains",
+  "pages": [
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mod_journey:textures/images/rejected.png"
+      ],
+      "text": "ars_nouveau.ritual_desc.ritual_conjure_island_plains"
+    }
+  ],
+  "sortnum": 7
+}

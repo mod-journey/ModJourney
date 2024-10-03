@@ -1,0 +1,36 @@
+{
+    "parent": "mod_journey:silver_coin",
+    "display": {
+      "title": {
+        "text": "Das Coinsystem",
+        "color": "green"
+      },
+      "description": {
+        "color": "white",
+        "text": "Bronze Coins sind durch Quests erhältlich. An sich auch ein ideales Bezahlungsmittel für Dienstleistungen."
+      },
+      "icon": {
+        "item": "thermal:bronze_coin"
+      },
+      "background": "minecraft:textures/block/obsidian.png",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "criteria": {
+      "has_gold_coin": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "thermal:bronze_coin"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 100
+    }
+  }

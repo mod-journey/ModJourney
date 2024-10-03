@@ -1,0 +1,15 @@
+{
+    "category": "ars_nouveau:removed_items",
+    "icon": "ars_nouveau:ritual_moonfall",
+    "name": "item.ars_nouveau.ritual_moonfall",
+    "pages": [
+        {
+            "type": "patchouli:image",
+            "images": [
+                "mod_journey:textures/images/rejected.png"
+            ],
+            "text": "ars_nouveau.ritual_desc.ritual_moonfall"
+        }
+    ],
+    "sortnum": 7
+}

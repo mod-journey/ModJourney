@@ -33,7 +33,6 @@ ServerEvents.recipes(event => {
                     r.json.get(`ingredient${i}`).get("ingredient").remove("item")
                     r.json.get(`ingredient${i}`).get("ingredient").add("tag", "forge:storage_blocks/uranium")
                     event.custom(r.json).id(r.getId())
-                    console.log(r.json)
                 }
             }
 
@@ -42,7 +41,6 @@ ServerEvents.recipes(event => {
                     r.json.get(`ingredient${i}`).get("ingredient").remove("item")
                     r.json.get(`ingredient${i}`).get("ingredient").add("tag", "forge:ingots/uranium")
                     event.custom(r.json).id(r.getId())
-                    console.log(r.json)
                 }
             }
         }

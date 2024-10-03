@@ -1,0 +1,36 @@
+{
+    "parent": "mod_journey:root_gold_coin",
+    "display": {
+      "title": {
+        "text": "Effiziente Müllentsorgung",
+        "color": "green"
+      },
+      "description": {
+        "color": "white",
+        "text": "Stelle ein Antimaterie Ingot her."
+      },
+      "icon": {
+        "item": "mod_journey:anti_ingot"
+      },
+      "background": "minecraft:textures/block/obsidian.png",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "has_gold_coin": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "mod_journey:anti_ingot"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 100
+    }
+  }

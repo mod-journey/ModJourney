@@ -1,0 +1,15 @@
+{
+    "category": "ars_nouveau:removed_items",
+    "icon": "ars_nouveau:glyph_animate_block",
+    "name": "ars_nouveau.glyph_name.glyph_animate_block",
+    "pages": [
+        {
+            "type": "patchouli:image",
+            "images": [
+                "mod_journey:textures/images/rejected.png"
+            ],
+            "text": "ars_nouveau.glyph_desc.glyph_animate_block"
+        }
+    ],
+    "sortnum": 9
+}

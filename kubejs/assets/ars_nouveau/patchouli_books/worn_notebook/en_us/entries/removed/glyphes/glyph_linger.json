@@ -1,0 +1,15 @@
+{
+    "category": "ars_nouveau:removed_items",
+    "icon": "ars_nouveau:glyph_linger",
+    "name": "ars_nouveau.glyph_name.glyph_linger",
+    "pages": [
+        {
+            "type": "patchouli:image",
+            "images": [
+                "mod_journey:textures/images/rejected.png"
+            ],
+            "text": "ars_nouveau.glyph_desc.glyph_linger"
+        }
+    ],
+    "sortnum": 9
+}

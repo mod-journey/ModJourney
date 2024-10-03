@@ -1,0 +1,14 @@
+{
+    "category": "ars_nouveau:rituals",
+    "icon": "ars_nouveau:ritual_sunrise",
+    "name": "item.ars_nouveau.ritual_sunrise",
+    "pages": [
+        {
+            "type": "patchouli:image",
+            "images": [
+                "mod_journey:textures/images/rejected.png"
+            ],
+            "text": "ars_nouveau.ritual_desc.ritual_sunrise"
+        }
+    ]
+}

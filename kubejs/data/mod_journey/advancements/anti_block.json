@@ -1,0 +1,36 @@
+{
+  "parent": "mod_journey:anti_ingot",
+  "display": {
+    "title": {
+      "text": "Reine Antimaterie",
+      "color": "green"
+    },
+    "description": {
+      "color": "white",
+      "text": "Stelle einen Block aus Antimaterie her."
+    },
+    "icon": {
+      "item": "mod_journey:antimatter_block"
+    },
+    "background": "minecraft:textures/block/obsidian.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_gold_coin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mod_journey:antimatter_block"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

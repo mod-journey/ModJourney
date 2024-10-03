@@ -1,0 +1,36 @@
+{
+    "parent": "mod_journey:root_gold_coin",
+    "display": {
+      "title": {
+        "text": "Das Coinsystem",
+        "color": "green"
+      },
+      "description": {
+        "color": "white",
+        "text": "Silber Coins verdienst Du Dir durch Aktivität auf dem Server."
+      },
+      "icon": {
+        "item": "thermal:silver_coin"
+      },
+      "background": "minecraft:textures/block/obsidian.png",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "criteria": {
+      "has_gold_coin": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "thermal:silver_coin"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 100
+    }
+  }

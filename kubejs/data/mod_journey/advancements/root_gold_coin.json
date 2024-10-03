@@ -1,0 +1,35 @@
+{
+  "display": {
+    "title": {
+      "text": "Das Coinsystem",
+      "color": "green"
+    },
+    "description": {
+      "color": "white",
+      "text": "Du kannst Gold Coins verdienen, durch aktivität, das Questbuch oder durch das Craften von bestimmten Items"
+    },
+    "icon": {
+      "item": "thermal:gold_coin"
+    },
+    "background": "minecraft:textures/block/obsidian.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "has_antimaterie_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "thermal:gold_coin"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

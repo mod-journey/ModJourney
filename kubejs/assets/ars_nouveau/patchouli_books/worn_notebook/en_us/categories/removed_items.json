@@ -1,0 +1,6 @@
+{
+	"name": "Entfernte Items",
+	"description": "Items welche antfernt werden, da durch Missbrauch ein erhöhtes Lagpotential besteht. $(br2)Bei festellen von weiteren Kombinationen von Spells, welche den Spielfluss stören und so noch nicht bekannt sind, bitte umgehend der Orga melden.",
+	"icon": "minecraft:barrier",
+	"sortnum":100
+}

@@ -104,4 +104,7 @@ ServerEvents.recipes(event => {
             if (debug === "true" || recipe_new === "true") {console.log("Rezept neu: " + r.json)};
         }
     });
+
+     // Entfernen des Augmenting Table
+     event.remove({output: 'apotheosis:augmenting_table'})
 })

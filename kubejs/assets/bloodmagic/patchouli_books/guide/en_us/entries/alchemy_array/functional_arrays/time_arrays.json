@@ -1,0 +1,13 @@
+{
+    "name": "Day/Night Arrays",
+    "icon": "minecraft:clock",
+    "category": "bloodmagic:alchemy_array/functional_array",
+    "pages": [
+        {
+            "type": "patchouli:image",
+            "images": [
+                "mod_journey:textures/images/rejected.png"
+            ]
+        }
+    ]
+}
