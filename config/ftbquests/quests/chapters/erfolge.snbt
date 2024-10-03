@@ -30,24 +30,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "14F41333B9ECFD49"
-			rewards: [{
-				auto: "invisible"
-				id: "433084737024B424"
-				ignore_reward_blocking: true
-				stage: "Magie"
-				tags: ["magie"]
-				type: "gamestage"
-			}]
-			tasks: [{
-				id: "2476CF9AA2EEA7BF"
-				title: "Magie"
-				type: "checkmark"
-			}]
-			x: -12.5d
-			y: -1.0d
-		}
-		{
 			icon: "industrialforegoing:fluid_sieving_machine"
 			id: "589407ECB629164D"
 			invisible: true
@@ -208,6 +190,16 @@
 			title: "Grüne Checkmark"
 			x: -17.5d
 			y: -3.0d
+		}
+		{
+			id: "397C9F6E469EE6D8"
+			tasks: [{
+				id: "660A1619A1D62169"
+				title: "asd"
+				type: "checkmark"
+			}]
+			x: -23.0d
+			y: 2.0d
 		}
 	]
 	title: "Erfolge"
