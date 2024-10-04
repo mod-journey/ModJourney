@@ -53,7 +53,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["407F543ADE3A3EC3"]
+			dependencies: [
+				"407F543ADE3A3EC3"
+				"5902419C7421AA67"
+			]
+			dependency_requirement: "one_completed"
 			description: ["In Blood Magic dreht sich alles um den Blutaltar. Mittels diesen, ist es dir möglich neue Items zu erschaffen, welche Du über einen Rechtsklick in den Altar legst. Finden wir heraus, wie wir unser erstes Blut opfern."]
 			hide: true
 			id: "19ECDD38FF50B386"

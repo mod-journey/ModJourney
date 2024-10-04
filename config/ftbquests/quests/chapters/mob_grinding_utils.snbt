@@ -56,7 +56,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["644466781495F7E7"]
+			dependencies: [
+				"644466781495F7E7"
+				"25ADF4BACFFF9FB7"
+			]
+			dependency_requirement: "one_completed"
 			description: ["Da hier Mods gefunden wurden, welche Entity Spawning mittels spawner erlauben und dadurch auch XP, Item Farmen zustande kommen, hat es Mob Grinding Utils in das Modpack geschafft. Diese Mod ermöglicht es, Mobs effizienter zu farmen. "]
 			id: "5600D421C0F617A9"
 			rewards: [{
@@ -64,6 +68,8 @@
 				item: "thermal:bronze_coin"
 				type: "item"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "6224485A1F5440CF"
 				title: "Das Pardon zu Apotheosis"
@@ -81,8 +87,7 @@
 				item: "thermal:bronze_coin"
 				type: "item"
 			}]
-			shape: "diamond"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "3C2B5623ACE2FBDF"
 				title: "Gaten und Limits"

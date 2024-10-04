@@ -4,7 +4,6 @@
 	default_quest_shape: ""
 	filename: "ars_noveau"
 	group: "16F9BB65CBA165C2"
-	hide_quest_until_deps_visible: true
 	icon: "ars_nouveau:archmage_spell_book"
 	id: "791B5B0012F48C8B"
 	images: [
@@ -57,9 +56,12 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["644466781495F7E7"]
+			dependencies: [
+				"644466781495F7E7"
+				"796D47D4DEDA277C"
+			]
+			dependency_requirement: "one_completed"
 			description: ["Zaubersprüche, Rituale, Magische Apparaturen und Tierbegleiter. Das und noch mehr bietet Ars Nouveau."]
-			hide: true
 			icon: {
 				Count: 1
 				id: "ars_nouveau:arcanist_hood"
@@ -1114,10 +1116,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"3EE349945CF681AB"
-				"505227A456788448"
-			]
+			dependencies: ["505227A456788448"]
 			dependency_requirement: "one_completed"
 			description: [
 				"Das Enchanter's Eye kann mit einem Scry Crystal verbunden werden, um den gebunden Zauber aus diesem heraus zu wirken."
