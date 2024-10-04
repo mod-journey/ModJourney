@@ -148,6 +148,92 @@
 			x: -7.5d
 			y: 4.0d
 		}
+		{
+			id: "618B444558196A08"
+			rewards: [{
+				command: "/ftbranks add @p weekling"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "0497DE2CB28337C5"
+				team_reward: false
+				title: "Rang 1. Woche freischalten"
+				type: "command"
+			}]
+			tasks: [{
+				elapsedTime: 604800L
+				gameTime: "system"
+				id: "2E79DBABE58E58DD"
+				title: "1. Woche"
+				type: "questsadditions:time"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			id: "0B6AFF6145E16F95"
+			rewards: [{
+				command: "/ftbranks add @p weekling"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "5F54E218D1B571B3"
+				team_reward: false
+				title: "Rang 1. Woche freischalten"
+				type: "command"
+			}]
+			tasks: [{
+				elapsedTime: 60L
+				gameTime: "system"
+				id: "4EA777B66F758140"
+				title: "1. Woche"
+				type: "questsadditions:time"
+			}]
+			title: "Test_1_woche"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0B6AFF6145E16F95"]
+			id: "09BE855758916234"
+			rewards: [{
+				command: "/ftbranks add @p double-weekling"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "34324915BA7EF5B9"
+				title: "Rang 2. Woche freischalten"
+				type: "command"
+			}]
+			tasks: [{
+				elapsedTime: 120L
+				gameTime: "system"
+				id: "3087555767932B32"
+				title: "2. Woche"
+				type: "questsadditions:time"
+			}]
+			title: "test_2_woche"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["09BE855758916234"]
+			id: "66FCCB5916311345"
+			rewards: [{
+				command: "/ftbranks add @p triple-weekling"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "5C672072AC646241"
+				title: "Rang 3. Woche freischalten"
+				type: "command"
+			}]
+			tasks: [{
+				elapsedTime: 180L
+				id: "2EA109FBAFF6CB86"
+				title: "3. Woche"
+				type: "questsadditions:time"
+			}]
+			title: "test_3_woche"
+			x: -6.0d
+			y: 1.5d
+		}
 	]
 	title: "Daily"
 }
