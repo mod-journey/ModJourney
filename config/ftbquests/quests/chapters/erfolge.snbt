@@ -1,4 +1,5 @@
 {
+	autofocus_id: "0B7B7C7A1366C9D1"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "erfolge"
@@ -13,8 +14,8 @@
 			image: "ftbchunks:textures/waypoint_default.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -19.0d
-			y: -3.0d
+			x: -13.35714285714284d
+			y: 0.6726190476190474d
 		}
 		{
 			color: 3614107
@@ -22,8 +23,8 @@
 			image: "ftbchunks:textures/waypoint_default.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -19.0d
-			y: -4.5d
+			x: -11.85714285714284d
+			y: 0.6369047619047628d
 		}
 	]
 	order_index: 1
@@ -173,8 +174,8 @@
 				type: "checkmark"
 			}]
 			title: "Blaue Checkmark"
-			x: -17.5d
-			y: -4.5d
+			x: -11.857142857142847d
+			y: 1.4642857142857117d
 		}
 		{
 			description: [
@@ -188,18 +189,67 @@
 				type: "checkmark"
 			}]
 			title: "Grüne Checkmark"
-			x: -17.5d
-			y: -3.0d
+			x: -13.357142857142847d
+			y: 1.4642857142857117d
 		}
 		{
-			id: "397C9F6E469EE6D8"
+			icon: "bloodmagic:altar"
+			id: "5902419C7421AA67"
+			invisible: true
+			optional: true
 			tasks: [{
-				id: "660A1619A1D62169"
-				title: "asd"
+				id: "1FE272431646BEB3"
+				item: "mod_journey:magic_scroll_one"
+				type: "item"
+			}]
+			title: "Lets's show: Blood Magic"
+			x: -14.0d
+			y: 7.5d
+		}
+		{
+			icon: "ars_nouveau:archmage_spell_book"
+			id: "796D47D4DEDA277C"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "08974BA2DB41845F"
+				item: "mod_journey:magic_scroll_two"
+				type: "item"
+			}]
+			title: "Lets's show: Ars Nouveau"
+			x: -12.5d
+			y: 7.5d
+		}
+		{
+			icon: "mob_grinding_utils:solid_xp_baby"
+			id: "25ADF4BACFFF9FB7"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "471D86205B1114BB"
+				item: "mod_journey:magic_scroll_three"
+				type: "item"
+			}]
+			title: "Lets's show: Mob Grinding Utils"
+			x: -11.0d
+			y: 7.5d
+		}
+		{
+			id: "4BBE2CAC008F2412"
+			rewards: [{
+				command: "/lp user @p parent add eventteam"
+				elevate_perms: true
+				id: "28EF15AF914C8042"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "7DFF9C1DA1D35DB0"
+				title: "Eventteam"
 				type: "checkmark"
 			}]
-			x: -23.0d
-			y: 2.0d
+			x: -16.0d
+			y: -1.5d
 		}
 	]
 	title: "Erfolge"
