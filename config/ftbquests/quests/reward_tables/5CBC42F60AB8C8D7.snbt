@@ -2,7 +2,7 @@
 	icon: "minecraft:chest"
 	id: "5CBC42F60AB8C8D7"
 	loot_size: 1
-	order_index: 16
+	order_index: 15
 	rewards: [
 		{ count: 5, item: "minecraft:redstone" }
 		{ count: 5, item: "mekanism:alloy_infused" }

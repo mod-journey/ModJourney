@@ -4,7 +4,7 @@
 	filename: "daily"
 	group: "78025998DBB7AC61"
 	id: "36A8DA96146170E0"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -27,8 +27,8 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "57C0D54EB62471CD"
-					table_id: 8709999448481575308L
+					id: "67DB79D5CE5275B1"
+					table_id: 4944166769827694193L
 					type: "loot"
 				}
 			]

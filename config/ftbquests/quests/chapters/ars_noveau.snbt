@@ -850,15 +850,22 @@
 				"48C79ED35AC136C8"
 				"40019D79DA3B4858"
 			]
-			description: ["Um auch die stärksten Glyphen nutzen zu können, muss dein Zauberbuch nochmals geupgradet werden. Doch nur wer sich als würdig erweißt, vermag das volle Potential zu entfesseln."]
+			description: [
+				"Um auch die stärksten Glyphen nutzen zu können, muss dein Zauberbuch nochmals geupgradet werden. Doch nur wer sich als würdig erweißt, vermag das volle Potential zu entfesseln."
+				""
+				"&4Zusätzlich:&r"
+				"Ab dem Einlösen der Quest, kannst Du zusätzlich im Magie-Shop einkaufen. "
+			]
 			id: "5F98BAF82E1271EE"
 			rewards: [
 				{
 					auto: "invisible"
+					exclude_from_claim_all: true
 					id: "632D055E7E065621"
 					ignore_reward_blocking: true
 					stage: "magic"
 					tags: ["magic"]
+					title: "Magie-Shop"
 					type: "gamestage"
 				}
 				{

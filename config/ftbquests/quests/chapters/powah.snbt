@@ -507,6 +507,10 @@
 				"085524FB2AA3BAEF"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"&4Zusätzlich:&r"
+				"Ab dem Einlösen der Quest, kannst Du zusätzlich im Technic-Shop einkaufen. "
+			]
 			hide: false
 			id: "08BDD4ADC8DDB9C2"
 			rewards: [
@@ -520,6 +524,15 @@
 					id: "39CC0E8A4175A907"
 					item: "thermal:gold_coin"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73DE5AC2BEA2503C"
+					ignore_reward_blocking: true
+					stage: "technic"
+					tags: ["technic"]
+					title: "Technic-Shop"
+					type: "gamestage"
 				}
 			]
 			shape: "gear"

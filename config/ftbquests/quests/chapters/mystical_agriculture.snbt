@@ -176,7 +176,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 500L
+				count: 1000L
 				id: "126310DDBF5A08D2"
 				item: "minecraft:wither_skeleton_skull"
 				type: "item"
@@ -201,24 +201,6 @@
 			}]
 			x: 9.0d
 			y: -9.5d
-		}
-		{
-			dependencies: ["12F3E577725BBD4B"]
-			id: "67AC159B7A888302"
-			rewards: [{
-				id: "18EE02891662F048"
-				item: "mysticalagriculture:yellorium_seeds"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 10000L
-				id: "5FE9BD714237C9D2"
-				item: "bigreactors:yellorium_ingot"
-				type: "item"
-			}]
-			x: 10.0d
-			y: -8.5d
 		}
 		{
 			dependencies: ["12F3E577725BBD4B"]
@@ -303,13 +285,13 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 20L
+				count: 100L
 				id: "1ECF0765E6B260C8"
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -3.5d
+			x: 17.0d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
@@ -327,8 +309,8 @@
 				item: "minecraft:dragon_egg"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -2.5d
+			x: 19.0d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -341,13 +323,13 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 10L
+				count: 30L
 				id: "032423F55F7305FC"
 				item: "botania:gaia_ingot"
 				type: "item"
 			}]
-			x: 17.0d
-			y: -1.5d
+			x: 18.0d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -360,20 +342,20 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 500L
+				count: 2000L
 				id: "505519B0D1F19BB2"
 				item: "powah:crystal_nitro"
 				type: "item"
 			}]
-			x: 18.0d
-			y: -0.5d
+			x: 20.0d
+			y: 1.5d
 		}
 		{
 			id: "12F3E577725BBD4B"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2318A8B15F951730"
-				table_id: 8709999448481575308L
+				id: "305A75B272A9D5D4"
+				table_id: 4944166769827694193L
 				type: "loot"
 			}]
 			subtitle: "Beschreibung von Mystical Agriculture, wird noch gefüllt"
@@ -384,6 +366,91 @@
 			}]
 			x: 8.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["12F3E577725BBD4B"]
+			id: "31E6A825FB704764"
+			rewards: [{
+				id: "2926D23243AC7AD7"
+				item: "mysticalagriculture:nether_quartz_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20000L
+				id: "7D53974C2A7B813C"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["12F3E577725BBD4B"]
+			id: "1DD2DEF137B14E44"
+			rewards: [{
+				id: "607DF98D483392A3"
+				item: "mysticalagriculture:redstone_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 30000L
+				id: "2593B8176C91C88A"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["12F3E577725BBD4B"]
+			id: "79627A0CB8B4E931"
+			tasks: [{
+				consume_items: true
+				count: 30000L
+				id: "4EBC81527C60B7F3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["12F3E577725BBD4B"]
+			id: "1B6AB2D4D38491E1"
+			rewards: [{
+				id: "3E825BF9ABF4E27E"
+				item: "mysticalagriculture:manasteel_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10000L
+				id: "02C8B56F6813637E"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["12F3E577725BBD4B"]
+			id: "44154F2ED3B88E37"
+			rewards: [{
+				id: "4C2A2DE7E9008AA5"
+				item: "mysticalagriculture:elementium_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10000L
+				id: "75241E8D90456C38"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
 		}
 	]
 	title: "Mystical Agriculture"
