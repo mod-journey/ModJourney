@@ -1,0 +1,436 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "minecraft_basics"
+	group: "78025998DBB7AC61"
+	icon: "minecraft:grass_block"
+	id: "62592CBE673BE5C1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "01256AFE747A1CBF"
+			tasks: [{
+				id: "1C4F77DADCA06904"
+				title: "Wilkommen ZU Mod Journey"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01256AFE747A1CBF"]
+			id: "334735438DFE505B"
+			tasks: [{
+				count: 3L
+				id: "5FC13B4C5F865F34"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["616B979CDF814586"]
+			id: "19EBC03B9B5C0DD4"
+			tasks: [{
+				id: "46C23499191C4387"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19EBC03B9B5C0DD4"]
+			id: "51C95C07DD4FE5A6"
+			tasks: [{
+				count: 10L
+				id: "16F8D00E81EFF942"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["51C95C07DD4FE5A6"]
+			id: "2B172DC8F87F8321"
+			tasks: [{
+				id: "4B33FA9E21910C7D"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["51C95C07DD4FE5A6"]
+			id: "3ED1EE762185E1D1"
+			tasks: [{
+				id: "5E8CB35CC3F7D4D1"
+				item: {
+					Count: 1
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["51C95C07DD4FE5A6"]
+			id: "5336C3257F6E6DCE"
+			tasks: [{
+				id: "7E615FE9FDD3CA76"
+				item: {
+					Count: 1
+					id: "minecraft:stone_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["51C95C07DD4FE5A6"]
+			id: "0B927369431933B8"
+			tasks: [{
+				id: "011C9489F91675BF"
+				item: {
+					Count: 1
+					id: "minecraft:stone_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["334735438DFE505B"]
+			icon: "minecraft:crafting_table"
+			id: "616B979CDF814586"
+			tasks: [{
+				id: "6AE227BABAC7609C"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["51C95C07DD4FE5A6"]
+			id: "054D5EAF0AB8E6FA"
+			tasks: [{
+				id: "2CDD2ACE646A24D0"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["054D5EAF0AB8E6FA"]
+			id: "58D909280639A503"
+			tasks: [{
+				count: 3L
+				id: "274557761BFD12BE"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["58D909280639A503"]
+			id: "5B6D417CBB35D96F"
+			tasks: [{
+				id: "4B81F0781CEEB91F"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B6D417CBB35D96F"]
+			id: "6F80A4096725A7ED"
+			tasks: [{
+				advancement: "minecraft:story/mine_diamond"
+				criterion: ""
+				id: "0363FEE4B5F653E2"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58D909280639A503"]
+			id: "30D96A391AF9E050"
+			tasks: [{
+				id: "356FD8CA87C279AB"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1393B7943AFB6B54"]
+			id: "03FC230411E16641"
+			tasks: [{
+				count: 10L
+				id: "59446CA4766ECF53"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"03FC230411E16641"
+				"30D96A391AF9E050"
+			]
+			icon: "minecraft:netherrack"
+			id: "090D1D6106BE4F06"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				id: "5374B1CBD7EB028F"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F80A4096725A7ED"]
+			id: "1393B7943AFB6B54"
+			tasks: [{
+				id: "3CDE71BBE9A1F56B"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["090D1D6106BE4F06"]
+			id: "403812BA7909FF11"
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "3B5E81ACABC9AD48"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["090D1D6106BE4F06"]
+			id: "0FE73B1C3A1E181F"
+			tasks: [{
+				count: 4L
+				id: "2F537CD38C0200DE"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0FE73B1C3A1E181F"]
+			id: "112B3BF69ADCB53A"
+			tasks: [{
+				id: "7C0EF5C960490FBB"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7BCBE649891D1C9B"]
+			id: "3E3397459D149D72"
+			tasks: [{
+				id: "3EE2EB5B924141AB"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["090D1D6106BE4F06"]
+			id: "7BCBE649891D1C9B"
+			tasks: [{
+				id: "6990CA998DC3CF92"
+				structure: "minecraft:bastion_remnant"
+				type: "structure"
+			}]
+			title: "Finde eine Bastion"
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["403812BA7909FF11"]
+			id: "6DEFA645BB698577"
+			tasks: [{
+				id: "6D54C0A1FF0E4614"
+				title: "END Event"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6DEFA645BB698577"]
+			id: "2C8AC35868B1A016"
+			tasks: [{
+				id: "1FD6CE4940D60707"
+				structure: "betterstrongholds:stronghold"
+				type: "structure"
+			}]
+			title: "Finde die Festung"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C8AC35868B1A016"]
+			id: "56959F905714B915"
+			tasks: [{
+				advancement: "minecraft:end/root"
+				criterion: ""
+				id: "4843F96D5B2AF59A"
+				type: "advancement"
+			}]
+			title: "Betrete das end "
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["56959F905714B915"]
+			dependency_requirement: "one_completed"
+			id: "03F62F0E4DEE0C1C"
+			tasks: [{
+				id: "68E447E6E606C6BF"
+				structure: "minecraft:end_city"
+				title: "Finde eine End City"
+				type: "structure"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["03F62F0E4DEE0C1C"]
+			id: "19F53A5F8F69A394"
+			tasks: [{
+				id: "3D9C8EA218733C98"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["03F62F0E4DEE0C1C"]
+			id: "3C8CDA5FB3B3E5DD"
+			tasks: [{
+				id: "144C5013F487FC2D"
+				item: "minecraft:shulker_box"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3E3397459D149D72"
+				"112B3BF69ADCB53A"
+			]
+			id: "21B643BD3ABB92CE"
+			tasks: [
+				{
+					id: "7C4F9D8D5496082A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:armor/netherite"
+						}
+					}
+					title: "Any #forge:armor/netherite"
+					type: "item"
+				}
+				{
+					id: "1DC0D43DEB23A9FF"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/netherite"
+						}
+					}
+					title: "Any #forge:tools/netherite"
+					type: "item"
+				}
+			]
+			title: "Mache die Netherite Ausrüstung"
+			x: 8.5d
+			y: 5.0d
+		}
+	]
+	title: "Minecraft Basics"
+}
