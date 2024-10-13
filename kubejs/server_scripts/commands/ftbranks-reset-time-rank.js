@@ -9,14 +9,31 @@ ServerEvents.commandRegistry(e => {
     e.register(Commands.literal('ftbranks-reset-time-rank')
         .requires(s => s.hasPermission(2))
         .executes(resetTimeRankCommand)
+        /*
+        .then(Commands.argument('target',
+            Arguments.PLAYER.create(e))
+            .executes(resetTimeRankCommand)
+        )
+        */
     )
 })
 
 /**
  * @param {Internal.CommandContext<Internal.CommandSourceStack_>} c
  * @return number
+ *
+ * @todo make this function working for player as argument (e.g. pass "Arguments" from commandRegistry as second arg)
  */
 function resetTimeRankCommand(c) {
+    /*
+    // getArguments() is not found even if it is part of the keys in "c"
+    try {
+        console.log(Object.keys(c))
+        console.log(c.getArgument())
+    } catch (e) {
+        console.warn(e)
+    }*/
+
     // disable command in server console, because there is no player
     if (c.source.isPlayer()) return resetTimeRank(c.source.player)
     else {
