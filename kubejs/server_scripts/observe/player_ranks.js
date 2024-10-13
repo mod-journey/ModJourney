@@ -6,6 +6,27 @@ const ftbTimeRanks = [
 ]
 
 /**
+ * Resets week ranks for player and removes tags
+ * (works only for ranks defined via server command)
+ *
+ * @param {Internal.ServerPlayer} player
+ */
+function resetTimeRank(player) {
+    ftbTimeRanks.forEach(rank => {
+        // Only remove ranks that are assigned from server using tags
+        if ( player.getTags().contains(rank) ) {
+            player.tell(`Reset rank ${rank}`);
+            console.log(`Reset ${rank} for player ${player.name.string}`);
+            Utils.server.runCommandSilent(`ftbranks remove ${player.name.string} ${rank}`);
+            player.removeTag(rank)
+        }
+    })
+
+    // player.runCommand(`ftbranks list_ranks_of ${player.name.string}`)
+    return 1
+}
+
+/**
  * Checks if player are missing any of the time ranks and add them
  */
 PlayerEvents.loggedIn(e => {
@@ -24,4 +45,5 @@ PlayerEvents.loggedIn(e => {
 
     })
 
+    // e.entity.runCommand(`ftbranks list_ranks_of ${e.entity.name.string}`)
 })
