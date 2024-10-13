@@ -1,3 +1,7 @@
+/**
+ * this script handels server side unlocking of week-ranks
+ */
+const weeksSinceServerStart = 0;
 const ftbTimeRanks = [
     'weekling',
     'double-weekling',
@@ -32,10 +36,11 @@ function resetTimeRank(player) {
 PlayerEvents.loggedIn(e => {
     e.entity.tell(`Welcome ${e.entity.name.string}`);
 
-    ftbTimeRanks.forEach(rank => {
+    ftbTimeRanks.forEach((rank, i) => {
+        const unlock = weeksSinceServerStart > i
 
         // run if player does not have the rang
-        if ( !e.entity.getTags().contains(rank) ) {
+        if ( unlock && !e.entity.getTags().contains(rank) ) {
             Utils.server.runCommandSilent(`ftbranks add ${e.entity.name.string} ${rank}`);
 
             // Utils.server.runCommandSilent(`tag ${e.entity.name.string} add ${rang}`)
