@@ -946,7 +946,7 @@
 			description: [
 				"Ars Nouveau bietet eine Reihe von magischen Waffen und Werkzeugen, die entweder magische Eigenschaften haben oder Glyphen wirken können."
 				""
-				"Lies dazu im Magischen Notizbuch unter \"Magical Equipment\" die Enchanter's Items durch, wie man Glyphen zu diesen hinzufügt, da "
+				"Lies dazu im Magischen Notizbuch unter \"Magical Equipment\" die Enchanter's Items durch, wie man Glyphen zu diesen hinzufügt."
 			]
 			id: "7CDC16333D2E3B89"
 			rewards: [{
@@ -1388,8 +1388,7 @@
 			description: [
 				"In Ars Nouveau gibt es eine Verzauberung, die nicht funktioniert, wenn sie erst als Buch gecraftet wird, so wie es das Craftingrezept zeigt."
 				"Zur Lösung dieses Problems wird statt einem Buch direkt das gewünschte Item in den Enchanting Apparatus gelegt."
-				"{image:mod_journey:textures/quests/reactiverezept.png width:246 height:233 align:center fit:true}"
-				"{image:mod_journey:textures/quests/reactivetooltip.png width:711 height:137 align:center fit:true}"
+				""
 				"Das Rezept zeigt außerdem, dass man ein \"Spell Parchment\" benötigt. Auf diesem soll der gewünschte Zauber hinzugefügt werden, indem man ein \"Blank Parchment\" auf dem Scribe's Table legt und dann mit &lWICHTIG!&r der rechten Hälfte des Tisches, den Teil mit der Feder, geduckt mit dem Zauberbuch, das den gewünschten Zauber aktiv hat, in der Hand interagiert."
 			]
 			id: "7DDF9DAC7B62720D"
