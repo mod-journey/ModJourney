@@ -44,12 +44,12 @@
 		{
 			can_repeat: true
 			description: ["Du kannst diese Quest alle 24h ein mal abschließen. Der der sie abschließt, erhält die Münzen für das gesamte Team"]
-			icon: "thermal:gold_coin"
+			icon: "mod_journey:gold_coin"
 			id: "146D1D0765124A16"
 			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
-				icon: "thermal:gold_coin"
+				icon: "mod_journey:gold_coin"
 				id: "65A83C70BA4FDE02"
 				title: "Goldmünze"
 				type: "custom"

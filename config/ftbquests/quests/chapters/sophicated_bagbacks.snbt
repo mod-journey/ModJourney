@@ -15,7 +15,7 @@
 			id: "44041124EDB0DD59"
 			rewards: [{
 				id: "61A7E23658EA5B09"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "square"
@@ -42,7 +42,7 @@
 			id: "1DA3986217ADE592"
 			rewards: [{
 				id: "1AF1862F9B7767C6"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "square"
@@ -61,7 +61,7 @@
 			id: "68DE5BDE3F537F42"
 			rewards: [{
 				id: "43BFDB6B20B295EF"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Eisener Rucksack!"
@@ -79,7 +79,7 @@
 			id: "537E339058A7D8F8"
 			rewards: [{
 				id: "22BA1C7ED584F630"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Güldener Rucksack"
@@ -97,7 +97,7 @@
 			id: "24BAA2C1FA713866"
 			rewards: [{
 				id: "79CF4DBC26F04D0E"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Dia Rucksack!"
@@ -115,7 +115,7 @@
 			id: "1A6F631FCF135230"
 			rewards: [{
 				id: "116C9CCB50527227"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "None Plus Ultra Rucksack"
@@ -140,7 +140,7 @@
 			id: "120748C2D29DA6FC"
 			rewards: [{
 				id: "0BEDE11F3C64FD0A"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "gear"
@@ -162,7 +162,7 @@
 			id: "3886DDD04C153233"
 			rewards: [{
 				id: "2EDA611A231BBA6C"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "MOOOOREEEE I"
@@ -181,7 +181,7 @@
 			id: "077C86B2B3E3546C"
 			rewards: [{
 				id: "023777A49950AA90"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "MOOOOREEEE II"
@@ -199,7 +199,7 @@
 			id: "73F0DA7E5B71D4C9"
 			rewards: [{
 				id: "68ABF04D570F02BA"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "MOOOOREEEE III"
@@ -217,7 +217,7 @@
 			id: "75BA799EEA809FA5"
 			rewards: [{
 				id: "11FEDD5F2ABA3A6D"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "MOOOOREEEE IV"
@@ -236,13 +236,13 @@
 			rewards: [
 				{
 					id: "6D6353DBF1F7E420"
-					item: "thermal:bronze_coin"
+					item: "mod_journey:bronze_coin"
 					type: "item"
 				}
 				{
 					count: 10
 					id: "39BF911AB7CE5404"
-					item: "thermal:gold_coin"
+					item: "mod_journey:gold_coin"
 					type: "item"
 				}
 			]
@@ -261,7 +261,7 @@
 			id: "7AD9631F43AD87FD"
 			rewards: [{
 				id: "34F3E6EAB7157A06"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Put it in I"
@@ -279,7 +279,7 @@
 			id: "6D06A0D7D85691CC"
 			rewards: [{
 				id: "455F9F1A9F265CC6"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Put it in II"
@@ -297,7 +297,7 @@
 			id: "7BDF271FC28A9299"
 			rewards: [{
 				id: "752049C393B31C89"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Lange Leitung I"
@@ -315,7 +315,7 @@
 			id: "3CD003B49F0BCB3B"
 			rewards: [{
 				id: "29D9805CD09F130D"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Lange Leitung II"
@@ -333,7 +333,7 @@
 			id: "22C805CD0CA544E5"
 			rewards: [{
 				id: "6B9517EFACA515AC"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Ich bin Rombo I"
@@ -351,7 +351,7 @@
 			id: "70C8460C5B716A0A"
 			rewards: [{
 				id: "6958F59AB07F0493"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Ich bin Rombo II"
@@ -369,7 +369,7 @@
 			id: "1B2FE7C5CBB54589"
 			rewards: [{
 				id: "0B8C6B391F5223EA"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Fütterungszeit I"
@@ -387,7 +387,7 @@
 			id: "26430E5AE2EF3D6F"
 			rewards: [{
 				id: "3FB3179D4960A465"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Fütterungszeit II"
@@ -405,7 +405,7 @@
 			id: "6E80082139A42376"
 			rewards: [{
 				id: "602173F461754731"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Mach mal kleiner I"
@@ -423,7 +423,7 @@
 			id: "50861A06499F6A87"
 			rewards: [{
 				id: "4FFFA2757031380B"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Mach mal kleiner II"
@@ -441,7 +441,7 @@
 			id: "3DA44DE3F547CCE6"
 			rewards: [{
 				id: "7960D1D1B65BED1A"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Wer will den S....ß I"
@@ -459,7 +459,7 @@
 			id: "0555F3309ADAE672"
 			rewards: [{
 				id: "0F07FE2ACDB61523"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Wer will den S....ß II"
@@ -477,7 +477,7 @@
 			id: "0C27E1D2CE9711CD"
 			rewards: [{
 				id: "5CE6B11A2FB257F6"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Voll machen bitte I"
@@ -495,7 +495,7 @@
 			id: "33AA5240D8DC2EC9"
 			rewards: [{
 				id: "6D5C9D3D25D72278"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Voll machen bitte II"
@@ -513,7 +513,7 @@
 			id: "70E808383CECC9A1"
 			rewards: [{
 				id: "60073C2D633D7232"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Quick Stack I"
@@ -531,7 +531,7 @@
 			id: "438D14498160D7CF"
 			rewards: [{
 				id: "186FF9B0EDE6BF72"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Quick Stack II"
@@ -549,7 +549,7 @@
 			id: "0060F8847CDD18D9"
 			rewards: [{
 				id: "152772E67692C921"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Ich brauche mehr I"
@@ -567,7 +567,7 @@
 			id: "654C023F49F46370"
 			rewards: [{
 				id: "6B89B1F396B163BF"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Ich brauche mehr II"
@@ -585,7 +585,7 @@
 			id: "61BAEC3E8D33CC67"
 			rewards: [{
 				id: "5311E2D2CC364D94"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Ofen to go I"
@@ -603,7 +603,7 @@
 			id: "0B7993AC1A4CB9D9"
 			rewards: [{
 				id: "5222415FF65379AD"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Ofen to go II"
@@ -621,7 +621,7 @@
 			id: "37137208FC2D7F9A"
 			rewards: [{
 				id: "110F7999B9E75F68"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Grillen geht immer I"
@@ -639,7 +639,7 @@
 			id: "44EA03142D3BA39E"
 			rewards: [{
 				id: "520293C1423F5ABA"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Grillen geht immer II"
@@ -657,7 +657,7 @@
 			id: "4765FE21496CDB09"
 			rewards: [{
 				id: "0FF233A74DCD82DE"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Blast it I"
@@ -675,7 +675,7 @@
 			id: "5CDBF914FFF477D7"
 			rewards: [{
 				id: "4779B5B5CF3481C1"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Blast it II"
@@ -693,7 +693,7 @@
 			id: "6E93D46AB70FC4EA"
 			rewards: [{
 				id: "28CDF6DF1B751E41"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Feuchte Angelegenheit I"
@@ -711,7 +711,7 @@
 			id: "6207186159232DB8"
 			rewards: [{
 				id: "5CF6421B93DA0860"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Feuchte Angelegenheit II"
@@ -729,7 +729,7 @@
 			id: "7556BC1029C2B666"
 			rewards: [{
 				id: "70250A5095ED5B0C"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Switcheru I"
@@ -747,7 +747,7 @@
 			id: "541FAC3028FB33D8"
 			rewards: [{
 				id: "6A7302C1C1E8D1BD"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Switcheru II"
@@ -765,7 +765,7 @@
 			id: "378D7B50458C9799"
 			rewards: [{
 				id: "7B49E5BB8247531E"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "I am Superman!"
@@ -783,7 +783,7 @@
 			id: "2F43B87E319D7520"
 			rewards: [{
 				id: "11AD0C6189CF2ED9"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Werkbank to go!"
@@ -801,7 +801,7 @@
 			id: "7C756D847549EF66"
 			rewards: [{
 				id: "08052B6C57B632D6"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Drop the Beat!"
@@ -819,7 +819,7 @@
 			id: "3EC2CF7E940184C9"
 			rewards: [{
 				id: "4947DBEF75D9BC3B"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Ich bin ein Meißel!"
@@ -837,7 +837,7 @@
 			id: "4759C2D9F4C40115"
 			rewards: [{
 				id: "4C9CD62F4E994369"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Flasche to go!"
@@ -855,7 +855,7 @@
 			id: "778B1BEFC6341B66"
 			rewards: [{
 				id: "5F83BF2BA8A58270"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Elektrisierend!"
@@ -876,7 +876,7 @@
 			id: "789913E88083A2FF"
 			rewards: [{
 				id: "25D25C0EFC5CCB84"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Damn Son!"
@@ -894,7 +894,7 @@
 			id: "377AD83C93A06928"
 			rewards: [{
 				id: "0231217299669127"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Hammerschlag!"

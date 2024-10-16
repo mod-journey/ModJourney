@@ -105,7 +105,7 @@
 				}
 				{
 					id: "5DC434C7C1A9A72E"
-					item: "thermal:bronze_coin"
+					item: "mod_journey:bronze_coin"
 					type: "item"
 				}
 			]
@@ -125,7 +125,7 @@
 			id: "6BEAD403B7CB0490"
 			rewards: [{
 				id: "064E7086447772BE"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [
@@ -172,7 +172,7 @@
 			id: "1E86BC238F738A44"
 			rewards: [{
 				id: "2E84CC666980B134"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -189,7 +189,7 @@
 			id: "3D755E72F89F3702"
 			rewards: [{
 				id: "79776EB0F782D4D1"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -207,7 +207,7 @@
 			id: "66DEEA92B5F386C0"
 			rewards: [{
 				id: "3831EB8086861DDF"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -241,7 +241,7 @@
 			id: "646646E999822E90"
 			rewards: [{
 				id: "6F41BCA56F2174D6"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -259,7 +259,7 @@
 			optional: true
 			rewards: [{
 				id: "7393325606512392"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -276,7 +276,7 @@
 			id: "21A66CAA4865D3D0"
 			rewards: [{
 				id: "1253148AA3DE5C08"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -309,7 +309,7 @@
 			id: "68CBEF963313DC33"
 			rewards: [{
 				id: "06B5355CD5171235"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -326,7 +326,7 @@
 			id: "50C6D9F519D225F4"
 			rewards: [{
 				id: "4CD72DABCEFE8C9B"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -368,7 +368,7 @@
 			id: "3154E80F60E99856"
 			rewards: [{
 				id: "128BDB7926C7C0E8"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -391,7 +391,7 @@
 			id: "4D3EA87317F9F6BA"
 			rewards: [{
 				id: "1D457C951867DDBA"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Der Energizer"
@@ -416,7 +416,7 @@
 			id: "4C65447B7738A05F"
 			rewards: [{
 				id: "60331C842BCCDC8C"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "square"
@@ -434,7 +434,7 @@
 			id: "4AB80401F1CA36D1"
 			rewards: [{
 				id: "6D055E9948A2B26D"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -452,7 +452,7 @@
 			id: "6CAB591C5279CFFB"
 			rewards: [{
 				id: "44DA25FE0E3E1FB0"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -470,7 +470,7 @@
 			id: "072EB753A23476A3"
 			rewards: [{
 				id: "72B1326C9D858BE6"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -488,7 +488,7 @@
 			id: "5534116F13F1FECC"
 			rewards: [{
 				id: "498F76B2E73DCEC5"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -508,7 +508,7 @@
 			id: "1DB2485BC022595E"
 			rewards: [{
 				id: "26F11EB338D3B5AA"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -528,7 +528,7 @@
 			id: "3B8445B5B7F0BA62"
 			rewards: [{
 				id: "1864CE35F2C8C89B"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -548,7 +548,7 @@
 			id: "77EA9324D2593A1B"
 			rewards: [{
 				id: "349E5A452E8A26F1"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "square"
@@ -566,7 +566,7 @@
 			id: "25D5F3B047CA75E4"
 			rewards: [{
 				id: "1C9F6BED85614189"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -584,7 +584,7 @@
 			id: "4ECD09ACFE16E99C"
 			rewards: [{
 				id: "277D5DD9AEB4AA8D"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -604,7 +604,7 @@
 			id: "13A18FED2817D59A"
 			rewards: [{
 				id: "072207A23387D035"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -623,7 +623,7 @@
 			id: "0DF5AEA45A614607"
 			rewards: [{
 				id: "24457509B127D3E6"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -644,7 +644,7 @@
 			id: "65EEF8159CC6B174"
 			rewards: [{
 				id: "46C8A74A4F62856A"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "square"
@@ -663,7 +663,7 @@
 			id: "0E31ED057ED8CD24"
 			rewards: [{
 				id: "703E991A10F9B259"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -682,7 +682,7 @@
 			id: "68D70945E7B41457"
 			rewards: [{
 				id: "42C4576AD5E6ACEA"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "square"
@@ -701,7 +701,7 @@
 			id: "0B7096A5E53E67EF"
 			rewards: [{
 				id: "1D5FE1D615D27AC7"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -719,7 +719,7 @@
 			id: "6CBD102C9BA554AF"
 			rewards: [{
 				id: "365403D1786FBAAA"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "square"
@@ -738,7 +738,7 @@
 			id: "058F5156168C41AD"
 			rewards: [{
 				id: "778F6DE86E408962"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -757,7 +757,7 @@
 			id: "116CAD3989B3CCF5"
 			rewards: [{
 				id: "7588B37A724BDAE0"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -777,7 +777,7 @@
 			id: "6A538CD7EEA9C917"
 			rewards: [{
 				id: "3A63FB449836E672"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "square"
@@ -796,7 +796,7 @@
 			id: "060309360F27D1EA"
 			rewards: [{
 				id: "1140BC5D77008484"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -814,7 +814,7 @@
 			id: "3C07F92EF68FCC33"
 			rewards: [{
 				id: "0AE6F701710F18A7"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -834,7 +834,7 @@
 			id: "544531C0D2F7DCED"
 			rewards: [{
 				id: "4D091B3DF0B11377"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "square"
@@ -852,7 +852,7 @@
 			id: "358328CB0AB4DF09"
 			rewards: [{
 				id: "6D10F3C2A594C5B1"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -871,7 +871,7 @@
 			id: "46D6CDBCAB067ECA"
 			rewards: [{
 				id: "682793091945B693"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -891,7 +891,7 @@
 			id: "040C1D850A9C12DF"
 			rewards: [{
 				id: "37DECAECF8E70D09"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "square"
@@ -910,7 +910,7 @@
 			id: "5C8E6D7BDD2F3D7C"
 			rewards: [{
 				id: "6093258B3C3697D9"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -933,7 +933,7 @@
 			id: "60B95EE1477F2724"
 			rewards: [{
 				id: "67EB780A53ECF04C"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -951,7 +951,7 @@
 			id: "47B6FC0234860B71"
 			rewards: [{
 				id: "54E5437145A6EB0A"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -969,7 +969,7 @@
 			id: "2685BD79EDA932C1"
 			rewards: [{
 				id: "01CD22947315CC08"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -993,7 +993,7 @@
 			id: "0B6F1727ECC8D86A"
 			rewards: [{
 				id: "42FEDE482791379F"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -1010,7 +1010,7 @@
 			id: "064778D724C27365"
 			rewards: [{
 				id: "32BBDA4D6BD79C92"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "square"
@@ -1029,7 +1029,7 @@
 			id: "26B645871A11798E"
 			rewards: [{
 				id: "6A551EA0F2CA88D2"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -1052,7 +1052,7 @@
 			id: "13C1BA3695707A9D"
 			rewards: [{
 				id: "7B0E4CBE7D5B13DF"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -1070,7 +1070,7 @@
 			id: "51D668BB5A301993"
 			rewards: [{
 				id: "6E1A40D119A91A38"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [
@@ -1102,7 +1102,7 @@
 			id: "3B859360824909AE"
 			rewards: [{
 				id: "4DD8E54AE288CDB1"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
