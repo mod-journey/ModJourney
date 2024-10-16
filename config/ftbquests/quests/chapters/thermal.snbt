@@ -70,7 +70,7 @@
 			id: "7A64B37068D86BEB"
 			rewards: [{
 				id: "5D965D71C809BAE1"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "pentagon"
@@ -88,7 +88,7 @@
 			id: "664DE4738DDB1F77"
 			rewards: [{
 				id: "163CD14D62641B38"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Eine Presse!"
@@ -105,7 +105,7 @@
 			id: "586EFD2747910C1B"
 			rewards: [{
 				id: "6312CBFD9367DD83"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Rohstoff rein, Flüssigkeit raus."
@@ -122,7 +122,7 @@
 			id: "26BC003C6E939699"
 			rewards: [{
 				id: "436CAF031D39B4A6"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Verbinde eine Flüssigkeit mit einem Feststoff"
@@ -139,7 +139,7 @@
 			id: "25F5FA0CC57EEBFD"
 			rewards: [{
 				id: "7A69269CB77980EA"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Eine mit Strom betriebene Sägemühle um mehr Holz zu bekommen"
@@ -156,7 +156,7 @@
 			id: "23387B6FD57598D5"
 			rewards: [{
 				id: "16570B278CF0BD19"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Zerlegt einen Rohstoff in Einzelteile"
@@ -173,7 +173,7 @@
 			id: "05CD468D86DA4DC1"
 			rewards: [{
 				id: "31A78C7841FB6B3D"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Ein mit Strom betriebener AutoCrafter"
@@ -190,7 +190,7 @@
 			id: "11EFC2D1FB0C5479"
 			rewards: [{
 				id: "2BC0D79D77C46BD2"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Pflanzen und Bäume!"
@@ -207,7 +207,7 @@
 			id: "35CE63FDE38B74D2"
 			rewards: [{
 				id: "0ECA76C4EA9E71E9"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Flüssigkeit rein, Feststoff raus."
@@ -224,7 +224,7 @@
 			id: "0B9F69583404896F"
 			rewards: [{
 				id: "0B3639994CF57153"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Brennbares Material rein um als Output verbranntes Material und Öl zu erhalten. "
@@ -241,7 +241,7 @@
 			id: "2D3254F9CAF5FD1C"
 			rewards: [{
 				id: "30F475024426C540"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Für die Trankherstellung!"
@@ -258,7 +258,7 @@
 			id: "0AEAF1A388DE10D7"
 			rewards: [{
 				id: "086B593E1FB1E8DC"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Ein mit Strom betriebener Ofen"
@@ -275,7 +275,7 @@
 			id: "013F4DF5BE81AFA4"
 			rewards: [{
 				id: "3523E4972F27E526"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Frakking!"
@@ -292,7 +292,7 @@
 			id: "38C03105A0BAA33C"
 			rewards: [{
 				id: "47480C0F97BEE6EF"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Ein Zerkleinerer mit Nebenprodukten"
@@ -309,7 +309,7 @@
 			id: "038957C888562E9F"
 			rewards: [{
 				id: "26A28545CDD6136F"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Staub und Wasser werden zu Feststoff"
@@ -331,7 +331,7 @@
 			id: "0524EAE590378B3C"
 			rewards: [{
 				id: "0153D7F7D3A76D26"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "diamond"
@@ -349,7 +349,7 @@
 			id: "77FB11E4F613C5D3"
 			rewards: [{
 				id: "2BCC62062C9B629D"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Verbindet mehrere Materialien zu einem"
@@ -366,7 +366,7 @@
 			id: "359D3DE86C878B32"
 			rewards: [{
 				id: "693FD1C48536F86C"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "square"
@@ -383,7 +383,7 @@
 			id: "3E3F87B3363B7A3B"
 			rewards: [{
 				id: "6AB224BCA3FA4692"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "square"
@@ -400,7 +400,7 @@
 			id: "6A517BFDDB6BA7D4"
 			rewards: [{
 				id: "6ED8C49B4FB5130B"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "square"
@@ -417,7 +417,7 @@
 			id: "536B7F5FC5DF83CC"
 			rewards: [{
 				id: "365AA837B653A583"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "square"
@@ -440,7 +440,7 @@
 				}
 				{
 					id: "68647C94AE92A698"
-					item: "thermal:bronze_coin"
+					item: "mod_journey:bronze_coin"
 					type: "item"
 				}
 			]
@@ -457,7 +457,7 @@
 			id: "49292699597CF33A"
 			rewards: [{
 				id: "5B071EDB2DC89C96"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -466,14 +466,14 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0524EAE590378B3C"]
 			id: "6AFAC4515F837869"
 			rewards: [{
 				id: "3673767910B5E85B"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -482,14 +482,14 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0524EAE590378B3C"]
 			id: "78313974B45B5432"
 			rewards: [{
 				id: "052FAA0A6CD86570"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -498,30 +498,14 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["0524EAE590378B3C"]
-			id: "10B2848518E2655B"
-			rewards: [{
-				id: "43F2E812DC065D73"
-				item: "thermal:bronze_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "38C75F20458BCA29"
-				item: "thermal:dynamo_numismatic"
-				type: "item"
-			}]
-			x: -11.0d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0524EAE590378B3C"]
 			id: "62A6E81DF9FC77D2"
 			rewards: [{
 				id: "7CC978579B338A68"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -530,14 +514,14 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0524EAE590378B3C"]
 			id: "602C4708D18EB1B0"
 			rewards: [{
 				id: "5A74C92FB5DC869B"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -546,14 +530,14 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0524EAE590378B3C"]
 			id: "0E49EB43FDAEC452"
 			rewards: [{
 				id: "6CB1A50D6EC16B0C"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -562,14 +546,14 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7A64B37068D86BEB"]
 			id: "7D49AA8CE68E9356"
 			rewards: [{
 				id: "23F93AF0E6A8BCEE"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Nachdem ihr die ersten Maschinen gebaut habt, könnt ihr diese nun mit Upgrades verstärken"
@@ -587,7 +571,7 @@
 			id: "77E1C2D31E604A6E"
 			rewards: [{
 				id: "547B3AF3A450299E"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -603,7 +587,7 @@
 			id: "4A1F968E197F6AD8"
 			rewards: [{
 				id: "337A9411C898442A"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -619,7 +603,7 @@
 			id: "59F0D628A4E84692"
 			rewards: [{
 				id: "4A8B7AE3C13721AA"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -635,7 +619,7 @@
 			id: "0258595EB2057262"
 			rewards: [{
 				id: "3C44D7D7E50F1FAA"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -651,7 +635,7 @@
 			id: "166109F4626F28C5"
 			rewards: [{
 				id: "72C0828952DB319C"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -667,7 +651,7 @@
 			id: "45700CEC500B09B4"
 			rewards: [{
 				id: "21BDBCFDA112F402"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -683,7 +667,7 @@
 			id: "2FA73A66ABA330E3"
 			rewards: [{
 				id: "7A7803A8FFDDC1F4"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -699,7 +683,7 @@
 			id: "1306834BBC79B363"
 			rewards: [{
 				id: "4247E06DC1AFAD66"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -715,7 +699,7 @@
 			id: "2C36398E0F9E5B18"
 			rewards: [{
 				id: "08F7DA5FE7FFE84C"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -731,7 +715,7 @@
 			id: "01A66B25FF6BB4D2"
 			rewards: [{
 				id: "71534468B29ED9D6"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -747,7 +731,7 @@
 			id: "0FFD285B2ABDC2B2"
 			rewards: [{
 				id: "366B98582696133B"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -763,7 +747,7 @@
 			id: "17CBFC27A3BE726C"
 			rewards: [{
 				id: "313D94E190BAEF5C"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -779,7 +763,7 @@
 			id: "615F3FA2D8E9F2D7"
 			rewards: [{
 				id: "6B65E9EDCD72602E"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -795,7 +779,7 @@
 			id: "5F19EF913B235466"
 			rewards: [{
 				id: "27ECFE9654805E73"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -811,7 +795,7 @@
 			id: "39665DA9F761F6E5"
 			rewards: [{
 				id: "611EC5D9C2A886C7"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -827,7 +811,7 @@
 			id: "6B0EABAE03B84120"
 			rewards: [{
 				id: "3AE2FA8DD1537252"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -846,7 +830,6 @@
 				"3F60E405CEADC649"
 				"62A6E81DF9FC77D2"
 				"78313974B45B5432"
-				"10B2848518E2655B"
 				"49292699597CF33A"
 			]
 			dependency_requirement: "one_completed"
@@ -854,7 +837,7 @@
 			id: "4ECE88BDAF352ECC"
 			rewards: [{
 				id: "07A908AEEC7EA334"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -871,7 +854,7 @@
 			id: "20F217C091323EDF"
 			rewards: [{
 				id: "11019A91EB7FFAAD"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -887,7 +870,7 @@
 			id: "36ADB5C1CA364F5F"
 			rewards: [{
 				id: "0586CDBBF4ED8FDB"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -903,7 +886,7 @@
 			id: "4761467C94840C4A"
 			rewards: [{
 				id: "7101E92273A73423"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -919,7 +902,7 @@
 			id: "421053C942FFE45C"
 			rewards: [{
 				id: "2015CB96CF8C63FC"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Der Rahmen für den Energiespeicher!"
@@ -936,7 +919,7 @@
 			id: "154B0F746470B712"
 			rewards: [{
 				id: "30285FB767FD38AB"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Energie Speichern!"
@@ -965,7 +948,7 @@
 			id: "1592FAC6A60177FC"
 			rewards: [{
 				id: "1EEAF7CDFBEA8389"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "diamond"
@@ -983,7 +966,7 @@
 			id: "28CCBF0929A22DBC"
 			rewards: [{
 				id: "176744F93114D73B"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Lade mehrere Items gleichzeitig auf!"
@@ -1000,7 +983,7 @@
 			id: "764E50746BC2A66F"
 			rewards: [{
 				id: "0206E58782E78467"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Speicher für deine Flüssigkeiten!"
@@ -1031,7 +1014,7 @@
 			id: "01F699F9E03C2A7A"
 			rewards: [{
 				id: "03AB2FD855565B75"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "circle"
@@ -1050,7 +1033,7 @@
 			id: "31C8B45668806FBC"
 			rewards: [{
 				id: "6C1140D2E9A4C765"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "circle"
@@ -1069,7 +1052,7 @@
 			id: "5C7F8F068A111585"
 			rewards: [{
 				id: "3C7897092E4C90FB"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			size: 1.2d
@@ -1086,7 +1069,7 @@
 			id: "1F70D2C20154A8B5"
 			rewards: [{
 				id: "7DCBB359DEF94491"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "BIENEN!!!"
@@ -1103,7 +1086,7 @@
 			id: "2DAD93848DABE5D6"
 			rewards: [{
 				id: "7A6A523207E11D2B"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Extrahiert Latex von Bäumen"
@@ -1120,7 +1103,7 @@
 			id: "35117936FBC60CA3"
 			rewards: [{
 				id: "288475A0BFEA7E43"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Eine Angelmaschine. Machst du den großen Fang?"
@@ -1144,7 +1127,7 @@
 				}
 				{
 					id: "63E99F82A759CB23"
-					item: "thermal:bronze_coin"
+					item: "mod_journey:bronze_coin"
 					type: "item"
 				}
 			]
@@ -1162,7 +1145,7 @@
 			id: "21A29EE0D6EDEC90"
 			rewards: [{
 				id: "60E7F2A379385228"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -1178,7 +1161,7 @@
 			id: "455EEC6211A5D6B1"
 			rewards: [{
 				id: "274FEE98DD1C7DB7"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Eine unendliche Wasserquelle als Maschine!"
@@ -1195,7 +1178,7 @@
 			id: "1EEE1CC4BE9692A2"
 			rewards: [{
 				id: "289F88AD174A4058"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Lava und Wasser / Eis Mischer"
@@ -1212,7 +1195,7 @@
 			id: "4D795F9100DE385B"
 			rewards: [{
 				id: "7DD4E7031677C4FA"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Sammelt Items in der Nähe auf."
@@ -1229,7 +1212,7 @@
 			id: "4D9501280F4CFE64"
 			rewards: [{
 				id: "28C299589CC64418"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Sammelt Experience auf und speichert diese als Flüssigkeit."
@@ -1246,7 +1229,7 @@
 			id: "1083502594200DA4"
 			rewards: [{
 				id: "7E7135D5191EB1F9"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -1262,7 +1245,7 @@
 			id: "0D454879B07A1A02"
 			rewards: [{
 				id: "6292E308F87EAF07"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Zerstört Items. Papierkorb eben. Vorher alles gespeichert?"
@@ -1279,7 +1262,7 @@
 			id: "526A49825DAD715D"
 			rewards: [{
 				id: "4AACF315622FA75B"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -1295,7 +1278,7 @@
 			id: "4B3004A155733871"
 			rewards: [{
 				id: "0EBF3BB4AA091709"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -1312,7 +1295,7 @@
 			id: "69DA2DCDE346313D"
 			rewards: [{
 				id: "540EC1F597193700"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -1328,7 +1311,7 @@
 			id: "17841E468664F33C"
 			rewards: [{
 				id: "676D9B2D0B509606"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -1350,7 +1333,7 @@
 			id: "01E746A4EC0A3FCF"
 			rewards: [{
 				id: "55183A72D2BE70A1"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -1372,7 +1355,7 @@
 			id: "5942B88EF1F80AB8"
 			rewards: [{
 				id: "0D6359D2F2C19170"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -1394,7 +1377,7 @@
 			id: "07529215969E86E0"
 			rewards: [{
 				id: "6A324CD276DF4E04"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -1416,7 +1399,7 @@
 			id: "71026DC5EF76BF76"
 			rewards: [{
 				id: "35DDE510F6F742C5"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -1436,7 +1419,7 @@
 			id: "688630167FF9D4FA"
 			rewards: [{
 				id: "33CE35B4B655C2DB"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -1456,7 +1439,7 @@
 			id: "38A752CCA59FC8E5"
 			rewards: [{
 				id: "16079BF314C3CA5F"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
