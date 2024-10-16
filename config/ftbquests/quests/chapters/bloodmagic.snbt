@@ -75,7 +75,7 @@
 				}
 				{
 					id: "26ACEB31FD098B46"
-					item: "thermal:bronze_coin"
+					item: "mod_journey:bronze_coin"
 					type: "item"
 				}
 			]
@@ -104,7 +104,7 @@
 				}
 				{
 					id: "0C23E4126AA6AEB3"
-					item: "thermal:bronze_coin"
+					item: "mod_journey:bronze_coin"
 					type: "item"
 				}
 			]
@@ -126,7 +126,7 @@
 			id: "0DD2D5F39A7FC453"
 			rewards: [{
 				id: "7D25C445992BAF11"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Das erste Blutopfer"
@@ -149,7 +149,7 @@
 			id: "40EFD7E819501CF9"
 			rewards: [{
 				id: "50526DE9368A1B5B"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "gear"
@@ -179,7 +179,7 @@
 			id: "18D30E75DBA755F4"
 			rewards: [{
 				id: "698FFFAC59C256FA"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "diamond"
@@ -207,13 +207,13 @@
 			rewards: [
 				{
 					id: "4E3517D455F2B362"
-					item: "thermal:bronze_coin"
+					item: "mod_journey:bronze_coin"
 					type: "item"
 				}
 				{
 					count: 10
 					id: "5E2EE03DE58668A0"
-					item: "thermal:gold_coin"
+					item: "mod_journey:gold_coin"
 					type: "item"
 				}
 			]
@@ -237,7 +237,7 @@
 			id: "1CA9843D124FB9DB"
 			rewards: [{
 				id: "423E33AE2D86F193"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "diamond"
@@ -263,7 +263,7 @@
 				}
 				{
 					id: "382096AFD6316B1C"
-					item: "thermal:bronze_coin"
+					item: "mod_journey:bronze_coin"
 					type: "item"
 				}
 			]
@@ -293,7 +293,7 @@
 				}
 				{
 					id: "27C55CA30F87540D"
-					item: "thermal:bronze_coin"
+					item: "mod_journey:bronze_coin"
 					type: "item"
 				}
 			]
@@ -320,7 +320,7 @@
 				}
 				{
 					id: "28BAC5287C5E7193"
-					item: "thermal:bronze_coin"
+					item: "mod_journey:bronze_coin"
 					type: "item"
 				}
 			]
@@ -347,7 +347,7 @@
 				}
 				{
 					id: "3E38C5EDEF23CFB4"
-					item: "thermal:bronze_coin"
+					item: "mod_journey:bronze_coin"
 					type: "item"
 				}
 			]
@@ -366,7 +366,7 @@
 			id: "5F0DB83F6DED68A3"
 			rewards: [{
 				id: "73EED910251D26E2"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Natürlich, es folgen sogar noch mehr"
@@ -397,7 +397,7 @@
 			id: "65E14369D16F30ED"
 			rewards: [{
 				id: "3A81EF44B9896D5C"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "weniger ist nicht mehr"
@@ -436,7 +436,7 @@
 			id: "4CE85AB71C678CF6"
 			rewards: [{
 				id: "35BBF6284CB61917"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Bis hier hin"
@@ -453,7 +453,7 @@
 			id: "2FC272CE75A8F331"
 			rewards: [{
 				id: "42CB9EBB8CF1EE7D"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -475,7 +475,7 @@
 			id: "21121DBFE8F9B7EE"
 			rewards: [{
 				id: "3F98366FC172D636"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -497,7 +497,7 @@
 			id: "14CE04121F4CA8D2"
 			rewards: [{
 				id: "379EC1F1B4303F46"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -519,7 +519,7 @@
 			id: "4939382B4D56D3CD"
 			rewards: [{
 				id: "54C8A3D5D325E67C"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -546,7 +546,7 @@
 			id: "055723E081112022"
 			rewards: [{
 				id: "61E8479B3EC6F983"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -563,7 +563,7 @@
 			id: "38C06A9C50CC10B4"
 			rewards: [{
 				id: "782A9D00B5891281"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -581,7 +581,7 @@
 			id: "5DA64CADB81708C8"
 			rewards: [{
 				id: "6093C173C0D51B84"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -598,7 +598,7 @@
 			id: "19BE04C1BB555974"
 			rewards: [{
 				id: "609DCD22B6AC2122"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -619,7 +619,7 @@
 			id: "0483CB253596FF20"
 			rewards: [{
 				id: "27E8C985EFDE9D3E"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -636,7 +636,7 @@
 			id: "42D9B4438680C937"
 			rewards: [{
 				id: "0220AE18FDAF8F59"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -653,7 +653,7 @@
 			id: "55F9D00503EA0664"
 			rewards: [{
 				id: "409ACA4BE669AAE7"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -670,7 +670,7 @@
 			id: "0F721A48AD385F18"
 			rewards: [{
 				id: "73A60DEB596C5E85"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -688,7 +688,7 @@
 			id: "77AA85B028579CF6"
 			rewards: [{
 				id: "0B84CBEC5D2073D3"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -705,7 +705,7 @@
 			id: "61DC0E19528E8BD5"
 			rewards: [{
 				id: "4DB4849C8D1A2087"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -722,7 +722,7 @@
 			id: "06417ADE2F421986"
 			rewards: [{
 				id: "33800790BD278E8E"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{

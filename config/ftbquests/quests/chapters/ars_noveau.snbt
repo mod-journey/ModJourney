@@ -72,7 +72,7 @@
 			id: "1E78C6170EC5067E"
 			rewards: [{
 				id: "066E95FE50A1FE24"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -92,7 +92,7 @@
 			id: "77D31EC2C76058E2"
 			rewards: [{
 				id: "53D72757A676E1EA"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "...und so ein dickes Buch auch."
@@ -122,7 +122,7 @@
 			id: "5C7D0094496E8E53"
 			rewards: [{
 				id: "16592DE910CA9F3B"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Wie funktioniert das?"
@@ -151,7 +151,7 @@
 			id: "5C36E3B78AB146C0"
 			rewards: [{
 				id: "11DC35F02D656B6C"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -171,7 +171,7 @@
 			id: "18DAE72E4F2B32E0"
 			rewards: [{
 				id: "744A1133848C492C"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Magische Materialien für magische Werkzeuge"
@@ -212,7 +212,7 @@
 			id: "4C813B4746E751B2"
 			rewards: [{
 				id: "7EDF3BA409964368"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "diamond"
@@ -235,7 +235,7 @@
 			id: "540D952C52F19CB4"
 			rewards: [{
 				id: "7ED5AE2CA3B7617C"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "diamond"
@@ -256,7 +256,7 @@
 			id: "30268E4E09E5A13C"
 			rewards: [{
 				id: "2B5852350A08FA49"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "gear"
@@ -281,7 +281,7 @@
 			id: "0EE9BD17F58E71EC"
 			rewards: [{
 				id: "38CD9F1437476883"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -299,7 +299,7 @@
 			id: "27DA0134EECFA2F7"
 			rewards: [{
 				id: "5023663C3578FDCC"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -321,7 +321,7 @@
 			id: "5F442ACC0CCC3DEE"
 			rewards: [{
 				id: "642AE51E0EE439A9"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -343,7 +343,7 @@
 			id: "41A2BB314608A5F0"
 			rewards: [{
 				id: "3C0DB61060929B93"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -367,7 +367,7 @@
 			id: "3C50BD72E832D66A"
 			rewards: [{
 				id: "19D7BF796EDFA2EB"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -385,7 +385,7 @@
 			id: "4B03A47B6DCFAF22"
 			rewards: [{
 				id: "3F5A87BEE4DA2DBB"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -408,7 +408,7 @@
 			optional: true
 			rewards: [{
 				id: "29A369294F0409E2"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -430,7 +430,7 @@
 			id: "0D8E474F76C125F7"
 			rewards: [{
 				id: "47362A5D6BB9AC1F"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -448,7 +448,7 @@
 			id: "0A9E71C0572B1CC8"
 			rewards: [{
 				id: "1F80B2BCF9B14DA9"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Magisches Gestein"
@@ -472,7 +472,7 @@
 			id: "04AE7500461EC1F9"
 			rewards: [{
 				id: "7F2B15D3668C7BE5"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -499,7 +499,7 @@
 			id: "0F2A2629A9A933CA"
 			rewards: [{
 				id: "46AFE5ADF15F8F3E"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "diamond"
@@ -527,7 +527,7 @@
 			id: "5E51716BBA7C0BE6"
 			rewards: [{
 				id: "233B230D920A8D75"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			shape: "diamond"
@@ -558,7 +558,7 @@
 			id: "0B60EBFBF42F9C5C"
 			rewards: [{
 				id: "0123A61F98960296"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Jeder Magier braucht doch einen Stab"
@@ -588,7 +588,7 @@
 			optional: true
 			rewards: [{
 				id: "53639DE3E1B505B3"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Das uralte Wissen der alten Ahnen"
@@ -607,7 +607,7 @@
 			id: "07BFBAE08D89B702"
 			rewards: [{
 				id: "765AC7A84947082F"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -629,7 +629,7 @@
 			id: "070DD06560D8888A"
 			rewards: [{
 				id: "2A30CC606FC2BF7F"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Eine...Nähmaschine?"
@@ -659,7 +659,7 @@
 			min_required_tasks: 1
 			rewards: [{
 				id: "5E793A82506C2950"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "aber dafür voller magischer Eigenschaften"
@@ -689,7 +689,7 @@
 			id: "1BCEF5B7D4A2DEA9"
 			rewards: [{
 				id: "26616615145EF7AC"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -711,7 +711,7 @@
 			id: "43F671F5C49EED69"
 			rewards: [{
 				id: "5DB9BDF5FA8B0B30"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -730,7 +730,7 @@
 			id: "4B916435E4D68736"
 			rewards: [{
 				id: "7CCA5F8083F51F8A"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -759,7 +759,7 @@
 			id: "0D945505970ACD00"
 			rewards: [{
 				id: "66572338BECD7756"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -785,7 +785,7 @@
 			id: "6092D820D8CA7DDF"
 			rewards: [{
 				id: "21A4AB610D8F314D"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -810,7 +810,7 @@
 			id: "251E5B47E2C62B8D"
 			rewards: [{
 				id: "350FE05235BE18B7"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -833,7 +833,7 @@
 			id: "45CE9D3D869EBBDD"
 			rewards: [{
 				id: "3CACB32BABD0E38E"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -870,13 +870,13 @@
 				}
 				{
 					id: "012EA3498ED59755"
-					item: "thermal:bronze_coin"
+					item: "mod_journey:bronze_coin"
 					type: "item"
 				}
 				{
 					count: 10
 					id: "24C9F5C0571D8AF2"
-					item: "thermal:gold_coin"
+					item: "mod_journey:gold_coin"
 					type: "item"
 				}
 			]
@@ -898,7 +898,7 @@
 			id: "48C79ED35AC136C8"
 			rewards: [{
 				id: "50C9E216E159D458"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "doch die Leute, die die Kleider machen..."
@@ -929,7 +929,7 @@
 			id: "6CD7BF6C4503FD98"
 			rewards: [{
 				id: "6E21267CAAF16D25"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -951,7 +951,7 @@
 			id: "7CDC16333D2E3B89"
 			rewards: [{
 				id: "0DECC5A8AF4FC0B9"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -972,7 +972,7 @@
 			id: "70C06F01206CCE9B"
 			rewards: [{
 				id: "568D2284F5DA916B"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Diesmal ein echter Zauberstab"
@@ -999,7 +999,7 @@
 			id: "73258DB8AECFABE8"
 			rewards: [{
 				id: "66D10E92F28679C7"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Zielen und Feuern"
@@ -1026,7 +1026,7 @@
 			id: "0FD9CD79455004A5"
 			rewards: [{
 				id: "60C409F2B7569535"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "und Magie natürlich"
@@ -1053,7 +1053,7 @@
 			id: "35E69FD0D9133061"
 			rewards: [{
 				id: "7FDCECFA9262897E"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -1077,7 +1077,7 @@
 			id: "0351CB5474F159D3"
 			rewards: [{
 				id: "6A1E80172BB5ECB3"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -1105,7 +1105,7 @@
 			id: "397AAFC8FCFF0CBD"
 			rewards: [{
 				id: "389E1350FC70728E"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Ich seh' gut aus!"
@@ -1133,7 +1133,7 @@
 			id: "57E80A56E6D8784A"
 			rewards: [{
 				id: "6380519739162153"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -1167,7 +1167,7 @@
 			id: "37A521C972CFAF9E"
 			rewards: [{
 				id: "53DE3ABA93BB29A7"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
@@ -1192,7 +1192,7 @@
 			id: "505227A456788448"
 			rewards: [{
 				id: "598197D7E8DF2217"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [
@@ -1237,7 +1237,7 @@
 			id: "325B0F0901FD93A8"
 			rewards: [{
 				id: "544EA8B880DC77D4"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "und das mit Stil!"
@@ -1394,7 +1394,7 @@
 			id: "7DDF9DAC7B62720D"
 			rewards: [{
 				id: "5E754866A1E983C8"
-				item: "thermal:bronze_coin"
+				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			subtitle: "Über die \"Reactive\" Verzauberung"
