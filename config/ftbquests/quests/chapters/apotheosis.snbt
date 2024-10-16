@@ -1,0 +1,1208 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: "16F9BB65CBA165C2"
+	icon: {
+		Count: 1
+		id: "apotheosis:gem"
+		tag: {
+			affix_data: {
+				rarity: "apotheosis:ancient"
+			}
+			gem: "apotheosis:the_end/endersurge"
+		}
+	}
+	id: "20964013F4B07F7F"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Apotheosis bietet eine Vielzahl an verschiedenen Inhalten, um bestehende Vanilla Erfahrungen zu erweitern und auszubauen."
+				""
+				"Vom Enchanting Table über Minibosse zu legendären Waffen und Ausrüstungen ist alles dabei."
+				""
+				"Dieses Questbuch soll dich auf deine Reise durch Apotheosis begleiten und Schritt für Schritt deinen Progress voranbringen."
+			]
+			id: "736169731670410F"
+			shape: "hexagon"
+			subtitle: "Willkommen bei Apotheosis"
+			tasks: [{
+				id: "5EB18BF4940B6540"
+				title: "Magie, Adventure, Utility"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["736169731670410F"]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "52E3890CD233C42D"
+			tasks: [{
+				id: "3EFD7BC8486F976A"
+				title: "Adventure"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["736169731670410F"]
+			icon: "minecraft:enchanting_table"
+			id: "209E7BD721F663CC"
+			tasks: [{
+				id: "77FAAC17DAF04807"
+				title: "Enchanting"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["736169731670410F"]
+			description: [
+				"Dieses Modul von Apotheosis erlaubt es, Mobspawner mit Silk Touch abzubauen, mitzunehmen und dann mit bestimmten Items zu modifizieren."
+				""
+				"Mit der \"Capturing\" Verzauberung können Spawneier von getöteten Mobs gedropt werden, mit denen man Spawner zu dem jeweiligen Mob ändern kann."
+				"{@pagebreak}"
+				"&6-&rSoul Lantern: Ignoriert Licht, Mobs spawnen trotz Licht."
+				""
+				"&6-&rFermented Spider Eye: +1 Spawn Count"
+				"Anzahl an Mobs, die pro Spawnvorgang auftauchen"
+				""
+				"&6-&rGhast Tear: +2 Max Entities"
+				"maximale Anzahl dieses Mobs, die gleichzeitig vorhanden sein darf"
+				""
+				"&6-&rWool: Silent"
+				"Mobs machen keine Geräusche mehr"
+				""
+				"&6-&rChorus Fruit: No AI"
+				"Mobs haben keine KI mehr, können weder angreifen noch sich bewegen"
+				""
+				"&6-&rSugar: -10 Min Spawn Delay"
+				"Mindestzeit zum nächsten Spawnvorgang"
+				""
+				"&6-&rPrismarine Crystals: +2 Activation Range"
+				"Reichweite, in der ein Spieler vorhanden sein muss zum Spawnen"
+				""
+				"&6-&rTurtle Egg: Baby Variant"
+				"spawnt nur noch Babymobs"
+				""
+				"&6-&rRedstone Comparator: Redstone Control"
+				"Spawner per Redstone ein- und ausschaltbar"
+				""
+				"&6-&rClock: -10 Max Spawn Delay"
+				"Höchstzeit zum nächsten Spawnvorgang"
+				""
+				"&6-&rDragon Egg: Ignoriert Spawnbedingungen"
+				"Beispiel: Grasblockboden für Tiere, Lichtverhältnisse etc."
+				""
+				"&6-&rBlaze Rod: +1 Spawn Range"
+				"Reichweite, in der Mobs um den Spawner herum auftauchen"
+				""
+				"&6-&rNether Quartz (Offhand): Gegenteiliger Effekt"
+				"kehrt Effekte oben genannter Items um"
+			]
+			icon: "minecraft:spawner"
+			id: "439A11FC8B1BE52A"
+			tasks: [{
+				id: "470552CCC5DF54DE"
+				title: "Spawner"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["736169731670410F"]
+			description: [
+				"Dieses Modul von Apotheosis bringt neue Trankeffekte und -rezepte mit sich. Außerdem kann man sich Potion Charms craften, die ein- und ausschaltbar sind und ihre Trankeffekte über einen längeren Zeitraum nutzbar machen, solange sie im Inventar oder einem Charm-Slot von Curio sind."
+				""
+				"{@pagebreak}"
+				"Neue Effekte:"
+				""
+				"&6-&rAncient Knowledge: Erhöht Erfahrung von Mobs (Stufe I: 4x; Stufe II: 8x)"
+				""
+				"&6-&rBursting Vitality: Verstärkt heilende Effekte (20% pro Stufe)"
+				""
+				"&6-&rGrievous Wounds: Schwächt heilende Effekte (40% pro Stufe, Stufe III verhindert Heilungen)"
+				""
+				"&6-&rSundering: Erhöht erlitenen Schaden (20% pro Stufe), addiert sich mit Resistance"
+				""
+				"&6-&rBleeding: Alle 2 Sekunden wird Schaden erlitten, Schaden steigt mit Stufe, ignoriert Rüstung."
+				"{@pagebreak}"
+				"Neue Rezepte:"
+				""
+				"&6-&rAbsorption: Gibt temporäre Herzen (2 pro Stufe)"
+				""
+				"&6-&rLuck: Verbessert Loot aus bestimmten Quellen (Bsp. Angeln)"
+				""
+				"&6-&rMining Fatigue: Verlangsamt Schlag- und Abbaugeschwindigkeit (20% pro Stufe)"
+				""
+				"&6-&rResistance: Verringert erlittenen Schaden (20% pro Stufe)"
+				""
+				"&6-&rWither: Passiver Schaden (wie Gift) im Wirkungszeitraum, der tötlich sein kann"
+				""
+				"&6-&rHaste: Erhöht Schlag- und Abbaugesschwindigkeit (20% pro Stufe)"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:strong_healing"
+				}
+			}
+			id: "0DE688D34731681F"
+			tasks: [{
+				id: "1CD049F99BFEF2DA"
+				title: "Potions"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["736169731670410F"]
+			description: [
+				"Dieses Modul von Apotheosis bringt ein paar Änderungen für bestimmte Pflanzen."
+				""
+				"&6-&rBambus kann bis zu 32 Blöcke hoch wachsen"
+				""
+				"&6-&rKaktus kann bis zu 5 Blöcke hoch wachsen"
+				""
+				"&6-&rZuckerrohr kann bis zu 255 Blöcke hoch wachsen"
+			]
+			icon: "minecraft:sugar_cane"
+			id: "5DC69AA09B861A9E"
+			tasks: [{
+				id: "58130F61425C0D83"
+				title: "Garden"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["736169731670410F"]
+			description: [
+				"Dieses Modul von Apotheosis bringt ein paar kleine Änderungen im Village-Bereich mit sich:"
+				""
+				"&6-&rDer Fletching Table bekommt einen Nutzen durch spezielle Pfeile, die dort nun gecraftet werden können."
+				""
+				"&6-&rWandering Trader wurden durch besondere Trades verbessert, unter anderem Trades für Beacons, Totems of Undying oder Diamant-Ausrüstung mit sehr starken Verzauberungen."
+			]
+			icon: "minecraft:emerald"
+			id: "48106BE361355567"
+			tasks: [{
+				id: "3DB4DF78EB966730"
+				title: "Village"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["48106BE361355567"]
+			id: "647E124585632397"
+			tasks: [{
+				id: "4E1F12FAE33161A6"
+				item: "minecraft:fletching_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["647E124585632397"]
+			description: ["Obsidianpfeile sind ein direktes Upgrade zu normalen Pfeilen und fügen 20% mehr Schaden zu."]
+			id: "089A9D167D0BF67D"
+			tasks: [{
+				count: 6L
+				id: "1E9FDEE203F2EF80"
+				item: "apotheosis:obsidian_arrow"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["647E124585632397"]
+			description: [
+				"Diese Pfeile fügen getroffenen Zielen Blutung zu. Jeder weitere Treffer erneuert die Debuffzeit und wenn noch Blutung vorhanden war, wird die Stärke erhöht."
+				""
+				"{@pagebreak}"
+				"Blutung/Bleeding:"
+				""
+				"Alle 2 Sekunden wird Schaden erlitten, Schaden steigt mit Stufe, ignoriert Rüstung."
+			]
+			id: "53BB2CEC76A17C43"
+			tasks: [{
+				count: 6L
+				id: "22CAC66755D0B53C"
+				item: "apotheosis:broadhead_arrow"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["647E124585632397"]
+			description: ["Wie der Name schon sagt, können diese Pfeile beim Aufprall explodieren."]
+			id: "18D389616CF6497C"
+			tasks: [{
+				id: "76E42CF93007C2DC"
+				item: "apotheosis:explosive_arrow"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["647E124585632397"]
+			description: ["Diese Pfeile können getroffene Blöcke wie eine Eisenspitzhacke abbauen."]
+			id: "69C2F4C1C00C9E3E"
+			tasks: [{
+				count: 12L
+				id: "1F47342688CF1AD1"
+				item: "apotheosis:iron_mining_arrow"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["647E124585632397"]
+			description: ["Funktionieren wie ihre eiserne Variante, können aber auch Blöcke abbauen, für die man eine diamantene Spitzhacke braucht."]
+			id: "5890B33CF6239031"
+			tasks: [{
+				count: 24L
+				id: "2DC990984593D1CA"
+				item: "apotheosis:diamond_mining_arrow"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0DE688D34731681F"]
+			description: [
+				"Mit 3 Flaschen eines Trankes kannst du dir einen Potion Charm craften, der dir, wenn aktiviert, alle paar Sekunden seinen Potioneffekt gibt und dafür Haltbarkeit verliert. Der Charm hält sogar länger als die 3 verwendeten Tränke zusammen und erlaubt dir, die gegebene Zeitspanne freier zu nutzen."
+				""
+				"Man kann sie auch verzaubern, sodass sie keine Haltbarkeit mehr verlieren."
+			]
+			id: "22C52D850339AF6C"
+			tasks: [{
+				id: "34C59C287F3F9A18"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:night_vision"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:long_night_vision"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:invisibility"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:long_invisibility"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:leaping"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:long_leaping"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:strong_leaping"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:fire_resistance"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:long_fire_resistance"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:swiftness"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:long_swiftness"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:strong_swiftness"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:slowness"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:long_slowness"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:strong_slowness"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:water_breathing"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:poison"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:long_poison"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:strong_poison"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:regeneration"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:long_regeneration"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:strong_regeneration"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:strength"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:long_strength"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "minecraft:strong_strength"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "minecraft:weakness"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "minecraft:long_weakness"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "minecraft:luck"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "minecraft:slow_falling"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "minecraft:long_slow_falling"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:mana_regen_potion"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:mana_regen_potion_long"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:mana_regen_potion_strong"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:spell_damage_potion"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:spell_damage_potion_long"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:spell_damage_potion_strong"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:recovery_potion"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:recovery_potion_long"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:recovery_potion_strong"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:blasting_potion"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:blasting_potion_long"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:blasting_potion_strong"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:freezing_potion"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:freezing_potion_long"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:freezing_potion_strong"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:shielding_potion"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:shielding_potion_long"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:shielding_potion_strong"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:resistance"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:long_resistance"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:strong_resistance"
+											}
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:absorption"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:long_absorption"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:strong_absorption"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:haste"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:long_haste"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:strong_haste"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:fatigue"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:long_fatigue"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:strong_fatigue"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:wither"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:long_wither"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:strong_wither"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:sundering"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:long_sundering"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:strong_sundering"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:knowledge"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:long_knowledge"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:strong_knowledge"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:vitality"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:long_vitality"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:strong_vitality"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:grievous"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:strong_grievous"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:levitation"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:flying"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:long_flying"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:extra_long_flying"
+											}
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:knockback_resistance"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:long_knockback_resistance"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:strong_knockback_resistance"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:lava_vision"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:long_lava_vision"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:speed_iii"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:poison_resistance"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:long_poison_resistance"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:bug_pheromones"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:long_bug_pheromones"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:soulsteal"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:long_soulsteal"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:strong_soulsteal"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:clinging"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:long_clinging"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "undergarden:brittleness"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "undergarden:long_brittleness"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "undergarden:strong_brittleness"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "undergarden:featherweight"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "undergarden:long_featherweight"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "undergarden:strong_featherweight"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "undergarden:virulent_resistance"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "undergarden:long_virulent_resistance"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "undergarden:glowing"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "undergarden:long_glowing"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "minecraft:long_water_breathing"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:long_grievous"
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+				title: "Potion Charm"
+				type: "item"
+			}]
+			title: "Potion Charm"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5DC69AA09B861A9E"]
+			description: [
+				"Diese magische Leine kann ein Tier in sich aufnehmen, damit man es sicher transportieren kann."
+				""
+				"Mit der linken Maustaste kann es aufgenommen und mit der rechten wieder abgelegt werden."
+			]
+			id: "75846D07A3651A5F"
+			tasks: [{
+				id: "284FB8938D26F683"
+				item: {
+					Count: 1
+					id: "apotheosis:ender_lead"
+					tag: {
+						Damage: 0
+						entity_data: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+	]
+	title: "Apotheosis"
+}
