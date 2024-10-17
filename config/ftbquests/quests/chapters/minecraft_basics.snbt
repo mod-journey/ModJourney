@@ -1,4 +1,5 @@
 {
+	autofocus_id: "01256AFE747A1CBF"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "minecraft_basics"
@@ -15,7 +16,8 @@
 				title: "Wilkommen ZU Mod Journey"
 				type: "checkmark"
 			}]
-			x: -2.0d
+			title: "Die Reise beginnt"
+			x: -3.0d
 			y: -1.0d
 		}
 		{
@@ -489,6 +491,85 @@
 			title: "Die erste Rüstung"
 			x: 1.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["01256AFE747A1CBF"]
+			description: [
+				"Ihr könnt das Gebiet eurer Basis abstecken \"claimen\"."
+				"Im geclaimten Bereich könnt nur ihr und Spieler im selben Team Blöcke abbauen, Blöcke platzieren oder Truhen und Maschinen bedienen."
+				""
+				""
+				"Wenn ihr die Map (mit der Taste M) öffnet, ist in der linken oberen Ecke ein Button für die Chunk ansicht. "
+				"Dort könnt ihr mit Linksklick einen Chunk claimen und mit Rechtsklick den Chunk wieder freigeben."
+				""
+				"{@pagebreak}"
+				"Wenn ihr einen geclaimten Chunks noch einmal mit gedrückter Shift- und der linken Maustaste anklickt,, wird der Chunk dauerhaft geladen (Force-Load). "
+				""
+				"In einem geladenen Chunk arbeiten Farmen und Maschinen weiter, auch wenn ihr nicht in der Nähe oder offline seid."
+				""
+				"Ein weiterer Klick mit gedrückter Shift- und der rechten Maustaste, deaktiviert das \"Force-Loading\" wieder."
+			]
+			id: "49D841614CC15BE6"
+			subtitle: "Steck dein Gebiet ab"
+			tasks: [{
+				id: "64F6832552E0F930"
+				title: "Steck dein Gebiet ab"
+				type: "checkmark"
+			}]
+			title: "Chunks"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01256AFE747A1CBF"]
+			id: "6436E46E095D0BDD"
+			tasks: [{
+				id: "30C33DEDF6374D94"
+				title: "TODO Teams"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["01256AFE747A1CBF"]
+			id: "78D7575B8BFD8848"
+			tasks: [{
+				id: "66B1A93AFB06BED2"
+				title: "TODO Voice Chat"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["01256AFE747A1CBF"]
+			id: "7EFF472EB4F530FE"
+			tasks: [{
+				id: "10D148E57A7476A6"
+				title: "TODO Ultimine"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["01256AFE747A1CBF"]
+			description: [
+				"/streaming"
+				"/home /sethome"
+				"/tpa"
+				"/enderchest"
+				"/leatherboard"
+			]
+			id: "1403FE3F41E3D45D"
+			tasks: [{
+				id: "68C94AF9FDB6A1CD"
+				title: "TODO Commands"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 1.0d
 		}
 	]
 	title: "Minecraft Basics"
