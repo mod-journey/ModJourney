@@ -34,6 +34,7 @@
 				title: "Any #minecraft:logs"
 				type: "item"
 			}]
+			title: "Klopf auf Holz"
 			x: -0.5d
 			y: -1.0d
 		}
@@ -190,10 +191,10 @@
 			dependencies: ["5B6D417CBB35D96F"]
 			id: "6F80A4096725A7ED"
 			tasks: [{
-				advancement: "minecraft:story/mine_diamond"
-				criterion: ""
-				id: "0363FEE4B5F653E2"
-				type: "advancement"
+				count: 3L
+				id: "2C17EAA32A3A1ACE"
+				item: "minecraft:diamond"
+				type: "item"
 			}]
 			x: 9.5d
 			y: -2.0d
@@ -232,14 +233,13 @@
 				"03FC230411E16641"
 				"30D96A391AF9E050"
 			]
-			icon: "minecraft:netherrack"
 			id: "090D1D6106BE4F06"
 			tasks: [{
-				advancement: "minecraft:story/enter_the_nether"
-				criterion: ""
-				id: "5374B1CBD7EB028F"
-				type: "advancement"
+				dimension: "minecraft:the_nether"
+				id: "715BAD043766542E"
+				type: "dimension"
 			}]
+			title: "Ab in die Hölle"
 			x: 8.0d
 			y: 1.5d
 		}
@@ -281,7 +281,7 @@
 				item: "minecraft:ancient_debris"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 9.0d
 			y: 2.5d
 		}
 		{
@@ -292,8 +292,8 @@
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 3.5d
+			x: 9.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7BCBE649891D1C9B"]
@@ -303,8 +303,8 @@
 				item: "minecraft:netherite_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.5d
+			x: 7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["090D1D6106BE4F06"]
@@ -315,22 +315,12 @@
 				type: "structure"
 			}]
 			title: "Finde eine Bastion"
-			x: 8.0d
+			x: 7.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["403812BA7909FF11"]
-			id: "6DEFA645BB698577"
-			tasks: [{
-				id: "6D54C0A1FF0E4614"
-				title: "END Event"
-				type: "checkmark"
-			}]
-			x: 11.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["6DEFA645BB698577"]
+			icon: "minecraft:ender_eye"
 			id: "2C8AC35868B1A016"
 			tasks: [{
 				id: "1FD6CE4940D60707"
@@ -338,20 +328,21 @@
 				type: "structure"
 			}]
 			title: "Finde die Festung"
-			x: 12.0d
+			x: 11.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["2C8AC35868B1A016"]
+			description: ["Nimm an Event zur Öffnung des Endportales teil und erhalte eine Belohnung."]
+			icon: "minecraft:end_portal_frame"
 			id: "56959F905714B915"
 			tasks: [{
-				advancement: "minecraft:end/root"
-				criterion: ""
-				id: "4843F96D5B2AF59A"
-				type: "advancement"
+				dimension: "minecraft:the_end"
+				id: "6BAFF2940497C0C2"
+				type: "dimension"
 			}]
-			title: "Betrete das end "
-			x: 13.0d
+			title: "Das End-Event"
+			x: 12.5d
 			y: 1.5d
 		}
 		{
@@ -428,8 +419,76 @@
 				}
 			]
 			title: "Mache die Netherite Ausrüstung"
-			x: 8.5d
+			x: 8.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["616B979CDF814586"]
+			id: "08CD0F35FC56877F"
+			tasks: [{
+				entity: "minecraft:cow"
+				icon: "minecraft:leather"
+				id: "7819435B28597ACB"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Wir brauchen Leder"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["08CD0F35FC56877F"]
+			dependency_requirement: "one_completed"
+			id: "5A83CAD196067494"
+			tasks: [
+				{
+					id: "1C5DEB272E2ACF71"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E86925225699DF6"
+					item: {
+						Count: 1
+						id: "minecraft:leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D8D8D00F06393C6"
+					item: {
+						Count: 1
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "034BC40DFB39C5D9"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Die erste Rüstung"
+			x: 1.0d
+			y: 2.0d
 		}
 	]
 	title: "Minecraft Basics"
