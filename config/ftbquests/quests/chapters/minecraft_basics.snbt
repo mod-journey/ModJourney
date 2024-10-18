@@ -17,7 +17,7 @@
 				type: "checkmark"
 			}]
 			title: "Die Reise beginnt"
-			x: -3.0d
+			x: -2.5d
 			y: -1.0d
 		}
 		{
@@ -100,7 +100,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -2.5d
 		}
 		{
@@ -134,7 +134,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 0.5d
 		}
 		{
@@ -259,8 +259,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: -2.0d
+			x: 10.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["090D1D6106BE4F06"]
@@ -425,7 +425,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["616B979CDF814586"]
+			dependencies: ["3ED1EE762185E1D1"]
 			id: "08CD0F35FC56877F"
 			tasks: [{
 				entity: "minecraft:cow"
@@ -435,8 +435,8 @@
 				value: 10L
 			}]
 			title: "Wir brauchen Leder"
-			x: 1.0d
-			y: 0.5d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["08CD0F35FC56877F"]
@@ -489,8 +489,8 @@
 				}
 			]
 			title: "Die erste Rüstung"
-			x: 1.0d
-			y: 2.0d
+			x: 5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["01256AFE747A1CBF"]
@@ -517,7 +517,7 @@
 				type: "checkmark"
 			}]
 			title: "Chunks"
-			x: -5.5d
+			x: -4.5d
 			y: -1.0d
 		}
 		{
@@ -528,8 +528,8 @@
 				title: "TODO Teams"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: -3.0d
+			x: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["01256AFE747A1CBF"]
@@ -540,7 +540,7 @@
 				type: "checkmark"
 			}]
 			x: -1.5d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["01256AFE747A1CBF"]
@@ -551,7 +551,7 @@
 				type: "checkmark"
 			}]
 			x: -1.5d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["01256AFE747A1CBF"]
@@ -568,8 +568,8 @@
 				title: "TODO Commands"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: 1.0d
+			x: -3.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["49D841614CC15BE6"]
@@ -590,7 +590,7 @@
 				title: "1. Woche"
 				type: "questsadditions:time"
 			}]
-			x: -8.0d
+			x: -7.0d
 			y: -1.0d
 		}
 		{
@@ -611,7 +611,7 @@
 				title: "2. Woche"
 				type: "questsadditions:time"
 			}]
-			x: -8.0d
+			x: -7.0d
 			y: 1.0d
 		}
 		{
@@ -631,7 +631,7 @@
 				title: "3. Woche"
 				type: "questsadditions:time"
 			}]
-			x: -8.0d
+			x: -7.0d
 			y: 3.0d
 		}
 		{
@@ -651,7 +651,7 @@
 				title: "4. Woche"
 				type: "questsadditions:time"
 			}]
-			x: -8.0d
+			x: -7.0d
 			y: 5.0d
 		}
 	]
