@@ -37,17 +37,17 @@ ItemEvents.rightClicked("minecraft:stick", event => {
             console.log(event.player.name.getString() + " hat den Tag \"member\" verliehen bekommen.")
             event.player.tell("§3" + event.player.name.getString() + "§r" + " hat den Tag §3member§r verliehen bekommen.")
         }
-        else if (search_for_tag(administrative_ranks) === "orga_rang" && !player_tag("orga_kein_dienst")) {
+        else if (search_for_tag(administrative_ranks) === "orga_rang") {
             event.player.stages.add("orga_kein_dienst")
             console.log(event.player.name.getString() + " hat den Tag \"orga_kein_dienst\" verliehen bekommen.")
             event.player.tell("§3" + event.player.name.getString() + "§r" + " hat den Tag §3orga_kein_dienst§r verliehen bekommen.")
         }
-        else if (search_for_tag(administrative_ranks) === "support_rang" && !player_tag("support_kein_dienst")) {
+        else if (search_for_tag(administrative_ranks) === "support_rang") {
             event.player.stages.add("support_kein_dienst")
             console.log(event.player.name.getString() + " hat den Tag \"support_kein_dienst\" verliehen bekommen.")
             event.player.tell("§3" + event.player.name.getString() + "§r" + " hat den Tag §3support_kein_dienst§r verliehen bekommen.")
         }
-        else if (search_for_tag(administrative_ranks) === "admin_rang" && !player_tag("admin_kein_dienst")) {
+        else if (search_for_tag(administrative_ranks) === "admin_rang") {
             event.player.stages.add("admin_kein_dienst")
             console.log(event.player.name.getString() + " hat den Tag \"admin_kein_dienst\" verliehen bekommen.")
             event.player.tell("§3" + event.player.name.getString() + "§r" + " hat den Tag §3admin_kein_dienst§r verliehen bekommen.")
