@@ -1,4 +1,5 @@
 {
+	autofocus_id: "01256AFE747A1CBF"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "minecraft_basics"
@@ -15,7 +16,8 @@
 				title: "Wilkommen ZU Mod Journey"
 				type: "checkmark"
 			}]
-			x: -2.0d
+			title: "Die Reise beginnt"
+			x: -2.5d
 			y: -1.0d
 		}
 		{
@@ -98,7 +100,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -2.5d
 		}
 		{
@@ -132,7 +134,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 0.5d
 		}
 		{
@@ -257,8 +259,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: -2.0d
+			x: 10.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["090D1D6106BE4F06"]
@@ -423,7 +425,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["616B979CDF814586"]
+			dependencies: ["3ED1EE762185E1D1"]
 			id: "08CD0F35FC56877F"
 			tasks: [{
 				entity: "minecraft:cow"
@@ -433,8 +435,8 @@
 				value: 10L
 			}]
 			title: "Wir brauchen Leder"
-			x: 1.0d
-			y: 0.5d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["08CD0F35FC56877F"]
@@ -487,8 +489,181 @@
 				}
 			]
 			title: "Die erste Rüstung"
-			x: 1.0d
-			y: 2.0d
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["01256AFE747A1CBF"]
+			description: [
+				"Ihr könnt das Gebiet eurer Basis abstecken \"claimen\"."
+				"Im geclaimten Bereich könnt nur ihr und Spieler im selben Team Blöcke abbauen, Blöcke platzieren oder Truhen und Maschinen bedienen."
+				""
+				""
+				"Wenn ihr die Map (mit der Taste M) öffnet, ist in der linken oberen Ecke ein Button für die Chunk ansicht. "
+				"Dort könnt ihr mit Linksklick einen Chunk claimen und mit Rechtsklick den Chunk wieder freigeben."
+				""
+				"{@pagebreak}"
+				"Wenn ihr einen geclaimten Chunks noch einmal mit gedrückter Shift- und der linken Maustaste anklickt,, wird der Chunk dauerhaft geladen (Force-Load). "
+				""
+				"In einem geladenen Chunk arbeiten Farmen und Maschinen weiter, auch wenn ihr nicht in der Nähe oder offline seid."
+				""
+				"Ein weiterer Klick mit gedrückter Shift- und der rechten Maustaste, deaktiviert das \"Force-Loading\" wieder."
+			]
+			id: "49D841614CC15BE6"
+			subtitle: "Steck dein Gebiet ab"
+			tasks: [{
+				id: "64F6832552E0F930"
+				title: "Steck dein Gebiet ab"
+				type: "checkmark"
+			}]
+			title: "Chunks"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01256AFE747A1CBF"]
+			description: [
+				"Wenn ihr eure Reise durch das Questbuch gemeinsam mit anderen Spielern bestreiten wollt, könnt ihr ein Team gründen."
+				""
+				"Um ein Team zu gründen, öffened ihr mit der Taste (E) das Inventar und klickt links oben auf das Symbol mit den 3 bunten Figuren."
+				""
+				"In dem folgenden Menü könnt ihr ein Team gründen und verwalten."
+				""
+				"Neben Grundeeinstellungen, könnt ihr andere Spieler in euer Team einladen um zusammen zu spielen."
+				"Alle Spieler in einem Team teilen sich ein Questbuch und arbeiten zusammen an ihrem gemeinsamen Fortschritt."
+			]
+			id: "6436E46E095D0BDD"
+			subtitle: "Zusammen sind wir stark"
+			tasks: [{
+				id: "30C33DEDF6374D94"
+				title: "Teams"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["01256AFE747A1CBF"]
+			id: "78D7575B8BFD8848"
+			tasks: [{
+				id: "66B1A93AFB06BED2"
+				title: "TODO Voice Chat"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["01256AFE747A1CBF"]
+			id: "7EFF472EB4F530FE"
+			tasks: [{
+				id: "10D148E57A7476A6"
+				title: "TODO Ultimine"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["01256AFE747A1CBF"]
+			description: [
+				"/streaming"
+				"/home /sethome"
+				"/tpa"
+				"/enderchest"
+				"/leatherboard"
+			]
+			id: "1403FE3F41E3D45D"
+			tasks: [{
+				id: "68C94AF9FDB6A1CD"
+				title: "TODO Commands"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["49D841614CC15BE6"]
+			id: "06058D4919841D02"
+			rewards: [{
+				command: "/ftbranks add @p weekling"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "2E96B6183FB01228"
+				team_reward: false
+				title: "Rang 1. Woche freischalten"
+				type: "command"
+			}]
+			tasks: [{
+				elapsedTime: 604800L
+				gameTime: "system"
+				id: "05B74B2E0F42359F"
+				title: "1. Woche"
+				type: "questsadditions:time"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06058D4919841D02"]
+			id: "59E92107A4481944"
+			rewards: [{
+				command: "/ftbranks add @p double-weekling"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "496226723098CD38"
+				title: "Rang 2. Woche freischalten"
+				type: "command"
+			}]
+			tasks: [{
+				elapsedTime: 1209600L
+				gameTime: "system"
+				id: "0707E0514EDD6A01"
+				title: "2. Woche"
+				type: "questsadditions:time"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["59E92107A4481944"]
+			id: "6E7B5D5F3EC952AD"
+			rewards: [{
+				command: "/ftbranks add @p triple-weekling"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "05D519F88C5EBAC7"
+				title: "Rang 3. Woche freischalten"
+				type: "command"
+			}]
+			tasks: [{
+				elapsedTime: 1814400L
+				id: "61DD4DAADD7E6BD3"
+				title: "3. Woche"
+				type: "questsadditions:time"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6E7B5D5F3EC952AD"]
+			id: "17F4AD786B66A4A7"
+			rewards: [{
+				command: "/ftbranks add @p monthling"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "69D8BF511A6C798F"
+				title: "Rang 4. Woche freischalten"
+				type: "command"
+			}]
+			tasks: [{
+				elapsedTime: 2419200L
+				id: "1459E7CC4CC6A32F"
+				title: "4. Woche"
+				type: "questsadditions:time"
+			}]
+			x: -7.0d
+			y: 5.0d
 		}
 	]
 	title: "Minecraft Basics"
