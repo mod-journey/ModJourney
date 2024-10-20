@@ -22,7 +22,8 @@ ServerEvents.commandRegistry(event => {
       Utils.server.runCommandSilent(`tell @a[tag=admin_rang] §3${player.name.string}§r befindet sich nun im §3Survival Modus§r.`)
       player.tell("Du befindest dich nun im §3Survival Modus§r")
       console.log(`"${player.name.string}" hat seinen Spielmodus zu Survival geändert`)
-    } else if (mode === 'spectator') {
+    }
+    else if (mode === 'spectator') {
       Utils.server.runCommandSilent(`gamemode spectator ${player.name.string}`)
       Utils.server.runCommandSilent(`tell @a[tag=admin_rang] §3${player.name.string}§r befindet sich nun im §2Spectator Modus§r.`)
       player.tell("Du befindest dich nun im §2Spectator Modus§r")
