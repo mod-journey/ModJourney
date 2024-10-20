@@ -20,8 +20,8 @@ ServerEvents.tags("item", event => {
                     console.log("Ultimne True: " + tool_object.reference[n]);
                 }
             } else {
+                event.add("ftbultimine:excluded_tools", tool_object.reference[n])
                 if (debug) {
-                    event.add("ftbultimine:excluded_tools", tool_object.reference[n])
                     console.log("Ultimne False: " + tool_object.reference[n]);
                 }
             }

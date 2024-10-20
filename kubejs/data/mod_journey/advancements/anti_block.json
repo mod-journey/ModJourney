@@ -24,7 +24,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mod_journey:antimatter_block"
+            "items": ["mod_journey:antimatter_block"]
           }
         ]
       }

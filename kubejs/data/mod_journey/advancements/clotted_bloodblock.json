@@ -24,7 +24,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "mod_journey:clotted_bloodblock"
+                        "items": ["mod_journey:clotted_bloodblock"]
                     }
                 ]
             }

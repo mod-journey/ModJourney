@@ -10,7 +10,7 @@
         "text": "Silber Coins verdienst Du Dir durch Aktivität auf dem Server."
       },
       "icon": {
-        "item": "thermal:silver_coin"
+        "item": "mod_journey:silver_coin"
       },
       "background": "minecraft:textures/block/obsidian.png",
       "frame": "task",
@@ -24,7 +24,7 @@
         "conditions": {
           "items": [
             {
-              "item": "thermal:silver_coin"
+              "items": ["mod_journey:silver_coin"]
             }
           ]
         }

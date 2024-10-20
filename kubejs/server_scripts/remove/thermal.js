@@ -71,4 +71,7 @@ ServerEvents.recipes(event => {
         event.remove({ id: recipeId });
     });
 
+    // Entfernen der Satchel - Bugfix Satchel in Sophisticated Backpacks
+    event.remove({output: 'thermal:satchel'})
+
 })

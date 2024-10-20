@@ -9,7 +9,7 @@
       "text": "Du kannst Gold Coins verdienen, durch aktivität, das Questbuch oder durch das Craften von bestimmten Items"
     },
     "icon": {
-      "item": "thermal:gold_coin"
+      "item": "mod_journey:gold_coin"
     },
     "background": "minecraft:textures/block/obsidian.png",
     "frame": "task",
@@ -23,7 +23,7 @@
       "conditions": {
         "items": [
           {
-            "item": "thermal:gold_coin"
+            "items": ["mod_journey:gold_coin"]
           }
         ]
       }

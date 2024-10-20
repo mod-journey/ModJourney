@@ -10,7 +10,7 @@
         "text": "Bronze Coins sind durch Quests erhältlich. An sich auch ein ideales Bezahlungsmittel für Dienstleistungen."
       },
       "icon": {
-        "item": "thermal:bronze_coin"
+        "item": "mod_journey:bronze_coin"
       },
       "background": "minecraft:textures/block/obsidian.png",
       "frame": "task",
@@ -24,7 +24,7 @@
         "conditions": {
           "items": [
             {
-              "item": "thermal:bronze_coin"
+              "items": ["mod_journey:bronze_coin"]
             }
           ]
         }

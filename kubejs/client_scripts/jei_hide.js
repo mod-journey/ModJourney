@@ -32,6 +32,9 @@ JEIEvents.hideItems(event => {
     //thermal series hide florb
     event.hide('thermal:florb')
 
+    //thermal series satchel
+    event.hide('thermal:satchel')
+
     //thermal coins hide
     const coins = [
         'thermal:iron_coin',
@@ -45,7 +48,10 @@ JEIEvents.hideItems(event => {
         'thermal:constantan_coin',
         'thermal:signalum_coin',
         'thermal:lumium_coin',
-        'thermal:enderium_coin'
+        'thermal:enderium_coin',
+        'thermal:gold_coin',
+        'thermal:silver_coin',
+        'thermal:bronze_coin'
     ];
 
     coins.forEach(element => {
@@ -334,5 +340,59 @@ JEIEvents.hideItems(event => {
     event.hide(Item.of('mekanism:creative_chemical_tank'))
     event.hide(Item.of('easy_villagers:iron_farm'))
     event.hide(Item.of('ae2wtlib:quantum_bridge_card'))
+
+    
+    //aether
+    let aether_ice = [
+        Item.of('aether:ice_ring', '{Damage:0}'),
+        Item.of('aether:ice_pendant', '{Damage:0}'),
+    ]
+
+    aether_ice.forEach(element => {
+        event.hide(element)
+    });
+
+    
+    //itemfilters
+     let itemfilters_hide = [
+        'itemfilters:always_true',
+        'itemfilters:always_false',
+        'itemfilters:or',
+        'itemfilters:and',
+        'itemfilters:not',
+        'itemfilters:xor',
+        'itemfilters:tag',
+        'itemfilters:mod',
+        'itemfilters:id_regex',
+        'itemfilters:damage',
+        'itemfilters:block',
+        'itemfilters:max_count',
+        'itemfilters:strong_nbt',
+        'itemfilters:weak_nbt',
+        'itemfilters:custom',
+    ]
+
+    itemfilters_hide.forEach(element => {
+        event.hide(element)
+    });
+
+
+    //ftbquests
+     let ftbquests_hide = [
+        'ftbquests:barrier',
+        'ftbquests:stage_barrier',
+        'ftbquests:detector',
+        'ftbquests:loot_crate_opener',
+        'ftbquests:screen_1',
+        'ftbquests:screen_3',
+        'ftbquests:screen_5',
+        'ftbquests:screen_7',
+        'ftbquests:task_screen_configurator',
+    ]
+
+    ftbquests_hide.forEach(element => {
+        event.hide(element)
+    });
+
 
 })

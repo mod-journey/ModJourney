@@ -24,7 +24,7 @@
         "conditions": {
           "items": [
             {
-              "item": "mod_journey:anti_ingot"
+              "items": ["mod_journey:anti_ingot"]
             }
           ]
         }

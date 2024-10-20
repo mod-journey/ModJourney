@@ -48,14 +48,6 @@ ServerEvents.recipes(event => {
     event.remove([
         { output: 'ars_nouveau:annotated_codex' }
     ])
-
-    event.shapeless(
-        Item.of('ars_nouveau:annotated_codex', 1),
-        [
-            Item.of("ars_nouveau:archmage_spell_book"),
-            '5x thermal:gold_coin'
-        ]
-    ).id("modjourney:creative/annotated_codex")
 })
 
 

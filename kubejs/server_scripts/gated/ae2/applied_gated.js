@@ -3,14 +3,14 @@
 ServerEvents.recipes(event => {
 
     //definieren der Items
-    let remove = [ 
-        'expatternprovider:ex_drive', 
+    let remove = [
+        'expatternprovider:ex_drive',
         'megacells:sky_steel_ingot'
     ]
 
     // entfernen der Gatet Item Rezepte
     remove.forEach(element => {
-        event.remove({ 
+        event.remove({
             output: element
         })
     });
@@ -44,12 +44,12 @@ ServerEvents.recipes(event => {
         'minecraft:iron_ingot',
         'mekanism:alloy_atomic'
     )
-    
-    //Infintyboostercard Stufe 1 - Enderaugen getauscht durch Antimaterie
+
+    //Infintyboostercard Stufe 1 - Enderaugen getauscht durch mekanism:alloy_atmoic
     event.replaceInput(
         { id: 'aeinfinitybooster:infinity_card' },
         'minecraft:nether_star',
-        'mekanism:pellet_antimatter'
+        'mekanism:alloy_atomic'
     )
 
     //definiert die Prozessortypen für kommende Funktion
@@ -65,14 +65,14 @@ ServerEvents.recipes(event => {
             { mod: 'expatternprovider' },
             `ae2:${element}_processor`,
             'megacells:accumulation_processor'
-        ) 
+        )
     });
-    
-    //Wireless Tool fürs verbinden von ME Systemen. Einmaliger Craftprozess, da Tool. Kalkulationsprozessor getauscht durch Antimaterie
+
+    //Wireless Tool fürs verbinden von ME Systemen. Einmaliger Craftprozess, da Tool. Kalkulationsprozessor getauscht durch mekanism:alloy_atomic
     event.replaceInput(
         { id: 'expatternprovider:wireless_tool' },
         'megacells:accumulation_processor',
-        'mekanism:pellet_antimatter'
+        'mekanism:alloy_atomic'
     )
 
     //Extended Drive - Hinzufügen des accumulation Prozessor in der Mitte oben bei Buchstabe A
@@ -91,5 +91,5 @@ ServerEvents.recipes(event => {
           E: 'ae2:capacity_card'
         }
     )
-    
+
 })

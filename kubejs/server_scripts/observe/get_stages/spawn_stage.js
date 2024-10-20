@@ -27,12 +27,12 @@ PlayerEvents.tick(event => {
                     event.player.tell("Du verlässt nun den Spawn")
                 }
             }
-            let player_has_tag = event.player.stages.has("spawn")
-            if (player_has_tag) {
-                if (event.player.level.getDimension().toString() !== "minecraft:overworld") {
-                    event.player.stages.remove("spawn")
-                    event.player.tell("Du verlässt nun den Spawn")
-                }
+        }
+        let player_has_tag = event.player.stages.has("spawn")
+        if (player_has_tag) {
+            if (event.player.level.getDimension().toString() !== "minecraft:overworld") {
+                event.player.stages.remove("spawn")
+                event.player.tell("Du verlässt nun den Spawn")
             }
         }
     }
