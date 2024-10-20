@@ -21,7 +21,7 @@ FTBQuestsEvents.customReward("65A83C70BA4FDE02", event => {
 
         for (let n = 1; n <= memberCount; n++) {
 
-            event.player.give("thermal:gold_coin")
+            event.player.give("mod_journey:gold_coin")
         }
     } else {
         console.log("Quest-Fehler: " + event.player.name.getString() + " hat nur einen Goldcoin erhalten")
