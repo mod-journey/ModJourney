@@ -600,16 +600,33 @@
 		{
 			dependencies: ["01256AFE747A1CBF"]
 			description: [
-				"/streaming"
-				"/home /sethome"
-				"/tpa"
-				"/enderchest"
-				"/leatherboard"
+				"Im Hintergrund gibt es noch einige hilfreiche Befehle, die über die Chat-Konsole eingetippt werden können. Denkt daran, dass einige Befehle erst später aktiviert werden."
+				""
+				"z.b."
+				"&9/enderchest&r = Öffnet eure Enderkiste"
+				"&9/trashcan&r = Öffnet einen Mülleimer, wo ihr ungewollte Items wwegwerfen könnt."
+				"&9/leatherboard <Kategorie>&r = Zeigt euch die Rangliste."
+				"&9/ftbteams msg <text>&r Schickt eine Textnachricht an alle eure Team-Mitglieder."
+				""
+				"&9/recording&r = Zeigt anderen Spielern, dass ihr gerade ein Video aufnehmt."
+				"&9/streaming&r = Zeigt anderen Spielern, dass ihr gerade einen Life-Stream aufnehmt."
+				""
+				"{@pagebreak}"
+				"&9/spawn&r = Teleportiert euch zum spawn"
+				"&9/back&r = Teleportiert euch zurück zu dem Ort von dem ihr euch zuletzt weg-teleportiert habt"
+				""
+				"&9/sethome&r = Definiert den Ort, an den euch der /home Befehl (ab der 3. Woche) zurückbringt"
+				"&9/home&r = Teleportiert euch nach hause"
+				""
+				"&9/tpa <spieler>&r schickt eine Teleport-Anfrage an einen anderen Spieler. "
+				"Akzeptiert dieser Spieler, werdet ihr zu ihm teleportiert."
+				"&9/tpahere <spieler>&r schickt eine Teleport-Anfrage an einen anderen Spieler."
+				"Akzeptiert dieser Spieler, wird er an eure aktuelle Position teleportiert."
 			]
 			id: "1403FE3F41E3D45D"
 			tasks: [{
 				id: "68C94AF9FDB6A1CD"
-				title: "TODO Commands"
+				title: "Commands"
 				type: "checkmark"
 			}]
 			x: -3.5d
@@ -640,6 +657,11 @@
 		}
 		{
 			dependencies: ["06058D4919841D02"]
+			description: [
+				"Ab der zweiten Woche kannst du jetzt 50 Chunks (pro Spieler im Team) claimen."
+				""
+				"Außerdem werden die Befehle &9/back&r, &9/home&r, &9/tpa&r und &9/tpahere&r freigeschalted."
+			]
 			id: "59E92107A4481944"
 			rewards: [{
 				command: "/ftbranks add @p double-weekling"
@@ -681,6 +703,7 @@
 		}
 		{
 			dependencies: ["6E7B5D5F3EC952AD"]
+			description: ["Ein Monat bist du bereits auf deiner Reise, um dein Gebiet weiter auszubauen kannst du ab jetzt 75 Chunks (pro Spieler im Team) claimen."]
 			id: "17F4AD786B66A4A7"
 			rewards: [{
 				command: "/ftbranks add @p monthling"
