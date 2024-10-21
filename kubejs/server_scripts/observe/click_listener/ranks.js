@@ -51,17 +51,18 @@ ItemEvents.rightClicked("minecraft:stick", event => {
 
                 if (status === 1) {
                     console.log(` ${event.player.name.getString()} ist nun als ${new_tag.split("_")[0]} aktiv.`)
+                    event.server.runCommandSilent(`lp user ${event.player.name.getString()} parent add ${new_tag}`)
                 }
                 if (status === 2) { //wenn Spieler beitritt "Rang aktiv"
                     event.server.runCommandSilent(`team join ${new_tag.split("_")[0]} ${event.player.name.getString()}`)
                     console.log(` ${event.player.name.getString()} ist nun als ${new_tag.split("_")[0]} aktiv.`)
                 }
                 else if (status === 3) { //wenn Spieler beitritt "Rechte aktiv"
-                    event.server.runCommand(`luckperms user ${event.player.name.getString()} promote`)
+                    event.server.runCommandSilent(`luckperms user ${event.player.name.getString()} promote`)
                     console.log(`${event.player.name.getString()} hat nun erweiterte Rechte.`)
                 }
                 else if (status === 4) { //wenn Spieler beitritt "Rang inaktiv"
-                    event.player.runCommandSilent(`team leave ${event.player.name.getString()}`)
+                    event.server.runCommandSilent(`team leave ${event.player.name.getString()}`)
                     event.server.runCommandSilent(`luckperms user ${event.player.name.getString()} demote`)
                 }
                 return controll_rank = false
