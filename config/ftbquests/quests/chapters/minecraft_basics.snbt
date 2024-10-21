@@ -10,6 +10,13 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"Dieses Questbuch führt euch durch die Welt der Mods."
+				""
+				"Es beginnt wie jedes normale Minecraft Spiel, für jeden Fortschritt im Questbuch erhalted ihr jedoch Belohnungen und schalted Schritt für Schritt neue Technologie, Magie oder andere Vorteile frei."
+				""
+				"Mit Hilfe der Münzen könnt ihr im Verlauf des Spieles besonders Items erwerben, die auf \"normalem\" Wege nicht zu finden sind."
+			]
 			id: "01256AFE747A1CBF"
 			tasks: [{
 				id: "1C4F77DADCA06904"
@@ -22,6 +29,7 @@
 		}
 		{
 			dependencies: ["01256AFE747A1CBF"]
+			hide: true
 			id: "334735438DFE505B"
 			tasks: [{
 				count: 3L
@@ -242,8 +250,8 @@
 				type: "dimension"
 			}]
 			title: "Ab in die Hölle"
-			x: 8.0d
-			y: 1.5d
+			x: 8.75d
+			y: 1.25d
 		}
 		{
 			dependencies: ["6F80A4096725A7ED"]
@@ -271,8 +279,8 @@
 				id: "3B5E81ACABC9AD48"
 				type: "advancement"
 			}]
-			x: 9.5d
-			y: 1.5d
+			x: 10.5d
+			y: 1.25d
 		}
 		{
 			dependencies: ["090D1D6106BE4F06"]
@@ -283,7 +291,7 @@
 				item: "minecraft:ancient_debris"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: 2.5d
 		}
 		{
@@ -294,7 +302,7 @@
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: 4.0d
 		}
 		{
@@ -305,7 +313,7 @@
 				item: "minecraft:netherite_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: 4.0d
 		}
 		{
@@ -317,7 +325,7 @@
 				type: "structure"
 			}]
 			title: "Finde eine Bastion"
-			x: 7.0d
+			x: 8.0d
 			y: 2.5d
 		}
 		{
@@ -330,8 +338,8 @@
 				type: "structure"
 			}]
 			title: "Finde die Festung"
-			x: 11.0d
-			y: 1.5d
+			x: 12.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["2C8AC35868B1A016"]
@@ -344,8 +352,8 @@
 				type: "dimension"
 			}]
 			title: "Das End-Event"
-			x: 12.5d
-			y: 1.5d
+			x: 13.5d
+			y: 1.25d
 		}
 		{
 			dependencies: ["56959F905714B915"]
@@ -357,8 +365,8 @@
 				title: "Finde eine End City"
 				type: "structure"
 			}]
-			x: 14.0d
-			y: 1.5d
+			x: 15.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["03F62F0E4DEE0C1C"]
@@ -374,8 +382,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 1.0d
+			x: 16.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["03F62F0E4DEE0C1C"]
@@ -385,7 +393,7 @@
 				item: "minecraft:shulker_box"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 16.0d
 			y: 2.0d
 		}
 		{
@@ -421,8 +429,8 @@
 				}
 			]
 			title: "Mache die Netherite Ausrüstung"
-			x: 8.0d
-			y: 5.0d
+			x: 8.785714285714292d
+			y: 5.321428571428562d
 		}
 		{
 			dependencies: ["3ED1EE762185E1D1"]
@@ -544,10 +552,22 @@
 		}
 		{
 			dependencies: ["01256AFE747A1CBF"]
+			description: [
+				"Mit der Simple Voice Chat Mod kannst du ingame mit andern Spielern sprechen."
+				""
+				"Mit der Taste (V) öffnet ihr den Einrichtungsassistent und später die Mod selbst."
+				"Sobald die Einrichtung abgeschlossen ist, könnt ihr mit Spielern in eurer Nähe sprechen."
+				""
+				"Wie im richtigen Leben, werden die Stimmen leiser umso weiter ihr euch entfernt."
+				""
+				"{@pagebreak}"
+				"Um mit Spielern in größerer Entfernung zu sprechen, könnt ihr eine Chatgruppe eröffnen, oder euch einer vorhandenen Gruppe anschließen."
+			]
 			id: "78D7575B8BFD8848"
+			subtitle: "Kein Bock zu tippen?"
 			tasks: [{
 				id: "66B1A93AFB06BED2"
-				title: "TODO Voice Chat"
+				title: "Voice Chat"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -555,10 +575,23 @@
 		}
 		{
 			dependencies: ["01256AFE747A1CBF"]
+			description: [
+				"[ \"Sobald ihr eine \", { \"text\": \"Diamandspitzhacke\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1393B7943AFB6B54\" } }, \" besitzt, könnt ihr die Abbauhilfe Ultimine nutzen.\" ]"
+				""
+				"Dadurch bekommt ihr die Möglichkeit eine mehrere Blöcke des selben Types (z.b. Eisenerz) gleichzeitig abzubauen."
+				""
+				"Dazu müsst ihr nur die Ultimine-Taske (Standardmäsig die Taste &d&l^&r&r unter der Escape Taste) während dem Abbauen gedrückt halten."
+				""
+				"Eine Vorschau zeigt euch, welche Blöcke gleichzeitg abgebaut werden."
+				""
+				"{@pagebreak}"
+				"Wenn ihr die Ultimine- und die Shift Taste gedrück halted, könnt ihr mit dem Mausrad zwischen unterschiedlichen Abbau-Formen wählen (Z.b. ein gerader Gang in Blickrichtung, oder eine Treppe nach unten)"
+			]
 			id: "7EFF472EB4F530FE"
+			subtitle: "Graben wie ein Maulwurf"
 			tasks: [{
 				id: "10D148E57A7476A6"
-				title: "TODO Ultimine"
+				title: "Ultimine"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -584,6 +617,7 @@
 		}
 		{
 			dependencies: ["49D841614CC15BE6"]
+			hide: true
 			id: "06058D4919841D02"
 			rewards: [{
 				command: "/ftbranks add @p weekling"
