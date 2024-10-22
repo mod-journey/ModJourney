@@ -7,59 +7,23 @@
 	id: "63656124524EAA9C"
 	order_index: 0
 	quest_links: [ ]
-	quests: [
-		{
-			can_repeat: true
-			id: "70689E6F159E0ED8"
-			rewards: [{
-				command: "/team join orga @s"
-				elevate_perms: true
-				id: "55C34DD660B509C3"
-				type: "command"
-			}]
-			tasks: [{
-				id: "1CA24C7580C2B7C0"
-				title: "orga an"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: -4.0d
-		}
-		{
-			can_repeat: true
-			id: "587D6479AE3AB402"
-			rewards: [{
-				command: "/team leave @s"
-				elevate_perms: true
-				id: "57EF9F483E3D78F2"
-				type: "command"
-			}]
-			tasks: [{
-				id: "347818BBCEA7CEA4"
-				title: "orga aus"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: -2.5d
-		}
-		{
-			id: "0F5F5AB1C96583BE"
-			rewards: [{
-				command: "/ftbquests change_progress @a complete 06058D4919841D02"
-				exclude_from_claim_all: true
-				id: "754B335E939FD476"
-				title: "Freischalten"
-				type: "command"
-			}]
-			subtitle: "Rang freischalten"
-			tasks: [{
-				id: "13B72E616F01E129"
-				title: "1. Woche"
-				type: "checkmark"
-			}]
-			x: -9.5d
-			y: -2.0d
-		}
-	]
+	quests: [{
+		id: "0F5F5AB1C96583BE"
+		rewards: [{
+			command: "/ftbquests change_progress @a complete 06058D4919841D02"
+			exclude_from_claim_all: true
+			id: "754B335E939FD476"
+			title: "Freischalten"
+			type: "command"
+		}]
+		subtitle: "Rang freischalten"
+		tasks: [{
+			id: "13B72E616F01E129"
+			title: "1. Woche"
+			type: "checkmark"
+		}]
+		x: -9.5d
+		y: -2.0d
+	}]
 	title: "administrative Befehle"
 }
