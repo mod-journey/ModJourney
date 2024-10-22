@@ -234,23 +234,6 @@
 			x: -11.0d
 			y: 7.5d
 		}
-		{
-			id: "4BBE2CAC008F2412"
-			rewards: [{
-				command: "/lp user @p parent add eventteam"
-				elevate_perms: true
-				id: "28EF15AF914C8042"
-				team_reward: false
-				type: "command"
-			}]
-			tasks: [{
-				id: "7DFF9C1DA1D35DB0"
-				title: "Eventteam"
-				type: "checkmark"
-			}]
-			x: -16.0d
-			y: -1.5d
-		}
 	]
 	title: "Erfolge"
 }
