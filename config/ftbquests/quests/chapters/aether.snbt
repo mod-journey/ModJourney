@@ -6,7 +6,7 @@
 	group: "12D6D4D26DC1B099"
 	icon: "aether:aether_portal_frame"
 	id: "10E1266DF64C997D"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -36,19 +36,8 @@
 			subtitle: "Willkommen im Aether"
 			tasks: [{
 				dimension: "aether:the_aether"
-				id: "7133E6B394C88D58"
-				ignore_dimension: false
-				position: [I;
-					-10000
-					0
-					-10000
-				]
-				size: [I;
-					20000
-					255
-					20000
-				]
-				type: "location"
+				id: "4627D35561E99028"
+				type: "dimension"
 			}]
 			title: "Sky is the limit"
 			x: 0.0d
