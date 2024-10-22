@@ -5,7 +5,7 @@
 	group: "12D6D4D26DC1B099"
 	icon: "blue_skies:blue_journal"
 	id: "13792A57E56A306D"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
