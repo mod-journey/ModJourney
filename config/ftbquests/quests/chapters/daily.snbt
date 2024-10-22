@@ -21,7 +21,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "738C3631FA49D6B6"
-					item: "thermal:silver_coin"
+					item: "mod_journey:silver_coin"
 					team_reward: false
 					type: "item"
 				}
