@@ -916,6 +916,65 @@
 			x: -7.0d
 			y: 5.0d
 		}
+		{
+			can_repeat: true
+			description: ["Alle 4 Stunden kann dein Team eine Silbermünze bekommen. Dafür musst Du aktiv auf dem Server online sein."]
+			icon: {
+				Count: 1
+				id: "thermal:silver_coin"
+				tag: { }
+			}
+			id: "38FCDBC67E137073"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "738C3631FA49D6B6"
+					item: "mod_journey:silver_coin"
+					team_reward: false
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67DB79D5CE5275B1"
+					table_id: 4944166769827694193L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:clock"
+				id: "30D9E8CD52F44C9A"
+				title: "4h"
+				type: "custom"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			description: ["Du kannst diese Quest alle 24h ein mal abschließen. Der der sie abschließt, erhält die Münzen für das gesamte Team"]
+			icon: "mod_journey:gold_coin"
+			id: "146D1D0765124A16"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: "mod_journey:gold_coin"
+				id: "65A83C70BA4FDE02"
+				title: "Goldmünze"
+				type: "custom"
+			}]
+			tasks: [{
+				elapsedTime: 86400L
+				gameTime: "system"
+				icon: "minecraft:clock"
+				id: "597813E4951FDC5E"
+				title: "24h"
+				type: "questsadditions:time"
+			}]
+			title: "Daily"
+			x: -1.5d
+			y: 3.0d
+		}
 	]
 	title: "Minecraft Basics"
 }
