@@ -531,7 +531,7 @@
 			dependencies: ["54C0801350CC8CE7"]
 			description: [
 				"Die Maschine kann Blöcke (z.b. Baumstämme) in die Welt platzieren."
-				"Damit das allerdings innerhalb eines geschützen oder geclaimten Gebiet funktioniert, muss in den Team-Einstellungen dieses Gebietes die Einstellung \"Allow All Fake Players\" aktiviert sein."
+				"[ \"Damit das allerdings innerhalb eines geschützen oder geclaimten Gebiet funktioniert, muss in den \", { \"text\": \"Team-Einstellungen\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6436E46E095D0BDD\" } }, \" dieses Gebietes die Einstellung \\\"Allow All Fake Players\\\" aktiviert sein.\" ]"
 			]
 			hide_dependency_lines: true
 			icon: "industrialforegoing:block_placer"
