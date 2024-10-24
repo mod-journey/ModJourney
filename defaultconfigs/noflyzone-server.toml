@@ -1,6 +1,6 @@
 #No-fly zone checks happen every x player ticks, which can be taxing on the system when there's many players. Increase this number for better performance.
 #Range: > 1
-checkInterval = 5
+checkInterval = 10
 #Whether to allow flight using an elytra in a no flight zone
 allowElytraFlight = false
 #Whether to allow flight using a jetpack device in a no flight zone
@@ -19,7 +19,7 @@ enablePunishOffenders = false
 #Range: > 1
 zapInterval = 30
 #A list of blacklisted dimensions.
-dimensions = []
+dimensions = ["aether:the_aether", "blue_skies:everbright", "blue_skies:everdawn", "bloodmagic:dungeon", "undergarden:undergarden"]
 #A list of game stage configurations unlocking flight in a dimension. The format is "checkType,check,game_stage" ex: "dimension,minecraft:the_nether,nether_unlocked" or "biome,minecraft:plains,stage_name"
 dimension_unlocks = []
 

@@ -132,6 +132,9 @@
     "converter": true,
     "breeder": true
   },
+  "mysticalagradditions": {
+    "infused_farmland": true
+  },
   "pipez": {
     "pipe": true
   },

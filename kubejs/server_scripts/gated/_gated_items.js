@@ -35,6 +35,7 @@ const stages = {
         magic: {
             early:  'ars_nouveau:source_gem',
             mid:    'ars_nouveau:archmage_spell_book',
+            end:    'apotheosis:ender_library'
         },
     }
 }
