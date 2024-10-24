@@ -50,7 +50,13 @@
 		}
 		{
 			dependencies: ["616B979CDF814586"]
+			hide: true
 			id: "19EBC03B9B5C0DD4"
+			rewards: [{
+				id: "2A42D68B0E6A7644"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "46C23499191C4387"
 				item: {
@@ -67,7 +73,13 @@
 		}
 		{
 			dependencies: ["19EBC03B9B5C0DD4"]
+			hide: true
 			id: "51C95C07DD4FE5A6"
+			rewards: [{
+				id: "709F00026E9092E1"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				count: 10L
 				id: "16F8D00E81EFF942"
@@ -79,7 +91,13 @@
 		}
 		{
 			dependencies: ["51C95C07DD4FE5A6"]
+			hide: true
 			id: "2B172DC8F87F8321"
+			rewards: [{
+				id: "01E66EA26F850FA4"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B33FA9E21910C7D"
 				item: {
@@ -96,7 +114,13 @@
 		}
 		{
 			dependencies: ["51C95C07DD4FE5A6"]
+			hide: true
 			id: "3ED1EE762185E1D1"
+			rewards: [{
+				id: "1AF7CEC2456FBBF2"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E8CB35CC3F7D4D1"
 				item: {
@@ -113,7 +137,13 @@
 		}
 		{
 			dependencies: ["51C95C07DD4FE5A6"]
+			hide: true
 			id: "5336C3257F6E6DCE"
+			rewards: [{
+				id: "7AE92B1DD03221A6"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E615FE9FDD3CA76"
 				item: {
@@ -130,7 +160,13 @@
 		}
 		{
 			dependencies: ["51C95C07DD4FE5A6"]
+			hide: true
 			id: "0B927369431933B8"
+			rewards: [{
+				id: "676D2D139243D8D4"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "011C9489F91675BF"
 				item: {
@@ -147,8 +183,14 @@
 		}
 		{
 			dependencies: ["334735438DFE505B"]
+			hide: true
 			icon: "minecraft:crafting_table"
 			id: "616B979CDF814586"
+			rewards: [{
+				id: "0EE7A79D03709FA5"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6AE227BABAC7609C"
 				item: "minecraft:crafting_table"
@@ -159,7 +201,13 @@
 		}
 		{
 			dependencies: ["51C95C07DD4FE5A6"]
+			hide: true
 			id: "054D5EAF0AB8E6FA"
+			rewards: [{
+				id: "4AAAD4B44A558299"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2CDD2ACE646A24D0"
 				item: "minecraft:furnace"
@@ -170,7 +218,13 @@
 		}
 		{
 			dependencies: ["054D5EAF0AB8E6FA"]
+			hide: true
 			id: "58D909280639A503"
+			rewards: [{
+				id: "0DE073C8B1DC94D4"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				count: 3L
 				id: "274557761BFD12BE"
@@ -182,7 +236,13 @@
 		}
 		{
 			dependencies: ["58D909280639A503"]
+			hide: true
 			id: "5B6D417CBB35D96F"
+			rewards: [{
+				id: "1D1AED20A459AE04"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B81F0781CEEB91F"
 				item: {
@@ -199,7 +259,13 @@
 		}
 		{
 			dependencies: ["5B6D417CBB35D96F"]
+			hide: true
 			id: "6F80A4096725A7ED"
+			rewards: [{
+				id: "643DF5CA87474943"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				count: 3L
 				id: "2C17EAA32A3A1ACE"
@@ -211,7 +277,13 @@
 		}
 		{
 			dependencies: ["58D909280639A503"]
+			hide: true
 			id: "30D96A391AF9E050"
+			rewards: [{
+				id: "32D40EF976C58542"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "356FD8CA87C279AB"
 				item: {
@@ -228,7 +300,13 @@
 		}
 		{
 			dependencies: ["1393B7943AFB6B54"]
+			hide: true
 			id: "03FC230411E16641"
+			rewards: [{
+				id: "455A824F948CC115"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				count: 10L
 				id: "59446CA4766ECF53"
@@ -243,7 +321,22 @@
 				"03FC230411E16641"
 				"30D96A391AF9E050"
 			]
+			hide: true
 			id: "090D1D6106BE4F06"
+			rewards: [
+				{
+					id: "3D784CEBF118655D"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FE60C6BD93D16E4"
+					table_id: 5361216056761224723L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "715BAD043766542E"
@@ -255,7 +348,13 @@
 		}
 		{
 			dependencies: ["6F80A4096725A7ED"]
+			hide: true
 			id: "1393B7943AFB6B54"
+			rewards: [{
+				id: "480936A5593C46D2"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3CDE71BBE9A1F56B"
 				item: {
@@ -272,7 +371,13 @@
 		}
 		{
 			dependencies: ["090D1D6106BE4F06"]
+			hide: true
 			id: "403812BA7909FF11"
+			rewards: [{
+				id: "5179DF1AD91DE8EE"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "minecraft:nether/find_fortress"
 				criterion: ""
@@ -284,7 +389,13 @@
 		}
 		{
 			dependencies: ["090D1D6106BE4F06"]
+			hide: true
 			id: "0FE73B1C3A1E181F"
+			rewards: [{
+				id: "68AC533EDC8D9076"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				count: 4L
 				id: "2F537CD38C0200DE"
@@ -296,7 +407,13 @@
 		}
 		{
 			dependencies: ["0FE73B1C3A1E181F"]
+			hide: true
 			id: "112B3BF69ADCB53A"
+			rewards: [{
+				id: "6A8634893258FAB5"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7C0EF5C960490FBB"
 				item: "minecraft:netherite_ingot"
@@ -307,7 +424,13 @@
 		}
 		{
 			dependencies: ["7BCBE649891D1C9B"]
+			hide: true
 			id: "3E3397459D149D72"
+			rewards: [{
+				id: "292F93F5E00135D3"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3EE2EB5B924141AB"
 				item: "minecraft:netherite_upgrade_smithing_template"
@@ -318,7 +441,13 @@
 		}
 		{
 			dependencies: ["090D1D6106BE4F06"]
+			hide: true
 			id: "7BCBE649891D1C9B"
+			rewards: [{
+				id: "456E27F2036D48E7"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6990CA998DC3CF92"
 				structure: "minecraft:bastion_remnant"
@@ -330,8 +459,14 @@
 		}
 		{
 			dependencies: ["403812BA7909FF11"]
+			hide: true
 			icon: "minecraft:ender_eye"
 			id: "2C8AC35868B1A016"
+			rewards: [{
+				id: "32F4C350A13A2B04"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1FD6CE4940D60707"
 				structure: "betterstrongholds:stronghold"
@@ -344,8 +479,14 @@
 		{
 			dependencies: ["2C8AC35868B1A016"]
 			description: ["Nimm an Event zur Öffnung des Endportales teil und erhalte eine Belohnung."]
+			hide: true
 			icon: "minecraft:end_portal_frame"
 			id: "56959F905714B915"
+			rewards: [{
+				id: "732AC8A1907D0D2A"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "6BAFF2940497C0C2"
@@ -358,7 +499,13 @@
 		{
 			dependencies: ["56959F905714B915"]
 			dependency_requirement: "one_completed"
+			hide: true
 			id: "03F62F0E4DEE0C1C"
+			rewards: [{
+				id: "420BBDE7AAC15374"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "68E447E6E606C6BF"
 				structure: "minecraft:end_city"
@@ -370,7 +517,21 @@
 		}
 		{
 			dependencies: ["03F62F0E4DEE0C1C"]
+			hide: true
 			id: "19F53A5F8F69A394"
+			rewards: [
+				{
+					id: "2C72A2F4EED3341F"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FABC09D57C468DC"
+					table_id: 5361216056761224723L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "3D9C8EA218733C98"
 				item: {
@@ -387,7 +548,13 @@
 		}
 		{
 			dependencies: ["03F62F0E4DEE0C1C"]
+			hide: true
 			id: "3C8CDA5FB3B3E5DD"
+			rewards: [{
+				id: "64BFB079C058C073"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "144C5013F487FC2D"
 				item: "minecraft:shulker_box"
@@ -401,7 +568,22 @@
 				"3E3397459D149D72"
 				"112B3BF69ADCB53A"
 			]
+			hide: true
 			id: "21B643BD3ABB92CE"
+			rewards: [
+				{
+					id: "478E24C411C4C042"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B1F808ABB77C301"
+					table_id: 5361216056761224723L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "7C4F9D8D5496082A"
@@ -434,7 +616,13 @@
 		}
 		{
 			dependencies: ["3ED1EE762185E1D1"]
+			hide: true
 			id: "08CD0F35FC56877F"
+			rewards: [{
+				id: "7D067FE36C26D753"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:cow"
 				icon: "minecraft:leather"
@@ -449,7 +637,13 @@
 		{
 			dependencies: ["08CD0F35FC56877F"]
 			dependency_requirement: "one_completed"
+			hide: true
 			id: "5A83CAD196067494"
+			rewards: [{
+				id: "4CD12A846E8E59C1"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1C5DEB272E2ACF71"
