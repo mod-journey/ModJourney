@@ -171,11 +171,20 @@
 		{
 			dependencies: ["1D18FA062A8CDBDE"]
 			id: "6E0BCB8B71C2F9F5"
-			rewards: [{
-				id: "4914318BDDC98D36"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4914318BDDC98D36"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DD8B5FB86501A57"
+					table_id: 2663385176164411356L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "628B7C5381920A4F"
 				item: "industrialforegoing:latex_processing_unit"
@@ -282,11 +291,20 @@
 		{
 			dependencies: ["2EEB5D5E78C0F724"]
 			id: "3FDDCD291B208350"
-			rewards: [{
-				id: "5426513FF5D45784"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5426513FF5D45784"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43CCE0544D744EC6"
+					table_id: 2663385176164411356L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "2E5487A5AE86A8D3"
 				item: "industrialforegoing:stasis_chamber"
