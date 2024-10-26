@@ -275,7 +275,14 @@
 			]
 			tasks: [{
 				id: "6FF8DF5C6BA9E591"
-				item: "botania:endoflame"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:generating_special_flowers"
+					}
+				}
+				title: "Any #botania:generating_special_flowers"
 				type: "item"
 			}]
 			x: 1.5d
@@ -331,24 +338,18 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "12DAA759B50EB3CA"
-					item: "botania:red_petal"
-					type: "item"
+			tasks: [{
+				id: "12DAA759B50EB3CA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:petals"
+					}
 				}
-				{
-					count: 2L
-					id: "482439DAF0AF5A39"
-					item: "botania:brown_petal"
-					type: "item"
-				}
-				{
-					id: "64BABDBE757AA261"
-					item: "botania:light_gray_petal"
-					type: "item"
-				}
-			]
+				title: "Any #botania:petals"
+				type: "item"
+			}]
 			x: 1.5d
 			y: -2.0d
 		}
