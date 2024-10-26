@@ -63,11 +63,20 @@
 				"Beim landen, sollte die Space Taste gedrückt werden und aussteigen solltest Du aus der Rakete auch nicht während Du am fliegen bist. "
 			]
 			id: "765CC36D1E9FC407"
-			rewards: [{
-				id: "6FD2531FA3AA27C9"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6FD2531FA3AA27C9"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06CB6BA6606646AE"
+					table_id: 2663385176164411356L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "44CCC89F490E872A"
 				item: {
@@ -718,11 +727,20 @@
 				"Aufgrund der besseren Technologie, schaffen wir es nun weitere Entfernungen zurück zu legen. Vor allem halten wir nun auch weiteren Umweltbedingungen stand."
 			]
 			id: "741F7F97C31F37DB"
-			rewards: [{
-				id: "154D6076707E07E0"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "154D6076707E07E0"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75D5575799637818"
+					table_id: 2663385176164411356L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "5ECBADF8901512C0"
 				item: {

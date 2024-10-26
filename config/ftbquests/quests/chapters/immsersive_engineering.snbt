@@ -190,11 +190,20 @@
 				"19267DFA9EB783BF"
 			]
 			id: "0B04E60647C11A1D"
-			rewards: [{
-				id: "50D43B810D3322FB"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "50D43B810D3322FB"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44D526A26B9EC0FD"
+					table_id: 7481978013781056868L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "18B5C663F76F8B59"
 				item: "immersiveengineering:plate_duroplast"
@@ -354,11 +363,20 @@
 		{
 			dependencies: ["3F60E405CEADC649"]
 			id: "2E3BDF304CE0F4D2"
-			rewards: [{
-				id: "6F7C310AEC0D991F"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6F7C310AEC0D991F"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E28ED77A3187198"
+					table_id: 7481978013781056868L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "49C4C64AE7D0D567"
 				item: "immersiveengineering:watermill"
@@ -402,11 +420,20 @@
 		{
 			dependencies: ["3F60E405CEADC649"]
 			id: "18C4B2B100643801"
-			rewards: [{
-				id: "06024038BCCA3689"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "06024038BCCA3689"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "451981985C1D50F9"
+					table_id: 7481978013781056868L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "04D21A81AAA1824D"
 				item: "immersiveengineering:windmill"
@@ -457,11 +484,20 @@
 		{
 			dependencies: ["7A633DD4525F4618"]
 			id: "1342E29C40F48729"
-			rewards: [{
-				id: "41A0BCE384161298"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "41A0BCE384161298"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59A2EBE38E57EA83"
+					table_id: 7481978013781056868L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "5788824EE9E73578"
 				item: "immersiveengineering:capacitor_hv"
@@ -549,11 +585,20 @@
 			dependencies: ["2CACA64616A52B62"]
 			hide: true
 			id: "344CBA812CE2EDA5"
-			rewards: [{
-				id: "55A17FC337F6DD0A"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "55A17FC337F6DD0A"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69FB534E5B4569C8"
+					table_id: 7481978013781056868L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "0C01C483F7852CBA"
 				item: "immersiveengineering:sample_drill"

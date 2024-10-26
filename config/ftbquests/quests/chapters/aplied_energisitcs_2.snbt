@@ -239,6 +239,13 @@
 					item: "mod_journey:bronze_coin"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "720569088A21DFD9"
+					table_id: 2663385176164411356L
+					team_reward: true
+					type: "loot"
+				}
 			]
 			subtitle: "Dein erstes Certus"
 			tasks: [{
@@ -1512,6 +1519,13 @@
 					id: "644159015D361559"
 					item: "mod_journey:bronze_coin"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52A21EF896CFF82F"
+					table_id: 2663385176164411356L
+					team_reward: true
+					type: "loot"
 				}
 			]
 			tasks: [

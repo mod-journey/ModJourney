@@ -187,11 +187,20 @@
 			dependencies: ["1E86BC238F738A44"]
 			description: ["mit den basic Reactoren lassen sich Multiblöcke bis auf eine größe von 5x5x5 bauen. "]
 			id: "3D755E72F89F3702"
-			rewards: [{
-				id: "79776EB0F782D4D1"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "79776EB0F782D4D1"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AB5D6CFDD963FB4"
+					table_id: 4163070181652591131L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "3FFCF6ACDE04C9BF"
 				item: "bigreactors:basic_reactorcasing"
@@ -307,11 +316,20 @@
 			dependencies: ["3D755E72F89F3702"]
 			description: ["Mit den Reinforced Reactoren lassen sich in unserem Modpack Multiblöcke bis zu einer größe von 16x16x16 bauen."]
 			id: "68CBEF963313DC33"
-			rewards: [{
-				id: "06B5355CD5171235"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "06B5355CD5171235"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59629FC1A0269EA0"
+					table_id: 4163070181652591131L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "232D2252C3A0B094"
 				item: "bigreactors:reinforced_reactorcasing"
@@ -432,11 +450,20 @@
 			dependencies: ["4C65447B7738A05F"]
 			description: ["Das Blutonium wirst Du an drei Stellen brauchen."]
 			id: "4AB80401F1CA36D1"
-			rewards: [{
-				id: "6D055E9948A2B26D"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6D055E9948A2B26D"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2631A0780F320126"
+					table_id: 4163070181652591131L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				id: "299A67366DE25CEB"

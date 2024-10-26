@@ -11,10 +11,11 @@
 	quests: [
 		{
 			dependencies: [
-				"794E571853408FC4"
 				"401717FD15981E80"
+				"08BDD4ADC8DDB9C2"
 			]
 			dependency_requirement: "one_completed"
+			hide: true
 			id: "04D1A0A91AE72503"
 			rewards: [{
 				id: "74ACEEE9AE6CC85A"
@@ -35,11 +36,20 @@
 		{
 			dependencies: ["15697EE0C7A58D46"]
 			id: "75611DC723B62AE4"
-			rewards: [{
-				id: "576199E3FC981A29"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "576199E3FC981A29"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3005AD78463DF1F9"
+					table_id: 4476243188742840184L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			subtitle: "Mit Hilfe des Flux Plugs kannst du Remote Energie deinem Netzwerk hinzufügen"
 			tasks: [{
 				id: "7FD6AEFF35253853"

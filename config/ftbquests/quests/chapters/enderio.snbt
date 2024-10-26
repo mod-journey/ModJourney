@@ -512,6 +512,13 @@
 					item: "mod_journey:bronze_coin"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "323474DC56EDB5EA"
+					table_id: 4163070181652591131L
+					team_reward: true
+					type: "loot"
+				}
 			]
 			tasks: [{
 				id: "34F5DD272F059BF9"
@@ -558,14 +565,22 @@
 			id: "1F8F537E56CCED3F"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "1573E247EFE9A6CC"
-					type: "loot"
-				}
-				{
 					id: "40636E663F9D2E5C"
 					item: "mod_journey:bronze_coin"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D6470226A0C13D4"
+					table_id: 396329870010794086L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E19A76F7D7CBD92"
+					table_id: 4163070181652591131L
+					team_reward: true
+					type: "loot"
 				}
 			]
 			subtitle: "Speichere deine Spieler Experience im XP Obelisk. Die eingepeicherte Experience lässt sich jederzeit zurück transferien. Solltest du die Flüssigkeit in flüssiger Form benötigen, kannst du diese mit einem Flüssigkeitsrohr abpumpen oder dem Obelisken hinzufügen"
@@ -1024,6 +1039,13 @@
 					item: "mod_journey:bronze_coin"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "31490ABEF44B8AE6"
+					table_id: 4163070181652591131L
+					team_reward: true
+					type: "loot"
+				}
 			]
 			tasks: [{
 				id: "7E91D1398797DB61"
@@ -1191,6 +1213,13 @@
 					id: "24E04A1F81BC92E4"
 					item: "mod_journey:bronze_coin"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FC8834F94594896"
+					table_id: 4163070181652591131L
+					team_reward: true
+					type: "loot"
 				}
 			]
 			tasks: [{
