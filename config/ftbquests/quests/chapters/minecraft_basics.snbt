@@ -6,6 +6,37 @@
 	group: "78025998DBB7AC61"
 	icon: "minecraft:grass_block"
 	id: "62592CBE673BE5C1"
+	images: [
+		{
+			height: 3.0d
+			image: "kubejs:textures/background/mod_journey/icon_512x512.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			color: 1019157
+			dependency: "01256AFE747A1CBF"
+			height: 1.0d
+			hover: ["grüner pointer"]
+			image: "ftbchunks:textures/waypoint_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -4.803571428571431d
+		}
+		{
+			color: 3614107
+			dependency: "01256AFE747A1CBF"
+			height: 1.0d
+			image: "ftbchunks:textures/waypoint_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.9642857142857153d
+			y: -4.803571428571431d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -974,6 +1005,35 @@
 			title: "Daily"
 			x: -1.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["01256AFE747A1CBF"]
+			description: ["Blaue Pointer geben an, dass es sich um ein sogenanntes \"gated-out\" Item handelt. Dieses Item muss gefertigt werden, sodass ihr mehr Progress aus anderen Mods freischaltet."]
+			id: "4714ADC72743367C"
+			tasks: [{
+				id: "56CE3F986D67E885"
+				title: "Rote Checkmark"
+				type: "checkmark"
+			}]
+			title: "Blaue Checkmark"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["01256AFE747A1CBF"]
+			description: [
+				"Grüne Pointer geben an, dass das Item um welches sich die Quest handelt, von uns modifiziert wurde. "
+				"Es handelt sich um sogenannte \"gatet-in\" Items. Diese werden aus einer vorigen Stage freigeschaltet."
+			]
+			id: "7F5165B07AC3898B"
+			tasks: [{
+				id: "2BE970218C62BC8F"
+				title: "Rote Checkmark"
+				type: "checkmark"
+			}]
+			title: "Grüne Checkmark"
+			x: -3.0d
+			y: -4.0d
 		}
 	]
 	title: "Minecraft Basics"

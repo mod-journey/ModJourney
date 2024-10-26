@@ -1,33 +1,13 @@
 {
+	always_invisible: true
 	autofocus_id: "0B7B7C7A1366C9D1"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "erfolge"
-	group: "78025998DBB7AC61"
+	group: "138E6CC1C80F610D"
 	icon: "minecraft:writable_book"
 	id: "430393DC3F2A60F9"
-	images: [
-		{
-			color: 1019157
-			height: 1.0d
-			hover: ["grüner pointer"]
-			image: "ftbchunks:textures/waypoint_default.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -13.35714285714284d
-			y: 0.6726190476190474d
-		}
-		{
-			color: 3614107
-			height: 1.0d
-			image: "ftbchunks:textures/waypoint_default.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -11.85714285714284d
-			y: 0.6369047619047628d
-		}
-	]
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -164,33 +144,6 @@
 			title: "Let's show: Mekanism"
 			x: -11.0d
 			y: 6.0d
-		}
-		{
-			description: ["Blaue Pointer geben an, dass es sich um ein sogenanntes \"gated-out\" Item handelt. Dieses Item muss gefertigt werden, sodass ihr mehr Progress aus anderen Mods freischaltet."]
-			id: "4714ADC72743367C"
-			tasks: [{
-				id: "56CE3F986D67E885"
-				title: "Rote Checkmark"
-				type: "checkmark"
-			}]
-			title: "Blaue Checkmark"
-			x: -11.857142857142847d
-			y: 1.4642857142857117d
-		}
-		{
-			description: [
-				"Grüne Pointer geben an, dass das Item um welches sich die Quest handelt, von uns modifiziert wurde. "
-				"Es handelt sich um sogenannte \"gatet-in\" Items. Diese werden aus einer vorigen Stage freigeschaltet."
-			]
-			id: "7F5165B07AC3898B"
-			tasks: [{
-				id: "2BE970218C62BC8F"
-				title: "Rote Checkmark"
-				type: "checkmark"
-			}]
-			title: "Grüne Checkmark"
-			x: -13.357142857142847d
-			y: 1.4642857142857117d
 		}
 		{
 			icon: "bloodmagic:altar"
