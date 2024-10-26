@@ -255,6 +255,7 @@
 		}
 		{
 			dependencies: ["0FC3F9706DE769F0"]
+			description: ["Kupfer gibt es genug in der Welt. Erhalte mehr Speicher durch das hinzufügen in deine Drawer."]
 			id: "313B9F86BFAC170E"
 			rewards: [{
 				id: "260EEF7D72D5B076"
@@ -271,6 +272,7 @@
 		}
 		{
 			dependencies: ["0FC3F9706DE769F0"]
+			description: ["Solltest Du deinen Drawer schon die maximale Anzahl an Upgrades zugewiesen haben, kannst du mittels der nächsten höheren Stufe hier die geringere Stufe ersetzen."]
 			id: "2851C35AFD84C508"
 			rewards: [{
 				id: "6F4EA83744D5A91C"
@@ -287,6 +289,7 @@
 		}
 		{
 			dependencies: ["0FC3F9706DE769F0"]
+			description: ["Mehr Platz. Einfach mehr Platz."]
 			id: "57E783E20BE966B3"
 			rewards: [{
 				id: "43D04B0F4FC9BF72"
@@ -303,12 +306,24 @@
 		}
 		{
 			dependencies: ["0FC3F9706DE769F0"]
+			description: [
+				"Bekommst Du einen Drawer komplett gefüllt mit Sand voll? Probiere es mal aus. :-D"
+				"&l&4Benutze einen Oak Drawer&r"
+			]
 			id: "0D1CE7A2E7381A55"
-			rewards: [{
-				id: "0F95266502592207"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0F95266502592207"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02D58C7AB8764E7D"
+					table_id: 7481978013781056868L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "39031ADFF4166FB8"
 				item: "functionalstorage:netherite_upgrade"
@@ -319,6 +334,7 @@
 		}
 		{
 			dependencies: ["0FC3F9706DE769F0"]
+			description: ["Maximal ein Stack (x64) passt nun nur noch in deinen Drawer. "]
 			id: "7CA92B2E9226BA88"
 			rewards: [{
 				id: "5E62C900F75CB818"
@@ -335,6 +351,7 @@
 		}
 		{
 			dependencies: ["0FC3F9706DE769F0"]
+			description: ["Leider ein bisschen Buggy. Arbeitet nur Links vom Drawer."]
 			id: "363B82F586FB4376"
 			rewards: [{
 				id: "65099CC1333E951B"
@@ -351,6 +368,7 @@
 		}
 		{
 			dependencies: ["0FC3F9706DE769F0"]
+			description: ["Leider ein bisschen Buggy. Arbeitet nur Links vom Drawer."]
 			id: "76E0DAD89676806B"
 			rewards: [{
 				id: "4191B004EFDE514F"
@@ -367,6 +385,7 @@
 		}
 		{
 			dependencies: ["0FC3F9706DE769F0"]
+			description: ["Leider ein bisschen Buggy. Arbeitet nur Links vom Drawer."]
 			id: "64E049BBFA47F794"
 			rewards: [{
 				id: "04C2991C8484FDD4"
@@ -383,6 +402,7 @@
 		}
 		{
 			dependencies: ["0FC3F9706DE769F0"]
+			description: ["Drawer sind nun abhängig des Füllstands mit einem Komparator auslesbar."]
 			id: "6E087C2758FDEB6C"
 			rewards: [{
 				id: "185CF8F7C4BAF45C"
@@ -399,6 +419,7 @@
 		}
 		{
 			dependencies: ["0FC3F9706DE769F0"]
+			description: ["Alles was die Stackgröße überschreitet wird gevoided. Ein einfacher und effizienter Überlaufschutz."]
 			id: "1F72867F68BA7D33"
 			rewards: [{
 				id: "41073859C720DA3E"
@@ -415,6 +436,7 @@
 		}
 		{
 			dependencies: ["3A1677DE6BF4F562"]
+			description: ["Ein Zusätzlicher Anschluss, an dem Du Items deinem Drawersystem zuführen kannst."]
 			id: "68C9A37D916F322A"
 			rewards: [{
 				id: "5753FD0AC032B894"
@@ -431,6 +453,7 @@
 		}
 		{
 			dependencies: ["61474F5C289C9886"]
+			description: ["Halt dich kompakter."]
 			id: "18C3353BB549027C"
 			rewards: [{
 				id: "2C3B1AFB69BAA507"
@@ -447,6 +470,7 @@
 		}
 		{
 			dependencies: ["61474F5C289C9886"]
+			description: ["Halte Dich kompakt."]
 			id: "5BD2AA6ED1E63953"
 			rewards: [{
 				id: "0CD03E71832E7057"
@@ -460,6 +484,113 @@
 			}]
 			x: -3.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["0D1CE7A2E7381A55"]
+			description: ["Gebe einen Oak Drawer mit 4 Netherrite Upgrade gefüllt mit Sand ab."]
+			hide: true
+			id: "5117259C7EC0D1F4"
+			optional: true
+			rewards: [
+				{
+					auto: "disabled"
+					description: "Bestimmt kein Scam!"
+					exclude_from_claim_all: true
+					icon: "minecraft:sand"
+					id: "5986BCCEF5B92073"
+					team_reward: false
+					title: "Ein Drawer voll Sand"
+					type: "toast"
+				}
+				{
+					auto: "disabled"
+					exclude_from_claim_all: true
+					id: "3EC4398B2F8231B4"
+					ignore_reward_blocking: true
+					team_reward: false
+					type: "xp_levels"
+					xp_levels: 250
+				}
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "6C8E9708903CDBF4"
+					ignore_reward_blocking: true
+					stage: "sand"
+					team_reward: false
+					title: "sand"
+					type: "gamestage"
+				}
+			]
+			tasks: [{
+				id: "72D795AB62CE94AC"
+				item: {
+					Count: 1
+					id: "functionalstorage:oak_1"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							drawerOptions: {
+								"Advanced: INDICATOR": 0
+								TOGGLE_NUMBERS: 1b
+								TOGGLE_RENDER: 1b
+								TOGGLE_UPGRADES: 1b
+							}
+							handler: {
+								BigItems: {
+									0: {
+										Amount: 2147483647
+										Stack: {
+											Count: 1b
+											id: "minecraft:sand"
+										}
+									}
+								}
+							}
+							hasDowngrade: 0b
+							id: "functionalstorage:oak_1"
+							isCreative: 0b
+							isVoid: 0b
+							mult: 1048576
+							storageUpgrades: {
+								Items: [
+									{
+										Count: 1b
+										Slot: 0
+										id: "functionalstorage:netherite_upgrade"
+									}
+									{
+										Count: 1b
+										Slot: 1
+										id: "functionalstorage:netherite_upgrade"
+									}
+									{
+										Count: 1b
+										Slot: 2
+										id: "functionalstorage:netherite_upgrade"
+									}
+									{
+										Count: 1b
+										Slot: 3
+										id: "functionalstorage:netherite_upgrade"
+									}
+								]
+								Size: 4
+							}
+							utilityUpgrades: {
+								Items: [ ]
+								Size: 3
+							}
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
 		}
 	]
 	title: "functional drawer"
