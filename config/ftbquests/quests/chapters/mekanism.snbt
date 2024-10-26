@@ -66,11 +66,20 @@
 		{
 			dependencies: ["67E0A85291DD6898"]
 			id: "213B59D4A4A2309C"
-			rewards: [{
-				id: "10CC99DCA5B52C8E"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "10CC99DCA5B52C8E"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EF25D8956024FE5"
+					table_id: 4476243188742840184L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				id: "2F50262C8B6AF9E7"
@@ -204,11 +213,20 @@
 		{
 			dependencies: ["67E0A85291DD6898"]
 			id: "3216B8401F5ECF46"
-			rewards: [{
-				id: "5939DBA6282B4A77"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5939DBA6282B4A77"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14617394D6D0C130"
+					table_id: 4476243188742840184L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				id: "615F645D900900BC"
@@ -1252,11 +1270,20 @@
 			]
 			icon: "mekanismgenerators:fusion_reactor_controller"
 			id: "4B9318FBFB1FF36F"
-			rewards: [{
-				id: "53AF228FDFCE045C"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "53AF228FDFCE045C"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A748E829537C09F"
+					table_id: 4476243188742840184L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			shape: "pentagon"
 			size: 2.0d
 			tasks: [

@@ -324,7 +324,7 @@
 		{
 			dependencies: [
 				"7DC64335DF20BD93"
-				"589407ECB629164D"
+				"429795EB7B105CB3"
 			]
 			dependency_requirement: "one_completed"
 			hide: true
@@ -503,11 +503,20 @@
 		{
 			dependencies: ["0524EAE590378B3C"]
 			id: "62A6E81DF9FC77D2"
-			rewards: [{
-				id: "7CC978579B338A68"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7CC978579B338A68"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63C8DE9FC72C117F"
+					table_id: 2663385176164411356L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "14A42175FF2755DD"
 				item: "thermal:dynamo_lapidary"
@@ -917,11 +926,20 @@
 		{
 			dependencies: ["421053C942FFE45C"]
 			id: "154B0F746470B712"
-			rewards: [{
-				id: "30285FB767FD38AB"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "30285FB767FD38AB"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3130F0EB9DF5238F"
+					table_id: 2663385176164411356L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			subtitle: "Energie Speichern!"
 			tasks: [{
 				id: "46F11E693D1D3CA1"

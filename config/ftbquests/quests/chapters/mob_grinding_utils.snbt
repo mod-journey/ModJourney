@@ -62,6 +62,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["Da hier Mods gefunden wurden, welche Entity Spawning mittels spawner erlauben und dadurch auch XP, Item Farmen zustande kommen, hat es Mob Grinding Utils in das Modpack geschafft. Diese Mod ermöglicht es, Mobs effizienter zu farmen. "]
+			hide: true
 			id: "5600D421C0F617A9"
 			rewards: [{
 				id: "42B5AA071BBF0C17"

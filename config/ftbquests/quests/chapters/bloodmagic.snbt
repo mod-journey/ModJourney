@@ -123,6 +123,7 @@
 		{
 			dependencies: ["19ECDD38FF50B386"]
 			description: ["Mittels dem Messer können wir das erste Blut den alten Göttern opfern. Stelle dich neben den Altar und  drücke die Rechte Maustaste. Aber vorsicht, die Götter können nicht genug bekommen, nicht das Du zu viel her gibst. "]
+			hide: false
 			id: "0DD2D5F39A7FC453"
 			rewards: [{
 				id: "7D25C445992BAF11"

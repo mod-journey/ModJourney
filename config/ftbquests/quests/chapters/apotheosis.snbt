@@ -92,6 +92,7 @@
 				""
 				"&nAchte dafür auf die Rezepte im JEI!"
 			]
+			hide: false
 			icon: "minecraft:enchanting_table"
 			id: "209E7BD721F663CC"
 			tasks: [{
@@ -165,7 +166,7 @@
 				"{@pagebreak}"
 				"Neue Effekte:"
 				""
-				"&6-&rAncient Knowledge: Erhöht Erfahrung von Mobs (Stufe I: 4x; Stufe II: 8x)"
+				"&6-&rAncient Knowledge: Erhöht Erfahrung von Mobs (Stufe I: 5x; Stufe II: 17x)"
 				""
 				"&6-&rBursting Vitality: Verstärkt heilende Effekte (20% pro Stufe)"
 				""
@@ -1346,7 +1347,7 @@
 					type: "item"
 				}
 			]
-			title: "Bei der Macht von Grayskull"
+			title: "Upgrades, people. Upgrades"
 			x: 0.0d
 			y: -8.0d
 		}
@@ -1573,7 +1574,7 @@
 				item: "apotheosis:reforging_table"
 				type: "item"
 			}]
-			title: "Upgrades, people. Upgrades."
+			title: "Bei der Macht von Grayskull."
 			x: 1.0d
 			y: -7.0d
 		}
@@ -1590,6 +1591,7 @@
 				""
 				"Amethyst Cluster erhöhen &eRectification&r."
 			]
+			hide: true
 			id: "67CAE51EBC46F9F1"
 			tasks: [{
 				count: 15L
@@ -1608,9 +1610,9 @@
 				""
 				"Beide Bucherregalvarianten erhöhen &2Eterna&r und dessen maximale Grenze."
 				""
-				"Hellshelfs erhöhen zusätzlich noch &cQuanta&r."
+				"Hellshelves erhöhen zusätzlich noch &cQuanta&r."
 				""
-				"Seashelfs erhöhen zusätzlich noch &5Arcana&r."
+				"Seashelves erhöhen zusätzlich noch &5Arcana&r."
 			]
 			id: "047EA9E03F9DA8BB"
 			tasks: [{
@@ -1719,7 +1721,7 @@
 		}
 		{
 			dependencies: ["32C5700512A7E86C"]
-			description: ["Dieses Regal lässt dich mehr Verzauberungen in der Vorschau sehen. Es wird auch verwendet, um den negativen Effekten der Blazing Hellshelves entgegenzuwirken."]
+			description: ["Dieses Regal lässt dich mehr Verzauberungen in der Vorschau sehen. Es kann auch verwendet werden, um den negativen Effekten der Blazing Hellshelves entgegenzuwirken."]
 			id: "0C7450F1CB8EC522"
 			optional: true
 			tasks: [{
@@ -1747,7 +1749,7 @@
 		}
 		{
 			dependencies: ["32C5700512A7E86C"]
-			description: ["Dieses Regal erhöht &eRectification&r. Es wird auch verwendet, um den negativen Effekten der Heart-Forged Seashelves entgegenzuwirken."]
+			description: ["Dieses Regal erhöht &eRectification&r. Es kann auch verwendet werden, um den negativen Effekten der Heart-Forged Seashelves entgegenzuwirken."]
 			id: "42D6F202CE26D9A4"
 			optional: true
 			tasks: [{
@@ -1936,7 +1938,7 @@
 		{
 			dependencies: ["0DC1334D5CA78599"]
 			description: [
-				"So auch für den Verzauberungstisch. Dafür muss der Enderdrache herausgefordert werden und dessen Atemangriff in einer Flasche gesammelt werden. Anschließend kann die Flasche im Verzauberungstisch infuset werden."
+				"So auch für den Verzauberungstisch. Dafür muss der Enderdrache herausgefordert und dessen Atemangriff in einer Flasche gesammelt werden. Anschließend kann die Flasche im Verzauberungstisch infuset werden."
 				""
 				"Dieser Vorgang funktioniert nur als Lv80 Verzauberung!"
 			]
@@ -1972,6 +1974,7 @@
 				""
 				"&cQuanta&r, &5Arcana&r, &eRectification&r und &3Enchanting Clues&r müssen dafür aus anderen Quellen bezogen werden."
 			]
+			hide_dependent_lines: true
 			id: "4FE30C332131292E"
 			subtitle: "Das absolute Maximum"
 			tasks: [{
@@ -2019,7 +2022,7 @@
 		{
 			dependencies: [
 				"44F60E7D88036BA5"
-				"4E445066B38AD813"
+				"4FE30C332131292E"
 			]
 			description: [
 				"In diesem Block können noch mehr Mengen an Verzauberungen gelagert werden als in seinem Vorgänger."
@@ -2027,15 +2030,37 @@
 				"Dieser muss im Verzauberungstisch infused werden."
 				""
 				"Dieser Vorgang funktioniert nur als Lv100 Verzauberung!"
+				""
+				"&4&lZusätzlich:&r"
+				"Ab dem Einlösen der Quest, kannst Du zusätzlich im Magie-Shop einkaufen. "
 			]
 			id: "4834BF938B07C244"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "0D0EB4751351B1C4"
+					ignore_reward_blocking: true
+					stage: ""
+					tags: ["magic"]
+					title: "Magie-Shop"
+					type: "gamestage"
+				}
+				{
+					count: 10
+					id: "3DAD7C62EE6D6C77"
+					item: "mod_journey:gold_coin"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "7C55D2B29E0EC573"
 				item: "apotheosis:ender_library"
 				type: "item"
 			}]
-			title: "Das Ultimative Lager für Verzauberungen"
-			x: 2.0d
+			title: "&4Das Ultimative Lager für Verzauberungen"
+			x: 2.25d
 			y: 4.5d
 		}
 		{

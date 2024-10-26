@@ -151,11 +151,20 @@
 			dependencies: ["2496090B13AD140C"]
 			description: ["Ein Block welcher Energie aus Thermik herstellt. Den Heißen Block unter den Reaktor und den Reaktor aktiv mit Wasser kühlen. "]
 			id: "48A426951585B3E6"
-			rewards: [{
-				id: "79E49B186A7C4BC1"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "79E49B186A7C4BC1"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E5A0814F9C51296"
+					table_id: 4163070181652591131L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			subtitle: "Passiv Strom."
 			tasks: [{
 				id: "48E1F29179A8BA0E"
@@ -195,11 +204,20 @@
 			dependencies: ["2DE28895E3897B29"]
 			description: ["Ein Block um Flux Energy (FE) zu speichern"]
 			id: "004FACEE5A1D9E61"
-			rewards: [{
-				id: "11E1E87C4E26AEC3"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "11E1E87C4E26AEC3"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05408DE815D6C6B2"
+					table_id: 4163070181652591131L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "6E14EC223D839E32"
 				item: "powah:energy_cell_starter"
@@ -312,11 +330,20 @@
 			dependencies: ["2DE28895E3897B29"]
 			description: ["Ein Teil einer Multiblockstruktur. Diese kannst Du nutzen, um deine Orb in Fusing Rezepten mit Strom zu versorgen. Wie man dies mittels Autocrafting hinbekommt, lernst du in der folge Quest."]
 			id: "663D58FDB00228B1"
-			rewards: [{
-				id: "177D6944B34C4459"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "177D6944B34C4459"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D987C7AAAC961CF"
+					table_id: 4163070181652591131L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "4946A8367B176176"
 				item: "powah:energizing_rod_starter"
@@ -534,6 +561,13 @@
 					title: "Technic-Shop"
 					type: "gamestage"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "1C5B8277F9E57ECC"
+					table_id: 4163070181652591131L
+					team_reward: true
+					type: "loot"
+				}
 			]
 			shape: "gear"
 			size: 1.5d
@@ -542,6 +576,7 @@
 				item: "powah:crystal_nitro"
 				type: "item"
 			}]
+			title: "&4Nitro Crystal"
 			x: -5.24285714285714d
 			y: 12.489285714285714d
 		}
