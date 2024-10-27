@@ -829,12 +829,12 @@
 				""
 				"z.b."
 				"&9/enderchest&r = Öffnet eure Enderkiste"
-				"&9/trashcan&r = Öffnet einen Mülleimer, wo ihr ungewollte Items wwegwerfen könnt."
-				"&9/leatherboard <Kategorie>&r = Zeigt euch die Rangliste."
+				"&9/trashcan&r = Öffnet einen Mülleimer, wo ihr ungewollte Items wegwerfen könnt.",
+				"&9/leaderboard <Kategorie>&r = Zeigt euch die Rangliste.",
 				"&9/ftbteams msg <text>&r Schickt eine Textnachricht an alle eure Team-Mitglieder."
 				""
 				"&9/recording&r = Zeigt anderen Spielern, dass ihr gerade ein Video aufnehmt."
-				"&9/streaming&r = Zeigt anderen Spielern, dass ihr gerade einen Life-Stream aufnehmt."
+				"&9/streaming&r = Zeigt anderen Spielern, dass ihr gerade einen Live-Stream aufnehmt."
 				""
 				"{@pagebreak}"
 				"&9/spawn&r = Teleportiert euch zum spawn"
@@ -949,7 +949,7 @@
 		}
 		{
 			can_repeat: true
-			description: ["Alle 4 Stunden kann dein Team eine Silbermünze bekommen. Dafür musst Du aktiv auf dem Server online sein."]
+			description: ["Alle 4 Stunden kann dein Team eine Silbermünze bekommen. Die Zeit zählt nur solange Du aktiv auf dem Server online bist."]
 			icon: {
 				Count: 1
 				id: "thermal:silver_coin"
@@ -983,7 +983,7 @@
 		}
 		{
 			can_repeat: true
-			description: ["Du kannst diese Quest alle 24h ein mal abschließen. Der der sie abschließt, erhält die Münzen für das gesamte Team"]
+			description: ["Du kannst diese Quest alle 24h ein mal abschließen. Der Spieler, der die Belohnung abholt, erhält die Münzen für das gesamte Team"]
 			icon: "mod_journey:gold_coin"
 			id: "146D1D0765124A16"
 			optional: true
