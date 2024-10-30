@@ -15,12 +15,19 @@ ServerEvents.commandRegistry(e => {
     .then(Commands.literal('event')
       .requires(s => s.hasPermission(2))
       .executes(c => events(c.source.player))
-      .then(Commands.argument('target', Arguments.PLAYER.create(e))
+
+      .then(Commands.literal('admin')
         .requires(s => s.hasPermission(2))
-        .executes(c => events(
+        .executes(c => {return 1})
+
+        .then(Commands.argument('target', Arguments.PLAYER.create(e))
+          .requires(s => s.hasPermission(2))
+          .executes(c => events(
           Arguments.PLAYER.getResult(c, 'target')
         ))
       )
+      )
+
     )
   )
 
