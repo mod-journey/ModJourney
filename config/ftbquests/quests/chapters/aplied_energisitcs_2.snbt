@@ -146,7 +146,7 @@
 				"7C598C88ABF08E11"
 			]
 			dependency_requirement: "one_completed"
-			description: ["AE2 ist eine Storage Mod. Mit dieser Mod kannst Du Items konsolidiert speichern und auf diese dezentral Zugreifen. Du kannst Craftingprozesse automatisieren und die wildesten Konstelationen automatisieren. "]
+			description: ["AE2 ist eine Storage Mod. Mit dieser Mod kannst Du Items konsolidiert speichern und auf diese dezentral Zugreifen. Du kannst Craftingprozesse automatisieren und die wildesten Konstellationen automatisieren. "]
 			hide: true
 			id: "43120BDFFF95EF89"
 			rewards: [
@@ -223,7 +223,7 @@
 		{
 			dependencies: ["43EE4C5A2997ADF1"]
 			description: [
-				"Die ersten Blöcke findest Du in Meteoriten, welche Du über den Kompass findest. Aus diesen Blöcken wachsen mit der Zeit Certus Quarz Kristalle. Diese kannst Du abbauen, um dein erstes Certus zu erhalten. Baust Du sie mit Glück ab, erhälst du einen größeren Output"
+				"Die ersten Blöcke findest Du in Meteoriten, welche Du über den Kompass findest. Aus diesen Blöcken wachsen mit der Zeit Certus Quarz Kristalle. Diese kannst Du abbauen, um dein erstes Certus zu erhalten. Baust Du sie mit Glück ab, erhältst du einen größeren Output"
 				"{image:ae2:block/large_quartz_bud width:30 height:30 align:1}"
 			]
 			id: "3FCAD3EFEABBED79"
@@ -276,7 +276,7 @@
 				}
 				type: "item"
 			}]
-			title: "Budding Certus Quatz blocks"
+			title: "Budding Certus Quartz Blocks"
 			x: 0.0d
 			y: 4.5d
 		}
@@ -415,7 +415,7 @@
 		}
 		{
 			dependencies: ["3FCAD3EFEABBED79"]
-			description: ["Baust Du die Quarzblüten zu früh ab, erhälst Du lediglich Dust."]
+			description: ["Baust Du die Quarzblüten zu früh ab, erhältst Du lediglich Dust."]
 			id: "258FF05B463315D1"
 			rewards: [
 				{
@@ -440,7 +440,7 @@
 		}
 		{
 			dependencies: ["3FCAD3EFEABBED79"]
-			description: ["Sind Die Quarzblüten voll Ausgewachsen, erhälst Du je nach Glück-Level Certusquatzkristalle."]
+			description: ["Sind Die Quarzblüten voll Ausgewachsen, erhältst Du je nach Glück-Level Certusquatzkristalle."]
 			id: "0D02872448C4DA2F"
 			rewards: [
 				{
@@ -467,7 +467,7 @@
 			can_repeat: false
 			dependencies: ["43120BDFFF95EF89"]
 			description: [
-				"Die Gravurmaschine ist gegated auf das Immersive End-Game. "
+				"Die Gravur-Maschine ist gegated auf das Immersive End-Game. "
 				"Um mit Applied weiter zu spielen, wirst Du in Immersive wohl erst mal voran schreiten müssen"
 			]
 			hide_dependency_lines: true
@@ -544,7 +544,7 @@
 				"2364BE0FC6C27739"
 				"6BCF86700F5B2929"
 			]
-			description: ["Mittels Dem Logikdruck, Redstone und Siliziumdruck, erhälst Du nun einen Logikprozessor."]
+			description: ["Mittels Dem Logikdruck, Redstone und Siliziumdruck, erhältst Du nun einen Logikprozessor."]
 			id: "2C9AFD3062A6F1D7"
 			rewards: [
 				{
@@ -579,7 +579,7 @@
 				"6AB3A23E011C7A70"
 				"2364BE0FC6C27739"
 			]
-			description: ["Mit dem Kalkulationsdruck, einem Redstone und einem Siliziumdruck erhälst du einen Kalkulationsprozessor."]
+			description: ["Mit dem Kalkulationsdruck, einem Redstone und einem Siliziumdruck erhältst du einen Kalkulationsprozessor."]
 			id: "06D400071D147855"
 			rewards: [
 				{
@@ -926,7 +926,7 @@
 		{
 			dependencies: ["3E2D2775E7DF1B39"]
 			description: [
-				"Ein Speicherbus erkennt den Container vor sich. Ob Truhe, Flüssigkeitenbehälter, das ist relativ egal. Dieser Speicher wird deinem ME-System hinzugefügt und ist ein Valider Speicher."
+				"Ein Speicherbus erkennt den Container vor sich. Ob Truhe, Flüssigkeiten Behälter, das ist relativ egal. Dieser Speicher wird deinem ME-System hinzugefügt und ist ein Valider Speicher."
 				"Du kannst im Speicherbus einen Filter anlegen, aus den Items die aktuell dort zur Verfügung stehen. Kannst ihn einstellen, das dieser nur Items reinlegen soll, den Inhalt aber nicht sieht, oder eben auch umgekehrt. Platziere doch mal einen Speicherbus an eine Schnittstelle und hänge eine Konsole dran. Es passieren wilde Dinge."
 			]
 			id: "4A07C521E93B0968"
@@ -978,7 +978,7 @@
 		}
 		{
 			dependencies: ["154B06B7D7A7D495"]
-			description: ["Im ME-Requester kannst Du vorhandene Autocraftingrezepte auf einen Füllstand X vorbereiten lassen, sodass diese immer Vorrätig ist. Im gleichen Zuge bestimmst Du auch die Craftinggröße. DU kannst mehrere ME-Requester an deinem System anschließen und sie konsolidiert mittels der Requester-Konsole abrufen."]
+			description: ["Im ME-Requester kannst Du vorhandene Autocrafting-Rezepte auf einen Füllstand X vorbereiten lassen, sodass diese immer Vorrätig ist. Im gleichen Zuge bestimmst Du auch die Craftinggröße. DU kannst mehrere ME-Requester an deinem System anschließen und sie konsolidiert mittels der Requester-Konsole abrufen."]
 			icon: "merequester:requester"
 			id: "7CD185434F97FCA8"
 			rewards: [
@@ -1012,7 +1012,7 @@
 		{
 			dependencies: ["154B06B7D7A7D495"]
 			description: [
-				"Ein Teil eines Mutliblocks, welcher benötigt wird, um Craftingrezepte Effizienter und schneller herzustellen."
+				"Ein Teil eines Mutliblocks, welcher benötigt wird, um Crafting-Rezepte Effizienter und schneller herzustellen."
 				"{@pagebreak}"
 				"&l&4Siehe:&r"
 				""
@@ -1130,7 +1130,7 @@
 		}
 		{
 			dependencies: ["43120BDFFF95EF89"]
-			description: ["In Applied wird alles in Channel bemessen. Die Channel - Kapazität liegt standartgemäß bei 8 und 32. Ein einfaches Fluix Kabel, kann 8 Channel verwalten. Genauso auch ein schlaues Kabel. Hast Du ein System was unter 8 Channel braucht, also einfach nur Items von vllt. A nach B schicken soll, brauchst du keinen Controller. Dieser bietet dir 32 Channel, auf jeder Seite an. "]
+			description: ["In Applied wird alles in Channel bemessen. Die Channel - Kapazität liegt standardgemäß bei 8 und 32. Ein einfaches Fluix Kabel, kann 8 Channel verwalten. Genauso auch ein schlaues Kabel. Hast Du ein System was unter 8 Channel braucht, also einfach nur Items von vllt. A nach B schicken soll, brauchst du keinen Controller. Dieser bietet dir 32 Channel, auf jeder Seite an. "]
 			id: "04B5F7C440645BFB"
 			rewards: [{
 				id: "4E70C90B6FCA6E28"
@@ -1196,7 +1196,7 @@
 			description: [
 				"Teil des Multiblocks."
 				"Die Prozessoreinheit sorgt für Parallele abarbeitung eines Rezepts. Hat man nun mehrere Schritte zu craften, oder auch viele parallele Aufträge, so sollte man die Anzahl an den sogenannten Prozessoreinheiten erhöhen. "
-				"Craftet man zum Beispiel Stöcke: "
+				"Crafted man zum Beispiel Stöcke: "
 				"Stamm > Planks"
 				"Planks > Stöcke "
 				""
@@ -1251,7 +1251,7 @@
 		}
 		{
 			dependencies: ["06D400071D147855"]
-			description: ["Die Speicherkarte, kann Einstellungen speichern, wie Filter oder eingelegte Zusatzkarten in Geräten. \"Shift + Rechtsklick\" kopiert die Einstellung. Mittels einem Rechtklick, wird die Einstellung dann auf das neue Gerät übertragen. Es müssen Geräte der gleichen Baugruppe sein. Außerdem lässt sich die Speicherkarte auch für die Tunnelkonfiguration benutzen und ist ein wichtiger Bestandteil davon. Dazu später mehr im Kapitel:"]
+			description: ["Die Speicherkarte, kann Einstellungen speichern, wie Filter oder eingelegte Zusatzkarten in Geräten. \"Shift + Rechtsklick\" kopiert die Einstellung. Mittels einem Rechtsklick, wird die Einstellung dann auf das neue Gerät übertragen. Es müssen Geräte der gleichen Baugruppe sein. Außerdem lässt sich die Speicherkarte auch für die Tunnelkonfiguration benutzen und ist ein wichtiger Bestandteil davon. Dazu später mehr im Kapitel:"]
 			id: "7F0B55925E6BB823"
 			rewards: [
 				{
@@ -1280,7 +1280,7 @@
 		}
 		{
 			dependencies: ["06D400071D147855"]
-			description: ["Mit dem Füllstandsemitter kannst Du ein Redstone-Signal ausgeben, welches nach Itemfüllstand und Einstellung unterschiedlich ist. Durch eine Fertigungskarte lassen sich so Rezepte herstellen, welche sonst nur schwer automatisierbar sind. Maschinen die so auf Redstone reagieren, oder aber auch Bauteile mit einer implementieren Redstonekarte lassen sich so steuern."]
+			description: ["Mit dem Füllstandsemitter kannst Du ein Redstone-Signal ausgeben, welches nach Füllstand und Einstellung unterschiedlich ist. Durch eine Fertigungskarte lassen sich so Rezepte herstellen, welche sonst nur schwer automatisierbar sind. Maschinen die so auf Redstone reagieren, oder aber auch Bauteile mit einer implementieren Redstonekarte lassen sich so steuern."]
 			id: "222CCB6904E94D05"
 			rewards: [
 				{
@@ -1503,9 +1503,9 @@
 		{
 			dependencies: ["2C9AFD3062A6F1D7"]
 			description: [
-				"Ein Quantentunnel ermöglicht dir dein System Dimensionsübergreifen oder einfach auf Distanz zu bauen. Du benötigst 2 x8 Ringe. 2 x 1 Quantenkammer und ein parr Quantenverschränkte Singularitäten. "
+				"Ein Quantentunnel ermöglicht dir dein System Dimensions-übergreifen oder einfach auf Distanz zu bauen. Du benötigst 2 x8 Ringe. 2 x 1 Quantenkammer und ein parr quantenverschränkte Singularitäten. "
 				""
-				"Um ein paar Quantenverschränkte Singularitäten herzustellen, schmeißt du einfach eine Singularität mit Enderstaub neben ein tnt. Das Zündest du an. Raus kommt das verschränkte Singularitätspaar"
+				"Um ein paar quantenverschränkte Singularitäten herzustellen, schmeißt du einfach eine Singularität mit Enderstaub neben ein tnt. Das Zündest du an. Raus kommt das verschränkte Singularitätenpaar"
 			]
 			id: "53384F1CAA1193C0"
 			rewards: [
@@ -1739,7 +1739,7 @@
 		}
 		{
 			dependencies: ["0AB6B0BC4CDCB54F"]
-			description: ["Ein Upgrade für u.A. deine Wireless Konsole. Du kannst entscheiden, ob Items direkt in dein ME-System transferiert werden, oder in dein Spielerinventar. Außerdem hast Du für beide Optionen einen White- oder Blacklist Filter."]
+			description: ["Ein Upgrade für u.A. deine Wireless Konsole. Du kannst entscheiden, ob Items direkt in dein ME-System transferiert werden, oder in dein Spieler-Inventar. Außerdem hast Du für beide Optionen einen White- oder Blacklist Filter."]
 			id: "45B554092CB5ED7F"
 			rewards: [
 				{
@@ -1789,7 +1789,7 @@
 		}
 		{
 			dependencies: ["0AB6B0BC4CDCB54F"]
-			description: ["Mehr Energie für deine Drahtloskonsole oder Wireless Gerärte"]
+			description: ["Mehr Energie für deine Drahtloskonsole oder Wireless Geräte"]
 			id: "3AADA31841BC9129"
 			rewards: [
 				{
@@ -1867,7 +1867,7 @@
 		}
 		{
 			dependencies: ["6032E9282E0CB1DD"]
-			description: ["Du hast deine ersten 2B Cobble, Steam etc. im ME System und willst ein Limit setzen? Mit dieser Karte zerstörßt Du alle Items die über den angegebenen Speicherplatz hinaus gehen."]
+			description: ["Du hast deine ersten 2B Cobble, Steam etc. im ME System und willst ein Limit setzen? Mit dieser Karte zerstörst Du alle Items die über den angegebenen Speicherplatz hinaus gehen."]
 			id: "026272F9CF7A8047"
 			rewards: [
 				{
@@ -1892,7 +1892,7 @@
 		}
 		{
 			dependencies: ["6032E9282E0CB1DD"]
-			description: ["Dein ME-Peripheriegerät ist nun Steuerbar mit Redstone. Ob Puls-, NOR oder normales Singal. Alles mit der Karte steuerbar."]
+			description: ["Dein ME-Peripheriegerät ist nun Steuerbar mit Redstone. Ob Puls-, NOR oder normales Signal. Alles mit der Karte steuerbar."]
 			id: "0E05C8E051268AD2"
 			rewards: [
 				{
@@ -1917,7 +1917,7 @@
 		}
 		{
 			dependencies: ["6032E9282E0CB1DD"]
-			description: ["Teile deiner Schnittstelle oder deinem Export Bus anhand dieser Karte mit, dass das Item welches exportiert werden soll automatisch gecraftet wird. Außerdem kannst wählen, ob Items auf bestand benutzt werden sollen, oder explizit neu gecraftet wird. Das Item welches gefertigt werden soll, muss von deinem ME-System aus schon Craftbar sein. "]
+			description: ["Teile deiner Schnittstelle oder deinem Export Bus anhand dieser Karte mit, dass das Item welches exportiert werden soll automatisch gecraftet wird. Außerdem kannst wählen, ob Items auf bestand benutzt werden sollen, oder explizit neu gecraftet wird. Das Item welches gefertigt werden soll, muss von deinem ME-System aus schon craftbar sein. "]
 			id: "485A3002F4BD15FF"
 			rewards: [
 				{
@@ -1947,7 +1947,7 @@
 				""
 				"&41.&r Einen Prozessor, welcher ein Multiblock darstellt. "
 				"&42.&r Ein Crafting Rezept, welches in deinem System abgerufen werden kann. "
-				" &4a.&r Fertingungsrezepte"
+				" &4a.&r Fertigungs-Rezepte"
 				" &4b.&r Bereitstellung durch Emitter."
 				" &4c.&r Bereitstellung durch Maschinen."
 			]
@@ -1968,7 +1968,7 @@
 		}
 		{
 			dependencies: ["47DF718336469399"]
-			description: ["Jedes Craftingrezept braucht eine gewisse Anzahl an Bytes um verarbeitet zu werden. Somit gibt der Fertigungsspeicher an, wie groß dein Craftingrezept sein kann. Außerdem kann der Fertigungsspeicher standartgemäß ein Rezept nach dem anderen abarbeiten. Um paralleles Craften zu gewährleisten. Baue weitere Prozessoreinheiten."]
+			description: ["Jedes Crafting-Rezept braucht eine gewisse Anzahl an Bytes um verarbeitet zu werden. Somit gibt der Fertigungsspeicher an, wie groß dein Crafting-Rezept sein kann. Außerdem kann der Fertigungsspeicher standardgemäß ein Rezept nach dem anderen abarbeiten. Um paralleles Craften zu gewährleisten. Baue weitere Prozessoreinheiten."]
 			id: "6A2B6704E919F2BB"
 			rewards: [{
 				id: "2235FA323D51DAC4"
@@ -2013,7 +2013,7 @@
 		}
 		{
 			dependencies: ["51A5F68FDD62187E"]
-			description: ["Kann in den Multiblock integriert werden, und zeigt das aktuelle Craftingrezept an, welches gerade vom Prozessor verarbeitet wird."]
+			description: ["Kann in den Multiblock integriert werden, und zeigt das aktuelle Crafting-Rezept an, welches gerade vom Prozessor verarbeitet wird."]
 			id: "039871909EFF48A3"
 			rewards: [{
 				id: "7C51BA4F21565F0D"
@@ -2055,7 +2055,7 @@
 		}
 		{
 			dependencies: ["3BE9012B79628576"]
-			description: ["Den Schablonenprovider gibt es ein mal in Flach und als Block. In diesen Block werden die Schablonen gelegt, welche Rezepte beinhalten. Außerdem hat der Schablonenprovider ein Rückgabeinventar. In der GUI auf der Linken Seite kann man außerdem Einstellen, ob Rezepte warten müssen, bis das Zielinventar leer ist, oder ob z.B. die Hauptzutat durch den Provider zurück in das ME gekommen ist. Außerdem kann man diesen auch konfigurieren, sodass dieser auf Redstonesignale hört."]
+			description: ["Den Schablonenprovider gibt es ein mal in Flach und als Block. In diesen Block werden die Schablonen gelegt, welche Rezepte beinhalten. Außerdem hat der Schablonenprovider ein Rückgabe-Inventar. In der GUI auf der Linken Seite kann man außerdem Einstellen, ob Rezepte warten müssen, bis das Zielinventar leer ist, oder ob z.B. die Hauptzutat durch den Provider zurück in das ME gekommen ist. Außerdem kann man diesen auch konfigurieren, sodass dieser auf Redstonesignale hört."]
 			id: "2FE06EF9861456E9"
 			rewards: [{
 				id: "37119402433DC20E"
@@ -2079,7 +2079,7 @@
 		}
 		{
 			dependencies: ["3BE9012B79628576"]
-			description: ["Der Molekularassembler führt die eigentlichen Craftingaufgaben aus. Temporär bekommt die Schablonenkonsole eine Kopie vom Patternprovider und craftet das Rezept durch. Du kannst auch einen Molekularassembler direkt mit einer Schablone bestücken und diesen als Crafter benutzen. Der Molekularassembler kann außerdem mit Beschleunigungkarten ausgerüstet werden, sodass diee Crafting-Geschwindigkeit erhöht wird."]
+			description: ["Der Molekularassembler führt die eigentlichen Crafting-Aufgaben aus. Temporär bekommt die Schablonenkonsole eine Kopie vom Patternprovider und crafted das Rezept durch. Du kannst auch einen Molekularassembler direkt mit einer Schablone bestücken und diesen als Crafter benutzen. Der Molekularassembler kann außerdem mit Beschleunigungkarten ausgerüstet werden, sodass die Crafting-Geschwindigkeit erhöht wird."]
 			id: "3FDE2CC1A40D72FD"
 			rewards: [{
 				id: "3DD8D3C87CF22714"
@@ -2099,13 +2099,13 @@
 			dependency_requirement: "one_completed"
 			description: [
 				"Schablonen kannst Du im Pattern Terminal erstellen. Es gibt 4 Einstellungen, welche Du auswählen kannst."
-				"1. Fertigungsrezepte - mittels Button Craftingtable"
-				"2. Kreierungsrezepte - Button Ofen"
+				"1. Fertigungsrezepte - mittels Werkbank-Button"
+				"2. Kreierungsrezepte - Ofen-Button"
 				"3. Schmiedetischrezepte"
-				"4. Steinsägenrezepte"
+				"4. Steinsägen-Rezepte"
 				"{@pagebreak}"
 				"Fertigungsrezepte."
-				"Diese werden  in einen Schablonenprovider gelegt. Dieser muss an einem Molekularassembler angeschlossen sein."
+				"Diese werden in einen Schablonenprovider gelegt. Dieser muss an einem Molekularassembler angeschlossen sein."
 				""
 				"{@pagebreak}"
 				"Kreierungsrezepte"
@@ -2150,7 +2150,7 @@
 		{
 			dependencies: ["273F072768D87F2B"]
 			description: [
-				"Mittels des Füllstandsemitters, lassen sich Redstonesignale austoßen, während ein Item gefertigt wird oder um ein Item zu fertigen, in Kombination mit einer Fertigungskarte. "
+				"Mittels des Füllstandsemitters, lassen sich Redstonesignale ausstoßen, während ein Item gefertigt wird oder um ein Item zu fertigen, in Kombination mit einer Fertigungskarte. "
 				"Ansonsten können damit Füllstände gemessen werden, welche ein Redstone-Signal ausgeben, bei erreichen oder Unterschreiten der angegebenen Menge."
 			]
 			hide: false

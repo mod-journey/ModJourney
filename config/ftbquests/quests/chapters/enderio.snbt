@@ -583,7 +583,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "Speichere deine Spieler Experience im XP Obelisk. Die eingepeicherte Experience lässt sich jederzeit zurück transferien. Solltest du die Flüssigkeit in flüssiger Form benötigen, kannst du diese mit einem Flüssigkeitsrohr abpumpen oder dem Obelisken hinzufügen"
+			subtitle: "Speichere deine Spieler Experience im XP Obelisk. Die gespeicherte Experience lässt sich jederzeit zurück transferien. Solltest du die Flüssigkeit in flüssiger Form benötigen, kannst du diese mit einem Flüssigkeitsrohr abpumpen oder dem Obelisken hinzufügen"
 			tasks: [{
 				id: "7C32151A50AA50C1"
 				item: "enderio:xp_obelisk"
@@ -1367,7 +1367,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Baue eine Mobfarm aus EnderIO Komponennten um an Liquid EXP zu gelangen "
+			subtitle: "Baue eine Mobfarm aus EnderIO Komponenten um an Liquid EXP zu gelangen "
 			tasks: [{
 				id: "0571DBBB62FF9C0E"
 				item: "enderio:xp_juice_bucket"

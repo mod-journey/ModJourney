@@ -160,7 +160,7 @@
 				advancement: "immersiveengineering:multiblocks/mb_refinery"
 				criterion: ""
 				id: "0D4ED9DB465D113A"
-				title: "Raffenerie"
+				title: "Raffinerie"
 				type: "advancement"
 			}]
 			x: -3.5d
@@ -244,6 +244,7 @@
 			tasks: [{
 				id: "5AE347FA991EC91F"
 				item: "alltheores:steel_ingot"
+				title: "Stahl"
 				type: "item"
 			}]
 			x: -3.5d
@@ -263,6 +264,7 @@
 			tasks: [{
 				id: "49DA294500A30649"
 				item: "immersiveengineering:phenolic_resin_bucket"
+				title: "Phenolic Resin-Eimer"
 				type: "item"
 			}]
 			x: -0.5d
@@ -282,6 +284,7 @@
 			tasks: [{
 				id: "7FF7A4FA8DCD1C7F"
 				item: "immersiveengineering:acetaldehyde_bucket"
+				title: "Acetaldehyde-Eimer"
 				type: "item"
 			}]
 			x: -6.5d
@@ -508,7 +511,7 @@
 		}
 		{
 			dependencies: ["0788F9E6D027F21F"]
-			description: ["Plaziere etwas heißes auf einer Seite der Maschine und etwas kaltes auf der anderen um Strom zu produzieren"]
+			description: ["Plaziere etwas Heißes auf einer Seite der Maschine und etwas Kaltes auf der anderen um Strom zu produzieren"]
 			id: "115AB3F93465A685"
 			optional: true
 			rewards: [{
@@ -664,7 +667,7 @@
 			description: [
 				"Das &9Ingenieurshandbuch&r beschreibt, wie man aus vielen unterschiedlichen Blöcken große Maschinen zusammenbaut."
 				""
-				"Wenn die Blöcke der Maschine korrekt plaziert sind, reicht ein Klick mit dem Ingenieurshandhammer, um die Blöcke in eine Multiblock-Maschine zu verwandeln."
+				"Wenn die Blöcke der Maschine korrekt platziert sind, reicht ein Klick mit dem Ingenieurshandhammer, um die Blöcke in eine Multiblock-Maschine zu verwandeln."
 			]
 			id: "6F5C2EEF4E3ECCEA"
 			rewards: [{

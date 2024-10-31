@@ -127,7 +127,7 @@
 				"&6-&rSugar: -10 Min Spawn Delay"
 				"Mindestzeit zum nächsten Spawnvorgang"
 				""
-				"&6-&rPrismarine Crystals: +2 Activation Range"
+				"&6-&rPrismarin Crystals: +2 Activation Range"
 				"Reichweite, in der ein Spieler vorhanden sein muss zum Spawnen"
 				""
 				"&6-&rTurtle Egg: Baby Variant"
@@ -172,7 +172,7 @@
 				""
 				"&6-&rGrievous Wounds: Schwächt heilende Effekte (40% pro Stufe, Stufe III verhindert Heilungen)"
 				""
-				"&6-&rSundering: Erhöht erlitenen Schaden (20% pro Stufe), addiert sich mit Resistance"
+				"&6-&rSundering: Erhöht erlittenen Schaden (20% pro Stufe), addiert sich mit Resistance"
 				""
 				"&6-&rBleeding: Alle 2 Sekunden wird Schaden erlitten, Schaden steigt mit Stufe, ignoriert Rüstung."
 				"{@pagebreak}"
@@ -186,7 +186,7 @@
 				""
 				"&6-&rResistance: Verringert erlittenen Schaden (20% pro Stufe)"
 				""
-				"&6-&rWither: Passiver Schaden (wie Gift) im Wirkungszeitraum, der tötlich sein kann"
+				"&6-&rWither: Passiver Schaden (wie Gift) im Wirkungszeitraum, der tödlich sein kann"
 				""
 				"&6-&rHaste: Erhöht Schlag- und Abbaugesschwindigkeit (20% pro Stufe)"
 			]
@@ -1245,7 +1245,7 @@
 			description: [
 				"Gem Dust wird zum Craften der verschiedenen Tische zur Bearbeitung und Modifizierung von Ausrüstung benötigt."
 				""
-				"Dazu wirft man die Gems auf den Boden und lässt einen Amboss drauffallen."
+				"Dazu wirft man die Gems auf den Boden und lässt einen Amboss drauf fallen."
 				""
 				"Später kann man es auch an einem der Tische craften."
 			]
@@ -1283,7 +1283,7 @@
 		{
 			dependencies: ["0F2C4F134E19A2C1"]
 			description: [
-				"An diesem Tisch können Gems geupgradet werden, um ihre Effekte zu verbessern."
+				"An diesem Tisch können Gems ge-upgradet werden, um ihre Effekte zu verbessern."
 				""
 				"Dafür braucht man zwei identische Edelsteine mit der selben Qualität, Gem Dust und das Aufwertungsmaterial aus der zerlegten Ausrüstung."
 			]
@@ -1302,7 +1302,7 @@
 			description: [
 				"An diesem Tisch können selbst Affix Items gecraftet werden. Dafür setzt man in den mittleren Slot das zu bearbeitende Item, links oben das Aufwertungsmaterial in der gewünschten Seltenheit und rechts unten die Sigil of Rebirth."
 				""
-				"Wie beim Enchanting Table bekommt man eine Auswahl an Affixen, die unterschiedlich viel kosten. Man kann auch unerwünschte Affixe wieder austauschen, indem man weiter reforget."
+				"Wie beim Enchanting Table bekommt man eine Auswahl an Affixen, die unterschiedlich viel kosten. Man kann auch unerwünschte Affixe wieder austauschen, indem man weiter reforged."
 				""
 				"&lWICHTIG&r: An diesem Tisch können nur &8Common&r, &2Uncommon&r und &1Rare&r Seltenheiten gecraftet werden"
 			]

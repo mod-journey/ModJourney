@@ -502,7 +502,7 @@
 				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
-			subtitle: "Damit kannst du deine Machinen verbsern"
+			subtitle: "Damit kannst du deine Maschinen verbessern"
 			tasks: [{
 				id: "2EA0B3153FEF2A77"
 				item: "mekanism:basic_tier_installer"
@@ -1160,7 +1160,7 @@
 					type: "item"
 				}
 			]
-			title: "Fisson Reactor"
+			title: "Spaltungsreaktor (Fission Reactor)"
 			x: -14.0d
 			y: 3.5d
 		}
@@ -1316,7 +1316,7 @@
 					type: "item"
 				}
 			]
-			title: "Fusion Raktor"
+			title: "Fusion Reaktor"
 			x: -14.0d
 			y: 6.0d
 		}

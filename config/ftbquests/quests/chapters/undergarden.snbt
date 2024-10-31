@@ -32,7 +32,7 @@
 		}
 		{
 			dependencies: ["37678FC28A608F68"]
-			description: ["Nach dem Einschmelzen vom rohen Froststeel erhälst Du ein Ingot."]
+			description: ["Nach dem Einschmelzen vom rohen Froststeel erhältst Du ein Ingot."]
 			id: "5D0614C216109F4F"
 			rewards: [{
 				id: "5A3DACBEAFF1FB94"
@@ -463,7 +463,7 @@
 		}
 		{
 			dependencies: ["3E8BA9AC92928A5B"]
-			description: ["Erhälst Du durch das zusammencraften von 9 x  Utheric Shards"]
+			description: ["Erhältst Du durch das zusammen craften von 9 x  Utheric Shards"]
 			id: "29CA54BFB00443D1"
 			rewards: [{
 				id: "377C1A9C1F303504"
@@ -677,7 +677,7 @@
 		}
 		{
 			dependencies: ["7AFD7B0DAA8D7791"]
-			description: ["Regalium ist in der Welt relativ selten zu finden. Ab einer Höhe von 11. Die wahscheinlichkeit welches zu finden ist gleichzusetzen wie Antiker Schrott. Das Erz kannst Du nutzen um mit den Einheimischen Stonewalkern Tauschhandel zu betreiben."]
+			description: ["Regalium ist in der Welt relativ selten zu finden. Ab einer Höhe von 11. Die Wahrscheinlichkeit welches zu finden ist gleichzusetzen wie Antiker Schrott. Das Erz kannst Du nutzen um mit den Einheimischen Stonewalkern Tauschhandel zu betreiben."]
 			icon: "undergarden:shiverstone_regalium_ore"
 			id: "67973447F729D73A"
 			rewards: [{
@@ -847,7 +847,7 @@
 		}
 		{
 			dependencies: ["33B1489D36D5EEFC"]
-			description: ["Forgotten Nuggets, werden durch Forgotten Guardiens gedroppt. Auch andere Mobs im Undergarden lassen diese Fallen, zu geringeren Chancen aber. "]
+			description: ["Forgotten Nuggets, werden durch Forgotten Guardians gedroppt. Auch andere Mobs im Undergarden lassen diese Fallen, zu geringeren Chancen aber. "]
 			id: "2AB8746017BEEEA3"
 			rewards: [{
 				id: "0797A66C140EC025"
@@ -864,7 +864,7 @@
 		}
 		{
 			dependencies: ["2AB8746017BEEEA3"]
-			description: ["Das Forgotten Ingot erhälst Du durch das zusammencraften von 9 x Nuggets und benötigst Du um Forgotten Tools herzustellen. Dies basiert auf dem Schmiedevorlagen Rezept."]
+			description: ["Das Forgotten Ingot erhältst Du durch das zusammen craften von 9 x Nuggets und benötigst Du um Forgotten Tools herzustellen. Dies basiert auf dem Schmiedevorlagen Rezept."]
 			id: "195971D0CE37082F"
 			rewards: [{
 				id: "5D2523BD44C0D842"

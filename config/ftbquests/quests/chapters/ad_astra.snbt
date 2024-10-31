@@ -57,7 +57,7 @@
 				"Du hast es geschafft deine Tier 1 Rakete zu bauen. "
 				"Nehme genug Sauerstoff und Treibstoff mit um unseren Trabanten den Mond zu besuchen. "
 				""
-				"Es schadet nicht, eine Backuprakete mitzunehmen, sollte Deine Landung nicht gut verlaufen. Ein idealer Ort ist eine Enderchest zum Beispiel. "
+				"Es schadet nicht, eine Backup-rakete mitzunehmen, sollte Deine Landung nicht gut verlaufen. Ein idealer Ort ist eine Enderchest zum Beispiel. "
 				""
 				"&2TIPP:&r"
 				"Beim landen, sollte die Space Taste gedrückt werden und aussteigen solltest Du aus der Rakete auch nicht während Du am fliegen bist. "
@@ -138,7 +138,7 @@
 			description: [
 				"Der Raumanzug schützt dich vor dem Lebensfeindlichen Vakuum, der außerhalb der Atmosphäre liegt. "
 				""
-				"In dem Brustteil des Raumanzugs sind deine Sauerstoffvoräte verbaut. "
+				"In dem Brustteil des Raumanzugs sind deine Sauerstoffvorräte verbaut. "
 			]
 			id: "6C17B293709B16B2"
 			rewards: [{
@@ -216,7 +216,7 @@
 		}
 		{
 			dependencies: ["6A8AA0E31C3F2F47"]
-			description: ["Teilt Dir mit, ob genug Sauerstoff vorhanden ist. Stößt ein Redstonesiganl aus. "]
+			description: ["Teilt Dir mit, ob genug Sauerstoff vorhanden ist. Stößt ein Redstone-Signal aus. "]
 			id: "7D480E2743F86B60"
 			rewards: [{
 				id: "5905B9DBB65CC7B8"
@@ -264,7 +264,7 @@
 			}]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Schon abgespacet"
+			subtitle: "Schon abgespaced"
 			tasks: [{
 				id: "583AC639D8E9EF1F"
 				item: "ad_astra:nasa_workbench"
@@ -292,7 +292,7 @@
 		}
 		{
 			dependencies: ["625BCE0C411DF831"]
-			description: ["Ein Raketenbaueteil."]
+			description: ["Ein Raketenbauteil."]
 			id: "2DE570D3BFF08F48"
 			rewards: [{
 				id: "1E79D2ED98197F25"
@@ -326,7 +326,7 @@
 		}
 		{
 			dependencies: ["625BCE0C411DF831"]
-			description: ["Ein Raketenbaueteil."]
+			description: ["Ein Raketenbauteil."]
 			id: "557F56AEDAF2680A"
 			rewards: [{
 				id: "297539CF78D8FFEA"
@@ -343,7 +343,7 @@
 		}
 		{
 			dependencies: ["21631BCC49F3C8AA"]
-			description: ["Mittels dem Oxygen-Loader lassen sich Oxygentanks oder Eimer befüllen. Diese kannst Du für deinen Raumanzug benutzen. Leite Wasser und Energie in den Block, um Sauerstoff zu erhalten."]
+			description: ["Mittels dem Oxygen-Loader lassen sich Sauerstofftanks oder Eimer befüllen. Diese kannst Du für deinen Raumanzug benutzen. Leite Wasser und Energie in den Block, um Sauerstoff zu erhalten."]
 			id: "12A4F63F84843AA8"
 			rewards: [{
 				id: "722A7310BAA26B32"
@@ -360,7 +360,7 @@
 		}
 		{
 			dependencies: ["12A4F63F84843AA8"]
-			description: ["Mit den Oxygen-Tanks kannst du Teile deines Raumanzugs craften. Außerdem benötigst Du sie um qxygen nachzutanken. Hast Du vor auf andere Planeten zu fliegen? Nehm dir immer welche auf Vorat mit. "]
+			description: ["Mit den Oxygen-Tanks kannst du Teile deines Raumanzugs craften. Außerdem benötigst Du sie um Sauerstoff nachzutanken. Hast Du vor auf andere Planeten zu fliegen? Nehm dir immer welche auf Vorrat mit. "]
 			id: "08EA8E426B32DE48"
 			rewards: [{
 				id: "412DC0FB842E8AD3"
@@ -490,7 +490,7 @@
 			description: [
 				"In ad_astra haben wir als einzigen Orbit den der Erde bisher erkundet. Auch nur hier können wir dafür garantieren, dass es sicher ist."
 				"Alle anderen Orbits, die man besuchen möchte, sind laut MJ/SA nicht freigegeben. "
-				"&o(Es reicht einen Orbit vollzumüllen) &r"
+				"&o(Es reicht einen Orbit voll zumüllen) &r"
 			]
 			id: "12A7A11648BF225C"
 			rewards: [{
@@ -529,7 +529,7 @@
 		}
 		{
 			dependencies: ["625BCE0C411DF831"]
-			description: ["Eine Material was für vielerlei Craftingrezepte benötigt wird. Unter anderem auch für die Rocket Engine"]
+			description: ["Eine Material was für vielerlei Crafting-rezepte benötigt wird. Unter anderem auch für die Rocket Engine"]
 			id: "40DFE8584AA2B00E"
 			rewards: [{
 				id: "2C28F14F95737FE4"
@@ -566,7 +566,7 @@
 				"40DFE8584AA2B00E"
 				"53D4C7145B96D8E5"
 			]
-			description: ["Ein Raketenbaueteil."]
+			description: ["Ein Raketenbauteil."]
 			id: "4EAA710CD2A15E03"
 			rewards: [{
 				id: "63D91A43DD12F803"
@@ -683,7 +683,7 @@
 			dependencies: ["595FAE939128EC13"]
 			description: [
 				"Wird benötigt um Rohre, Kabel zu konfigurieren. "
-				"Modis: Input, output, normal, nichts."
+				"Modus: Input, output, normal, nichts."
 			]
 			id: "582888F9B8D79B52"
 			rewards: [{
@@ -869,8 +869,8 @@
 		{
 			dependencies: ["765CC36D1E9FC407"]
 			description: [
-				"Sämtliche Oil Reserven an der Oberwelt sind aufgebraucht.  Um diese zu erfarmen, wirst Du mit einem Laserdrill gezielter in Ozeanen danach suchen müssen. "
-				"Wenn Du eine Oilquelle gefunden hast, wird diese aber Glücklicherweise nicht mehr versiegen. "
+				"Sämtliche Öl Reserven an der Oberwelt sind aufgebraucht.  Um diese zu erfarmen, wirst Du mit einem Laserdrill gezielter in Ozeanen danach suchen müssen. "
+				"Wenn Du eine Ölquelle gefunden hast, wird diese aber Glücklicherweise nicht mehr versiegen. "
 			]
 			icon: "ad_astra:oil_bucket"
 			id: "62C53AC440B3380E"

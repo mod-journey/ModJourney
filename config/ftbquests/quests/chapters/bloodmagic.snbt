@@ -93,7 +93,7 @@
 		}
 		{
 			dependencies: ["0DD2D5F39A7FC453"]
-			description: ["Wenn Du nicht weißt wohin mit dem gesamten Blut, so kannst Du es in Eimer zwischen Speichern. Eine altbewährte Lagermethode. Du solltest Dir ein paar Eimer abschöpfen, villeicht kannst du diese später ja noch mal gebrauchen."]
+			description: ["Wenn Du nicht weißt wohin mit dem gesamten Blut, so kannst Du es in Eimer zwischen Speichern. Eine altbewährte Lagermethode. Du solltest Dir ein paar Eimer abschöpfen, vielleicht kannst du diese später ja noch mal gebrauchen."]
 			id: "644466781495F7E7"
 			rewards: [
 				{
@@ -560,7 +560,7 @@
 		}
 		{
 			dependencies: ["18D30E75DBA755F4"]
-			description: ["Platziere einen Master Ritual Stone und klicke mit dem Ritual Diviner mit Rechtsklick drauf. Dein Ritual baut sich automaitsch zusammen, sofern keine Blöcke im Weg sind und Du genug normale Rituale Steine im Inventar hast."]
+			description: ["Platziere einen Master Ritual Stone und klicke mit dem Ritual Diviner mit Rechtsklick drauf. Dein Ritual baut sich automatsch zusammen, sofern keine Blöcke im Weg sind und Du genug normale Rituale Steine im Inventar hast."]
 			id: "38C06A9C50CC10B4"
 			rewards: [{
 				id: "782A9D00B5891281"
@@ -613,7 +613,7 @@
 		{
 			dependencies: ["18D30E75DBA755F4"]
 			description: [
-				"Wenn Dein Blut Netzwerk genug Blut gespeichert hat, kannst Du mit dem Item den Master Ritualstone rechtsklicken, nachdem du es aufgebaut hast. Es sollte nun Funktionieren. "
+				"Wenn Dein Blut Netzwerk genug Blut gespeichert hat, kannst Du mit dem Item den Master Ritualstone rechts-klicken, nachdem du es aufgebaut hast. Es sollte nun Funktionieren. "
 				"Es braucht Blut zum aktivieren und es braucht außerdem Blut pro Tick. "
 				"Nähere Informationen dazu findest Du in den jeweiligen Seiten des Guide-Buchs."
 			]
@@ -684,7 +684,7 @@
 		}
 		{
 			dependencies: ["55F9D00503EA0664"]
-			description: ["Im Endless Realm gibt es einen Raum, welcher Dich noch tiefer in die Dungeons von Blood Magic führt. Hier erhälst Du noch stärkeren Loot um unter anderem einen noch besseren Altar zu bauen."]
+			description: ["Im Endless Realm gibt es einen Raum, welcher Dich noch tiefer in die Dungeons von Blood Magic führt. Hier erhältst Du noch stärkeren Loot um unter anderem einen noch besseren Altar zu bauen."]
 			icon: "bloodmagic:dungeon_eye"
 			id: "77AA85B028579CF6"
 			rewards: [{

@@ -99,7 +99,7 @@
 		}
 		{
 			dependencies: ["53FA14DECBF4B405"]
-			description: ["Ein Block, welcher Entitys pusht. Mobs können auf natürliche Weise hier drauf spawnen"]
+			description: ["Ein Block, welcher Entities pusht. Mobs können auf natürliche Weise hier drauf spawnen"]
 			id: "7600E42EC1039D65"
 			rewards: [{
 				id: "0C0DCD1AD64238E3"
@@ -167,7 +167,7 @@
 		}
 		{
 			dependencies: ["70C3DA48F8A84840"]
-			description: ["Um noch schneller Entitys zu spawnen, kannst Du folgendes Upgrade benutzen"]
+			description: ["Um noch schneller Entities zu spawnen, kannst Du folgendes Upgrade benutzen"]
 			id: "24CF3ABE17A5E8AD"
 			rewards: [{
 				id: "1EDBFB540BBBBCA0"
@@ -556,7 +556,7 @@
 		}
 		{
 			dependencies: ["70C3DA48F8A84840"]
-			description: ["Mit dem Mob-Swab kannst Du Dir DNA Abstriche von Entitys/ Mobs holen. Wird benötigt um Spawneier daraus zu erstellen."]
+			description: ["Mit dem Mob-Swab kannst Du Dir DNA Abstriche von Entities/ Mobs holen. Wird benötigt um Spawneier daraus zu erstellen."]
 			id: "40CBA9ECA122DDFA"
 			rewards: [{
 				id: "6AC9F828CABD48D6"

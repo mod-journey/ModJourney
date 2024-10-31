@@ -238,7 +238,7 @@
 			description: [
 				"Um Ether Gas zu fördern, muss der Fluid Laser über einem Wither platziert werden."
 				""
-				"[ \"Um den Wither gefangen zu halten, sollte eine \", { \"text\": \"Statiskammer\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3FDDCD291B208350\" } }, \" verwendet werden.\" ]."
+				"[ \"Um den Wither gefangen zu halten, sollte eine \", { \"text\": \"Stasiskammer\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3FDDCD291B208350\" } }, \" verwendet werden.\" ]."
 				""
 				"Stelle sicher, dass die Stromversorgung für die Stasiskammer nicht ausfällt."
 			]

@@ -47,14 +47,14 @@
 			}]
 			tasks: [{
 				id: "009105FF3AC43AE2"
-				title: "Functional Stroge"
+				title: "Functional Storage"
 				type: "checkmark"
 			}]
 			x: -2.0d
 			y: -9.5d
 		}
 		{
-			description: ["Versuche deine Systeme so klein wie möglich zu halten. Große Systeme, mit ungefilterten Zugriffen, egal welcher Art verursachen Lags. Diese gilt es zu vermeiden. Baue Smart, sodass jeder seinen Spielspaß auf dem Server beibehät."]
+			description: ["Versuche deine Systeme so klein wie möglich zu halten. Große Systeme, mit ungefilterten Zugriffen, egal welcher Art verursachen Lags. Diese gilt es zu vermeiden. Baue Smart, sodass jeder seinen Spielspaß auf dem Server beibehält."]
 			disable_toast: true
 			id: "1CA7D865E47A7D27"
 			rewards: [{
@@ -199,7 +199,7 @@
 			dependencies: ["3A1677DE6BF4F562"]
 			description: [
 				"Mittels diesem Tool kannst Du einem Storage Controller die einzelnen Drawer zuteilen und Netzwerke erstellen. "
-				"Es gibt singlemode und multimode, sowohl im adden als auch im removen. Lese Dir doch die Beschreibung des Items mal genauer durch."
+				"Es gibt Single-Mode und Multi-Mode, sowohl im adden als auch im removen. Lese Dir doch die Beschreibung des Items mal genauer durch."
 			]
 			id: "369134843E12B183"
 			rewards: [{
@@ -419,7 +419,7 @@
 		}
 		{
 			dependencies: ["0FC3F9706DE769F0"]
-			description: ["Alles was die Stackgröße überschreitet wird gevoided. Ein einfacher und effizienter Überlaufschutz."]
+			description: ["Alles was die Stackgröße überschreitet wird zerstört (gevoided). Ein einfacher und effizienter Überlaufschutz."]
 			id: "1F72867F68BA7D33"
 			rewards: [{
 				id: "41073859C720DA3E"
@@ -487,7 +487,7 @@
 		}
 		{
 			dependencies: ["0D1CE7A2E7381A55"]
-			description: ["Gebe einen Oak Drawer mit 4 Netherrite Upgrade gefüllt mit Sand ab."]
+			description: ["Gebe einen Oak Drawer mit 4 Netherit Upgrade gefüllt mit Sand ab."]
 			hide: true
 			id: "5117259C7EC0D1F4"
 			optional: true

@@ -44,11 +44,16 @@
 			description: [
 				"Dieses Questbuch führt euch durch die Welt der Mods."
 				""
-				"Es beginnt wie jedes normale Minecraft Spiel, für jeden Fortschritt im Questbuch erhalted ihr jedoch Belohnungen und schalted Schritt für Schritt neue Technologie, Magie oder andere Vorteile frei."
+				"Es beginnt wie jedes normale Minecraft Spiel, für jeden Fortschritt im Questbuch erhaltet ihr jedoch Belohnungen und schaltet Schritt für Schritt neue Technologie, Magie oder andere Vorteile frei."
 				""
 				"Mit Hilfe der Münzen könnt ihr im Verlauf des Spieles besonders Items erwerben, die auf \"normalem\" Wege nicht zu finden sind."
 			]
 			id: "01256AFE747A1CBF"
+			rewards: [{
+				id: "5619179DA7CB24C1"
+				item: "minecraft:bundle"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C4F77DADCA06904"
 				title: "Wilkommen ZU Mod Journey"
@@ -758,11 +763,11 @@
 			description: [
 				"Wenn ihr eure Reise durch das Questbuch gemeinsam mit anderen Spielern bestreiten wollt, könnt ihr ein Team gründen."
 				""
-				"Um ein Team zu gründen, öffened ihr mit der Taste (E) das Inventar und klickt links oben auf das Symbol mit den 3 bunten Figuren."
+				"Um ein Team zu gründen, öffnet ihr mit der Taste (E) das Inventar und klickt links oben auf das Symbol mit den 3 bunten Figuren."
 				""
 				"In dem folgenden Menü könnt ihr ein Team gründen und verwalten."
 				""
-				"Neben Grundeeinstellungen, könnt ihr andere Spieler in euer Team einladen um zusammen zu spielen."
+				"Neben Grundeinstellungen, könnt ihr andere Spieler in euer Team einladen um zusammen zu spielen."
 				"Alle Spieler in einem Team teilen sich ein Questbuch und arbeiten zusammen an ihrem gemeinsamen Fortschritt."
 			]
 			id: "6436E46E095D0BDD"
@@ -801,16 +806,16 @@
 		{
 			dependencies: ["01256AFE747A1CBF"]
 			description: [
-				"[ \"Sobald ihr eine \", { \"text\": \"Diamandspitzhacke\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1393B7943AFB6B54\" } }, \" besitzt, könnt ihr die Abbauhilfe Ultimine nutzen.\" ]"
+				"[ \"Sobald ihr eine \", { \"text\": \"Diamantspitzhacke\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1393B7943AFB6B54\" } }, \" besitzt, könnt ihr die Abbauhilfe Ultimine nutzen.\" ]"
 				""
 				"Dadurch bekommt ihr die Möglichkeit eine mehrere Blöcke des selben Types (z.b. Eisenerz) gleichzeitig abzubauen."
 				""
-				"Dazu müsst ihr nur die Ultimine-Taske (Standardmäsig die Taste &d&l^&r&r unter der Escape Taste) während dem Abbauen gedrückt halten."
+				"Dazu müsst ihr nur die Ultimine-Taste (Standardmäßig die Taste &d&l^&r&r unter der Escape Taste) während dem Abbauen gedrückt halten."
 				""
-				"Eine Vorschau zeigt euch, welche Blöcke gleichzeitg abgebaut werden."
+				"Eine Vorschau zeigt euch, welche Blöcke gleichzeitig abgebaut werden."
 				""
 				"{@pagebreak}"
-				"Wenn ihr die Ultimine- und die Shift Taste gedrück halted, könnt ihr mit dem Mausrad zwischen unterschiedlichen Abbau-Formen wählen (Z.b. ein gerader Gang in Blickrichtung, oder eine Treppe nach unten)"
+				"Wenn ihr die Ultimine- und die Shift Taste gedrückt halted, könnt ihr mit dem Mausrad zwischen unterschiedlichen Abbau-Formen wählen (Z.b. ein gerader Gang in Blickrichtung, oder eine Treppe nach unten)"
 			]
 			id: "7EFF472EB4F530FE"
 			subtitle: "Graben wie ein Maulwurf"
@@ -829,8 +834,8 @@
 				""
 				"z.b."
 				"&9/enderchest&r = Öffnet eure Enderkiste"
-				"&9/trashcan&r = Öffnet einen Mülleimer, wo ihr ungewollte Items wegwerfen könnt.",
-				"&9/leaderboard <Kategorie>&r = Zeigt euch die Rangliste.",
+				"&9/trashcan&r = Öffnet einen Mülleimer, wo ihr ungewollte Items wegwerfen könnt."
+				"&9/leaderboard <Kategorie>&r = Zeigt euch die Rangliste."
 				"&9/ftbteams msg <text>&r Schickt eine Textnachricht an alle eure Team-Mitglieder."
 				""
 				"&9/recording&r = Zeigt anderen Spielern, dass ihr gerade ein Video aufnehmt."
@@ -885,7 +890,7 @@
 			description: [
 				"Ab der zweiten Woche kannst du jetzt 50 Chunks (pro Spieler im Team) claimen."
 				""
-				"Außerdem werden die Befehle &9/back&r, &9/home&r, &9/tpa&r und &9/tpahere&r freigeschalted."
+				"Außerdem werden die Befehle &9/back&r, &9/home&r, &9/tpa&r und &9/tpahere&r freigeschaltet."
 			]
 			id: "59E92107A4481944"
 			rewards: [{

@@ -185,7 +185,7 @@
 		}
 		{
 			dependencies: ["1E86BC238F738A44"]
-			description: ["mit den basic Reactoren lassen sich Multiblöcke bis auf eine größe von 5x5x5 bauen. "]
+			description: ["mit den basic Reaktoren lassen sich Multiblöcke bis auf eine größe von 5x5x5 bauen. "]
 			id: "3D755E72F89F3702"
 			rewards: [
 				{
@@ -314,7 +314,7 @@
 		}
 		{
 			dependencies: ["3D755E72F89F3702"]
-			description: ["Mit den Reinforced Reactoren lassen sich in unserem Modpack Multiblöcke bis zu einer größe von 16x16x16 bauen."]
+			description: ["Mit den Reinforced Reaktoren lassen sich in unserem Modpack Multiblöcke bis zu einer größe von 16x16x16 bauen."]
 			id: "68CBEF963313DC33"
 			rewards: [
 				{
@@ -493,7 +493,7 @@
 		}
 		{
 			dependencies: ["77EA9324D2593A1B"]
-			description: ["Du erhälst Ludicrite. Ein Moderator für deine Turbine"]
+			description: ["Du erhältst Ludicrite. Ein Moderator für deine Turbine"]
 			id: "072EB753A23476A3"
 			rewards: [{
 				id: "72B1326C9D858BE6"
@@ -645,7 +645,7 @@
 		}
 		{
 			dependencies: ["65EEF8159CC6B174"]
-			description: ["Anschließend erhälst Du Verderium"]
+			description: ["Anschließend erhältst Du Verderium"]
 			icon: "bigreactors:verderium_bucket"
 			id: "0DF5AEA45A614607"
 			rewards: [{
@@ -723,7 +723,7 @@
 		}
 		{
 			dependencies: ["68D70945E7B41457"]
-			description: ["Anschließend erhälst du Rossinite"]
+			description: ["Anschließend erhältst du Rossinite"]
 			icon: "bigreactors:rossinite_bucket"
 			id: "0B7096A5E53E67EF"
 			rewards: [{
@@ -779,7 +779,7 @@
 		}
 		{
 			dependencies: ["6CBD102C9BA554AF"]
-			description: ["Anschließend erhälst Du Magentite. Achso das ME-System kann auch mit ExtremeReactors ganz gut."]
+			description: ["Anschließend erhältst Du Magentite. Achso das ME-System kann auch mit ExtremeReactors ganz gut."]
 			icon: "bigreactors:magentite_bucket"
 			id: "116CAD3989B3CCF5"
 			rewards: [{
@@ -974,7 +974,7 @@
 		}
 		{
 			dependencies: ["040C1D850A9C12DF"]
-			description: ["Super, das noch mit Inanite in den Craftingtable."]
+			description: ["Super, das noch mit Inanite in die Werkbank."]
 			id: "47B6FC0234860B71"
 			rewards: [{
 				id: "54E5437145A6EB0A"

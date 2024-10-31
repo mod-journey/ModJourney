@@ -46,7 +46,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "Craftet Upgrades Leute!"
+			subtitle: "Crafted Upgrades Leute!"
 			tasks: [{
 				id: "30761B73744FB36A"
 				item: "sophisticatedbackpacks:upgrade_base"
@@ -128,7 +128,7 @@
 			y: -2.5d
 		}
 		{
-			description: ["Mit einem eigenem Backpack und den passenden Upgrades, lässt sich so viel mehr schaffen! Craftet euch einen und ihr werdet schon sehen welche Vorteile es hat!"]
+			description: ["Mit einem eigenem Backpack und den passenden Upgrades, lässt sich so viel mehr schaffen! Crafted euch einen und ihr werdet schon sehen welche Vorteile es hat!"]
 			icon: {
 				Count: 1
 				id: "sophisticatedbackpacks:backpack"
@@ -165,7 +165,7 @@
 				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
-			subtitle: "MOOOOREEEE I"
+			subtitle: "MEEEEEEEHR I"
 			tasks: [{
 				id: "16FF79145D05D03D"
 				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
@@ -184,7 +184,7 @@
 				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
-			subtitle: "MOOOOREEEE II"
+			subtitle: "MEEEEEEEHR II"
 			tasks: [{
 				id: "649567DDB61AB590"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
@@ -202,7 +202,7 @@
 				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
-			subtitle: "MOOOOREEEE III"
+			subtitle: "MEEEEEEEHR III"
 			tasks: [{
 				id: "5E960B7306B68BBB"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
@@ -220,7 +220,7 @@
 				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
-			subtitle: "MOOOOREEEE IV"
+			subtitle: "MEEEEEEEHR IV"
 			tasks: [{
 				id: "2612EF961F992D96"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
@@ -246,7 +246,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "MOOOOREEEE V"
+			subtitle: "MEEEEEEEHR V"
 			tasks: [{
 				id: "7BF565C08E211049"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
@@ -365,7 +365,7 @@
 		}
 		{
 			dependencies: ["1DA3986217ADE592"]
-			description: ["Niewieder selber essen! Du wirst gefüttert!"]
+			description: ["Nie wieder selber essen! Du wirst gefüttert!"]
 			id: "1B2FE7C5CBB54589"
 			rewards: [{
 				id: "0B8C6B391F5223EA"
@@ -563,7 +563,7 @@
 		}
 		{
 			dependencies: ["0060F8847CDD18D9"]
-			description: ["Merh Optionen und Itemauswahl per klick auf das Mausrad!"]
+			description: ["Mehr Optionen und Itemauswahl per klick auf das Mausrad!"]
 			id: "654C023F49F46370"
 			rewards: [{
 				id: "6B89B1F396B163BF"

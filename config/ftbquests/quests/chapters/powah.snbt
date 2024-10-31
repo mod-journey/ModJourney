@@ -69,9 +69,9 @@
 			dependencies: ["2496090B13AD140C"]
 			description: [
 				"Eine Multiblockstruktur, welche 36 Blöcke von diesem benötigt. Sorge dafür das Du eine freie Fläche von 3 x 4 x 4 Blöcken hast setze einen Reaktor Block. und der Rest des Reaktor baut sich automatisch auf. "
-				"Dieser wird standartmäßig mit Uranite betrieben und ist auf eine Kühlung angewiesen."
+				"Dieser wird standardmäßig mit Uranite betrieben und ist auf eine Kühlung angewiesen."
 				"{@pagebreak}"
-				"Du kannst den Reaktor auch wieder mit Wasser kühlen, um Ressourcen einzusparen. Um mehr Energie zu erzeugen, kannst Du Kohlenstoffhaltiges wie Kohle oder Holz hinzu gegen. Außerdem auch Redstone. Dessweitern kann man auch mit Feste Stoffe zum Kühlen benutzen, welche aber eine Wasserkühlung voraussetzen. "
+				"Du kannst den Reaktor auch wieder mit Wasser kühlen, um Ressourcen einzusparen. Um mehr Energie zu erzeugen, kannst Du Kohlenstoffhaltiges wie Kohle oder Holz hinzu gegen. Außerdem auch Redstone. Des Weiteren kann man auch mit Feste Stoffe zum Kühlen benutzen, welche aber eine Wasserkühlung voraussetzen. "
 				"{@pagebreak}"
 				"Mittels dem Auto Mode, schaltet der Reaktor bei einem vollen internen Energie Speicher automatisch ab. Sollte dieser unter 70% fallen, schaltet sich der Generator automatisch wieder ein."
 			]
@@ -180,7 +180,7 @@
 				"Ein Akku, welcher für das Inventar benutzt werden kann um Items aufzuladen, oder um die Kapazität deines, Ender - Wireless Netzwerks zu erhöhen."
 				"{@pagebreak}"
 				"&lEndercell&r"
-				"In der GUI deiner Endercell Shift + Rechtsklick und du erhälst die Kapazität, samt den gespeicherten Strom ein mal addiert dazu. Die I/O Rate bleibt gleich."
+				"In der GUI deiner Endercell Shift + Rechtsklick und du erhältst die Kapazität, samt den gespeicherten Strom ein mal addiert dazu. Die I/O Rate bleibt gleich."
 			]
 			id: "5F2DC3215BEC9C68"
 			rewards: [{
@@ -229,7 +229,7 @@
 		{
 			dependencies: ["2DE28895E3897B29"]
 			description: [
-				"Ein Block, welcher UUID, also Spielergebunden ist. Dieser beinhaltet mehrere Channels, welche genutzt werden können. Dieser Block ist dein Wireless Input. Kann aber auch als Speicher benutzt werden. Die gesamt Speicherkapazität kann erhöht werden, durch Akkus. Die I/O Rate bleibt gleich. Mit den sogenannten Ender Gates, kann man den Strom, welcher in deinem Netzwerk gespeichert ist, Wireless an Maschinen übertragen. "
+				"Ein Block, welcher UUID, also Spieler-gebunden ist. Dieser beinhaltet mehrere Channels, welche genutzt werden können. Dieser Block ist dein Wireless Input. Kann aber auch als Speicher benutzt werden. Die gesamt Speicherkapazität kann erhöht werden, durch Akkus. Die I/O Rate bleibt gleich. Mit den sogenannten Ender Gates, kann man den Strom, welcher in deinem Netzwerk gespeichert ist, Wireless an Maschinen übertragen. "
 				""
 				"{@pagebreak}"
 				"&4&lQuellen:&r"

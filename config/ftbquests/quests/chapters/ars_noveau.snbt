@@ -314,7 +314,7 @@
 				"Source wächst nicht auf Bäumen...oder zumindest nicht direkt."
 				""
 				"Mit dieser Apparatur wird Source durch das natürliche Wachstum von Pflanzen und Bäumen produziert."
-				"Die Betonung liegt dabei auf &lNATÜRLICH!&r, also kein Bonemeal oder dergleichen."
+				"Die Betonung liegt dabei auf &lNATÜRLICH!&r, also kein Knochenmehl oder dergleichen."
 			]
 			id: "5F442ACC0CCC3DEE"
 			rewards: [{
@@ -704,7 +704,7 @@
 			description: [
 				"Mit Sourceberries kannst du zu Beginn deine Mana Regeneration aufbessern und so länger und mehr zaubern."
 				""
-				"Die Beeren können aber auch zu besserer Nahrung und Tränken weitergecraftet werden, um die Mana Regeneration noch stärker zu machen."
+				"Die Beeren können aber auch zu besserer Nahrung und Tränken weiter gecraftet werden, um die Mana Regeneration noch stärker zu machen."
 			]
 			id: "43F671F5C49EED69"
 			rewards: [{
@@ -778,7 +778,7 @@
 				"Unter den Wilden gibt es noch eine weitere weitaus stärkere Lebensform, Die Wilden Chimera. Eine wahrlich schreckliche Kreatur, die nur von den mächtigsten Zauberern erlegt werden kann."
 				"Nur den Bezwingern dieser Bestie ist es erlaubt, weiter in der Hierarchie der Zauberer aufzusteigen."
 				""
-				"&l&4ACHTUNG!&r Wenn die Wilden Chimera durch das Ritual gerufen wird, können Blöcke um das Ritualpodest herum zerstört werden, auch in Chunckclaims!"
+				"&l&4ACHTUNG!&r Wenn die Wilden Chimera durch das Ritual gerufen wird, können Blöcke um das Ritualpodest herum zerstört werden, auch in Chunk-Claims!"
 			]
 			id: "6092D820D8CA7DDF"
 			rewards: [{
@@ -800,7 +800,7 @@
 		{
 			dependencies: ["1BCEF5B7D4A2DEA9"]
 			description: [
-				"So wie dein Zauberbuch können deine magischen Gewänder auch weiter geupgradet und verstärkt werden. Dazu benötigst du für jedes Rüstungsteil zwei Blazerods, die über den Enchanting Apparatus hineingearbeitet werden."
+				"So wie dein Zauberbuch können deine magischen Gewänder auch weiter geupgradet und verstärkt werden. Dazu benötigst du für jedes Rüstungsteil zwei Lohenruten (Blazerods), die über den Enchanting Apparatus hineingearbeitet werden."
 				""
 				"Dadurch erhöhen sich dein maximales Mana und deine Mana Regeneration. Außerdem werden auch die Threadslots verbessert und/oder weitere hinzugefügt."
 			]
@@ -848,7 +848,7 @@
 				"48C79ED35AC136C8"
 				"40019D79DA3B4858"
 			]
-			description: ["Um auch die stärksten Glyphen nutzen zu können, muss dein Zauberbuch nochmals geupgradet werden. Doch nur wer sich als würdig erweißt, vermag das volle Potential zu entfesseln."]
+			description: ["Um auch die stärksten Glyphen nutzen zu können, muss dein Zauberbuch nochmals geupgradet werden. Doch nur wer sich als würdig erweist, vermag das volle Potential zu entfesseln."]
 			id: "5F98BAF82E1271EE"
 			rewards: [
 				{
@@ -995,7 +995,7 @@
 				}
 				type: "item"
 			}]
-			title: "Scharfschützenmagie"
+			title: "Scharfschützen-Magie"
 			x: 10.0d
 			y: 9.0d
 		}
@@ -1081,7 +1081,7 @@
 		{
 			dependencies: ["7CDC16333D2E3B89"]
 			description: [
-				"Der Enchanter's Mirror wirkt die gebundenen Glyphen auf den Anwender selbst, verringert dabei die Manakosten und verlängert dessen Effekte."
+				"Der Enchanter's Mirror wirkt die gebundenen Glyphen auf den Anwender selbst, verringert dabei die Mahnkosten und verlängert dessen Effekte."
 				""
 				"Zum Binden von Glyphen erstellst du in deinem Zauberbuch einen Zauber &l&bOHNE!&r eine Form, legst den Spiegel auf den Scribe's Table und benutzt das Buch mit diesen Glyphen darauf, während du geduckt bist."
 			]
@@ -1369,7 +1369,7 @@
 		{
 			dependencies: ["5E51716BBA7C0BE6"]
 			description: [
-				"In Ars Nouveau gibt es eine Verzauberung, die nicht funktioniert, wenn sie erst als Buch gecraftet wird, so wie es das Craftingrezept zeigt."
+				"In Ars Nouveau gibt es eine Verzauberung, die nicht funktioniert, wenn sie erst als Buch gecraftet wird, so wie es das Crafting-Rezept zeigt."
 				"Zur Lösung dieses Problems wird statt einem Buch direkt das gewünschte Item in den Enchanting Apparatus gelegt."
 				""
 				"Das Rezept zeigt außerdem, dass man ein \"Spell Parchment\" benötigt. Auf diesem soll der gewünschte Zauber hinzugefügt werden, indem man ein \"Blank Parchment\" auf dem Scribe's Table legt und dann mit &lWICHTIG!&r der rechten Hälfte des Tisches, den Teil mit der Feder, geduckt mit dem Zauberbuch, das den gewünschten Zauber aktiv hat, in der Hand interagiert."
