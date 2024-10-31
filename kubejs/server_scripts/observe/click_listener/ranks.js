@@ -52,6 +52,7 @@ ItemEvents.rightClicked("minecraft:stick", event => {
                 if (status === 1) {
                     console.log(` ${event.player.name.getString()} ist nun als ${new_tag.split("_")[0]} aktiv.`)
                     event.server.runCommandSilent(`lp user ${event.player.name.getString()} parent add ${new_tag}`)
+                    event.server.runCommandSilent(`lp user ${event.player.name.getString()} parent remove default`)
                 }
                 if (status === 2) { //wenn Spieler beitritt "Rang aktiv"
                     event.server.runCommandSilent(`team join ${new_tag.split("_")[0]} ${event.player.name.getString()}`)
