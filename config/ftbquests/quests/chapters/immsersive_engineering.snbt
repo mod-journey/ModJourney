@@ -471,11 +471,29 @@
 		{
 			dependencies: ["6C7984DF59D8E26C"]
 			id: "7A633DD4525F4618"
-			rewards: [{
-				id: "791B97EDAC639A5C"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "791B97EDAC639A5C"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					id: "03132877FED4B8CF"
+					item: {
+						Count: 1
+						id: "thermal:energy_cell"
+						tag: {
+							BlockEntityTag: {
+								Energy: 0
+								EnergyMax: 1000000
+								EnergyRecv: 1000
+								EnergySend: 1000
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0EA1872377FF538A"
 				item: "immersiveengineering:capacitor_mv"
@@ -499,6 +517,16 @@
 					table_id: 7481978013781056868L
 					team_reward: true
 					type: "loot"
+				}
+				{
+					id: "6B359E53C9B78FA6"
+					item: "thermal:rf_coil_xfer_augment"
+					type: "item"
+				}
+				{
+					id: "471AF8D234D3F0E1"
+					item: "thermal:rf_coil_storage_augment"
+					type: "item"
 				}
 			]
 			tasks: [{
