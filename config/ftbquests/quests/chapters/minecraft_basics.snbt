@@ -867,6 +867,7 @@
 			hide: true
 			id: "06058D4919841D02"
 			rewards: [{
+				auto: "disabled"
 				command: "/ftbranks add @p weekling"
 				elevate_perms: true
 				exclude_from_claim_all: true
@@ -894,6 +895,7 @@
 			]
 			id: "59E92107A4481944"
 			rewards: [{
+				auto: "disabled"
 				command: "/ftbranks add @p double-weekling"
 				elevate_perms: true
 				exclude_from_claim_all: true
@@ -915,6 +917,7 @@
 			dependencies: ["59E92107A4481944"]
 			id: "6E7B5D5F3EC952AD"
 			rewards: [{
+				auto: "disabled"
 				command: "/ftbranks add @p triple-weekling"
 				elevate_perms: true
 				exclude_from_claim_all: true
@@ -936,6 +939,7 @@
 			description: ["Ein Monat bist du bereits auf deiner Reise, um dein Gebiet weiter auszubauen kannst du ab jetzt 75 Chunks (pro Spieler im Team) claimen."]
 			id: "17F4AD786B66A4A7"
 			rewards: [{
+				auto: "disabled"
 				command: "/ftbranks add @p monthling"
 				elevate_perms: true
 				exclude_from_claim_all: true
