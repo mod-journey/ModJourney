@@ -9,5 +9,6 @@ ServerEvents.tags('item', event => {
     ores_immersive_tag(event)
     ores_thermal_tag(event)
     ores_industrial_tag(event)
+    thermal_casts(event)
 
 })

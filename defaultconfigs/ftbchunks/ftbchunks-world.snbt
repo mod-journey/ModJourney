@@ -42,7 +42,7 @@
 	# Hard limit for the number of chunks a team can force-load, regardless of how many members. Default of 0 means no hard limit.
 	# Default: 0
 	# Range: 0 ~ 2147483647
-	hard_team_force_limit: 0
+	hard_team_force_limit: 25
 
 	# If true, "Location Visibility" team settings are ignored, and all players can see each other anywhere on the map.
 	# Default: false
