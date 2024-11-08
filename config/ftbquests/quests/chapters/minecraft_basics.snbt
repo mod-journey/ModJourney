@@ -866,6 +866,7 @@
 			dependencies: ["49D841614CC15BE6"]
 			hide: true
 			id: "06058D4919841D02"
+			optional: true
 			rewards: [{
 				auto: "disabled"
 				command: "/ftbranks add @p weekling"
@@ -894,6 +895,7 @@
 				"Außerdem werden die Befehle &9/back&r, &9/home&r, &9/tpa&r und &9/tpahere&r freigeschaltet."
 			]
 			id: "59E92107A4481944"
+			optional: true
 			rewards: [{
 				auto: "disabled"
 				command: "/ftbranks add @p double-weekling"
@@ -916,6 +918,7 @@
 		{
 			dependencies: ["59E92107A4481944"]
 			id: "6E7B5D5F3EC952AD"
+			optional: true
 			rewards: [{
 				auto: "disabled"
 				command: "/ftbranks add @p triple-weekling"
@@ -938,6 +941,7 @@
 			dependencies: ["6E7B5D5F3EC952AD"]
 			description: ["Ein Monat bist du bereits auf deiner Reise, um dein Gebiet weiter auszubauen kannst du ab jetzt 75 Chunks (pro Spieler im Team) claimen."]
 			id: "17F4AD786B66A4A7"
+			optional: true
 			rewards: [{
 				auto: "disabled"
 				command: "/ftbranks add @p monthling"
@@ -1043,6 +1047,46 @@
 			title: "Grüne Checkmark"
 			x: -3.0d
 			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["146D1D0765124A16"]
+			id: "5AD648A031983D6B"
+			optional: true
+			rewards: [{
+				id: "4C9F2D7DFB7F8EDB"
+				item: "mod_journey:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0C9FA980F26AA1C4"
+				item: "mod_journey:clotted_bloodblock"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["146D1D0765124A16"]
+			id: "239BB08321662A54"
+			optional: true
+			rewards: [{
+				id: "1045FFC4F3CF1CFB"
+				item: "mod_journey:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5742CDBCC8B95F5D"
+				item: "mod_journey:antimatter_block"
+				type: "item"
+			}]
+			x: 0.4795918367346985d
+			y: 3.051020408163261d
 		}
 	]
 	title: "Minecraft Basics"
