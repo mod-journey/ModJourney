@@ -176,7 +176,6 @@
 				""
 				"Für nähere Informationen zu den Ritualen, konsultiere doch den ModGuide."
 			]
-			hide: true
 			id: "18D30E75DBA755F4"
 			rewards: [{
 				id: "698FFFAC59C256FA"
@@ -234,7 +233,6 @@
 				"77AA85B028579CF6"
 			]
 			description: ["Hast Du einen Weg in die tiefsten gewölbe des Dungeons gefunden, benötigst Du neue Schlüssel. Gebe acht, diese sind teurer. Du kannst Sie außerdem als Loot in Kisten finden. "]
-			hide: true
 			id: "1CA9843D124FB9DB"
 			rewards: [{
 				id: "423E33AE2D86F193"
@@ -337,7 +335,7 @@
 		}
 		{
 			dependencies: ["7595DD9DE29C0C44"]
-			description: ["Mittels diesem Item, welches du in die nähe von deinem Altar stellst, kannst Du dich durch Selbstblutentnahme nicht mehr töten. Auch hierfür gibt es ein Multiblock in der zukunft. "]
+			description: ["Mittels diesem Item, welches du in die Nähe von deinem Altar stellst, kannst Du dich durch Selbstblutentnahme nicht mehr töten. Auch hierfür gibt es ein Multiblock in der Zukunft. "]
 			id: "775CA62679CED9AF"
 			rewards: [
 				{
