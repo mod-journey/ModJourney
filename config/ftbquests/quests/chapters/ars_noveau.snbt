@@ -484,10 +484,7 @@
 			y: 6.5d
 		}
 		{
-			dependencies: [
-				"04AE7500461EC1F9"
-				"40EFD7E819501CF9"
-			]
+			dependencies: ["04AE7500461EC1F9"]
 			description: [
 				"Mit dem Hexenzirkelzauberritualitemständer, oder einfach nur Ritualpodest, lassen sich verschiedene Rituale ausführen. Von Mobgefährten über Blöcke lokalisieren zu Bossspawning ist vieles dabei."
 				""
@@ -513,10 +510,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"04AE7500461EC1F9"
-				"40EFD7E819501CF9"
-			]
+			dependencies: ["04AE7500461EC1F9"]
 			description: [
 				"Mit diesem Apparat kann du nicht nur verzauberte Bücher selbst herstellen, sondern auch deine magische Rüstung erhalten und verbessern, sowie zauberhafte Items wie Waffen, Charms und Utility craften. Baue den Apparatus dafür auf den Core und stell acht Pedestals drum herum."
 				""
@@ -844,10 +838,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"48C79ED35AC136C8"
-				"40019D79DA3B4858"
-			]
+			dependencies: ["48C79ED35AC136C8"]
 			description: ["Um auch die stärksten Glyphen nutzen zu können, muss dein Zauberbuch nochmals geupgradet werden. Doch nur wer sich als würdig erweist, vermag das volle Potential zu entfesseln."]
 			id: "5F98BAF82E1271EE"
 			rewards: [
