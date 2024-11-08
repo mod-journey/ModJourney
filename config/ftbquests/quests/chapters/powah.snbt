@@ -387,6 +387,7 @@
 		}
 		{
 			dependencies: ["03993D2DCBC69C3A"]
+			description: ["ballert mehr wie der erste."]
 			id: "1FCFB67BE712AB97"
 			rewards: [{
 				id: "7103D7713BBC28D9"
@@ -403,6 +404,7 @@
 		}
 		{
 			dependencies: ["1FCFB67BE712AB97"]
+			description: ["ballert noch mehr wie der vorige."]
 			id: "0C9A56AE665B29A7"
 			rewards: [{
 				id: "03D7D3CCABEC09A3"
@@ -419,6 +421,7 @@
 		}
 		{
 			dependencies: ["0C9A56AE665B29A7"]
+			description: ["ballert viel mehr wie die Rods zuvor."]
 			id: "5E039C48CE24F1FD"
 			rewards: [{
 				id: "315FDAB6A72CC184"
@@ -435,6 +438,7 @@
 		}
 		{
 			dependencies: ["5E039C48CE24F1FD"]
+			description: ["wird viel mehr ballern als die Rods zuvor."]
 			id: "052F1AB54FECE74C"
 			rewards: [{
 				id: "6979FBB35F3C22CA"
@@ -451,6 +455,7 @@
 		}
 		{
 			dependencies: ["052F1AB54FECE74C"]
+			description: ["wird weitaus mehr ballern wie die Rods zuvor."]
 			id: "085524FB2AA3BAEF"
 			rewards: [{
 				id: "1471206C3DBEFE9C"
@@ -467,6 +472,7 @@
 		}
 		{
 			dependencies: ["085524FB2AA3BAEF"]
+			description: ["wird am meisten geballert haben wie die Rods zuvor."]
 			id: "10552CFF145F722D"
 			rewards: [{
 				id: "37A135D5DE6C41D0"
