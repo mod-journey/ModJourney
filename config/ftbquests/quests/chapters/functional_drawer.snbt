@@ -306,10 +306,7 @@
 		}
 		{
 			dependencies: ["0FC3F9706DE769F0"]
-			description: [
-				"Bekommst Du einen Drawer komplett gefüllt mit Sand voll? Probiere es mal aus. :-D"
-				"&l&4Benutze einen Oak Drawer&r"
-			]
+			description: [""]
 			id: "0D1CE7A2E7381A55"
 			rewards: [
 				{
@@ -484,113 +481,6 @@
 			}]
 			x: -3.5d
 			y: -5.0d
-		}
-		{
-			dependencies: ["0D1CE7A2E7381A55"]
-			description: ["Gebe einen Oak Drawer mit 4 Netherit Upgrade gefüllt mit Sand ab."]
-			hide: true
-			id: "5117259C7EC0D1F4"
-			optional: true
-			rewards: [
-				{
-					auto: "disabled"
-					description: "Bestimmt kein Scam!"
-					exclude_from_claim_all: true
-					icon: "minecraft:sand"
-					id: "5986BCCEF5B92073"
-					team_reward: false
-					title: "Ein Drawer voll Sand"
-					type: "toast"
-				}
-				{
-					auto: "disabled"
-					exclude_from_claim_all: true
-					id: "3EC4398B2F8231B4"
-					ignore_reward_blocking: true
-					team_reward: false
-					type: "xp_levels"
-					xp_levels: 250
-				}
-				{
-					auto: "invisible"
-					exclude_from_claim_all: true
-					id: "6C8E9708903CDBF4"
-					ignore_reward_blocking: true
-					stage: "sand"
-					team_reward: false
-					title: "sand"
-					type: "gamestage"
-				}
-			]
-			tasks: [{
-				id: "72D795AB62CE94AC"
-				item: {
-					Count: 1
-					id: "functionalstorage:oak_1"
-					tag: {
-						BlockEntityTag: {
-							ForgeCaps: { }
-							drawerOptions: {
-								"Advanced: INDICATOR": 0
-								TOGGLE_NUMBERS: 1b
-								TOGGLE_RENDER: 1b
-								TOGGLE_UPGRADES: 1b
-							}
-							handler: {
-								BigItems: {
-									0: {
-										Amount: 2147483647
-										Stack: {
-											Count: 1b
-											id: "minecraft:sand"
-										}
-									}
-								}
-							}
-							hasDowngrade: 0b
-							id: "functionalstorage:oak_1"
-							isCreative: 0b
-							isVoid: 0b
-							mult: 1048576
-							storageUpgrades: {
-								Items: [
-									{
-										Count: 1b
-										Slot: 0
-										id: "functionalstorage:netherite_upgrade"
-									}
-									{
-										Count: 1b
-										Slot: 1
-										id: "functionalstorage:netherite_upgrade"
-									}
-									{
-										Count: 1b
-										Slot: 2
-										id: "functionalstorage:netherite_upgrade"
-									}
-									{
-										Count: 1b
-										Slot: 3
-										id: "functionalstorage:netherite_upgrade"
-									}
-								]
-								Size: 4
-							}
-							utilityUpgrades: {
-								Items: [ ]
-								Size: 3
-							}
-						}
-						display: {
-							Lore: ["\"(+NBT)\""]
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: -9.5d
-			y: -1.5d
 		}
 	]
 	title: "functional drawer"
