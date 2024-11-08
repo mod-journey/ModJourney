@@ -1061,6 +1061,7 @@
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
+				consume_items: true
 				id: "0C9FA980F26AA1C4"
 				item: "mod_journey:clotted_bloodblock"
 				type: "item"
@@ -1081,6 +1082,7 @@
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
+				consume_items: true
 				id: "5742CDBCC8B95F5D"
 				item: "mod_journey:antimatter_block"
 				type: "item"
