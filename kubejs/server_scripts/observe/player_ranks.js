@@ -1,7 +1,7 @@
 /**
  * this script handels server side unlocking of week-ranks
  */
-const weeksSinceServerStart = 1;
+const weeksSinceServerStart = 2;
 const ftbTimeRanks = [
     'weekling',
     'double-weekling',
