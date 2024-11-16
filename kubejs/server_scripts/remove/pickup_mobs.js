@@ -16,7 +16,14 @@ let bosses_blacklist = [
     "cataclysm:ignis",
     "cataclysm:ender_guardian",
     "cataclysm:netherite_monstrosity",
-    "cataclysm:ender_golem"
+    "cataclysm:ender_golem",
+
+    'alexsmobs:cachalot_whale',
+    'alexsmobs:giant_squid',
+    'alexsmobs:void_worm',
+    'alexsmobs:centipede',
+    'alexsmobs:bone_serpent',
+    'alexsmobs:anaconda'
 ];
 
 //remove the right-click event from enderio soulvials. The event wehre canceld.

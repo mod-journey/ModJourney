@@ -23,9 +23,9 @@ let tools_pickaxe = {
         //`botania:terra_pick`,
         `botania:glass_pickaxe`,
         `aquaculture:neptunium_pickaxe`,
-        //`blue_skies:pyrope_pickaxe`,
+        `blue_skies:pyrope_pickaxe`,
         //`blue_skies:diopside_pickaxe`,
-        //`blue_skies:aquite_pickaxe`,
+        `blue_skies:aquite_pickaxe`,
         //`blue_skies:charoite_pickaxe`,
         //`blue_skies:horizonite_pickaxe`,
         `blue_skies:bluebright_pickaxe`,
@@ -37,7 +37,7 @@ let tools_pickaxe = {
         `blue_skies:comet_pickaxe`,
         `aether:skyroot_pickaxe`,
         `aether:holystone_pickaxe`,
-        //`aether:zanite_pickaxe`,
+        `aether:zanite_pickaxe`,
         //`aether:gravitite_pickaxe`,
         //`aether:valkyrie_pickaxe`,
         //`lost_aether_content:phoenix_pickaxe`,
@@ -53,7 +53,11 @@ let tools_pickaxe = {
         //`undergarden:forgotten_pickaxe`,
         `ae2:certus_quartz_pickaxe`,
         `ae2:nether_quartz_pickaxe`,
-        `ae2:fluix_pickaxe`
+        `ae2:fluix_pickaxe`,
+        `bloodmagic:soulpickaxe`,
+        `blue_skies:lunar_stone_pickaxe`,
+        `blue_skies:turquoise_stone_pickaxe`
+
     ],
     reference: [
         `minecraft:diamond_pickaxe`,
@@ -108,6 +112,9 @@ let tools_pickaxe = {
         `undergarden:forgotten_pickaxe`,
         `ae2:certus_quartz_pickaxe`,
         `ae2:nether_quartz_pickaxe`,
-        `ae2:fluix_pickaxe`
+        `ae2:fluix_pickaxe`,
+        `bloodmagic:soulpickaxe`,
+        `blue_skies:lunar_stone_pickaxe`,
+        `blue_skies:turquoise_stone_pickaxe`
     ]
 }

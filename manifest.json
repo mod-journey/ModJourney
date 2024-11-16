@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Mod Journey",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "author": "",
   "files": [
     {
@@ -150,11 +150,6 @@
       "required": true
     },
     {
-      "projectID": 890127,
-      "fileID": 5453446,
-      "required": true
-    },
-    {
       "projectID": 459929,
       "fileID": 5217955,
       "required": true
@@ -240,11 +235,6 @@
       "required": true
     },
     {
-      "projectID": 877553,
-      "fileID": 5035577,
-      "required": true
-    },
-    {
       "projectID": 840825,
       "fileID": 4747161,
       "required": true
@@ -306,12 +296,7 @@
     },
     {
       "projectID": 246640,
-      "fileID": 5587909,
-      "required": true
-    },
-    {
-      "projectID": 913445,
-      "fileID": 5490637,
+      "fileID": 5777070,
       "required": true
     },
     {
@@ -410,11 +395,6 @@
       "required": true
     },
     {
-      "projectID": 817423,
-      "fileID": 5546654,
-      "required": true
-    },
-    {
       "projectID": 709936,
       "fileID": 4706669,
       "required": true
@@ -426,7 +406,7 @@
     },
     {
       "projectID": 256247,
-      "fileID": 5225775,
+      "fileID": 5857353,
       "required": true
     },
     {
@@ -720,11 +700,6 @@
       "required": true
     },
     {
-      "projectID": 586157,
-      "fileID": 5091310,
-      "required": true
-    },
-    {
       "projectID": 404465,
       "fileID": 5567591,
       "required": true
@@ -756,7 +731,7 @@
     },
     {
       "projectID": 441647,
-      "fileID": 5399211,
+      "fileID": 5629578,
       "required": true
     },
     {
@@ -827,11 +802,6 @@
     {
       "projectID": 400514,
       "fileID": 5542443,
-      "required": true
-    },
-    {
-      "projectID": 889079,
-      "fileID": 5387432,
       "required": true
     },
     {
@@ -936,7 +906,7 @@
     },
     {
       "projectID": 456956,
-      "fileID": 5270039,
+      "fileID": 5813138,
       "required": true
     },
     {
@@ -1061,7 +1031,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 5610694,
+      "fileID": 5846810,
       "required": true
     },
     {
@@ -1087,6 +1057,11 @@
     {
       "projectID": 550678,
       "fileID": 4627738,
+      "required": true
+    },
+    {
+      "projectID": 570354,
+      "fileID": 5759138,
       "required": true
     }
   ],

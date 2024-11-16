@@ -24,4 +24,11 @@ let change_gears = (event) => {
             immersive_press(event,`forge:storage_blocks/${metal}`,1,`alltheores:${metal}_gear`,2,4800,ato.mold.gear,`immersive/gear/${metal}`)
             gear_shaped(event,`forge:gems/${metal}`,`alltheores:${metal}_gear`,1,`shaped/gear/${metal}`)
         });
+
+    //Other Sources that will not match above Objects. e.g. Lapis.
+        ato.other.forEach(metal => {
+            thermal_press(event,`forge:gems/${metal}`,4,`thermal:${metal}_gear`,1,ato.mold.gear,`gear/${metal}`)
+            immersive_press(event,`forge:storage_blocks/${metal}`,1,`thermal:${metal}_gear`,2,4800,ato.mold.gear,`immersive/gear/${metal}`)
+            gear_shaped(event,`forge:gems/${metal}`,`thermal:${metal}_gear`,1,`shaped/gear/${metal}`)
+        });
 }

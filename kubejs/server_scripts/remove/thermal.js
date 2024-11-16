@@ -19,7 +19,8 @@ ServerEvents.recipes(event => {
         'thermal:explosive_grenade',
         'thermal:phyto_grenade',
         'thermal:fire_grenade',
-        'thermal:earth_grenade'
+        'thermal:earth_grenade',
+        'thermal:ender_grenade'
     ]
 
     // Funktionsaufruf zum entfernen der Linsen
@@ -47,7 +48,7 @@ ServerEvents.recipes(event => {
         'thermal:machines/press/press_signalum_nugget_to_coin', // 1 Signalum Coin aus 1 Signalum Nugget
         'thermal:machines/press/press_lumium_nugget_to_coin',   // 1 Lumium Coin aus 1 Lumium Nugget
         'thermal:machines/press/press_enderium_nugget_to_coin', // 1 Enderium Coin aus 1 Enderium Nugget
-        
+
         // Rezepte für 3 Coins aus Ingots
         'thermal:machines/press/press_iron_ingot_to_coin',  // 3 Iron Coins aus 1 Iron Ingot
         'thermal:machines/press/press_gold_ingot_to_coin',   // 3 Gold Coins aus 1 Gold Ingot

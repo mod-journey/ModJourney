@@ -19,9 +19,9 @@ let tools_axe = {
         //`botania:elementium_axe`,
         //`botania:terra_axe`,
         `aquaculture:neptunium_axe`,
-        //`blue_skies:pyrope_axe`,
+        `blue_skies:pyrope_axe`,
         //`blue_skies:diopside_axe`,
-        //`blue_skies:aquite_axe`,
+        `blue_skies:aquite_axe`,
         //`blue_skies:charoite_axe`,
         //`blue_skies:horizonite_axe`,
         `blue_skies:bluebright_axe`,
@@ -33,7 +33,7 @@ let tools_axe = {
         `blue_skies:comet_axe`,
         `aether:skyroot_axe`,
         `aether:holystone_axe`,
-        //`aether:zanite_axe`,
+        `aether:zanite_axe`,
         //`aether:gravitite_axe`,
         //`aether:valkyrie_axe`,
         //`lost_aether_content:phoenix_axe`,
@@ -49,7 +49,11 @@ let tools_axe = {
         //`undergarden:forgotten_axe`,
         `ae2:certus_quartz_axe`,
         `ae2:nether_quartz_axe`,
-        `ae2:fluix_axe`
+        `ae2:fluix_axe`,
+        `bloodmagic:soulaxe`,
+        `blue_skies:lunar_stone_axe`,
+        `blue_skies:turquoise_stone_axe`
+
     ],
     reference: [
         `minecraft:diamond_axe`,
@@ -100,6 +104,11 @@ let tools_axe = {
         `undergarden:forgotten_axe`,
         `ae2:certus_quartz_axe`,
         `ae2:nether_quartz_axe`,
-        `ae2:fluix_axe`
+        `ae2:fluix_axe`,
+        `bloodmagic:soulaxe`,
+        `blue_skies:lunar_stone_axe`,
+        `blue_skies:turquoise_stone_axe`
     ]
 }
+
+

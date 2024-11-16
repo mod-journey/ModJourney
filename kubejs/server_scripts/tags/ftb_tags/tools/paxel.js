@@ -18,7 +18,8 @@ let tools_paxel = {
         `mysticalagradditions:tertium_paxel`,
         `mysticalagradditions:imperium_paxel`,
         //`mysticalagradditions:supremium_paxel`,
-        //`mysticalagradditions:awakened_supremium_paxel`
+        //`mysticalagradditions:awakened_supremium_paxel`,
+        //`mekanism:atomic_disassembler`
     ],
     // Alle Items werden beibehalten und das Array dient anschließend als Überprüfung.
     reference: [
@@ -39,6 +40,7 @@ let tools_paxel = {
         `mysticalagradditions:tertium_paxel`,
         `mysticalagradditions:imperium_paxel`,
         `mysticalagradditions:supremium_paxel`,
-        `mysticalagradditions:awakened_supremium_paxel`
+        `mysticalagradditions:awakened_supremium_paxel`,
+        `mekanism:atomic_disassembler`
     ]
 }

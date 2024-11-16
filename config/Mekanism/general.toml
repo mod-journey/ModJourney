@@ -4,7 +4,7 @@
 	#Log Mekanism packet names. Debug setting.
 	logPackets = false
 	#Disable to make the anchor upgrade not do anything.
-	allowChunkloading = true
+	allowChunkloading = false
 	#Enable this to allow dragging items from JEI into the target slot of Digital Miner filters.
 	easyMinerFilters = false
 	#How many ticks must pass until a block's active state is synced with the client, if it has been rapidly changing.
@@ -172,7 +172,7 @@
 		#Enable the security system for players to prevent others from accessing their machines. Does NOT affect Frequencies.
 		allowProtection = true
 		#If this is enabled then players with the 'mekanism.bypass_security' permission (default ops) can bypass the block and item security restrictions.
-		opsBypassRestrictions = false
+		opsBypassRestrictions = true
 
 	#Nutritional Paste Settings
 	[general.nutritional_paste]

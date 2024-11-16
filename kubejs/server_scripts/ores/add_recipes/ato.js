@@ -39,5 +39,8 @@ let ato = {
         packing_2:  'immersiveengineering:mold_packing_4',
         packing_3:  'immersiveengineering:mold_packing_9',
         unpacking:  'immersiveengineering:mold_unpacking'
-    }
+    },
+    other: [
+        'lapis'
+    ]
 }

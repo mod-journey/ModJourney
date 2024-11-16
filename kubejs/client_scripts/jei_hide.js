@@ -22,7 +22,8 @@ JEIEvents.hideItems(event => {
         'thermal:explosive_grenade',
         'thermal:phyto_grenade',
         'thermal:fire_grenade',
-        'thermal:earth_grenade'
+        'thermal:earth_grenade',
+        'thermal:ender_grenade'
     ]
 
     tnt.forEach(element => {
@@ -341,7 +342,7 @@ JEIEvents.hideItems(event => {
     event.hide(Item.of('easy_villagers:iron_farm'))
     event.hide(Item.of('ae2wtlib:quantum_bridge_card'))
 
-    
+
     //aether
     let aether_ice = [
         Item.of('aether:ice_ring', '{Damage:0}'),
@@ -352,7 +353,7 @@ JEIEvents.hideItems(event => {
         event.hide(element)
     });
 
-    
+
     //itemfilters
      let itemfilters_hide = [
         'itemfilters:always_true',

@@ -18,9 +18,9 @@ let tools_hoe = {
         `botania:manasteel_hoe`,
         //`botania:elementium_hoe`,
         `aquaculture:neptunium_hoe`,
-        //`blue_skies:pyrope_hoe`,
+        `blue_skies:pyrope_hoe`,
         //`blue_skies:diopside_hoe`,
-        //`blue_skies:aquite_hoe`,
+        `blue_skies:aquite_hoe`,
         //`blue_skies:charoite_hoe`,
         //`blue_skies:horizonite_hoe`,
         `blue_skies:bluebright_hoe`,
@@ -32,7 +32,7 @@ let tools_hoe = {
         `blue_skies:comet_hoe`,
         `aether:skyroot_hoe`,
         `aether:holystone_hoe`,
-        //`aether:zanite_hoe`,
+        `aether:zanite_hoe`,
         //`aether:gravitite_hoe`,
         //`aether:valkyrie_hoe`,
         `lost_aether_content:phoenix_hoe`,
@@ -48,7 +48,9 @@ let tools_hoe = {
         //`undergarden:forgotten_hoe`,
         `ae2:certus_quartz_hoe`,
         `ae2:nether_quartz_hoe`,
-        `ae2:fluix_hoe`
+        `ae2:fluix_hoe`,
+        `blue_skies:lunar_stone_hoe`,
+        `blue_skies:turquoise_stone_hoe`
     ],
     // Alle Items werden beibehalten und das Array dient anschließend als Überprüfung.
     reference : [
@@ -99,6 +101,8 @@ let tools_hoe = {
         `undergarden:forgotten_hoe`,
         `ae2:certus_quartz_hoe`,
         `ae2:nether_quartz_hoe`,
-        `ae2:fluix_hoe`
+        `ae2:fluix_hoe`,
+        `blue_skies:lunar_stone_hoe`,
+        `blue_skies:turquoise_stone_hoe`
     ]
 }

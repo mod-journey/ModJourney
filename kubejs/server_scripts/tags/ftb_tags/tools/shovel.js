@@ -18,9 +18,9 @@ let tools_shovel = {
         `botania:manasteel_shovel`,
         //`botania:elementium_shovel`,
         `aquaculture:neptunium_shovel`,
-        //`blue_skies:pyrope_shovel`,
+        `blue_skies:pyrope_shovel`,
         //`blue_skies:diopside_shovel`,
-        //`blue_skies:aquite_shovel`,
+        `blue_skies:aquite_shovel`,
         //`blue_skies:charoite_shovel`,
         //`blue_skies:horizonite_shovel`,
         `blue_skies:bluebright_shovel`,
@@ -32,7 +32,7 @@ let tools_shovel = {
         `blue_skies:comet_shovel`,
         `aether:skyroot_shovel`,
         `aether:holystone_shovel`,
-        //`aether:zanite_shovel`,
+        `aether:zanite_shovel`,
         //`aether:gravitite_shovel`,
         //`aether:valkyrie_shovel`,
         //`lost_aether_content:phoenix_shovel`,
@@ -48,7 +48,11 @@ let tools_shovel = {
         //`undergarden:forgotten_shovel`,
         `ae2:certus_quartz_shovel`,
         `ae2:nether_quartz_shovel`,
-        `ae2:fluix_shovel`
+        `ae2:fluix_shovel`,
+        `bloodmagic:soulshovel`,
+        `blue_skies:lunar_stone_shovel`,
+        `blue_skies:turquoise_stone_shovel`
+
     ],
     reference: [
         `minecraft:diamond_shovel`,
@@ -98,6 +102,9 @@ let tools_shovel = {
         `undergarden:forgotten_shovel`,
         `ae2:certus_quartz_shovel`,
         `ae2:nether_quartz_shovel`,
-        `ae2:fluix_shovel`
+        `ae2:fluix_shovel`,
+        `bloodmagic:soulshovel`,
+        `blue_skies:lunar_stone_shovel`,
+        `blue_skies:turquoise_stone_shovel`
     ]
 }

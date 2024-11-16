@@ -12,15 +12,15 @@ let change_plates = (event) => {
     //Erstellen neuer Zahnrad Rezepte
         // nach Tag: ingots/storage
         ato.alloy.concat(ato.metall,ato.vanilla).forEach(metal => {
-            thermal_press(event,`forge:ingots/${metal}`,1,`alltheores:${metal}_plate`,2,ato.mold.plate,`thermal/plate/${metal}`)
-            immersive_press(event,`forge:ingots/${metal}`,1,`alltheores:${metal}_plate`,2,2400,ato.mold.plate,`immersive/plate/${metal}`)
+            thermal_press(event,`forge:ingots/${metal}`,1,`alltheores:${metal}_plate`,1,ato.mold.plate,`thermal/plate/${metal}`)
+            immersive_press(event,`forge:ingots/${metal}`,1,`alltheores:${metal}_plate`,1,2400,ato.mold.plate,`immersive/plate/${metal}`)
             plate_shapeless(event,`forge:ingots/${metal}`,2,`alltheores:${metal}_plate`,1,`shapeless/plate/${metal}`)
         });
 
         //nach Tag: gems/storage
         ato.gems.forEach(metal => {
             thermal_press(event,`forge:gems/${metal}`,4,`alltheores:${metal}_plate`,1,ato.mold.plate,`plate/${metal}`)
-            immersive_press(event,`forge:ingots/${metal}`,1,`alltheores:${metal}_plate`,2,2400,ato.mold.plate,`immersive/plate/${metal}`)
+            immersive_press(event,`forge:ingots/${metal}`,1,`alltheores:${metal}_plate`,1,2400,ato.mold.plate,`immersive/plate/${metal}`)
             plate_shapeless(event,`forge:gems/${metal}`,2,`alltheores:${metal}_plate`,1,`shapeless/plate/${metal}`)
         });
 

@@ -23,12 +23,20 @@ ServerEvents.recipes(event => {
 
     //Durchläuft alle Rezepte mit dem Suchfilger UND auf MOD und Rezepttyp
     event.forEachRecipe({mod: "botanypots", type: "minecraft:crafting_shaped"}, r => {
+        let result_filter =  r.json.get("result").get("item") + '';
+
+        if (r.json.get("result").get("item") + '' === `"botanypots:terracotta_botany_pot"` || r.json.get("result").get("item") + '' === `"botanypots:terracotta_hopper_botany_pot"`) {
+            event.remove({id: r.getId()})
+            r.json.get("pattern").set(2, " L ");
+            r.json.get("key").add("L", {"item": "botania:livingrock"});
+            event.custom(r.json).id(`mod_journey:crafting/${result_filter.slice(12,-1)}`); //Nutze vorhandene Ausgabe. parse den String zurecht. (etnfernt Anführungszeichen und mod: botanypots:)
+        }
 
         //Absuchen nach jeder Farbe
         colours.forEach(colour => {
 
             //Einleiten der Variablen für bessere Lesebarkeit
-            let result_filter =  r.json.get("result").get("item") + '';
+
             let glazed_pot = `"botanypots:${colour}_glazed_terracotta_botany_pot"`;
             let glazed_hopper_pot = `"botanypots:${colour}_glazed_terracotta_hopper_botany_pot"`;
             let normal_pot = `"botanypots:${colour}_terracotta_botany_pot"`;

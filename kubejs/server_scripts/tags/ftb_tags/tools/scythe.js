@@ -6,7 +6,9 @@ let tools_scythe = {
         `mysticalagriculture:tertium_scythe`,
         `mysticalagriculture:imperium_scythe`,
         //`mysticalagriculture:supremium_scythe`,
-        //`mysticalagriculture:awakened_supremium_scythe`
+        //`mysticalagriculture:awakened_supremium_scythe`,
+        `bloodmagic:soulscythe`
+
     ],
     reference: [
         `mysticalagriculture:diamond_scythe`,
@@ -15,6 +17,7 @@ let tools_scythe = {
         `mysticalagriculture:tertium_scythe`,
         `mysticalagriculture:imperium_scythe`,
         //`mysticalagriculture:supremium_scythe`,
-        //`mysticalagriculture:awakened_supremium_scythe`
+        //`mysticalagriculture:awakened_supremium_scythe`,
+        `bloodmagic:soulscythe`
     ]
 }
