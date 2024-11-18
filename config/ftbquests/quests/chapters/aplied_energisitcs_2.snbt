@@ -2035,7 +2035,7 @@
 				"{@pagebreak}"
 				"Sollte dein ME-System voll sein, so bleiben die Ressourcen im Prozessor. "
 				"{@pagebreak}"
-				"Sollte Ein Craftingauftrag nicht beendet werden, da das ME-System den Auftrag nicht als Fertig anerkennt, so musst Du den Auftrag manuell abbrechen. "
+				"Sollte Ein Craftingauftrag nicht beendet werden, da das ME-System den Auftrag nicht als fertig anerkennt, so musst Du den Auftrag manuell abbrechen. "
 				"{@pagebreak}"
 				"Items müssen effektiv in das ME-System aufgenommen werden, sodass der Prozessor auch einen Fortschritt erkennt. Es reicht nicht aus, die Items mittels Speicherbus abzurufen."
 			]

@@ -2042,7 +2042,7 @@
 					auto: "invisible"
 					id: "0D0EB4751351B1C4"
 					ignore_reward_blocking: true
-					stage: ""
+					stage: "magic"
 					tags: ["magic"]
 					title: "Magie-Shop"
 					type: "gamestage"

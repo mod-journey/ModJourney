@@ -257,11 +257,18 @@
 			description: ["In der Nasawerkbank baust Du deine Raketen. Um zu anderen Planeten zu reisen, wirst Du dieses Item benötigen."]
 			hide: true
 			id: "625BCE0C411DF831"
-			rewards: [{
-				id: "65B715E604659BBE"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "65B715E604659BBE"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					id: "022C1BB8E11A9D26"
+					item: "ad_astra:astrodux"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "Schon abgespaced"

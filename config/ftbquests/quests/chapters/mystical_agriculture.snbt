@@ -38,7 +38,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: false
+				consume_items: true
 				count: 10000L
 				id: "11925F61C7B1C858"
 				item: "minecraft:coal"
@@ -108,6 +108,11 @@
 			dependencies: ["12F3E577725BBD4B"]
 			hide: true
 			id: "39AEABDB36177C37"
+			rewards: [{
+				id: "4F87F72F16B18237"
+				item: "mysticalagriculture:steel_seeds"
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 10000L
