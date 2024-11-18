@@ -319,13 +319,29 @@
 				item: "mysticalagriculture:dragon_egg_seeds"
 				type: "item"
 			}]
-			tasks: [{
-				consume_items: true
-				count: 10L
-				id: "781E785A091628C0"
-				item: "minecraft:dragon_egg"
-				type: "item"
-			}]
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					icon: "minecraft:dragon_head"
+					id: "58E84FFD73FD8E62"
+					type: "kill"
+					value: 10L
+				}
+				{
+					consume_items: true
+					count: 20L
+					id: "2D22409D55C6ACE9"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "42B8E73204E32162"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+			]
 			x: 19.0d
 			y: 0.5d
 		}
@@ -428,6 +444,11 @@
 			dependencies: ["12F3E577725BBD4B"]
 			hide: true
 			id: "79627A0CB8B4E931"
+			rewards: [{
+				id: "59CF7EDB546F4686"
+				item: "mysticalagriculture:emerald_seeds"
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 30000L
