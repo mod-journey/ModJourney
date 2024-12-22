@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
                 "item": "ae2:fluix_crystal"
             }
         }
-    ).id("modjourney:infusing/fluix_crystal")
+    ).id("mod_journey:infusing/fluix_crystal")
 
     event.custom(
         {
@@ -40,5 +40,5 @@ ServerEvents.recipes(event => {
           },
           "processingTime": 300
         }
-    ).id("modjourney:dissolution/fluix_crystal")
+    ).id("mod_journey:dissolution/fluix_crystal")
 })

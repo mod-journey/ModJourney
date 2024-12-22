@@ -1,10 +1,32 @@
 ## Changelog:
 
+# v0.8.4
+
+#### Mods updated:
+- Ars Noveau
+- EnderIo
+- Sophisticated Core Mod
+- Curios Lib
+
+#### Fixes:
+- Add missing nugget recipe
+- Copper is stored correctly in compacting drawers now
+- Blacklist foregoing soul items for carry-on (this combination causes server crashes)
+- Blacklist enderio travel anchor for carry-on
+
+#### Recipes:
+- Add automatic sky steel ingot recipe for dissolution chamber, infuser
+- Add alternative duroplast recipe
+
+### Config Changes:
+- re-activate spawning of new Mobs from Alex`s Mobs
+- Blacklist foregoing soul items for carry-on
+
+
 # v0.8.3
 
 #### Mods added:
  - Nullscape
-
 
 #### Mods removed:
  - Eldtrich End

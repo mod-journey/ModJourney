@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
         "result": {
           "item": "megacells:sky_steel_ingot"
         }
-    })
+    }).id('mod_journey:transform/sky_steel')
 
     //Drahtlosempfänger - Eisen getauscht durch mekanism:alloy_atmoic
     event.replaceInput(

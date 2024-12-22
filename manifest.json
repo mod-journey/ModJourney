@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Mod Journey",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "author": "",
   "files": [
     {
@@ -416,7 +416,7 @@
     },
     {
       "projectID": 618298,
-      "fileID": 5326245,
+      "fileID": 5977866,
       "required": true
     },
     {
@@ -456,7 +456,7 @@
     },
     {
       "projectID": 422301,
-      "fileID": 5296475,
+      "fileID": 5927505,
       "required": true
     },
     {
@@ -471,7 +471,7 @@
     },
     {
       "projectID": 64578,
-      "fileID": 5549669,
+      "fileID": 5760232,
       "required": true
     },
     {
@@ -506,7 +506,7 @@
     },
     {
       "projectID": 309927,
-      "fileID": 5367944,
+      "fileID": 5843594,
       "required": true
     },
     {
@@ -916,7 +916,7 @@
     },
     {
       "projectID": 401955,
-      "fileID": 5600384,
+      "fileID": 5894609,
       "required": true
     },
     {

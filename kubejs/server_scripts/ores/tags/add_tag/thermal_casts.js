@@ -14,6 +14,8 @@ let thermal_casts = (event) => {
 
     molds.forEach(mold => {
         event.add("thermal:crafting/dies", mold)
+        // this tag prevents the mod to be consumed in recipes
+        event.add("thermal:crafting/casts", mold)
     });
 
 

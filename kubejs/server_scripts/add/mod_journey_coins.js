@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
         'BBB'
     ], {
         B: 'mod_journey:bronze_coin'
-    });
+    }).id('mod_journey:silver_coin');
 
     // Rezept für 1 Goldmünze aus 9 Silbermünzen
     event.shaped('mod_journey:gold_coin', [
@@ -16,12 +16,12 @@ ServerEvents.recipes(event => {
         'SSS'
     ], {
         S: 'mod_journey:silver_coin'
-    });
+    }).id('mod_journey:gold_coin');
 
     // Rückwärts-Rezept für 9 Bronze-Münzen aus 1 Silbermünze
-    event.shapeless(Item.of('mod_journey:bronze_coin', 9), ['mod_journey:silver_coin']);
+    event.shapeless(Item.of('mod_journey:bronze_coin', 9), ['mod_journey:silver_coin']).id('mod_journey:bronze_coin_from_silver');
 
     // Rückwärts-Rezept für 9 Silber-Münzen aus 1 Goldmünze
-    event.shapeless(Item.of('mod_journey:silver_coin', 9), ['mod_journey:gold_coin']);
+    event.shapeless(Item.of('mod_journey:silver_coin', 9), ['mod_journey:gold_coin']).id('mod_journey:silver_coin_from_gold');
 
 });

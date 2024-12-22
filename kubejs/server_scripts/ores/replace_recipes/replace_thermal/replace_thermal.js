@@ -29,6 +29,16 @@ ServerEvents.recipes(event => {
 
     event.replaceOutput({ output: "thermal:copper_nugget" }, "thermal:copper_nugget", "alltheores:copper_nugget" );
 
+    // -> not working
+    //event.replaceOutput({ id: 'mysticalagriculture:essence/common/sulfur' },'#forge:dusts/sulfur','#forge:gems/sulfur');
+
+    event.forEachRecipe({ id: 'mysticalagriculture:essence/common/sulfur' }, r => {
+        //console.log('replaced?' + (r.replaceOutput('#forge:dusts/sulfur','#forge:gems/sulfur') ? 'yes' : 'no')); // no
+        //console.log('HasOutput ' + (r.hasOutput('#forge:dusts/sulfur') ?'true' : 'false' )); // -> true
+        r.json.get("result").add("tag", "forge:gems/sulfur")
+        event.custom(r.json).id(r.getId())
+    });
+
 })
 
     //Laserdrill needs extra handler.

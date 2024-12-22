@@ -41,4 +41,21 @@ ServerEvents.recipes(event => {
         ])
     });
 
-    })
+    // remove duplicate copper nugget recipes and keep only one
+    event.remove([
+        {not: {mod: "alltheores"}, type: "minecraft:crafting_shapeless", output: "alltheores:copper_nugget" },
+        {not: {mod: "minecraft"},  type: "minecraft:crafting_shaped", output: "minecraft:copper_ingot" }
+        //{type: "minecraft:crafting_shaped", output: "minecraft:copper_ingot" }
+    ])
+
+    /**
+     * we need to re-add copper nugget recipe,
+     * because compacting drawer does not use the `#forge:nuggets/copper` recipe
+     */
+    event.shapeless(
+        'minecraft:copper_ingot',
+        //['9x #forge:nuggets/copper']
+        ['9x alltheores:copper_nugget']
+    ).id('mod_journey:copper_ingot_from_nuggets');
+
+})
