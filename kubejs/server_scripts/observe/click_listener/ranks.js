@@ -1,5 +1,5 @@
 ItemEvents.rightClicked("minecraft:stick", event => {
-    if (event.player.getLevel().toString() === "ServerLevel[modjourney_server]") return;
+    if (event.player.getLevel().toString() !== "ServerLevel[modjourney_server]") return;
     if (event.player.stages.has("member")) return;
 
     let controll_rank = true;
