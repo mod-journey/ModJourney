@@ -6,6 +6,37 @@
 	group: "78025998DBB7AC61"
 	icon: "minecraft:grass_block"
 	id: "62592CBE673BE5C1"
+	images: [
+		{
+			height: 3.0d
+			image: "kubejs:textures/background/mod_journey/icon_512x512.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			color: 1019157
+			dependency: "01256AFE747A1CBF"
+			height: 1.0d
+			hover: ["grüner pointer"]
+			image: "ftbchunks:textures/waypoint_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -4.803571428571431d
+		}
+		{
+			color: 3614107
+			dependency: "01256AFE747A1CBF"
+			height: 1.0d
+			image: "ftbchunks:textures/waypoint_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.9642857142857153d
+			y: -4.803571428571431d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -13,11 +44,16 @@
 			description: [
 				"Dieses Questbuch führt euch durch die Welt der Mods."
 				""
-				"Es beginnt wie jedes normale Minecraft Spiel, für jeden Fortschritt im Questbuch erhalted ihr jedoch Belohnungen und schalted Schritt für Schritt neue Technologie, Magie oder andere Vorteile frei."
+				"Es beginnt wie jedes normale Minecraft Spiel, für jeden Fortschritt im Questbuch erhaltet ihr jedoch Belohnungen und schaltet Schritt für Schritt neue Technologie, Magie oder andere Vorteile frei."
 				""
 				"Mit Hilfe der Münzen könnt ihr im Verlauf des Spieles besonders Items erwerben, die auf \"normalem\" Wege nicht zu finden sind."
 			]
 			id: "01256AFE747A1CBF"
+			rewards: [{
+				id: "5619179DA7CB24C1"
+				item: "minecraft:bundle"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C4F77DADCA06904"
 				title: "Wilkommen ZU Mod Journey"
@@ -727,11 +763,11 @@
 			description: [
 				"Wenn ihr eure Reise durch das Questbuch gemeinsam mit anderen Spielern bestreiten wollt, könnt ihr ein Team gründen."
 				""
-				"Um ein Team zu gründen, öffened ihr mit der Taste (E) das Inventar und klickt links oben auf das Symbol mit den 3 bunten Figuren."
+				"Um ein Team zu gründen, öffnet ihr mit der Taste (E) das Inventar und klickt links oben auf das Symbol mit den 3 bunten Figuren."
 				""
 				"In dem folgenden Menü könnt ihr ein Team gründen und verwalten."
 				""
-				"Neben Grundeeinstellungen, könnt ihr andere Spieler in euer Team einladen um zusammen zu spielen."
+				"Neben Grundeinstellungen, könnt ihr andere Spieler in euer Team einladen um zusammen zu spielen."
 				"Alle Spieler in einem Team teilen sich ein Questbuch und arbeiten zusammen an ihrem gemeinsamen Fortschritt."
 			]
 			id: "6436E46E095D0BDD"
@@ -770,16 +806,16 @@
 		{
 			dependencies: ["01256AFE747A1CBF"]
 			description: [
-				"[ \"Sobald ihr eine \", { \"text\": \"Diamandspitzhacke\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1393B7943AFB6B54\" } }, \" besitzt, könnt ihr die Abbauhilfe Ultimine nutzen.\" ]"
+				"[ \"Sobald ihr eine \", { \"text\": \"Diamantspitzhacke\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1393B7943AFB6B54\" } }, \" besitzt, könnt ihr die Abbauhilfe Ultimine nutzen.\" ]"
 				""
 				"Dadurch bekommt ihr die Möglichkeit eine mehrere Blöcke des selben Types (z.b. Eisenerz) gleichzeitig abzubauen."
 				""
-				"Dazu müsst ihr nur die Ultimine-Taske (Standardmäsig die Taste &d&l^&r&r unter der Escape Taste) während dem Abbauen gedrückt halten."
+				"Dazu müsst ihr nur die Ultimine-Taste (Standardmäßig die Taste &d&l^&r&r unter der Escape Taste) während dem Abbauen gedrückt halten."
 				""
-				"Eine Vorschau zeigt euch, welche Blöcke gleichzeitg abgebaut werden."
+				"Eine Vorschau zeigt euch, welche Blöcke gleichzeitig abgebaut werden."
 				""
 				"{@pagebreak}"
-				"Wenn ihr die Ultimine- und die Shift Taste gedrück halted, könnt ihr mit dem Mausrad zwischen unterschiedlichen Abbau-Formen wählen (Z.b. ein gerader Gang in Blickrichtung, oder eine Treppe nach unten)"
+				"Wenn ihr die Ultimine- und die Shift Taste gedrückt halted, könnt ihr mit dem Mausrad zwischen unterschiedlichen Abbau-Formen wählen (Z.b. ein gerader Gang in Blickrichtung, oder eine Treppe nach unten)"
 			]
 			id: "7EFF472EB4F530FE"
 			subtitle: "Graben wie ein Maulwurf"
@@ -798,12 +834,12 @@
 				""
 				"z.b."
 				"&9/enderchest&r = Öffnet eure Enderkiste"
-				"&9/trashcan&r = Öffnet einen Mülleimer, wo ihr ungewollte Items wwegwerfen könnt."
-				"&9/leatherboard <Kategorie>&r = Zeigt euch die Rangliste."
+				"&9/trashcan&r = Öffnet einen Mülleimer, wo ihr ungewollte Items wegwerfen könnt."
+				"&9/leaderboard <Kategorie>&r = Zeigt euch die Rangliste."
 				"&9/ftbteams msg <text>&r Schickt eine Textnachricht an alle eure Team-Mitglieder."
 				""
 				"&9/recording&r = Zeigt anderen Spielern, dass ihr gerade ein Video aufnehmt."
-				"&9/streaming&r = Zeigt anderen Spielern, dass ihr gerade einen Life-Stream aufnehmt."
+				"&9/streaming&r = Zeigt anderen Spielern, dass ihr gerade einen Live-Stream aufnehmt."
 				""
 				"{@pagebreak}"
 				"&9/spawn&r = Teleportiert euch zum spawn"
@@ -830,7 +866,9 @@
 			dependencies: ["49D841614CC15BE6"]
 			hide: true
 			id: "06058D4919841D02"
+			optional: true
 			rewards: [{
+				auto: "disabled"
 				command: "/ftbranks add @p weekling"
 				elevate_perms: true
 				exclude_from_claim_all: true
@@ -854,10 +892,12 @@
 			description: [
 				"Ab der zweiten Woche kannst du jetzt 50 Chunks (pro Spieler im Team) claimen."
 				""
-				"Außerdem werden die Befehle &9/back&r, &9/home&r, &9/tpa&r und &9/tpahere&r freigeschalted."
+				"Außerdem werden die Befehle &9/back&r, &9/home&r, &9/tpa&r und &9/tpahere&r freigeschaltet."
 			]
 			id: "59E92107A4481944"
+			optional: true
 			rewards: [{
+				auto: "disabled"
 				command: "/ftbranks add @p double-weekling"
 				elevate_perms: true
 				exclude_from_claim_all: true
@@ -878,7 +918,9 @@
 		{
 			dependencies: ["59E92107A4481944"]
 			id: "6E7B5D5F3EC952AD"
+			optional: true
 			rewards: [{
+				auto: "disabled"
 				command: "/ftbranks add @p triple-weekling"
 				elevate_perms: true
 				exclude_from_claim_all: true
@@ -899,7 +941,9 @@
 			dependencies: ["6E7B5D5F3EC952AD"]
 			description: ["Ein Monat bist du bereits auf deiner Reise, um dein Gebiet weiter auszubauen kannst du ab jetzt 75 Chunks (pro Spieler im Team) claimen."]
 			id: "17F4AD786B66A4A7"
+			optional: true
 			rewards: [{
+				auto: "disabled"
 				command: "/ftbranks add @p monthling"
 				elevate_perms: true
 				exclude_from_claim_all: true
@@ -918,7 +962,7 @@
 		}
 		{
 			can_repeat: true
-			description: ["Alle 4 Stunden kann dein Team eine Silbermünze bekommen. Dafür musst Du aktiv auf dem Server online sein."]
+			description: ["Alle 4 Stunden kann dein Team eine Silbermünze bekommen. Die Zeit zählt nur solange Du aktiv auf dem Server online bist."]
 			icon: {
 				Count: 1
 				id: "thermal:silver_coin"
@@ -952,7 +996,7 @@
 		}
 		{
 			can_repeat: true
-			description: ["Du kannst diese Quest alle 24h ein mal abschließen. Der der sie abschließt, erhält die Münzen für das gesamte Team"]
+			description: ["Du kannst diese Quest alle 24h ein mal abschließen. Der Spieler, der die Belohnung abholt, erhält die Münzen für das gesamte Team"]
 			icon: "mod_journey:gold_coin"
 			id: "146D1D0765124A16"
 			optional: true
@@ -974,6 +1018,77 @@
 			title: "Daily"
 			x: -1.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["01256AFE747A1CBF"]
+			description: ["Blaue Pointer geben an, dass es sich um ein sogenanntes \"gated-out\" Item handelt. Dieses Item muss gefertigt werden, sodass ihr mehr Progress aus anderen Mods freischaltet."]
+			id: "4714ADC72743367C"
+			tasks: [{
+				id: "56CE3F986D67E885"
+				title: "Rote Checkmark"
+				type: "checkmark"
+			}]
+			title: "Blaue Checkmark"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["01256AFE747A1CBF"]
+			description: [
+				"Grüne Pointer geben an, dass das Item um welches sich die Quest handelt, von uns modifiziert wurde. "
+				"Es handelt sich um sogenannte \"gatet-in\" Items. Diese werden aus einer vorigen Stage freigeschaltet."
+			]
+			id: "7F5165B07AC3898B"
+			tasks: [{
+				id: "2BE970218C62BC8F"
+				title: "Rote Checkmark"
+				type: "checkmark"
+			}]
+			title: "Grüne Checkmark"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["146D1D0765124A16"]
+			id: "5AD648A031983D6B"
+			optional: true
+			rewards: [{
+				id: "4C9F2D7DFB7F8EDB"
+				item: "mod_journey:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				id: "0C9FA980F26AA1C4"
+				item: "mod_journey:clotted_bloodblock"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["146D1D0765124A16"]
+			id: "239BB08321662A54"
+			optional: true
+			rewards: [{
+				id: "1045FFC4F3CF1CFB"
+				item: "mod_journey:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				id: "5742CDBCC8B95F5D"
+				item: "mod_journey:antimatter_block"
+				type: "item"
+			}]
+			x: 0.4795918367346985d
+			y: 3.051020408163261d
 		}
 	]
 	title: "Minecraft Basics"
