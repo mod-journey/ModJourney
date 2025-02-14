@@ -1,0 +1,1210 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "undergarden"
+	group: "12D6D4D26DC1B099"
+	icon: {
+		Count: 1
+		id: "undergarden:forgotten_battleaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3C60290C7292B9D9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Du benötigst den Catalyst, um den Undergarden besuchen zu können. Platziere Steinziegel, in einer mindestgröße wie ein Netherportal und rechtklicke mit dem Catalyst."]
+			id: "7AFD7B0DAA8D7791"
+			rewards: [{
+				id: "001E23D73F304384"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EB76D8187335029"
+				item: "undergarden:catalyst"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["37678FC28A608F68"]
+			description: ["Nach dem Einschmelzen vom rohen Froststeel erhältst Du ein Ingot."]
+			id: "5D0614C216109F4F"
+			rewards: [{
+				id: "5A3DACBEAFF1FB94"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "028B094EC89FD0C6"
+				item: "undergarden:froststeel_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5D0614C216109F4F"]
+			description: ["Eine Anfängerrüstung, die dich pro Rüstungsteil mehr verlangsamt."]
+			id: "67D770AFB8C867EB"
+			rewards: [{
+				id: "46F7F4108D93A755"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "undergarden:froststeel_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "26A963D2B34DB6C0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "undergarden:froststeel_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:froststeel_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:froststeel_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:froststeel_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Froststeel Armor"
+				type: "item"
+			}]
+			title: "Froststeel Armor"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5AF633DB1C78EDBD"]
+			description: ["Rohes Cloggrum kann geschmolzen werden, dadurch erhält man Cloggrum Ingots"]
+			id: "1CFF5ED27DA0852A"
+			rewards: [{
+				id: "581D918B520525D4"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DAB9730DA36F227"
+				item: "undergarden:cloggrum_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1CFF5ED27DA0852A"]
+			description: ["Die Cloggrum Rüstung ist eine solide starter Rüstung."]
+			icon: {
+				Count: 1
+				id: "undergarden:cloggrum_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "26A870FC3228E17D"
+			rewards: [{
+				id: "058BCFB98392064E"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "491EB618A3195A42"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "undergarden:cloggrum_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:cloggrum_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:cloggrum_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:cloggrum_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Cloggrum Armor"
+				type: "item"
+			}]
+			title: "Cloggrum Armor"
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1CFF5ED27DA0852A"]
+			description: ["Crafte ein Cloggrum Werkzeug, du kannst es später noch veredeln!"]
+			icon: {
+				Count: 1
+				id: "undergarden:cloggrum_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4B4A2387F7C307B6"
+			rewards: [{
+				id: "08FD0A3FD846329C"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03D6F3D7B3CAF8DE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "undergarden:cloggrum_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:cloggrum_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:cloggrum_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:cloggrum_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Cloggrum Tool"
+				type: "item"
+			}]
+			title: "Cloggrum Tools"
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1CFF5ED27DA0852A"]
+			description: ["Mit dem Cloggrum Schwert, hast Du zusätzlich +3 Reichweite auf Mobs"]
+			icon: {
+				Count: 1
+				id: "undergarden:cloggrum_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "46746A29EC0DB581"
+			rewards: [{
+				id: "7EC33E906B07EA9D"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AADB98601C9615B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "undergarden:cloggrum_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:cloggrum_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Cloggrum Weapon"
+				type: "item"
+			}]
+			title: "Cloggrum Weapons"
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1CFF5ED27DA0852A"]
+			description: ["Die Battle Axe kann laut Wiki von Stonewalkern getradet werden oder laut Reddit von den Vergessenen im Dungeon gedroppt werden. Teste es aus und lasse es uns wissen."]
+			id: "785AB01D2228B7A9"
+			rewards: [{
+				id: "3B341570B5D17254"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F221910A92FA294"
+				item: {
+					Count: 1
+					id: "undergarden:cloggrum_battleaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["33B1489D36D5EEFC"]
+			hide_dependency_lines: true
+			id: "3E0EEFCE5F001FD4"
+			rewards: [{
+				id: "08BA457339CBC2B1"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6122ECA1743F592C"
+				item: "undergarden:forgotten_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"785AB01D2228B7A9"
+				"195971D0CE37082F"
+				"3E0EEFCE5F001FD4"
+			]
+			description: ["Eine Mächtige Waffe, welche außerdem recht stylisch aussieht!"]
+			id: "06962A36D95865FD"
+			rewards: [{
+				id: "043F25FE1E13B986"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73CD01803C430B04"
+				item: {
+					Count: 1
+					id: "undergarden:forgotten_battleaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"195971D0CE37082F"
+				"46746A29EC0DB581"
+				"3E0EEFCE5F001FD4"
+			]
+			description: ["Erteile mehr schaden gegen Undergarden Mobs. Ausgenommen sind Boss Mobs."]
+			id: "5937774ED0FCF478"
+			rewards: [{
+				id: "2E90536154B47F63"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5862C6F63DA2F2BA"
+				item: {
+					Count: 1
+					id: "undergarden:forgotten_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"195971D0CE37082F"
+				"4B4A2387F7C307B6"
+				"3E0EEFCE5F001FD4"
+			]
+			description: ["Zusätzliche Undergarden Bonis auf die Forgotten Tools. Außerdem kannst Du mit diesen auch Ultimine betreiben."]
+			icon: {
+				Count: 1
+				id: "undergarden:forgotten_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "548F099E63C07C64"
+			rewards: [
+				{
+					id: "367BACD224F7FA22"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "1449537488A4B79E"
+					item: "mod_journey:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6DC206489437BCB8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "undergarden:forgotten_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:forgotten_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:forgotten_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:forgotten_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Forgotten Tool"
+				type: "item"
+			}]
+			title: "Forgotten Tools"
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3E8BA9AC92928A5B"]
+			description: ["Erhältst Du durch das zusammen craften von 9 x  Utheric Shards"]
+			id: "29CA54BFB00443D1"
+			rewards: [{
+				id: "377C1A9C1F303504"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03F8EADBA7EEB3B3"
+				item: "undergarden:utherium_crystal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["29CA54BFB00443D1"]
+			description: ["Eine solide Rüstung, mit der man durchaus eine lange Zeit gut klar kommt."]
+			icon: {
+				Count: 1
+				id: "undergarden:utherium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1914C5782105712B"
+			rewards: [{
+				id: "7C209730D9EBE7A0"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3209864899ECF55C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "undergarden:utherium_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:utherium_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:utherium_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:utherium_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Utherium Armor"
+				type: "item"
+			}]
+			title: "Utherium Armor"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["29CA54BFB00443D1"]
+			description: ["Utherium Tools sind Ultimine Fähig. Die Waffen verursachen gegen gewisse Gegner mehr Schaden. "]
+			icon: {
+				Count: 1
+				id: "undergarden:utherium_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "412036FA034F30EA"
+			rewards: [{
+				id: "42A819ED59AB541D"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2826BBB3BCCA1C4D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "undergarden:utherium_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:utherium_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:utherium_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:utherium_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:utherium_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Utherium Tool"
+				type: "item"
+			}]
+			title: "Utherium Tools"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D0614C216109F4F"]
+			description: ["Verlangsamt die Gegner die du angreifst."]
+			icon: {
+				Count: 1
+				id: "undergarden:froststeel_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "19009C9588494133"
+			rewards: [{
+				id: "47F6FCC834FAD0D6"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35D7180AD7FB5125"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "undergarden:froststeel_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:froststeel_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:froststeel_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:froststeel_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "undergarden:froststeel_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Froststeel Tool"
+				type: "item"
+			}]
+			title: "Froststeel Tools"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7AFD7B0DAA8D7791"]
+			description: ["Regalium ist in der Welt relativ selten zu finden. Ab einer Höhe von 11. Die Wahrscheinlichkeit welches zu finden ist gleichzusetzen wie Antiker Schrott. Das Erz kannst Du nutzen um mit den Einheimischen Stonewalkern Tauschhandel zu betreiben."]
+			icon: "undergarden:shiverstone_regalium_ore"
+			id: "67973447F729D73A"
+			rewards: [{
+				id: "6B583F86CF5F76E0"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6082C36859C795AE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/regalium"
+					}
+				}
+				title: "Regalium Erz"
+				type: "item"
+			}]
+			title: "Regalium"
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7AFD7B0DAA8D7791"]
+			description: ["Utherium kann ab Höhe 30 gefunden werden. Von der seltenheit her, gleichzusetzen wie Diamanten."]
+			icon: "undergarden:shiverstone_utherium_ore"
+			id: "3D9ECA51804963B2"
+			rewards: [{
+				id: "24FFAD3DD6884D08"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F8CB6916C878EF8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/utherium"
+					}
+				}
+				title: "Utherium Erz"
+				type: "item"
+			}]
+			title: "Utherium"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7AFD7B0DAA8D7791"]
+			description: ["Froststeel kann ab Höhe 80 gefunden werden. Findet man nur in kalten Biomen im Undergarden."]
+			id: "7AFFEA1B611A8CB9"
+			rewards: [{
+				id: "73428FDC909E8290"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22E3DB6E09E101EA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/froststeel"
+					}
+				}
+				title: "Froststeel Erz"
+				type: "item"
+			}]
+			title: "Froststeel"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7AFD7B0DAA8D7791"]
+			description: ["Von der Häufigkeit wie Eisen. Kann auf jeder Höhe gefunden werden."]
+			icon: "undergarden:depthrock_cloggrum_ore"
+			id: "06C275BDFA07CB4A"
+			rewards: [{
+				id: "3B513C5670648870"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6737E2D0A86E5F8C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/cloggrum"
+					}
+				}
+				title: "Clogrum Erz"
+				type: "item"
+			}]
+			title: "Clogrum"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["67973447F729D73A"]
+			id: "7AC068B90786F823"
+			rewards: [{
+				id: "3823266A02745F4A"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55B36AB9F3A75F57"
+				item: "undergarden:regalium_crystal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3D9ECA51804963B2"]
+			description: ["Erhält man durch das abbauen von Utherium Erz."]
+			id: "3E8BA9AC92928A5B"
+			rewards: [{
+				id: "67FC9CB38F03AAAA"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FB1757D452A4AA1"
+				item: "undergarden:utheric_shard"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7AFFEA1B611A8CB9"]
+			description: ["Gewinnt man aus dem Erz Block."]
+			id: "37678FC28A608F68"
+			rewards: [{
+				id: "2338FE7A8CB14134"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0363780F537FA4A7"
+				item: "undergarden:raw_froststeel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["06C275BDFA07CB4A"]
+			description: ["Erhält man durch das abbauen des gleichnamigen Erzes."]
+			id: "5AF633DB1C78EDBD"
+			rewards: [{
+				id: "26317F05FC4175B9"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BE9C36ABA9AA343"
+				item: "undergarden:raw_cloggrum"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["33B1489D36D5EEFC"]
+			description: ["Forgotten Nuggets, werden durch Forgotten Guardians gedroppt. Auch andere Mobs im Undergarden lassen diese Fallen, zu geringeren Chancen aber. "]
+			id: "2AB8746017BEEEA3"
+			rewards: [{
+				id: "0797A66C140EC025"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CFB0E446BEED97A"
+				item: "undergarden:forgotten_nugget"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2AB8746017BEEEA3"]
+			description: ["Das Forgotten Ingot erhältst Du durch das zusammen craften von 9 x Nuggets und benötigst Du um Forgotten Tools herzustellen. Dies basiert auf dem Schmiedevorlagen Rezept."]
+			id: "195971D0CE37082F"
+			rewards: [{
+				id: "5D2523BD44C0D842"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08DD2C8EB109C603"
+				item: "undergarden:forgotten_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0C6E4A026A9AFDC1"]
+			description: [
+				"Sattel einen Dweller und halte ihm den Stock vor die Nase..."
+				".... und lauuuuf."
+			]
+			id: "5D7DA053B6EB899D"
+			rewards: [{
+				id: "13C4E307E9EC73E9"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40E5161FFAA3D405"
+				item: {
+					Count: 1
+					id: "undergarden:underbean_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7AFD7B0DAA8D7791"]
+			description: ["Underbeans, roh scheinen dem Menschen nicht zu schmecken, geröstet haben sie aber durchaus was von gebackenen Mandeln. Außerdem scheinen einige Undergarden Mobs diese Bohnen zu lieben."]
+			id: "0C6E4A026A9AFDC1"
+			rewards: [{
+				id: "60083D8D05800959"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73FE6EBB0BF6C368"
+				item: "undergarden:underbeans"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0C6E4A026A9AFDC1"]
+			description: ["Eine köstliche Mahlzeit, die Dir das Leben im Undergarden versüßt"]
+			id: "1CCD659F19C544C6"
+			rewards: [{
+				id: "2AB314CE38479DDE"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A119107C0540314"
+				item: "undergarden:roasted_underbeans"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7AC068B90786F823"]
+			description: ["Du kannst Overworld Materialien oder Undergarden Materialien vertraden um so schneller an Gute Items zu kommen. Laut Wiki kann man die Kriesaxt auch hier bekommen. Nach dem beschwören von 50 Stonewalkern, hat das nicht geklappt."]
+			icon: "undergarden:regalium_block"
+			id: "0C02F4D3A4CD631B"
+			rewards: [{
+				id: "299F5184CFA3855B"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			subtitle: "Trade mit einem Stoneborn"
+			tasks: [{
+				advancement: "undergarden:undergarden/stoneborn_trade"
+				criterion: ""
+				id: "74733B899B84A33D"
+				type: "advancement"
+			}]
+			title: "Gehe einen Handel ein."
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7AFD7B0DAA8D7791"]
+			id: "03C95A4231EAF03D"
+			rewards: [{
+				id: "2A5F08CEA6AC5EB7"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77A32AFE6801DE01"
+				item: {
+					Count: 1
+					id: "undergarden:slingshot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["03C95A4231EAF03D"]
+			icon: "undergarden:depthrock_pebble"
+			id: "3D10D465EA369E48"
+			rewards: [{
+				id: "529B13868FDFEACC"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0A2EAD87D97A49EC"
+					item: "undergarden:gronglet"
+					type: "item"
+				}
+				{
+					id: "641767295544D96E"
+					item: "undergarden:goo_ball"
+					type: "item"
+				}
+				{
+					id: "211086145E59B3B6"
+					item: "undergarden:rotten_blisterberry"
+					type: "item"
+				}
+				{
+					id: "7F0CA17141123D75"
+					item: "undergarden:depthrock_pebble"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7AFD7B0DAA8D7791"]
+			description: ["Die Vergessenen Hallen sind ein semi starker Dungeon mit einer Hülle von Spawnern und Lootchests. Außerdem hausen hier schon längst vergessene Monster."]
+			id: "33B1489D36D5EEFC"
+			rewards: [{
+				id: "56828EF7D3910B9F"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "undergarden:undergarden/catacombs"
+				criterion: ""
+				id: "741AD181F50F663C"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1CCD659F19C544C6"]
+			description: ["Einmal \"Leuchten\" zum mitnehmen, oder zum snacken."]
+			id: "262C43DC57419CD4"
+			rewards: [{
+				id: "55919B0A23FE98CA"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7128D91D8C0C49D0"
+				item: "undergarden:droopvine_item"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1CCD659F19C544C6"]
+			description: [
+				"Froschschenkel, dann aber bitte gar! Vorsicht vor den Kröten, die wissen sich zu verteidigen. "
+				""
+				"Ob man die auch paaren kann?"
+			]
+			id: "0DAEA91E14746AB6"
+			rewards: [{
+				id: "498B5C25E6BD378F"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3181931BAA8CFC92"
+				item: "undergarden:gloomper_leg"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"75B1DFF177DB3EEB"
+				"753D0CFDD1A78040"
+				"1CDF85C5A461F445"
+			]
+			description: ["Nach dem sammeln von so vielen Zutaten, scheint das wohl die beste Speise zu sein die man sich hier aus dem Undergarden so zusammen suchen kann."]
+			id: "4256D1E40BD2250A"
+			rewards: [
+				{
+					id: "53AD458360F85EB7"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "6C776D815A8F8E60"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64E5CDE70714F3F0"
+				item: "undergarden:gloomgourd_pie"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["26AFE523C18061F6"]
+			description: [
+				"Fast wie Seetang, nur glitzernd. Kann im Ofen köstlich zubereitet werden."
+				"Radon- Zeit für einen Tapetenwechsel?"
+			]
+			id: "753D0CFDD1A78040"
+			rewards: [{
+				id: "7F95F505C6CF60EB"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76C078166A42F9BC"
+				item: "undergarden:glitterkelp"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1CCD659F19C544C6"]
+			description: ["Ein seed den man entweder traden, oder durch das abbauen des mysteriösen Gloomer Kürbisses ercraften kann. "]
+			id: "26AFE523C18061F6"
+			rewards: [{
+				id: "4C2D8BD043817B6F"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "412C699A420B6AF3"
+				item: "undergarden:gloomgourd_seeds"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26AFE523C18061F6"]
+			description: ["Pilze, ob die schmecken?"]
+			icon: "undergarden:blood_mushroom"
+			id: "1CDF85C5A461F445"
+			rewards: [{
+				id: "0E9AB661E653C005"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DCBFF98F634FC05"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "undergarden:mushrooms"
+					}
+				}
+				title: "Any Undergarden Mushroom"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["26AFE523C18061F6"]
+			description: ["Ob zum weitercraften fürs Essen, zum herstellen eines stylischen Gefährten oder einfach zum craften für eine spiltter Bombe - es ist alles dabei. "]
+			id: "75B1DFF177DB3EEB"
+			rewards: [{
+				id: "22206D6D864A4F38"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41E3CA153ECAC3B2"
+				item: "undergarden:gloomgourd"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["195971D0CE37082F"]
+			description: ["Im Grunde wie ein Schneegolem, nur viel Stylischer!"]
+			icon: "undergarden:carved_gloomgourd"
+			id: "4DB1B18A3B301D4E"
+			rewards: [{
+				id: "2810F5A35392A507"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "251BA1494333C4CD"
+					item: "undergarden:forgotten_block"
+					type: "item"
+				}
+				{
+					id: "11BB883D1A755115"
+					item: "undergarden:carved_gloomgourd"
+					type: "item"
+				}
+			]
+			title: "Ein neuer Gefährte"
+			x: -2.5d
+			y: 8.5d
+		}
+	]
+	title: "Undergarden"
+}
