@@ -1,0 +1,2143 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: "16F9BB65CBA165C2"
+	icon: {
+		Count: 1
+		id: "apotheosis:gem"
+		tag: {
+			affix_data: {
+				rarity: "apotheosis:ancient"
+			}
+			gem: "apotheosis:the_end/endersurge"
+		}
+	}
+	id: "20964013F4B07F7F"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Apotheosis bietet eine Vielzahl an verschiedenen Inhalten, um bestehende Vanilla Erfahrungen zu erweitern und auszubauen."
+				""
+				"Vom Enchanting Table über Minibosse zu legendären Waffen und Ausrüstungen ist alles dabei."
+				""
+				"Dieses Questbuch soll dich auf deine Reise durch Apotheosis begleiten und Schritt für Schritt deinen Progress voranbringen."
+			]
+			id: "736169731670410F"
+			shape: "hexagon"
+			subtitle: "Willkommen bei Apotheosis"
+			tasks: [{
+				id: "54E4A312D7912534"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "apotheosis:apoth_chronicle"
+					}
+				}
+				type: "item"
+			}]
+			title: "Magie, Adventure, Utility"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["736169731670410F"]
+			description: [
+				"Dieses Modul von Apotheosis bringt für die Kämpfer unter euch viele Zusätze mit sich."
+				""
+				"So gibt es viele Modifikationen für Waffen, Tools und Rüstungen, Minibosse und mehr!"
+				""
+				"Das Questbuch fokussiert sich darauf, euch durch die Modifizierungsprozesse für die Ausrüstung zu führen."
+				""
+				"Informationen zu Bossmechaniken etc. findet ihr im \"Chronical of Shadows\" Buch."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "52E3890CD233C42D"
+			tasks: [{
+				id: "3EFD7BC8486F976A"
+				title: "Adventure"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["736169731670410F"]
+			description: [
+				"Das wohl größte und umfangreichste Modul in Apotheosis. Dieses Modul verändert die Verwendung des Enchanting Tables von Grund auf."
+				""
+				"Neue Bücherregale, Mechaniken, Items etc."
+				"{@pagebreak}"
+				"Enchanting Table GUI und Bücherregal Stats:"
+				""
+				"-&2Eterna&r: Erhöht das maximale Verzauberungslevel."
+				""
+				"-&cQuanta&r: Erhöht die Breite an zufällig ausgewählten Verzauberungen. "
+				""
+				"-&eRectification&r verringert das Aufkommen negativer Effekte."
+				""
+				"-&5Arcana&r: Erhöht die Wahrscheinlichkeit für seltenere Verzauberungen und die Anzahl an Verzauberungen."
+				""
+				"-&3Enchanting Clues&r: Anzahl an Verzauberungen, die die Vorschau offenbart."
+				""
+				""
+				"Verzauberungsvorgänge brauchen in der Regel eine gewisse Mindestmenge an &2Eterna&r, &cQuanta&r und &5Arcana&r. Manche haben dabei sogar eine Maximalmenge, die nicht überschritten werden darf."
+				""
+				"&nAchte dafür auf die Rezepte im JEI!"
+			]
+			hide: false
+			icon: "minecraft:enchanting_table"
+			id: "209E7BD721F663CC"
+			tasks: [{
+				id: "77FAAC17DAF04807"
+				title: "Enchanting"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["736169731670410F"]
+			description: [
+				"Dieses Modul von Apotheosis erlaubt es, Mobspawner mit Silk Touch abzubauen, mitzunehmen und dann mit bestimmten Items zu modifizieren."
+				""
+				"Mit der \"Capturing\" Verzauberung können Spawneier von getöteten Mobs gedropt werden, mit denen man Spawner zu dem jeweiligen Mob ändern kann."
+				"{@pagebreak}"
+				"&6-&rSoul Lantern: Ignoriert Licht, Mobs spawnen trotz Licht."
+				""
+				"&6-&rFermented Spider Eye: +1 Spawn Count"
+				"Anzahl an Mobs, die pro Spawnvorgang auftauchen"
+				""
+				"&6-&rGhast Tear: +2 Max Entities"
+				"maximale Anzahl dieses Mobs, die gleichzeitig vorhanden sein darf"
+				""
+				"&6-&rWool: Silent"
+				"Mobs machen keine Geräusche mehr"
+				""
+				"&6-&rChorus Fruit: No AI"
+				"Mobs haben keine KI mehr, können weder angreifen noch sich bewegen"
+				""
+				"&6-&rSugar: -10 Min Spawn Delay"
+				"Mindestzeit zum nächsten Spawnvorgang"
+				""
+				"&6-&rPrismarin Crystals: +2 Activation Range"
+				"Reichweite, in der ein Spieler vorhanden sein muss zum Spawnen"
+				""
+				"&6-&rTurtle Egg: Baby Variant"
+				"spawnt nur noch Babymobs"
+				""
+				"&6-&rRedstone Comparator: Redstone Control"
+				"Spawner per Redstone ein- und ausschaltbar"
+				""
+				"&6-&rClock: -10 Max Spawn Delay"
+				"Höchstzeit zum nächsten Spawnvorgang"
+				""
+				"&6-&rDragon Egg: Ignoriert Spawnbedingungen"
+				"Beispiel: Grasblockboden für Tiere, Lichtverhältnisse etc."
+				""
+				"&6-&rBlaze Rod: +1 Spawn Range"
+				"Reichweite, in der Mobs um den Spawner herum auftauchen"
+				""
+				"&6-&rNether Quartz (Offhand): Gegenteiliger Effekt"
+				"kehrt Effekte oben genannter Items um"
+			]
+			icon: "minecraft:spawner"
+			id: "439A11FC8B1BE52A"
+			tasks: [{
+				id: "470552CCC5DF54DE"
+				title: "Spawner"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["736169731670410F"]
+			description: [
+				"Dieses Modul von Apotheosis bringt neue Trankeffekte und -rezepte mit sich. Außerdem kann man sich Potion Charms craften, die ein- und ausschaltbar sind und ihre Trankeffekte über einen längeren Zeitraum nutzbar machen, solange sie im Inventar oder einem Charm-Slot von Curio sind."
+				""
+				"{@pagebreak}"
+				"Neue Effekte:"
+				""
+				"&6-&rAncient Knowledge: Erhöht Erfahrung von Mobs (Stufe I: 5x; Stufe II: 17x)"
+				""
+				"&6-&rBursting Vitality: Verstärkt heilende Effekte (20% pro Stufe)"
+				""
+				"&6-&rGrievous Wounds: Schwächt heilende Effekte (40% pro Stufe, Stufe III verhindert Heilungen)"
+				""
+				"&6-&rSundering: Erhöht erlittenen Schaden (20% pro Stufe), addiert sich mit Resistance"
+				""
+				"&6-&rBleeding: Alle 2 Sekunden wird Schaden erlitten, Schaden steigt mit Stufe, ignoriert Rüstung."
+				"{@pagebreak}"
+				"Neue Rezepte:"
+				""
+				"&6-&rAbsorption: Gibt temporäre Herzen (2 pro Stufe)"
+				""
+				"&6-&rLuck: Verbessert Loot aus bestimmten Quellen (Bsp. Angeln)"
+				""
+				"&6-&rMining Fatigue: Verlangsamt Schlag- und Abbaugeschwindigkeit (20% pro Stufe)"
+				""
+				"&6-&rResistance: Verringert erlittenen Schaden (20% pro Stufe)"
+				""
+				"&6-&rWither: Passiver Schaden (wie Gift) im Wirkungszeitraum, der tödlich sein kann"
+				""
+				"&6-&rHaste: Erhöht Schlag- und Abbaugesschwindigkeit (20% pro Stufe)"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:strong_healing"
+				}
+			}
+			id: "0DE688D34731681F"
+			tasks: [{
+				id: "1CD049F99BFEF2DA"
+				title: "Potions"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["736169731670410F"]
+			description: [
+				"Dieses Modul von Apotheosis bringt ein paar Änderungen für bestimmte Pflanzen."
+				""
+				"&6-&rBambus kann bis zu 32 Blöcke hoch wachsen"
+				""
+				"&6-&rKaktus kann bis zu 5 Blöcke hoch wachsen"
+				""
+				"&6-&rZuckerrohr kann bis zu 255 Blöcke hoch wachsen"
+			]
+			icon: "minecraft:sugar_cane"
+			id: "5DC69AA09B861A9E"
+			tasks: [{
+				id: "58130F61425C0D83"
+				title: "Garden"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["736169731670410F"]
+			description: [
+				"Dieses Modul von Apotheosis bringt ein paar kleine Änderungen im Village-Bereich mit sich:"
+				""
+				"&6-&rDer Fletching Table bekommt einen Nutzen durch spezielle Pfeile, die dort nun gecraftet werden können."
+				""
+				"&6-&rWandering Trader wurden durch besondere Trades verbessert, unter anderem Trades für Beacons, Totems of Undying oder Diamant-Ausrüstung mit sehr starken Verzauberungen."
+			]
+			icon: "minecraft:emerald"
+			id: "48106BE361355567"
+			tasks: [{
+				id: "3DB4DF78EB966730"
+				title: "Village"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["48106BE361355567"]
+			id: "647E124585632397"
+			tasks: [{
+				id: "4E1F12FAE33161A6"
+				item: "minecraft:fletching_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["647E124585632397"]
+			description: ["Obsidianpfeile sind ein direktes Upgrade zu normalen Pfeilen und fügen 20% mehr Schaden zu."]
+			id: "089A9D167D0BF67D"
+			tasks: [{
+				count: 6L
+				id: "1E9FDEE203F2EF80"
+				item: "apotheosis:obsidian_arrow"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["647E124585632397"]
+			description: [
+				"Diese Pfeile fügen getroffenen Zielen Blutung zu. Jeder weitere Treffer erneuert die Debuffzeit und wenn noch Blutung vorhanden war, wird die Stärke erhöht."
+				""
+				"{@pagebreak}"
+				"Blutung/Bleeding:"
+				""
+				"Alle 2 Sekunden wird Schaden erlitten, Schaden steigt mit Stufe, ignoriert Rüstung."
+			]
+			id: "53BB2CEC76A17C43"
+			tasks: [{
+				count: 6L
+				id: "22CAC66755D0B53C"
+				item: "apotheosis:broadhead_arrow"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["647E124585632397"]
+			description: ["Wie der Name schon sagt, können diese Pfeile beim Aufprall explodieren."]
+			id: "18D389616CF6497C"
+			tasks: [{
+				id: "76E42CF93007C2DC"
+				item: "apotheosis:explosive_arrow"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["647E124585632397"]
+			description: ["Diese Pfeile können getroffene Blöcke wie eine Eisenspitzhacke abbauen."]
+			id: "69C2F4C1C00C9E3E"
+			tasks: [{
+				count: 12L
+				id: "1F47342688CF1AD1"
+				item: "apotheosis:iron_mining_arrow"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["647E124585632397"]
+			description: ["Funktionieren wie ihre eiserne Variante, können aber auch Blöcke abbauen, für die man eine diamantene Spitzhacke braucht."]
+			id: "5890B33CF6239031"
+			tasks: [{
+				count: 24L
+				id: "2DC990984593D1CA"
+				item: "apotheosis:diamond_mining_arrow"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0DE688D34731681F"]
+			description: [
+				"Mit 3 Flaschen eines Trankes kannst du dir einen Potion Charm craften, der dir, wenn aktiviert, alle paar Sekunden seinen Potioneffekt gibt und dafür Haltbarkeit verliert. Der Charm hält sogar länger als die 3 verwendeten Tränke zusammen und erlaubt dir, die gegebene Zeitspanne freier zu nutzen."
+				""
+				"Man kann sie auch verzaubern, sodass sie keine Haltbarkeit mehr verlieren."
+			]
+			id: "22C52D850339AF6C"
+			tasks: [{
+				id: "34C59C287F3F9A18"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:night_vision"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:long_night_vision"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:invisibility"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:long_invisibility"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:leaping"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:long_leaping"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:strong_leaping"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:fire_resistance"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:long_fire_resistance"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:swiftness"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:long_swiftness"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:strong_swiftness"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:slowness"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:long_slowness"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:strong_slowness"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:water_breathing"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:poison"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:long_poison"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:strong_poison"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:regeneration"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:long_regeneration"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:strong_regeneration"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:strength"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:potion_charm"
+								tag: {
+									Damage: 0
+									Potion: "minecraft:long_strength"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "minecraft:strong_strength"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "minecraft:weakness"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "minecraft:long_weakness"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "minecraft:luck"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "minecraft:slow_falling"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "minecraft:long_slow_falling"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:mana_regen_potion"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:mana_regen_potion_long"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:mana_regen_potion_strong"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:spell_damage_potion"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:spell_damage_potion_long"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:spell_damage_potion_strong"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:recovery_potion"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:recovery_potion_long"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:recovery_potion_strong"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:blasting_potion"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:blasting_potion_long"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:blasting_potion_strong"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:freezing_potion"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:freezing_potion_long"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:freezing_potion_strong"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:shielding_potion"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:shielding_potion_long"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "ars_nouveau:shielding_potion_strong"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:resistance"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:long_resistance"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:strong_resistance"
+											}
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:absorption"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:long_absorption"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:strong_absorption"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:haste"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:long_haste"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:strong_haste"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:fatigue"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:long_fatigue"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:strong_fatigue"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:wither"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:long_wither"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:strong_wither"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:sundering"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:long_sundering"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:strong_sundering"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:knowledge"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:long_knowledge"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:strong_knowledge"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:vitality"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:long_vitality"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:strong_vitality"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:grievous"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:strong_grievous"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:levitation"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:flying"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:long_flying"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:extra_long_flying"
+											}
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:knockback_resistance"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:long_knockback_resistance"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:strong_knockback_resistance"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:lava_vision"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:long_lava_vision"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:speed_iii"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:poison_resistance"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:long_poison_resistance"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:bug_pheromones"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:long_bug_pheromones"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:soulsteal"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:long_soulsteal"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:strong_soulsteal"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:clinging"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "alexsmobs:long_clinging"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "undergarden:brittleness"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "undergarden:long_brittleness"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "undergarden:strong_brittleness"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "undergarden:featherweight"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "undergarden:long_featherweight"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "undergarden:strong_featherweight"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "undergarden:virulent_resistance"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "undergarden:long_virulent_resistance"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "undergarden:glowing"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "undergarden:long_glowing"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "minecraft:long_water_breathing"
+											}
+										}
+										{
+											Count: 1b
+											id: "apotheosis:potion_charm"
+											tag: {
+												Damage: 0
+												Potion: "apotheosis:long_grievous"
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+				title: "Potion Charm"
+				type: "item"
+			}]
+			title: "Potion Charm"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DC69AA09B861A9E"]
+			description: [
+				"Diese magische Leine kann ein Tier in sich aufnehmen, damit man es sicher transportieren kann."
+				""
+				"Mit der linken Maustaste kann es aufgenommen und mit der rechten wieder abgelegt werden."
+			]
+			id: "75846D07A3651A5F"
+			tasks: [{
+				id: "284FB8938D26F683"
+				item: {
+					Count: 1
+					id: "apotheosis:ender_lead"
+					tag: {
+						Damage: 0
+						entity_data: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F07618A23C6659B"]
+			description: [
+				"Gem Dust wird zum Craften der verschiedenen Tische zur Bearbeitung und Modifizierung von Ausrüstung benötigt."
+				""
+				"Dazu wirft man die Gems auf den Boden und lässt einen Amboss drauf fallen."
+				""
+				"Später kann man es auch an einem der Tische craften."
+			]
+			id: "0BC54337EB830293"
+			subtitle: "Staub! Es ist nur Staub."
+			tasks: [{
+				count: 5L
+				id: "69485809B2879486"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			title: "Crystal M..."
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0BC54337EB830293"]
+			description: [
+				"An diesem Tisch kann Ausrüstung, die von Apotheosis (Mini-)Bossen gedropt wurde, zerlegt werden, um Aufwertungsmaterial zu bekommen."
+				""
+				"Diese Ausrüstung wird \"Affix Item\" genannt."
+				""
+				"Außerdem erlaubt der Tisch, auch Gems zu Staub zu verarbeiten."
+			]
+			id: "0F2C4F134E19A2C1"
+			tasks: [{
+				id: "5D5FBC433AECE1C6"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			title: "Recycling"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0F2C4F134E19A2C1"]
+			description: [
+				"An diesem Tisch können Gems ge-upgradet werden, um ihre Effekte zu verbessern."
+				""
+				"Dafür braucht man zwei identische Edelsteine mit der selben Qualität, Gem Dust und das Aufwertungsmaterial aus der zerlegten Ausrüstung."
+			]
+			id: "57CCD05DF44E26E1"
+			tasks: [{
+				id: "1FB0EDC5C469AA1B"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			title: "Feine Edelsteine, Edle Verfeinerung"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["57CCD05DF44E26E1"]
+			description: [
+				"An diesem Tisch können selbst Affix Items gecraftet werden. Dafür setzt man in den mittleren Slot das zu bearbeitende Item, links oben das Aufwertungsmaterial in der gewünschten Seltenheit und rechts unten die Sigil of Rebirth."
+				""
+				"Wie beim Enchanting Table bekommt man eine Auswahl an Affixen, die unterschiedlich viel kosten. Man kann auch unerwünschte Affixe wieder austauschen, indem man weiter reforged."
+				""
+				"&lWICHTIG&r: An diesem Tisch können nur &8Common&r, &2Uncommon&r und &1Rare&r Seltenheiten gecraftet werden"
+			]
+			icon: "apotheosis:simple_reforging_table"
+			id: "03BE5EF16114B846"
+			tasks: [
+				{
+					id: "448336FE1A7C7B61"
+					item: "apotheosis:simple_reforging_table"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "582C901822EFFD11"
+					item: "apotheosis:sigil_of_rebirth"
+					type: "item"
+				}
+			]
+			title: "Ausrüstung aus eigener Produktion™"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["03BE5EF16114B846"]
+			description: [
+				"An diesem Tisch können Affix Items noch weiter verbessert und die Affixe gezielt ausgetauscht werden."
+				""
+				"Dafür legt man das zu bearbeitende Item in den obersten Slot und die Sigil of Enchantment darunter."
+			]
+			icon: "apotheosis:augmenting_table"
+			id: "1DF4F965DC9C9F39"
+			tasks: [
+				{
+					id: "6BC0968BD196F26E"
+					item: "apotheosis:augmenting_table"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "031A14695642BAF3"
+					item: "apotheosis:sigil_of_enhancement"
+					type: "item"
+				}
+			]
+			title: "Upgrades, people. Upgrades"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["52E3890CD233C42D"]
+			description: [
+				"Aus Lootchests und manchmal auch aus Mob Drops kann man diese Gems erhalten."
+				""
+				"Primär werden sie verwendet, um ihre Eigenschaften in leere Gem-Slots von Ausrüstung zu packen und so die eigenen Fähigkeiten zu steigern."
+			]
+			id: "3F07618A23C6659B"
+			tasks: [{
+				id: "2B5132463EBEBFDE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:gem"
+								tag: {
+									affix_data: {
+										rarity: "apotheosis:ancient"
+									}
+									gem: "apotheosis:core/ballast"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:gem"
+								tag: {
+									affix_data: {
+										rarity: "apotheosis:ancient"
+									}
+									gem: "apotheosis:core/brawlers"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:gem"
+								tag: {
+									affix_data: {
+										rarity: "apotheosis:ancient"
+									}
+									gem: "apotheosis:core/breach"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:gem"
+								tag: {
+									affix_data: {
+										rarity: "apotheosis:ancient"
+									}
+									gem: "apotheosis:core/combatant"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:gem"
+								tag: {
+									affix_data: {
+										rarity: "apotheosis:ancient"
+									}
+									gem: "apotheosis:core/guardian"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:gem"
+								tag: {
+									affix_data: {
+										rarity: "apotheosis:ancient"
+									}
+									gem: "apotheosis:core/lightning"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:gem"
+								tag: {
+									affix_data: {
+										rarity: "apotheosis:ancient"
+									}
+									gem: "apotheosis:core/lunar"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:gem"
+								tag: {
+									affix_data: {
+										rarity: "apotheosis:ancient"
+									}
+									gem: "apotheosis:core/samurai"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:gem"
+								tag: {
+									affix_data: {
+										rarity: "apotheosis:ancient"
+									}
+									gem: "apotheosis:core/slipstream"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:gem"
+								tag: {
+									affix_data: {
+										rarity: "apotheosis:ancient"
+									}
+									gem: "apotheosis:core/solar"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:gem"
+								tag: {
+									affix_data: {
+										rarity: "apotheosis:ancient"
+									}
+									gem: "apotheosis:core/splendor"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:gem"
+								tag: {
+									affix_data: {
+										rarity: "apotheosis:ancient"
+									}
+									gem: "apotheosis:core/tyrannical"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:gem"
+								tag: {
+									affix_data: {
+										rarity: "apotheosis:ancient"
+									}
+									gem: "apotheosis:core/warlord"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:gem"
+								tag: {
+									affix_data: {
+										rarity: "apotheosis:ancient"
+									}
+									gem: "apotheosis:overworld/earth"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:gem"
+								tag: {
+									affix_data: {
+										rarity: "apotheosis:ancient"
+									}
+									gem: "apotheosis:overworld/royalty"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:gem"
+								tag: {
+									affix_data: {
+										rarity: "apotheosis:ancient"
+									}
+									gem: "apotheosis:the_end/endersurge"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:gem"
+								tag: {
+									affix_data: {
+										rarity: "apotheosis:ancient"
+									}
+									gem: "apotheosis:the_end/mageslayer"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:gem"
+								tag: {
+									affix_data: {
+										rarity: "apotheosis:ancient"
+									}
+									gem: "apotheosis:the_nether/blood_lord"
+								}
+							}
+							{
+								Count: 1b
+								id: "apotheosis:gem"
+								tag: {
+									affix_data: {
+										rarity: "apotheosis:ancient"
+									}
+									gem: "apotheosis:the_nether/inferno"
+								}
+							}
+						]
+					}
+				}
+				title: "Edelsteine für edle Steinenthusiasten"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["03BE5EF16114B846"]
+			description: ["Dieser Tisch funktioniert genau wie sein Vorgänger, aber hier können nun auch Affix Items mit &5Epic&r und &6Mythic&r Seltenheit gecraftet werden."]
+			id: "14EE44BE9A6CACA9"
+			tasks: [{
+				id: "43F4894D40B7EE30"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			title: "Bei der Macht von Grayskull."
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["209E7BD721F663CC"]
+			description: [
+				"Der klassische Start in Minecraft Verzauberungen. Enchanting Table hinsetzen, Bücherregale drumherum bauen, und los gehts."
+				""
+				"Die normalen Bücherregale helfen dir, &2Eterna&r zu erhöhen und so Verzauberungen bis Level 30 zu bekommen."
+				""
+				"Skelettschädel erhöhen &cQuanta&r."
+				""
+				"Kerzen erhöhen &5Arcana&r."
+				""
+				"Amethyst Cluster erhöhen &eRectification&r."
+			]
+			hide: true
+			id: "67CAE51EBC46F9F1"
+			tasks: [{
+				count: 15L
+				id: "40AEDCC7D1C08198"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			title: "Level 1-30"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["67CAE51EBC46F9F1"]
+			description: [
+				"Um Verzauberungen bis Level 45 zu bekommen, muss man entweder den Nether oder den Ozean gemeistert haben."
+				""
+				"Beide Bucherregalvarianten erhöhen &2Eterna&r und dessen maximale Grenze."
+				""
+				"Hellshelves erhöhen zusätzlich noch &cQuanta&r."
+				""
+				"Seashelves erhöhen zusätzlich noch &5Arcana&r."
+			]
+			id: "047EA9E03F9DA8BB"
+			tasks: [{
+				count: 15L
+				id: "5E3D615666A2A3C0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:hellshelf"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:seashelf"
+							}
+						]
+					}
+				}
+				title: "Level 45"
+				type: "item"
+			}]
+			title: "Level 45"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["047EA9E03F9DA8BB"]
+			description: [
+				"Sobald dein Setup für Level 45 ausgelegt ist, kannst du die Hell- und Seashelves infusen und zu ihrer Enchanted Variante verbessern."
+				""
+				"Dieser Vorgang funktioniert nur als Lv45 Verzauberung!"
+			]
+			id: "32C5700512A7E86C"
+			tasks: [{
+				id: "30B3C8265D064CFC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:infused_hellshelf"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:infused_seashelf"
+							}
+						]
+					}
+				}
+				title: "Level 54"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"32C5700512A7E86C"
+				"0C7450F1CB8EC522"
+				"42D6F202CE26D9A4"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Damit kann deion Setup noch auf Level 60 ausgeweitet werden. "
+				""
+				"Aber Achtung: Diese stärkeren Regale bringen auch ein paar negative Eigenschaften mit sich!"
+			]
+			id: "05ABC06AABB602DC"
+			tasks: [{
+				count: 15L
+				id: "3CC50E336A1E68EF"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:blazing_hellshelf"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:glowing_hellshelf"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:crystal_seashelf"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:heart_seashelf"
+							}
+						]
+					}
+				}
+				title: "Level 60"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["32C5700512A7E86C"]
+			description: ["Dieses Regal lässt dich mehr Verzauberungen in der Vorschau sehen. Es kann auch verwendet werden, um den negativen Effekten der Blazing Hellshelves entgegenzuwirken."]
+			id: "0C7450F1CB8EC522"
+			optional: true
+			tasks: [{
+				id: "028C0D70383C8A84"
+				item: "apotheosis:sightshelf"
+				type: "item"
+			}]
+			title: "Das Magische Auge"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0C7450F1CB8EC522"]
+			description: ["Dieses Regal ist eine verbesserte Version seines Vorgängers."]
+			id: "287B4338E5CB1AA0"
+			optional: true
+			tasks: [{
+				id: "25CDBA06DDB9319A"
+				item: "apotheosis:sightshelf_t2"
+				type: "item"
+			}]
+			title: "Sichtlich Besser"
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["32C5700512A7E86C"]
+			description: ["Dieses Regal erhöht &eRectification&r. Es kann auch verwendet werden, um den negativen Effekten der Heart-Forged Seashelves entgegenzuwirken."]
+			id: "42D6F202CE26D9A4"
+			optional: true
+			tasks: [{
+				id: "052C6C6FD4BB4F46"
+				item: "apotheosis:rectifier"
+				type: "item"
+			}]
+			title: "Ordnung im Chaos"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["32C5700512A7E86C"]
+			description: [
+				"Dieses Regal erlaubt dir, bestimmte Verzauberungen, die du nicht haben möchtest, herauszufiltern. Stelle es dafür in die Reichweite des Verzauberungstisches und lege ein Verzaubertes Buch mit einer einzelnen unerwünschten Verzauberung hinein."
+				""
+				"Die Anzahl der Bücher erhöht auch &2Eterna&r und &5Arcana&r."
+			]
+			id: "3D0065CD7EC0D9EF"
+			optional: true
+			tasks: [{
+				id: "2A57378136326909"
+				item: "apotheosis:filtering_shelf"
+				type: "item"
+			}]
+			title: "Filteroptionen"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["42D6F202CE26D9A4"]
+			description: ["Dieses Regal ist eine verbesserte Version seines Vorgängers."]
+			id: "55C158C08F87D675"
+			optional: true
+			tasks: [{
+				id: "6FA4A77788F38346"
+				item: "apotheosis:rectifier_t2"
+				type: "item"
+			}]
+			title: "Recht und Ordnung müssen gewahrt werden"
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"55C158C08F87D675"
+				"56959F905714B915"
+			]
+			description: ["Dieses Regal ist eine noch bessere Version seines Vorgängers."]
+			id: "24BF72E2B35CCAD7"
+			optional: true
+			subtitle: "und Ordnung"
+			tasks: [{
+				id: "2F88F2D6271148CE"
+				item: "apotheosis:rectifier_t3"
+				type: "item"
+			}]
+			title: "Bei Allem, was Recht ist"
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["05ABC06AABB602DC"]
+			description: ["Nun geht es tiefer unter die Oberfläche. Deepshelves werden die nächsthöhere Verzauberungsstufe sein."]
+			id: "7DF501F1067F23D2"
+			tasks: [{
+				id: "5F466AFDCBD369B9"
+				item: "apotheosis:dormant_deepshelf"
+				type: "item"
+			}]
+			title: "Vorbereitung für Level 70"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7DF501F1067F23D2"]
+			description: [
+				"Um Deepshelves zu bekommen, müssen die Dormant Varianten im Verzauberungstisch infuset werden."
+				""
+				"Dieser Vorgang funktioniert nur als Lv60 Verzauberung!"
+			]
+			id: "20E6914605CFDF69"
+			tasks: [{
+				id: "2C6F6B1795D595CD"
+				item: "apotheosis:deepshelf"
+				type: "item"
+			}]
+			title: "Level 70"
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["20E6914605CFDF69"]
+			description: [
+				"Dieses besondere Regal erlaubt dir, Schatzverzauberungen im Verzauberungstisch zu bekommen, die man normalerweise nur in Lootkisten finden kann."
+				""
+				"Frost Walker, Soul Speed und Mending sind ein paar Beispiele für Schatzverzauberungen."
+				""
+				"&4ACHTUNG!&r"
+				"Fluchverzauberungen wie \"Curse of Binding\" oder \"Curse of Vanishing\" zählen auch dazu!"
+			]
+			id: "2D0F23DBA856E880"
+			optional: true
+			tasks: [{
+				id: "4F7A95C949C035F6"
+				item: "apotheosis:treasure_shelf"
+				type: "item"
+			}]
+			title: "Schatzverzauberungen"
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["20E6914605CFDF69"]
+			description: [
+				"Um noch stärkere Verzauberungen zu bekommen, muss das Deep Dark nun auch erobert werden."
+				""
+				"Beide Varianten liefern die gleiche Menge &2Eterna&r."
+				""
+				"Das Echoing Deepshelf bringt &5Arcana&r mit sich."
+				""
+				"Das Soul-Touched Deepshelf bringt &cQuanta&r mit sich."
+			]
+			id: "0915EAA3DEB29E46"
+			tasks: [{
+				id: "62145B5C3787975C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:echoing_deepshelf"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:soul_touched_deepshelf"
+							}
+						]
+					}
+				}
+				title: "Level 75"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0915EAA3DEB29E46"]
+			description: [
+				"Um das Deep Dark auch wirklich zu meistern, muss man in der Lage sein, auch den Warden zu besiegen."
+				""
+				"Beide Skulkshelf-Varianten bringen &cQuanta&r und &5Arcana&r in unterschiedlicher Menge und &2Eterna&r in gleicher Menge mit sich."
+				""
+				"Echoing bringt &3Enchanting Clues&r und mehr &5Arcana&r mit sich."
+				""
+				"Soul-Touched bringt &eRectification&r und mehr &cQuanta&r mit sich."
+			]
+			id: "0DC1334D5CA78599"
+			tasks: [{
+				count: 8L
+				id: "681C8F247C99A96F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:echoing_sculkshelf"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:soul_touched_sculkshelf"
+							}
+						]
+					}
+				}
+				title: "Level 80"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0DC1334D5CA78599"]
+			description: [
+				"So auch für den Verzauberungstisch. Dafür muss der Enderdrache herausgefordert und dessen Atemangriff in einer Flasche gesammelt werden. Anschließend kann die Flasche im Verzauberungstisch infuset werden."
+				""
+				"Dieser Vorgang funktioniert nur als Lv80 Verzauberung!"
+			]
+			id: "377A0A03A61E745B"
+			subtitle: "Das Endgame ist zum Greifen nah!"
+			tasks: [{
+				count: 3L
+				id: "1EA9F22D1892E5B9"
+				item: "apotheosis:infused_breath"
+				type: "item"
+			}]
+			title: "Vorbereitung auf Level 90"
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["377A0A03A61E745B"]
+			description: ["Eines der letzten Bücherregale, um den Verzauberungstisch zu maximieren."]
+			id: "3C5C7FA47DA1AF13"
+			tasks: [{
+				id: "2C1B6E1D48B0E629"
+				item: "apotheosis:endshelf"
+				type: "item"
+			}]
+			title: "Level 90"
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3C5C7FA47DA1AF13"]
+			description: [
+				"Dieses Endshelf erlaubt, das maximale Verzauberunglevel von 100 zu erreichen. Allerdings bringt es nur &2Eterna&r mit sich."
+				""
+				"&cQuanta&r, &5Arcana&r, &eRectification&r und &3Enchanting Clues&r müssen dafür aus anderen Quellen bezogen werden."
+			]
+			hide_dependent_lines: true
+			id: "4FE30C332131292E"
+			subtitle: "Das absolute Maximum"
+			tasks: [{
+				id: "4E445066B38AD813"
+				item: "apotheosis:draconic_endshelf"
+				type: "item"
+			}]
+			title: "Level 100"
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3C5C7FA47DA1AF13"]
+			description: ["Ein verbessertes Endshelf, das mehr &2Eterna&r, &cQuanta&r und &5Arcana&r bringt als sein Vorgänger."]
+			id: "3F4E21E41CB14473"
+			optional: true
+			tasks: [{
+				id: "6D77C2CEAD8A8BEE"
+				item: "apotheosis:pearl_endshelf"
+				type: "item"
+			}]
+			title: "The Cooler Level 90"
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["32C5700512A7E86C"]
+			description: [
+				"In diesem Block können Verzauberungen von Büchern eingelagert werden. Diese können dann nach Belieben wieder als Verzauberte Bücher kombiniert und herausgeholt werden. Die maximale Stufe der Verzauberung wird dabei festgelegt von der maximalen Stufe, die von dieser Verzauberung hineingelegt wurde."
+				"{@pagebreak}"
+				"Beispiel:"
+				""
+				"Fünf Bücher mit jeweils Sharpness III werden hineingelegt. Man hätte nun genug Material, um Sharpness V herauszuholen. Aber da Stufe III die höchste Stufe war, die von Sharpness hineingelegt wurde, kann auch nur höchstens Sharpness III wieder herausgeholt werden."
+			]
+			id: "44F60E7D88036BA5"
+			tasks: [{
+				id: "56E2AD46553CF125"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			title: "Lagerplatz für Verzauberungen"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"44F60E7D88036BA5"
+				"4FE30C332131292E"
+			]
+			description: [
+				"In diesem Block können noch mehr Mengen an Verzauberungen gelagert werden als in seinem Vorgänger."
+				""
+				"Dieser muss im Verzauberungstisch infused werden."
+				""
+				"Dieser Vorgang funktioniert nur als Lv100 Verzauberung!"
+				""
+				"&4&lZusätzlich:&r"
+				"Ab dem Einlösen der Quest, kannst Du zusätzlich im Magie-Shop einkaufen. "
+			]
+			id: "4834BF938B07C244"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "0D0EB4751351B1C4"
+					ignore_reward_blocking: true
+					stage: "magic"
+					tags: ["magic"]
+					title: "Magie-Shop"
+					type: "gamestage"
+				}
+				{
+					count: 10
+					id: "3DAD7C62EE6D6C77"
+					item: "mod_journey:gold_coin"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7C55D2B29E0EC573"
+				item: "apotheosis:ender_library"
+				type: "item"
+			}]
+			title: "&4Das Ultimative Lager für Verzauberungen"
+			x: 2.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["67CAE51EBC46F9F1"]
+			description: ["Dieses Regal verringert die Menge von &2Eterna&r und &5Arcana&r. Gut, um begrenzte Arcanabereiche für bestimmte Verzauberungen zu erreichen."]
+			id: "7061359DDF860CFB"
+			optional: true
+			tasks: [{
+				id: "7D21DB03DBA3A204"
+				item: "apotheosis:stoneshelf"
+				type: "item"
+			}]
+			title: "Stur und Steinhart"
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["67CAE51EBC46F9F1"]
+			description: ["Dieses Regal gibt einen 100% Boost für &cQuanta&r und verringert dafür die Menge an &2Eterna&r."]
+			id: "0E74B55074D8E47B"
+			optional: true
+			tasks: [{
+				id: "681C02BFCAA96F81"
+				item: "apotheosis:beeshelf"
+				type: "item"
+			}]
+			title: "Fleißige Bienen"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["67CAE51EBC46F9F1"]
+			description: ["Dieses Regal verringert die Menge von &2Eterna&r und &cQuanta&r. Gut, um begrenzte Quantabereiche für bestimmte Verzauberungen zu erreichen."]
+			id: "5FBE953877FCAC23"
+			optional: true
+			tasks: [{
+				id: "19A486D9223312F6"
+				item: "apotheosis:melonshelf"
+				type: "item"
+			}]
+			title: "Süß und Wohltuend"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["047EA9E03F9DA8BB"]
+			description: [
+				"Apotheosis erlaubt dir, selbst Tridents herzustellen. Dafür muss erst die Inert-Variante gecraftet und dann im Verzauberungstisch infuset werden."
+				""
+				"Dieser Vorgang funktioniert nur als Lv40 Verzauberung!"
+			]
+			id: "565D5FCA805C2F32"
+			optional: true
+			tasks: [
+				{
+					id: "1243A7A84D911B1C"
+					item: "apotheosis:inert_trident"
+					type: "item"
+				}
+				{
+					id: "1C5A8235ADDE55CB"
+					item: {
+						Count: 1
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Neptuns Wille"
+			x: 1.0d
+			y: 4.0d
+		}
+	]
+	title: "Apotheosis"
+}

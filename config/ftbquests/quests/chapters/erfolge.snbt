@@ -1,0 +1,192 @@
+{
+	always_invisible: true
+	autofocus_id: "0B7B7C7A1366C9D1"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "erfolge"
+	group: "138E6CC1C80F610D"
+	icon: "minecraft:writable_book"
+	id: "430393DC3F2A60F9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "industrialforegoing:fluid_sieving_machine"
+			id: "589407ECB629164D"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "1AA066707E0EF4B5"
+				item: "mod_journey:scroll1"
+				type: "item"
+			}]
+			title: "Let's show: Industrial Foregoing"
+			x: -14.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_3_rocket"
+				tag: { }
+			}
+			id: "0B7B7C7A1366C9D1"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "344255FBADB92524"
+				item: "mod_journey:scroll2"
+				type: "item"
+			}]
+			title: "Let's show: Ad Astra"
+			x: -12.5d
+			y: 3.0d
+		}
+		{
+			icon: "thermal:machine_insolator"
+			id: "429795EB7B105CB3"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "4EFA8D4479207B6F"
+				item: "mod_journey:scroll3"
+				type: "item"
+			}]
+			title: "Let's show: Thermal Series"
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			icon: "ae2:certus_quartz_wrench"
+			id: "7C598C88ABF08E11"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "2D9639F17DB8264A"
+				item: "mod_journey:scroll4"
+				type: "item"
+			}]
+			title: "Let's show: AE2"
+			x: -14.0d
+			y: 4.5d
+		}
+		{
+			icon: "bigreactors:basic_reactorfuelrod"
+			id: "12D3B4B92CA5252C"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "4750AFCEE49CDF0F"
+				item: "mod_journey:scroll5"
+				type: "item"
+			}]
+			title: "Let's show: Extreme Reactor"
+			x: -12.5d
+			y: 4.5d
+		}
+		{
+			icon: "powah:crystal_nitro"
+			id: "54E91CBDA4D83EDE"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "3307308966668DD6"
+				item: "mod_journey:scroll6"
+				type: "item"
+			}]
+			title: "Let's show: Powah!"
+			x: -11.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "enderio:soul_engine"
+				tag: { }
+			}
+			id: "4AED5A8C9C70A9C9"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "79E2BBFB779AEA1A"
+				item: "mod_journey:scroll7"
+				type: "item"
+			}]
+			title: "Let's show: Ender IO"
+			x: -14.0d
+			y: 6.0d
+		}
+		{
+			hide: true
+			icon: "fluxnetworks:flux_dust"
+			id: "401717FD15981E80"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "791A2688CD5F77E3"
+				item: "mod_journey:scroll8"
+				type: "item"
+			}]
+			title: "Let's show: Flux Network"
+			x: -12.5d
+			y: 6.0d
+		}
+		{
+			icon: "mekanism:atomic_disassembler"
+			id: "1037AFA7BDC22B53"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "7A28AA8977951CC7"
+				item: "mod_journey:scroll9"
+				type: "item"
+			}]
+			title: "Let's show: Mekanism"
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			icon: "bloodmagic:altar"
+			id: "5902419C7421AA67"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "1FE272431646BEB3"
+				item: "mod_journey:magic_scroll_one"
+				type: "item"
+			}]
+			title: "Lets's show: Blood Magic"
+			x: -14.0d
+			y: 7.5d
+		}
+		{
+			icon: "ars_nouveau:archmage_spell_book"
+			id: "796D47D4DEDA277C"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "08974BA2DB41845F"
+				item: "mod_journey:magic_scroll_two"
+				type: "item"
+			}]
+			title: "Lets's show: Ars Nouveau"
+			x: -12.5d
+			y: 7.5d
+		}
+		{
+			icon: "mob_grinding_utils:solid_xp_baby"
+			id: "25ADF4BACFFF9FB7"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "471D86205B1114BB"
+				item: "mod_journey:magic_scroll_three"
+				type: "item"
+			}]
+			title: "Lets's show: Mob Grinding Utils"
+			x: -11.0d
+			y: 7.5d
+		}
+	]
+	title: "Erfolge"
+}

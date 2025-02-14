@@ -1,0 +1,169 @@
+{
+	autofocus_id: "04D1A0A91AE72503"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "flux_network"
+	group: "0C536217AA8FF9E1"
+	icon: "fluxnetworks:flux_dust"
+	id: "74E4029DEC1BAF42"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"401717FD15981E80"
+				"08BDD4ADC8DDB9C2"
+			]
+			dependency_requirement: "one_completed"
+			hide: true
+			id: "04D1A0A91AE72503"
+			rewards: [{
+				id: "74ACEEE9AE6CC85A"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "Gehe auf Bedrock Ebene. Platziere 1 Redstone Dust auf Bedrock und platziere ein Obsidian."
+			tasks: [{
+				id: "37DEEB89DF1ABE6F"
+				item: "fluxnetworks:flux_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["15697EE0C7A58D46"]
+			id: "75611DC723B62AE4"
+			rewards: [
+				{
+					id: "576199E3FC981A29"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3005AD78463DF1F9"
+					table_id: 4476243188742840184L
+					team_reward: true
+					type: "loot"
+				}
+			]
+			subtitle: "Mit Hilfe des Flux Plugs kannst du Remote Energie deinem Netzwerk hinzufügen"
+			tasks: [{
+				id: "7FD6AEFF35253853"
+				item: "fluxnetworks:flux_plug"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["15697EE0C7A58D46"]
+			id: "2677B43BE16309EC"
+			rewards: [{
+				id: "78CF3F3EC01299F8"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			subtitle: "Mit Hilfe des Flux Points kannst du Energie aus deinem Flux Network verwenden"
+			tasks: [{
+				id: "4BB36A2605F1ED39"
+				item: "fluxnetworks:flux_point"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"75611DC723B62AE4"
+				"2677B43BE16309EC"
+			]
+			id: "79ABB8A2C2D1AD3C"
+			rewards: [{
+				id: "5737F634AC21FE04"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			subtitle: "Baue in deinem Flux Network einen Zwischenspeicher ein."
+			tasks: [{
+				id: "12A0F40BD32B28CF"
+				item: "fluxnetworks:basic_flux_storage"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79ABB8A2C2D1AD3C"]
+			id: "01AEA72DE639B9C3"
+			rewards: [{
+				id: "7A688720201257B5"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			subtitle: "Ein mittelgroßer Energiespeicher für das Flux Network"
+			tasks: [{
+				id: "45F55646352A1361"
+				item: "fluxnetworks:herculean_flux_storage"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["01AEA72DE639B9C3"]
+			id: "42949BA4369F9B3F"
+			rewards: [{
+				id: "3A2F01EB369F9085"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			subtitle: "Ein großer Energiespeicher für das Flux Network"
+			tasks: [{
+				id: "533B68F026630C69"
+				item: "fluxnetworks:gargantuan_flux_storage"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04D1A0A91AE72503"]
+			id: "15697EE0C7A58D46"
+			rewards: [{
+				id: "376B25FEE29B5303"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			subtitle: "Aus dem neu gewonnen Flux Dust, kannst du nun einen Flux Core craften!"
+			tasks: [{
+				id: "1DE6630235E3D92A"
+				item: "fluxnetworks:flux_core"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["42949BA4369F9B3F"]
+			id: "7294DBAAA5588E92"
+			rewards: [{
+				id: "725D047664F4EC69"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			subtitle: "Zum kopieren von gesetzten Einstellungen des Flux Points und des Flux Plugs."
+			tasks: [{
+				id: "07B74821518C9932"
+				item: "fluxnetworks:flux_configurator"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+	]
+	title: "Flux Network"
+}

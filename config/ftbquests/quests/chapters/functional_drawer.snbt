@@ -1,0 +1,487 @@
+{
+	autofocus_id: "1CA7D865E47A7D27"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "functional_drawer"
+	group: "00D014EB3FA9ED8A"
+	icon: "functionalstorage:oak_4"
+	id: "53C1E22F3D3647F5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1CA7D865E47A7D27"
+				"11440B533262C7FB"
+			]
+			id: "61474F5C289C9886"
+			rewards: [{
+				id: "7F6ACAB70DE916DE"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1175F6769E43539F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "Custom Drawer"
+				type: "item"
+			}]
+			title: "Deine ersten Drawer"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			description: ["Functional Storage ist ungleich Storage Drawer. In den vergangen Packs wurde auf Storage Drawer gesetzt. Dies haben wir dieses Jahr geändert. Somit werden einige Vorteile, schon durch diese Mod erzeugt. Wireless-Crafting ist so nun möglich und stark vereinfacht."]
+			disable_toast: true
+			id: "11440B533262C7FB"
+			rewards: [{
+				id: "66291F744DD9504E"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "009105FF3AC43AE2"
+				title: "Functional Storage"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			description: ["Versuche deine Systeme so klein wie möglich zu halten. Große Systeme, mit ungefilterten Zugriffen, egal welcher Art verursachen Lags. Diese gilt es zu vermeiden. Baue Smart, sodass jeder seinen Spielspaß auf dem Server beibehält."]
+			disable_toast: true
+			id: "1CA7D865E47A7D27"
+			rewards: [{
+				id: "1A8984130A155144"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B91BA2F29F2F6D6"
+				title: "Die größe des Systems"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["61474F5C289C9886"]
+			description: [
+				"Der einfachste Drawer. "
+				"Schmeiße eine Truhe in den Crafting Table"
+			]
+			id: "0FC3F9706DE769F0"
+			rewards: [{
+				id: "7CFE85606496B14C"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "067C053448B79D31"
+				item: "functionalstorage:oak_1"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["61474F5C289C9886"]
+			description: ["Mehr Varianten, weniger Platz, dies erreichst du mit dem 2 zu 1 Drawer"]
+			id: "632E51936F4DC306"
+			rewards: [{
+				id: "7A12DB72B562028E"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1321A028FE4DBBF6"
+				item: "functionalstorage:oak_2"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["61474F5C289C9886"]
+			description: ["Es passen immer noch 2.000 Items in den Drawer. Nun aber kannst Du 4 Items a 512 Stück speichern."]
+			id: "0DDB0F96D41D2C24"
+			rewards: [{
+				id: "4F2C99C96FBD9B9A"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D77BE9A9722A61D"
+				item: "functionalstorage:oak_4"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["61474F5C289C9886"]
+			description: ["Auch ein Drawer, dieses mal aber versteckt, oder deinem Baustil angepasst? Versuch es doch mal mit einem framed Drawer. Dieser ist in allen Formen craftbar."]
+			id: "676D5DA809676207"
+			rewards: [{
+				id: "786959E49DBB5A0B"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3297C35B43EA6776"
+				item: "functionalstorage:framed_1"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["61474F5C289C9886"]
+			description: ["Auch Flüssigkeiten lassen sich speichern."]
+			id: "41D35D57A1FFF21E"
+			rewards: [{
+				id: "655464F8930984E5"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69187ADEB01D2509"
+				item: "functionalstorage:fluid_1"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["61474F5C289C9886"]
+			description: ["Doppelt so viele Flüssigkeitstypen, aber nur halb so groß."]
+			id: "5529F9D6301E78F4"
+			rewards: [{
+				id: "7C4E61519D92D123"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "697D79BC6A95BFE5"
+				item: "functionalstorage:fluid_2"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["61474F5C289C9886"]
+			description: [
+				"Du kennst das Spiel ja. 4 mal so viele Typen."
+				"Ach was solls ;-)"
+			]
+			id: "43931506096A6217"
+			rewards: [{
+				id: "7505BD7A4FD71A78"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D03991C7A6BA757"
+				item: "functionalstorage:fluid_4"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3A1677DE6BF4F562"]
+			description: [
+				"Mittels diesem Tool kannst Du einem Storage Controller die einzelnen Drawer zuteilen und Netzwerke erstellen. "
+				"Es gibt Single-Mode und Multi-Mode, sowohl im adden als auch im removen. Lese Dir doch die Beschreibung des Items mal genauer durch."
+			]
+			id: "369134843E12B183"
+			rewards: [{
+				id: "45171B2238D1DC9C"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49732DA0D5C9FFCF"
+				item: {
+					Count: 1
+					id: "functionalstorage:linking_tool"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3A1677DE6BF4F562"]
+			description: ["drawer loggen, oder Stückzahl anzeigen, oder das Icon des Inhaltes verstecken. dafür brauchst du das Item."]
+			id: "3E6AC0930B347725"
+			rewards: [{
+				id: "50D2B90929C58BA8"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A9DD34D199B9EBB"
+				item: "functionalstorage:configuration_tool"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["61474F5C289C9886"]
+			description: ["Das Gehirn deines Storage-Networks. Um diesen Block effektiv zu benutzen, brauchst du eine Konfigurationskarte."]
+			id: "3A1677DE6BF4F562"
+			rewards: [{
+				id: "184B1E164B200C74"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "114A6CD70B1EE587"
+				item: "functionalstorage:storage_controller"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0FC3F9706DE769F0"]
+			description: ["Kupfer gibt es genug in der Welt. Erhalte mehr Speicher durch das hinzufügen in deine Drawer."]
+			id: "313B9F86BFAC170E"
+			rewards: [{
+				id: "260EEF7D72D5B076"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16CA9009DECB3674"
+				item: "functionalstorage:copper_upgrade"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0FC3F9706DE769F0"]
+			description: ["Solltest Du deinen Drawer schon die maximale Anzahl an Upgrades zugewiesen haben, kannst du mittels der nächsten höheren Stufe hier die geringere Stufe ersetzen."]
+			id: "2851C35AFD84C508"
+			rewards: [{
+				id: "6F4EA83744D5A91C"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02DFA3D5F4AE1F4F"
+				item: "functionalstorage:gold_upgrade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0FC3F9706DE769F0"]
+			description: ["Mehr Platz. Einfach mehr Platz."]
+			id: "57E783E20BE966B3"
+			rewards: [{
+				id: "43D04B0F4FC9BF72"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61A78888B7425A8D"
+				item: "functionalstorage:diamond_upgrade"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0FC3F9706DE769F0"]
+			description: [""]
+			id: "0D1CE7A2E7381A55"
+			rewards: [
+				{
+					id: "0F95266502592207"
+					item: "mod_journey:bronze_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02D58C7AB8764E7D"
+					table_id: 7481978013781056868L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "39031ADFF4166FB8"
+				item: "functionalstorage:netherite_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0FC3F9706DE769F0"]
+			description: ["Maximal ein Stack (x64) passt nun nur noch in deinen Drawer. "]
+			id: "7CA92B2E9226BA88"
+			rewards: [{
+				id: "5E62C900F75CB818"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "691F355B288751AD"
+				item: "functionalstorage:iron_downgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0FC3F9706DE769F0"]
+			description: ["Leider ein bisschen Buggy. Arbeitet nur Links vom Drawer."]
+			id: "363B82F586FB4376"
+			rewards: [{
+				id: "65099CC1333E951B"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D6FE9C2B67B52AA"
+				item: "functionalstorage:pusher_upgrade"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0FC3F9706DE769F0"]
+			description: ["Leider ein bisschen Buggy. Arbeitet nur Links vom Drawer."]
+			id: "76E0DAD89676806B"
+			rewards: [{
+				id: "4191B004EFDE514F"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C9303ED97990AE5"
+				item: "functionalstorage:puller_upgrade"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0FC3F9706DE769F0"]
+			description: ["Leider ein bisschen Buggy. Arbeitet nur Links vom Drawer."]
+			id: "64E049BBFA47F794"
+			rewards: [{
+				id: "04C2991C8484FDD4"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65B94D000ABC0E11"
+				item: "functionalstorage:collector_upgrade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0FC3F9706DE769F0"]
+			description: ["Drawer sind nun abhängig des Füllstands mit einem Komparator auslesbar."]
+			id: "6E087C2758FDEB6C"
+			rewards: [{
+				id: "185CF8F7C4BAF45C"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F864B8ABF693547"
+				item: "functionalstorage:redstone_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0FC3F9706DE769F0"]
+			description: ["Alles was die Stackgröße überschreitet wird zerstört (gevoided). Ein einfacher und effizienter Überlaufschutz."]
+			id: "1F72867F68BA7D33"
+			rewards: [{
+				id: "41073859C720DA3E"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "189F82E252104DBA"
+				item: "functionalstorage:void_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3A1677DE6BF4F562"]
+			description: ["Ein Zusätzlicher Anschluss, an dem Du Items deinem Drawersystem zuführen kannst."]
+			id: "68C9A37D916F322A"
+			rewards: [{
+				id: "5753FD0AC032B894"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51C56E6895A1E5A2"
+				item: "functionalstorage:controller_extension"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["61474F5C289C9886"]
+			description: ["Halt dich kompakter."]
+			id: "18C3353BB549027C"
+			rewards: [{
+				id: "2C3B1AFB69BAA507"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A2F641AB5D68CEE"
+				item: "functionalstorage:compacting_drawer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["61474F5C289C9886"]
+			description: ["Halte Dich kompakt."]
+			id: "5BD2AA6ED1E63953"
+			rewards: [{
+				id: "0CD03E71832E7057"
+				item: "mod_journey:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EEF98DEEBA89E97"
+				item: "functionalstorage:simple_compacting_drawer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+	]
+	title: "functional drawer"
+}
