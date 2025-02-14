@@ -4,8 +4,6 @@
 	loot_size: 1
 	order_index: 16
 	rewards: [
-		{ item: "mysticalagriculture:prosperity_seed_base" }
-		{ item: "mysticalagriculture:soulium_seed_base" }
 		{ item: "mysticalagriculture:air_seeds" }
 		{ item: "mysticalagriculture:earth_seeds" }
 		{ item: "mysticalagriculture:water_seeds" }

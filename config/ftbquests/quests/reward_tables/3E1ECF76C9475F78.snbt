@@ -18,7 +18,6 @@
 		{ item: "mysticalagriculture:niotic_crystal_seeds" }
 		{ item: "mysticalagriculture:cyanite_seeds" }
 		{ item: "mysticalagriculture:yellorium_seeds" }
-		{ item: "mysticalagriculture:terrasteel_seeds" }
 	]
 	title: "Tier5"
 }

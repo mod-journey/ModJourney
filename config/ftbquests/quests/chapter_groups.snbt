@@ -1,5 +1,12 @@
 {
 	chapter_groups: [
+		{ id: "138E6CC1C80F610D", title: "&2Admin" }
 		{ id: "78025998DBB7AC61", title: "&b&6Allgemein" }
+		{ id: "00D014EB3FA9ED8A", title: "&b&6Stage I" }
+		{ id: "4B1BD2A866D0526F", title: "&b&6Stage II" }
+		{ id: "29AF41F0C879F47B", title: "&b&6Stage III" }
+		{ id: "0C536217AA8FF9E1", title: "&b&6Stage IV" }
+		{ id: "16F9BB65CBA165C2", title: "&b&6Magie" }
+		{ id: "12D6D4D26DC1B099", title: "&b&6Adventure" }
 	]
 }
