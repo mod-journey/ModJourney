@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Mod Journey",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "",
   "files": [
     {
@@ -1016,7 +1016,7 @@
     },
     {
       "projectID": 580129,
-      "fileID": 5616079,
+      "fileID": 6004490,
       "required": true
     },
     {

@@ -8,9 +8,11 @@
 #
 
 echo "Building client archive"
-ARCHIVE_FILE_NAME=mod-journey-client.zip
+File_Mode="client"
 SCRIPT_DIR="$(dirname "$0")"
 PROJECT_DIR="${SCRIPT_DIR}/../"
+Version_Number="$(cat ${SCRIPT_DIR}/../manifest.json | head -n 14 | tail -n 1 | cut -d '"' -f 4)"
+ARCHIVE_FILE_NAME=mod-journey-${File_Mode}-${Version_Number}.zip
 BUILD_DIR=$(realpath "${PROJECT_DIR}build/")
 
 mkdir -p "${BUILD_DIR}/"
