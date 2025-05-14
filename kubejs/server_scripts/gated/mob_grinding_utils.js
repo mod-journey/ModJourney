@@ -1,7 +1,8 @@
 //priority 0
 
+let mobgrindingutils = (event) => {
 
-ServerEvents.recipes(event => {
+    console.log("Laden des Modules mobgrindingutils gated.")
 
     //replace the rod tag to atm:steel_rod
     event.shaped( Item.of('mob_grinding_utils:mob_swab', 1), [
@@ -52,5 +53,4 @@ ServerEvents.recipes(event => {
         B: stages.stage2.magic.mid,
         D: 'botania:manasteel_nugget'
     }).id('mob_grinding_utils:recipe_saw_upgrade_looting')
-
-})
+}

@@ -1,8 +1,8 @@
 //priority 0
 
-console.log('Ändern der Gated AdAstra Items')
+let adastra_gated = (event) => {
 
-ServerEvents.recipes(event => {
+    console.log('Ändern der Gated AdAstra Items')
 
     // Coal generator
     event.replaceInput(
@@ -72,6 +72,4 @@ ServerEvents.recipes(event => {
         'minecraft:redstone_block',
         stages.stage1.core
     )
-
-
-})
+}

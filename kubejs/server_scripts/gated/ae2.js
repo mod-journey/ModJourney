@@ -1,13 +1,13 @@
 //priority 0
 
+let ae_gated = (event) => {
 
-ServerEvents.recipes(event => {
+    console.log("Laden des Moduls AE2 Gated")
 
     // Inscriber
     event.replaceInput(
-        { id: 'ae2:network/blocks/inscribers' },         // Filterung nach Rezept-ID.
-        'minecraft:sticky_piston',            // Das Item, was ersetzt werden soll.
-        stages.stage1.core                 // Womit wird das Item ersetzt!
+        { id: 'ae2:network/blocks/inscribers' },
+        'minecraft:sticky_piston',
+        stages.stage1.core
     )
-
-})
+}

@@ -1,8 +1,8 @@
 //priority 0
 
-console.log('Gated Ars_Nouveau')
+let arsnoveau_gated = (event) => {
 
-ServerEvents.recipes(event => {
+    console.log('Gated Ars_Nouveau')
 
    //edit the scribes_table to add a bucket of life. #earlygame
    event.forEachRecipe(
@@ -129,5 +129,4 @@ ServerEvents.recipes(event => {
             event.custom(r.json).id(r.getId())
         }
     )
-
-})
+}
