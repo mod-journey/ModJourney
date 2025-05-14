@@ -31,5 +31,6 @@
   "forge:ingots/uranium": "alltheores:uranium_ingot",
   "forge:ingots/chrome": "null",
   "forge:ingots/tin": "alltheores:tin_ingot",
-  "forge:ingots/invar": "alltheores:invar_ingot"
+  "forge:ingots/invar": "alltheores:invar_ingot",
+  "forge:gems/sulfur": "thermal:sulfur"
 }

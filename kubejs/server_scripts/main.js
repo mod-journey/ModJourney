@@ -24,5 +24,5 @@ ServerEvents.recipes((event) => {
     itemcollector_gated( event );
     laserio_gated( event );
     mekanism_gated( event );
-    mobgrindingutils( event );
+    mobgrindingutils( event )
 })
