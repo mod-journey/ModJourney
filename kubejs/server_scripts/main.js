@@ -8,12 +8,13 @@
  *  botania_recipe_gated(event)
  */
 ServerEvents.recipes((event) => {
+    replacer.init(event);
 
     adastra_gated( event );
     ae_gated( event );
     arsnoveau_gated( event );
     bloodmagic_gated( event );
-    cookingforblockhead_gated( event );
+    cookingforblockhead_gated( replacer ); //ReplacerHelp Script @Radon
     enderchestandtank_gated( event );
     enerdeio_gated( event );
     extendedcrafting_gated( event );
@@ -25,4 +26,11 @@ ServerEvents.recipes((event) => {
     laserio_gated( event );
     mekanism_gated( event );
     mobgrindingutils( event )
+    mysticalagriculture_gated( replacer ); //ReplacerHelp Script @Radon
+    powah_gated( event );
+    rfttools_gated( event );
+    sophisticatedbackpacks_gated( replacer )
+    thermal_gated( event );
+
+    remove_item_by_tag( event );    //Checking scipt of using
 })
