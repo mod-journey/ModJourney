@@ -1,4 +1,8 @@
-ServerEvents.recipes(event => {
+//priority 0
+
+let sophisticatedbackpacks_gated = (replacer) => {
+    let event = replacer.event;
+
     // Replace center item in bottom of recipe with stage item
     replacer.replaceInputByPosition(
         {id: 'sophisticatedbackpacks:stack_upgrade_tier_2'},
@@ -34,5 +38,4 @@ ServerEvents.recipes(event => {
      */
 
     event.remove({id: 'sophisticatedbackpacks:inception_upgrade'});
-
-})
+}

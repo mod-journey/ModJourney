@@ -1,7 +1,14 @@
-ServerEvents.recipes(event => {
-    // Replace middle item fir machine frame
-    event.replaceInput({output: 'mysticalagriculture:machine_frame'}, '#forge:stone', stages.stage3.core)
+//priority 0
 
+let mysticalagriculture_gated = (replacer) => {
+    let event = replacer.event;
+
+    // Replace middle item fir machine frame
+    event.replaceInput(
+        {output: 'mysticalagriculture:machine_frame'},
+        '#forge:stone',
+        stages.stage3.core
+    )
 
     // Replace middle item fir altars
     replacer.replaceInputByPosition([
@@ -11,4 +18,4 @@ ServerEvents.recipes(event => {
         1,1,
         { 'item': stages.stage3.core }
     )
-})
+}
