@@ -1,4 +1,4 @@
-ServerEvents.recipes(event => {
+let add_immersive_alternativeCircuitRecipes = event => {
 
     // Take enderpearl recipe and re-create it for duroplast
     event.forEachRecipe({ id: 'thermal:machines/chiller/chiller_ender_to_ender_pearl' }, r => {
@@ -11,4 +11,4 @@ ServerEvents.recipes(event => {
         event.custom(r.json).id('mod_journey/thermal/chiller/phenolic_resin_to_plate_duroplast')
     });
 
-});
+};

@@ -1,44 +1,45 @@
-ServerEvents.recipes(event => {
+//priority: 0
 
-    event.custom(
-        {
-            "type": "mekanism:metallurgic_infusing",
-            "chemicalInput": {
-                "amount": 120,
-                "tag": "mekanism:redstone"
-            },
-            "itemInput": {
-                "ingredient": {
-                    "item" : "ae2:charged_certus_quartz_crystal"
-                }
-            },
-            "output": {
-                "count": 2,
-                "item": "ae2:fluix_crystal"
-            }
+let add_ae2_fluix = event => {
+  event.custom(
+    {
+      "type": "mekanism:metallurgic_infusing",
+      "chemicalInput": {
+        "amount": 120,
+        "tag": "mekanism:redstone"
+      },
+      "itemInput": {
+        "ingredient": {
+          "item": "ae2:charged_certus_quartz_crystal"
         }
-    ).id("mod_journey:infusing/fluix_crystal")
+      },
+      "output": {
+        "count": 2,
+        "item": "ae2:fluix_crystal"
+      }
+    }
+  ).id("mod_journey:infusing/fluix_crystal")
 
-    event.custom(
+  event.custom(
+    {
+      "type": "industrialforegoing:dissolution_chamber",
+      "input": [
         {
-          "type": "industrialforegoing:dissolution_chamber",
-          "input": [
-            {
-              "item": "ae2:charged_certus_quartz_crystal"
-            },
-            {
-              "item": "minecraft:quartz"
-            },
-            {
-              "item": "minecraft:redstone"
-            }
-          ],
-          "inputFluid": "{Amount:1000,FluidName:\"minecraft:water\"}",
-          "output": {
-            "count": 2,
-            "item": "ae2:fluix_crystal"
-          },
-          "processingTime": 300
+          "item": "ae2:charged_certus_quartz_crystal"
+        },
+        {
+          "item": "minecraft:quartz"
+        },
+        {
+          "item": "minecraft:redstone"
         }
-    ).id("mod_journey:dissolution/fluix_crystal")
-})
+      ],
+      "inputFluid": "{Amount:1000,FluidName:\"minecraft:water\"}",
+      "output": {
+        "count": 2,
+        "item": "ae2:fluix_crystal"
+      },
+      "processingTime": 300
+    }
+  ).id("mod_journey:dissolution/fluix_crystal")
+}

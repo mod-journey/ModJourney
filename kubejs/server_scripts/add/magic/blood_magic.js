@@ -1,11 +1,11 @@
-//priority 10
+//priority: 0
 
 /**
- * Fügt ein Rezept hinzu damit die hellforgeparts (Welche als Gated Item eingetragen sind), im
- * weiteren Spielfortschritt auch craftbar sind. Ansonsten findet man diese nämlich nur im hidden Realm.
+ * Add a custom Recipe for the Item Hellforge Parts. Normaly you can loot it only. In our case,
+ * it's a gated Item. So you must also entered the hidden Realm to craft it.
  */
 
-ServerEvents.recipes(event => {
+let add_magic_bloodMagic = event => {
     event.shaped(Item.of('bloodmagic:hellforgedparts', 1),
         [
             'BNB',
@@ -17,4 +17,4 @@ ServerEvents.recipes(event => {
             G: 'apotheosis:mythic_material'
         }
     );
-});
+};

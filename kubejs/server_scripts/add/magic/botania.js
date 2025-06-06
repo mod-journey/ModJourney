@@ -10,7 +10,7 @@
  *
  */
 
-ServerEvents.recipes(event => {
+let add_magic_botania = event => {
 
     let mana_store = 27000;
 
@@ -27,4 +27,4 @@ ServerEvents.recipes(event => {
         mana_store = mana_store + 27000;
     }
 
-});
+};

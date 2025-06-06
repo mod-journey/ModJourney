@@ -1,6 +1,6 @@
 //priority 10
 
-ServerEvents.recipes(event => {
+let add_modjourney_antimatter = event => {
 
     event.shapeless(
         Item.of('mod_journey:anti_ingot', 1),
@@ -31,4 +31,4 @@ ServerEvents.recipes(event => {
             '1x mod_journey:antimatter_block'
         ]
     ).id("modjourney:shapless/crafting_back/antimatter_ingot")
-})
+};
