@@ -36,7 +36,7 @@ ServerEvents.recipes((event) => {
     remove_item_by_tag( event );    //Checking scipt of using
 
 
-    /* "./add" */
+    /* "./add/*" */
     add_adastra_items( event );
     add_ae2_fluix( event );
     add_ae2_skystellingot( event );
@@ -54,4 +54,20 @@ ServerEvents.recipes((event) => {
     // ./add/mod_journey/tag_scrolls.js ---> Tag Event auf Items ggf. verschieben in tags im Zukünftigen Kommit. >"tag_event_mj_scrolls( event );"<
     add_cataclysm( event );
     add_modjourneycoins( event );
+
+    /* "./remove/*" */
+
+
+
+    /**
+     * list of paths, which not implemented now.
+     *
+     *
+     * ./ores/*          ATTENTION, here ive allready implement chunks of codes  to outsourcing in the past project.
+     * ./remove/*
+     * ./observe/*       Here we obtain the old system, or ref. the commit, if we've a impact to performance.
+     * ./replace/*
+     * ./tags/*         ATTENTION, here ive allready implement chunks of codes  to outsourcing in the past project.
+     *                  So while we have here a seperat Event Holder, we will rename the main.js in main_recipes.js and main_tags.js
+     */
 })
