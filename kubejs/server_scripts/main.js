@@ -56,6 +56,25 @@ ServerEvents.recipes((event) => {
     add_modjourneycoins( event );
 
     /* "./remove/*" */
+    remove_ae2_portable_cell( event );
+    remove_ae2_removeComplete( event );
+    remove_aether( event );
+    remove_apotheosis( event );
+    remove_arsNoveau( event );
+    remove_bloodmagic( event );
+    remove_botania( event );
+    remove_easyVillager( event );
+    remove_extremeReactor( event );
+    remove_ftbquest( event );
+    remove_immersive( event );
+    remove_industrial( event );
+    remove_itemfilters( event );
+    remove_mekanism( event );
+    remove_mobGrindingUtils( event );
+    remove_mysticalAgriculture( event );
+    remove_rftAndXnet( event );
+    remove_Thermal( event );
+    // ./remove/pickup_mobs.js ---> Player interact events. Muss an der Stelle gesondert gehandelt werden. GGf. in die Ruprik observe? >"remove_pickup_mobs( event );"<
 
 
 
@@ -64,7 +83,6 @@ ServerEvents.recipes((event) => {
      *
      *
      * ./ores/*          ATTENTION, here ive allready implement chunks of codes  to outsourcing in the past project.
-     * ./remove/*
      * ./observe/*       Here we obtain the old system, or ref. the commit, if we've a impact to performance.
      * ./replace/*
      * ./tags/*         ATTENTION, here ive allready implement chunks of codes  to outsourcing in the past project.
