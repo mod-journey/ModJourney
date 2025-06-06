@@ -84,8 +84,8 @@ ServerEvents.recipes((event) => {
      *
      * ./ores/*          ATTENTION, here ive allready implement chunks of codes  to outsourcing in the past project.
      * ./observe/*       Here we obtain the old system, or ref. the commit, if we've a impact to performance.
-     * ./replace/*
-     * ./tags/*         ATTENTION, here ive allready implement chunks of codes  to outsourcing in the past project.
-     *                  So while we have here a seperat Event Holder, we will rename the main.js in main_recipes.js and main_tags.js
+     * ./replace/*       in replace/loot, we use LootJS as addon from KJS. So perhaps we add this Lootingtables or change it as datapack?
+     * ./tags/*          ATTENTION, here ive allready implement chunks of codes  to outsourcing in the past project.
+     *                   So while we have here a seperat Event Holder, we will rename the main.js in main_recipes.js and main_tags.js
      */
 })
