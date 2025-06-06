@@ -1,4 +1,6 @@
-ServerEvents.recipes(event => {
+//priority: 0
+
+let remove_Thermal = event => {
 
     // TNT Thermal Series
     let tnt = [
@@ -25,11 +27,15 @@ ServerEvents.recipes(event => {
 
     // Funktionsaufruf zum entfernen der Linsen
     tnt.forEach(element => {
-        event.remove({ output: element});
+        event.remove({
+            output: element
+        });
     });
 
     // Enfernen der Florb
-    event.remove({output: 'thermal:florb'})
+    event.remove({
+        output: 'thermal:florb'
+    });
 
     let coinRecipes = [
         // Rezepte für 1 Coin aus Nuggets
@@ -69,10 +75,14 @@ ServerEvents.recipes(event => {
 
     // Entfernen aller definierten Rezepte
     coinRecipes.forEach(recipeId => {
-        event.remove({ id: recipeId });
+        event.remove({
+            id: recipeId
+        });
     });
 
     // Entfernen der Satchel - Bugfix Satchel in Sophisticated Backpacks
-    event.remove({output: 'thermal:satchel'})
+    event.remove({
+        output: 'thermal:satchel'
+    });
 
-})
+};

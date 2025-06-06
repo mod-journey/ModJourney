@@ -1,4 +1,4 @@
-ServerEvents.recipes(event => {
+let remove_itemfilters = event => {
 
     //enfernt alle itemfilter rezepte
     let itemfilters = [
@@ -19,6 +19,8 @@ ServerEvents.recipes(event => {
         'itemfilters:custom',
        ]
     itemfilters.forEach(element => {
-        event.remove({ output: element});
+        event.remove({
+            output: element
+        });
     });
-})
+};

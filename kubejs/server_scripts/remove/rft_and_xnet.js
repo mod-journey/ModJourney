@@ -1,4 +1,6 @@
-ServerEvents.recipes(event => {
+//priority: 0
+
+let remove_rftAndXnet = event => {
 
     let remove = [
         Item.of('rftoolsutility:advanced_charged_porter'),
@@ -18,7 +20,9 @@ ServerEvents.recipes(event => {
     ]
 
     remove.forEach((element) => {
-        event.remove({output: element})
+        event.remove({
+            output: element
+        });
     });
 
-})
+};

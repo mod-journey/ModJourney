@@ -1,6 +1,6 @@
 // priority: 0
 
-ServerEvents.recipes(event => {
+let remove_ae2_removeComplete = event => {
 
     let entfernen = [
         'ae2:vibration_chamber',                        //dodgt early game
@@ -22,6 +22,6 @@ ServerEvents.recipes(event => {
     entfernen.forEach((element) => {
         event.remove({
             output: element
-        })
+        });
     });
-})
+};
