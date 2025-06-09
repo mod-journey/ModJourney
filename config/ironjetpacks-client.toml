@@ -1,4 +1,3 @@
-
 #General configuration options.
 [General]
 	#Enable jetpack sounds?
@@ -14,14 +13,20 @@
 	enable = true
 	#The position preset for the HUD.
 	#0=Top Left, 1=Middle Left, 2=Bottom Left, 3=Top Right, 4=Middle Right, 5=Bottom Right
-	#Range: 0 ~ 5
+	# Default: 1
+	# Range: 0 ~ 5
 	position = 1
 	#The X offset for the HUD.
-	#Range: > -2147483648
+	# Default: 0
+	# Range: > -2147483648
 	offsetX = 0
 	#The Y offset for the HUD.
-	#Range: > -2147483648
+	# Default: 0
+	# Range: > -2147483648
 	offsetY = 0
 	#Show HUD over the chat?
 	showOverChat = false
-
+	#The animation speed for the HUD. lower = slower, higher = faster. 1 is instant.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	animationSpeed = 0.1

@@ -36,4 +36,3 @@ nightWakeTimeOffset = 0
 hammocksStopPhantoms = true
 #If enabled, attempting to sleep in sleeping bags stops phantoms from spawning.
 sleepingBagsStopPhantoms = true
-

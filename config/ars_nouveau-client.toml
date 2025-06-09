@@ -1,4 +1,3 @@
-
 #Lighting
 [lights]
 	#Show the supporter message. This is set to false after the first time.
@@ -6,10 +5,12 @@
 	#If dynamic lights are enabled
 	lightsEnabled = false
 	#How bright the touch light is
-	#Range: 0 ~ 15
+	# Default: 8
+	# Range: 0 ~ 15
 	touchLightLuminance = 8
 	#How long the touch light lasts in ticks
-	#Range: 0 ~ 40
+	# Default: 8
+	# Range: 0 ~ 40
 	touchLightDuration = 8
 	#Light level an entity should emit when dynamic lights are on
 	#Example entry: minecraft:blaze=15
@@ -21,16 +22,20 @@
 #Overlay
 [overlays]
 	#X offset for the tooltip
-	#Range: > -2147483648
+	# Default: 20
+	# Range: > -2147483648
 	xTooltip = 20
 	#Y offset for the tooltip
-	#Range: > -2147483648
+	# Default: 0
+	# Range: > -2147483648
 	yTooltip = 0
 	#X offset for the Mana Bar
-	#Range: > -2147483648
+	# Default: 0
+	# Range: > -2147483648
 	xManaBar = 0
 	#Y offset for the Mana Bar
-	#Range: > -2147483648
+	# Default: 0
+	# Range: > -2147483648
 	yManaBar = 0
 	#If the Storage Lectern should show the recipe book icon
 	showRecipeBook = true
@@ -38,6 +43,14 @@
 	informLights = false
 	#Whether the Selection HUD is toggled or held
 	toggleSelectionHUD = true
+	#X offset for the Spell Name
+	# Default: 10
+	# Range: > -2147483648
+	xSpellName = 10
+	#Y offset for the Spell Name
+	# Default: 30
+	# Range: > -2147483648
+	ySpellName = 30
 
 #Misc
 [misc]
@@ -51,4 +64,3 @@
 	opaque_particles = false
 	#Show spell tooltips with glyphs instead of plain text
 	glyphTooltips = true
-

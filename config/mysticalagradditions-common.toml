@@ -1,16 +1,18 @@
-
 #General configuration options.
 [General]
 	#The amount of Dragon Scales that an Ender Dragon will drop when killed.
-	#Range: 0 ~ 64
+	# Default: 8
+	# Range: 0 ~ 64
 	dragonScalesAmount = 8
 	#The duration of each Essence Apples effects in seconds.
-	#Range: > 1
+	# Default: 180
+	# Range: > 1
 	essenceAppleDuration = 180
 	#Can tier 6 crops be fertilized using Mystical Fertilizer or Fertilized Essence?
 	fertilizableTier6Crops = false
 	#The percentage chance that a Wither will drop a Withering Soul when killed.
-	#Range: 0.0 ~ 1.0
+	# Default: 0.35
+	# Range: 0.0 ~ 1.0
 	witheringSoulChance = 0.35
 
 #World generation options.
@@ -23,4 +25,3 @@
 	generateNetherInferiumOre = true
 	#Should End Inferium Ore generate in the world?
 	generateEndInferiumOre = true
-

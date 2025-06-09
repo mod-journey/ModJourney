@@ -1,13 +1,13 @@
 #Early window height
-earlyWindowHeight = 768
+earlyWindowHeight = 1080
 #Early window framebuffer scale
 earlyWindowFBScale = 1
-#Enable forge global version checking
+#Enable NeoForge global version checking
 versionCheck = true
 #Early window provider
 earlyWindowProvider = "fmlearlywindow"
 #Early window width
-earlyWindowWidth = 1024
+earlyWindowWidth = 1920
 #Early window starts maximized
 earlyWindowMaximized = false
 #Default config path for servers
@@ -22,4 +22,5 @@ earlyWindowControl = true
 maxThreads = -1
 #Squir?
 earlyWindowSquir = false
-
+#Disables File Watcher. Used to automatically update config if its file has been modified.
+disableConfigWatcher = false
