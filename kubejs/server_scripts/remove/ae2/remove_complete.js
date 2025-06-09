@@ -24,4 +24,20 @@ let remove_ae2_removeComplete = event => {
             output: element
         });
     });
+
+
+    let entfernen2 = [
+        'aeinfinitybooster:dimension_card',
+        'ae2:creative_energy_cell',
+        Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:f",id:"minecraft:water"}}'),
+        Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:i",id:"minecraft:cobblestone"}}'),
+    ]
+
+
+    entfernen2.forEach((element) => {
+        event.remove({
+            output: element
+        })
+    });
+
 };
