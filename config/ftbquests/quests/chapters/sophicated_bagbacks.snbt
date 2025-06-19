@@ -1,0 +1,1096 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sophicated_bagbacks"
+	group: "12D6D4D26DC1B099"
+	id: "498D9D93A15CB670"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["120748C2D29DA6FC"]
+			hide_until_deps_visible: true
+			id: "44041124EDB0DD59"
+			rewards: [{
+				id: "61A7E23658EA5B09"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5F18E7D36AB74EEF"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"44041124EDB0DD59"
+				"120748C2D29DA6FC"
+			]
+			hide_until_deps_visible: true
+			id: "1DA3986217ADE592"
+			rewards: [{
+				id: "1AF1862F9B7767C6"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "30761B73744FB36A"
+				item: { count: 1, id: "sophisticatedbackpacks:upgrade_base" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44041124EDB0DD59"]
+			id: "68DE5BDE3F537F42"
+			rewards: [{
+				id: "43BFDB6B20B295EF"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1170A612D35F6B14"
+				item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["68DE5BDE3F537F42"]
+			id: "537E339058A7D8F8"
+			rewards: [{
+				id: "22BA1C7ED584F630"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "300D73D0E0C2295B"
+				item: { count: 1, id: "sophisticatedbackpacks:gold_backpack" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["537E339058A7D8F8"]
+			id: "24BAA2C1FA713866"
+			rewards: [{
+				id: "79CF4DBC26F04D0E"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5448EF73BD5D5CA1"
+				item: { count: 1, id: "sophisticatedbackpacks:diamond_backpack" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["24BAA2C1FA713866"]
+			id: "1A6F631FCF135230"
+			rewards: [{
+				id: "116C9CCB50527227"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E6CD97CF52C9408"
+				item: { count: 1, id: "sophisticatedbackpacks:netherite_backpack" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "120748C2D29DA6FC"
+			rewards: [{
+				id: "0BEDE11F3C64FD0A"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "32A3B13F973EF6CA"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			dependency_requirement: "all_started"
+			id: "3886DDD04C153233"
+			rewards: [{
+				id: "2EDA611A231BBA6C"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16FF79145D05D03D"
+				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_starter_tier" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3886DDD04C153233"]
+			dependency_requirement: "all_started"
+			id: "077C86B2B3E3546C"
+			rewards: [{
+				id: "023777A49950AA90"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "649567DDB61AB590"
+				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_1" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["077C86B2B3E3546C"]
+			id: "73F0DA7E5B71D4C9"
+			rewards: [{
+				id: "68ABF04D570F02BA"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E960B7306B68BBB"
+				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_2" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["73F0DA7E5B71D4C9"]
+			id: "75BA799EEA809FA5"
+			rewards: [{
+				id: "11FEDD5F2ABA3A6D"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2612EF961F992D96"
+				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_3" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["75BA799EEA809FA5"]
+			id: "574EEBFC1C74B329"
+			rewards: [
+				{
+					id: "6D6353DBF1F7E420"
+					item: {
+						components: {
+							"ftbquests:missing_item": "mod_journey:bronze_coin"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "39BF911AB7CE5404"
+					item: {
+						components: {
+							"ftbquests:missing_item": "mod_journey:gold_coin"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7BF565C08E211049"
+				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_4" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "7AD9631F43AD87FD"
+			rewards: [{
+				id: "34F3E6EAB7157A06"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "63CC929DF9953528"
+				item: { count: 1, id: "sophisticatedbackpacks:pickup_upgrade" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7AD9631F43AD87FD"]
+			id: "6D06A0D7D85691CC"
+			rewards: [{
+				id: "455F9F1A9F265CC6"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "22E8545E2FB71B59"
+				item: { count: 1, id: "sophisticatedbackpacks:advanced_pickup_upgrade" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "7BDF271FC28A9299"
+			rewards: [{
+				id: "752049C393B31C89"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "07FE4CD2264B8EA9"
+				item: { count: 1, id: "sophisticatedbackpacks:filter_upgrade" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7BDF271FC28A9299"]
+			id: "3CD003B49F0BCB3B"
+			rewards: [{
+				id: "29D9805CD09F130D"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E89727B90146E3E"
+				item: { count: 1, id: "sophisticatedbackpacks:advanced_filter_upgrade" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "22C805CD0CA544E5"
+			rewards: [{
+				id: "6B9517EFACA515AC"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1001158358E8DAEC"
+				item: { count: 1, id: "sophisticatedbackpacks:magnet_upgrade" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22C805CD0CA544E5"]
+			id: "70C8460C5B716A0A"
+			rewards: [{
+				id: "6958F59AB07F0493"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "085D2B887CDDA2F7"
+				item: { count: 1, id: "sophisticatedbackpacks:advanced_magnet_upgrade" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "1B2FE7C5CBB54589"
+			rewards: [{
+				id: "0B8C6B391F5223EA"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D7663A13603FF20"
+				item: { count: 1, id: "sophisticatedbackpacks:feeding_upgrade" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B2FE7C5CBB54589"]
+			id: "26430E5AE2EF3D6F"
+			rewards: [{
+				id: "3FB3179D4960A465"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "77B846CBCB084678"
+				item: { count: 1, id: "sophisticatedbackpacks:advanced_feeding_upgrade" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "6E80082139A42376"
+			rewards: [{
+				id: "602173F461754731"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "45D615875C501AE2"
+				item: { count: 1, id: "sophisticatedbackpacks:compacting_upgrade" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E80082139A42376"]
+			id: "50861A06499F6A87"
+			rewards: [{
+				id: "4FFFA2757031380B"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A4E6C77EEF5B1E9"
+				item: { count: 1, id: "sophisticatedbackpacks:advanced_compacting_upgrade" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "3DA44DE3F547CCE6"
+			rewards: [{
+				id: "7960D1D1B65BED1A"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "49A61643ADC0EBD4"
+				item: { count: 1, id: "sophisticatedbackpacks:void_upgrade" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3DA44DE3F547CCE6"]
+			id: "0555F3309ADAE672"
+			rewards: [{
+				id: "0F07FE2ACDB61523"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4901D20F6B151688"
+				item: { count: 1, id: "sophisticatedbackpacks:advanced_void_upgrade" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "0C27E1D2CE9711CD"
+			rewards: [{
+				id: "5CE6B11A2FB257F6"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71D5E7E281CE744E"
+				item: { count: 1, id: "sophisticatedbackpacks:restock_upgrade" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C27E1D2CE9711CD"]
+			id: "33AA5240D8DC2EC9"
+			rewards: [{
+				id: "6D5C9D3D25D72278"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37A81907DCAEA93A"
+				item: { count: 1, id: "sophisticatedbackpacks:advanced_restock_upgrade" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "70E808383CECC9A1"
+			rewards: [{
+				id: "60073C2D633D7232"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E5784352F7B751A"
+				item: { count: 1, id: "sophisticatedbackpacks:deposit_upgrade" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["70E808383CECC9A1"]
+			id: "438D14498160D7CF"
+			rewards: [{
+				id: "186FF9B0EDE6BF72"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6717A309E8680E8B"
+				item: { count: 1, id: "sophisticatedbackpacks:advanced_deposit_upgrade" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "0060F8847CDD18D9"
+			rewards: [{
+				id: "152772E67692C921"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "359EA20F5A89C1B6"
+				item: { count: 1, id: "sophisticatedbackpacks:refill_upgrade" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0060F8847CDD18D9"]
+			id: "654C023F49F46370"
+			rewards: [{
+				id: "6B89B1F396B163BF"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "584310EED498909F"
+				item: { count: 1, id: "sophisticatedbackpacks:advanced_refill_upgrade" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "61BAEC3E8D33CC67"
+			rewards: [{
+				id: "5311E2D2CC364D94"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "492E2E3548019D2B"
+				item: { count: 1, id: "sophisticatedbackpacks:smelting_upgrade" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["61BAEC3E8D33CC67"]
+			id: "0B7993AC1A4CB9D9"
+			rewards: [{
+				id: "5222415FF65379AD"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0327C612A9632DC4"
+				item: { count: 1, id: "sophisticatedbackpacks:auto_smelting_upgrade" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "37137208FC2D7F9A"
+			rewards: [{
+				id: "110F7999B9E75F68"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EAD563A0EE87722"
+				item: { count: 1, id: "sophisticatedbackpacks:smoking_upgrade" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["37137208FC2D7F9A"]
+			id: "44EA03142D3BA39E"
+			rewards: [{
+				id: "520293C1423F5ABA"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "66AE12F4375A0731"
+				item: { count: 1, id: "sophisticatedbackpacks:auto_smoking_upgrade" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "4765FE21496CDB09"
+			rewards: [{
+				id: "0FF233A74DCD82DE"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F6F02E0331E4E6C"
+				item: { count: 1, id: "sophisticatedbackpacks:blasting_upgrade" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4765FE21496CDB09"]
+			id: "5CDBF914FFF477D7"
+			rewards: [{
+				id: "4779B5B5CF3481C1"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "668C2A31012289D8"
+				item: { count: 1, id: "sophisticatedbackpacks:auto_blasting_upgrade" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "6E93D46AB70FC4EA"
+			rewards: [{
+				id: "28CDF6DF1B751E41"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "35B2BB016241B534"
+				item: { count: 1, id: "sophisticatedbackpacks:pump_upgrade" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E93D46AB70FC4EA"]
+			id: "6207186159232DB8"
+			rewards: [{
+				id: "5CF6421B93DA0860"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4316128E7E87A09A"
+				item: { count: 1, id: "sophisticatedbackpacks:advanced_pump_upgrade" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "7556BC1029C2B666"
+			rewards: [{
+				id: "70250A5095ED5B0C"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D65C38B8CCCF482"
+				item: { count: 1, id: "sophisticatedbackpacks:tool_swapper_upgrade" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7556BC1029C2B666"]
+			id: "541FAC3028FB33D8"
+			rewards: [{
+				id: "6A7302C1C1E8D1BD"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "719740D197718C97"
+				item: { count: 1, id: "sophisticatedbackpacks:advanced_tool_swapper_upgrade" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "378D7B50458C9799"
+			rewards: [{
+				id: "7B49E5BB8247531E"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "081B29F3ADAAD3C4"
+				item: { count: 1, id: "sophisticatedbackpacks:everlasting_upgrade" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "2F43B87E319D7520"
+			rewards: [{
+				id: "11AD0C6189CF2ED9"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "24B7CEF2BB7E3144"
+				item: { count: 1, id: "sophisticatedbackpacks:crafting_upgrade" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "7C756D847549EF66"
+			rewards: [{
+				id: "08052B6C57B632D6"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C43F827EBA884FD"
+				item: { count: 1, id: "sophisticatedbackpacks:jukebox_upgrade" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "3EC2CF7E940184C9"
+			rewards: [{
+				id: "4947DBEF75D9BC3B"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "19F8C7F99A3D65B9"
+				item: { count: 1, id: "sophisticatedbackpacks:stonecutter_upgrade" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "4759C2D9F4C40115"
+			rewards: [{
+				id: "4C9CD62F4E994369"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F48F0E37DE674B4"
+				item: { count: 1, id: "sophisticatedbackpacks:tank_upgrade" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "778B1BEFC6341B66"
+			rewards: [{
+				id: "5F83BF2BA8A58270"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F95BCE38F0B81A3"
+				item: { count: 1, id: "sophisticatedbackpacks:battery_upgrade" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1DA3986217ADE592"
+				"6207186159232DB8"
+			]
+			id: "789913E88083A2FF"
+			rewards: [{
+				id: "25D25C0EFC5CCB84"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "40D2B2B312010CFE"
+				item: { count: 1, id: "sophisticatedbackpacks:xp_pump_upgrade" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "377AD83C93A06928"
+			rewards: [{
+				id: "0231217299669127"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "627AF892D7947FAC"
+				item: { count: 1, id: "sophisticatedbackpacks:anvil_upgrade" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+	]
+}

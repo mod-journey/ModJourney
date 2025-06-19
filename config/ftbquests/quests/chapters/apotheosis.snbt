@@ -1,0 +1,578 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: "16F9BB65CBA165C2"
+	id: "20964013F4B07F7F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "736169731670410F"
+			tasks: [{
+				id: "54E4A312D7912534"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["736169731670410F"]
+			icon: {
+				id: "minecraft:netherite_sword"
+			}
+			id: "52E3890CD233C42D"
+			tasks: [{
+				id: "3EFD7BC8486F976A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["736169731670410F"]
+			hide_until_deps_visible: false
+			id: "209E7BD721F663CC"
+			tasks: [{
+				id: "77FAAC17DAF04807"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["736169731670410F"]
+			id: "439A11FC8B1BE52A"
+			tasks: [{
+				id: "470552CCC5DF54DE"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["736169731670410F"]
+			icon: {
+				id: "minecraft:potion"
+			}
+			id: "0DE688D34731681F"
+			tasks: [{
+				id: "1CD049F99BFEF2DA"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["736169731670410F"]
+			id: "5DC69AA09B861A9E"
+			tasks: [{
+				id: "58130F61425C0D83"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["736169731670410F"]
+			id: "48106BE361355567"
+			tasks: [{
+				id: "3DB4DF78EB966730"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["48106BE361355567"]
+			id: "647E124585632397"
+			tasks: [{
+				id: "4E1F12FAE33161A6"
+				item: { }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["647E124585632397"]
+			id: "089A9D167D0BF67D"
+			tasks: [{
+				id: "1E9FDEE203F2EF80"
+				item: { }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["647E124585632397"]
+			id: "53BB2CEC76A17C43"
+			tasks: [{
+				id: "22CAC66755D0B53C"
+				item: { }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["647E124585632397"]
+			id: "18D389616CF6497C"
+			tasks: [{
+				id: "76E42CF93007C2DC"
+				item: { }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["647E124585632397"]
+			id: "69C2F4C1C00C9E3E"
+			tasks: [{
+				id: "1F47342688CF1AD1"
+				item: { }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["647E124585632397"]
+			id: "5890B33CF6239031"
+			tasks: [{
+				id: "2DC990984593D1CA"
+				item: { }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0DE688D34731681F"]
+			id: "22C52D850339AF6C"
+			tasks: [{
+				id: "34C59C287F3F9A18"
+				item: { }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DC69AA09B861A9E"]
+			id: "75846D07A3651A5F"
+			tasks: [{
+				id: "284FB8938D26F683"
+				item: { }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F07618A23C6659B"]
+			id: "0BC54337EB830293"
+			tasks: [{
+				id: "69485809B2879486"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0BC54337EB830293"]
+			id: "0F2C4F134E19A2C1"
+			tasks: [{
+				id: "5D5FBC433AECE1C6"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0F2C4F134E19A2C1"]
+			id: "57CCD05DF44E26E1"
+			tasks: [{
+				id: "1FB0EDC5C469AA1B"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["57CCD05DF44E26E1"]
+			id: "03BE5EF16114B846"
+			tasks: [
+				{
+					id: "448336FE1A7C7B61"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "582C901822EFFD11"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["03BE5EF16114B846"]
+			id: "1DF4F965DC9C9F39"
+			tasks: [
+				{
+					id: "6BC0968BD196F26E"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "031A14695642BAF3"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["52E3890CD233C42D"]
+			id: "3F07618A23C6659B"
+			tasks: [{
+				id: "2B5132463EBEBFDE"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["03BE5EF16114B846"]
+			id: "14EE44BE9A6CACA9"
+			tasks: [{
+				id: "43F4894D40B7EE30"
+				item: { }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["209E7BD721F663CC"]
+			hide_until_deps_visible: true
+			id: "67CAE51EBC46F9F1"
+			tasks: [{
+				id: "40AEDCC7D1C08198"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["67CAE51EBC46F9F1"]
+			id: "047EA9E03F9DA8BB"
+			tasks: [{
+				id: "5E3D615666A2A3C0"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["047EA9E03F9DA8BB"]
+			id: "32C5700512A7E86C"
+			tasks: [{
+				id: "30B3C8265D064CFC"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"32C5700512A7E86C"
+				"0C7450F1CB8EC522"
+				"42D6F202CE26D9A4"
+			]
+			dependency_requirement: "one_completed"
+			id: "05ABC06AABB602DC"
+			tasks: [{
+				id: "3CC50E336A1E68EF"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["32C5700512A7E86C"]
+			id: "0C7450F1CB8EC522"
+			tasks: [{
+				id: "028C0D70383C8A84"
+				item: { }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0C7450F1CB8EC522"]
+			id: "287B4338E5CB1AA0"
+			tasks: [{
+				id: "25CDBA06DDB9319A"
+				item: { }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["32C5700512A7E86C"]
+			id: "42D6F202CE26D9A4"
+			tasks: [{
+				id: "052C6C6FD4BB4F46"
+				item: { }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["32C5700512A7E86C"]
+			id: "3D0065CD7EC0D9EF"
+			tasks: [{
+				id: "2A57378136326909"
+				item: { }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["42D6F202CE26D9A4"]
+			id: "55C158C08F87D675"
+			tasks: [{
+				id: "6FA4A77788F38346"
+				item: { }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"55C158C08F87D675"
+				"56959F905714B915"
+			]
+			id: "24BF72E2B35CCAD7"
+			tasks: [{
+				id: "2F88F2D6271148CE"
+				item: { }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["05ABC06AABB602DC"]
+			id: "7DF501F1067F23D2"
+			tasks: [{
+				id: "5F466AFDCBD369B9"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7DF501F1067F23D2"]
+			id: "20E6914605CFDF69"
+			tasks: [{
+				id: "2C6F6B1795D595CD"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["20E6914605CFDF69"]
+			id: "2D0F23DBA856E880"
+			tasks: [{
+				id: "4F7A95C949C035F6"
+				item: { }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["20E6914605CFDF69"]
+			id: "0915EAA3DEB29E46"
+			tasks: [{
+				id: "62145B5C3787975C"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0915EAA3DEB29E46"]
+			id: "0DC1334D5CA78599"
+			tasks: [{
+				id: "681C8F247C99A96F"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0DC1334D5CA78599"]
+			id: "377A0A03A61E745B"
+			tasks: [{
+				id: "1EA9F22D1892E5B9"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["377A0A03A61E745B"]
+			id: "3C5C7FA47DA1AF13"
+			tasks: [{
+				id: "2C1B6E1D48B0E629"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3C5C7FA47DA1AF13"]
+			hide_dependent_lines: true
+			id: "4FE30C332131292E"
+			tasks: [{
+				id: "4E445066B38AD813"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3C5C7FA47DA1AF13"]
+			id: "3F4E21E41CB14473"
+			tasks: [{
+				id: "6D77C2CEAD8A8BEE"
+				item: { }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["32C5700512A7E86C"]
+			id: "44F60E7D88036BA5"
+			tasks: [{
+				id: "56E2AD46553CF125"
+				item: { }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"44F60E7D88036BA5"
+				"4FE30C332131292E"
+			]
+			id: "4834BF938B07C244"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "0D0EB4751351B1C4"
+					stage: ""
+					type: "gamestage"
+				}
+				{
+					id: "3DAD7C62EE6D6C77"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C55D2B29E0EC573"
+				item: { }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["67CAE51EBC46F9F1"]
+			id: "7061359DDF860CFB"
+			tasks: [{
+				id: "7D21DB03DBA3A204"
+				item: { }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["67CAE51EBC46F9F1"]
+			id: "0E74B55074D8E47B"
+			tasks: [{
+				id: "681C02BFCAA96F81"
+				item: { }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["67CAE51EBC46F9F1"]
+			id: "5FBE953877FCAC23"
+			tasks: [{
+				id: "19A486D9223312F6"
+				item: { }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["047EA9E03F9DA8BB"]
+			id: "565D5FCA805C2F32"
+			tasks: [
+				{
+					id: "1243A7A84D911B1C"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "1C5A8235ADDE55CB"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 4.0d
+		}
+	]
+}

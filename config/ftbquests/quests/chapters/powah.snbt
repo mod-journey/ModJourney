@@ -1,0 +1,932 @@
+{
+	autofocus_id: "7E5BBD28E9BD33E9"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "29AF41F0C879F47B"
+	id: "794E571853408FC4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["03993D2DCBC69C3A"]
+			hide_until_deps_visible: true
+			id: "69CA3D774927EF1E"
+			rewards: [{
+				id: "11454A7638ADC036"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "145A870C0B729954"
+				item: { count: 1, id: "powah:energizing_orb" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"13B7A3863BECAD64"
+				"4E1D47FF582DA376"
+			]
+			dependency_requirement: "one_completed"
+			id: "7E5BBD28E9BD33E9"
+			rewards: [{
+				id: "4B14982042D3BCCA"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "667A2BE5B955BA43"
+				type: "checkmark"
+			}]
+			x: 0.04285714285714448d
+			y: -0.27857142857142847d
+		}
+		{
+			dependencies: ["2496090B13AD140C"]
+			id: "0BB0BC7C847CE06A"
+			rewards: [{
+				id: "25CC9E82DA30CD45"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37FEF5AD23A7D270"
+				item: { count: 1, id: "powah:energy_discharger_starter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2496090B13AD140C"]
+			id: "1840E2C4550564D5"
+			rewards: [{
+				id: "1D1AC83BA922CB18"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "012FE9916E44930D"
+				item: { count: 1, id: "powah:reactor_starter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2496090B13AD140C"]
+			id: "48F3472B18648E82"
+			rewards: [{
+				id: "473611ED8269CA93"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7782A9D070868419"
+				item: { count: 1, id: "powah:solar_panel_starter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2496090B13AD140C"]
+			id: "181C5275E9678EDC"
+			rewards: [{
+				id: "55004B6E6E11D5DD"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "32BBAC68FD41F329"
+				item: { count: 1, id: "powah:furnator_starter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2496090B13AD140C"]
+			id: "6D8C8F5FCCC086C0"
+			rewards: [{
+				id: "4E36C2DDB26D5925"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D60B0B641198D2D"
+				item: { count: 1, id: "powah:magmator_starter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2496090B13AD140C"]
+			id: "48A426951585B3E6"
+			rewards: [
+				{
+					id: "79E49B186A7C4BC1"
+					item: {
+						components: {
+							"ftbquests:missing_item": "mod_journey:bronze_coin"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E5A0814F9C51296"
+					table_id: 4163070181652591131L
+					team_reward: true
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "48E1F29179A8BA0E"
+				item: { count: 1, id: "powah:thermo_generator_starter" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2DE28895E3897B29"]
+			id: "5F2DC3215BEC9C68"
+			rewards: [{
+				id: "2F0C064CF1C0CECD"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "578729ED52E9C785"
+				item: { count: 1, id: "powah:battery_starter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DE28895E3897B29"]
+			id: "004FACEE5A1D9E61"
+			rewards: [
+				{
+					id: "11E1E87C4E26AEC3"
+					item: {
+						components: {
+							"ftbquests:missing_item": "mod_journey:bronze_coin"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05408DE815D6C6B2"
+					table_id: 4163070181652591131L
+					team_reward: true
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6E14EC223D839E32"
+				item: { count: 1, id: "powah:energy_cell_starter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DE28895E3897B29"]
+			id: "181561179B55197E"
+			rewards: [{
+				id: "44B0BAD123E81C25"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "477F2CC306A15CA4"
+				item: { count: 1, id: "powah:ender_cell_starter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DE28895E3897B29"]
+			id: "3AE05262BCF6560F"
+			rewards: [{
+				id: "4D7C7CB3105CEC04"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AC03D76A91346F2"
+				item: { count: 1, id: "powah:energy_cable_starter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DE28895E3897B29"]
+			id: "60B7003EF62EB651"
+			rewards: [{
+				id: "2F8187CD6886A41E"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E14D1CDB7A67D30"
+				item: { count: 1, id: "powah:ender_gate_starter" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DE28895E3897B29"]
+			id: "39A2FE8389D8CF87"
+			rewards: [{
+				id: "4F3A73E361E931D2"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C0C73AD09CC6188"
+				item: { count: 1, id: "powah:player_transmitter_starter" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DE28895E3897B29"]
+			id: "08377ECC8FA7DD80"
+			rewards: [{
+				id: "597884552BFCE1DF"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "485388830735E5AA"
+				item: { count: 1, id: "powah:energy_hopper_starter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DE28895E3897B29"]
+			id: "663D58FDB00228B1"
+			rewards: [
+				{
+					id: "177D6944B34C4459"
+					item: {
+						components: {
+							"ftbquests:missing_item": "mod_journey:bronze_coin"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D987C7AAAC961CF"
+					table_id: 4163070181652591131L
+					team_reward: true
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "4946A8367B176176"
+				item: { count: 1, id: "powah:energizing_rod_starter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7E5BBD28E9BD33E9"]
+			id: "2496090B13AD140C"
+			rewards: [{
+				id: "407CE4805D45224F"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62F2C4411EA05CAE"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2496090B13AD140C"]
+			id: "2DE28895E3897B29"
+			rewards: [{
+				id: "2B80FAD2D04C80FC"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "50C71CBAE6E38C8A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["03993D2DCBC69C3A"]
+			id: "1FCFB67BE712AB97"
+			rewards: [{
+				id: "7103D7713BBC28D9"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "766EE6E559391240"
+				item: { count: 1, id: "powah:energizing_rod_basic" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1FCFB67BE712AB97"]
+			id: "0C9A56AE665B29A7"
+			rewards: [{
+				id: "03D7D3CCABEC09A3"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7ECDC7A818E2660D"
+				item: { count: 1, id: "powah:energizing_rod_hardened" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0C9A56AE665B29A7"]
+			id: "5E039C48CE24F1FD"
+			rewards: [{
+				id: "315FDAB6A72CC184"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EFAFC71245E6468"
+				item: { count: 1, id: "powah:energizing_rod_blazing" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5E039C48CE24F1FD"]
+			id: "052F1AB54FECE74C"
+			rewards: [{
+				id: "6979FBB35F3C22CA"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17AAEAABAB98252C"
+				item: { count: 1, id: "powah:energizing_rod_niotic" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["052F1AB54FECE74C"]
+			id: "085524FB2AA3BAEF"
+			rewards: [{
+				id: "1471206C3DBEFE9C"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EC708F3042794AC"
+				item: { count: 1, id: "powah:energizing_rod_spirited" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["085524FB2AA3BAEF"]
+			id: "10552CFF145F722D"
+			rewards: [{
+				id: "37A135D5DE6C41D0"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "300F16D66AEA289D"
+				item: { count: 1, id: "powah:energizing_rod_nitro" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["39A2FE8389D8CF87"]
+			id: "399C9B626732C513"
+			rewards: [{
+				id: "48E88AAFB7314FFA"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "79C104E82169752F"
+				item: { count: 1, id: "powah:aerial_pearl" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["39A2FE8389D8CF87"]
+			id: "695526C12D5AE2E6"
+			rewards: [{
+				id: "064730D1EA7E7700"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C00342F490A218C"
+				item: { count: 1, id: "powah:binding_card" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"10552CFF145F722D"
+				"085524FB2AA3BAEF"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_visible: false
+			id: "08BDD4ADC8DDB9C2"
+			rewards: [
+				{
+					id: "216270478ADF5F01"
+					item: {
+						components: {
+							"ftbquests:missing_item": "mod_journey:bronze_coin"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "39CC0E8A4175A907"
+					item: {
+						components: {
+							"ftbquests:missing_item": "mod_journey:gold_coin"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					exclude_from_claim_all: true
+					id: "73DE5AC2BEA2503C"
+					ignore_reward_blocking: true
+					stage: "technic"
+					tags: ["technic"]
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C5B8277F9E57ECC"
+					table_id: 4163070181652591131L
+					team_reward: true
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "611F306A250EA20E"
+				item: { count: 1, id: "powah:crystal_nitro" }
+				type: "item"
+			}]
+			x: -5.24285714285714d
+			y: 12.489285714285714d
+		}
+		{
+			dependencies: ["052F1AB54FECE74C"]
+			id: "28467BD83047B107"
+			rewards: [{
+				id: "50192BD5DC2E6470"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59F4FF0EA6036BAF"
+				item: { count: 1, id: "powah:crystal_spirited" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5E039C48CE24F1FD"]
+			id: "4E85CB4C5C6BF88E"
+			rewards: [{
+				id: "15872894F46B315F"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "550008E319723D5D"
+				item: { count: 1, id: "powah:crystal_niotic" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0C9A56AE665B29A7"]
+			id: "7885A68DC52188F3"
+			rewards: [{
+				id: "5ABDBAA8A13DDD27"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "54F405423421A525"
+				item: { count: 1, id: "powah:crystal_blazing" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1FCFB67BE712AB97"]
+			id: "0E287F74847CB367"
+			rewards: [{
+				id: "4AB3E6836FD78AFB"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0589C8044AC283E8"
+				item: { count: 1, id: "powah:steel_energized" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7885A68DC52188F3"]
+			id: "3253AC6BB40CD3AD"
+			rewards: [{
+				id: "628E8C4DD8BD76F3"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "317A6719917A432C"
+				item: { count: 1, id: "powah:blazing_crystal_block" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2DE28895E3897B29"]
+			id: "14FBB805C032D907"
+			rewards: [{
+				id: "071C0523B7905B63"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EF66C8DDB6EC1D6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"13B7A3863BECAD64"
+				"4E1D47FF582DA376"
+			]
+			id: "012414144A7C0228"
+			rewards: [{
+				id: "3E4C7C9DC253990C"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FCBFBDD2BEBBDF0"
+				item: { count: 1, id: "powah:dielectric_paste" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["012414144A7C0228"]
+			id: "5749EC872D93D38E"
+			rewards: [{
+				id: "25ECB291CF7F5E08"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "44F1FBB1AEB926F0"
+				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.7714285714285758d
+		}
+		{
+			dependencies: [
+				"0A07C47718CD1F80"
+				"54E91CBDA4D83EDE"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "4E1D47FF582DA376"
+			rewards: [{
+				id: "08CE2C5798BCD98E"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "3E8E75F1EF1000F5"
+				item: { count: 1, id: "powah:dielectric_casing" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.8000000000000007d
+		}
+		{
+			dependencies: [
+				"0A07C47718CD1F80"
+				"54E91CBDA4D83EDE"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_visible: true
+			id: "13B7A3863BECAD64"
+			rewards: [{
+				id: "5291D9696FEFCCB7"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "5A7EC113D64214B2"
+				item: { count: 1, id: "powah:capacitor_basic" }
+				type: "item"
+			}]
+			x: 0.9714285714285751d
+			y: -0.8285714285714256d
+		}
+		{
+			dependencies: ["14FBB805C032D907"]
+			disable_toast: true
+			id: "03993D2DCBC69C3A"
+			rewards: [{
+				id: "3E7D0E7599AC930B"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "53B18E5BAB3E03CC"
+				item: { count: 1, id: "powah:energizing_rod_starter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+	]
+}

@@ -1,37 +1,35 @@
 {
 	empty_weight: 10.0f
-	icon: "ae2:crafting_accelerator"
 	id: "665E8DEEF59D28E7"
 	loot_size: 1
 	order_index: 11
 	rewards: [
-		{ item: "ae2:logic_processor" }
-		{ item: "ae2:calculation_processor" }
-		{ item: "ae2:engineering_processor" }
-		{ item: "ae2:fluix_smart_cable" }
-		{ item: "ae2:matter_ball" }
-		{ item: "ae2:silicon" }
-		{ item: "ae2:certus_quartz_dust" }
-		{ item: "ae2:charged_certus_quartz_crystal" }
-		{ item: "ae2:certus_quartz_crystal" }
-		{ item: "ae2:nether_quartz_wrench" }
-		{ item: "ae2:sky_stone_block" }
-		{ item: "ae2:crafting_unit" }
-		{ item: "ae2:sky_dust" }
-		{ item: "ae2:fluix_glass_cable" }
-		{ item: "ae2:quartz_fiber" }
-		{ item: "ae2:flawless_budding_quartz" }
-		{ item: "ae2:advanced_card" }
-		{ item: "ae2:basic_card" }
-		{ item: "ae2:cell_component_1k" }
-		{ item: "ae2:cell_component_4k" }
-		{ item: "ae2:singularity" }
-		{ item: "ae2:fluid_cell_housing" }
-		{ item: "ae2:item_cell_housing" }
-		{ item: "ae2:logic_processor_press" }
-		{ item: "ae2:engineering_processor_press" }
-		{ item: "ae2:calculation_processor_press" }
-		{ item: "ae2:silicon_press" }
+		{ id: "19288835F2280234", item: { count: 1, id: "ae2:logic_processor" } }
+		{ id: "72ECE0ABB1EC005F", item: { count: 1, id: "ae2:calculation_processor" } }
+		{ id: "41B59191200B5B80", item: { count: 1, id: "ae2:engineering_processor" } }
+		{ id: "13A93134162D7524", item: { count: 1, id: "ae2:fluix_smart_cable" } }
+		{ id: "133811C1B79AF46E", item: { count: 1, id: "ae2:matter_ball" } }
+		{ id: "487309720AF6CE7D", item: { count: 1, id: "ae2:silicon" } }
+		{ id: "053F0053A0A7AEF5", item: { count: 1, id: "ae2:certus_quartz_dust" } }
+		{ id: "114B778D806EF21A", item: { count: 1, id: "ae2:charged_certus_quartz_crystal" } }
+		{ id: "54DA0496470A23EC", item: { count: 1, id: "ae2:certus_quartz_crystal" } }
+		{ id: "11353089782167FA", item: { count: 1, id: "ae2:nether_quartz_wrench" } }
+		{ id: "5D920E5A1E84BDA6", item: { count: 1, id: "ae2:sky_stone_block" } }
+		{ id: "4ADB3205156AEAEE", item: { count: 1, id: "ae2:crafting_unit" } }
+		{ id: "43CEE10126CD0731", item: { count: 1, id: "ae2:sky_dust" } }
+		{ id: "5F0BB4D9CE19035C", item: { count: 1, id: "ae2:fluix_glass_cable" } }
+		{ id: "72AF5C86CA7A87ED", item: { count: 1, id: "ae2:quartz_fiber" } }
+		{ id: "114ECB47C7EBBD37", item: { count: 1, id: "ae2:flawless_budding_quartz" } }
+		{ id: "1F0531D57AB13798", item: { count: 1, id: "ae2:advanced_card" } }
+		{ id: "0BCD3F9B3265D9ED", item: { count: 1, id: "ae2:basic_card" } }
+		{ id: "57F96A53C67D0D7B", item: { count: 1, id: "ae2:cell_component_1k" } }
+		{ id: "2626BC642D5C6A96", item: { count: 1, id: "ae2:cell_component_4k" } }
+		{ id: "7F91A432D325D06C", item: { count: 1, id: "ae2:singularity" } }
+		{ id: "547F8240EECEE21E", item: { count: 1, id: "ae2:fluid_cell_housing" } }
+		{ id: "00447F264B624ADB", item: { count: 1, id: "ae2:item_cell_housing" } }
+		{ id: "73C4FE64D22261F4", item: { count: 1, id: "ae2:logic_processor_press" } }
+		{ id: "7B81672037E0CC66", item: { count: 1, id: "ae2:engineering_processor_press" } }
+		{ id: "7C3FF31F82E78C0B", item: { count: 1, id: "ae2:calculation_processor_press" } }
+		{ id: "097955516D28576F", item: { count: 1, id: "ae2:silicon_press" } }
 	]
-	title: "Applied"
 }
