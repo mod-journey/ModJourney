@@ -1,24 +1,21 @@
 {
-	icon: "mysticalagriculture:supremium_essence"
 	id: "3E1ECF76C9475F78"
 	loot_size: 1
 	order_index: 5
 	rewards: [
-		{ item: "mysticalagriculture:end_steel_seeds" }
-		{ item: "mysticalagriculture:diamond_seeds" }
-		{ item: "mysticalagriculture:emerald_seeds" }
-		{ item: "mysticalagriculture:netherite_seeds" }
-		{ item: "mysticalagriculture:wither_skeleton_seeds" }
-		{ item: "mysticalagriculture:platinum_seeds" }
-		{ item: "mysticalagriculture:iridium_seeds" }
-		{ item: "mysticalagriculture:vibrant_alloy_seeds" }
-		{ item: "mysticalagriculture:enderium_seeds" }
-		{ item: "mysticalagriculture:uraninite_seeds" }
-		{ item: "mysticalagriculture:spirited_crystal_seeds" }
-		{ item: "mysticalagriculture:niotic_crystal_seeds" }
-		{ item: "mysticalagriculture:cyanite_seeds" }
-		{ item: "mysticalagriculture:yellorium_seeds" }
-		{ item: "mysticalagriculture:terrasteel_seeds" }
+		{ id: "46606DF6C745F34C", item: { count: 1, id: "mysticalagriculture:end_steel_seeds" } }
+		{ id: "3975A7AA3D0C09D3", item: { count: 1, id: "mysticalagriculture:diamond_seeds" } }
+		{ id: "325ED227089C9394", item: { count: 1, id: "mysticalagriculture:emerald_seeds" } }
+		{ id: "3BA95ED5C8E6CAE3", item: { count: 1, id: "mysticalagriculture:netherite_seeds" } }
+		{ id: "207916133C401B65", item: { count: 1, id: "mysticalagriculture:wither_skeleton_seeds" } }
+		{ id: "62147A3FC9B95A8D", item: { count: 1, id: "mysticalagriculture:platinum_seeds" } }
+		{ id: "258DC5763C4FF01A", item: { count: 1, id: "mysticalagriculture:iridium_seeds" } }
+		{ id: "79FE8F7905D7904C", item: { count: 1, id: "mysticalagriculture:vibrant_alloy_seeds" } }
+		{ id: "0203076D6FD20063", item: { count: 1, id: "mysticalagriculture:enderium_seeds" } }
+		{ id: "39859F5FD000CFD6", item: { count: 1, id: "mysticalagriculture:uraninite_seeds" } }
+		{ id: "0F5CE23551FC3D57", item: { count: 1, id: "mysticalagriculture:spirited_crystal_seeds" } }
+		{ id: "6BEFBBC44088ACEE", item: { count: 1, id: "mysticalagriculture:niotic_crystal_seeds" } }
+		{ id: "22CDA1A2182DF2A4", item: { count: 1, id: "mysticalagriculture:cyanite_seeds" } }
+		{ id: "1A098C02B2BD9EFE", item: { count: 1, id: "mysticalagriculture:yellorium_seeds" } }
 	]
-	title: "Tier5"
 }

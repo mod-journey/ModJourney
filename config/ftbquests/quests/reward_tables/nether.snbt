@@ -1,11 +1,9 @@
 {
-	icon: "minecraft:netherite_block"
 	id: "0C5E1025AB548FEE"
 	loot_size: 1
 	order_index: 2
 	rewards: [
-		{ item: "kubejs:quest_1" }
-		{ item: "kubejs:quest_2" }
+		{ id: "0AEFAB9DE627F245", item: { components: { "ftbquests:missing_item": "kubejs:quest_1" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "57831780EB2B9978", item: { components: { "ftbquests:missing_item": "kubejs:quest_2" }, count: 1, id: "ftbquests:missing_item" } }
 	]
-	title: "Nether"
 }

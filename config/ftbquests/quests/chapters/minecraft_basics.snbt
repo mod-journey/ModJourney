@@ -1,71 +1,56 @@
 {
-	autofocus_id: "01256AFE747A1CBF"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "minecraft_basics"
 	group: "78025998DBB7AC61"
-	icon: "minecraft:grass_block"
 	id: "62592CBE673BE5C1"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"Dieses Questbuch führt euch durch die Welt der Mods."
-				""
-				"Es beginnt wie jedes normale Minecraft Spiel, für jeden Fortschritt im Questbuch erhalted ihr jedoch Belohnungen und schalted Schritt für Schritt neue Technologie, Magie oder andere Vorteile frei."
-				""
-				"Mit Hilfe der Münzen könnt ihr im Verlauf des Spieles besonders Items erwerben, die auf \"normalem\" Wege nicht zu finden sind."
-			]
 			id: "01256AFE747A1CBF"
+			rewards: [{
+				id: "5619179DA7CB24C1"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C4F77DADCA06904"
-				title: "Wilkommen ZU Mod Journey"
 				type: "checkmark"
 			}]
-			title: "Die Reise beginnt"
 			x: -2.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["01256AFE747A1CBF"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "334735438DFE505B"
 			tasks: [{
-				count: 3L
 				id: "5FC13B4C5F865F34"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:logs"
-					}
-				}
-				title: "Any #minecraft:logs"
+				item: { }
 				type: "item"
 			}]
-			title: "Klopf auf Holz"
 			x: -0.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["616B979CDF814586"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "19EBC03B9B5C0DD4"
 			rewards: [{
 				id: "2A42D68B0E6A7644"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "46C23499191C4387"
-				item: {
-					Count: 1
-					id: "minecraft:wooden_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { }
 				type: "item"
 			}]
 			x: 2.5d
@@ -73,17 +58,19 @@
 		}
 		{
 			dependencies: ["19EBC03B9B5C0DD4"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "51C95C07DD4FE5A6"
 			rewards: [{
 				id: "709F00026E9092E1"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
-				count: 10L
 				id: "16F8D00E81EFF942"
-				item: "minecraft:cobblestone"
+				item: { }
 				type: "item"
 			}]
 			x: 4.0d
@@ -91,22 +78,19 @@
 		}
 		{
 			dependencies: ["51C95C07DD4FE5A6"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2B172DC8F87F8321"
 			rewards: [{
 				id: "01E66EA26F850FA4"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "4B33FA9E21910C7D"
-				item: {
-					Count: 1
-					id: "minecraft:stone_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { }
 				type: "item"
 			}]
 			x: 3.0d
@@ -114,22 +98,19 @@
 		}
 		{
 			dependencies: ["51C95C07DD4FE5A6"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3ED1EE762185E1D1"
 			rewards: [{
 				id: "1AF7CEC2456FBBF2"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "5E8CB35CC3F7D4D1"
-				item: {
-					Count: 1
-					id: "minecraft:stone_sword"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { }
 				type: "item"
 			}]
 			x: 5.0d
@@ -137,22 +118,19 @@
 		}
 		{
 			dependencies: ["51C95C07DD4FE5A6"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5336C3257F6E6DCE"
 			rewards: [{
 				id: "7AE92B1DD03221A6"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7E615FE9FDD3CA76"
-				item: {
-					Count: 1
-					id: "minecraft:stone_axe"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { }
 				type: "item"
 			}]
 			x: 3.0d
@@ -160,22 +138,19 @@
 		}
 		{
 			dependencies: ["51C95C07DD4FE5A6"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0B927369431933B8"
 			rewards: [{
 				id: "676D2D139243D8D4"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "011C9489F91675BF"
-				item: {
-					Count: 1
-					id: "minecraft:stone_shovel"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { }
 				type: "item"
 			}]
 			x: 5.0d
@@ -183,17 +158,19 @@
 		}
 		{
 			dependencies: ["334735438DFE505B"]
-			hide: true
-			icon: "minecraft:crafting_table"
+			hide_until_deps_visible: true
 			id: "616B979CDF814586"
 			rewards: [{
 				id: "0EE7A79D03709FA5"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "6AE227BABAC7609C"
-				item: "minecraft:crafting_table"
+				item: { }
 				type: "item"
 			}]
 			x: 1.0d
@@ -201,16 +178,19 @@
 		}
 		{
 			dependencies: ["51C95C07DD4FE5A6"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "054D5EAF0AB8E6FA"
 			rewards: [{
 				id: "4AAAD4B44A558299"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "2CDD2ACE646A24D0"
-				item: "minecraft:furnace"
+				item: { }
 				type: "item"
 			}]
 			x: 5.5d
@@ -218,17 +198,19 @@
 		}
 		{
 			dependencies: ["054D5EAF0AB8E6FA"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "58D909280639A503"
 			rewards: [{
 				id: "0DE073C8B1DC94D4"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
-				count: 3L
 				id: "274557761BFD12BE"
-				item: "minecraft:iron_ingot"
+				item: { }
 				type: "item"
 			}]
 			x: 7.0d
@@ -236,22 +218,19 @@
 		}
 		{
 			dependencies: ["58D909280639A503"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5B6D417CBB35D96F"
 			rewards: [{
 				id: "1D1AED20A459AE04"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "4B81F0781CEEB91F"
-				item: {
-					Count: 1
-					id: "minecraft:iron_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { }
 				type: "item"
 			}]
 			x: 8.0d
@@ -259,17 +238,19 @@
 		}
 		{
 			dependencies: ["5B6D417CBB35D96F"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6F80A4096725A7ED"
 			rewards: [{
 				id: "643DF5CA87474943"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
-				count: 3L
 				id: "2C17EAA32A3A1ACE"
-				item: "minecraft:diamond"
+				item: { }
 				type: "item"
 			}]
 			x: 9.5d
@@ -277,22 +258,19 @@
 		}
 		{
 			dependencies: ["58D909280639A503"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "30D96A391AF9E050"
 			rewards: [{
 				id: "32D40EF976C58542"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "356FD8CA87C279AB"
-				item: {
-					Count: 1
-					id: "minecraft:flint_and_steel"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { }
 				type: "item"
 			}]
 			x: 8.0d
@@ -300,17 +278,19 @@
 		}
 		{
 			dependencies: ["1393B7943AFB6B54"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "03FC230411E16641"
 			rewards: [{
 				id: "455A824F948CC115"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
-				count: 10L
 				id: "59446CA4766ECF53"
-				item: "minecraft:obsidian"
+				item: { }
 				type: "item"
 			}]
 			x: 9.5d
@@ -321,19 +301,20 @@
 				"03FC230411E16641"
 				"30D96A391AF9E050"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "090D1D6106BE4F06"
 			rewards: [
 				{
 					id: "3D784CEBF118655D"
-					item: "mod_journey:bronze_coin"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "3FE60C6BD93D16E4"
-					table_id: 5361216056761224723L
-					team_reward: true
 					type: "loot"
 				}
 			]
@@ -342,28 +323,24 @@
 				id: "715BAD043766542E"
 				type: "dimension"
 			}]
-			title: "Ab in die Hölle"
 			x: 8.75d
 			y: 1.25d
 		}
 		{
 			dependencies: ["6F80A4096725A7ED"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1393B7943AFB6B54"
 			rewards: [{
 				id: "480936A5593C46D2"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3CDE71BBE9A1F56B"
-				item: {
-					Count: 1
-					id: "minecraft:diamond_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { }
 				type: "item"
 			}]
 			x: 10.5d
@@ -371,15 +348,18 @@
 		}
 		{
 			dependencies: ["090D1D6106BE4F06"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "403812BA7909FF11"
 			rewards: [{
 				id: "5179DF1AD91DE8EE"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "minecraft:nether/find_fortress"
+				advancement: "minecraft:story/root"
 				criterion: ""
 				id: "3B5E81ACABC9AD48"
 				type: "advancement"
@@ -389,17 +369,19 @@
 		}
 		{
 			dependencies: ["090D1D6106BE4F06"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0FE73B1C3A1E181F"
 			rewards: [{
 				id: "68AC533EDC8D9076"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
-				count: 4L
 				id: "2F537CD38C0200DE"
-				item: "minecraft:ancient_debris"
+				item: { }
 				type: "item"
 			}]
 			x: 9.5d
@@ -407,16 +389,19 @@
 		}
 		{
 			dependencies: ["0FE73B1C3A1E181F"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "112B3BF69ADCB53A"
 			rewards: [{
 				id: "6A8634893258FAB5"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7C0EF5C960490FBB"
-				item: "minecraft:netherite_ingot"
+				item: { }
 				type: "item"
 			}]
 			x: 9.5d
@@ -424,16 +409,19 @@
 		}
 		{
 			dependencies: ["7BCBE649891D1C9B"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3E3397459D149D72"
 			rewards: [{
 				id: "292F93F5E00135D3"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3EE2EB5B924141AB"
-				item: "minecraft:netherite_upgrade_smithing_template"
+				item: { }
 				type: "item"
 			}]
 			x: 8.0d
@@ -441,106 +429,105 @@
 		}
 		{
 			dependencies: ["090D1D6106BE4F06"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7BCBE649891D1C9B"
 			rewards: [{
 				id: "456E27F2036D48E7"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "6990CA998DC3CF92"
-				structure: "minecraft:bastion_remnant"
+				structure: "minecraft:mineshaft"
 				type: "structure"
 			}]
-			title: "Finde eine Bastion"
 			x: 8.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["403812BA7909FF11"]
-			hide: true
-			icon: "minecraft:ender_eye"
+			hide_until_deps_visible: true
 			id: "2C8AC35868B1A016"
 			rewards: [{
 				id: "32F4C350A13A2B04"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "1FD6CE4940D60707"
-				structure: "betterstrongholds:stronghold"
+				structure: "minecraft:mineshaft"
 				type: "structure"
 			}]
-			title: "Finde die Festung"
 			x: 12.0d
 			y: 1.25d
 		}
 		{
 			dependencies: ["2C8AC35868B1A016"]
-			description: ["Nimm an Event zur Öffnung des Endportales teil und erhalte eine Belohnung."]
-			hide: true
-			icon: "minecraft:end_portal_frame"
+			hide_until_deps_visible: true
 			id: "56959F905714B915"
 			rewards: [{
 				id: "732AC8A1907D0D2A"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
-				dimension: "minecraft:the_end"
+				dimension: "minecraft:the_nether"
 				id: "6BAFF2940497C0C2"
 				type: "dimension"
 			}]
-			title: "Das End-Event"
 			x: 13.5d
 			y: 1.25d
 		}
 		{
 			dependencies: ["56959F905714B915"]
 			dependency_requirement: "one_completed"
-			hide: true
+			hide_until_deps_visible: true
 			id: "03F62F0E4DEE0C1C"
 			rewards: [{
 				id: "420BBDE7AAC15374"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "68E447E6E606C6BF"
-				structure: "minecraft:end_city"
-				title: "Finde eine End City"
+				structure: "minecraft:mineshaft"
 				type: "structure"
 			}]
 			x: 15.0d
 			y: 1.25d
 		}
 		{
-			dependencies: ["03F62F0E4DEE0C1C"]
-			hide: true
 			id: "19F53A5F8F69A394"
 			rewards: [
 				{
 					id: "2C72A2F4EED3341F"
-					item: "mod_journey:bronze_coin"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "0FABC09D57C468DC"
-					table_id: 5361216056761224723L
 					type: "loot"
 				}
 			]
 			tasks: [{
 				id: "3D9C8EA218733C98"
-				item: {
-					Count: 1
-					id: "minecraft:elytra"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { }
 				type: "item"
 			}]
 			x: 16.0d
@@ -548,16 +535,19 @@
 		}
 		{
 			dependencies: ["03F62F0E4DEE0C1C"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3C8CDA5FB3B3E5DD"
 			rewards: [{
 				id: "64BFB079C058C073"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "144C5013F487FC2D"
-				item: "minecraft:shulker_box"
+				item: { }
 				type: "item"
 			}]
 			x: 16.0d
@@ -568,177 +558,112 @@
 				"3E3397459D149D72"
 				"112B3BF69ADCB53A"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "21B643BD3ABB92CE"
 			rewards: [
 				{
 					id: "478E24C411C4C042"
-					item: "mod_journey:bronze_coin"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "1B1F808ABB77C301"
-					table_id: 5361216056761224723L
-					team_reward: true
 					type: "loot"
 				}
 			]
 			tasks: [
 				{
 					id: "7C4F9D8D5496082A"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:armor/netherite"
-						}
-					}
-					title: "Any #forge:armor/netherite"
+					item: { }
 					type: "item"
 				}
 				{
 					id: "1DC0D43DEB23A9FF"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:tools/netherite"
-						}
-					}
-					title: "Any #forge:tools/netherite"
+					item: { }
 					type: "item"
 				}
 			]
-			title: "Mache die Netherite Ausrüstung"
 			x: 8.785714285714292d
 			y: 5.321428571428562d
 		}
 		{
 			dependencies: ["3ED1EE762185E1D1"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "08CD0F35FC56877F"
 			rewards: [{
 				id: "7D067FE36C26D753"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
-				entity: "minecraft:cow"
-				icon: "minecraft:leather"
+				entity: "minecraft:zombie"
 				id: "7819435B28597ACB"
 				type: "kill"
-				value: 10L
+				value: 100L
 			}]
-			title: "Wir brauchen Leder"
 			x: 5.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["08CD0F35FC56877F"]
 			dependency_requirement: "one_completed"
-			hide: true
+			hide_until_deps_visible: true
 			id: "5A83CAD196067494"
 			rewards: [{
 				id: "4CD12A846E8E59C1"
-				item: "mod_journey:bronze_coin"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "1C5DEB272E2ACF71"
-					item: {
-						Count: 1
-						id: "minecraft:leather_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { }
 					type: "item"
 				}
 				{
 					id: "7E86925225699DF6"
-					item: {
-						Count: 1
-						id: "minecraft:leather_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { }
 					type: "item"
 				}
 				{
 					id: "6D8D8D00F06393C6"
-					item: {
-						Count: 1
-						id: "minecraft:leather_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { }
 					type: "item"
 				}
 				{
 					id: "034BC40DFB39C5D9"
-					item: {
-						Count: 1
-						id: "minecraft:leather_boots"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { }
 					type: "item"
 				}
 			]
-			title: "Die erste Rüstung"
 			x: 5.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["01256AFE747A1CBF"]
-			description: [
-				"Ihr könnt das Gebiet eurer Basis abstecken \"claimen\"."
-				"Im geclaimten Bereich könnt nur ihr und Spieler im selben Team Blöcke abbauen, Blöcke platzieren oder Truhen und Maschinen bedienen."
-				""
-				""
-				"Wenn ihr die Map (mit der Taste M) öffnet, ist in der linken oberen Ecke ein Button für die Chunk ansicht. "
-				"Dort könnt ihr mit Linksklick einen Chunk claimen und mit Rechtsklick den Chunk wieder freigeben."
-				""
-				"{@pagebreak}"
-				"Wenn ihr einen geclaimten Chunks noch einmal mit gedrückter Shift- und der linken Maustaste anklickt,, wird der Chunk dauerhaft geladen (Force-Load). "
-				""
-				"In einem geladenen Chunk arbeiten Farmen und Maschinen weiter, auch wenn ihr nicht in der Nähe oder offline seid."
-				""
-				"Ein weiterer Klick mit gedrückter Shift- und der rechten Maustaste, deaktiviert das \"Force-Loading\" wieder."
-			]
 			id: "49D841614CC15BE6"
-			subtitle: "Steck dein Gebiet ab"
 			tasks: [{
 				id: "64F6832552E0F930"
-				title: "Steck dein Gebiet ab"
 				type: "checkmark"
 			}]
-			title: "Chunks"
 			x: -4.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["01256AFE747A1CBF"]
-			description: [
-				"Wenn ihr eure Reise durch das Questbuch gemeinsam mit anderen Spielern bestreiten wollt, könnt ihr ein Team gründen."
-				""
-				"Um ein Team zu gründen, öffened ihr mit der Taste (E) das Inventar und klickt links oben auf das Symbol mit den 3 bunten Figuren."
-				""
-				"In dem folgenden Menü könnt ihr ein Team gründen und verwalten."
-				""
-				"Neben Grundeeinstellungen, könnt ihr andere Spieler in euer Team einladen um zusammen zu spielen."
-				"Alle Spieler in einem Team teilen sich ein Questbuch und arbeiten zusammen an ihrem gemeinsamen Fortschritt."
-			]
 			id: "6436E46E095D0BDD"
-			subtitle: "Zusammen sind wir stark"
 			tasks: [{
 				id: "30C33DEDF6374D94"
-				title: "Teams"
 				type: "checkmark"
 			}]
 			x: -3.5d
@@ -746,22 +671,9 @@
 		}
 		{
 			dependencies: ["01256AFE747A1CBF"]
-			description: [
-				"Mit der Simple Voice Chat Mod kannst du ingame mit andern Spielern sprechen."
-				""
-				"Mit der Taste (V) öffnet ihr den Einrichtungsassistent und später die Mod selbst."
-				"Sobald die Einrichtung abgeschlossen ist, könnt ihr mit Spielern in eurer Nähe sprechen."
-				""
-				"Wie im richtigen Leben, werden die Stimmen leiser umso weiter ihr euch entfernt."
-				""
-				"{@pagebreak}"
-				"Um mit Spielern in größerer Entfernung zu sprechen, könnt ihr eine Chatgruppe eröffnen, oder euch einer vorhandenen Gruppe anschließen."
-			]
 			id: "78D7575B8BFD8848"
-			subtitle: "Kein Bock zu tippen?"
 			tasks: [{
 				id: "66B1A93AFB06BED2"
-				title: "Voice Chat"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -769,23 +681,9 @@
 		}
 		{
 			dependencies: ["01256AFE747A1CBF"]
-			description: [
-				"[ \"Sobald ihr eine \", { \"text\": \"Diamandspitzhacke\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1393B7943AFB6B54\" } }, \" besitzt, könnt ihr die Abbauhilfe Ultimine nutzen.\" ]"
-				""
-				"Dadurch bekommt ihr die Möglichkeit eine mehrere Blöcke des selben Types (z.b. Eisenerz) gleichzeitig abzubauen."
-				""
-				"Dazu müsst ihr nur die Ultimine-Taske (Standardmäsig die Taste &d&l^&r&r unter der Escape Taste) während dem Abbauen gedrückt halten."
-				""
-				"Eine Vorschau zeigt euch, welche Blöcke gleichzeitg abgebaut werden."
-				""
-				"{@pagebreak}"
-				"Wenn ihr die Ultimine- und die Shift Taste gedrück halted, könnt ihr mit dem Mausrad zwischen unterschiedlichen Abbau-Formen wählen (Z.b. ein gerader Gang in Blickrichtung, oder eine Treppe nach unten)"
-			]
 			id: "7EFF472EB4F530FE"
-			subtitle: "Graben wie ein Maulwurf"
 			tasks: [{
 				id: "10D148E57A7476A6"
-				title: "Ultimine"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -793,34 +691,9 @@
 		}
 		{
 			dependencies: ["01256AFE747A1CBF"]
-			description: [
-				"Im Hintergrund gibt es noch einige hilfreiche Befehle, die über die Chat-Konsole eingetippt werden können. Denkt daran, dass einige Befehle erst später aktiviert werden."
-				""
-				"z.b."
-				"&9/enderchest&r = Öffnet eure Enderkiste"
-				"&9/trashcan&r = Öffnet einen Mülleimer, wo ihr ungewollte Items wwegwerfen könnt."
-				"&9/leatherboard <Kategorie>&r = Zeigt euch die Rangliste."
-				"&9/ftbteams msg <text>&r Schickt eine Textnachricht an alle eure Team-Mitglieder."
-				""
-				"&9/recording&r = Zeigt anderen Spielern, dass ihr gerade ein Video aufnehmt."
-				"&9/streaming&r = Zeigt anderen Spielern, dass ihr gerade einen Life-Stream aufnehmt."
-				""
-				"{@pagebreak}"
-				"&9/spawn&r = Teleportiert euch zum spawn"
-				"&9/back&r = Teleportiert euch zurück zu dem Ort von dem ihr euch zuletzt weg-teleportiert habt"
-				""
-				"&9/sethome&r = Definiert den Ort, an den euch der /home Befehl (ab der 3. Woche) zurückbringt"
-				"&9/home&r = Teleportiert euch nach hause"
-				""
-				"&9/tpa <spieler>&r schickt eine Teleport-Anfrage an einen anderen Spieler. "
-				"Akzeptiert dieser Spieler, werdet ihr zu ihm teleportiert."
-				"&9/tpahere <spieler>&r schickt eine Teleport-Anfrage an einen anderen Spieler."
-				"Akzeptiert dieser Spieler, wird er an eure aktuelle Position teleportiert."
-			]
 			id: "1403FE3F41E3D45D"
 			tasks: [{
 				id: "68C94AF9FDB6A1CD"
-				title: "Commands"
 				type: "checkmark"
 			}]
 			x: -3.5d
@@ -828,153 +701,38 @@
 		}
 		{
 			dependencies: ["49D841614CC15BE6"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "06058D4919841D02"
-			rewards: [{
-				command: "/ftbranks add @p weekling"
-				elevate_perms: true
-				exclude_from_claim_all: true
-				id: "2E96B6183FB01228"
-				team_reward: false
-				title: "Rang 1. Woche freischalten"
-				type: "command"
-			}]
-			tasks: [{
-				elapsedTime: 604800L
-				gameTime: "system"
-				id: "05B74B2E0F42359F"
-				title: "1. Woche"
-				type: "questsadditions:time"
-			}]
 			x: -7.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["06058D4919841D02"]
-			description: [
-				"Ab der zweiten Woche kannst du jetzt 50 Chunks (pro Spieler im Team) claimen."
-				""
-				"Außerdem werden die Befehle &9/back&r, &9/home&r, &9/tpa&r und &9/tpahere&r freigeschalted."
-			]
 			id: "59E92107A4481944"
-			rewards: [{
-				command: "/ftbranks add @p double-weekling"
-				elevate_perms: true
-				exclude_from_claim_all: true
-				id: "496226723098CD38"
-				title: "Rang 2. Woche freischalten"
-				type: "command"
-			}]
-			tasks: [{
-				elapsedTime: 1209600L
-				gameTime: "system"
-				id: "0707E0514EDD6A01"
-				title: "2. Woche"
-				type: "questsadditions:time"
-			}]
 			x: -7.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["59E92107A4481944"]
 			id: "6E7B5D5F3EC952AD"
-			rewards: [{
-				command: "/ftbranks add @p triple-weekling"
-				elevate_perms: true
-				exclude_from_claim_all: true
-				id: "05D519F88C5EBAC7"
-				title: "Rang 3. Woche freischalten"
-				type: "command"
-			}]
-			tasks: [{
-				elapsedTime: 1814400L
-				id: "61DD4DAADD7E6BD3"
-				title: "3. Woche"
-				type: "questsadditions:time"
-			}]
 			x: -7.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["6E7B5D5F3EC952AD"]
-			description: ["Ein Monat bist du bereits auf deiner Reise, um dein Gebiet weiter auszubauen kannst du ab jetzt 75 Chunks (pro Spieler im Team) claimen."]
 			id: "17F4AD786B66A4A7"
-			rewards: [{
-				command: "/ftbranks add @p monthling"
-				elevate_perms: true
-				exclude_from_claim_all: true
-				id: "69D8BF511A6C798F"
-				title: "Rang 4. Woche freischalten"
-				type: "command"
-			}]
-			tasks: [{
-				elapsedTime: 2419200L
-				id: "1459E7CC4CC6A32F"
-				title: "4. Woche"
-				type: "questsadditions:time"
-			}]
 			x: -7.0d
 			y: 5.0d
 		}
 		{
-			can_repeat: true
-			description: ["Alle 4 Stunden kann dein Team eine Silbermünze bekommen. Dafür musst Du aktiv auf dem Server online sein."]
-			icon: {
-				Count: 1
-				id: "thermal:silver_coin"
-				tag: { }
-			}
 			id: "38FCDBC67E137073"
-			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "738C3631FA49D6B6"
-					item: "mod_journey:silver_coin"
-					team_reward: false
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "67DB79D5CE5275B1"
-					table_id: 4944166769827694193L
-					type: "loot"
-				}
-			]
-			tasks: [{
-				icon: "minecraft:clock"
-				id: "30D9E8CD52F44C9A"
-				title: "4h"
-				type: "custom"
-			}]
 			x: -3.5d
 			y: 3.0d
 		}
 		{
-			can_repeat: true
-			description: ["Du kannst diese Quest alle 24h ein mal abschließen. Der der sie abschließt, erhält die Münzen für das gesamte Team"]
-			icon: "mod_journey:gold_coin"
 			id: "146D1D0765124A16"
-			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				icon: "mod_journey:gold_coin"
-				id: "65A83C70BA4FDE02"
-				title: "Goldmünze"
-				type: "custom"
-			}]
-			tasks: [{
-				elapsedTime: 86400L
-				gameTime: "system"
-				icon: "minecraft:clock"
-				id: "597813E4951FDC5E"
-				title: "24h"
-				type: "questsadditions:time"
-			}]
-			title: "Daily"
 			x: -1.5d
 			y: 3.0d
 		}
 	]
-	title: "Minecraft Basics"
 }

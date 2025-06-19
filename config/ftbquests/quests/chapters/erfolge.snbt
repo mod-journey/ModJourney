@@ -1,0 +1,131 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "erfolge"
+	group: "138E6CC1C80F610D"
+	id: "430393DC3F2A60F9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "589407ECB629164D"
+			tasks: [{
+				id: "1AA066707E0EF4B5"
+				item: { }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 3.0d
+		}
+		{
+			id: "0B7B7C7A1366C9D1"
+			tasks: [{
+				id: "344255FBADB92524"
+				item: { }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 3.0d
+		}
+		{
+			id: "429795EB7B105CB3"
+			tasks: [{
+				id: "4EFA8D4479207B6F"
+				item: { }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			id: "7C598C88ABF08E11"
+			tasks: [{
+				id: "2D9639F17DB8264A"
+				item: { }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 4.5d
+		}
+		{
+			id: "12D3B4B92CA5252C"
+			tasks: [{
+				id: "4750AFCEE49CDF0F"
+				item: { }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.5d
+		}
+		{
+			id: "54E91CBDA4D83EDE"
+			tasks: [{
+				id: "3307308966668DD6"
+				item: { }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.5d
+		}
+		{
+			id: "4AED5A8C9C70A9C9"
+			tasks: [{
+				id: "79E2BBFB779AEA1A"
+				item: { }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 6.0d
+		}
+		{
+			id: "401717FD15981E80"
+			tasks: [{
+				id: "791A2688CD5F77E3"
+				item: { }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 6.0d
+		}
+		{
+			id: "1037AFA7BDC22B53"
+			tasks: [{
+				id: "7A28AA8977951CC7"
+				item: { }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			id: "5902419C7421AA67"
+			tasks: [{
+				id: "1FE272431646BEB3"
+				item: { }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 7.5d
+		}
+		{
+			id: "796D47D4DEDA277C"
+			tasks: [{
+				id: "08974BA2DB41845F"
+				item: { }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 7.5d
+		}
+		{
+			id: "25ADF4BACFFF9FB7"
+			tasks: [{
+				id: "471D86205B1114BB"
+				item: { }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.5d
+		}
+	]
+}

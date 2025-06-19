@@ -1,0 +1,824 @@
+{
+	autofocus_id: "776BA18F35EA7817"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mob_grinding_utils"
+	group: "16F9BB65CBA165C2"
+	id: "5130837EB7936D7C"
+	images: [
+		{
+			color: 1019157
+			dependency: "5600D421C0F617A9"
+			height: 1.0d
+			hover: ["grüner pointer"]
+			image: "ftbchunks:textures/waypoint_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			color: 1019157
+			dependency: "5600D421C0F617A9"
+			height: 1.0d
+			hover: ["grüner pointer"]
+			image: "ftbchunks:textures/waypoint_default.png"
+			rotation: -135.0d
+			width: 1.0d
+			x: 5.8571428571428825d
+			y: 2.6607142857142847d
+		}
+		{
+			color: 1019157
+			dependency: "5600D421C0F617A9"
+			height: 1.0d
+			hover: ["grüner pointer"]
+			image: "ftbchunks:textures/waypoint_default.png"
+			rotation: -135.0d
+			width: 1.0d
+			x: 6.8571428571428825d
+			y: 3.6607142857142847d
+		}
+		{
+			color: 1019157
+			dependency: "5600D421C0F617A9"
+			height: 1.0d
+			hover: ["grüner pointer"]
+			image: "ftbchunks:textures/waypoint_default.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.9999999999999716d
+			y: 7.196428571428569d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"644466781495F7E7"
+				"25ADF4BACFFF9FB7"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_visible: true
+			id: "5600D421C0F617A9"
+			rewards: [{
+				id: "42B5AA071BBF0C17"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "6224485A1F5440CF"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5600D421C0F617A9"]
+			id: "776BA18F35EA7817"
+			rewards: [{
+				id: "23315AEBFE4CEC22"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "3C2B5623ACE2FBDF"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53FA14DECBF4B405"]
+			id: "7600E42EC1039D65"
+			rewards: [{
+				id: "0C0DCD1AD64238E3"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "630B4F5DA2784349"
+				item: { count: 1, id: "mob_grinding_utils:entity_conveyor" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["776BA18F35EA7817"]
+			id: "64AEF16D7BBA8717"
+			rewards: [{
+				id: "665013DB875D1BC9"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CD871C1CC0FB52D"
+				item: { count: 1, id: "mob_grinding_utils:xpsolidifier" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["70C3DA48F8A84840"]
+			id: "41E3D818423C9002"
+			rewards: [{
+				id: "524DE3567AA2BFB8"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BED88B518F69D36"
+				item: { count: 1, id: "mob_grinding_utils:spawner_upgrade_width" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["70C3DA48F8A84840"]
+			id: "4B91378F01114966"
+			rewards: [{
+				id: "002CD50F9DFE4853"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "29F430156EFC7A0E"
+				item: { count: 1, id: "mob_grinding_utils:spawner_upgrade_height" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["70C3DA48F8A84840"]
+			id: "24CF3ABE17A5E8AD"
+			rewards: [{
+				id: "1EDBFB540BBBBCA0"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "261800CB71DE19ED"
+				item: { count: 1, id: "mob_grinding_utils:xp_solidifier_upgrade" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["776BA18F35EA7817"]
+			id: "1595A8280A792BA3"
+			rewards: [{
+				id: "3665ABBD32BFD65D"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "580D1FDB3D7F28B6"
+				item: { count: 1, id: "mob_grinding_utils:absorption_hopper" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1595A8280A792BA3"]
+			id: "06236B87230672E6"
+			rewards: [{
+				id: "45F78EB28F4B6064"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "672117364E646A94"
+				item: { count: 1, id: "mob_grinding_utils:absorption_upgrade" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0400DBB195284E8E"]
+			id: "4DBA3461786E55B4"
+			rewards: [{
+				id: "72282AC0EEA0CE16"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "003041439CCA51E2"
+				item: { count: 1, id: "mob_grinding_utils:tank" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1595A8280A792BA3"]
+			id: "0400DBB195284E8E"
+			rewards: [{
+				id: "583537C8762ED18E"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46A0BB1540461F1E"
+				item: { count: 1, id: "mob_grinding_utils:tank_sink" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4DBA3461786E55B4"]
+			id: "17AF308CF5197526"
+			rewards: [{
+				id: "71954951AC48D520"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6914951656283145"
+				item: { count: 1, id: "mob_grinding_utils:xp_tap" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4DBA3461786E55B4"]
+			id: "7B63B6CB65BC3172"
+			rewards: [{
+				id: "125D5870DAABFCE4"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "32AE684C63B19DB4"
+				item: { count: 1, id: "mob_grinding_utils:jumbo_tank" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5600D421C0F617A9"]
+			hide_dependency_lines: true
+			id: "6E9DAFBCD3D19E5B"
+			rewards: [{
+				id: "75DCBC8FE96D351D"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C6B957E698C9D3B"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5600D421C0F617A9"
+				"6E9DAFBCD3D19E5B"
+			]
+			id: "3330D9F9B7E898CC"
+			rewards: [{
+				id: "186A74854D63D25F"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E3D68F8756B8F6D"
+				item: { count: 1, id: "mob_grinding_utils:dragon_muffler" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5600D421C0F617A9"
+				"6E9DAFBCD3D19E5B"
+			]
+			id: "6B9497BCB6FDA0AE"
+			rewards: [{
+				id: "214C6B35B59F90A4"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "636BBE99FCA227D4"
+				item: { count: 1, id: "mob_grinding_utils:wither_muffler" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7600E42EC1039D65"]
+			id: "070E4C57EBA4CC18"
+			rewards: [{
+				id: "3CEE66D6507EA490"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "32E877F12D99860A"
+				item: { count: 1, id: "mob_grinding_utils:fan" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["070E4C57EBA4CC18"]
+			id: "2330E243DDA687E9"
+			rewards: [{
+				id: "19F5F43ECAD24FA0"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C5F5F16EF472347"
+				item: { count: 1, id: "mob_grinding_utils:fan_upgrade_speed" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["070E4C57EBA4CC18"]
+			id: "42CF8AE80D8AB778"
+			rewards: [{
+				id: "63136BF63A27163D"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D0A44019592D1D5"
+				item: { count: 1, id: "mob_grinding_utils:fan_upgrade_width" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["070E4C57EBA4CC18"]
+			id: "0D02FD3C537A6CBD"
+			rewards: [{
+				id: "46E90A76482A34CF"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E3A28B0421D495F"
+				item: { count: 1, id: "mob_grinding_utils:fan_upgrade_height" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["776BA18F35EA7817"]
+			id: "53FA14DECBF4B405"
+			rewards: [{
+				id: "2D9252841A45F7A3"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "10C0E84BF1C03CE8"
+				item: { count: 1, id: "mob_grinding_utils:spikes" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53FA14DECBF4B405"]
+			id: "041CD4FF5110FCD7"
+			rewards: [{
+				id: "557DE906FCF0D471"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "26820C14CA1A9DCF"
+				item: { count: 1, id: "mob_grinding_utils:saw" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["041CD4FF5110FCD7"]
+			id: "7FCA05C0B830CBC0"
+			rewards: [{
+				id: "7DF5F4997BDACE59"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "35A6F7E03FCBC36B"
+				item: { count: 1, id: "mob_grinding_utils:saw_upgrade_sharpness" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["041CD4FF5110FCD7"]
+			id: "07F7E146A4368404"
+			rewards: [{
+				id: "7E172ABDB134478A"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E3467606C997649"
+				item: { count: 1, id: "mob_grinding_utils:saw_upgrade_arthropod" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["041CD4FF5110FCD7"]
+			id: "1E856EA0F824D285"
+			rewards: [{
+				id: "0F48C531DDA7A86C"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "09DD979C15E553F1"
+				item: { count: 1, id: "mob_grinding_utils:saw_upgrade_smite" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["041CD4FF5110FCD7"]
+			id: "138F9BA2044CB771"
+			rewards: [{
+				id: "02206CBDFF55D562"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "49670E2C35C7BEEF"
+				item: { count: 1, id: "mob_grinding_utils:saw_upgrade_fire" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["041CD4FF5110FCD7"]
+			id: "587C0314547F28A4"
+			rewards: [{
+				id: "53EE9CA1E7C02335"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "165363B8F6FCF2DA"
+				item: { count: 1, id: "mob_grinding_utils:saw_upgrade_beheading" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["041CD4FF5110FCD7"]
+			id: "5E82814E40451406"
+			rewards: [{
+				id: "439306EF770A9471"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "7AC954AED0A039A1"
+				item: { count: 1, id: "mob_grinding_utils:saw_upgrade_looting" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["70C3DA48F8A84840"]
+			id: "40CBA9ECA122DDFA"
+			rewards: [{
+				id: "6AC9F828CABD48D6"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "639381BD6094CF20"
+				item: { count: 1, id: "mob_grinding_utils:mob_swab" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["40CBA9ECA122DDFA"]
+			id: "4B2657B553F3E322"
+			rewards: [{
+				id: "63831B580B927C43"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "04FC4B2C200A187A"
+				item: { count: 1, id: "mob_grinding_utils:gm_chicken_feed" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["77E66A772828FB98"]
+			id: "70C3DA48F8A84840"
+			rewards: [{
+				id: "5EEF65944077166A"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2633AA02A433F6CB"
+				item: { count: 1, id: "mob_grinding_utils:entity_spawner" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["64AEF16D7BBA8717"]
+			id: "795E9E4C809D1EC2"
+			rewards: [{
+				id: "6B2F30386C615146"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0728303E1F013089"
+				item: { count: 1, id: "mob_grinding_utils:solid_xp_mould_blank" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["795E9E4C809D1EC2"]
+			id: "545CED820632EFB9"
+			rewards: [{
+				id: "123086DB3CD1015B"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "182F25FE21DCFAEF"
+				item: { count: 1, id: "mob_grinding_utils:solid_xp_mould_baby" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["545CED820632EFB9"]
+			id: "77E66A772828FB98"
+			rewards: [{
+				id: "38A434872120E1AB"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72609F1C3103153C"
+				item: { count: 1, id: "mob_grinding_utils:solid_xp_baby" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+	]
+}

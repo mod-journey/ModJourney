@@ -1,33 +1,121 @@
 {
-	icon: "botania:manasteel_nugget"
 	id: "6A9A7B2318BBAECC"
 	loot_size: 3
 	order_index: 8
 	rewards: [
-		{ item: "botania:light_gray_petal", random_bonus: 9 }
-		{ item: "botania:gray_petal", random_bonus: 9 }
-		{ item: "botania:pink_petal" }
-		{ item: "botania:lime_petal" }
-		{ item: "botania:yellow_petal" }
-		{ item: "botania:light_blue_petal" }
-		{ item: "botania:magenta_petal" }
-		{ item: "botania:orange_petal" }
-		{ item: "botania:white_petal" }
-		{ item: "botania:mana_pearl", weight: 0.5f }
-		{ item: "botania:manasteel_ingot", weight: 0.5f }
-		{ item: "botania:cyan_petal" }
-		{ item: "botania:purple_petal" }
-		{ item: "botania:blue_petal" }
-		{ item: "botania:brown_petal" }
-		{ item: "botania:green_petal" }
-		{ item: "botania:red_petal" }
-		{ item: "botania:black_petal" }
-		{ item: "botania:mana_diamond", weight: 0.5f }
-		{ item: "botania:mana_powder", weight: 0.5f }
-		{ item: "botania:elementium_nugget", weight: 0.1f }
-		{ item: "botania:manasteel_nugget", weight: 0.1f }
-		{ item: "botania:terrasteel_nugget", weight: 0.1f }
+		{
+			id: "5C3C95E7B95739D6"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:light_gray_petal"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 9
+		}
+		{
+			id: "711B394222DCEC20"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:gray_petal"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 9
+		}
+		{ id: "3EAFFDB3B7D56969", item: { components: { "ftbquests:missing_item": "botania:pink_petal" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "744B5B052038DC51", item: { components: { "ftbquests:missing_item": "botania:lime_petal" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "42B00BCB59223EA7", item: { components: { "ftbquests:missing_item": "botania:yellow_petal" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "4058CC2FE4F4F0CE", item: { components: { "ftbquests:missing_item": "botania:light_blue_petal" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "27E3721665A15DA9", item: { components: { "ftbquests:missing_item": "botania:magenta_petal" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "1FC78E319ADD905A", item: { components: { "ftbquests:missing_item": "botania:orange_petal" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "5972D56A13242D8C", item: { components: { "ftbquests:missing_item": "botania:white_petal" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			id: "2B7C374D2DFFA710"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:mana_pearl"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "0D112028C2CB29BA"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:manasteel_ingot"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 0.5f
+		}
+		{ id: "59C22413B1D2311B", item: { components: { "ftbquests:missing_item": "botania:cyan_petal" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "4A930178FC9323C9", item: { components: { "ftbquests:missing_item": "botania:purple_petal" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "56FB369F96569DA8", item: { components: { "ftbquests:missing_item": "botania:blue_petal" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "497AE313B931257A", item: { components: { "ftbquests:missing_item": "botania:brown_petal" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "678731DF33E97749", item: { components: { "ftbquests:missing_item": "botania:green_petal" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "37B07E7A7E55A597", item: { components: { "ftbquests:missing_item": "botania:red_petal" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "22C550F1BC0B5379", item: { components: { "ftbquests:missing_item": "botania:black_petal" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			id: "5F995E8A645E19A0"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:mana_diamond"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "5D795FAC9811D249"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:mana_powder"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "6FDAE0DDA9E18200"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:elementium_nugget"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "3CBFF0273A1A78D5"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:manasteel_nugget"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "756A5DAD730A7542"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:terrasteel_nugget"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 0.1f
+		}
 	]
-	title: "botania_early"
 	use_title: true
 }
