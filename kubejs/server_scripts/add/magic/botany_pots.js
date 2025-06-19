@@ -1,6 +1,6 @@
 //priority 10
 
-ServerEvents.recipes(event => {
+let add_magic_botanyPots = event => {
 
     let colours = [
         'white',
@@ -88,4 +88,4 @@ ServerEvents.recipes(event => {
             }
         });
     });
-});
+};

@@ -1,4 +1,4 @@
-ItemEvents.tooltip(event => {
+let tooltips = event => {
 
     //Ändert das Tooltip von 10 auf 3 beim Mob Masher Upgrade Looting
     event.addAdvanced(['mob_grinding_utils:saw_upgrade_looting'], (item, advanced, text) => {
@@ -66,4 +66,4 @@ ItemEvents.tooltip(event => {
         ])
     })
 
-})
+};

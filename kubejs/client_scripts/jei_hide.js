@@ -1,6 +1,6 @@
 // priority: 5
 
-JEIEvents.hideItems(event => {
+let jei_hide = event => {
 
     //thermal series tnt removen
 
@@ -395,5 +395,4 @@ JEIEvents.hideItems(event => {
         event.hide(element)
     });
 
-
-})
+};

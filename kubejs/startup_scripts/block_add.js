@@ -1,6 +1,6 @@
 //priority 90
 
-StartupEvents.registry('block', event => {
+let block_add = event => {
 
     //Erstellen des Antimatter-Blocks
     event.create('mod_journey:antimatter_block')
@@ -21,4 +21,5 @@ StartupEvents.registry('block', event => {
         .requiresTool(true)
         .tagBlock('minecraft:needs_diamond_tool')
         .tagBlock('minecraft:mineable/pickaxe')
-})
+
+};

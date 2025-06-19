@@ -1,7 +1,18 @@
 //priority 0
 console.log('Gated Ars_Nouveau')
 
-ServerEvents.recipes(event => {
+let apotheosis_gated = event => {
+
+
+    bow_tome_shaped( event, stages.stage3.magic.early )
+    boots_tome_shaped( event, stages.stage3.magic.early )
+    chestplate_tome_shaped( event, stages.stage3.magic.early )
+    fishing_tome_shaped( event, stages.stage3.magic.early )
+    helmet_tome_shaped( event, stages.stage3.magic.early )
+    leggings_tome_shaped( event, stages.stage3.magic.early )
+    pickaxe_tome_shaped( event, stages.stage3.magic.early )
+    other_tome_shaped( event, stages.stage3.magic.early  )
+    weapon_tome_shaped(  event, stages.stage3.magic.early  )
 
     // replace in reforging table the ironingot with stage3 item #early
     event.replaceInput(
@@ -78,4 +89,4 @@ ServerEvents.recipes(event => {
         }
     }).id("apotheosis:reforging_table")
 
-})
+};

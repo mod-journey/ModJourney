@@ -1,44 +1,34 @@
 {
-	icon: "botania:elementium_nugget"
 	id: "5D79DC15290D12D2"
 	loot_size: 1
 	order_index: 6
 	rewards: [
-		{ item: "botania:ender_air_bottle" }
-		{ item: "botania:terrasteel_nugget" }
-		{ item: "botania:mana_diamond" }
-		{ item: "botania:mana_pearl" }
-		{ item: "botania:manasteel_ingot" }
-		{ item: "botania:dragonstone" }
-		{ item: "botania:pixie_dust" }
-		{ item: "botania:elementium_ingot" }
-		{
-			item: {
-				Count: 1
-				id: "botania:mana_tablet"
-				tag: {
-					mana: 500000
-				}
-			}
-		}
-		{ item: "botania:rune_winter" }
-		{ item: "botania:rune_autumn" }
-		{ item: "botania:rune_water" }
-		{ item: "botania:rune_spring" }
-		{ item: "botania:rune_summer" }
-		{ item: "botania:rune_air" }
-		{ item: "botania:rune_earth" }
-		{ item: "botania:rune_fire" }
-		{ item: "botania:terrasteel_nugget" }
-		{ item: "botania:livingrock" }
-		{ item: "botania:livingwood_log" }
-		{ item: "minecraft:lapis_block" }
-		{ item: "botania:bellows" }
-		{ item: "botania:mana_glass" }
-		{ item: "botania:mana_powder" }
-		{ item: "botania:manaweave_cloth" }
-		{ item: "botania:red_string" }
-		{ item: "botania:dreamwood_twig" }
+		{ id: "49418A530C1200AB", item: { components: { "ftbquests:missing_item": "botania:ender_air_bottle" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "1B72B81F6B8B4A97", item: { components: { "ftbquests:missing_item": "botania:terrasteel_nugget" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "33601E474DFD1ED3", item: { components: { "ftbquests:missing_item": "botania:mana_diamond" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "30CE4259E2D90C3D", item: { components: { "ftbquests:missing_item": "botania:mana_pearl" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "007860C26AB9D1F4", item: { components: { "ftbquests:missing_item": "botania:manasteel_ingot" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "053BF0B036FDDABE", item: { components: { "ftbquests:missing_item": "botania:dragonstone" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "50A31544FBC62F4D", item: { components: { "ftbquests:missing_item": "botania:pixie_dust" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "465F703E116EBF56", item: { components: { "ftbquests:missing_item": "botania:elementium_ingot" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "3D4C5AA84BFED7CF", item: { components: { "ftbquests:missing_item": "botania:mana_tablet" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "1C4648823928EDD4", item: { components: { "ftbquests:missing_item": "botania:rune_winter" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "0C410C13247C4921", item: { components: { "ftbquests:missing_item": "botania:rune_autumn" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "0E62D2787E676C98", item: { components: { "ftbquests:missing_item": "botania:rune_water" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "1D9FAA57C311C611", item: { components: { "ftbquests:missing_item": "botania:rune_spring" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "0F68ED2B7209DB04", item: { components: { "ftbquests:missing_item": "botania:rune_summer" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "21C4A9F1E20A0A91", item: { components: { "ftbquests:missing_item": "botania:rune_air" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "502CCF0B654E0789", item: { components: { "ftbquests:missing_item": "botania:rune_earth" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "52D51EAF3770B148", item: { components: { "ftbquests:missing_item": "botania:rune_fire" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "45D56BC89AA55090", item: { components: { "ftbquests:missing_item": "botania:terrasteel_nugget" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "4138A7BA882B6E81", item: { components: { "ftbquests:missing_item": "botania:livingrock" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "45CD803792DEB3F5", item: { components: { "ftbquests:missing_item": "botania:livingwood_log" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "3ACD75CD809533C3", item: { count: 1, id: "minecraft:lapis_block" } }
+		{ id: "413D7149B2160AEA", item: { components: { "ftbquests:missing_item": "botania:bellows" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "2B63E008C6D2FAFE", item: { components: { "ftbquests:missing_item": "botania:mana_glass" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "4E1C0AD5808BCD5A", item: { components: { "ftbquests:missing_item": "botania:mana_powder" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "1E1D742A7C11AE1F", item: { components: { "ftbquests:missing_item": "botania:manaweave_cloth" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "3FBEABABB507C0C3", item: { components: { "ftbquests:missing_item": "botania:red_string" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "437C50365DC9E81F", item: { components: { "ftbquests:missing_item": "botania:dreamwood_twig" }, count: 1, id: "ftbquests:missing_item" } }
 	]
-	title: "botania_mid"
 }

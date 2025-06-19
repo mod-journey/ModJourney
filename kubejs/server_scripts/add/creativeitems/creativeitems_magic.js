@@ -1,4 +1,4 @@
-ServerEvents.recipes(event => {
+let add_creativeitemsMagic = event => {
 
     // Rezept für Everlasting Guilty Pool (Ultimate Crafting Table)
     event.custom({
@@ -130,4 +130,4 @@ ServerEvents.recipes(event => {
     ).id("mod_journey:creative/annotated_codex")
 
 
-});
+};

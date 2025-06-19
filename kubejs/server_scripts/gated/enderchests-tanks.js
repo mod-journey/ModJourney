@@ -1,6 +1,7 @@
 //priority 0
 
-ServerEvents.recipes(event => {
+let enderchestandtank_gated = (event) => {
+
     console.log('Ändern der Gated Enderchest Items')
 
     // Enderchest
@@ -31,4 +32,4 @@ ServerEvents.recipes(event => {
             event.custom(r.json).id(r.getId())
         }
     )
-})
+}

@@ -1,4 +1,6 @@
-ServerEvents.recipes(event => {
+//priority: 0
+
+let remove_botania = event => {
 
     // Linsen Botania
     let lens = [
@@ -26,4 +28,4 @@ ServerEvents.recipes(event => {
 
     // Enfernen der Laputa Shard
     event.remove({output: 'botania:laputa_shard'})
-})
+};

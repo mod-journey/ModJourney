@@ -1,7 +1,7 @@
 // priority: 90
 console.info('Add custom Scrolls.')
 
-StartupEvents.registry('item', event => {
+let item_add = event => {
 
 	for (let i = 1; i <= 9; i++) {
 		event.create('mod_journey:scroll' + i)
@@ -64,4 +64,4 @@ StartupEvents.registry('item', event => {
 		.texture('thermal:item/gold_coin_0')
 		.tag("forge:coins/gold")
 
-})
+};

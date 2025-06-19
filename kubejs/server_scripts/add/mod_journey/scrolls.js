@@ -1,6 +1,6 @@
 //priority 10
 
-ServerEvents.recipes(event => {
+let add_modjourney_scrolls = event => {
 
 event.shaped(
     Item.of('mod_journey:blank_scroll', 1),
@@ -72,4 +72,4 @@ event.shaped(
   });
 
 
-})
+};

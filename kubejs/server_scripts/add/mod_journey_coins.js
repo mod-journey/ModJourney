@@ -1,4 +1,4 @@
-ServerEvents.recipes(event => {
+let add_modjourneycoins = event => {
 
     // Rezept für 1 Silbermünze aus 9 Bronze-Münzen
     event.shaped('mod_journey:silver_coin', [
@@ -24,4 +24,4 @@ ServerEvents.recipes(event => {
     // Rückwärts-Rezept für 9 Silber-Münzen aus 1 Goldmünze
     event.shapeless(Item.of('mod_journey:silver_coin', 9), ['mod_journey:gold_coin']).id('mod_journey:silver_coin_from_gold');
 
-});
+};

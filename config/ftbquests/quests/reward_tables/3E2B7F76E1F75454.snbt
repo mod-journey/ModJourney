@@ -1,16 +1,85 @@
 {
-	icon: "bloodmagic:magicianbloodorb"
 	id: "3E2B7F76E1F75454"
 	loot_size: 3
 	order_index: 9
 	rewards: [
-		{ item: "bloodmagic:steadfastcrystal", random_bonus: 5 }
-		{ item: "bloodmagic:destructivecrystal", random_bonus: 5 }
-		{ item: "bloodmagic:vengefulcrystal", random_bonus: 5 }
-		{ item: "bloodmagic:corrosivecrystal", random_bonus: 5 }
-		{ item: "bloodmagic:defaultcrystal", random_bonus: 5 }
-		{ ignore_reward_blocking: true, item: "bloodmagic:hellforgedparts", weight: 0.02f }
-		{ item: "bloodmagic:blankrune", weight: 0.5f }
+		{
+			id: "005D3B5BC3E6CFAC"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:steadfastcrystal"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 5
+		}
+		{
+			id: "581EDA7A214EA220"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:destructivecrystal"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 5
+		}
+		{
+			id: "6FC3DD8E449EA624"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:vengefulcrystal"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 5
+		}
+		{
+			id: "6EBD7D4564F8802D"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:corrosivecrystal"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 5
+		}
+		{
+			id: "6A3C43C90FFD40EE"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:defaultcrystal"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 5
+		}
+		{
+			id: "7BBB20B4C9BCB9E3"
+			ignore_reward_blocking: true
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:hellforgedparts"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 0.02f
+		}
+		{
+			id: "15B2054E9232933E"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:blankrune"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 0.5f
+		}
 	]
-	title: "bloodmagic_mid"
 }
