@@ -1,6 +1,6 @@
 //priority 0
 
-ServerEvents.recipes(event => {
+let remove_apotheosis = event => {
 
     // Debug Variablen
     let debug = "false"
@@ -107,4 +107,4 @@ ServerEvents.recipes(event => {
 
      // Entfernen des Augmenting Table
      event.remove({output: 'apotheosis:augmenting_table'})
-})
+};

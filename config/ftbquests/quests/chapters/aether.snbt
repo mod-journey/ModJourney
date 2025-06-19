@@ -1,0 +1,257 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aether"
+	group: "12D6D4D26DC1B099"
+	id: "10E1266DF64C997D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37706A8F418CE74C"]
+			id: "25D555627E5F7556"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "4627D35561E99028"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "37706A8F418CE74C"
+			tasks: [{
+				id: "39F041BF05060216"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25D555627E5F7556"]
+			id: "5D196A5F5980E8D5"
+			tasks: [{
+				id: "21390B68698E9438"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5D196A5F5980E8D5"]
+			id: "0AEA6B7F3ED1C659"
+			tasks: [{
+				id: "1DDE93CE98C31741"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5D196A5F5980E8D5"]
+			id: "4FD68CD56495BC8D"
+			tasks: [{
+				id: "74CB5C3F334DF6F9"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4FD68CD56495BC8D"]
+			id: "27A8B343CD99EA6D"
+			tasks: [{
+				id: "46181A5A2EC80EFA"
+				item: { }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"27A8B343CD99EA6D"
+				"0390C2B9DD42D306"
+			]
+			id: "18DC444B569EA95E"
+			tasks: [{
+				id: "20F816BCEE767165"
+				item: { }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0AEA6B7F3ED1C659"]
+			id: "0390C2B9DD42D306"
+			tasks: [{
+				id: "5EED7E9E0D7A9B59"
+				item: { }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["18DC444B569EA95E"]
+			id: "2C5CFE4579A1DF6E"
+			tasks: [{
+				id: "60F262FDBD0040F3"
+				item: { }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["25D555627E5F7556"]
+			id: "6BF534C006E6947C"
+			tasks: [{
+				id: "1B4209D59746B89D"
+				item: { }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C5CFE4579A1DF6E"]
+			id: "3B8EF9C3766DE216"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "34D62C6199CCF33C"
+				type: "kill"
+				value: 100L
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3B8EF9C3766DE216"]
+			id: "2E77ADF906B1850A"
+			tasks: [{
+				id: "563A74C71DF421E8"
+				item: { }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2E77ADF906B1850A"]
+			id: "5D2937781303426D"
+			tasks: [{
+				id: "51986CF71ECDBE87"
+				item: { }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5D2937781303426D"]
+			id: "05BD7F9376C6E8B3"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "6405356F9AF473B4"
+				type: "kill"
+				value: 100L
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["05BD7F9376C6E8B3"]
+			id: "541AFC2144795998"
+			tasks: [{
+				id: "32B6EB87A4386E54"
+				item: { }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["541AFC2144795998"]
+			id: "372535099216FF16"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "49BC0635FB172315"
+				type: "kill"
+				value: 100L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["372535099216FF16"]
+			id: "7EEBDA12D85434A5"
+			tasks: [{
+				id: "289C9B3C40AAFEB4"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0390C2B9DD42D306"]
+			id: "0295BE21DA3E9D39"
+			tasks: [{
+				id: "2D4AA4D139251448"
+				item: { }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["20D09BE2E5AB2426"]
+			id: "6438BD6734F3676C"
+			tasks: [{
+				id: "449905E3000236EC"
+				item: { }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0295BE21DA3E9D39"]
+			id: "20D09BE2E5AB2426"
+			tasks: [{
+				id: "2F492EBF4069D00F"
+				item: { }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["372535099216FF16"]
+			id: "48B1E0071D693851"
+			tasks: [{
+				id: "7A036A144184E16C"
+				structure: "minecraft:mineshaft"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48B1E0071D693851"]
+			id: "585A1CA7B2EE72FA"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "7A15FC66B28D9B85"
+				type: "kill"
+				value: 100L
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+	]
+}

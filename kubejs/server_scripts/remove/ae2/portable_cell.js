@@ -1,10 +1,10 @@
 // priority: 0
 
-ServerEvents.recipes(event => {
+let remove_ae2_portable_cell = event => {
 
     let portable_cell = [
         'appbot:portable_mana_storage_cell_1k',
-        'appbot:portable_mana_storage_cell_4k', 
+        'appbot:portable_mana_storage_cell_4k',
         'appbot:portable_mana_storage_cell_16k',
         'appbot:portable_mana_storage_cell_64k',
         'appbot:portable_mana_storage_cell_256k',
@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
         'megacells:portable_item_cell_256m',
         'megacells:portable_fluid_cell_1m',
         'megacells:portable_fluid_cell_4m',
-        'megacells:portable_fluid_cell_16m', 
+        'megacells:portable_fluid_cell_16m',
         'megacells:portable_fluid_cell_64m',
         'megacells:portable_fluid_cell_256m',
         'megacells:portable_mana_cell_1m',
@@ -45,9 +45,9 @@ ServerEvents.recipes(event => {
     ]
 
     portable_cell.forEach((element) => {
-        event.remove({ 
+        event.remove({
             output: element
-        })
+        });
     });
 
-})
+};

@@ -1,6 +1,6 @@
-//priority 10
+//priority: 10
 
-ServerEvents.recipes(event => {
+let remove_arsNoveau = event => {
     let ars_weather_and_time =[
         'ars_nouveau:ritual_moonfall',
         'ars_nouveau:ritual_cloudshaping',
@@ -48,6 +48,6 @@ ServerEvents.recipes(event => {
     event.remove([
         { output: 'ars_nouveau:annotated_codex' }
     ])
-})
+};
 
 

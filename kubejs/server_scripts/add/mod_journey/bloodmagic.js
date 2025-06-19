@@ -1,6 +1,6 @@
 //priority 10
 
-ServerEvents.recipes(event => {
+let add_modjourney_bloodmagic = event => {
 
     /**
         * Hinzufügen des geronnenen Blutblocks,
@@ -26,4 +26,4 @@ ServerEvents.recipes(event => {
         Item.of('mod_journey:clotted_bloodblock', 1), [
         '9x mod_journey:clotted_blood_clump'
     ]).id("modjourney:shapless/clotted_blood_block")
-});
+};

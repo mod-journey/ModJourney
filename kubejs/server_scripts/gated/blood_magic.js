@@ -1,8 +1,9 @@
 //priority 0
 
-console.log('Gated BloodMagic')
 
-ServerEvents.recipes(event => {
+let bloodmagic_gated = (event) => {
+
+    console.log('Gated BloodMagic')
 
     //Blood Altar, add manasteel instead of gold by key "c"
     event.forEachRecipe({id: 'bloodmagic:blood_altar' },
@@ -32,5 +33,4 @@ ServerEvents.recipes(event => {
             */
         }
     )
-
-})
+}

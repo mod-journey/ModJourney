@@ -1,4 +1,4 @@
-ServerEvents.recipes(event => {
+let add_creativeitemsTechnic = event => {
 
     // Rezept für Mekasuit Helmet (Ultimate Crafting Table)
     event.custom({
@@ -210,6 +210,6 @@ ServerEvents.recipes(event => {
         }
     }).id('mod_journey:creative/creative_energy_cell');
 
-})
+}
 
 

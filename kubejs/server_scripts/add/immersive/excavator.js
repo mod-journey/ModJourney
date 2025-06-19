@@ -1,4 +1,4 @@
-ServerEvents.recipes(event => {
+let add_immersive_excavator = event => {
     event.forEachRecipe({ type: 'immersiveengineering:mineral_mix' }, r => {
         let dim = r.json.get("dimensions")
 
@@ -8,4 +8,4 @@ ServerEvents.recipes(event => {
             event.custom(r.json).id(r.getId())
         }
     });
-});
+};

@@ -5,7 +5,7 @@
     prüft das script bei jedem mal rüberhovern über das Item, ob die Kondition "shift" erfüllt ist.
 */
 
-ItemEvents.tooltip(event => {
+let tooltip_scrolls = event => {
 
     for (let i = 1; i <= 9; i++) {
 
@@ -18,10 +18,10 @@ ItemEvents.tooltip(event => {
                     Text.gold('Hold '),
                     Text.yellow('Shift '),
                     Text.gold('to see more info.')
-                ])
-            }
-        })
-    }
+                ]);
+            };
+        });
+    };
 
     let magic_scrolls_array = [
         "one",
@@ -39,9 +39,9 @@ ItemEvents.tooltip(event => {
                     Text.gold('Hold '),
                     Text.yellow('Shift '),
                     Text.gold('to see more info.')
-                ])
-            }
-        })
+                ]);
+            };
+        });
     });
 
 
@@ -54,9 +54,9 @@ ItemEvents.tooltip(event => {
             ])
             text.add(3,[
                 Text.gold("Industrial Foregoing")
-            ])
-        }
-    })
+            ]);
+        };
+    });
 
     //Schriftrolle 2
     event.addAdvanced('mod_journey:scroll2', (item, advanced, text) => {
@@ -66,9 +66,9 @@ ItemEvents.tooltip(event => {
             ])
             text.add(3,[
                 Text.gold("Ad Astra")
-            ])
-        }
-    })
+            ]);
+        };
+    });
 
     //Schriftrolle 3
     event.addAdvanced('mod_journey:scroll3', (item, advanced, text) => {
@@ -206,4 +206,4 @@ ItemEvents.tooltip(event => {
         }
     })
 
-})
+};

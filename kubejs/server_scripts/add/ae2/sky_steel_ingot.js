@@ -1,5 +1,6 @@
-ServerEvents.recipes(event => {
+//priority: 0
 
+let add_ae2_skystellingot = event => {
     event.custom(
         {
             "type": "mekanism:metallurgic_infusing",
@@ -9,7 +10,7 @@ ServerEvents.recipes(event => {
             },
             "itemInput": {
                 "ingredient": {
-                    "item" : "ae2:sky_stone_block"
+                    "item": "ae2:sky_stone_block"
                 }
             },
             "output": {
@@ -41,4 +42,4 @@ ServerEvents.recipes(event => {
             "processingTime": 300
         }
     ).id("mod_journey:dissolution/sky_steel_ingot")
-})
+}

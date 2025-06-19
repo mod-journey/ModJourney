@@ -1,7 +1,9 @@
 //priority 0
 
+let mekanism_gated = (event) => {
 
-ServerEvents.recipes(event => {
+    console.log("Laden des Modules Mekanism Gating")
+
     let mekanismCoreItem = 'mekanism:steel_casing';
 
     // Void Chassis
@@ -25,5 +27,4 @@ ServerEvents.recipes(event => {
         1,2,
         { 'item': mekanismCoreItem }
     )
-
-})
+}

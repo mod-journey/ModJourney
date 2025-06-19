@@ -1,6 +1,6 @@
 // priority: 0
 
-ServerEvents.recipes(event => {
+let remove_ae2_removeComplete = event => {
 
     let entfernen = [
         'ae2:vibration_chamber',                        //dodgt early game
@@ -22,6 +22,22 @@ ServerEvents.recipes(event => {
     entfernen.forEach((element) => {
         event.remove({
             output: element
+        });
+    });
+
+
+    let entfernen2 = [
+        'aeinfinitybooster:dimension_card',
+        'ae2:creative_energy_cell',
+        Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:f",id:"minecraft:water"}}'),
+        Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:i",id:"minecraft:cobblestone"}}'),
+    ]
+
+
+    entfernen2.forEach((element) => {
+        event.remove({
+            output: element
         })
     });
-})
+
+};

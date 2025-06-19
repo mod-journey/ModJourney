@@ -1,34 +1,32 @@
 {
-	icon: "minecraft:chest"
 	id: "05800BEABBDEC066"
 	loot_size: 1
 	order_index: 14
 	rewards: [
-		{ item: "minecraft:iron_ingot" }
-		{ item: "minecraft:iron_bars" }
-		{ item: "enderio:copper_alloy_nugget" }
-		{ item: "enderio:energetic_alloy_nugget" }
-		{ item: "enderio:vibrant_alloy_nugget" }
-		{ item: "enderio:redstone_alloy_nugget" }
-		{ item: "enderio:conductive_alloy_nugget" }
-		{ item: "enderio:conductive_alloy_nugget" }
-		{ item: "enderio:pulsating_alloy_nugget" }
-		{ item: "enderio:dark_steel_nugget" }
-		{ item: "enderio:soularium_nugget" }
-		{ item: "enderio:end_steel_nugget" }
-		{ item: "enderio:silicon" }
-		{ item: "enderio:copper_alloy_ingot" }
-		{ item: "minecraft:redstone" }
-		{ item: "minecraft:gold_ingot" }
-		{ item: "minecraft:glowstone_dust" }
-		{ item: "enderio:energetic_alloy_ingot" }
-		{ item: "minecraft:ender_pearl" }
-		{ item: "enderio:powdered_coal" }
-		{ item: "minecraft:obsidian" }
-		{ item: "minecraft:soul_sand" }
-		{ item: "enderio:dark_steel_ingot" }
-		{ item: "enderio:pulsating_alloy_ingot" }
-		{ item: "enderio:vibrant_alloy_ingot" }
+		{ id: "4E50DD6DEF8775AB", item: { count: 1, id: "minecraft:iron_ingot" } }
+		{ id: "1C1AE88F5539D672", item: { count: 1, id: "minecraft:iron_bars" } }
+		{ id: "23236A43A2450A3D", item: { count: 1, id: "enderio:copper_alloy_nugget" } }
+		{ id: "2ED7C08AEF6DA8AB", item: { count: 1, id: "enderio:energetic_alloy_nugget" } }
+		{ id: "0532539CBF207142", item: { count: 1, id: "enderio:vibrant_alloy_nugget" } }
+		{ id: "4C92EF13B8DBF279", item: { count: 1, id: "enderio:redstone_alloy_nugget" } }
+		{ id: "74ED32601043E797", item: { count: 1, id: "enderio:conductive_alloy_nugget" } }
+		{ id: "3805B63F80EB3706", item: { count: 1, id: "enderio:conductive_alloy_nugget" } }
+		{ id: "137A2702142A6C19", item: { count: 1, id: "enderio:pulsating_alloy_nugget" } }
+		{ id: "545B58521CE47AB2", item: { count: 1, id: "enderio:dark_steel_nugget" } }
+		{ id: "2A2A6687C3C640B7", item: { count: 1, id: "enderio:soularium_nugget" } }
+		{ id: "5A3482C92A01E2F0", item: { count: 1, id: "enderio:end_steel_nugget" } }
+		{ id: "3F06A0F7AA0CE068", item: { count: 1, id: "enderio:silicon" } }
+		{ id: "049EB3C1AD06EFB5", item: { count: 1, id: "enderio:copper_alloy_ingot" } }
+		{ id: "1232AF90E3E572F6", item: { count: 1, id: "minecraft:redstone" } }
+		{ id: "08FE73C8F88198F8", item: { count: 1, id: "minecraft:gold_ingot" } }
+		{ id: "0F9AEA6C5CEEBF58", item: { count: 1, id: "minecraft:glowstone_dust" } }
+		{ id: "19B589F6CB4FED4C", item: { count: 1, id: "enderio:energetic_alloy_ingot" } }
+		{ id: "0533B38147A44504", item: { count: 1, id: "minecraft:ender_pearl" } }
+		{ id: "35A51A9733BCA9B3", item: { count: 1, id: "enderio:powdered_coal" } }
+		{ id: "0E86C3AA13948ACA", item: { count: 1, id: "minecraft:obsidian" } }
+		{ id: "31C8F100792384F4", item: { count: 1, id: "minecraft:soul_sand" } }
+		{ id: "0729B189F38ED93B", item: { count: 1, id: "enderio:dark_steel_ingot" } }
+		{ id: "514B087D1C5B204A", item: { count: 1, id: "enderio:pulsating_alloy_ingot" } }
+		{ id: "50F932B32315CC14", item: { count: 1, id: "enderio:vibrant_alloy_ingot" } }
 	]
-	title: "EnderIO"
 }

@@ -1,102 +1,98 @@
 {
-	icon: "mysticalagriculture:infusion_altar"
 	id: "449D357B59DEC671"
 	loot_size: 1
 	order_index: 16
 	rewards: [
-		{ item: "mysticalagriculture:prosperity_seed_base" }
-		{ item: "mysticalagriculture:soulium_seed_base" }
-		{ item: "mysticalagriculture:air_seeds" }
-		{ item: "mysticalagriculture:earth_seeds" }
-		{ item: "mysticalagriculture:water_seeds" }
-		{ item: "mysticalagriculture:fire_seeds" }
-		{ item: "mysticalagriculture:inferium_seeds" }
-		{ item: "mysticalagriculture:stone_seeds" }
-		{ item: "mysticalagriculture:dirt_seeds" }
-		{ item: "mysticalagriculture:ice_seeds" }
-		{ item: "mysticalagriculture:deepslate_seeds" }
-		{ item: "mysticalagriculture:nature_seeds" }
-		{ item: "mysticalagriculture:dye_seeds" }
-		{ item: "mysticalagriculture:nether_seeds" }
-		{ item: "mysticalagriculture:coral_seeds" }
-		{ item: "mysticalagriculture:honey_seeds" }
-		{ item: "mysticalagriculture:amethyst_seeds" }
-		{ item: "mysticalagriculture:pig_seeds" }
-		{ item: "mysticalagriculture:chicken_seeds" }
-		{ item: "mysticalagriculture:cow_seeds" }
-		{ item: "mysticalagriculture:sheep_seeds" }
-		{ item: "mysticalagriculture:squid_seeds" }
-		{ item: "mysticalagriculture:fish_seeds" }
-		{ item: "mysticalagriculture:slime_seeds" }
-		{ item: "mysticalagriculture:turtle_seeds" }
-		{ item: "mysticalagriculture:rubber_seeds" }
-		{ item: "mysticalagriculture:silicon_seeds" }
-		{ item: "mysticalagriculture:sulfur_seeds" }
-		{ item: "mysticalagriculture:aluminum_seeds" }
-		{ item: "mysticalagriculture:saltpeter_seeds" }
-		{ item: "mysticalagriculture:apatite_seeds" }
-		{ item: "mysticalagriculture:grains_of_infinity_seeds" }
-		{ item: "mysticalagriculture:mystical_flower_seeds" }
-		{ item: "mysticalagriculture:copper_seeds" }
-		{ item: "mysticalagriculture:glowstone_seeds" }
-		{ item: "mysticalagriculture:obsidian_seeds" }
-		{ item: "mysticalagriculture:prismarine_seeds" }
-		{ item: "mysticalagriculture:zombie_seeds" }
-		{ item: "mysticalagriculture:skeleton_seeds" }
-		{ item: "mysticalagriculture:creeper_seeds" }
-		{ item: "mysticalagriculture:spider_seeds" }
-		{ item: "mysticalagriculture:rabbit_seeds" }
-		{ item: "mysticalagriculture:tin_seeds" }
-		{ item: "mysticalagriculture:bronze_seeds" }
-		{ item: "mysticalagriculture:zinc_seeds" }
-		{ item: "mysticalagriculture:brass_seeds" }
-		{ item: "mysticalagriculture:silver_seeds" }
-		{ item: "mysticalagriculture:lead_seeds" }
-		{ item: "mysticalagriculture:graphite_seeds" }
-		{ item: "mysticalagriculture:blizz_seeds" }
-		{ item: "mysticalagriculture:blitz_seeds" }
-		{ item: "mysticalagriculture:basalz_seeds" }
-		{ item: "mysticalagriculture:copper_alloy_seeds" }
-		{ item: "mysticalagriculture:redstone_alloy_seeds" }
-		{ item: "mysticalagriculture:conductive_alloy_seeds" }
-		{ item: "mysticalagriculture:sky_stone_seeds" }
-		{ item: "mysticalagriculture:certus_quartz_seeds" }
-		{ item: "mysticalagriculture:lapis_lazuli_seeds" }
-		{ item: "mysticalagriculture:end_seeds" }
-		{ item: "mysticalagriculture:experience_seeds" }
-		{ item: "mysticalagriculture:ghast_seeds" }
-		{ item: "mysticalagriculture:enderman_seeds" }
-		{ item: "mysticalagriculture:nickel_seeds" }
-		{ item: "mysticalagriculture:constantan_seeds" }
-		{ item: "mysticalagriculture:electrum_seeds" }
-		{ item: "mysticalagriculture:invar_seeds" }
-		{ item: "mysticalagriculture:mithril_seeds" }
-		{ item: "mysticalagriculture:tungsten_seeds" }
-		{ item: "mysticalagriculture:titanium_seeds" }
-		{ item: "mysticalagriculture:chrome_seeds" }
-		{ item: "mysticalagriculture:ruby_seeds" }
-		{ item: "mysticalagriculture:sapphire_seeds" }
-		{ item: "mysticalagriculture:peridot_seeds" }
-		{ item: "mysticalagriculture:soulium_seeds" }
-		{ item: "mysticalagriculture:signalum_seeds" }
-		{ item: "mysticalagriculture:lumium_seeds" }
-		{ item: "mysticalagriculture:hop_graphite_seeds" }
-		{ item: "mysticalagriculture:soularium_seeds" }
-		{ item: "mysticalagriculture:dark_steel_seeds" }
-		{ item: "mysticalagriculture:pulsating_alloy_seeds" }
-		{ item: "mysticalagriculture:energetic_alloy_seeds" }
-		{ item: "mysticalagriculture:osmium_seeds" }
-		{ item: "mysticalagriculture:fluorite_seeds" }
-		{ item: "mysticalagriculture:refined_glowstone_seeds" }
-		{ item: "mysticalagriculture:refined_obsidian_seeds" }
-		{ item: "mysticalagriculture:fluix_seeds" }
-		{ item: "mysticalagriculture:energized_steel_seeds" }
-		{ item: "mysticalagriculture:platinum_seeds" }
-		{ item: "mysticalagriculture:iridium_seeds" }
-		{ item: "mysticalagriculture:enderium_seeds" }
-		{ item: "mysticalagriculture:vibrant_alloy_seeds" }
-		{ item: "mysticalagriculture:end_steel_seeds" }
-		{ item: "mysticalagriculture:cyanite_seeds" }
+		{ id: "57C7D2689D8A76CB", item: { count: 1, id: "mysticalagriculture:air_seeds" } }
+		{ id: "1E3B3442DFEBC5D1", item: { count: 1, id: "mysticalagriculture:earth_seeds" } }
+		{ id: "7892023304695D63", item: { count: 1, id: "mysticalagriculture:water_seeds" } }
+		{ id: "5335CC2A60282A7A", item: { count: 1, id: "mysticalagriculture:fire_seeds" } }
+		{ id: "277E175140FE2421", item: { count: 1, id: "mysticalagriculture:inferium_seeds" } }
+		{ id: "4E24C88357691D79", item: { count: 1, id: "mysticalagriculture:stone_seeds" } }
+		{ id: "71688A4176C1890F", item: { count: 1, id: "mysticalagriculture:dirt_seeds" } }
+		{ id: "1BBCEFC53FE4501C", item: { count: 1, id: "mysticalagriculture:ice_seeds" } }
+		{ id: "70FBB079A918C30A", item: { count: 1, id: "mysticalagriculture:deepslate_seeds" } }
+		{ id: "278FF3021096F447", item: { count: 1, id: "mysticalagriculture:nature_seeds" } }
+		{ id: "1C44C5B6ACE23F8A", item: { count: 1, id: "mysticalagriculture:dye_seeds" } }
+		{ id: "032AAFF0AC8BC674", item: { count: 1, id: "mysticalagriculture:nether_seeds" } }
+		{ id: "394C326C84BD24A1", item: { count: 1, id: "mysticalagriculture:coral_seeds" } }
+		{ id: "415AA14CA482C6A2", item: { count: 1, id: "mysticalagriculture:honey_seeds" } }
+		{ id: "3E18248F4AB0D008", item: { count: 1, id: "mysticalagriculture:amethyst_seeds" } }
+		{ id: "2B880E416153107E", item: { count: 1, id: "mysticalagriculture:pig_seeds" } }
+		{ id: "33F186CAD9777EEB", item: { count: 1, id: "mysticalagriculture:chicken_seeds" } }
+		{ id: "766782AB1D233E08", item: { count: 1, id: "mysticalagriculture:cow_seeds" } }
+		{ id: "228D41B9636A4BA1", item: { count: 1, id: "mysticalagriculture:sheep_seeds" } }
+		{ id: "5503CD4FDE7E5D2D", item: { count: 1, id: "mysticalagriculture:squid_seeds" } }
+		{ id: "3E690C28C78B61A4", item: { count: 1, id: "mysticalagriculture:fish_seeds" } }
+		{ id: "674429F2D29AC710", item: { count: 1, id: "mysticalagriculture:slime_seeds" } }
+		{ id: "64374B800F8F98AB", item: { count: 1, id: "mysticalagriculture:turtle_seeds" } }
+		{ id: "2448FC7EDA465555", item: { count: 1, id: "mysticalagriculture:rubber_seeds" } }
+		{ id: "73B26C153E6238AE", item: { count: 1, id: "mysticalagriculture:silicon_seeds" } }
+		{ id: "56C411E3B658E600", item: { count: 1, id: "mysticalagriculture:sulfur_seeds" } }
+		{ id: "07BB5101277426F9", item: { count: 1, id: "mysticalagriculture:aluminum_seeds" } }
+		{ id: "746A21D5D9586792", item: { count: 1, id: "mysticalagriculture:saltpeter_seeds" } }
+		{ id: "00EFC3010D40B86A", item: { count: 1, id: "mysticalagriculture:apatite_seeds" } }
+		{ id: "089D5DBB770E6716", item: { count: 1, id: "mysticalagriculture:grains_of_infinity_seeds" } }
+		{ id: "231CFC2F98104564", item: { count: 1, id: "mysticalagriculture:mystical_flower_seeds" } }
+		{ id: "0ABF77140D8E856A", item: { count: 1, id: "mysticalagriculture:copper_seeds" } }
+		{ id: "6FF327D928A04820", item: { count: 1, id: "mysticalagriculture:glowstone_seeds" } }
+		{ id: "1F7AE716213F143A", item: { count: 1, id: "mysticalagriculture:obsidian_seeds" } }
+		{ id: "4D3C41A152695AB1", item: { count: 1, id: "mysticalagriculture:prismarine_seeds" } }
+		{ id: "22C788369BCEDDCF", item: { count: 1, id: "mysticalagriculture:zombie_seeds" } }
+		{ id: "06F12913DCADED52", item: { count: 1, id: "mysticalagriculture:skeleton_seeds" } }
+		{ id: "7594FDC4CBD1E535", item: { count: 1, id: "mysticalagriculture:creeper_seeds" } }
+		{ id: "4AE0437E56254FFD", item: { count: 1, id: "mysticalagriculture:spider_seeds" } }
+		{ id: "5D1CCD3EABC3DD2B", item: { count: 1, id: "mysticalagriculture:rabbit_seeds" } }
+		{ id: "6DC6FA6FAC546506", item: { count: 1, id: "mysticalagriculture:tin_seeds" } }
+		{ id: "5AB464EDB2AC52BF", item: { count: 1, id: "mysticalagriculture:bronze_seeds" } }
+		{ id: "2C0D122C06BC8BC8", item: { count: 1, id: "mysticalagriculture:zinc_seeds" } }
+		{ id: "7891D59231809DBD", item: { count: 1, id: "mysticalagriculture:brass_seeds" } }
+		{ id: "5FC402FB75855CAD", item: { count: 1, id: "mysticalagriculture:silver_seeds" } }
+		{ id: "11EB6E0A3B2D8871", item: { count: 1, id: "mysticalagriculture:lead_seeds" } }
+		{ id: "5101B096B61AFA3F", item: { count: 1, id: "mysticalagriculture:graphite_seeds" } }
+		{ id: "6931BEED9D39EABF", item: { count: 1, id: "mysticalagriculture:blizz_seeds" } }
+		{ id: "0A786FF55C7319C2", item: { count: 1, id: "mysticalagriculture:blitz_seeds" } }
+		{ id: "7454A3BE44706E71", item: { count: 1, id: "mysticalagriculture:basalz_seeds" } }
+		{ id: "48FDBEE26BB133FB", item: { count: 1, id: "mysticalagriculture:copper_alloy_seeds" } }
+		{ id: "05FBADDAF3E8822D", item: { count: 1, id: "mysticalagriculture:redstone_alloy_seeds" } }
+		{ id: "335A17802767F41B", item: { count: 1, id: "mysticalagriculture:conductive_alloy_seeds" } }
+		{ id: "5F1602C3604D6310", item: { count: 1, id: "mysticalagriculture:sky_stone_seeds" } }
+		{ id: "4E8C9DCE787B5464", item: { count: 1, id: "mysticalagriculture:certus_quartz_seeds" } }
+		{ id: "025860CE18BD2E42", item: { count: 1, id: "mysticalagriculture:lapis_lazuli_seeds" } }
+		{ id: "4079FCE33B406C1B", item: { count: 1, id: "mysticalagriculture:end_seeds" } }
+		{ id: "69E9BEC2279521E3", item: { count: 1, id: "mysticalagriculture:experience_seeds" } }
+		{ id: "0CACF84334586035", item: { count: 1, id: "mysticalagriculture:ghast_seeds" } }
+		{ id: "7A2E9072BB37A14B", item: { count: 1, id: "mysticalagriculture:enderman_seeds" } }
+		{ id: "62EA1F09E833EF12", item: { count: 1, id: "mysticalagriculture:nickel_seeds" } }
+		{ id: "4FA46F96DF355D6A", item: { count: 1, id: "mysticalagriculture:constantan_seeds" } }
+		{ id: "5B7A63CAAE769BFF", item: { count: 1, id: "mysticalagriculture:electrum_seeds" } }
+		{ id: "79DA94FF330DCEAF", item: { count: 1, id: "mysticalagriculture:invar_seeds" } }
+		{ id: "6A3D13AB237788A8", item: { components: { "ftbquests:missing_item": "mysticalagriculture:mithril_seeds" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "108A9E7AF47BB18C", item: { components: { "ftbquests:missing_item": "mysticalagriculture:tungsten_seeds" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "60C56EEE4A7BCD5B", item: { components: { "ftbquests:missing_item": "mysticalagriculture:titanium_seeds" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "67BC15CE9885F9CB", item: { components: { "ftbquests:missing_item": "mysticalagriculture:chrome_seeds" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "73F0BB93F44801CE", item: { count: 1, id: "mysticalagriculture:ruby_seeds" } }
+		{ id: "5F34FBB47B28DFC8", item: { count: 1, id: "mysticalagriculture:sapphire_seeds" } }
+		{ id: "434FF3945221D422", item: { count: 1, id: "mysticalagriculture:peridot_seeds" } }
+		{ id: "1A08B4EE4302369A", item: { count: 1, id: "mysticalagriculture:soulium_seeds" } }
+		{ id: "53CA72A434BCAB33", item: { count: 1, id: "mysticalagriculture:signalum_seeds" } }
+		{ id: "7096292CF5EBE7BD", item: { count: 1, id: "mysticalagriculture:lumium_seeds" } }
+		{ id: "4FD48E4F7937B2B7", item: { count: 1, id: "mysticalagriculture:hop_graphite_seeds" } }
+		{ id: "79D247F2EA765EDE", item: { count: 1, id: "mysticalagriculture:soularium_seeds" } }
+		{ id: "0ED4F349812AD57F", item: { count: 1, id: "mysticalagriculture:dark_steel_seeds" } }
+		{ id: "18F1C99E2F476EAC", item: { count: 1, id: "mysticalagriculture:pulsating_alloy_seeds" } }
+		{ id: "6BA3242C178C53F2", item: { count: 1, id: "mysticalagriculture:energetic_alloy_seeds" } }
+		{ id: "7EB103DC55872AA5", item: { count: 1, id: "mysticalagriculture:osmium_seeds" } }
+		{ id: "2A4BA4C3DA2ED4AC", item: { count: 1, id: "mysticalagriculture:fluorite_seeds" } }
+		{ id: "53784AA23619FE1B", item: { count: 1, id: "mysticalagriculture:refined_glowstone_seeds" } }
+		{ id: "39A83739CDAA9D18", item: { count: 1, id: "mysticalagriculture:refined_obsidian_seeds" } }
+		{ id: "37E119EE62EE79B1", item: { count: 1, id: "mysticalagriculture:fluix_seeds" } }
+		{ id: "5C23ADC70500D184", item: { count: 1, id: "mysticalagriculture:energized_steel_seeds" } }
+		{ id: "1EA0AF5FA5C6AE86", item: { count: 1, id: "mysticalagriculture:platinum_seeds" } }
+		{ id: "2DFD6062C996E1DB", item: { count: 1, id: "mysticalagriculture:iridium_seeds" } }
+		{ id: "1BB39A6A524E9985", item: { count: 1, id: "mysticalagriculture:enderium_seeds" } }
+		{ id: "18B7E671F06A5B27", item: { count: 1, id: "mysticalagriculture:vibrant_alloy_seeds" } }
+		{ id: "7A6B028B143D6EA7", item: { count: 1, id: "mysticalagriculture:end_steel_seeds" } }
+		{ id: "473725565CE133B5", item: { count: 1, id: "mysticalagriculture:cyanite_seeds" } }
 	]
-	title: "MysticalALL"
 }
