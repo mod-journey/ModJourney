@@ -8,16 +8,17 @@
  *  botania_recipe_gated(event)
  */
 
-let events_server = false
+let events_server = false;
 
 while (events_server) {
 
-    let gated_event = false
-    let remove_event = false
-    let add_event = false
-    let replace_ores = false
+    let gated_event = false;
+    let remove_event = false;
+    let add_event = false;
+    let replace_ores = false;
+    let other_events = false;
 
-    replacer.init(event);
+    //replacer.init(event);
 
     ServerEvents.recipes((event) => {
 
@@ -47,7 +48,6 @@ while (events_server) {
             rfttools_gated(event);
             sophisticatedbackpacks_gated(replacer)
             thermal_gated(event);
-
             remove_item_by_tag(event);    //Checking scipt of using
         }
 
@@ -114,10 +114,18 @@ while (events_server) {
             ores_replace_adastra(event);
             ores_replace_steel(event);
             ores_remove(event);
+        }
 
-
+        while (replace_event) {
+            replace_extremereactors(event);
+            replace_farmersdelight(event);
+            replace_thermal(event);
         }
     })
+
+    while (other_events) {
+        immersive_chest_loottable_modify(event);
+    };
 };
 
 
@@ -125,9 +133,6 @@ while (events_server) {
   list of paths, which not implemented now.
 
 
-./ores/*          ATTENTION, here ive allready implement chunks of codes  to outsourcing in the past project.
 ./observe/*       Here we obtain the old system, or ref. the commit, if we've a impact to performance.
-./replace/*       in replace/loot, we use LootJS as addon from KJS. So perhaps we add this Lootingtables or change it as datapack?
-./tags/*          ATTENTION, here ive allready implement chunks of codes  to outsourcing in the past project.
 .                 So while we have here a seperat Event Holder, we will rename the main.js in main_recipes.js and main_tags.js
  */
