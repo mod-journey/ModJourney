@@ -1,6 +1,6 @@
 //priority 0
 
-ServerEvents.recipes(event => {
+let ores_remove = event => {
     let ato_alloy = [
         'brass',
         'signalum',
@@ -58,4 +58,4 @@ ServerEvents.recipes(event => {
         ['9x alltheores:copper_nugget']
     ).id('mod_journey:copper_ingot_from_nuggets');
 
-})
+}

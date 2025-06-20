@@ -1,7 +1,6 @@
 //priority 50
 
-
-ServerEvents.recipes(event => {
+let ores_replace_immersive = event => {
 
     let immersive_ores = [
         'aluminum',
@@ -24,4 +23,5 @@ ServerEvents.recipes(event => {
         event.replaceOutput({ output: "immersiveengineering:storage_" + ore }, "immersiveengineering:storage_" + ore, "alltheores:" + ore + "_block" );
     });
     event.replaceOutput({ output: "#forge:nuggets/copper"}, "#forge:nuggets/copper", "alltheores:copper_nugget" );
-})
+
+}

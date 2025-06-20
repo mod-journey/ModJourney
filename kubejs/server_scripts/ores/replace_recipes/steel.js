@@ -1,6 +1,6 @@
 //priority 50
 
-ServerEvents.recipes(event => {
+let ores_replace_steel = event => {
 
     event.forEachRecipe([                                                                   // AND Filter + OR Filter + AND Filter [{ 1 AND 2} OR {1 AND 3}]
         { output: "alltheores:steel_ingot", type: "immersiveengineering:arc_furnace" },     // output steel_ingot AND arc_furnance
@@ -15,4 +15,4 @@ ServerEvents.recipes(event => {
     //event.remove([{type: "minecraft:smelting"}, {output: "alltheores:steel_ingot"}])
     //event.remove([{type: "minecraft:blasting"}, {output: "alltheores:steel_ingot"}])
 
-})
+}

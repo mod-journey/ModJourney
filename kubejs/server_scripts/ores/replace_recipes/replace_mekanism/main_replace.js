@@ -1,6 +1,6 @@
 //priority 50
 
-ServerEvents.recipes(event => {
+let ores_replace_mekanism_main = event => {
 
     let mekka_ores = [
         'bronze',
@@ -56,4 +56,4 @@ ServerEvents.recipes(event => {
         event.custom(r.json).id(r.getId())
     })
 
-})
+}
