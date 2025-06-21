@@ -5,41 +5,58 @@
 Hier werden die Stages Items definiert!
 */
 /** Die Items schalten die nächst höhere Stage frei! */
+const dummy_items = [
+    { id: "mod_journey:dummy_1" },
+    { id: "mod_journey:dummy_2" },
+    { id: "mod_journey:dummy_3" },
+    { id: "mod_journey:dummy_4" },
+    { id: "mod_journey:dummy_5" },
+    { id: "mod_journey:dummy_6" },
+    { id: "mod_journey:dummy_7" },
+    { id: "mod_journey:dummy_8" },
+    { id: "mod_journey:dummy_9" }
+]
+
 const stages = {
-    stage1 : {
+    stage1: {
         core: 'immersiveengineering:circuit_board',
-        second:  '',
+        second: '',
         endgame: '',
         magic: {
-            early:  'botania:manasteel_ingot',
-            mid:    'botania:elementium_ingot',
-            end:    'botania:terrasteel_ingot'
+            early:  dummy_items[0].id,
+            mid: dummy_items[1].id,
+            end: dummy_items[2].id
         },
     },
-    stage2 : {
+    stage2: {
         core: 'ad_astra:glacio_stone',
         // indirect gated via darksteel and ender io allow smelting
         gear: 'enderio:dark_bimetal_gear',
         second: '',
         endgame: '',
         magic: {
-            early:  'bloodmagic:life_essence_bucket',
-            mid:    'bloodmagic:largebloodstonebrick',
-            end:    'bloodmagic:hellforgedparts'
+            early: dummy_items[3].id,
+            mid: dummy_items[4].id,
+            end: dummy_items[5].id,
         },
     },
-    stage3 : {
+    stage3: {
         core: 'powah:crystal_nitro',
         second: '',
         endgame: '',
         magic: {
-            early:  'ars_nouveau:source_gem',
-            mid:    'ars_nouveau:archmage_spell_book',
-            end:    'apotheosis:ender_library'
+            early: dummy_items[6].id,
+            mid: dummy_items[7].id,
+            end: dummy_items[8].id
         },
+    },
+    coins: {
+        bronze: "",
+        silver: "",
+        gold: ""
     }
 }
 
 /* Zugriff auf das Objekt mittels "stages.stage1.core" order stages.stage3.magic*/
 
-console.log("Laden der Staged Items.")
+console.info("Laden der Staged Items.")
