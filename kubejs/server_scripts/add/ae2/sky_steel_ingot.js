@@ -1,23 +1,23 @@
 //priority: 0
 
-let add_ae2_skystellingot = (event,active,debug) => {
+let add_ae2_skystellingot = (event, active, debug) => {
     if (!active) return;
     event.custom(
         {
             "type": "mekanism:metallurgic_infusing",
-            "chemicalInput": {
+            "chemical_input": {
                 "amount": 120,
                 "tag": "mekanism:refined_obsidian"
             },
-            "itemInput": {
-                "ingredient": {
-                    "item": "ae2:sky_stone_block"
-                }
+            "item_input": {
+                "count": 1,
+                "item": "ae2:sky_stone_block"
             },
             "output": {
                 "count": 1,
-                "item": "megacells:sky_steel_ingot"
-            }
+                "id": "megacells:sky_steel_ingot"
+            },
+            "per_tick_usage": false
         }
     ).id("mod_journey:infusing/sky_steel_ingot")
 
@@ -35,10 +35,13 @@ let add_ae2_skystellingot = (event,active,debug) => {
                     "item": "ae2:sky_stone_block"
                 }
             ],
-            "inputFluid": "{Amount:1000,FluidName:\"minecraft:lava\"}",
+            "inputFluid": {
+                "amount": 1000,
+                "fluid": "minecraft:lava"
+            },
             "output": {
                 "count": 1,
-                "item": "megacells:sky_steel_ingot"
+                "id": "megacells:sky_steel_ingot"
             },
             "processingTime": 300
         }
