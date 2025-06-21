@@ -1,7 +1,7 @@
 //priority 10
 
 let chestplate_tome_shaped = (event, staged_item, id_recipe) => {
-    id_recipe = 'apotheosis:chestplate_tome'
+    id_recipe = 'apothic_enchanting:chestplate_tome'
 
     event.shaped( Item.of( id_recipe, 8 ), [
         'BAB',

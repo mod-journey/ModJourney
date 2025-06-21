@@ -38,7 +38,7 @@ let apotheosis_gated = (event, active, debug) => {
             'zzz'
         ], {
             w: special,
-            x: '#forge:bookshelves',
+            x: '#c:bookshelves',
             y: stages.stage3.magic.early,
             z: lower_upper
 
@@ -46,8 +46,8 @@ let apotheosis_gated = (event, active, debug) => {
     }
 
     //while the sea and hellshelf haven't a recipe.json, wll create a knew recipe and overwrite the original ID.
-    shelfs('apotheosis:seashelf', 'minecraft:pufferfish', 'minecraft:prismarine_bricks')
-    shelfs('apotheosis:hellshelf', 'minecraft:blaze_rod', '#chipped:nether_bricks')
+    shelfs('apothic_enchanting:seashelf', 'minecraft:pufferfish', 'minecraft:prismarine_bricks')
+    shelfs('apothic_enchanting:hellshelf', 'minecraft:blaze_rod', '#chipped:nether_bricks')
 
     //replace the amethyst_shard with sorce gem     #early
     event.replaceInput(
@@ -58,7 +58,7 @@ let apotheosis_gated = (event, active, debug) => {
 
     //replace the enchantingtable in the libary with archmages spellbook
     event.replaceInput(
-        { id: 'apotheosis:library' },
+        { id: 'apothic_enchanting:library' },
         'minecraft:enchanting_table',
         stages.stage3.magic.mid
     )
@@ -78,14 +78,14 @@ let apotheosis_gated = (event, active, debug) => {
             "BBB"
         ],
         "key": {
-            "N": { "tag": "forge:ingots/netherite" },
+            "N": { "tag": "c:ingots/netherite" },
             "G": { "item": "apotheosis:gem_dust" },
             "E": { "item": "minecraft:enchanting_table" },
             "B": { "item": "minecraft:nether_bricks" },
             "X": { "item": stages.stage3.magic.mid }
         },
         "result": {
-            "item": "apotheosis:reforging_table",
+            "id": "apotheosis:reforging_table",
             "count": 1
         }
     }).id("apotheosis:reforging_table")

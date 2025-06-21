@@ -1,7 +1,7 @@
 //priority 10
 
 let pickaxe_tome_shaped = (event, staged_item, id_recipe) => {
-    id_recipe = 'apotheosis:pickaxe_tome'
+    id_recipe = 'apothic_enchanting:pickaxe_tome'
 
     event.shaped( Item.of( id_recipe, 3 ), [
         'BAB',
