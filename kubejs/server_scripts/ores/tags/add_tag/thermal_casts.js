@@ -1,4 +1,5 @@
-let thermal_casts = (event) => {
+let thermal_casts = (event, active, debug) => {
+    if (!active) return;
 
     let molds = [
         'immersiveengineering:mold_plate',

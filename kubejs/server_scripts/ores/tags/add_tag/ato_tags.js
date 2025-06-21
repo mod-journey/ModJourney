@@ -1,4 +1,5 @@
-let ato_tags = (event) => {
+let ato_tags = (event, active, debug) => {
+    if (!active) return;
 
     let ores = [
         'copper',
