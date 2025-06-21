@@ -62,13 +62,13 @@ if (events_server) {
             add_immersive_alternativeCircuitRecipes(event, true);
             add_immersive_excavator(event, true);
             //add_industrial_laser_fluidLaser( event ); --> actually no content in this file.
-            add_magic_bloodMagic(event, false);
-            add_magic_botania(event, false);
+            add_magic_bloodMagic(event, false);         //deactivate, while blood magic is NIY
+            add_magic_botania(event, false);            //deactivate, while botania magic is NIY
             add_magic_botanyPots(event, true);
             add_modjourney_antimatter(event, true);
-            add_modjourney_bloodmagic(event, false);
+            add_modjourney_bloodmagic(event, false);    //deactivate, while blood magic is NIY
             add_modjourney_scrolls(event, true);
-            add_cataclysm(event, true);
+            add_cataclysm(event, false);                //deactivate, while cataclysm is deactivated as mod, while throw a lot of errors.
             add_modjourneycoins(event, true);
         }
 
