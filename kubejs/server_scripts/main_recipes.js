@@ -12,7 +12,7 @@ let events_server = true;
 
 if (events_server) {
 
-    let gated_event = false;
+    let gated_event = true;
     let remove_event = false;
     let add_event = true;
     let replace_ores = false;
@@ -23,33 +23,31 @@ if (events_server) {
 
     ServerEvents.recipes((event) => {
 
-
-
         /* "./gated/* */
         if (gated_event) {
-            apotheosis_gated(event);
-            adastra_gated(event);
-            ae_gated(event);
-            arsnoveau_gated(event);
-            bloodmagic_gated(event);
-            //cookingforblockhead_gated(replacer); //ReplacerHelp Script @Radon
-            enderchestandtank_gated(event);
-            enerdeio_gated(event);
-            extendedcrafting_gated(event);
-            extremereactor_gated(event);
-            fluxnetwork_gated(event);
-            industrialforegoing_gated(event);
-            ironjetpacks_gated(event);
-            itemcollector_gated(event);
-            laserio_gated(event);
-            mekanism_gated(event);
-            mobgrindingutils(event)
-            //mysticalagriculture_gated(replacer); //ReplacerHelp Script @Radon
-            powah_gated(event);
-            rfttools_gated(event);
-            //sophisticatedbackpacks_gated(replacer)
-            thermal_gated(event);
-            remove_item_by_tag(event);    //Checking scipt of using
+            apotheosis_gated(event, false);
+            adastra_gated(event, false);
+            ae_gated(event, false);
+            arsnoveau_gated(event, false);
+            bloodmagic_gated(event, false);
+            cookingforblockhead_gated(replacer, false);
+            enderchestandtank_gated(event, false);
+            enerdeio_gated(event, false);
+            extendedcrafting_gated(event, false);
+            extremereactor_gated(event, false);
+            fluxnetwork_gated(event, false);
+            industrialforegoing_gated(event, false);
+            ironjetpacks_gated(event, false);
+            itemcollector_gated(event, false);
+            laserio_gated(event, false);
+            mekanism_gated(event, false);
+            mobgrindingutils(event, false);
+            mysticalagriculture_gated(replacer, false);
+            powah_gated(event, false);
+            rfttools_gated(event, false);
+            sophisticatedbackpacks_gated(replacer, false);
+            thermal_gated(event, false);
+            remove_item_by_tag(event, false);    //Checking scipt of using
         }
 
         /* "./add/*" */
@@ -61,14 +59,14 @@ if (events_server) {
             add_creativeitemsTechnic(event, true);
             add_immersive_alternativeCircuitRecipes(event, true);
             add_immersive_excavator(event, true);
-            //add_industrial_laser_fluidLaser( event ); --> actually no content in this file.
-            add_magic_bloodMagic(event, false);         //deactivate, while blood magic is NIY
-            add_magic_botania(event, false);            //deactivate, while botania magic is NIY
+            add_industrial_laser_fluidLaser(event, false);      //actually no content in this file.
+            add_magic_bloodMagic(event, false);                 //deactivate, while blood magic is NIY
+            add_magic_botania(event, false);                    //deactivate, while botania magic is NIY
             add_magic_botanyPots(event, true);
             add_modjourney_antimatter(event, true);
-            add_modjourney_bloodmagic(event, false);    //deactivate, while blood magic is NIY
+            add_modjourney_bloodmagic(event, false);            //deactivate, while blood magic is NIY
             add_modjourney_scrolls(event, true);
-            add_cataclysm(event, false);                //deactivate, while cataclysm is deactivated as mod, while throw a lot of errors.
+            add_cataclysm(event, false);                        //deactivate, while cataclysm is deactivated as mod, while throw a lot of errors.
             add_modjourneycoins(event, true);
         }
 
@@ -92,7 +90,6 @@ if (events_server) {
             remove_mysticalAgriculture(event);
             remove_rftAndXnet(event);
             remove_Thermal(event);
-            // ./remove/pickup_mobs.js ---> Player interact events. Muss an der Stelle gesondert gehandelt werden. GGf. in die Ruprik observe? >"remove_pickup_mobs( event );"<
         }
 
         if (replace_ores) {
@@ -125,7 +122,10 @@ if (events_server) {
 
     if (other_events) {
         immersive_chest_loottable_modify(event);
+        remove_pickup_mobs(event);
     };
+
+
 };
 
 

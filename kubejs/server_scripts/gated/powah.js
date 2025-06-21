@@ -1,6 +1,7 @@
 //priority 0
 
-let powah_gated = (event) => {
+let powah_gated = (event, active, debug) => {
+    if (!active) return;
 
     console.log('Ändern der Gated Powah Items')
 

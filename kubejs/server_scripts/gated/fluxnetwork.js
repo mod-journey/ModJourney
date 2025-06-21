@@ -1,6 +1,7 @@
 //priority 0
 
-let fluxnetwork_gated = (event) => {
+let fluxnetwork_gated = (event, active, debug) => {
+    if (!active) return;
 
     // Flux Core
     event.replaceInput(

@@ -1,6 +1,7 @@
 //priority 0
 
-let enerdeio_gated = (event) => {
+let enerdeio_gated = (event, active, debug) => {
+    if (!active) return;
 
     console.log('Ändern der Gated EnderIO Items')
 

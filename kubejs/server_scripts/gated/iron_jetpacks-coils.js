@@ -1,7 +1,7 @@
 //priority 0
 
-let ironjetpacks_gated = (event) => {
-
+let ironjetpacks_gated = (event, active, debug) => {
+    if (!active) return;
     console.log('Ändern der Gated Ironjetpacks Items')
 
     // Basic Coil - Stage 2
@@ -26,7 +26,7 @@ let ironjetpacks_gated = (event) => {
     )
 
 
-   // Ultimate Coil - Stage 4
+    // Ultimate Coil - Stage 4
     event.replaceInput(
         { id: 'ironjetpacks:ultimate_coil' },
         'minecraft:stick',

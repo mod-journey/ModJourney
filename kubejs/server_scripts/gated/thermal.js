@@ -1,6 +1,7 @@
 //priority 0
 
-let thermal_gated = (event) => {
+let thermal_gated = (event, active, debug) => {
+    if (!active) return;
 
     console.log('Ändern der Gated Thermal Items')
 

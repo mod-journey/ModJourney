@@ -1,28 +1,29 @@
 //priority 0
 
 
-let bloodmagic_gated = (event) => {
+let bloodmagic_gated = (event, active, debug) => {
+    if (!active) return;
 
     console.log('Gated BloodMagic')
 
     //Blood Altar, add manasteel instead of gold by key "c"
-    event.forEachRecipe({id: 'bloodmagic:blood_altar' },
+    event.forEachRecipe({ id: 'bloodmagic:blood_altar' },
         r => {
-            r.json.get('key').add( 'c', {item: stages.stage1.magic.early })
+            r.json.get('key').add('c', { item: stages.stage1.magic.early })
             event.custom(r.json).id(r.getId())
         }
     )
 
     //Ritual Diviner, add Elementium instead of diamonds, by key "d"
-    event.forEachRecipe({id: 'bloodmagic:ritual_diviner_0' },
+    event.forEachRecipe({ id: 'bloodmagic:ritual_diviner_0' },
         r => {
-            r.json.get('key').add( 'd', {item: stages.stage1.magic.mid })
+            r.json.get('key').add('d', { item: stages.stage1.magic.mid })
             event.custom(r.json).id(r.getId())
         }
     )
 
     //Miners key add Terrasteel instead of copper,
-    event.forEachRecipe({id: 'bloodmagic:soulforge/mine_key' },
+    event.forEachRecipe({ id: 'bloodmagic:soulforge/mine_key' },
         r => {
             let change = r.json.get('input0')
             change.remove("tag")

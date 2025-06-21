@@ -1,6 +1,7 @@
 //priority 0
 
-let ae_gated = (event) => {
+let ae_gated = (event, active, debug) => {
+    if (!active) return;
 
     console.log("Laden des Moduls AE2 Gated")
 
@@ -11,7 +12,7 @@ let ae_gated = (event) => {
         stages.stage1.core
     )
 
-        //definieren der Items
+    //definieren der Items
     let remove = [
         'expatternprovider:ex_drive',
         'megacells:sky_steel_ingot'
@@ -28,22 +29,22 @@ let ae_gated = (event) => {
     event.custom({
         "type": "ae2:transform",
         "circumstance": {
-          "type": "fluid",
-          "tag": "minecraft:water"
+            "type": "fluid",
+            "tag": "minecraft:water"
         },
         "ingredients": [
-          {
-            "item": "ae2:charged_certus_quartz_crystal"
-          },
-          {
-            "item": "mekanism:alloy_atomic" // X
-          },
-          {
-            "item": "ae2:sky_stone_block"
-          }
+            {
+                "item": "ae2:charged_certus_quartz_crystal"
+            },
+            {
+                "item": "mekanism:alloy_atomic" // X
+            },
+            {
+                "item": "ae2:sky_stone_block"
+            }
         ],
         "result": {
-          "item": "megacells:sky_steel_ingot"
+            "item": "megacells:sky_steel_ingot"
         }
     }).id('mod_journey:transform/sky_steel')
 
@@ -88,16 +89,16 @@ let ae_gated = (event) => {
     event.shaped(
         Item.of('expatternprovider:ex_drive', 1),
         [
-          ' A ',
-          'BCB',
-          'DED'
+            ' A ',
+            'BCB',
+            'DED'
         ],
         {
-          A: 'megacells:accumulation_processor',
-          B: '#ae2:glass_cable',
-          C: 'ae2:drive',
-          D: 'ae2:fluix_dust',
-          E: 'ae2:capacity_card'
+            A: 'megacells:accumulation_processor',
+            B: '#ae2:glass_cable',
+            C: 'ae2:drive',
+            D: 'ae2:fluix_dust',
+            E: 'ae2:capacity_card'
         }
     )
 

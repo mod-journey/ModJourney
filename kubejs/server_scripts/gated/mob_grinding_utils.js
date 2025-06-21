@@ -1,11 +1,12 @@
 //priority 0
 
-let mobgrindingutils = (event) => {
+let mobgrindingutils = (event, active, debug) => {
+    if (!active) return;
 
     console.log("Laden des Modules mobgrindingutils gated.")
 
     //replace the rod tag to atm:steel_rod
-    event.shaped( Item.of('mob_grinding_utils:mob_swab', 1), [
+    event.shaped(Item.of('mob_grinding_utils:mob_swab', 1), [
         '  C',
         ' B ',
         'C  '
@@ -15,7 +16,7 @@ let mobgrindingutils = (event) => {
     }).id('mob_grinding_utils:recipe_mob_swab')
 
     //add new recipe to tinted glass ( witherproofed )
-    event.shaped( Item.of('mob_grinding_utils:tinted_glass', 8), [
+    event.shaped(Item.of('mob_grinding_utils:tinted_glass', 8), [
         'GGG',
         'GSG',
         'GGG'
@@ -32,7 +33,7 @@ let mobgrindingutils = (event) => {
     )
 
     //edit and gate the beheading Upgrade, with mix out of botania and blood_magic
-    event.shaped( Item.of('mob_grinding_utils:saw_upgrade_beheading', 1), [
+    event.shaped(Item.of('mob_grinding_utils:saw_upgrade_beheading', 1), [
         'CAC',
         'BDB',
         'CAC'
@@ -44,7 +45,7 @@ let mobgrindingutils = (event) => {
     }).id('mob_grinding_utils:recipe_saw_upgrade_beheading')
 
     //edit the fortune upgrade to make it more diffculty
-    event.shaped( Item.of('mob_grinding_utils:saw_upgrade_looting', 1), [
+    event.shaped(Item.of('mob_grinding_utils:saw_upgrade_looting', 1), [
         'DAD',
         'ABA',
         'DAD'

@@ -1,6 +1,7 @@
 //priority 0
 
-let mekanism_gated = (event) => {
+let mekanism_gated = (event, active, debug) => {
+    if (!active) return;
 
     console.log("Laden des Modules Mekanism Gating")
 
@@ -14,9 +15,9 @@ let mekanism_gated = (event) => {
     )
 
     event.replaceInput([
-            { id: 'mekanism:metallurgic_infuser' },
-            { id: 'mekanismgenerators:generator/heat' }
-        ],
+        { id: 'mekanism:metallurgic_infuser' },
+        { id: 'mekanismgenerators:generator/heat' }
+    ],
         'minecraft:furnace',
         mekanismCoreItem
     )
@@ -24,7 +25,7 @@ let mekanism_gated = (event) => {
     // Replace redstone on bottom/middle
     replacer.replaceInputByPosition(
         { id: 'mekanism:electrolytic_separator' },
-        1,2,
+        1, 2,
         { 'item': mekanismCoreItem }
     )
 }

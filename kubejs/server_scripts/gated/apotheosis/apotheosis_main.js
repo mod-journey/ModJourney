@@ -1,18 +1,19 @@
 //priority 0
 console.log('Gated Ars_Nouveau')
 
-let apotheosis_gated = event => {
+let apotheosis_gated = (event, active, debug) => {
+    if (!active) return;
 
 
-    bow_tome_shaped( event, stages.stage3.magic.early )
-    boots_tome_shaped( event, stages.stage3.magic.early )
-    chestplate_tome_shaped( event, stages.stage3.magic.early )
-    fishing_tome_shaped( event, stages.stage3.magic.early )
-    helmet_tome_shaped( event, stages.stage3.magic.early )
-    leggings_tome_shaped( event, stages.stage3.magic.early )
-    pickaxe_tome_shaped( event, stages.stage3.magic.early )
-    other_tome_shaped( event, stages.stage3.magic.early  )
-    weapon_tome_shaped(  event, stages.stage3.magic.early  )
+    bow_tome_shaped(event, stages.stage3.magic.early)
+    boots_tome_shaped(event, stages.stage3.magic.early)
+    chestplate_tome_shaped(event, stages.stage3.magic.early)
+    fishing_tome_shaped(event, stages.stage3.magic.early)
+    helmet_tome_shaped(event, stages.stage3.magic.early)
+    leggings_tome_shaped(event, stages.stage3.magic.early)
+    pickaxe_tome_shaped(event, stages.stage3.magic.early)
+    other_tome_shaped(event, stages.stage3.magic.early)
+    weapon_tome_shaped(event, stages.stage3.magic.early)
 
     // replace in reforging table the ironingot with stage3 item #early
     event.replaceInput(
@@ -31,7 +32,7 @@ let apotheosis_gated = event => {
 
     //Shaped Item Builder, for bookshelfs   #early
     var shelfs = (output, special, lower_upper) => {
-        event.shaped( output, [
+        event.shaped(output, [
             'zzz',
             'yxw',
             'zzz'
@@ -63,29 +64,29 @@ let apotheosis_gated = event => {
     )
 
     //remove and create reforging_table with same id. Add the archmage book.
-    event.remove({id: "apotheosis:reforging_table" })
+    event.remove({ id: "apotheosis:reforging_table" })
     event.custom({
         "type": "minecraft:crafting_shaped",
         "conditions": [{
-          "type": "apotheosis:module",
-          "module": "adventure"
+            "type": "apotheosis:module",
+            "module": "adventure"
         }],
         "group": "something",
         "pattern": [
-          "NXN",    //orignal = " N "
-          "GEG",
-          "BBB"
+            "NXN",    //orignal = " N "
+            "GEG",
+            "BBB"
         ],
         "key": {
-          "N": { "tag":  "forge:ingots/netherite" },
-          "G": { "item": "apotheosis:gem_dust" },
-          "E": { "item": "minecraft:enchanting_table" },
-          "B": { "item": "minecraft:nether_bricks" },
-          "X": { "item":  stages.stage3.magic.mid }
+            "N": { "tag": "forge:ingots/netherite" },
+            "G": { "item": "apotheosis:gem_dust" },
+            "E": { "item": "minecraft:enchanting_table" },
+            "B": { "item": "minecraft:nether_bricks" },
+            "X": { "item": stages.stage3.magic.mid }
         },
         "result": {
-          "item": "apotheosis:reforging_table",
-          "count": 1
+            "item": "apotheosis:reforging_table",
+            "count": 1
         }
     }).id("apotheosis:reforging_table")
 
