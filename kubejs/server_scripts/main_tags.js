@@ -12,6 +12,7 @@ while (main_tags) {
         ores_industrial_tag(event)
         thermal_casts(event)
         ato_tags(event)
+        tag_event_mj_scrolls(event)
 
     })
 }

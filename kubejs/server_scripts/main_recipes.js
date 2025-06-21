@@ -68,7 +68,6 @@ if (events_server) {
             add_modjourney_antimatter(event, true);
             add_modjourney_bloodmagic(event, false);
             add_modjourney_scrolls(event, true);
-            // ./add/mod_journey/tag_scrolls.js ---> Tag Event auf Items ggf. verschieben in tags im Zukünftigen Kommit. >"tag_event_mj_scrolls( event );"<
             add_cataclysm(event, true);
             add_modjourneycoins(event, true);
         }
