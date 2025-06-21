@@ -1,6 +1,7 @@
 //priority: 0
 
-let add_ae2_fluix = event => {
+let add_ae2_fluix = (event,active,debug) => {
+    if (!active) return;
   event.custom(
     {
       "type": "mekanism:metallurgic_infusing",

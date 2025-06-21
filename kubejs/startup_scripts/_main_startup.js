@@ -2,22 +2,17 @@
 
 let startup = false
 
-while (startup) {
-
-    StartupEvents.registry('block', event => {
-        block_add(event);
-
-    });
-
-
-    StartupEvents.registry('item', event => {
-        item_add(event);
-
-    })
-
+if (startup) {
     ItemEvents.modification(event => {
         item_modify(event);
 
     });
-
 };
+
+StartupEvents.registry('block', event => {
+    block_add(event, true);
+});
+
+StartupEvents.registry('item', event => {
+    item_add(event, true);
+});

@@ -1,6 +1,7 @@
 //priority 10
 
-let add_magic_botanyPots = event => {
+let add_magic_botanyPots = (event, active, debug) => {
+    if (!active) return;
 
     let colours = [
         'white',
@@ -22,14 +23,14 @@ let add_magic_botanyPots = event => {
     ];
 
     //Durchläuft alle Rezepte mit dem Suchfilger UND auf MOD und Rezepttyp
-    event.forEachRecipe({mod: "botanypots", type: "minecraft:crafting_shaped"}, r => {
-        let result_filter =  r.json.get("result").get("item") + '';
+    event.forEachRecipe({ mod: "botanypots", type: "minecraft:crafting_shaped" }, r => {
+        let result_filter = r.json.get("result").get("item") + '';
 
         if (r.json.get("result").get("item") + '' === `"botanypots:terracotta_botany_pot"` || r.json.get("result").get("item") + '' === `"botanypots:terracotta_hopper_botany_pot"`) {
-            event.remove({id: r.getId()})
+            event.remove({ id: r.getId() })
             r.json.get("pattern").set(2, " L ");
-            r.json.get("key").add("L", {"item": "botania:livingrock"});
-            event.custom(r.json).id(`mod_journey:crafting/${result_filter.slice(12,-1)}`); //Nutze vorhandene Ausgabe. parse den String zurecht. (etnfernt Anführungszeichen und mod: botanypots:)
+            r.json.get("key").add("L", { "item": "botania:livingrock" });
+            event.custom(r.json).id(`mod_journey:crafting/${result_filter.slice(12, -1)}`); //Nutze vorhandene Ausgabe. parse den String zurecht. (etnfernt Anführungszeichen und mod: botanypots:)
         }
 
         //Absuchen nach jeder Farbe
@@ -48,7 +49,7 @@ let add_magic_botanyPots = event => {
             if (result_filter === glazed_pot) {
 
                 event.remove(
-                    {output: `botanypots:${colour}_glazed_terracotta_botany_pot`}
+                    { output: `botanypots:${colour}_glazed_terracotta_botany_pot` }
                 );
 
                 event.smelting(
@@ -75,16 +76,16 @@ let add_magic_botanyPots = event => {
 
             //Wenn Filter auf normale Botany Pots zutrifft, dann ändere das Shape und Füge einen Key samt JSON Objekt hinzu. Legt das rezept dann unter gleicher ID an.
             if (result_filter === normal_pot || result_filter === normal_hopper_pot) {
-                event.remove({id: r.getId()})
+                event.remove({ id: r.getId() })
                 r.json.get("pattern").set(2, " L ");
-                r.json.get("key").add("L", {"item": "botania:livingrock"});
-                event.custom(r.json).id(`mod_journey:crafting/${result_filter.slice(12,-1)}`); //Nutze vorhandene Ausgabe. parse den String zurecht. (etnfernt Anführungszeichen und mod: botanypots:)
+                r.json.get("key").add("L", { "item": "botania:livingrock" });
+                event.custom(r.json).id(`mod_journey:crafting/${result_filter.slice(12, -1)}`); //Nutze vorhandene Ausgabe. parse den String zurecht. (etnfernt Anführungszeichen und mod: botanypots:)
             };
 
             //entfertn concrete Botany Pots
             if (result_filter === concrete_pot || result_filter === concrete_hopper_pot) {
-                event.remove({output: `botanypots:${colour}_concrete_hopper_botany_pot`});
-                event.remove({output: `botanypots:${colour}_concrete_botany_pot`});
+                event.remove({ output: `botanypots:${colour}_concrete_hopper_botany_pot` });
+                event.remove({ output: `botanypots:${colour}_concrete_botany_pot` });
             }
         });
     });

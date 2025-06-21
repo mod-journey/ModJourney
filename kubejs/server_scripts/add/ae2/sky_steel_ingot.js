@@ -1,6 +1,7 @@
 //priority: 0
 
-let add_ae2_skystellingot = event => {
+let add_ae2_skystellingot = (event,active,debug) => {
+    if (!active) return;
     event.custom(
         {
             "type": "mekanism:metallurgic_infusing",

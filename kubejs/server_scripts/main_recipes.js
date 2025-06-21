@@ -8,15 +8,16 @@
  *  botania_recipe_gated(event)
  */
 
-let events_server = false;
+let events_server = true;
 
-while (events_server) {
+if (events_server) {
 
     let gated_event = false;
     let remove_event = false;
-    let add_event = false;
+    let add_event = true;
     let replace_ores = false;
     let other_events = false;
+    let replace_event = false;
 
     //replacer.init(event);
 
@@ -25,13 +26,13 @@ while (events_server) {
 
 
         /* "./gated/* */
-        while (gated_event) {
+        if (gated_event) {
             apotheosis_gated(event);
             adastra_gated(event);
             ae_gated(event);
             arsnoveau_gated(event);
             bloodmagic_gated(event);
-            cookingforblockhead_gated(replacer); //ReplacerHelp Script @Radon
+            //cookingforblockhead_gated(replacer); //ReplacerHelp Script @Radon
             enderchestandtank_gated(event);
             enerdeio_gated(event);
             extendedcrafting_gated(event);
@@ -43,37 +44,37 @@ while (events_server) {
             laserio_gated(event);
             mekanism_gated(event);
             mobgrindingutils(event)
-            mysticalagriculture_gated(replacer); //ReplacerHelp Script @Radon
+            //mysticalagriculture_gated(replacer); //ReplacerHelp Script @Radon
             powah_gated(event);
             rfttools_gated(event);
-            sophisticatedbackpacks_gated(replacer)
+            //sophisticatedbackpacks_gated(replacer)
             thermal_gated(event);
             remove_item_by_tag(event);    //Checking scipt of using
         }
 
         /* "./add/*" */
-        while (add_event) {
-            add_adastra_items(event);
-            add_ae2_fluix(event);
-            add_ae2_skystellingot(event);
-            add_creativeitemsMagic(event);
-            add_creativeitemsTechnic(event);
-            add_immersive_alternativeCircuitRecipes(event);
-            add_immersive_excavator(event);
+        if (add_event) {
+            add_adastra_items(event, true);
+            add_ae2_fluix(event, true);
+            add_ae2_skystellingot(event, true);
+            add_creativeitemsMagic(event, true);
+            add_creativeitemsTechnic(event, true);
+            add_immersive_alternativeCircuitRecipes(event, true);
+            add_immersive_excavator(event, true);
             //add_industrial_laser_fluidLaser( event ); --> actually no content in this file.
-            add_magic_bloodMagic(event);
-            add_magic_botania(event);
-            add_magic_botanyPots(event);
-            add_modjourney_antimatter(event);
-            add_modjourney_bloodmagic(event);
-            add_modjourney_scrolls(event);
+            add_magic_bloodMagic(event, false);
+            add_magic_botania(event, false);
+            add_magic_botanyPots(event, true);
+            add_modjourney_antimatter(event, true);
+            add_modjourney_bloodmagic(event, false);
+            add_modjourney_scrolls(event, true);
             // ./add/mod_journey/tag_scrolls.js ---> Tag Event auf Items ggf. verschieben in tags im Zukünftigen Kommit. >"tag_event_mj_scrolls( event );"<
-            add_cataclysm(event);
-            add_modjourneycoins(event);
+            add_cataclysm(event, true);
+            add_modjourneycoins(event, true);
         }
 
         /* "./remove/*" */
-        while (remove_event) {
+        if (remove_event) {
             remove_ae2_portable_cell(event);
             remove_ae2_removeComplete(event);
             remove_aether(event);
@@ -95,7 +96,7 @@ while (events_server) {
             // ./remove/pickup_mobs.js ---> Player interact events. Muss an der Stelle gesondert gehandelt werden. GGf. in die Ruprik observe? >"remove_pickup_mobs( event );"<
         }
 
-        while (replace_ores) {
+        if (replace_ores) {
             event.remove({ output: "#ore:remove" })
 
             change_gears(event)
@@ -116,14 +117,14 @@ while (events_server) {
             ores_remove(event);
         }
 
-        while (replace_event) {
+        if (replace_event) {
             replace_extremereactors(event);
             replace_farmersdelight(event);
             replace_thermal(event);
         }
     })
 
-    while (other_events) {
+    if (other_events) {
         immersive_chest_loottable_modify(event);
     };
 };
@@ -134,5 +135,5 @@ while (events_server) {
 
 
 ./observe/*       Here we obtain the old system, or ref. the commit, if we've a impact to performance.
-.                 So while we have here a seperat Event Holder, we will rename the main.js in main_recipes.js and main_tags.js
+.                 So if we have here a seperat Event Holder, we will rename the main.js in main_recipes.js and main_tags.js
  */

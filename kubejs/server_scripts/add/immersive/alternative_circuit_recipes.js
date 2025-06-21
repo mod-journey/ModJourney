@@ -1,4 +1,5 @@
-let add_immersive_alternativeCircuitRecipes = event => {
+let add_immersive_alternativeCircuitRecipes = (event,active,debug) => {
+    if (!active) return;
 
     // Take enderpearl recipe and re-create it for duroplast
     event.forEachRecipe({ id: 'thermal:machines/chiller/chiller_ender_to_ender_pearl' }, r => {
