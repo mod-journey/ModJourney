@@ -2,7 +2,8 @@
 
 let sophisticatedbackpacks_gated = (event, active, debug) => {
     if (!active) return;
-    let event = replacer.event;
+
+    event = replacer.event;
 
     // Replace center item in bottom of recipe with stage item
     replacer.replaceInputByPosition(

@@ -2,7 +2,8 @@
 
 let mysticalagriculture_gated = (event, active, debug) => {
     if (!active) return;
-    let event = replacer.event;
+
+    event = replacer.event;
 
     // Replace middle item fir machine frame
     event.replaceInput(
