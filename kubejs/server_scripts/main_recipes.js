@@ -19,35 +19,37 @@ if (events_server) {
     let other_events = false;
     let replace_event = false;
 
-    //replacer.init(event);
+
 
     ServerEvents.recipes((event) => {
 
+            replacer.init(event);
+
         /* "./gated/* */
         if (gated_event) {
-            apotheosis_gated(event, false);
-            adastra_gated(event, false);
-            ae_gated(event, false);
-            arsnoveau_gated(event, false);
-            bloodmagic_gated(event, false);
+            apotheosis_gated(event, true);
+            adastra_gated(event, true);
+            ae_gated(event, true);
+            arsnoveau_gated(event, true);
+            bloodmagic_gated(event, true);
             cookingforblockhead_gated(replacer, false);
-            enderchestandtank_gated(event, false);
-            enerdeio_gated(event, false);
-            extendedcrafting_gated(event, false);
-            extremereactor_gated(event, false);
-            fluxnetwork_gated(event, false);
-            industrialforegoing_gated(event, false);
-            ironjetpacks_gated(event, false);
-            itemcollector_gated(event, false);
-            laserio_gated(event, false);
-            mekanism_gated(event, false);
-            mobgrindingutils(event, false);
+            enderchestandtank_gated(event, true);
+            enerdeio_gated(event, true);
+            extendedcrafting_gated(event, true);
+            extremereactor_gated(event, true);
+            fluxnetwork_gated(event, true);
+            industrialforegoing_gated(event, true);
+            ironjetpacks_gated(event, true);
+            itemcollector_gated(event, true);
+            laserio_gated(event, true);
+            mekanism_gated(event, true);
+            mobgrindingutils(event, true);
             mysticalagriculture_gated(replacer, false);
-            powah_gated(event, false);
-            rfttools_gated(event, false);
+            powah_gated(event, true);
+            rfttools_gated(event, true);
             sophisticatedbackpacks_gated(replacer, false);
-            thermal_gated(event, false);
-            remove_item_by_tag(event, false);    //Checking scipt of using
+            thermal_gated(event, true);
+            remove_item_by_tag(event, true);   //Checking scipt of using
         }
 
         /* "./add/*" */
