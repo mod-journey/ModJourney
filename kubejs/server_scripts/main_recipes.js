@@ -43,7 +43,7 @@ if (events_server) {
             itemcollector_gated(event, true);
             laserio_gated(event, true);
             mekanism_gated(event, true);
-            mobgrindingutils(event, true);
+            mobgrindingutils(event, false);     //much items like weapons and armor must replace, if we have new magic mods.
             mysticalagriculture_gated(replacer, false);
             powah_gated(event, true);
             rfttools_gated(event, true);
