@@ -7,14 +7,13 @@ let ae_gated = (event, active, debug) => {
 
     // Inscriber
     event.replaceInput(
-        { id: 'ae2:network/blocks/inscribers' },
+        { id: 'ae2:inscriber' },
         'minecraft:sticky_piston',
         stages.stage1.core
     )
 
     //definieren der Items
     let remove = [
-        'expatternprovider:ex_drive',
         'megacells:sky_steel_ingot'
     ]
 
@@ -44,13 +43,13 @@ let ae_gated = (event, active, debug) => {
             }
         ],
         "result": {
-            "item": "megacells:sky_steel_ingot"
+            "id": "megacells:sky_steel_ingot"
         }
     }).id('mod_journey:transform/sky_steel')
 
     //Drahtlosempfänger - Eisen getauscht durch mekanism:alloy_atmoic
     event.replaceInput(
-        { id: 'ae2:network/wireless_part' },
+        { id: 'ae2:wireless_receiver' },
         'minecraft:iron_ingot',
         'mekanism:alloy_atomic'
     )
@@ -72,7 +71,7 @@ let ae_gated = (event, active, debug) => {
     //Funktion ersetzt aus der Mod extendedAE alle Prozessoren durch den accumulation Prozessor
     prozessoren.forEach(element => {
         event.replaceInput(
-            { mod: 'expatternprovider' },
+            { mod: 'extendedae' },
             `ae2:${element}_processor`,
             'megacells:accumulation_processor'
         )
@@ -87,7 +86,7 @@ let ae_gated = (event, active, debug) => {
 
     //Extended Drive - Hinzufügen des accumulation Prozessor in der Mitte oben bei Buchstabe A
     event.shaped(
-        Item.of('expatternprovider:ex_drive', 1),
+        Item.of('extendedae:ex_drive', 1),
         [
             ' A ',
             'BCB',
