@@ -1,6 +1,7 @@
 //priority 0
 
-let adastra_gated = (event) => {
+let adastra_gated = (event, active, debug) => {
+    if (!active) return;
 
     console.log('Ändern der Gated AdAstra Items')
 

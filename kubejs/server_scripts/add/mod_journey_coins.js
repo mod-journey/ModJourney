@@ -1,4 +1,5 @@
-let add_modjourneycoins = event => {
+let add_modjourneycoins = (event, active, debug) => {
+    if (!active) return;
 
     // Rezept für 1 Silbermünze aus 9 Bronze-Münzen
     event.shaped('mod_journey:silver_coin', [

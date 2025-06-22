@@ -1,5 +1,5 @@
-let add_creativeitemsTechnic = event => {
-
+let add_creativeitemsTechnic = (event,active,debug) => {
+    if (!active) return;
     // Rezept für Mekasuit Helmet (Ultimate Crafting Table)
     event.custom({
         "type": "extendedcrafting:shaped_table",
@@ -23,7 +23,8 @@ let add_creativeitemsTechnic = event => {
             }
         },
         "result": {
-            "item": "mekanism:mekasuit_helmet"
+            "id": "mekanism:mekasuit_helmet",
+            "count": 1
         }
     }).id('mod_journey:creative/mekasuit_helmet');
 
@@ -50,7 +51,8 @@ let add_creativeitemsTechnic = event => {
             }
         },
         "result": {
-            "item": "mekanism:mekasuit_bodyarmor"
+            "id": "mekanism:mekasuit_bodyarmor",
+            "count": 1
         }
     }).id('mod_journey:creative/mekasuit_bodyarmor');
 
@@ -77,7 +79,8 @@ let add_creativeitemsTechnic = event => {
             }
         },
         "result": {
-            "item": "mekanism:mekasuit_pants"
+            "id": "mekanism:mekasuit_pants",
+            "count": 1
         }
     }).id('mod_journey:creative/mekasuit_pants');
 
@@ -104,7 +107,8 @@ let add_creativeitemsTechnic = event => {
             }
         },
         "result": {
-            "item": "mekanism:mekasuit_boots"
+            "id": "mekanism:mekasuit_boots",
+            "count": 1
         }
     }).id('mod_journey:creative/mekasuit_boots');
 
@@ -126,12 +130,14 @@ let add_creativeitemsTechnic = event => {
             }
         },
         "result": {
-            "item": "mekanism:module_energy_unit"
+            "id": "mekanism:module_energy_unit",
+            "count": 1
         }
     }).id('mod_journey:creative/module_energy_unit');
 
     // Rezept für Creative Energy Cube (Ultimate Crafting Table) mit NBT-Daten
     event.custom({
+
         "type": "extendedcrafting:shaped_table",
         "tier": 4,
         "pattern": [
@@ -151,9 +157,8 @@ let add_creativeitemsTechnic = event => {
             }
         },
         "result": {
-            "item": "mekanism:creative_energy_cube",
-            "count": 1,
-            "nbt": "{mekData:{EnergyContainers:[{Container:0b,stored:\"18446744073709551615.9999\"}]}}"
+            "id": 'mekanism:creative_energy_cube',
+            "count": 1
         }
     }).id('mod_journey:creative/creative_energy_cube');
 
@@ -179,7 +184,8 @@ let add_creativeitemsTechnic = event => {
             }
         },
         "result": {
-            "item": "aeinfinitybooster:dimension_card"
+            "id": "aeinfinitybooster:dimension_card",
+            "count": 1
         }
     }).id('mod_journey:creative/dimension_card');
 
@@ -206,10 +212,9 @@ let add_creativeitemsTechnic = event => {
             }
         },
         "result": {
-            "item": "ae2:creative_energy_cell"
+            "id": "ae2:creative_energy_cell",
+            "count": 1
         }
     }).id('mod_journey:creative/creative_energy_cell');
 
 }
-
-

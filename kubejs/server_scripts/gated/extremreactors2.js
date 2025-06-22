@@ -1,6 +1,7 @@
 //priority 0
 
-let extremereactor_gated = (event) => {
+let extremereactor_gated = (event, active, debug) => {
+    if (!active) return;
 
     console.log('Ändern der Gated ExtremeReactors2 Items')
 
@@ -12,5 +13,5 @@ let extremereactor_gated = (event) => {
     )
 
     //beschränkung auf upgrade Rezept vom advanced Reactor
-    event.remove({id: "bigreactors:reactor/reinforced/casing"})
+    event.remove({ id: "bigreactors:reactor/reinforced/casing" })
 }

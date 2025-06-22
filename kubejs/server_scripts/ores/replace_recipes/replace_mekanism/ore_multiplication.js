@@ -1,6 +1,6 @@
 //priority 50
 
-ServerEvents.recipes(event => {
+let ores_replace_ore_duplication = event => {
 
     // Durchläuft den Rezepthändler für mekanism
     event.forEachRecipe({mod: "mekanism"}, r => {
@@ -62,4 +62,4 @@ ServerEvents.recipes(event => {
             }
         });
     })
-})
+}

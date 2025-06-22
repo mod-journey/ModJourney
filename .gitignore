@@ -71,3 +71,9 @@ kubejs/config/web_server.json
 /config/jade/sort-order.json
 /config/powah.json5
 
+
+# Ignore ProbeJS Generated Files
+.probe
+jsconfig.json
+dev.json
+probe-settings.json

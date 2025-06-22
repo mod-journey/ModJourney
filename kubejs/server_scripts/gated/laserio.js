@@ -1,6 +1,7 @@
 //priority 0
 
-let laserio_gated = (event) => {
+let laserio_gated = (event, active, debug) => {
+    if (!active) return;
 
     console.log('Ändern der Gated LaserIO Items')
 

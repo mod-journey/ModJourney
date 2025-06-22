@@ -5,16 +5,17 @@
  * it's a gated Item. So you must also entered the hidden Realm to craft it.
  */
 
-let add_magic_bloodMagic = event => {
+let add_magic_bloodMagic = (event, active, debug) => {
+    if (!active) return;
     event.shaped(Item.of('bloodmagic:hellforgedparts', 1),
         [
             'BNB',
             'NGN',
             'BNB'
         ], {
-            B: 'bloodmagic:largebloodstonebrick',
-            N: 'thermal:netherite_gear',
-            G: 'apotheosis:mythic_material'
-        }
+        B: 'bloodmagic:largebloodstonebrick',
+        N: 'thermal:netherite_gear',
+        G: 'apotheosis:mythic_material'
+    }
     );
 };

@@ -3,7 +3,7 @@
 // In thies Script, the Thermal Servopress, will change the outputs.
 // TO-DO: add changed recipes for rods, plates and gears
 
-ServerEvents.recipes(event => {
+let ores_replace_thermal_packing = event => {
 
     let thermal_ores = [
         'tin',
@@ -63,4 +63,4 @@ ServerEvents.recipes(event => {
         })
     })
 
-})
+}

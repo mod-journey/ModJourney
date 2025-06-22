@@ -1,6 +1,7 @@
 //priority 10
 
-let add_modjourney_bloodmagic = event => {
+let add_modjourney_bloodmagic = (event, active, debug) => {
+    if (!active) return;
 
     /**
         * Hinzufügen des geronnenen Blutblocks,
@@ -14,10 +15,10 @@ let add_modjourney_bloodmagic = event => {
         "consumptionRate": 50,
         "drainRate": 5,
         "input": {
-          "item": "minecraft:netherite_block"
+            "item": "minecraft:netherite_block"
         },
         "output": {
-          "item": "mod_journey:clotted_blood_clump"
+            "item": "mod_journey:clotted_blood_clump"
         },
         "upgradeLevel": 4
     }).id("modjourney:shapless/clotted_blood_clump")

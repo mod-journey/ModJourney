@@ -1,19 +1,19 @@
 //priority 0
 
-let ae_gated = (event) => {
+let ae_gated = (event, active, debug) => {
+    if (!active) return;
 
     console.log("Laden des Moduls AE2 Gated")
 
     // Inscriber
     event.replaceInput(
-        { id: 'ae2:network/blocks/inscribers' },
+        { id: 'ae2:inscriber' },
         'minecraft:sticky_piston',
         stages.stage1.core
     )
 
-        //definieren der Items
+    //definieren der Items
     let remove = [
-        'expatternprovider:ex_drive',
         'megacells:sky_steel_ingot'
     ]
 
@@ -28,28 +28,28 @@ let ae_gated = (event) => {
     event.custom({
         "type": "ae2:transform",
         "circumstance": {
-          "type": "fluid",
-          "tag": "minecraft:water"
+            "type": "fluid",
+            "tag": "minecraft:water"
         },
         "ingredients": [
-          {
-            "item": "ae2:charged_certus_quartz_crystal"
-          },
-          {
-            "item": "mekanism:alloy_atomic" // X
-          },
-          {
-            "item": "ae2:sky_stone_block"
-          }
+            {
+                "item": "ae2:charged_certus_quartz_crystal"
+            },
+            {
+                "item": "mekanism:alloy_atomic" // X
+            },
+            {
+                "item": "ae2:sky_stone_block"
+            }
         ],
         "result": {
-          "item": "megacells:sky_steel_ingot"
+            "id": "megacells:sky_steel_ingot"
         }
     }).id('mod_journey:transform/sky_steel')
 
     //Drahtlosempfänger - Eisen getauscht durch mekanism:alloy_atmoic
     event.replaceInput(
-        { id: 'ae2:network/wireless_part' },
+        { id: 'ae2:wireless_receiver' },
         'minecraft:iron_ingot',
         'mekanism:alloy_atomic'
     )
@@ -71,7 +71,7 @@ let ae_gated = (event) => {
     //Funktion ersetzt aus der Mod extendedAE alle Prozessoren durch den accumulation Prozessor
     prozessoren.forEach(element => {
         event.replaceInput(
-            { mod: 'expatternprovider' },
+            { mod: 'extendedae' },
             `ae2:${element}_processor`,
             'megacells:accumulation_processor'
         )
@@ -86,18 +86,18 @@ let ae_gated = (event) => {
 
     //Extended Drive - Hinzufügen des accumulation Prozessor in der Mitte oben bei Buchstabe A
     event.shaped(
-        Item.of('expatternprovider:ex_drive', 1),
+        Item.of('extendedae:ex_drive', 1),
         [
-          ' A ',
-          'BCB',
-          'DED'
+            ' A ',
+            'BCB',
+            'DED'
         ],
         {
-          A: 'megacells:accumulation_processor',
-          B: '#ae2:glass_cable',
-          C: 'ae2:drive',
-          D: 'ae2:fluix_dust',
-          E: 'ae2:capacity_card'
+            A: 'megacells:accumulation_processor',
+            B: '#ae2:glass_cable',
+            C: 'ae2:drive',
+            D: 'ae2:fluix_dust',
+            E: 'ae2:capacity_card'
         }
     )
 

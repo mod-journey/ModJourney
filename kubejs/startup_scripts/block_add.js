@@ -1,6 +1,8 @@
 //priority 90
 
-let block_add = event => {
+let block_add = (event,active,debug) => {
+
+        if (!active) return;
 
     //Erstellen des Antimatter-Blocks
     event.create('mod_journey:antimatter_block')

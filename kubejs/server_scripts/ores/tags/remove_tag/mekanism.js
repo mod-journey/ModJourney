@@ -1,6 +1,7 @@
 //priority 10
 
-let ores_meka_tag = (event)  => {
+let ores_meka_tag = (event, active, debug) => {
+    if (!active) return;
 
 
     let meka_ores = [

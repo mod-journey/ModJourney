@@ -12,7 +12,7 @@
  *
  */
 
-ServerEvents.recipes(event => {
+let replace_farmersdelight = event => {
     const blockPattern = '["###","###","###"]';
     const crops = [
         'apple',
@@ -61,5 +61,4 @@ ServerEvents.recipes(event => {
 
     })
 
-})
-
+}

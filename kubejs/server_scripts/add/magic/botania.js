@@ -10,11 +10,12 @@
  *
  */
 
-let add_magic_botania = event => {
+let add_magic_botania = (event, active, debug) => {
+    if (!active) return;
 
     let mana_store = 27000;
 
-    for (let n = 1; n <= 8; n++ ) {
+    for (let n = 1; n <= 8; n++) {
 
         event.shapeless(
             Item.of(`botania:mana_tablet`, `{mana:${mana_store}}`),

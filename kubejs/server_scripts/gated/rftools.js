@@ -1,6 +1,7 @@
 //priority 0
 
-let rfttools_gated = (event) => {
+let rfttools_gated = (event, active, debug) => {
+    if (!active) return;
 
     console.log('Ändern der Gated RFtools Items')
 
@@ -11,8 +12,8 @@ let rfttools_gated = (event) => {
         stages.stage1.core
     )
 
-       // Module Template
-       event.replaceInput(
+    // Module Template
+    event.replaceInput(
         { id: 'rftoolsutility:module_template' },
         'rftoolsbase:dimensionalshard',
         stages.stage1.core

@@ -3,7 +3,7 @@
 /**
  * Dieses Skript wandelt die Eingaben im Fluidizer auf den Tag forge:uran um. Yellorium ist gleichzusetzen mit Uran.
  */
-ServerEvents.recipes(event => {
+let replace_extremereactors = event => {
 
     event.replaceInput(
         {input: "bigreactors:yellorium_ingot"},
@@ -45,4 +45,4 @@ ServerEvents.recipes(event => {
             }
         }
     })
-})
+}
