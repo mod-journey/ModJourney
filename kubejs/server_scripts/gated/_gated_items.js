@@ -29,7 +29,7 @@ const stages = {
         },
     },
     stage2: {
-        core: 'ad_astra:glacio_stone',
+        core: 'stellaris:mercury_cobblestone',
         // indirect gated via darksteel and ender io allow smelting
         gear: 'enderio:dark_bimetal_gear',
         second: '',
