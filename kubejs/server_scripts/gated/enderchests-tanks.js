@@ -14,7 +14,7 @@ let enderchestandtank_gated = (event, active, debug) => {
 
     // EnderTank
     event.forEachRecipe(
-        { id: 'endertanks:tank' },
+        { id: 'endertanks:ender_tank' },
         r => {
             // Replace `#' what stands for '#forge:rods/blaze'
             r.json.get('key').add('#', { item: stages.stage1.core })
@@ -25,7 +25,7 @@ let enderchestandtank_gated = (event, active, debug) => {
 
     // EnderBucket
     event.forEachRecipe(
-        { id: 'endertanks:bucket' },
+        { id: 'endertanks:ender_bucket' },
         r => {
             // Replace `#' what stands for 'minecraft:blaze_powder'
             r.json.get('key').add('#', { item: stages.stage1.core })

@@ -21,8 +21,8 @@ let mobgrindingutils = (event, active, debug) => {
         'GSG',
         'GGG'
     ], {
-        S: "#forge:storage_blocks/steel",
-        G: "#forge:glass",
+        S: "#c:storage_blocks/steel",
+        G: "#c:glass_blocks",
     }).id('mob_grinding_utils:recipe_tintedglass')
 
     //replace the iron swords with manasteel sword

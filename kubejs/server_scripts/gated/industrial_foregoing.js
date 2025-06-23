@@ -11,7 +11,7 @@ let industrialforegoing_gated = (event, active, debug) => {
     )
 
     event.replaceInput({ id: 'industrialforegoing:laser_drill' },
-        '#forge:gears/gold',
+        '#c:gears/gold',
         stages.stage2.gear
     )
 

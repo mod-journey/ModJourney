@@ -3,12 +3,10 @@
 let mysticalagriculture_gated = (event, active, debug) => {
     if (!active) return;
 
-    event = replacer.event;
-
     // Replace middle item fir machine frame
     event.replaceInput(
         { output: 'mysticalagriculture:machine_frame' },
-        '#forge:stone',
+        '#c:stones',
         stages.stage3.core
     )
 

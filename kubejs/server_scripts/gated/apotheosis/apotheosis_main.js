@@ -1,5 +1,5 @@
 //priority 0
-console.log('Gated Ars_Nouveau')
+console.log('Gated Apotheosis')
 
 let apotheosis_gated = (event, active, debug) => {
     if (!active) return;
