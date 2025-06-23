@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "actuallyadditions"
+    }
+  ],
+  "type": "actuallyadditions:crushing",
+  "ingredient": {
+    "tag": "c:ores/sapphire"
+  },
+  "result": [
+    {
+      "result": {
+        "count": 6,
+        "id": "alltheores:sapphire"
+      }
+    },
+    {
+      "chance": 0.0,
+      "result": {}
+    }
+  ]
+}
