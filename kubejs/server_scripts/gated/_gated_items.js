@@ -23,7 +23,7 @@ const stages = {
         second: '',
         endgame: '',
         magic: {
-            early:  dummy_items[0].id,
+            early: dummy_items[0].id,
             mid: dummy_items[1].id,
             end: dummy_items[2].id
         },
@@ -49,6 +49,9 @@ const stages = {
             mid: dummy_items[7].id,
             end: dummy_items[8].id
         },
+    },
+    mod_based: {
+        mekanism: "mekanism:steel_casing"
     },
     coins: {
         bronze: "",

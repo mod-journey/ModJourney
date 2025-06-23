@@ -8,10 +8,10 @@ let extremereactor_gated = (event, active, debug) => {
     // Staging der Reactor Frames.
     event.replaceInput(
         { id: 'bigreactors:reactor/basic/casing' },
-        '#forge:sand',
+        '#c:sands',
         stages.stage2.core
     )
 
     //beschränkung auf upgrade Rezept vom advanced Reactor
-    event.remove({ id: "bigreactors:reactor/reinforced/casing" })
+    event.remove({ id: "bigreactors:reactor/reinforced/casing_upgrade" })
 }

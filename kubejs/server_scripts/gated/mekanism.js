@@ -5,7 +5,7 @@ let mekanism_gated = (event, active, debug) => {
 
     console.log("Laden des Modules Mekanism Gating")
 
-    let mekanismCoreItem = 'mekanism:steel_casing';
+    let mekanismCoreItem = stages.mod_based.mekanism;
 
     // Void Chassis
     event.replaceInput(
