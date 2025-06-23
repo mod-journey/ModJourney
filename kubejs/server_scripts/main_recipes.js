@@ -17,7 +17,7 @@ if (events_server) {
     let add_event = true;
     let replace_ores = false;
     let other_events = false;
-    let replace_event = false;
+    let replace_event = true;
 
 
 
@@ -116,9 +116,9 @@ if (events_server) {
         }
 
         if (replace_event) {
-            replace_extremereactors(event);
-            replace_farmersdelight(event);
-            replace_thermal(event);
+            replace_extremereactors(event, true);
+            replace_farmersdelight(event, false);       //so this is more a Thermal Recipe as farmersdelight? deactivate, while thermal is NIY
+            replace_bamboo(event, true);
         }
     })
 
