@@ -1,6 +1,6 @@
 //priority 0
 
-ServerEvents.tags('item', event => {
+let extreme_reactor_tag = (event,active, debug) => {
 
     //Basic Turbine
     extreme_tagging( event, "mod_journey:extreme_reactor/basic/turbine", extreme_object.basic.turbine )
@@ -24,7 +24,4 @@ ServerEvents.tags('item', event => {
     //Reprocessor
     extreme_tagging(event, "mod_journey:extreme_reactor/reprocessor", extreme_object.reprocessor)
 
-    event.add("forge:storage_blocks/uranium", "bigreactors:yellorium_block")
-    event.add("forge:ingots/uranium", "bigreactors:yellorium_ingot")
-
-})
+}
