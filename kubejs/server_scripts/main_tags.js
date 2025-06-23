@@ -13,6 +13,7 @@ if (main_tags) {
         thermal_casts(event, false)
         ato_tags(event, false)
         tag_event_mj_scrolls(event, true)
+        extreme_reactor_tag(event, true)
 
     })
 }
