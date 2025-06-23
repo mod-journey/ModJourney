@@ -12,7 +12,9 @@
  *
  */
 
-let replace_farmersdelight = event => {
+let replace_farmersdelight = (event,active,debug) => {
+    if (!active) return;
+
     const blockPattern = '["###","###","###"]';
     const crops = [
         'apple',

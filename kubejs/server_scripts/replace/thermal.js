@@ -1,5 +1,6 @@
 
-let replace_thermal = event => {
+let replace_thermal = (event,active,debug) => {
+    if (!active) return;
 
     event.shapeless('9x minecraft:bamboo', [ 'minecraft:bamboo_block' ]).id('mod_journey:bamboo')
 
