@@ -1,20 +1,23 @@
 //priority: 100
 
-let Jeihide = false;
+let Jeihide = true;
 let tooltip = false;
 
 
-while (Jeihide) {
+if (Jeihide) {
 
-    JEIEvents.hideItems(event => {
+    RecipeViewerEvents.removeEntries("item", event => {
 
-        hide_ores(event);
-        jei_hide(event);
+        hide_ores(event, false);                // Aktuell noch nicht auf Neo 1.21.1 angepasst
+        jei_hide(event, false);                 // Aktuell noch nicht auf Neo 1.21.1 angepasst
+        stellaris_remove_items(event, true)
 
     });
 };
 
-while (tooltip) {
+
+// Aktuell noch nicht auf Neo 1.21.1 angepasst
+if (tooltip) {
 
     ItemEvents.tooltip(event => {
 
