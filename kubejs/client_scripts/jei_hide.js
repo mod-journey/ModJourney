@@ -1,6 +1,7 @@
 // priority: 5
 
-let jei_hide = event => {
+let jei_hide = (event, active, debug) => {
+    if(!active) return;
 
     //thermal series tnt removen
 
