@@ -13,7 +13,7 @@ let events_server = true;
 if (events_server) {
 
     let gated_event = true;
-    let remove_event = false;
+    let remove_event = true;
     let add_event = true;
     let replace_ores = false;
     let other_events = false;
@@ -76,22 +76,22 @@ if (events_server) {
         if (remove_event) {
             remove_ae2_portable_cell(event, true);
             remove_ae2_removeComplete(event, true);
-            remove_aether(event, true);
-            remove_apotheosis(event, true);
+            remove_aether(event, false);                        //forgot to install to pack. will be merged in a few days
+            remove_apotheosis(event, true, false);
             remove_arsNoveau(event, true);
-            remove_bloodmagic(event, true);
-            remove_botania(event, true);
+            remove_bloodmagic(event, false);                    //deactivate, while blood magic is NIY
+            remove_botania(event, false);                       //deactivate, while botania is NIY
             remove_easyVillager(event, true);
             remove_extremeReactor(event, true);
             remove_ftbquest(event, true);
             remove_immersive(event, true);
             remove_industrial(event, true);
-            remove_itemfilters(event, true);
+            remove_itemfilters(event, false);                   //deactivate, while itemfilters is NIY
             remove_mekanism(event, true);
             remove_mobGrindingUtils(event, true);
             remove_mysticalAgriculture(event, true);
             remove_rftAndXnet(event, true);
-            remove_Thermal(event, true);
+            remove_Thermal(event, false);                       //deactivate, while Thermal is NIY
         }
 
         if (replace_ores) {
