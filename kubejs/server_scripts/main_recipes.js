@@ -74,24 +74,24 @@ if (events_server) {
 
         /* "./remove/*" */
         if (remove_event) {
-            remove_ae2_portable_cell(event);
-            remove_ae2_removeComplete(event);
-            remove_aether(event);
-            remove_apotheosis(event);
-            remove_arsNoveau(event);
-            remove_bloodmagic(event);
-            remove_botania(event);
-            remove_easyVillager(event);
-            remove_extremeReactor(event);
-            remove_ftbquest(event);
-            remove_immersive(event);
-            remove_industrial(event);
-            remove_itemfilters(event);
-            remove_mekanism(event);
-            remove_mobGrindingUtils(event);
-            remove_mysticalAgriculture(event);
-            remove_rftAndXnet(event);
-            remove_Thermal(event);
+            remove_ae2_portable_cell(event, true);
+            remove_ae2_removeComplete(event, true);
+            remove_aether(event, true);
+            remove_apotheosis(event, true);
+            remove_arsNoveau(event, true);
+            remove_bloodmagic(event, true);
+            remove_botania(event, true);
+            remove_easyVillager(event, true);
+            remove_extremeReactor(event, true);
+            remove_ftbquest(event, true);
+            remove_immersive(event, true);
+            remove_industrial(event, true);
+            remove_itemfilters(event, true);
+            remove_mekanism(event, true);
+            remove_mobGrindingUtils(event, true);
+            remove_mysticalAgriculture(event, true);
+            remove_rftAndXnet(event, true);
+            remove_Thermal(event, true);
         }
 
         if (replace_ores) {

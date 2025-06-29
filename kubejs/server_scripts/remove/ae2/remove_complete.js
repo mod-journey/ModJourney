@@ -1,6 +1,7 @@
 // priority: 0
 
-let remove_ae2_removeComplete = event => {
+let remove_ae2_removeComplete = (event, active, debug) => {
+    if (!active) return;
 
     let entfernen = [
         'ae2:vibration_chamber',                        //dodgt early game

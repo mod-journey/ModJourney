@@ -1,4 +1,5 @@
-let remove_mysticalAgriculture = event => {
+let remove_mysticalAgriculture = (event, active, debug) => {
+    if (!active) return;
     // Remove all seeds, but keep inferium
     event.remove({
         type: 'mysticalagriculture:infusion', output: '#mysticalagriculture:seeds'

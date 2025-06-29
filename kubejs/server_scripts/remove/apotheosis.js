@@ -1,6 +1,7 @@
 //priority 0
 
-let remove_apotheosis = event => {
+let remove_apotheosis = (event, active, debug) => {
+    if (!active) return;
 
     // Debug Variablen
     let debug = "false"

@@ -1,6 +1,7 @@
 //priority: 0
 
-let remove_industrial = event => {
+let remove_industrial = (event, active, debug) => {
+    if (!active) return;
 
     //enfernt alle infinity crafting Rezepte
     let infinity_stuff = [

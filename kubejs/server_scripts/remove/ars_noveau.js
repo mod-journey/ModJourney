@@ -1,6 +1,8 @@
 //priority: 10
 
-let remove_arsNoveau = event => {
+let remove_arsNoveau = (event, active, debug) => {
+    if (!active) return;
+    
     let ars_weather_and_time =[
         'ars_nouveau:ritual_moonfall',
         'ars_nouveau:ritual_cloudshaping',

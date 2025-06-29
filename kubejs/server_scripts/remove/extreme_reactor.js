@@ -1,6 +1,7 @@
 //priority: 0
 
-let remove_extremeReactor = event => {
+let remove_extremeReactor = (event, active, debug) => {
+    if (!active) return;
 
     let extreme_remove = [
         //kreativgedöns

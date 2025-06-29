@@ -1,6 +1,7 @@
 //priority: 0
 
-let remove_ftbquest = event => {
+let remove_ftbquest = (event, active, debug) => {
+    if (!active) return;
 
     //ftbquests item remove
     let ftbquests_items = [

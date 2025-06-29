@@ -1,6 +1,7 @@
 //priority: 0
 
-let remove_Thermal = event => {
+let remove_Thermal = (event, active, debug) => {
+    if (!active) return;
 
     // TNT Thermal Series
     let tnt = [

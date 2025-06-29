@@ -1,6 +1,7 @@
 //priority: 0
 
-let remove_botania = event => {
+let remove_botania = (event, active, debug) => {
+    if (!active) return;
 
     // Linsen Botania
     let lens = [

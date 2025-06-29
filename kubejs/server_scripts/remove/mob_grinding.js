@@ -1,5 +1,6 @@
 //priority: 0
-let remove_mobGrindingUtils = event => {
+let remove_mobGrindingUtils = (event, active, debug) => {
+    if (!active) return;
 
     //entfernt das Hühnerfutter zum erstellen von Erde welche Mobs oder Tiere spwawnt.
     let mob_grinding = [

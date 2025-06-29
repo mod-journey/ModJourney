@@ -1,4 +1,5 @@
-let remove_itemfilters = event => {
+let remove_itemfilters = (event, active, debug) => {
+    if (!active) return;
 
     //enfernt alle itemfilter rezepte
     let itemfilters = [

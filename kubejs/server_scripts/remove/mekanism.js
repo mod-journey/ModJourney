@@ -1,4 +1,5 @@
-let remove_mekanism = event => {
+let remove_mekanism = (event, active, debug) => {
+    if (!active) return;
     event.remove([
         { output: 'mekanismadditions:walkie_talkie' },
         { output: 'mekanism:upgrade_anchor' },

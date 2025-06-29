@@ -1,6 +1,7 @@
 //priority: 0
 
-let remove_rftAndXnet = event => {
+let remove_rftAndXnet = (event, active, debug) => {
+    if (!active) return;
 
     let remove = [
         Item.of('rftoolsutility:advanced_charged_porter'),

@@ -1,6 +1,7 @@
 // priority: 0
 
-let remove_ae2_portable_cell = event => {
+let remove_ae2_portable_cell = (event, active, debug) => {
+    if (!active) return;
 
     let portable_cell = [
         'appbot:portable_mana_storage_cell_1k',
