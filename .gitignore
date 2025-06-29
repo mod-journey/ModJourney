@@ -43,6 +43,7 @@
 
 # Dont ignore dev-tools
 !/dev-tools/
+/dev-tools/logs/*
 
 # Always ignore Tempfiles and OS generated stuff
 .DS_Store
@@ -77,3 +78,5 @@ kubejs/config/web_server.json
 jsconfig.json
 dev.json
 probe-settings.json
+
+

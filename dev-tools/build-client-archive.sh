@@ -14,6 +14,8 @@ PROJECT_DIR="${SCRIPT_DIR}/../"
 Version_Number="$(cat ${SCRIPT_DIR}/../manifest.json | head -n 14 | tail -n 1 | cut -d '"' -f 4)"
 ARCHIVE_FILE_NAME=mod-journey-${File_Mode}-${Version_Number}.zip
 BUILD_DIR=$(realpath "${PROJECT_DIR}build/")
+LOG_FILE="${SCRIPT_DIR}/logs/$(date +'%Y-%m-%d_%H-%M-%S').log"
+exec > >(tee -a "$LOG_FILE") 2>&1
 
 mkdir -p "${BUILD_DIR}/"
 cd "$PROJECT_DIR" &&
