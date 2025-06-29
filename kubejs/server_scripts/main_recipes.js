@@ -119,6 +119,8 @@ if (events_server) {
             replace_extremereactors(event, true);
             replace_farmersdelight(event, false);       //so this is more a Thermal Recipe as farmersdelight? deactivate, while thermal is NIY
             replace_bamboo(event, true);
+            replace_stellaris_steel(event, true);
+            replace_stellaris_uran(event, true);
         }
     })
 

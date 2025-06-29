@@ -1,6 +1,7 @@
 // priority: 0
 
-let hide_ores = event => {
+let hide_ores = (event, active, debug) => {
+    if(!active) return;
 
     let remove_ore = [
         "ad_astra:iron_plate",
