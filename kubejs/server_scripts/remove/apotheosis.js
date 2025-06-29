@@ -4,7 +4,6 @@ let remove_apotheosis = (event, active, debug) => {
     if (!active) return;
 
     // Debug Variablen
-    let debug = "false"
     let recipe_new = "false"
     let recipe_old = "false"
 
