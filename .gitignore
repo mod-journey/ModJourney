@@ -23,8 +23,8 @@
 /world/level.*
 /world/session.lock
 /world/xaeromap.txt
-/world/deaths
 !/craftpresence
+/world/deaths/*
 
 
 
