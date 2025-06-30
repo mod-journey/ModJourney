@@ -1,0 +1,42 @@
+.gitattributes				export-ignore
+.gitignore				export-ignore
+.editorconfig				export-ignore
+README.md				export-ignore
+dev-tools/				export-ignore
+kubejs/kubejs-DOKUs/			export-ignore
+
+#
+# Keep files with linux eol, because the mods create them with this eol
+#   use `find . -type f | xargs -L 1 -d '\n' dos2unix -i` to detect linebreak
+#   see https://stackoverflow.com/a/47435767/2377961
+#
+config/ae2/*				text eol=lf
+config/alexsmobs/*.json			text eol=lf
+config/betterstrongholds/*		text eol=lf
+config/bhc/*.json			text eol=lf
+config/botanicalmachinery/*		text eol=lf
+config/cataclysm/*			text eol=lf
+config/eldritch_end/*			text eol=lf
+config/extendedcrafting/*		text eol=lf
+config/ironjetpacks/*			text eol=lf
+config/jade/{sort-order,plugins,jade}.json	text eol=lf
+config/NoChatReports/*			text eol=lf
+config/spark/*				text eol=lf
+config/xaerominimap_entities.json	text eol=lf
+
+config/ad_astra.jsonc			text eol=lf
+config/attributefix.json		text eol=lf
+config/betterchunkloading.json		text eol=lf
+config/megacells.json			text eol=lf
+
+
+# Add rules for custom diff-tools (requires local configuration to work)
+modlist.html				diff=sort
+manifest.json				diff=modlist-sort
+
+
+# Add extra syntax highlight for certain file extensions - see https://docs.gitlab.com/ee/user/project/highlighting.html#override-syntax-highlighting-for-a-file-type
+*.snbt					gitlab-language=json
+*.jsonc					gitlab-language=json
+*.json5					gitlab-language=json
+*.cfg					gitlab-language=ini
