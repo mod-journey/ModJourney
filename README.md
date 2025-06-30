@@ -1,9 +1,11 @@
-# Mod Journey
+# Mod Journey 2
 
-[![Minecraft Version](https://img.shields.io/badge/For%20Minecraft-1.20.1-yellow.svg?style=flat)](#introduction)
+[![Minecraft Version](https://img.shields.io/badge/For%20Minecraft-1.21.1-yellow.svg?style=flat)](#introduction)
 [![Discord](https://img.shields.io/discord/807398168139530271?style=flat&logo=discord&label=Discord&color=7289DA)](https://discord.gg/Xuu4Wn3ay2)
-[![CurseForge Downloads](https://img.shields.io/curseforge/dt/1067408?style=flat&logo=curseforge&color=e04e14
-)](https://www.curseforge.com/minecraft/modpacks/mod-journey)
+<!--
+[![CurseForge Downloads](https://img.shields.io/curseforge/dt/10xxxxx?style=flat&logo=curseforge&color=e04e14
+)](https://www.curseforge.com/minecraft/modpacks/mod-journey-2)
+-->
 
 ## Introduction
 This pack leads you on a journey from the Stone Age through the Industrial Revolution up to the stars.
@@ -45,8 +47,9 @@ und führt auch Vanilla Spieler und Mod Einsteiger schrittweise an die Welt der 
 See [Develop Setup Guide](dev-tools/README.md) for more details.
 
 ## Download
-Download the pack from [Github Releases] or
-[CurseForge](https://www.curseforge.com/minecraft/modpacks/mod-journey).
+Download the pack from [Github Releases] <!-- or
+[CurseForge](https://www.curseforge.com/minecraft/modpacks/mod-journey-2).
+-->
 
 ## SocialLinks
 - [YouTube]
@@ -57,5 +60,5 @@ Download the pack from [Github Releases] or
 [CurseForge]: https://www.curseforge.com/download/app
 [Dylans Discord]: https://discord.gg/Xuu4Wn3ay2
 [YouTube]: https://www.youtube.com/letsdylan
-[Website]: https://dylan-web.net/minecraft-mod-journey/
+[Website]: https://dylan-web.net/minecraft-mod-journey-2/
 [Github Releases]: https://github.com/mod-journey/ModJourney/releases
