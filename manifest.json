@@ -542,7 +542,7 @@
     {
       "projectID": 415438,
       "fileID": 6092073,
-      "required": false
+      "required": true
     },
     {
       "projectID": 626839,
