@@ -76,7 +76,6 @@ kubejs/config/web_server.json
 # Ignore ProbeJS Generated Files
 .probe
 jsconfig.json
-dev.json
 probe-settings.json
 
 
