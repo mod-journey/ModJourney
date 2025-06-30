@@ -45,8 +45,7 @@ und führt auch Vanilla Spieler und Mod Einsteiger schrittweise an die Welt der 
 See [Develop Setup Guide](dev-tools/README.md) for more details.
 
 ## Download
-<!-- @todo Update CureForge-link when pack is released -->
-Download the pack on [GitLab](https://gitlab.com/dytech_mc/pack/dytech-4/-/releases) or
+Download the pack from [Github Releases] or
 [CurseForge](https://www.curseforge.com/minecraft/modpacks/mod-journey).
 
 ## SocialLinks
@@ -59,3 +58,4 @@ Download the pack on [GitLab](https://gitlab.com/dytech_mc/pack/dytech-4/-/relea
 [Dylans Discord]: https://discord.gg/Xuu4Wn3ay2
 [YouTube]: https://www.youtube.com/letsdylan
 [Website]: https://dylan-web.net/minecraft-mod-journey/
+[Github Releases]: https://github.com/mod-journey/ModJourney/releases
