@@ -2,7 +2,7 @@
 
 let remove_arsNoveau = (event, active, debug) => {
     if (!active) return;
-    
+
     let ars_weather_and_time =[
         'ars_nouveau:ritual_moonfall',
         'ars_nouveau:ritual_cloudshaping',
@@ -40,7 +40,7 @@ let remove_arsNoveau = (event, active, debug) => {
         'ars_nouveau:glyph_animate_block',
         'ars_nouveau:glyph_linger',
         'ars_nouveau:glyph_wall',
-        'ars_nouveau:burst'
+        'ars_nouveau:glyph_burst'
     ]
 
     ars_glyphen.forEach(glyphen => {
