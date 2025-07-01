@@ -1,0 +1,159 @@
+{
+  "name": {
+    "text": "Tree Planter",
+    "color": "white"
+  },
+  "appearance": {
+    "custommachinery:block": "mod_journey:machine/tree_planter#standalone",
+    "custommachinery:item": "mod_journey:machine/tree_planter#standalone",
+    "custommachinery:light": 4,
+    "custommachinery:mining_level": "minecraft:needs_stone_tool",
+    "custommachinery:requires_tool": false
+  },
+  "components": [
+    {
+      "type": "custommachinery:fluid",
+      "whitelist": "#c:water",
+      "mode": "input",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "input",
+      "capacity": 10000
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output2",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output3",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "output": true,
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": "#minecraft:saplings",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT",
+        "input": true
+      },
+      "id": "input",
+      "mode": "input"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output1",
+      "priority": 3,
+      "x": 129,
+      "y": 57
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output2",
+      "priority": 2,
+      "x": 147,
+      "y": 57
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output3",
+      "priority": 1,
+      "x": 165,
+      "y": 57
+    },
+    {
+      "type": "custommachinery:dump",
+      "x": 45,
+      "y": 33,
+      "width": 22,
+      "height": 7
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 44,
+      "y": 104
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input",
+      "x": 47,
+      "y": 46
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input",
+      "x": 71,
+      "y": 57
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 96,
+      "y": 58
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 66,
+      "y": 9,
+      "height": 13,
+      "text": {
+        "text": "Tree Planter",
+        "bold": true
+      }
+    }
+  ],
+  "processor": {
+    "type": "custommachinery:machine",
+    "cooldown": 40
+  },
+  "tooltips": {
+    "text": "Got some logs from saplings"
+  }
+}

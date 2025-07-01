@@ -1,0 +1,80 @@
+{
+  "name": {
+    "text": "Mechanical Press",
+    "color": "white"
+  },
+  "appearance": {},
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "max_output": 1,
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "mold",
+      "capacity": 2,
+      "max_input": 1
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input",
+      "mode": "input"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 46,
+      "y": 103
+    },
+    {
+      "type": "custommachinery:progress",
+      "orientation": "BOTTOM",
+      "x": 117,
+      "y": 44,
+      "width": 16,
+      "height": 24
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "x": 117,
+      "y": 78
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input",
+      "x": 116,
+      "y": 22
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "mold",
+      "x": 140,
+      "y": 48
+    }
+  ]
+}

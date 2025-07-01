@@ -18,12 +18,13 @@ if (events_server) {
     let replace_ores = false;
     let other_events = false;
     let replace_event = true;
+    let customMachine_event = true;
 
 
 
     ServerEvents.recipes((event) => {
 
-            replacer.init(event);
+        replacer.init(event);
 
         /* "./gated/* */
         if (gated_event) {
@@ -70,6 +71,14 @@ if (events_server) {
             add_modjourney_scrolls(event, true);
             add_cataclysm(event, false);                        //deactivate, while cataclysm is deactivated as mod, while throw a lot of errors.
             add_modjourneycoins(event, true);                   //graphics needed
+        }
+
+        if (customMachine_event) {
+            add_custom_machinary_seedplanter(event, true)
+            add_custom_machinary_treeplanter(event, true)
+            add_custom_machinary_coalgen(event, true)
+            add_custom_machinary_watergen(event, true)
+            add_custom_machinary_metalpress(event, false)
         }
 
         /* "./remove/*" */
