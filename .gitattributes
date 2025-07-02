@@ -4,6 +4,7 @@
 README.md				export-ignore
 dev-tools/				export-ignore
 kubejs/kubejs-DOKUs/			export-ignore
+.disabled/				export-ignore
 
 #
 # Keep files with linux eol, because the mods create them with this eol
