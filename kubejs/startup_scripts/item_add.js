@@ -51,20 +51,23 @@ let item_add = (event, active, debug) => {
         magic_counter = magic_counter + 1;
     });
 
-    event.create('mod_journey:bronze_coin')
-        .tooltip("You get it by completing Quests, Events or Trades. Texture from Thermal.")
-        .texture('thermal:item/bronze_coin_0')
-        .tag("forge:coins/bronze")
+    event.create('mod_journey:copper_coin')
+        .tooltip("You get it by completing Quests, Events or Trades.")
+        .texture('mod_journey:item/coins/copper_coin')
+        .tag("c:coins/bronze")
+        .tag("c:coins")
 
     event.create('mod_journey:silver_coin')
-        .tooltip('You get it by completing Quests, Events or Trades. Texture from Thermal.')
-        .texture('thermal:item/silver_coin_0')
-        .tag("forge:coins/silver")
+        .tooltip('You get it by completing Quests, Events or Trades.')
+        .texture('mod_journey:item/coins/silver_coin')
+        .tag("c:coins/silver")
+        .tag("c:coins")
 
     event.create('mod_journey:gold_coin')
-        .tooltip('You get it by completing Quests, Events or Trades. Texture from Thermal.')
-        .texture('thermal:item/gold_coin_0')
-        .tag("forge:coins/gold")
+        .tooltip('You get it by completing Quests, Events or Trades.')
+        .texture('mod_journey:item/coins/gold_coin')
+        .tag("c:coins/gold")
+        .tag("c:coins")
 
     //Generate Dummy Items, for Mod Stages that NIY or will change in future.
 
