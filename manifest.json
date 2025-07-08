@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Mod Journey 2",
-  "version": "V2-0.1.0",
+  "version": "V2-0.1.2",
   "author": "",
   "files": [
     {
@@ -521,7 +521,7 @@
     },
     {
       "projectID": 889915,
-      "fileID": 6259292,
+      "fileID": 6743720,
       "required": true
     },
     {
@@ -646,7 +646,7 @@
     },
     {
       "projectID": 289412,
-      "fileID": 6429142,
+      "fileID": 6721642,
       "required": true
     },
     {
@@ -891,7 +891,7 @@
     },
     {
       "projectID": 404465,
-      "fileID": 6466106,
+      "fileID": 6711324,
       "required": true
     },
     {
