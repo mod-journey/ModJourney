@@ -18,14 +18,6 @@
 				id: "ars_nouveau:arcanist_hood"
 			}
 			id: "1E78C6170EC5067E"
-			rewards: [{
-				id: "066E95FE50A1FE24"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "47B9EA7DBC0FE347"
 				type: "checkmark"
@@ -36,17 +28,9 @@
 		{
 			dependencies: ["1E78C6170EC5067E"]
 			id: "77D31EC2C76058E2"
-			rewards: [{
-				id: "53D72757A676E1EA"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "24AF965390A4C6A8"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -58,14 +42,6 @@
 				id: "ars_nouveau:spell_parchment"
 			}
 			id: "5C7D0094496E8E53"
-			rewards: [{
-				id: "16592DE910CA9F3B"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "24F8B896271FC943"
 				type: "checkmark"
@@ -79,14 +55,6 @@
 				id: "minecraft:potion"
 			}
 			id: "5C36E3B78AB146C0"
-			rewards: [{
-				id: "11DC35F02D656B6C"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "5B9E238DC485BE38"
 				type: "checkmark"
@@ -100,14 +68,6 @@
 				"5C36E3B78AB146C0"
 			]
 			id: "18DAE72E4F2B32E0"
-			rewards: [{
-				id: "744A1133848C492C"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "1A3D083FE8DD2698"
@@ -440,17 +400,9 @@
 		{
 			dependencies: ["77D31EC2C76058E2"]
 			id: "1A242A1A421B358B"
-			rewards: [{
-				id: "53639DE3E1B505B3"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "679BC2E8846EFD39"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:worn_notebook" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -535,17 +487,9 @@
 		{
 			dependencies: ["5C36E3B78AB146C0"]
 			id: "43F671F5C49EED69"
-			rewards: [{
-				id: "5DB9BDF5FA8B0B30"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "3DF69EF9634F4669"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:sourceberry_bush" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -554,17 +498,9 @@
 		{
 			dependencies: ["43F671F5C49EED69"]
 			id: "4B916435E4D68736"
-			rewards: [{
-				id: "7CCA5F8083F51F8A"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "3AEA72DB997153EF"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:source_berry_roll" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -573,17 +509,9 @@
 		{
 			dependencies: ["4B916435E4D68736"]
 			id: "0D945505970ACD00"
-			rewards: [{
-				id: "66572338BECD7756"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "0B9C26C803CEEA8E"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:source_berry_pie" }
 				type: "item"
 			}]
 			x: 4.0d
