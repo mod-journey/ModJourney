@@ -1,0 +1,59 @@
+{
+	id: "4EF5D227C76B6843"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{
+			count: 2
+			id: "7725A872520DEA8D"
+			item: {
+				count: 1
+				id: "mekanism:alloy_atomic"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "7694776E60B7EABB"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_control_circuit"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "415A2DF041D8EBCA"
+			item: {
+				count: 1
+				id: "mekanism:elite_tier_installer"
+			}
+			random_bonus: 1
+		}
+		{
+			id: "1284FF37D6C016E8"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_tier_installer"
+			}
+			random_bonus: 1
+		}
+		{
+			id: "40A0B6804C1DF0E8"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_energy_cube"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "758CD3B5E2B55F8F"
+			item: {
+				count: 1
+				id: "mekanism:advanced_induction_provider"
+			}
+			random_bonus: 1
+			weight: 0.5f
+		}
+	]
+}

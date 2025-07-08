@@ -32,7 +32,6 @@ if (events_server) {
             adastra_gated(event, false);                         //Ersetzung durch Stellaris Ticket #12
             ae_gated(event, true);
             arsnoveau_gated(event, true);
-            bloodmagic_gated(event, false);                     //deactivate, while blood magic is NIY
             cookingforblockhead_gated(event, true);
             enderchestandtank_gated(event, true);
             enerdeio_gated(event, true);
@@ -49,7 +48,6 @@ if (events_server) {
             powah_gated(event, true);
             rfttools_gated(event, true);
             sophisticatedbackpacks_gated(event, false);
-            thermal_gated(event, false);                        //deactivate, while Thermal is NIY
             remove_item_by_tag(event, true);                    //Checking scipt of using
         }
 
@@ -60,17 +58,12 @@ if (events_server) {
             add_ae2_skystellingot(event, true);
             add_creativeitemsMagic(event, true);
             add_creativeitemsTechnic(event, true);
-            add_immersive_alternativeCircuitRecipes(event, false); //Thermal entfallen Staging abwarten oder Ersatz
             add_immersive_excavator(event, true);
             add_industrial_laser_fluidLaser(event, false);      //actually no content in this file.
-            add_magic_bloodMagic(event, false);                 //deactivate, while blood magic is NIY
-            add_magic_botania(event, false);                    //deactivate, while botania magic is NIY
-            add_magic_botanyPots(event, true);                  //deactivate, while bot. Pots is NIY
             add_modjourney_antimatter(event, true);
-            add_modjourney_bloodmagic(event, false);            //deactivate, while blood magic is NIY
             add_modjourney_scrolls(event, true);
             add_cataclysm(event, false);                        //deactivate, while cataclysm is deactivated as mod, while throw a lot of errors.
-            add_modjourneycoins(event, true);                   //graphics needed
+            add_modjourneycoins(event, true);
         }
 
         if (customMachine_event) {
@@ -88,19 +81,15 @@ if (events_server) {
             remove_aether(event, false);                        //forgot to install to pack. will be merged in a few days
             remove_apotheosis(event, true, false);
             remove_arsNoveau(event, true);
-            remove_bloodmagic(event, false);                    //deactivate, while blood magic is NIY
-            remove_botania(event, false);                       //deactivate, while botania is NIY
             remove_easyVillager(event, true);
             remove_extremeReactor(event, true);
             remove_ftbquest(event, true);
             remove_immersive(event, true);
             remove_industrial(event, true);
-            remove_itemfilters(event, false);                   //deactivate, while itemfilters is NIY
             remove_mekanism(event, true);
             remove_mobGrindingUtils(event, true);
             remove_mysticalAgriculture(event, true);
             remove_rftAndXnet(event, true);
-            remove_Thermal(event, false);                       //deactivate, while Thermal is NIY
         }
 
         if (replace_ores) {
@@ -126,7 +115,6 @@ if (events_server) {
 
         if (replace_event) {
             replace_extremereactors(event, true);
-            replace_farmersdelight(event, false);       //so this is more a Thermal Recipe as farmersdelight? deactivate, while thermal is NIY
             replace_bamboo(event, true);
             replace_stellaris_steel(event, true);
             replace_stellaris_uran(event, true);

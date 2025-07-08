@@ -5,6 +5,7 @@
 	chapter.10E1266DF64C997D.title: "The Aether"
 	chapter.13792A57E56A306D.title: "Blue Skies"
 	chapter.20964013F4B07F7F.title: "Apotheosis"
+	chapter.24DF41E56893FA64.title: "Twiglight Forst"
 	chapter.3A1DE0DE95E27169.title: "EnderIO"
 	chapter.3C60290C7292B9D9.title: "Undergarden"
 	chapter.3D16A9014EC265AC.title: "Mekanism"
@@ -67,6 +68,8 @@
 	]
 	quest.03BE5EF16114B846.title: "Ausrüstung aus eigener Produktion™"
 	quest.0400DBB195284E8E.quest_desc: ["Mit folgendem Block kannst Du Dir deine eigenen Level absaugen, indem Du dich einfach drauf stellst. Mit einem Rohr, Eimer, etc. kannst Du die XP aufnehmen oder weiterleiten. "]
+	quest.04037DF1C50C7CAB.quest_subtitle: "damit kann man seine Megarüstung Upgraden"
+	quest.04037DF1C50C7CAB.title: "Mega Upgrade"
 	quest.041CD4FF5110FCD7.quest_desc: [
 		"Ein Item, welches mit unzähligen Upgrades versehen werden kann. "
 		"Fügt Mobs schaden hinzu. "
@@ -118,7 +121,7 @@
 	quest.06236B87230672E6.quest_desc: ["Dein Hopper fehlt es an Reichweite, probiere es mit Upgrades."]
 	quest.06417ADE2F421986.quest_desc: ["Es schalten sich nun neue Runen frei, welche Du craften kannst. Außerdem sollte dein Blutaltar durch die neuen Möglichkeiten noch Leistungsstärker werden."]
 	quest.064778D724C27365.quest_desc: ["Durch Spaltung wird aus dem Yellorium Cyanite gewonnen"]
-	quest.065688CB9CA86E9C.quest_desc: ["Man muss das Hydrogen raus pumpen "]
+	quest.065688CB9CA86E9C.quest_desc: ["Man muss das Hydrogen/Wasserstoff raus pumpen "]
 	quest.06962A36D95865FD.quest_desc: ["Eine Mächtige Waffe, welche außerdem recht stylisch aussieht!"]
 	quest.06C275BDFA07CB4A.quest_desc: ["Von der Häufigkeit wie Eisen. Kann auf jeder Höhe gefunden werden."]
 	quest.06C275BDFA07CB4A.title: "Clogrum"
@@ -500,7 +503,6 @@
 	quest.1CA7D865E47A7D27.quest_desc: ["Versuche deine Systeme so klein wie möglich zu halten. Große Systeme, mit ungefilterten Zugriffen, egal welcher Art verursachen Lags. Diese gilt es zu vermeiden. Baue Smart, sodass jeder seinen Spielspaß auf dem Server beibehält."]
 	quest.1CA9843D124FB9DB.quest_desc: ["Hast Du einen Weg in die tiefsten gewölbe des Dungeons gefunden, benötigst Du neue Schlüssel. Gebe acht, diese sind teurer. Du kannst Sie außerdem als Loot in Kisten finden. "]
 	quest.1CCD659F19C544C6.quest_desc: ["Eine köstliche Mahlzeit, die Dir das Leben im Undergarden versüßt"]
-	quest.1CDF85C5A461F445.quest_desc: ["Pilze, ob die schmecken?"]
 	quest.1CFF5ED27DA0852A.quest_desc: ["Rohes Cloggrum kann geschmolzen werden, dadurch erhält man Cloggrum Ingots"]
 	quest.1DA3986217ADE592.quest_desc: ["Die Basis für alle eure Upgrades!"]
 	quest.1DA3986217ADE592.quest_subtitle: "Crafted Upgrades Leute!"
@@ -512,6 +514,7 @@
 		"Dafür legt man das zu bearbeitende Item in den obersten Slot und die Sigil of Enchantment darunter."
 	]
 	quest.1DF4F965DC9C9F39.title: "Upgrades, people. Upgrades"
+	quest.1E1AF7E8C99B85D4.title: "Gut Sachen zum kämpfen "
 	quest.1E78C6170EC5067E.quest_desc: ["Zaubersprüche, Rituale, Magische Apparaturen und Tierbegleiter. Das und noch mehr bietet Ars Nouveau."]
 	quest.1E78C6170EC5067E.quest_subtitle: "Willkommen bei Ars Nouveau"
 	quest.1E86BC238F738A44.quest_desc: ["Graphit wird aus Kohle hergestellt. Das wirst Du brauchen. Viel sogar."]
@@ -704,13 +707,6 @@
 		"Willst Du Rüstungen Filtern, Gems oder Bücher. Dann ist die Karte das Richtige für Dich. "
 	]
 	quest.313B9F86BFAC170E.quest_desc: ["Kupfer gibt es genug in der Welt. Erhalte mehr Speicher durch das hinzufügen in deine Drawer."]
-	quest.3154E80F60E99856.quest_desc: [
-		"Nimmst Du aktiv aus den Access Ports Ingots in die Hand und versuchst sie ins Inventar zu legen, wirst du mittels ESC das Menü verlassen müssen. Die Items kannst Du dennoch normal ins Inventar shiften."
-		"{@pagebreak}"
-		"Betätigst Du den SCRAM Button im Controll Interface, so wirst Du den reaktor starten müssen, an die Reactor-Controll-Rods gehen diesen Wert um mindestens 2% reduzieren und auf Change all drücken müssen. Anschließend kannst Du den Reaktor wieder mit 100% betreiben und dieser startet auch wieder. "
-		"{@pagebreak}"
-		"Hast Du deinen Reaktor vorher Aktiv gekühlt und stellst diesen dann auf Passiv um, wird der Reaktor seine Leistung (Verbrauchsreaktor) nicht mehr erreichen. Ich empfehle den Multiblock abzureißen und Neu zu bauen. "
-	]
 	quest.3253AC6BB40CD3AD.quest_desc: [
 		"Ein Guter Moderator für den "
 		"{ \"text\": \"Thermo Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"48A426951585B3E6\" } }"
@@ -896,7 +892,6 @@
 		"Die Anzahl der Bücher erhöht auch &2Eterna&r und &5Arcana&r."
 	]
 	quest.3D0065CD7EC0D9EF.title: "Filteroptionen"
-	quest.3D755E72F89F3702.quest_desc: ["mit den basic Reaktoren lassen sich Multiblöcke bis auf eine größe von 5x5x5 bauen. "]
 	quest.3D9ECA51804963B2.quest_desc: ["Utherium kann ab Höhe 30 gefunden werden. Von der seltenheit her, gleichzusetzen wie Diamanten."]
 	quest.3D9ECA51804963B2.title: "Utherium"
 	quest.3DA44DE3F547CCE6.quest_desc: ["Vernichte automatisch Items deiner Wahl!"]
@@ -1158,6 +1153,7 @@
 	quest.4B91378F01114966.quest_desc: ["Erhöht die Höhe des Entity Spawners"]
 	quest.4B916435E4D68736.quest_desc: ["Die Source Berry Roll bietet eine länger andauernde Mana Regeneration und sättigt gleichzeitig auch ordentlich. Das perfekte Mittagessen für jeden Zauberer, der was aus sich hält."]
 	quest.4B916435E4D68736.title: "Früchtebrot"
+	quest.4B9318FBFB1FF36F.quest_subtitle: "Quasi unendlich strom"
 	quest.4B9318FBFB1FF36F.title: "Fusion Reaktor"
 	quest.4BE494C590D81A5C.quest_desc: ["Finde Pyrope und Aquit auf ca. mittlerer Höhe unter der oberfläche"]
 	quest.4BE494C590D81A5C.title: "Grund Metalle?"
@@ -1185,6 +1181,7 @@
 	quest.4DB1B18A3B301D4E.quest_desc: ["Im Grunde wie ein Schneegolem, nur viel Stylischer!"]
 	quest.4DB1B18A3B301D4E.title: "Ein neuer Gefährte"
 	quest.4DBA3461786E55B4.quest_desc: ["Mehr Fluid Speicher? Dafür ist der Tank."]
+	quest.4DE9D19B2C01B348.quest_subtitle: "Besser als Dia Rüstung"
 	quest.4EAA710CD2A15E03.quest_desc: ["Ein Raketenbauteil."]
 	quest.4ECD09ACFE16E99C.quest_desc: ["Gebe Blutonium deinem Fluidizer hinzu."]
 	quest.4ECE88BDAF352ECC.title: "Upgrades Thermal Dynamos"
@@ -1209,9 +1206,11 @@
 	quest.505227A456788448.title: "Ich sehe dich!"
 	quest.50861A06499F6A87.quest_desc: ["2x2 und 3x3 Rezepte werden Platz sparend gelagert."]
 	quest.50861A06499F6A87.quest_subtitle: "Mach mal kleiner II"
+	quest.50BA018956B58618.quest_subtitle: "Man kann auch mehr bauen "
 	quest.50BA018956B58618.title: "Laser"
 	quest.50C6D9F519D225F4.quest_desc: ["Prinzipiell spielt es keine Rolle, ob Du Glas oder Ramen benutzt. Wichtig an der Stelle ist, dass die Ecken und das außen Gerüst immer Frames enthalten. Der innen Bereich der Flächen kann ausgefüllt werden mit Glas, aus optischen Gründen."]
 	quest.50C6D9F519D225F4.title: "Glas oder Ramen"
+	quest.50E017A67D63471B.title: "Inducion zelle"
 	quest.51A5F68FDD62187E.quest_desc: [
 		"Teil des Multiblocks."
 		"Die Prozessoreinheit sorgt für Parallele abarbeitung eines Rezepts. Hat man nun mehrere Schritte zu craften, oder auch viele parallele Aufträge, so sollte man die Anzahl an den sogenannten Prozessoreinheiten erhöhen. "
@@ -1228,6 +1227,8 @@
 		"Als ob das Vakuum nicht schon Lebensfeindlich genug ist. "
 		"Hitze, höherer Atmosphärendruck und Säuren soll dieser Raumanzug abkönnen."
 	]
+	quest.52B7129CA651630E.quest_subtitle: "Willkommen im Twilight Forst Hier wird es viele Bosse und neue Biome geben "
+	quest.52B7129CA651630E.title: "Der Twillight Forest"
 	quest.52E3890CD233C42D.quest_desc: [
 		"Dieses Modul von Apotheosis bringt für die Kämpfer unter euch viele Zusätze mit sich."
 		""
@@ -1580,7 +1581,7 @@
 	quest.6CD7BF6C4503FD98.title: "Tränke mixen wie echte Hexen"
 	quest.6D06A0D7D85691CC.quest_desc: ["Mehr Filteroptionen!"]
 	quest.6D06A0D7D85691CC.quest_subtitle: "Put it in II"
-	quest.6D2C5C59D1DF0F56.quest_desc: ["Man kann mit der Box Spawner mit nehmmen "]
+	quest.6D2C5C59D1DF0F56.quest_desc: ["Man kann mit der Box viele Blöcke und Spawner mit nehmmen "]
 	quest.6D2CB936DA4BA56A.quest_desc: [
 		"Ein Basismodul für Update-Karten."
 		""
@@ -1799,6 +1800,9 @@
 		"Den eingestellten Filter ein mal Negieren. "
 		"Du gibst als Filter Redstone an, schmeißt die Karte in den Upgrade-Slot und es wird alles außer Redstone ausgewählt!"
 	]
+	reward_table.4EF5D227C76B6843.title: "meka end "
+	reward_table.55EE8281FD1F72C7.title: "Meka Basic"
+	reward_table.5CA59D5BF413471C.title: "meka mid "
 	task.009105FF3AC43AE2.title: "Functional Storage"
 	task.01BD2A1FE8967AB2.title: "Finde den Blinding Dungeon"
 	task.03BC595DF682AD4B.title: "Everbright"
@@ -1824,6 +1828,7 @@
 	task.1CE806849D563B37.title: "Yellorium"
 	task.1DC0D43DEB23A9FF.title: "Any #forge:tools/netherite"
 	task.1DDE93CE98C31741.title: "Skyroot Ausrüstung"
+	task.1EB43361D4A643DF.title: "neeee"
 	task.2041ED0C946F25C5.title: "Finde Ein Gatekeeper House"
 	task.207D84CA68012ECF.title: "Magentite"
 	task.20C49CC4A0A68378.title: "Stab des Waldes"
@@ -1883,8 +1888,8 @@
 	task.52FDC27C93B7F6E3.title: "Töte es bevor es Eier legt (Arachnarch ist zu Besiegen)"
 	task.541BB6D3E0F66204.title: "Upgrades für die Dynamos"
 	task.57C0868197229AD9.title: "Crafte Die Horizonitschmiede"
-	task.57D878DC04D60CE7.title: "Any Sawdust"
 	task.58130F61425C0D83.title: "Garden"
+	task.58BEF53529013D68.title: "lol"
 	task.5AADB98601C9615B.title: "Any Cloggrum Weapon"
 	task.5AE347FA991EC91F.title: "Stahl"
 	task.5B9E238DC485BE38.title: "Mana"
@@ -1915,6 +1920,7 @@
 	task.6D59E25590BD9BBD.title: "Budding Certus"
 	task.6DC206489437BCB8.title: "Any Forgotten Tool"
 	task.6DCBFF98F634FC05.title: "Any Undergarden Mushroom"
+	task.6DD47017596E7645.title: "moi"
 	task.6FF8DF5C6BA9E591.title: "Any #botania:generating_special_flowers"
 	task.7203F46653E6A739.title: "Dein Start mit Botania"
 	task.72B008863DBD6560.title: "Miners Entry"
