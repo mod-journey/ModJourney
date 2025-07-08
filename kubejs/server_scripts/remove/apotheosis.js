@@ -38,7 +38,7 @@ let remove_apotheosis = (event, active, debug) => {
     event.forEachRecipe({ type: "apotheosis:spawner_modifier" }, r => {
 
         if (r.getId() === 'apotheosis:spawner/spawn_count') {
-            if (debug === "true" || recipe_old === "true") {console.log("Rezept alt: " + r.json)};
+            if (debug) {console.log("Rezept alt: " + r.json)};
 
             Object.assign(new_stat_changes, {
                 id: "spawn_count",
@@ -50,12 +50,12 @@ let remove_apotheosis = (event, active, debug) => {
             r.json.get("stat_changes").set(0, new_stat_changes);
             event.custom(r.json).id(r.getId());
 
-            if (debug === "true" || recipe_new === "true") {console.log("Rezept neu: " + r.json)};
+            if (debug) {console.log("Rezept neu: " + r.json)};
         }
 
 
         if (r.getId() === 'apotheosis:spawner/min_delay') {
-            if (debug === "true" || recipe_old === "true") {console.log("Rezept alt: " + r.json)};
+            if (debug) {console.log("Rezept alt: " + r.json)};
 
             Object.assign(new_stat_changes, {
                 id:"min_delay",
@@ -67,12 +67,12 @@ let remove_apotheosis = (event, active, debug) => {
             r.json.get("stat_changes").set(0, new_stat_changes);
             event.custom(r.json).id(r.getId());
 
-            if (debug === "true" || recipe_new === "true") {console.log("Rezept neu: " + r.json)};
+            if (debug) {console.log("Rezept neu: " + r.json)};
         }
 
 
         if (r.getId() === 'apotheosis:spawner/max_delay') {
-            if (debug === "true" || recipe_old === "true") {console.log("Rezept alt: " + r.json)};
+            if (debug) {console.log("Rezept alt: " + r.json)};
 
             Object.assign(new_stat_changes, {
                 id: "max_delay",
@@ -84,12 +84,12 @@ let remove_apotheosis = (event, active, debug) => {
             r.json.get("stat_changes").set(0, new_stat_changes)
             event.custom(r.json).id(r.getId())
 
-            if (debug === "true" || recipe_new === "true") {console.log("Rezept neu: " + r.json)};
+            if (debug) {console.log("Rezept neu: " + r.json)};
         }
 
 
         if (r.getId() === 'apotheosis:spawner/max_nearby') {
-            if (debug === "true" || recipe_old === "true") {console.log("Rezept alt: " + r.json)};
+            if (debug) {console.log("Rezept alt: " + r.json)};
 
             Object.assign(new_stat_changes, {
                 id: "max_nearby_entities",
@@ -101,7 +101,7 @@ let remove_apotheosis = (event, active, debug) => {
             r.json.get("stat_changes").set(0, new_stat_changes)
             event.custom(r.json).id(r.getId())
 
-            if (debug === "true" || recipe_new === "true") {console.log("Rezept neu: " + r.json)};
+            if (debug) {console.log("Rezept neu: " + r.json)};
         }
     });
 
