@@ -62,17 +62,6 @@
 			dependency_requirement: "one_completed"
 			hide_until_deps_visible: true
 			id: "5600D421C0F617A9"
-			rewards: [{
-				id: "42B5AA071BBF0C17"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -85,17 +74,6 @@
 		{
 			dependencies: ["5600D421C0F617A9"]
 			id: "776BA18F35EA7817"
-			rewards: [{
-				id: "23315AEBFE4CEC22"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			size: 1.0d
 			tasks: [{
 				id: "3C2B5623ACE2FBDF"
@@ -107,17 +85,6 @@
 		{
 			dependencies: ["53FA14DECBF4B405"]
 			id: "7600E42EC1039D65"
-			rewards: [{
-				id: "0C0DCD1AD64238E3"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "630B4F5DA2784349"
 				item: { count: 1, id: "mob_grinding_utils:entity_conveyor" }
@@ -129,17 +96,6 @@
 		{
 			dependencies: ["776BA18F35EA7817"]
 			id: "64AEF16D7BBA8717"
-			rewards: [{
-				id: "665013DB875D1BC9"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "3CD871C1CC0FB52D"
 				item: { count: 1, id: "mob_grinding_utils:xpsolidifier" }
@@ -151,17 +107,6 @@
 		{
 			dependencies: ["70C3DA48F8A84840"]
 			id: "41E3D818423C9002"
-			rewards: [{
-				id: "524DE3567AA2BFB8"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "4BED88B518F69D36"
 				item: { count: 1, id: "mob_grinding_utils:spawner_upgrade_width" }
@@ -173,17 +118,6 @@
 		{
 			dependencies: ["70C3DA48F8A84840"]
 			id: "4B91378F01114966"
-			rewards: [{
-				id: "002CD50F9DFE4853"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "29F430156EFC7A0E"
 				item: { count: 1, id: "mob_grinding_utils:spawner_upgrade_height" }
@@ -195,17 +129,6 @@
 		{
 			dependencies: ["70C3DA48F8A84840"]
 			id: "24CF3ABE17A5E8AD"
-			rewards: [{
-				id: "1EDBFB540BBBBCA0"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "261800CB71DE19ED"
 				item: { count: 1, id: "mob_grinding_utils:xp_solidifier_upgrade" }
@@ -217,17 +140,6 @@
 		{
 			dependencies: ["776BA18F35EA7817"]
 			id: "1595A8280A792BA3"
-			rewards: [{
-				id: "3665ABBD32BFD65D"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "580D1FDB3D7F28B6"
 				item: { count: 1, id: "mob_grinding_utils:absorption_hopper" }
@@ -239,17 +151,6 @@
 		{
 			dependencies: ["1595A8280A792BA3"]
 			id: "06236B87230672E6"
-			rewards: [{
-				id: "45F78EB28F4B6064"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "672117364E646A94"
 				item: { count: 1, id: "mob_grinding_utils:absorption_upgrade" }
@@ -261,17 +162,6 @@
 		{
 			dependencies: ["0400DBB195284E8E"]
 			id: "4DBA3461786E55B4"
-			rewards: [{
-				id: "72282AC0EEA0CE16"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "003041439CCA51E2"
 				item: { count: 1, id: "mob_grinding_utils:tank" }
@@ -283,17 +173,6 @@
 		{
 			dependencies: ["1595A8280A792BA3"]
 			id: "0400DBB195284E8E"
-			rewards: [{
-				id: "583537C8762ED18E"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "46A0BB1540461F1E"
 				item: { count: 1, id: "mob_grinding_utils:tank_sink" }
@@ -305,17 +184,6 @@
 		{
 			dependencies: ["4DBA3461786E55B4"]
 			id: "17AF308CF5197526"
-			rewards: [{
-				id: "71954951AC48D520"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "6914951656283145"
 				item: { count: 1, id: "mob_grinding_utils:xp_tap" }
@@ -327,17 +195,6 @@
 		{
 			dependencies: ["4DBA3461786E55B4"]
 			id: "7B63B6CB65BC3172"
-			rewards: [{
-				id: "125D5870DAABFCE4"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "32AE684C63B19DB4"
 				item: { count: 1, id: "mob_grinding_utils:jumbo_tank" }
@@ -350,17 +207,6 @@
 			dependencies: ["5600D421C0F617A9"]
 			hide_dependency_lines: true
 			id: "6E9DAFBCD3D19E5B"
-			rewards: [{
-				id: "75DCBC8FE96D351D"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "1C6B957E698C9D3B"
 				type: "checkmark"
@@ -374,17 +220,6 @@
 				"6E9DAFBCD3D19E5B"
 			]
 			id: "3330D9F9B7E898CC"
-			rewards: [{
-				id: "186A74854D63D25F"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "7E3D68F8756B8F6D"
 				item: { count: 1, id: "mob_grinding_utils:dragon_muffler" }
@@ -399,17 +234,6 @@
 				"6E9DAFBCD3D19E5B"
 			]
 			id: "6B9497BCB6FDA0AE"
-			rewards: [{
-				id: "214C6B35B59F90A4"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "636BBE99FCA227D4"
 				item: { count: 1, id: "mob_grinding_utils:wither_muffler" }
@@ -421,17 +245,6 @@
 		{
 			dependencies: ["7600E42EC1039D65"]
 			id: "070E4C57EBA4CC18"
-			rewards: [{
-				id: "3CEE66D6507EA490"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "32E877F12D99860A"
 				item: { count: 1, id: "mob_grinding_utils:fan" }
@@ -443,17 +256,6 @@
 		{
 			dependencies: ["070E4C57EBA4CC18"]
 			id: "2330E243DDA687E9"
-			rewards: [{
-				id: "19F5F43ECAD24FA0"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "3C5F5F16EF472347"
 				item: { count: 1, id: "mob_grinding_utils:fan_upgrade_speed" }
@@ -465,17 +267,6 @@
 		{
 			dependencies: ["070E4C57EBA4CC18"]
 			id: "42CF8AE80D8AB778"
-			rewards: [{
-				id: "63136BF63A27163D"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "4D0A44019592D1D5"
 				item: { count: 1, id: "mob_grinding_utils:fan_upgrade_width" }
@@ -487,17 +278,6 @@
 		{
 			dependencies: ["070E4C57EBA4CC18"]
 			id: "0D02FD3C537A6CBD"
-			rewards: [{
-				id: "46E90A76482A34CF"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "7E3A28B0421D495F"
 				item: { count: 1, id: "mob_grinding_utils:fan_upgrade_height" }
@@ -509,17 +289,6 @@
 		{
 			dependencies: ["776BA18F35EA7817"]
 			id: "53FA14DECBF4B405"
-			rewards: [{
-				id: "2D9252841A45F7A3"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "10C0E84BF1C03CE8"
 				item: { count: 1, id: "mob_grinding_utils:spikes" }
@@ -531,17 +300,6 @@
 		{
 			dependencies: ["53FA14DECBF4B405"]
 			id: "041CD4FF5110FCD7"
-			rewards: [{
-				id: "557DE906FCF0D471"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -555,17 +313,6 @@
 		{
 			dependencies: ["041CD4FF5110FCD7"]
 			id: "7FCA05C0B830CBC0"
-			rewards: [{
-				id: "7DF5F4997BDACE59"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "35A6F7E03FCBC36B"
 				item: { count: 1, id: "mob_grinding_utils:saw_upgrade_sharpness" }
@@ -577,17 +324,6 @@
 		{
 			dependencies: ["041CD4FF5110FCD7"]
 			id: "07F7E146A4368404"
-			rewards: [{
-				id: "7E172ABDB134478A"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "3E3467606C997649"
 				item: { count: 1, id: "mob_grinding_utils:saw_upgrade_arthropod" }
@@ -599,17 +335,6 @@
 		{
 			dependencies: ["041CD4FF5110FCD7"]
 			id: "1E856EA0F824D285"
-			rewards: [{
-				id: "0F48C531DDA7A86C"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "09DD979C15E553F1"
 				item: { count: 1, id: "mob_grinding_utils:saw_upgrade_smite" }
@@ -621,17 +346,6 @@
 		{
 			dependencies: ["041CD4FF5110FCD7"]
 			id: "138F9BA2044CB771"
-			rewards: [{
-				id: "02206CBDFF55D562"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "49670E2C35C7BEEF"
 				item: { count: 1, id: "mob_grinding_utils:saw_upgrade_fire" }
@@ -643,17 +357,6 @@
 		{
 			dependencies: ["041CD4FF5110FCD7"]
 			id: "587C0314547F28A4"
-			rewards: [{
-				id: "53EE9CA1E7C02335"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -667,17 +370,6 @@
 		{
 			dependencies: ["041CD4FF5110FCD7"]
 			id: "5E82814E40451406"
-			rewards: [{
-				id: "439306EF770A9471"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -691,17 +383,6 @@
 		{
 			dependencies: ["70C3DA48F8A84840"]
 			id: "40CBA9ECA122DDFA"
-			rewards: [{
-				id: "6AC9F828CABD48D6"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "639381BD6094CF20"
 				item: { count: 1, id: "mob_grinding_utils:mob_swab" }
@@ -713,17 +394,6 @@
 		{
 			dependencies: ["40CBA9ECA122DDFA"]
 			id: "4B2657B553F3E322"
-			rewards: [{
-				id: "63831B580B927C43"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "04FC4B2C200A187A"
 				item: { count: 1, id: "mob_grinding_utils:gm_chicken_feed" }
@@ -735,17 +405,6 @@
 		{
 			dependencies: ["77E66A772828FB98"]
 			id: "70C3DA48F8A84840"
-			rewards: [{
-				id: "5EEF65944077166A"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "2633AA02A433F6CB"
 				item: { count: 1, id: "mob_grinding_utils:entity_spawner" }
@@ -757,17 +416,6 @@
 		{
 			dependencies: ["64AEF16D7BBA8717"]
 			id: "795E9E4C809D1EC2"
-			rewards: [{
-				id: "6B2F30386C615146"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "0728303E1F013089"
 				item: { count: 1, id: "mob_grinding_utils:solid_xp_mould_blank" }
@@ -779,17 +427,6 @@
 		{
 			dependencies: ["795E9E4C809D1EC2"]
 			id: "545CED820632EFB9"
-			rewards: [{
-				id: "123086DB3CD1015B"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "182F25FE21DCFAEF"
 				item: { count: 1, id: "mob_grinding_utils:solid_xp_mould_baby" }
@@ -801,17 +438,6 @@
 		{
 			dependencies: ["545CED820632EFB9"]
 			id: "77E66A772828FB98"
-			rewards: [{
-				id: "38A434872120E1AB"
-				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "72609F1C3103153C"
 				item: { count: 1, id: "mob_grinding_utils:solid_xp_baby" }
