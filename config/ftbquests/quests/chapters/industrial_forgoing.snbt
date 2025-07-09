@@ -1,8 +1,12 @@
 {
+	autofocus_id: "1D18FA062A8CDBDE"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "industrial_forgoing"
 	group: "4B1BD2A866D0526F"
+	icon: {
+		id: "industrialforegoing:fluid_extractor"
+	}
 	id: "755B9005FE1A4302"
 	order_index: 2
 	quest_links: [ ]
@@ -302,13 +306,22 @@
 			]
 			dependency_requirement: "one_completed"
 			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"patchouli:book": "industrialforegoing:industrial_foregoing"
+				}
+				id: "patchouli:guide_book"
+			}
 			id: "534AEFBDAFA3754C"
 			rewards: [
 				{
 					id: "4E10C67214F025F5"
 					item: {
+						components: {
+							"patchouli:book": "industrialforegoing:industrial_foregoing"
+						}
 						count: 1
-						id: "minecraft:apple"
+						id: "patchouli:guide_book"
 					}
 					type: "item"
 				}
@@ -316,14 +329,14 @@
 					id: "33078EA0292F5EDD"
 					item: {
 						count: 1
-						id: "minecraft:apple"
+						id: "mod_journey:copper_coin"
 					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "28EC62C39CC6A2B5"
-				item: { }
+				item: { count: 1, id: "immersiveengineering:circuit_board" }
 				type: "item"
 			}]
 			x: -0.5d
