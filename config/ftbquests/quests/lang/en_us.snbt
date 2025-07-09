@@ -150,7 +150,6 @@
 	quest.08377ECC8FA7DD80.quest_desc: ["Ermöglicht das Laden von FE basierten Items in einem Container, Kiste, Storage. "]
 	quest.084F397A9654B3BB.quest_desc: ["Ein ME-Laufwerk bietet Dir die Möglichkeit, 10 Festplatten an dein System anzubinden. "]
 	quest.085524FB2AA3BAEF.quest_desc: ["wird weitaus mehr ballern wie die Rods zuvor."]
-	quest.089A9D167D0BF67D.quest_desc: ["Obsidianpfeile sind ein direktes Upgrade zu normalen Pfeilen und fügen 20% mehr Schaden zu."]
 	quest.08BDD4ADC8DDB9C2.quest_desc: [
 		"&4Zusätzlich:&r"
 		"Ab dem Einlösen der Quest, kannst Du zusätzlich im Technic-Shop einkaufen. "
@@ -456,7 +455,6 @@
 		""
 		"Für nähere Informationen zu den Ritualen, konsultiere doch den ModGuide."
 	]
-	quest.18D389616CF6497C.quest_desc: ["Wie der Name schon sagt, können diese Pfeile beim Aufprall explodieren."]
 	quest.18DAE72E4F2B32E0.quest_desc: ["Auch in Ars Nouveau gibt es eigene Holzarten, die für die verschiedensten Sachen benötigt werden. Die vier verschiedenen Archwood Baumarten sind überall in der Overworld zu finden. Jede von ihnen hat auch seine eigenen leckeren Früchte für die Frutarier unter euch."]
 	quest.18DAE72E4F2B32E0.quest_subtitle: "Magische Materialien für magische Werkzeuge"
 	quest.18DAE72E4F2B32E0.title: "Auf dem Holzweg"
@@ -1075,13 +1073,6 @@
 		"Der Multiblock muss immer ein Rechteck bilden und mindestens einen Fertigungsspeicher beinhalten. Somit ist auch ein einzelner Fertigungspeicher ein Valider Prozessor für das Autocrafting."
 		"Außerdem kann die Fertigungseinheit als Füllmaterial im Multiblock benutzt werden, um diesen zu Vervollständigen. Einen Vorteil bringen diese Blöcke aber im Multiblock nicht."
 	]
-	quest.48106BE361355567.quest_desc: [
-		"Dieses Modul von Apotheosis bringt ein paar kleine Änderungen im Village-Bereich mit sich:"
-		""
-		"&6-&rDer Fletching Table bekommt einen Nutzen durch spezielle Pfeile, die dort nun gecraftet werden können."
-		""
-		"&6-&rWandering Trader wurden durch besondere Trades verbessert, unter anderem Trades für Beacons, Totems of Undying oder Diamant-Ausrüstung mit sehr starken Verzauberungen."
-	]
 	quest.4834BF938B07C244.quest_desc: [
 		"In diesem Block können noch mehr Mengen an Verzauberungen gelagert werden als in seinem Vorgänger."
 		""
@@ -1246,14 +1237,6 @@
 	quest.534AEFBDAFA3754C.title: "Industrial Handbuch"
 	quest.537E339058A7D8F8.quest_desc: ["Mit 81 Slots und 3 Upgrade Slots, bietet er noch mehr Platz!"]
 	quest.537E339058A7D8F8.quest_subtitle: "Güldener Rucksack"
-	quest.53BB2CEC76A17C43.quest_desc: [
-		"Diese Pfeile fügen getroffenen Zielen Blutung zu. Jeder weitere Treffer erneuert die Debuffzeit und wenn noch Blutung vorhanden war, wird die Stärke erhöht."
-		""
-		"{@pagebreak}"
-		"Blutung/Bleeding:"
-		""
-		"Alle 2 Sekunden wird Schaden erlitten, Schaden steigt mit Stufe, ignoriert Rüstung."
-	]
 	quest.53D4C7145B96D8E5.quest_desc: ["Ein Bauteil für die Rocket Engine."]
 	quest.53FA14DECBF4B405.quest_desc: [
 		"Fügt Mobs schaden zu."
@@ -1329,7 +1312,6 @@
 	quest.585A1CA7B2EE72FA.title: "Das wahre Ende"
 	quest.586EFD2747910C1B.quest_subtitle: "Rohstoff rein, Flüssigkeit raus."
 	quest.587C0314547F28A4.quest_desc: ["Beheading, limitiert auf 1."]
-	quest.5890B33CF6239031.quest_desc: ["Funktionieren wie ihre eiserne Variante, können aber auch Blöcke abbauen, für die man eine diamantene Spitzhacke braucht."]
 	quest.589407ECB629164D.title: "Let's show: Industrial Foregoing"
 	quest.5902419C7421AA67.title: "Lets's show: Blood Magic"
 	quest.5937774ED0FCF478.quest_desc: ["Erteile mehr schaden gegen Undergarden Mobs. Ausgenommen sind Boss Mobs."]
@@ -1391,15 +1373,6 @@
 		".... und lauuuuf."
 	]
 	quest.5DA64CADB81708C8.quest_desc: ["Werden im Inventar benötigt, um Rituale zu bauen."]
-	quest.5DC69AA09B861A9E.quest_desc: [
-		"Dieses Modul von Apotheosis bringt ein paar Änderungen für bestimmte Pflanzen."
-		""
-		"&6-&rBambus kann bis zu 32 Blöcke hoch wachsen"
-		""
-		"&6-&rKaktus kann bis zu 5 Blöcke hoch wachsen"
-		""
-		"&6-&rZuckerrohr kann bis zu 255 Blöcke hoch wachsen"
-	]
 	quest.5E039C48CE24F1FD.quest_desc: ["ballert viel mehr wie die Rods zuvor."]
 	quest.5E51716BBA7C0BE6.quest_desc: [
 		"Mit diesem Apparat kann du nicht nur verzauberte Bücher selbst herstellen, sondern auch deine magische Rüstung erhalten und verbessern, sowie zauberhafte Items wie Waffen, Charms und Utility craften. Baue den Apparatus dafür auf den Core und stell acht Pedestals drum herum."
@@ -1549,7 +1522,6 @@
 		"{image:powah:item/binding_card_dim width:30 height:30 align:1}"
 	]
 	quest.695526C12D5AE2E6.quest_subtitle: "Auf die Enderperle, fertig. los...."
-	quest.69C2F4C1C00C9E3E.quest_desc: ["Diese Pfeile können getroffene Blöcke wie eine Eisenspitzhacke abbauen."]
 	quest.6A2B6704E919F2BB.quest_desc: ["Jedes Crafting-Rezept braucht eine gewisse Anzahl an Bytes um verarbeitet zu werden. Somit gibt der Fertigungsspeicher an, wie groß dein Crafting-Rezept sein kann. Außerdem kann der Fertigungsspeicher standardgemäß ein Rezept nach dem anderen abarbeiten. Um paralleles Craften zu gewährleisten. Baue weitere Prozessoreinheiten."]
 	quest.6A2B6704E919F2BB.title: "Fertingungsspeicher"
 	quest.6A342B58C9875174.quest_desc: [
@@ -1674,11 +1646,6 @@
 	quest.7556BC1029C2B666.quest_desc: ["Nie wieder das richtige Item zum Abbauen auswählen müssen!"]
 	quest.7556BC1029C2B666.quest_subtitle: "Switcheru I"
 	quest.75611DC723B62AE4.quest_subtitle: "Mit Hilfe des Flux Plugs kannst du Remote Energie deinem Netzwerk hinzufügen"
-	quest.75846D07A3651A5F.quest_desc: [
-		"Diese magische Leine kann ein Tier in sich aufnehmen, damit man es sicher transportieren kann."
-		""
-		"Mit der linken Maustaste kann es aufgenommen und mit der rechten wieder abgelegt werden."
-	]
 	quest.7595DD9DE29C0C44.quest_desc: ["Natürlich braucht es Speicher. Eine bessere Methode Blut zu speichern stellt der Blut Orb da. Dieser bildet sein eigenes Netzwerk und ist gänzlich für neue Mythen und Rituale nutzbar. Auch einige antike Rezepte sollen mit dem Orb als Katalyst funktionieren. Wenn man den Gelehrten glauben schenken darf, so füllt sich dieser im Blut Altar auf."]
 	quest.7595DD9DE29C0C44.quest_subtitle: "Welcher kühne Magier hat auch keinen?"
 	quest.7595DD9DE29C0C44.title: "Natürlich ist es ein Orb"

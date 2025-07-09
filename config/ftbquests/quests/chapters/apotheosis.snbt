@@ -11,7 +11,7 @@
 			id: "736169731670410F"
 			tasks: [{
 				id: "54E4A312D7912534"
-				item: { }
+				item: { components: { "patchouli:book": "apotheosis:apoth_chronicle" }, count: 1, id: "patchouli:guide_book" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -33,6 +33,9 @@
 		{
 			dependencies: ["736169731670410F"]
 			hide_until_deps_visible: false
+			icon: {
+				id: "minecraft:enchanting_table"
+			}
 			id: "209E7BD721F663CC"
 			tasks: [{
 				id: "77FAAC17DAF04807"
@@ -43,13 +46,16 @@
 		}
 		{
 			dependencies: ["736169731670410F"]
+			icon: {
+				id: "minecraft:spawner"
+			}
 			id: "439A11FC8B1BE52A"
 			tasks: [{
 				id: "470552CCC5DF54DE"
 				type: "checkmark"
 			}]
 			x: -2.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["736169731670410F"]
@@ -62,93 +68,7 @@
 				type: "checkmark"
 			}]
 			x: 2.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["736169731670410F"]
-			id: "5DC69AA09B861A9E"
-			tasks: [{
-				id: "58130F61425C0D83"
-				type: "checkmark"
-			}]
-			x: -2.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["736169731670410F"]
-			id: "48106BE361355567"
-			tasks: [{
-				id: "3DB4DF78EB966730"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["48106BE361355567"]
-			id: "647E124585632397"
-			tasks: [{
-				id: "4E1F12FAE33161A6"
-				item: { }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["647E124585632397"]
-			id: "089A9D167D0BF67D"
-			tasks: [{
-				id: "1E9FDEE203F2EF80"
-				item: { }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["647E124585632397"]
-			id: "53BB2CEC76A17C43"
-			tasks: [{
-				id: "22CAC66755D0B53C"
-				item: { }
-				type: "item"
-			}]
-			x: 4.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["647E124585632397"]
-			id: "18D389616CF6497C"
-			tasks: [{
-				id: "76E42CF93007C2DC"
-				item: { }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["647E124585632397"]
-			id: "69C2F4C1C00C9E3E"
-			tasks: [{
-				id: "1F47342688CF1AD1"
-				item: { }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["647E124585632397"]
-			id: "5890B33CF6239031"
-			tasks: [{
-				id: "2DC990984593D1CA"
-				item: { }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0DE688D34731681F"]
@@ -158,19 +78,8 @@
 				item: { }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["5DC69AA09B861A9E"]
-			id: "75846D07A3651A5F"
-			tasks: [{
-				id: "284FB8938D26F683"
-				item: { }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 1.5d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3F07618A23C6659B"]
@@ -520,7 +429,7 @@
 				item: { }
 				type: "item"
 			}]
-			x: 2.25d
+			x: 2.0d
 			y: 4.5d
 		}
 		{
