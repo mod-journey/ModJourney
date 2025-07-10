@@ -31,6 +31,7 @@
 	chapter_group.29AF41F0C879F47B.title: "&b&6Stage III"
 	chapter_group.4B1BD2A866D0526F.title: "&b&6Stage II"
 	chapter_group.78025998DBB7AC61.title: "&b&6Allgemein"
+	file.0000000000000001.title: "Minecraft Mod Journey 2"
 	quest.004FACEE5A1D9E61.quest_desc: ["Ein Block um Flux Energy (FE) zu speichern"]
 	quest.005F625FCFC80A7B.quest_subtitle: "Venus"
 	quest.0060F8847CDD18D9.quest_desc: ["Füllt automatisch deine Hand nach wenn Items ausgehen!"]
@@ -1774,6 +1775,11 @@
 	reward_table.4EF5D227C76B6843.title: "meka end "
 	reward_table.55EE8281FD1F72C7.title: "Meka Basic"
 	reward_table.5CA59D5BF413471C.title: "meka mid "
+	reward_table.24F63EB4DD5227DC.title: "Tear3"
+	reward_table.39C63245F86C721B.title: "Tear4"
+	reward_table.3E1ECF76C9475F78.title: "Tear5"
+	reward_table.4A66DD99435F8E13.title: "Tear1"
+	reward_table.67D5535CC0B3DD64.title: "Tear2"
 	task.009105FF3AC43AE2.title: "Functional Storage"
 	task.01BD2A1FE8967AB2.title: "Finde den Blinding Dungeon"
 	task.03BC595DF682AD4B.title: "Everbright"

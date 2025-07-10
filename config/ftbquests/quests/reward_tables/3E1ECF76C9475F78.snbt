@@ -1,4 +1,7 @@
 {
+	icon: {
+		id: "mysticalagriculture:supremium_essence"
+	}
 	id: "3E1ECF76C9475F78"
 	loot_size: 1
 	order_index: 5
