@@ -466,18 +466,11 @@
 		{
 			dependencies: ["773D7975E265FE2F"]
 			id: "6837CF134BDE4A81"
-			tasks: [
-				{
-					id: "67D32515E09E1240"
-					item: { }
-					type: "item"
-				}
-				{
-					id: "73156255D15E8CCD"
-					item: { count: 1, id: "mekanism:elite_universal_cable" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "73156255D15E8CCD"
+				item: { count: 1, id: "mekanism:elite_universal_cable" }
+				type: "item"
+			}]
 			x: -2.5d
 			y: -4.5d
 		}
