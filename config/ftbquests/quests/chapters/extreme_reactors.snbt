@@ -34,33 +34,35 @@
 			}]
 			tasks: [
 				{
-					id: "3A78A41E1797DB85"
-					item: { }
+					id: "6E28FB61F22920CE"
+					item: { count: 1, id: "bigreactors:basic_reactorfuelrod" }
 					type: "item"
 				}
 				{
-					id: "685AF51593FC0C57"
-					item: { }
+					id: "53108B6305488F89"
+					item: { count: 1, id: "bigreactors:reinforced_reactorcontroller" }
 					type: "item"
 				}
 				{
-					id: "458543F3D40D831F"
-					item: { }
+					id: "458A2A52274A9C1E"
+					item: { count: 1, id: "bigreactors:basic_reactorcontrolrod" }
 					type: "item"
 				}
 				{
-					id: "467957C94D183A88"
-					item: { }
+					count: 2L
+					id: "03369C205620E720"
+					item: { count: 2, id: "bigreactors:basic_reactorsolidaccessport" }
 					type: "item"
 				}
 				{
-					id: "6AC033C6237366C8"
-					item: { }
+					count: 21L
+					id: "15A33D909C49AF88"
+					item: { count: 21, id: "bigreactors:basic_reactorcasing" }
 					type: "item"
 				}
 				{
-					id: "6D2D49D0A5751049"
-					item: { }
+					id: "060249275444D45B"
+					item: { count: 1, id: "bigreactors:basic_reactorpowertapfe_passive" }
 					type: "item"
 				}
 			]
@@ -102,29 +104,11 @@
 				item: { }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["68CBEF963313DC33"]
-			id: "646646E999822E90"
-			rewards: [{
-				id: "6F41BCA56F2174D6"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "2FFC4BAF4B3382CF"
-				item: { }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 3.0d
-		}
-		{
+			dependencies: ["6BEAD403B7CB0490"]
 			id: "4B86830BAFA84372"
 			rewards: [{
 				id: "7393325606512392"
@@ -139,8 +123,8 @@
 				item: { }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: 9.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["68CBEF963313DC33"]
@@ -162,6 +146,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["6BEAD403B7CB0490"]
 			id: "68CBEF963313DC33"
 			rewards: [
 				{
@@ -179,12 +164,12 @@
 				}
 			]
 			tasks: [{
-				id: "232D2252C3A0B094"
-				item: { }
+				id: "4B24D2D9E574F7F4"
+				item: { count: 1, id: "bigreactors:reinforced_reactorcontroller" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.0d
+			x: 7.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["68CBEF963313DC33"]
@@ -847,11 +832,12 @@
 				item: { }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 9.5d
+			x: 8.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["68CBEF963313DC33"]
+			dependencies: ["6BEAD403B7CB0490"]
+			dependency_requirement: "all_started"
 			id: "26B645871A11798E"
 			rewards: [{
 				id: "6A551EA0F2CA88D2"
@@ -865,8 +851,8 @@
 				id: "1CE806849D563B37"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 9.5d
+			x: 8.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["064778D724C27365"]
@@ -909,8 +895,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: 5.0d
+			x: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["68CBEF963313DC33"]
@@ -927,8 +913,8 @@
 				id: "7BD191F74C472357"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 5.0d
+			x: 5.0d
+			y: 3.5d
 		}
 	]
 }
