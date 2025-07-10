@@ -1102,6 +1102,7 @@
 	quest.48C79ED35AC136C8.quest_desc: ["Mit ein paar Materialien aus dem End kann deine magische Rüstung noch weiter verbessert werden, um noch mehr Mana und Mana Regeneration sowie die maximalen Threadslots zu bekommen."]
 	quest.48C79ED35AC136C8.quest_subtitle: "doch die Leute, die die Kleider machen..."
 	quest.48C79ED35AC136C8.title: "Kleider machen Leute"
+	quest.48CF9B4938E075C3.quest_subtitle: "Damit kann man Erzes aus dem Boden saugen "
 	quest.48F3472B18648E82.quest_desc: ["Ein Block, welcher aus Sonnenlicht Energie gewinnt. Wenn Du diesen mit einer Lens of Ender kombinierst, arbeitet die Solarpanele auch durch Blöcke hindurch und ist nicht mehr direkt auf Sonnenlicht angewiesen."]
 	quest.48F3472B18648E82.quest_subtitle: "Die Kraft der Sonne"
 	quest.492E5E8E2DC49D14.title: "Holz Sammler"
@@ -1639,6 +1640,9 @@
 		"Aufgrund der besseren Technologie, schaffen wir es nun weitere Entfernungen zurück zu legen. Vor allem halten wir nun auch weiteren Umweltbedingungen stand."
 	]
 	quest.7440341BEA541FE2.quest_desc: ["Redstone, eine wichtige Zutat im Prozessorbau."]
+	quest.749043D84EC00449.quest_subtitle: "Ist ein kleiner guide"
+	quest.749043D84EC00449.title: "Karte des Waldes "
+	quest.74B147C71A1D55E9.quest_subtitle: "Damit kann man Tier in die Twiglight Forst Tire umwandeln "
 	quest.753D0CFDD1A78040.quest_desc: [
 		"Fast wie Seetang, nur glitzernd. Kann im Ofen köstlich zubereitet werden."
 		"Radon- Zeit für einen Tapetenwechsel?"

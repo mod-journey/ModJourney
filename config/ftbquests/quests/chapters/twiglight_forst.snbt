@@ -9,14 +9,60 @@
 	id: "24DF41E56893FA64"
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		id: "52B7129CA651630E"
-		tasks: [{
-			dimension: "twilightforest:twilight_forest"
-			id: "3FE836304C19A910"
-			type: "dimension"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "52B7129CA651630E"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "3FE836304C19A910"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52B7129CA651630E"]
+			id: "749043D84EC00449"
+			tasks: [{
+				id: "3E1C467BD95969F0"
+				item: { count: 1, id: "twilightforest:magic_map" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["749043D84EC00449"]
+			id: "18D0831832FC3783"
+			tasks: [{
+				id: "72FFCC2D3D4C5F8D"
+				item: { count: 1, id: "twilightforest:quest_ram_trophy" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["749043D84EC00449"]
+			id: "48CF9B4938E075C3"
+			tasks: [{
+				id: "235EE412900FB19E"
+				item: { count: 1, id: "twilightforest:ore_magnet" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["749043D84EC00449"]
+			id: "74B147C71A1D55E9"
+			tasks: [{
+				id: "7CAAA28D87EBBB7D"
+				item: { count: 1, id: "twilightforest:transformation_powder" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+	]
 }
