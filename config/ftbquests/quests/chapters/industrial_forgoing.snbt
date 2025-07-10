@@ -17,20 +17,21 @@
 				{
 					exclude_from_claim_all: true
 					id: "0406FB3BD61565EC"
+					table_id: 2498778483368621286L
 					type: "loot"
 				}
 				{
 					id: "56F8B614566F8D73"
 					item: {
 						count: 1
-						id: "minecraft:apple"
+						id: "mod_journey:copper_coin"
 					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "7D8711AACA216C27"
-				item: { }
+				item: { count: 1, id: "industrialforegoing:fluid_laser_base" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -43,13 +44,15 @@
 				id: "1F04B7FCC4AA610B"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "314943EEF6B9B153"
-				item: { }
+				item: { count: 1, id: "industrialforegoing:machine_frame_pity" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -66,13 +69,13 @@
 				id: "2A9EAEF6E33753CF"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "2FBE10A5A8181FDD"
-				item: { }
+				item: { count: 1, id: "industrialforegoing:machine_frame_simple" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -88,13 +91,13 @@
 				id: "13037565FC83D8B0"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "40142716650CEAA8"
-				item: { }
+				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -110,13 +113,13 @@
 				id: "012D72A68293141D"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3EEFBBE8CCC5DA1B"
-				item: { }
+				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -129,13 +132,13 @@
 				id: "43BA4FA0417DB48E"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3ABF7A8DA93422D6"
-				item: { }
+				item: { count: 1, id: "industrialforegoing:fluid_extractor" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -148,13 +151,13 @@
 				id: "7B5C17571F8889D3"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "1DF8FB649AB898AF"
-				item: { }
+				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -168,19 +171,20 @@
 					id: "4914318BDDC98D36"
 					item: {
 						count: 1
-						id: "minecraft:apple"
+						id: "mod_journey:copper_coin"
 					}
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "6DD8B5FB86501A57"
+					table_id: 2663385176164411356L
 					type: "loot"
 				}
 			]
 			tasks: [{
 				id: "628B7C5381920A4F"
-				item: { }
+				item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -193,13 +197,13 @@
 				id: "0B4AEB17CB5A8F93"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "65ACE7860ABE3017"
-				item: { }
+				item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -212,13 +216,13 @@
 				id: "0C7405F4CA0F2021"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "4E20BB9F42578882"
-				item: { }
+				item: { count: 1, id: "industrialforegoing:pink_slime_bucket" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -234,13 +238,13 @@
 				id: "159192CA15FCF158"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3D4FB4E20C467EE0"
-				item: { }
+				item: { count: 1, id: "industrialforegoing:ether_gas_bucket" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -254,20 +258,21 @@
 				{
 					exclude_from_claim_all: true
 					id: "15FABB3E1903DE2C"
+					table_id: 2626029047110404942L
 					type: "loot"
 				}
 				{
 					id: "05F49C7C5929021F"
 					item: {
 						count: 1
-						id: "minecraft:apple"
+						id: "mod_journey:copper_coin"
 					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "60897503FB9F3CDC"
-				item: { }
+				item: { count: 1, id: "industrialforegoing:ore_laser_base" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -292,8 +297,8 @@
 				}
 			]
 			tasks: [{
-				id: "2E5487A5AE86A8D3"
-				item: { }
+				id: "13CA04F0C65CCCB2"
+				item: { count: 1, id: "minecraft:dirt" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -305,6 +310,7 @@
 				"589407ECB629164D"
 			]
 			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: {
 				components: {
