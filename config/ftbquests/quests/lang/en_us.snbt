@@ -456,7 +456,7 @@
 		""
 		"Für nähere Informationen zu den Ritualen, konsultiere doch den ModGuide."
 	]
-	quest.18DAE72E4F2B32E0.quest_desc: ["Auch in Ars Nouveau gibt es eigene Holzarten, die für die verschiedensten Sachen benötigt werden. Die vier verschiedenen Archwood Baumarten sind überall in der Overworld zu finden. Jede von ihnen hat auch seine eigenen leckeren Früchte für die Frutarier unter euch."]
+	quest.18DAE72E4F2B32E0.quest_desc: ["Auch in Ars Nouveau gibt es eigene Holzarten, die für die verschiedensten Sachen benötigt werden. Die fünf verschiedenen Archwood Baumarten sind überall in der Overworld zu finden. Jede von ihnen hat auch seine eigenen leckeren Früchte für die Frutarier unter euch."]
 	quest.18DAE72E4F2B32E0.quest_subtitle: "Magische Materialien für magische Werkzeuge"
 	quest.18DAE72E4F2B32E0.title: "Auf dem Holzweg"
 	quest.18DC444B569EA95E.quest_desc: ["Die magischen und heilerischen Fähigkeiten von Ambrosium können in diesem Altar dazu genutzt werden, um bestimmte Items zu verzaubern oder Rüstungen/Waffen/Werkzeuge zu reparieren."]
@@ -555,6 +555,12 @@
 		""
 		"&nAchte dafür auf die Rezepte im JEI!"
 	]
+	quest.20C84AF4F5FE3B66.quest_desc: [
+		"Das Enchanter's Gauntlet hat von sich aus schon die Glyphe \"Touch\", braucht also nur noch Effektglyphen, um zu funktionieren."
+		"Mit diesem Handschuh können Blöcke wie mit Dia-Tools abgebaut werden."
+		""
+		"Zum Binden von Glyphen erstellst du in deinem Zauberbuch einen Zauber &l&bOHNE!&r eine Form, legst den Handschuh auf den Scribe's Table und benutzt das Buch mit diesen Glyphen darauf, während du geduckt bist."
+	]
 	quest.20D09BE2E5AB2426.quest_desc: ["Moa-Eier können verwendet werden, um weitere Moas auszubrüten und zu züchten. Jede Farbe der Moa hat unterschiedlich starke Fähigkeiten."]
 	quest.20D09BE2E5AB2426.title: "Der beste Freund im Himmel"
 	quest.20E6914605CFDF69.quest_desc: [
@@ -586,6 +592,11 @@
 	quest.2330E243DDA687E9.quest_desc: ["Erweitert die Distanz des Lüfters"]
 	quest.23387B6FD57598D5.quest_subtitle: "Zerlegt einen Rohstoff in Einzelteile"
 	quest.2364BE0FC6C27739.quest_desc: ["Das mit wichtigste Material in der Halbleitertechnologie."]
+	quest.2430850475414E3D.quest_desc: [
+		"Das Enchanter's Horn wirkt die gebundenen Glyphen wie der Spiegel auf den Anwender selbst und verlängert dessen Effekte, wirkt dabei zusätzlich auf alle in einem bestimmten Radius um den Nutzer."
+		""
+		"Zum Binden von Glyphen erstellst du in deinem Zauberbuch einen Zauber &l&bOHNE!&r eine Form, legst das Horn auf den Scribe's Table und benutzt das Buch mit diesen Glyphen darauf, während du geduckt bist."
+	]
 	quest.24BAA2C1FA713866.quest_desc: ["120 Slots und 5 Upgrade Slots. Besser geht nicht! Oder etwa doch..."]
 	quest.24BAA2C1FA713866.quest_subtitle: "Dia Rucksack!"
 	quest.24BF72E2B35CCAD7.quest_desc: ["Dieses Regal ist eine noch bessere Version seines Vorgängers."]
@@ -812,7 +823,7 @@
 		"Funfact: Wasser beginnt schon unter dem Gefrierpunkt zu sieden, wenn unter 0,1Pa Druck vorhanden ist. "
 	]
 	quest.397AAFC8FCFF0CBD.quest_desc: [
-		"Der Enchanter's Mirror wirkt die gebundenen Glyphen auf den Anwender selbst, verringert dabei die Mahnkosten und verlängert dessen Effekte."
+		"Der Enchanter's Mirror wirkt die gebundenen Glyphen auf den Anwender selbst, verringert dabei die Manakosten und verlängert dessen Effekte."
 		""
 		"Zum Binden von Glyphen erstellst du in deinem Zauberbuch einen Zauber &l&bOHNE!&r eine Form, legst den Spiegel auf den Scribe's Table und benutzt das Buch mit diesen Glyphen darauf, während du geduckt bist."
 	]
@@ -1367,6 +1378,9 @@
 		"&9Frostaya&r schmeckt nach Waldbeer-Eiscreme, aber Vorsicht vor Hirnfrost, der kann in Minecraft schmerzhaft sein."
 		""
 		"&4Bombegranate&r ist eine sehr scharfe Frucht, die beim Verzehr von Blähungen bis zu Explosionen führt."
+		""
+		"&eFlashpine&r ist geladen mit Vitaminen...und mit Strom."
+		"Beim Verzehr bekommt man eine zufällige Kombination folgender Effekte: Glowing, Night Vision, Shocked oder Static Charged. Letzteres ist der Effekt des Trankes, der aus dieser Frucht erzeugt wird."
 	]
 	quest.5D60F90E34176239.quest_subtitle: "aber dafür voller magischer Eigenschaften"
 	quest.5D60F90E34176239.title: "Ungespritzt und ohne Pestizide"
@@ -1793,7 +1807,6 @@
 	task.0D4ED9DB465D113A.title: "Raffinerie"
 	task.0D4F6DF1A13CC607.title: "Finde den Blinding Dungeon"
 	task.10D148E57A7476A6.title: "Ultimine"
-	task.1175F6769E43539F.title: "Custom Drawer"
 	task.12DAA759B50EB3CA.title: "Any #botania:petals"
 	task.13B202AF476EB4DE.title: "Kopf"
 	task.1476B082F3227F86.title: "Rossinite"

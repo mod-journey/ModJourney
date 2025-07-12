@@ -207,6 +207,7 @@
 			dependencies: ["30268E4E09E5A13C"]
 			id: "0A9E71C0572B1CC8"
 			tasks: [{
+				count: 8L
 				id: "36701298308E1133"
 				item: { count: 1, id: "ars_nouveau:sourcestone" }
 				type: "item"
@@ -459,8 +460,8 @@
 				item: { count: 1, id: "ars_nouveau:wand" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: 10.0d
+			x: 10.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7CDC16333D2E3B89"]
@@ -514,8 +515,8 @@
 				item: { count: 1, id: "ars_nouveau:enchanters_mirror" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 8.0d
+			x: 11.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["505227A456788448"]
