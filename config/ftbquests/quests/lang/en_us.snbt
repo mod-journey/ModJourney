@@ -105,7 +105,8 @@
 	quest.0555F3309ADAE672.quest_desc: ["Mehr Filteroptionen!"]
 	quest.0555F3309ADAE672.quest_subtitle: "Wer will den S....ß II"
 	quest.055723E081112022.quest_desc: ["Dieses Item findest Du entweder sehr selten in den tiefen der bloodmagic Dungeon wie dem hidden Realm. Außerdem kannst Du normale Tau Pflanzen finden, welche Du dann durch Blutopfer zu Saturated Tau umwandeln kannst. "]
-	quest.058F5156168C41AD.quest_desc: ["Hast Du das Blutonium in flüssiger Form, kannst du es deinem Reactor wieder hinzufügen. Natürlich geht das auch mit Ingots."]
+	quest.058F5156168C41AD.quest_desc: ["Hast Du das Blutonium in flüssiger Form, kannst du es deinem Reactor wieder hinzufügen oder es weiter verarbeiten. "]
+	quest.058F5156168C41AD.title: "Liquid"
 	quest.05ABC06AABB602DC.quest_desc: [
 		"Damit kann deion Setup noch auf Level 60 ausgeweitet werden. "
 		""
@@ -118,7 +119,6 @@
 	]
 	quest.05BD7F9376C6E8B3.title: "Stürze die Monarchin"
 	quest.05CD468D86DA4DC1.quest_subtitle: "Ein mit Strom betriebener AutoCrafter"
-	quest.060309360F27D1EA.quest_desc: ["Gebe Magentite und Ludicrite dem Reprocessor hinzu."]
 	quest.06236B87230672E6.quest_desc: ["Dein Hopper fehlt es an Reichweite, probiere es mit Upgrades."]
 	quest.06417ADE2F421986.quest_desc: ["Es schalten sich nun neue Runen frei, welche Du craften kannst. Außerdem sollte dein Blutaltar durch die neuen Möglichkeiten noch Leistungsstärker werden."]
 	quest.064778D724C27365.quest_desc: ["Durch Spaltung wird aus dem Yellorium Cyanite gewonnen"]
@@ -135,7 +135,6 @@
 	quest.070DD06560D8888A.quest_subtitle: "Eine...Nähmaschine?"
 	quest.070DD06560D8888A.title: "Magische Threads"
 	quest.070E4C57EBA4CC18.quest_desc: ["Auch dieser Block bewegt Entitys. Braucht ein aktives Redstone Signal"]
-	quest.072EB753A23476A3.quest_desc: ["Du erhältst Ludicrite. Ein Moderator für deine Turbine"]
 	quest.073EAA0D4341E3AC.quest_desc: [
 		"[ \"Pink Slime wird produziert, wenn Monster oder Tiere von dem \", { \"text\": \"Industriellen Schlachter\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5A557E0D8DFA312E\" } }, \" geschlachtet werden.\" ] "
 		""
@@ -198,11 +197,7 @@
 	]
 	quest.0B60EBFBF42F9C5C.quest_subtitle: "Jeder Magier braucht doch einen Stab"
 	quest.0B60EBFBF42F9C5C.title: "Magischer Stock"
-	quest.0B6F1727ECC8D86A.quest_desc: [
-		"Dein perfecter Moderator. "
-		"War es das wirklich Wert?"
-	]
-	quest.0B7096A5E53E67EF.quest_desc: ["Anschließend erhältst du Rossinite"]
+	quest.0B7096A5E53E67EF.quest_desc: ["Einfach Verderium in einen Reactor geben und man erhält anschließend Rossinite"]
 	quest.0B7096A5E53E67EF.title: "Rossinite"
 	quest.0B7993AC1A4CB9D9.quest_desc: ["Input und Output sind jetzt automatisiert."]
 	quest.0B7993AC1A4CB9D9.quest_subtitle: "Ofen to go II"
@@ -305,10 +300,16 @@
 	]
 	quest.0DF5AEA45A614607.quest_desc: ["Anschließend erhältst Du Verderium"]
 	quest.0E05C8E051268AD2.quest_desc: ["Dein ME-Peripheriegerät ist nun Steuerbar mit Redstone. Ob Puls-, NOR oder normales Signal. Alles mit der Karte steuerbar."]
-	quest.0E31ED057ED8CD24.quest_desc: ["Das Verderium kannst Du wieder einen Reaktor hinzufügen."]
-	quest.0E31ED057ED8CD24.title: "Verderium"
 	quest.0E74B55074D8E47B.quest_desc: ["Dieses Regal gibt einen 100% Boost für &cQuanta&r und verringert dafür die Menge an &2Eterna&r."]
 	quest.0E74B55074D8E47B.title: "Fleißige Bienen"
+	quest.0E98FD728C17E820.quest_desc: [
+		"ACHTUNG! die Maschiene hat drei Modi."
+		""
+		"Liquid + Liquid = Liquid"
+		"Item + Item = Liquid"
+		"Item = Liquid"
+	]
+	quest.0E98FD728C17E820.title: "Fluidizer"
 	quest.0EE9BD17F58E71EC.quest_desc: [
 		"Bestimmt fragst du dich, ob es möglich ist, Source auch irgendwie zu sammeln und zu lagern."
 		"Sehet und staunet: Ein Source Jar."
@@ -363,7 +364,6 @@
 	]
 	quest.12D3B4B92CA5252C.title: "Let's show: Extreme Reactor"
 	quest.12F3E577725BBD4B.quest_subtitle: "Hier könnt ihr Mystical Agriculture Seeds erwerben sofern ihr bei den Quests / durch Handel keinen Erfolg hattet. Für die Seeds wird der Grundrohstoff des Seeds in einer bestimmten Menge benötigt. Eine Farm solltet ihr dazu also bereits haben. "
-	quest.13A18FED2817D59A.quest_desc: ["Füge Yellorium/Uran mit hinzu. "]
 	quest.13C1BA3695707A9D.quest_desc: [
 		"Du entscheidest was für eine Ausgabe, in Fester oder Flüssiger Form."
 		"&6Merke:&r"
@@ -505,8 +505,6 @@
 	quest.1CFF5ED27DA0852A.quest_desc: ["Rohes Cloggrum kann geschmolzen werden, dadurch erhält man Cloggrum Ingots"]
 	quest.1DA3986217ADE592.quest_desc: ["Die Basis für alle eure Upgrades!"]
 	quest.1DA3986217ADE592.quest_subtitle: "Crafted Upgrades Leute!"
-	quest.1DB2485BC022595E.quest_desc: ["Die Think (Spülbecken) soll dein bester Freund sein."]
-	quest.1DB2485BC022595E.title: "Wasser"
 	quest.1DF4F965DC9C9F39.quest_desc: [
 		"An diesem Tisch können Affix Items noch weiter verbessert und die Affixe gezielt ausgetauscht werden."
 		""
@@ -572,7 +570,7 @@
 	quest.2110D091E58418EF.title: "Tauschen mit den Elfen"
 	quest.21631BCC49F3C8AA.quest_desc: ["Von Einem Launchpad aus kannst Du deine Rakete starten."]
 	quest.21A66CAA4865D3D0.quest_desc: ["Energy Ports sind die Schnittstelle für Energie. Hier kannst Du Energie aus dem Reaktor in dein Energienetzwerk einspeisen. Es gibt zwei Arten. Die Aktiven und Passiven Energy Ports. Der Unterschied liegt darin, dass man aktiv den Strom aus den passiven Ports rausziehen muss, während die aktiven versuchen diesen direkt an den Benachbarten Block abzugeben."]
-	quest.21A66CAA4865D3D0.title: "Energy Ports"
+	quest.21A66CAA4865D3D0.title: "Energy Taps"
 	quest.21B643BD3ABB92CE.title: "Mache die Netherite Ausrüstung"
 	quest.21C1F8929F00A608.quest_subtitle: "Pack doch mal ein paar Seeds rein und schau was passiert. "
 	quest.21DA897D037E4872.quest_desc: ["3 Buckets werden zum Start benötigt. Denke daran genug Reserven mitzunehmen, solltest Du losfliegen."]
@@ -634,14 +632,12 @@
 	]
 	quest.25D555627E5F7556.quest_subtitle: "Willkommen im Aether"
 	quest.25D555627E5F7556.title: "Sky is the limit"
-	quest.25D5F3B047CA75E4.quest_desc: ["Blutonium plus Cyanite in den Reprocessor eingeben."]
 	quest.25F5FA0CC57EEBFD.quest_subtitle: "Eine mit Strom betriebene Sägemühle um mehr Holz zu bekommen"
 	quest.2619E71D63B1B7FE.quest_subtitle: "Merkur"
 	quest.262C43DC57419CD4.quest_desc: ["Einmal \"Leuchten\" zum mitnehmen, oder zum snacken."]
 	quest.26430E5AE2EF3D6F.quest_desc: ["Mehr Optionen wann und wie du gefüttert wirst!"]
 	quest.26430E5AE2EF3D6F.quest_subtitle: "Fütterungszeit II"
 	quest.2677B43BE16309EC.quest_subtitle: "Mit Hilfe des Flux Points kannst du Energie aus deinem Flux Network verwenden"
-	quest.2685BD79EDA932C1.quest_desc: ["8 mal das ganze und man kann sich einen Inaniteblock craften. Vergess das Netherite nicht."]
 	quest.26A870FC3228E17D.quest_desc: ["Die Cloggrum Rüstung ist eine solide starter Rüstung."]
 	quest.26A870FC3228E17D.title: "Cloggrum Armor"
 	quest.26AFE523C18061F6.quest_desc: ["Ein seed den man entweder traden, oder durch das abbauen des mysteriösen Gloomer Kürbisses ercraften kann. "]
@@ -754,7 +750,6 @@
 		""
 		"So in etwa funktioniert die Karte. Du kannst sagen, dass X Bytes für ein Item vorgesehen sind, der Rest aber frei wäre. "
 	]
-	quest.358328CB0AB4DF09.quest_desc: ["Ridiculite und Rossinite mal wieder repocessen."]
 	quest.35CE63FDE38B74D2.quest_subtitle: "Flüssigkeit rein, Feststoff raus."
 	quest.35E69FD0D9133061.quest_desc: [
 		"Das Enchanter's Sword hat von sich aus schon die Glyphen \"Touch\" und \"Amplify\", braucht also nur noch Effektglyphen, um zu funktionieren."
@@ -812,6 +807,7 @@
 		"Pierce lässt den Pfeil durch zwei Ziele hindurchfliegen. Ziele sind sowohl Entities als auch Blöcke."
 	]
 	quest.37A521C972CFAF9E.title: "Spezialmunition"
+	quest.3828E5EB05AA35F3.quest_desc: ["Der beste Block für die Turbine"]
 	quest.3886DDD04C153233.quest_desc: ["Mehr als nur 64 mal Stackbar!"]
 	quest.3886DDD04C153233.quest_subtitle: "MEEEEEEEHR I"
 	quest.38C03105A0BAA33C.quest_subtitle: "Ein Zerkleinerer mit Nebenprodukten"
@@ -883,7 +879,6 @@
 		"Schmiede und Steinsägerezepte"
 		"Diese kommen in einen Schablonenprovider. Es müssen sowohl Molekularassembler als auch entweder ein Schmiedetisch oder eine Steinsäge neben dem Schablonenprovide sein."
 	]
-	quest.3C07F92EF68FCC33.quest_desc: ["Gebe Magentite und Ludicrite dem Reprocessor hinzu."]
 	quest.3C50BD72E832D66A.quest_desc: [
 		"Diese Apparatur produziert Source aus brennbaren Materialien. Archwood bringt dabei größere Erträge, mit der Blazing Variante sogar noch mehr."
 		""
@@ -918,6 +913,7 @@
 	quest.3E8BA9AC92928A5B.quest_desc: ["Erhält man durch das abbauen von Utherium Erz."]
 	quest.3EC2CF7E940184C9.quest_desc: ["Wer will einen Stonecutter to go haben? Du? Hier bitte."]
 	quest.3EC2CF7E940184C9.quest_subtitle: "Ich bin ein Meißel!"
+	quest.3EF6F71E82FC2B24.quest_desc: ["Rossinite + Benitoite "]
 	quest.3F07618A23C6659B.quest_desc: [
 		"Aus Lootchests und manchmal auch aus Mob Drops kann man diese Gems erhalten."
 		""
@@ -1071,15 +1067,18 @@
 		""
 		"{ \"text\": \"Auto-Crafting\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1784BD61EB8B6FDC\" } }"
 	]
+	quest.4601700EA48A23A8.quest_desc: [
+		"Sehr wichtige maschine "
+		""
+		"Liquid + Item = Item"
+	]
 	quest.460860A0F0CCC4E1.title: "Nur noch ein schritt ins Portal"
 	quest.46746A29EC0DB581.quest_desc: ["Mit dem Cloggrum Schwert, hast Du zusätzlich +3 Reichweite auf Mobs"]
 	quest.46746A29EC0DB581.title: "Cloggrum Weapons"
-	quest.46D6CDBCAB067ECA.quest_desc: ["Ridiculite und Rossinite mal wieder repocessen."]
 	quest.4759C2D9F4C40115.quest_desc: ["Flüssigkeiten kannst du jetzt auch mit deinem Rucksack transportieren!"]
 	quest.4759C2D9F4C40115.quest_subtitle: "Flasche to go!"
 	quest.4765FE21496CDB09.quest_desc: ["Schneller Erze verarbeiten mit dem Blast Furnace!"]
 	quest.4765FE21496CDB09.quest_subtitle: "Blast it I"
-	quest.47B6FC0234860B71.quest_desc: ["Super, das noch mit Inanite in die Werkbank."]
 	quest.47D2FFAE08876D53.quest_desc: ["Ein Raketenbauteil."]
 	quest.47DF718336469399.quest_desc: [
 		"Der Multiblock muss immer ein Rechteck bilden und mindestens einen Fertigungsspeicher beinhalten. Somit ist auch ein einzelner Fertigungspeicher ein Valider Prozessor für das Autocrafting."
@@ -1142,7 +1141,6 @@
 	]
 	quest.4A57684ABED4A3A4.quest_desc: ["Finde Alle Hölzer im Everdawn"]
 	quest.4A57684ABED4A3A4.title: "Holz Sammler"
-	quest.4AB80401F1CA36D1.quest_desc: ["Das Blutonium wirst Du an drei Stellen brauchen."]
 	quest.4AED5A8C9C70A9C9.title: "Let's show: Ender IO"
 	quest.4B03A47B6DCFAF22.quest_desc: ["Diese Apparatur produziert Source, wenn in dessen Nähe Mobs sterben oder Tiere sich vermehren."]
 	quest.4B03A47B6DCFAF22.title: "Die Macht der Lebensenergie"
@@ -1153,7 +1151,10 @@
 	]
 	quest.4B4A2387F7C307B6.quest_desc: ["Crafte ein Cloggrum Werkzeug, du kannst es später noch veredeln!"]
 	quest.4B4A2387F7C307B6.title: "Cloggrum Tools"
+	quest.4B5731EA58070191.quest_desc: ["Dies ist die effizentiste flüssigkeit um deinen reactor passive zu kühlen"]
+	quest.4B5731EA58070191.title: "Redfrigium"
 	quest.4B86830BAFA84372.quest_desc: ["Auch für die Turbine gibt es eine Basic Form. Mein Rat an der Stelle, solltet ihr in betracht ziehen über Extreme-Reactors Strom zu beziehen, baut direkt die Advanced Turbine. Spart Euch die Ressourcen. "]
+	quest.4B86830BAFA84372.title: "Basic Turbine"
 	quest.4B91378F01114966.quest_desc: ["Erhöht die Höhe des Entity Spawners"]
 	quest.4B916435E4D68736.quest_desc: ["Die Source Berry Roll bietet eine länger andauernde Mana Regeneration und sättigt gleichzeitig auch ordentlich. Das perfekte Mittagessen für jeden Zauberer, der was aus sich hält."]
 	quest.4B916435E4D68736.title: "Früchtebrot"
@@ -1161,11 +1162,6 @@
 	quest.4B9318FBFB1FF36F.title: "Fusion Reaktor"
 	quest.4BE494C590D81A5C.quest_desc: ["Finde Pyrope und Aquit auf ca. mittlerer Höhe unter der oberfläche"]
 	quest.4BE494C590D81A5C.title: "Grund Metalle?"
-	quest.4C65447B7738A05F.quest_desc: [
-		"Du erhälst Blutonium. Davon brauchst du.... "
-		""
-		"...ja öhm - viel."
-	]
 	quest.4C813B4746E751B2.quest_desc: [
 		"Um weitere Glyphen zum Zaubern zu bekommen, brauchst du einen magischen Tisch, an dem du deine Studien im Spellbook festhalten kannst. Dazu stellst du den Tisch in die Welt und interagierst mit ihm, während du dein Spellbook in der Hand hast."
 		""
@@ -1187,7 +1183,6 @@
 	quest.4DBA3461786E55B4.quest_desc: ["Mehr Fluid Speicher? Dafür ist der Tank."]
 	quest.4DE9D19B2C01B348.quest_subtitle: "Besser als Dia Rüstung"
 	quest.4EAA710CD2A15E03.quest_desc: ["Ein Raketenbauteil."]
-	quest.4ECD09ACFE16E99C.quest_desc: ["Gebe Blutonium deinem Fluidizer hinzu."]
 	quest.4ECE88BDAF352ECC.title: "Upgrades Thermal Dynamos"
 	quest.4FA4161E5D4F5285.quest_desc: [
 		"Werden benötigt um auf Lebensfeindlichere Planeten vorzustoßen."
@@ -1233,6 +1228,8 @@
 	]
 	quest.52B7129CA651630E.quest_subtitle: "Willkommen im Twilight Forst Hier wird es viele Bosse und neue Biome geben "
 	quest.52B7129CA651630E.title: "Der Twillight Forest"
+	quest.52BDD73ACE4C17D7.quest_desc: ["Findet man im nether (Tipp für eine max Turbine braucht ihr bisschen mehr davon. Also versuchst es garnicht ohne fortune xD)"]
+	quest.52BDD73ACE4C17D7.title: "Benitoite"
 	quest.52E3890CD233C42D.quest_desc: [
 		"Dieses Modul von Apotheosis bringt für die Kämpfer unter euch viele Zusätze mit sich."
 		""
@@ -1284,7 +1281,6 @@
 	quest.548F099E63C07C64.title: "Forgotten Tools"
 	quest.54E91CBDA4D83EDE.title: "Let's show: Powah!"
 	quest.5529F9D6301E78F4.quest_desc: ["Doppelt so viele Flüssigkeitstypen, aber nur halb so groß."]
-	quest.5534116F13F1FECC.quest_desc: ["Auch schon ein solider Moderator für deine Turbine"]
 	quest.557F56AEDAF2680A.quest_desc: ["Ein Raketenbauteil."]
 	quest.55C158C08F87D675.quest_desc: ["Dieses Regal ist eine verbesserte Version seines Vorgängers."]
 	quest.55C158C08F87D675.title: "Recht und Ordnung müssen gewahrt werden"
@@ -1339,6 +1335,8 @@
 		"Außerdem werden die Befehle &9/back&r, &9/home&r, &9/tpa&r und &9/tpahere&r freigeschaltet."
 	]
 	quest.59EAB8353580FBFB.title: "Vorbereitung für die Agglomerationsplate"
+	quest.5A21339405F8A5A5.quest_desc: ["Redstone dust + Snow Block"]
+	quest.5A21339405F8A5A5.title: "Cryomisi"
 	quest.5A83CAD196067494.title: "Die erste Rüstung"
 	quest.5AE90AC31CD60938.quest_desc: ["Auch hier kann eine Fertigungskarte installiert werden. Mittels zusätzlicher Beschleunigungskarten, gibst Du die Chargengröße des Craftingprozesses an. "]
 	quest.5AF633DB1C78EDBD.quest_desc: ["Erhält man durch das abbauen des gleichnamigen Erzes."]
@@ -1356,7 +1354,6 @@
 		"Die Formen, Effekte und Modifikationen heißen Glyphen."
 	]
 	quest.5C7D0094496E8E53.quest_subtitle: "Wie funktioniert das?"
-	quest.5C8E6D7BDD2F3D7C.quest_desc: ["Rossinite und Benitoite mal wieder reprocessen..."]
 	quest.5CDBF914FFF477D7.quest_desc: ["Input und Output sind jetzt automatisierbar!"]
 	quest.5CDBF914FFF477D7.quest_subtitle: "Blast it II"
 	quest.5D0614C216109F4F.quest_desc: ["Nach dem Einschmelzen vom rohen Froststeel erhältst Du ein Ingot."]
@@ -1469,7 +1466,6 @@
 	quest.644466781495F7E7.quest_desc: ["Wenn Du nicht weißt wohin mit dem gesamten Blut, so kannst Du es in Eimer zwischen Speichern. Eine altbewährte Lagermethode. Du solltest Dir ein paar Eimer abschöpfen, vielleicht kannst du diese später ja noch mal gebrauchen."]
 	quest.644466781495F7E7.quest_subtitle: "Wohin mit dem ganzen Blut?"
 	quest.644466781495F7E7.title: "Ein Eimer voller Blut"
-	quest.646646E999822E90.quest_desc: ["Du kannst hiermit deinen Reaktor verwandeln in einen aktiv gekühlten Reaktor. Somit generierst du Dampf. Diesen kannst Du nutzen um eine Turbine zu betreiben. Du brauchst 2 dieser Ports. Auch hier kannst Du definieren, dass es sich um ein Eingangs- oder Ausgangsport handelt. "]
 	quest.649B767D5C690C73.quest_desc: ["Man kann Falsite Nuggets nutzen anstatt Lapis beim Verzaubern"]
 	quest.649B767D5C690C73.title: "Wissen ist Macht"
 	quest.64AEF16D7BBA8717.quest_desc: ["Mit dem XP-Soldifier kannst Du Jelly Baby's herstellen. Diese kannst Du essen um XP dazu zu bekommen, oder später im Entity Spawner benutzen."]
@@ -1491,7 +1487,6 @@
 	]
 	quest.65E14369D16F30ED.quest_subtitle: "weniger ist nicht mehr"
 	quest.65E14369D16F30ED.title: "Mehr Runen"
-	quest.65EEF8159CC6B174.quest_desc: ["Achte darauf wie Du den Fluidizer baust. Dieser hat drei verschiedene Modi. "]
 	quest.663D58FDB00228B1.quest_desc: ["Ein Teil einer Multiblockstruktur. Diese kannst Du nutzen, um deine Orb in Fusing Rezepten mit Strom zu versorgen. Wie man dies mittels Autocrafting hinbekommt, lernst du in der folge Quest."]
 	quest.664DE4738DDB1F77.quest_subtitle: "Eine Presse!"
 	quest.66DEEA92B5F386C0.quest_desc: ["Die Access Ports sind die Zugangspunkte zum Reaktor. Diese kannst Du Rechtsklicken. In der GUI kannst Du einstellen, ob dieser als Eingabe- oder Ausgabepunkt dienen soll. Außerdem kannst Du hier manuell triggern, ob dieser In- oder Output Material ausgeben soll. Die Ausgabe erfolgt in Fester Form, also als Ingot."]
@@ -1518,7 +1513,7 @@
 	quest.67E0A85291DD6898.quest_subtitle: "Staged In"
 	quest.68C9A37D916F322A.quest_desc: ["Ein Zusätzlicher Anschluss, an dem Du Items deinem Drawersystem zuführen kannst."]
 	quest.68CBEF963313DC33.quest_desc: ["Mit den Reinforced Reaktoren lassen sich in unserem Modpack Multiblöcke bis zu einer größe von 16x16x16 bauen."]
-	quest.68D70945E7B41457.quest_desc: ["Es muss nicht immer der größte Reaktor sein. "]
+	quest.68CBEF963313DC33.title: "Reinforced Reaktor"
 	quest.68DE5BDE3F537F42.quest_desc: ["Platz für noch mehr Zeug. 28 Slots und 2 Upgrade Slots!"]
 	quest.68DE5BDE3F537F42.quest_subtitle: "Eisener Rucksack!"
 	quest.6932EE98766BBCB7.quest_desc: [
@@ -1544,6 +1539,8 @@
 	quest.6A8AA0E31C3F2F47.quest_desc: ["Ostrum Ingot findest Du auf dem Mars. Auch hier sollte man mal Probebohrungen anstellen. Ggf. findest Du versteckte Ostrumvorkommen."]
 	quest.6AB3A23E011C7A70.quest_desc: ["Wird aus Certus hergestellt."]
 	quest.6AEC7D9E608F9708.quest_desc: ["Eine wichtige Komponente in AE2 um Peripheriegeräte herzustellen."]
+	quest.6BC62E21B31D6CB9.quest_desc: ["Findet man im End"]
+	quest.6BC62E21B31D6CB9.title: "Anglesite"
 	quest.6BCF86700F5B2929.quest_desc: ["Wird aus Gold hergestellt"]
 	quest.6BEAD403B7CB0490.quest_desc: ["Dein erster Reaktor, mit einer maximal Größe von 5x5x5 und der kleinsten Größe von 3x3x3."]
 	quest.6BEAD403B7CB0490.title: "Basic Reactor"
@@ -1558,6 +1555,7 @@
 	]
 	quest.6CAB591C5279CFFB.quest_desc: ["Gebe Cyanite in Barrenform deinen Reprocessor hinzu."]
 	quest.6CBD102C9BA554AF.quest_desc: ["Wusstest Du, dass Du deinen Reaktor nicht kühlen musst? Der Verbrauch steigt dadurch und du kannst effektiver umwandeln. Wenn es nur darum geht."]
+	quest.6CBD102C9BA554AF.title: "\"ineffizient\""
 	quest.6CD7BF6C4503FD98.quest_desc: [
 		"Der Potion Melder entnimmt die Tränke aus angebundenen Potion Jars und kombiniert diese zu einem Trank mit beiden Effekten in ein drittes Potion Jar."
 		"Dabei werden je 3 Portionen der beiden Tränke zu einem Trank zusammengeführt."
@@ -1597,6 +1595,8 @@
 		"Wenn die Blöcke der Maschine korrekt platziert sind, reicht ein Klick mit dem Ingenieurshandhammer, um die Blöcke in eine Multiblock-Maschine zu verwandeln."
 	]
 	quest.6F5C2EEF4E3ECCEA.quest_subtitle: "Eine Maschine aus vielen Blöcken"
+	quest.6F85FEEE1707BF38.quest_desc: ["Mit diesem Block kannst du Brennstoff als Flüssigkeit in den reaktor ein/aus geben "]
+	quest.6F85FEEE1707BF38.title: "Fuel Injection Port"
 	quest.7061359DDF860CFB.quest_desc: ["Dieses Regal verringert die Menge von &2Eterna&r und &5Arcana&r. Gut, um begrenzte Arcanabereiche für bestimmte Verzauberungen zu erreichen."]
 	quest.7061359DDF860CFB.title: "Stur und Steinhart"
 	quest.70ACC2EB80EFB6A3.title: "Manadiamant oder Manaperle"
@@ -1661,6 +1661,7 @@
 	quest.7556BC1029C2B666.quest_desc: ["Nie wieder das richtige Item zum Abbauen auswählen müssen!"]
 	quest.7556BC1029C2B666.quest_subtitle: "Switcheru I"
 	quest.75611DC723B62AE4.quest_subtitle: "Mit Hilfe des Flux Plugs kannst du Remote Energie deinem Netzwerk hinzufügen"
+	quest.7573E4D1345E6922.title: "Reinforced Turbine"
 	quest.7595DD9DE29C0C44.quest_desc: ["Natürlich braucht es Speicher. Eine bessere Methode Blut zu speichern stellt der Blut Orb da. Dieser bildet sein eigenes Netzwerk und ist gänzlich für neue Mythen und Rituale nutzbar. Auch einige antike Rezepte sollen mit dem Orb als Katalyst funktionieren. Wenn man den Gelehrten glauben schenken darf, so füllt sich dieser im Blut Altar auf."]
 	quest.7595DD9DE29C0C44.quest_subtitle: "Welcher kühne Magier hat auch keinen?"
 	quest.7595DD9DE29C0C44.title: "Natürlich ist es ein Orb"
@@ -1762,6 +1763,8 @@
 	quest.7E09B6005EC482B2.quest_subtitle: "Bind a Soul to the Vial"
 	quest.7E5BBD28E9BD33E9.quest_desc: ["Willkommen bei Powah, hier lernst Du die Basics der Mod, was jeder Block macht und vor allem wie man diese Mod spielend leicht automatisiert."]
 	quest.7EAADE6CE1AB0D0C.title: "Ein Echt kalter Ofen"
+	quest.7ED15FE4EF0579C1.quest_desc: ["Anglesite + ender Pearl"]
+	quest.7ED15FE4EF0579C1.title: "Tangerium"
 	quest.7EEBDA12D85434A5.quest_desc: ["Benutze den Sun Altar und erlaube dem Tag-Nacht-Zyklus wieder frei zu laufen."]
 	quest.7EEBDA12D85434A5.title: "Sonnenuntergang"
 	quest.7EFF472EB4F530FE.quest_desc: [
@@ -1849,12 +1852,10 @@
 	task.3DB4DF78EB966730.title: "Village"
 	task.3EFD7BC8486F976A.title: "Adventure"
 	task.3F5D84724A01A915.title: "Besiege den Beschwörer"
-	task.3FB587E9242CE09F.title: "Any Reactor-Glass"
 	task.4077DBE330A0215A.title: "Rossinite"
 	task.4233FA732EAB6049.title: "Besiege den Starlit Crusher"
 	task.4333D7E9404534D6.title: "Tier 4"
 	task.435965CB0DB0D3DB.title: "Spezialmunition"
-	task.443763D56F574F63.title: "Cyanite"
 	task.45719E22691FE2F6.title: "Trade dir Ein Zeal-Feuerzeug"
 	task.467AEB4936A800F8.title: "Zu den Waffen!"
 	task.470552CCC5DF54DE.title: "Spawner"
@@ -1884,7 +1885,6 @@
 	task.5E3D615666A2A3C0.title: "Level 45"
 	task.5EF66C8DDB6EC1D6.title: "und noch mehr"
 	task.5FC13B4C5F865F34.title: "Any #minecraft:logs"
-	task.5FC19862AC343856.title: "Access Ports"
 	task.6051587D5CD87E44.title: "Trade dir Ein Blaues Tagebuch"
 	task.6082C36859C795AE.title: "Regalium Erz"
 	task.62145B5C3787975C.title: "Level 75"
