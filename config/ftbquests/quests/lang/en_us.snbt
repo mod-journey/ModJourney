@@ -665,6 +665,7 @@
 	quest.29CA54BFB00443D1.quest_desc: ["Erhältst Du durch das zusammen craften von 9 x  Utheric Shards"]
 	quest.2AB8746017BEEEA3.quest_desc: ["Forgotten Nuggets, werden durch Forgotten Guardians gedroppt. Auch andere Mobs im Undergarden lassen diese Fallen, zu geringeren Chancen aber. "]
 	quest.2AF2078918509008.quest_desc: ["Konsolen, Import- \\& Exportbus, Schnittstellen usw. sind sogenannte Peripherie. Ein jenes solcher Zusatzteile, belegt ein Channel auf deinem Kabel."]
+	quest.2B916E825296EE08.title: "Common Black Hole Unit"
 	quest.2C5CFE4579A1DF6E.quest_desc: [
 		"Gravitite gehört zum stärksten Material, das es im Aether zu finden gibt."
 		""
@@ -1274,7 +1275,7 @@
 	quest.545E1A2C4F9C2E1E.quest_desc: [
 		"Um Ether Gas zu fördern, muss der Fluid Laser über einem Wither platziert werden."
 		""
-		"[ \"Um den Wither gefangen zu halten, sollte eine \", { \"text\": \"Stasiskammer\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3FDDCD291B208350\" } }, \" verwendet werden.\" ]."
+		"Um den Wither gefangen zu halten, sollte eine &nStasiskammer&r verwendet werden."
 		""
 		"Stelle sicher, dass die Stromversorgung für die Stasiskammer nicht ausfällt."
 	]
@@ -1747,7 +1748,8 @@
 	]
 	quest.7D03336D79310C92.quest_desc: [
 		"Die Maschine kann Blöcke (z.b. Baumstämme) in die Welt platzieren."
-		"[ \"Damit das allerdings innerhalb eines geschützen oder geclaimten Gebiet funktioniert, muss in den \", { \"text\": \"Team-Einstellungen\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6436E46E095D0BDD\" } }, \" dieses Gebietes die Einstellung \\\"Allow All Fake Players\\\" aktiviert sein.\" ]"
+		""
+		"Damit das allerdings innerhalb eines geschützen oder geclaimten Gebiet funktioniert, muss in den &nTeam-Einstellungen&r dieses Gebietes die Einstellung \"Allow All Fake Players\" aktiviert sein."
 	]
 	quest.7D2F2A0BEEDA04C7.quest_desc: ["Dies ist unter einem größeren Baum mit Spinnenweben, (Im Baum ist ein weg nach unten)"]
 	quest.7D2F2A0BEEDA04C7.title: "Der Alchemist"
@@ -1804,6 +1806,7 @@
 	task.0690127887DF6BBF.title: "Upgrades"
 	task.0734E682569CEA3F.title: "Energizer"
 	task.074D1299CC61739F.title: "kleinere Bugs"
+	task.0C3202C694CE3D6A.title: "Simple Black Hole Unit"
 	task.0CB57C52EC082C7F.title: "Zusatzgeräte"
 	task.0D0A3B350C73C428.title: "Extreme Reactor"
 	task.0D4ED9DB465D113A.title: "Raffinerie"
@@ -1812,6 +1815,7 @@
 	task.12DAA759B50EB3CA.title: "Any #botania:petals"
 	task.13B202AF476EB4DE.title: "Kopf"
 	task.1476B082F3227F86.title: "Rossinite"
+	task.18F2ACDE86A4CDBB.title: "Simple Black Hole Tank"
 	task.1A1A1EACC09D45F3.title: "Finde den Poison Dungeon"
 	task.1C4F77DADCA06904.title: "Wilkommen ZU Mod Journey"
 	task.1C6B957E698C9D3B.title: "Endbosse farmen?"
@@ -1827,7 +1831,9 @@
 	task.22302190657BB6C4.title: "Altar der Stufe 3"
 	task.22B2B7D67662B9A7.title: "Blutonium"
 	task.22E3DB6E09E101EA.title: "Froststeel Erz"
+	task.232EB915B6AD16D6.title: "Advanced Black Hole Unit"
 	task.24F8B896271FC943.title: "Dein erster Spell"
+	task.25227329FC77ED40.title: "Supreme Black Hole Tank"
 	task.256280562DD475BB.title: "Schlafe im Aether"
 	task.25870ACE1953A776.title: "Körper"
 	task.26A963D2B34DB6C0.title: "Any Froststeel Armor"
@@ -1843,6 +1849,7 @@
 	task.30B3C8265D064CFC.title: "Level 54"
 	task.30C33DEDF6374D94.title: "Teams"
 	task.3209864899ECF55C.title: "Any Utherium Armor"
+	task.324C1250EBBF7D1F.title: "Pity Black Hole Tank"
 	task.32A3B13F973EF6CA.title: "Backpack"
 	task.32FF7AAA5FD69B16.title: "Metallpresse"
 	task.3431FF0D1CEAA984.title: "Nice to know"
@@ -1862,6 +1869,7 @@
 	task.45719E22691FE2F6.title: "Trade dir Ein Zeal-Feuerzeug"
 	task.1175F6769E43539F.title: "Drawer"
 	task.467AEB4936A800F8.title: "Zu den Waffen!"
+	task.469026531D5B8C4E.title: "Advanced Black Hole Tank"
 	task.470552CCC5DF54DE.title: "Spawner"
 	task.47B9EA7DBC0FE347.title: "Los geht's!"
 	task.491EB618A3195A42.title: "Any Cloggrum Armor"
@@ -1869,6 +1877,7 @@
 	task.49DA294500A30649.title: "Phenolic Resin-Eimer"
 	task.4A01A483B2C56682.title: "Nice to know"
 	task.4AAE59316F980F71.title: "Fermenter"
+	task.4AB17FE5D2E8E4AB.title: "Pity Black Hole Unit"
 	task.4E86CF48423DE268.title: "Runen"
 	task.4F8CB6916C878EF8.title: "Utherium Erz"
 	task.5083BB2FD886AD79.title: "Hochofen"
@@ -1877,6 +1886,7 @@
 	task.514AB9B8B5329F9A.title: "Verderium"
 	task.52A6B8D493088DD8.title: "Oil?"
 	task.52FDC27C93B7F6E3.title: "Töte es bevor es Eier legt (Arachnarch ist zu Besiegen)"
+	task.536D851BBD6A191B.title: "Black Hole Controller"
 	task.541BB6D3E0F66204.title: "Upgrades für die Dynamos"
 	task.559F657E5193AA89.title: "Archwood"
 	task.57C0868197229AD9.title: "Crafte Die Horizonitschmiede"
@@ -1904,6 +1914,7 @@
 	task.68C94AF9FDB6A1CD.title: "Commands"
 	task.68E447E6E606C6BF.title: "Finde eine End City"
 	task.6A9AE588C09FF0A7.title: "ACHTUNG!"
+	task.6B314ACDD4214084.title: "Supreme Black Hole Unit"
 	task.6B5753E62DA39A95.title: "Tier 5"
 	task.6CB436B0531DD31A.title: "Verderium"
 	task.6CDD9B822C49770E.title: "Beine"
@@ -1917,6 +1928,7 @@
 	task.74CB5C3F334DF6F9.title: "Getting an Upgrade 2.0"
 	task.76D43A5CFB25EA8E.title: "Applied Energistics"
 	task.76F96F8D84D30423.title: "Besiege den Alchemisten"
+	task.77FA602618CA9249.title: "Common Black Hole Tank"
 	task.77FAAC17DAF04807.title: "Enchanting"
 	task.7A036A144184E16C.title: "Noch ein Dungeon?"
 	task.7BD191F74C472357.title: "Aktiv/Passiv"
