@@ -190,6 +190,7 @@
 		"&6-&rHoe: Verdoppelt Drops von Pflanzen und organischen Blöcken"
 	]
 	quest.0AEAF1A388DE10D7.quest_subtitle: "Ein mit Strom betriebener Ofen"
+	quest.0AEF2BF3D306BD40.title: "Naga Rüstung"
 	quest.0B60EBFBF42F9C5C.quest_desc: [
 		"Dieser Zauberstab wird allerdings nicht zum Zaubern selbst verwendet, sondern ermöglicht es dir, deine Apparate mit Lager-Jars oder Minions mit ihren Arbeitsblöcken miteinander zu verbinden, um eine Automatisierung zu erschaffen"
 		""
@@ -897,6 +898,7 @@
 		"Die Anzahl der Bücher erhöht auch &2Eterna&r und &5Arcana&r."
 	]
 	quest.3D0065CD7EC0D9EF.title: "Filteroptionen"
+	quest.3D48EF5B90DCEC58.title: "Besige den Lich"
 	quest.3D9ECA51804963B2.quest_desc: ["Utherium kann ab Höhe 30 gefunden werden. Von der seltenheit her, gleichzusetzen wie Diamanten."]
 	quest.3D9ECA51804963B2.title: "Utherium"
 	quest.3DA44DE3F547CCE6.quest_desc: ["Vernichte automatisch Items deiner Wahl!"]
@@ -1595,6 +1597,7 @@
 		"Wenn die Blöcke der Maschine korrekt platziert sind, reicht ein Klick mit dem Ingenieurshandhammer, um die Blöcke in eine Multiblock-Maschine zu verwandeln."
 	]
 	quest.6F5C2EEF4E3ECCEA.quest_subtitle: "Eine Maschine aus vielen Blöcken"
+	quest.6F7793C5284BE3AA.title: "Besige den Naga"
 	quest.6F85FEEE1707BF38.quest_desc: ["Mit diesem Block kannst du Brennstoff als Flüssigkeit in den reaktor ein/aus geben "]
 	quest.6F85FEEE1707BF38.title: "Fuel Injection Port"
 	quest.7061359DDF860CFB.quest_desc: ["Dieses Regal verringert die Menge von &2Eterna&r und &5Arcana&r. Gut, um begrenzte Arcanabereiche für bestimmte Verzauberungen zu erreichen."]

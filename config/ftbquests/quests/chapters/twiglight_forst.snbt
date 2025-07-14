@@ -64,5 +64,132 @@
 			x: 2.5d
 			y: 2.0d
 		}
+		{
+			dependencies: ["749043D84EC00449"]
+			id: "6F7793C5284BE3AA"
+			tasks: [{
+				id: "27AFE4D717336DFE"
+				item: { count: 1, id: "twilightforest:naga_trophy" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F7793C5284BE3AA"]
+			id: "0AEF2BF3D306BD40"
+			tasks: [
+				{
+					id: "470F806F346D5612"
+					item: { components: { "minecraft:enchantments": { levels: { "minecraft:fire_protection": 3 } } }, count: 1, id: "twilightforest:naga_chestplate" }
+					type: "item"
+				}
+				{
+					id: "1A3962B2EED803D6"
+					item: { components: { "minecraft:enchantments": { levels: { "minecraft:protection": 3 } } }, count: 1, id: "twilightforest:naga_leggings" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F7793C5284BE3AA"]
+			id: "3D48EF5B90DCEC58"
+			tasks: [{
+				id: "5E230613FBE36152"
+				item: { count: 1, id: "twilightforest:lich_trophy" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "7D012E6E2BAAA894"
+			tasks: [{
+				id: "71A77CA15D6C04EB"
+				item: { count: 1, id: "twilightforest:minoshroom_trophy" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			id: "76950DF183608C14"
+			tasks: [{
+				id: "66580D28D4C8B1F1"
+				item: { count: 1, id: "twilightforest:hydra_trophy" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			id: "313F0AE94B8D024A"
+			tasks: [{
+				id: "4B102E1F2CBF1950"
+				item: { count: 1, id: "twilightforest:knight_phantom_trophy" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "1723FFB5419D44DE"
+			tasks: [{
+				id: "6CC4483212E9D0CA"
+				item: { count: 1, id: "twilightforest:ur_ghast_trophy" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			id: "4B9CC6EB7E14CAD7"
+			tasks: [{
+				id: "4756C52BF0B8B873"
+				item: { count: 1, id: "twilightforest:alpha_yeti_trophy" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			id: "5280B2FB8CDB40A7"
+			tasks: [{
+				id: "56761F7993A9652E"
+				item: { count: 1, id: "twilightforest:snow_queen_trophy" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			id: "4DF15145C5B5DAF9"
+			tasks: [{
+				id: "41BD2E2D26D48CD0"
+				item: { count: 1, id: "twilightforest:magic_beans" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			id: "0A55D16D98903B07"
+			tasks: [
+				{
+					id: "0F2D3FC48EC19354"
+					item: { count: 1, id: "twilightforest:giant_sword" }
+					type: "item"
+				}
+				{
+					id: "3B4B314A14A91966"
+					item: { count: 1, id: "twilightforest:giant_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
 	]
 }
