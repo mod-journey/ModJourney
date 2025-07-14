@@ -23,7 +23,7 @@
 			}]
 			tasks: [{
 				id: "1175F6769E43539F"
-				item: { }
+				item: { components: { "ftbfiltersystem:filter": "item_tag(functionalstorage:drawer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -3.0d
