@@ -9,6 +9,7 @@
 	quests: [
 		{
 			dependencies: ["0B04E60647C11A1D"]
+			disable_recipe_mod: false
 			id: "7DC64335DF20BD93"
 			rewards: [
 				{
@@ -28,9 +29,11 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "59A70CC7D3087473"
-				item: { }
+				item: { count: 1, id: "immersiveengineering:circuit_board" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -43,7 +46,7 @@
 					id: "2F82AD826A612B60"
 					item: {
 						count: 1
-						id: "minecraft:apple"
+						id: "immersiveengineering:manual"
 					}
 					type: "item"
 				}
@@ -56,15 +59,17 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [
 				{
 					id: "027E6B6FB00156F1"
-					item: { }
+					item: { count: 1, id: "immersiveengineering:hammer" }
 					type: "item"
 				}
 				{
 					id: "72A46FCD79BB4453"
-					item: { }
+					item: { count: 1, id: "immersiveengineering:wirecutter" }
 					type: "item"
 				}
 			]
@@ -83,7 +88,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "minecraft:story/root"
+				advancement: "immersiveengineering:main/mb_cokeoven"
 				criterion: ""
 				id: "21B304ED655A56D1"
 				type: "advancement"
@@ -103,8 +108,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "minecraft:story/root"
+				advancement: "immersiveengineering:main/mb_blastfurnace"
 				criterion: ""
+				icon: {
+					id: "immersiveengineering:blast_furnace"
+				}
 				id: "5083BB2FD886AD79"
 				type: "advancement"
 			}]
@@ -123,8 +131,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "minecraft:story/root"
+				advancement: "immersiveengineering:multiblocks/mb_crusher"
 				criterion: ""
+				icon: {
+					id: "immersiveengineering:crusher"
+				}
 				id: "16B47C2D8B044D03"
 				type: "advancement"
 			}]
@@ -143,8 +154,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "minecraft:story/root"
+				advancement: "immersiveengineering:multiblocks/mb_refinery"
 				criterion: ""
+				icon: {
+					id: "immersiveengineering:refinery"
+				}
 				id: "0D4ED9DB465D113A"
 				type: "advancement"
 			}]
@@ -163,8 +177,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "minecraft:story/root"
+				advancement: "immersiveengineering:multiblocks/mb_fermenter"
 				criterion: ""
+				icon: {
+					id: "immersiveengineering:fermenter"
+				}
 				id: "4AAE59316F980F71"
 				type: "advancement"
 			}]
@@ -189,12 +206,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "44D526A26B9EC0FD"
+					table_id: 7481978013781056868L
 					type: "loot"
 				}
 			]
 			tasks: [{
 				id: "18B5C663F76F8B59"
-				item: { }
+				item: { count: 1, id: "immersiveengineering:plate_duroplast" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -215,8 +233,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "minecraft:story/root"
+				advancement: "immersiveengineering:multiblocks/mb_metalpress"
 				criterion: ""
+				icon: {
+					id: "immersiveengineering:metal_press"
+				}
 				id: "32FF7AAA5FD69B16"
 				type: "advancement"
 			}]
@@ -236,7 +257,7 @@
 			}]
 			tasks: [{
 				id: "5AE347FA991EC91F"
-				item: { }
+				item: { count: 1, id: "alltheores:steel_ingot" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -258,7 +279,7 @@
 			}]
 			tasks: [{
 				id: "49DA294500A30649"
-				item: { }
+				item: { count: 1, id: "immersiveengineering:phenolic_resin_bucket" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -280,7 +301,7 @@
 			}]
 			tasks: [{
 				id: "7FF7A4FA8DCD1C7F"
-				item: { }
+				item: { count: 1, id: "immersiveengineering:acetaldehyde_bucket" }
 				type: "item"
 			}]
 			x: -6.5d
@@ -300,12 +321,12 @@
 			tasks: [
 				{
 					id: "3498CB53CD79EAC7"
-					item: { }
+					item: { count: 1, id: "immersiveengineering:ethanol_bucket" }
 					type: "item"
 				}
 				{
 					id: "67E5D99595D14B0D"
-					item: { }
+					item: { count: 1, id: "alltheores:silver_plate" }
 					type: "item"
 				}
 			]
@@ -325,7 +346,7 @@
 			}]
 			tasks: [{
 				id: "5314CBF2A27F3517"
-				item: { }
+				item: { count: 1, id: "immersiveengineering:dynamo" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -343,8 +364,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "minecraft:story/root"
+				advancement: "immersiveengineering:multiblocks/mb_improvedblastfurnace"
 				criterion: ""
+				icon: {
+					id: "immersiveengineering:advanced_blast_furnace"
+				}
 				id: "7F5AABAAC83CC66B"
 				type: "advancement"
 			}]
@@ -364,7 +388,7 @@
 			}]
 			tasks: [{
 				id: "4CF4EA5B086B370F"
-				item: { }
+				item: { count: 1, id: "immersiveengineering:mold_plate" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -385,12 +409,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "3E28ED77A3187198"
+					table_id: 7481978013781056868L
 					type: "loot"
 				}
 			]
 			tasks: [{
 				id: "49C4C64AE7D0D567"
-				item: { }
+				item: { count: 1, id: "immersiveengineering:watermill" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -409,18 +434,21 @@
 			}]
 			tasks: [
 				{
+					count: 2L
 					id: "241D11FF09860C60"
-					item: { }
+					item: { count: 1, id: "immersiveengineering:connector_lv" }
 					type: "item"
 				}
 				{
+					count: 4L
 					id: "7DAF3EEA29E56197"
-					item: { }
+					item: { count: 1, id: "immersiveengineering:wirecoil_copper" }
 					type: "item"
 				}
 				{
+					count: 4L
 					id: "7A643B513592928A"
-					item: { }
+					item: { count: 1, id: "immersiveengineering:connector_lv_relay" }
 					type: "item"
 				}
 			]
@@ -442,12 +470,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "451981985C1D50F9"
+					table_id: 7481978013781056868L
 					type: "loot"
 				}
 			]
 			tasks: [{
 				id: "04D21A81AAA1824D"
-				item: { }
+				item: { count: 1, id: "immersiveengineering:windmill" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -473,7 +502,7 @@
 			}]
 			tasks: [{
 				id: "0BB78D5FDA226CFA"
-				item: { }
+				item: { count: 1, id: "immersiveengineering:capacitor_lv" }
 				type: "item"
 			}]
 			x: 13.0d
@@ -482,27 +511,17 @@
 		{
 			dependencies: ["6C7984DF59D8E26C"]
 			id: "7A633DD4525F4618"
-			rewards: [
-				{
-					id: "791B97EDAC639A5C"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
+			rewards: [{
+				id: "791B97EDAC639A5C"
+				item: {
+					count: 1
+					id: "minecraft:apple"
 				}
-				{
-					id: "03132877FED4B8CF"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "0EA1872377FF538A"
-				item: { }
+				item: { count: 1, id: "immersiveengineering:capacitor_mv" }
 				type: "item"
 			}]
 			x: 13.0d
@@ -523,28 +542,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "59A2EBE38E57EA83"
+					table_id: 7481978013781056868L
 					type: "loot"
-				}
-				{
-					id: "6B359E53C9B78FA6"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-				{
-					id: "471AF8D234D3F0E1"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
 				}
 			]
 			tasks: [{
 				id: "5788824EE9E73578"
-				item: { }
+				item: { count: 1, id: "immersiveengineering:capacitor_hv" }
 				type: "item"
 			}]
 			x: 13.0d
@@ -553,6 +557,7 @@
 		{
 			dependencies: ["0788F9E6D027F21F"]
 			id: "115AB3F93465A685"
+			invisible: true
 			rewards: [{
 				id: "19F15229D61AEDC6"
 				item: {
@@ -563,7 +568,7 @@
 			}]
 			tasks: [{
 				id: "555BC7FB691206A3"
-				item: { }
+				item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -582,7 +587,7 @@
 			}]
 			tasks: [{
 				id: "6759DD3EE42EF4E6"
-				item: { }
+				item: { count: 1, id: "immersiveengineering:mold_gear" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -601,7 +606,7 @@
 			}]
 			tasks: [{
 				id: "51A15BA0D9F16886"
-				item: { }
+				item: { count: 1, id: "immersiveengineering:mold_wire" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -621,7 +626,7 @@
 			}]
 			tasks: [{
 				id: "529F8127290FFFEC"
-				item: { }
+				item: { count: 1, id: "immersiveengineering:survey_tools" }
 				type: "item"
 			}]
 			x: -13.0d
@@ -648,7 +653,7 @@
 			]
 			tasks: [{
 				id: "0C01C483F7852CBA"
-				item: { }
+				item: { count: 1, id: "immersiveengineering:sample_drill" }
 				type: "item"
 			}]
 			x: -13.0d
@@ -667,7 +672,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "minecraft:story/root"
+				advancement: "immersiveengineering:multiblocks/mb_excavator"
 				criterion: ""
 				id: "2BA6D98F7912E925"
 				type: "advancement"
@@ -687,7 +692,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "minecraft:story/root"
+				advancement: "immersiveengineering:multiblocks/mb_dieselgen"
 				criterion: ""
 				id: "3A144CDDD2AA92CC"
 				type: "advancement"
@@ -707,8 +712,9 @@
 				type: "item"
 			}]
 			tasks: [{
+				count: 2L
 				id: "18870151FB1F8601"
-				item: { }
+				item: { count: 1, id: "immersiveengineering:blastfurnace_preheater" }
 				type: "item"
 			}]
 			x: -0.5d
