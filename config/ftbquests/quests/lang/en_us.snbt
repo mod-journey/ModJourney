@@ -235,6 +235,7 @@
 	quest.0D02872448C4DA2F.quest_desc: ["Sind Die Quarzblüten voll Ausgewachsen, erhältst Du je nach Glück-Level Certusquatzkristalle."]
 	quest.0D02FD3C537A6CBD.quest_desc: ["Mehr Höhe für den Lüfter"]
 	quest.0D1CE7A2E7381A55.quest_desc: [""]
+	quest.0D1CE7A2E7381A55.title: "Netherite Upgrade"
 	quest.0D454879B07A1A02.quest_subtitle: "Zerstört Items. Papierkorb eben. Vorher alles gespeichert?"
 	quest.0D8E474F76C125F7.quest_desc: ["Genau das Richtige, um große Mengen an Tränken zu lagern und zu verarbeiten."]
 	quest.0D8E474F76C125F7.title: "Große Trankbehälter"
@@ -269,6 +270,7 @@
 	quest.0DD2D5F39A7FC453.quest_subtitle: "Das erste Blutopfer"
 	quest.0DD2D5F39A7FC453.title: "Welches Blut?"
 	quest.0DDB0F96D41D2C24.quest_desc: ["Es passen immer noch 2.000 Items in den Drawer. Nun aber kannst Du 4 Items a 512 Stück speichern."]
+	quest.0DDB0F96D41D2C24.title: "Oak Drawer (2x2)"
 	quest.0DE688D34731681F.quest_desc: [
 		"Dieses Modul von Apotheosis bringt neue Trankeffekte und -rezepte mit sich. Außerdem kann man sich Potion Charms craften, die ein- und ausschaltbar sind und ihre Trankeffekte über einen längeren Zeitraum nutzbar machen, solange sie im Inventar oder einem Charm-Slot von Curio sind."
 		""
@@ -452,6 +454,7 @@
 	]
 	quest.1840E2C4550564D5.quest_subtitle: "Wie funktioniert der Reaktor?"
 	quest.18C3353BB549027C.quest_desc: ["Halt dich kompakter."]
+	quest.18C3353BB549027C.title: "Compacting Drawer"
 	quest.18D30E75DBA755F4.quest_desc: [
 		"Mit dem Ritual-Diviner lassen sich  erste BloodMagic Rituale aufbauen. Mit shift + Recht oder Linksklick, bekommst Du die Rituale im Screen angezeigt. "
 		""
@@ -760,10 +763,12 @@
 	]
 	quest.35E69FD0D9133061.title: "Close and personal"
 	quest.363B82F586FB4376.quest_desc: ["Leider ein bisschen Buggy. Arbeitet nur Links vom Drawer."]
+	quest.363B82F586FB4376.title: "Pusher Upgrade"
 	quest.369134843E12B183.quest_desc: [
 		"Mittels diesem Tool kannst Du einem Storage Controller die einzelnen Drawer zuteilen und Netzwerke erstellen. "
 		"Es gibt Single-Mode und Multi-Mode, sowohl im adden als auch im removen. Lese Dir doch die Beschreibung des Items mal genauer durch."
 	]
+	quest.369134843E12B183.title: "Linking Tool"
 	quest.37137208FC2D7F9A.quest_desc: ["Smoke dein Essen und das To-Go!"]
 	quest.37137208FC2D7F9A.quest_subtitle: "Grillen geht immer I"
 	quest.372535099216FF16.quest_desc: [
@@ -913,6 +918,7 @@
 	quest.3E5513C235703081.quest_subtitle: "Flieg kleiner Vogel - FLIEG!"
 	quest.3E5513C235703081.title: "Jet Suit"
 	quest.3E6AC0930B347725.quest_desc: ["drawer loggen, oder Stückzahl anzeigen, oder das Icon des Inhaltes verstecken. dafür brauchst du das Item."]
+	quest.3E6AC0930B347725.title: "Configuration Tool"
 	quest.3E8BA9AC92928A5B.quest_desc: ["Erhält man durch das abbauen von Utherium Erz."]
 	quest.3EC2CF7E940184C9.quest_desc: ["Wer will einen Stonecutter to go haben? Du? Hier bitte."]
 	quest.3EC2CF7E940184C9.quest_subtitle: "Ich bin ein Meißel!"
@@ -969,6 +975,7 @@
 	]
 	quest.41A2BB314608A5F0.title: "Die Macht der Nahrung"
 	quest.41D35D57A1FFF21E.quest_desc: ["Auch Flüssigkeiten lassen sich speichern."]
+	quest.41D35D57A1FFF21E.title: "Fluid Drawer (1x1)"
 	quest.41E3D818423C9002.quest_desc: ["Erhöht die Distanz des Entity Spawners"]
 	quest.421053C942FFE45C.quest_subtitle: "Der Rahmen für den Energiespeicher!"
 	quest.4256D1E40BD2250A.quest_desc: ["Nach dem sammeln von so vielen Zutaten, scheint das wohl die beste Speise zu sein die man sich hier aus dem Undergarden so zusammen suchen kann."]
@@ -986,6 +993,7 @@
 		"Du kennst das Spiel ja. 4 mal so viele Typen."
 		"Ach was solls ;-)"
 	]
+	quest.43931506096A6217.title: "Fluid Drawer (2x2)"
 	quest.439A11FC8B1BE52A.quest_desc: [
 		"Dieses Modul von Apotheosis erlaubt es, Mobspawner mit Silk Touch abzubauen, mitzunehmen und dann mit bestimmten Items zu modifizieren."
 		""
@@ -1284,6 +1292,7 @@
 	quest.548F099E63C07C64.title: "Forgotten Tools"
 	quest.54E91CBDA4D83EDE.title: "Let's show: Powah!"
 	quest.5529F9D6301E78F4.quest_desc: ["Doppelt so viele Flüssigkeitstypen, aber nur halb so groß."]
+	quest.5529F9D6301E78F4.title: "Fluid Drawer (1x2)"
 	quest.557F56AEDAF2680A.quest_desc: ["Ein Raketenbauteil."]
 	quest.55C158C08F87D675.quest_desc: ["Dieses Regal ist eine verbesserte Version seines Vorgängers."]
 	quest.55C158C08F87D675.title: "Recht und Ordnung müssen gewahrt werden"
@@ -1453,6 +1462,7 @@
 		"Wenn Du eine Ölquelle gefunden hast, wird diese aber Glücklicherweise nicht mehr versiegen. "
 	]
 	quest.632E51936F4DC306.quest_desc: ["Mehr Varianten, weniger Platz, dies erreichst du mit dem 2 zu 1 Drawer"]
+	quest.632E51936F4DC306.title: "Oak Drawer (1x2)"
 	quest.6436E46E095D0BDD.quest_desc: [
 		"Wenn ihr eure Reise durch das Questbuch gemeinsam mit anderen Spielern bestreiten wollt, könnt ihr ein Team gründen."
 		""
@@ -1496,6 +1506,7 @@
 	quest.66DEEA92B5F386C0.title: "Any Access Port"
 	quest.671FB6732DEC8471.quest_desc: ["Du benötigst mindestens einen halben Manapool um diese Ingot herzustellen."]
 	quest.676D5DA809676207.quest_desc: ["Auch ein Drawer, dieses mal aber versteckt, oder deinem Baustil angepasst? Versuch es doch mal mit einem framed Drawer. Dieser ist in allen Formen craftbar."]
+	quest.676D5DA809676207.title: "Framed Drawer (1x1)"
 	quest.67973447F729D73A.quest_desc: ["Regalium ist in der Welt relativ selten zu finden. Ab einer Höhe von 11. Die Wahrscheinlichkeit welches zu finden ist gleichzusetzen wie Antiker Schrott. Das Erz kannst Du nutzen um mit den Einheimischen Stonewalkern Tauschhandel zu betreiben."]
 	quest.67973447F729D73A.title: "Regalium"
 	quest.67CAE51EBC46F9F1.quest_desc: [
@@ -1515,6 +1526,7 @@
 	quest.67E0A85291DD6898.quest_desc: ["Das ist das Staged-In Item für Mekanism"]
 	quest.67E0A85291DD6898.quest_subtitle: "Staged In"
 	quest.68C9A37D916F322A.quest_desc: ["Ein Zusätzlicher Anschluss, an dem Du Items deinem Drawersystem zuführen kannst."]
+	quest.68C9A37D916F322A.title: "Controller Access Point"
 	quest.68CBEF963313DC33.quest_desc: ["Mit den Reinforced Reaktoren lassen sich in unserem Modpack Multiblöcke bis zu einer größe von 16x16x16 bauen."]
 	quest.68CBEF963313DC33.title: "Reinforced Reaktor"
 	quest.68DE5BDE3F537F42.quest_desc: ["Platz für noch mehr Zeug. 28 Slots und 2 Upgrade Slots!"]
@@ -1692,6 +1704,7 @@
 		"Durch den Druckabfall, würden die gesammelten Gase im Körper schlagartig ausdehnen. "
 	]
 	quest.76E0DAD89676806B.quest_desc: ["Leider ein bisschen Buggy. Arbeitet nur Links vom Drawer."]
+	quest.76E0DAD89676806B.title: "Puller Upgrade"
 	quest.7754B3B038441488.title: "Dust"
 	quest.775CA62679CED9AF.quest_desc: ["Mittels diesem Item, welches du in die Nähe von deinem Altar stellst, kannst Du dich durch Selbstblutentnahme nicht mehr töten. Auch hierfür gibt es ein Multiblock in der Zukunft. "]
 	quest.775CA62679CED9AF.quest_subtitle: "Ein bisschen mehr Sicherheit"
@@ -1740,6 +1753,7 @@
 	quest.7C756D847549EF66.quest_desc: ["Mach mal Mucke!"]
 	quest.7C756D847549EF66.quest_subtitle: "Drop the Beat!"
 	quest.7CA92B2E9226BA88.quest_desc: ["Maximal ein Stack (x64) passt nun nur noch in deinen Drawer. "]
+	quest.7CA92B2E9226BA88.title: "Iron Downgrade"
 	quest.7CD185434F97FCA8.quest_desc: ["Im ME-Requester kannst Du vorhandene Autocrafting-Rezepte auf einen Füllstand X vorbereiten lassen, sodass diese immer Vorrätig ist. Im gleichen Zuge bestimmst Du auch die Craftinggröße. DU kannst mehrere ME-Requester an deinem System anschließen und sie konsolidiert mittels der Requester-Konsole abrufen."]
 	quest.7CDC16333D2E3B89.quest_desc: [
 		"Ars Nouveau bietet eine Reihe von magischen Waffen und Werkzeugen, die entweder magische Eigenschaften haben oder Glyphen wirken können."

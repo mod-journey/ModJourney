@@ -22,7 +22,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "1175F6769E43539F"
+				id: "461FB0FC3586D08D"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(functionalstorage:drawer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
@@ -67,6 +67,9 @@
 			dependencies: ["61474F5C289C9886"]
 			id: "0FC3F9706DE769F0"
 			rewards: [{
+				icon: {
+					id: "mod_journey:copper_coin"
+				}
 				id: "7CFE85606496B14C"
 				item: {
 					count: 1
@@ -76,7 +79,7 @@
 			}]
 			tasks: [{
 				id: "067C053448B79D31"
-				item: { }
+				item: { count: 1, id: "functionalstorage:oak_1" }
 				type: "item"
 			}]
 			x: -8.5d
@@ -86,6 +89,9 @@
 			dependencies: ["61474F5C289C9886"]
 			id: "632E51936F4DC306"
 			rewards: [{
+				icon: {
+					id: "mod_journey:copper_coin"
+				}
 				id: "7A12DB72B562028E"
 				item: {
 					count: 1
@@ -94,6 +100,9 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					id: "functionalstorage:oak_2"
+				}
 				id: "1321A028FE4DBBF6"
 				item: { }
 				type: "item"
@@ -105,6 +114,9 @@
 			dependencies: ["61474F5C289C9886"]
 			id: "0DDB0F96D41D2C24"
 			rewards: [{
+				icon: {
+					id: "mod_journey:copper_coin"
+				}
 				id: "4F2C99C96FBD9B9A"
 				item: {
 					count: 1
@@ -113,6 +125,9 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					id: "functionalstorage:oak_4"
+				}
 				id: "4D77BE9A9722A61D"
 				item: { }
 				type: "item"
@@ -124,6 +139,9 @@
 			dependencies: ["61474F5C289C9886"]
 			id: "676D5DA809676207"
 			rewards: [{
+				icon: {
+					id: "mod_journey:copper_coin"
+				}
 				id: "786959E49DBB5A0B"
 				item: {
 					count: 1
@@ -132,6 +150,9 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					id: "functionalstorage:framed_1"
+				}
 				id: "3297C35B43EA6776"
 				item: { }
 				type: "item"
@@ -143,6 +164,9 @@
 			dependencies: ["61474F5C289C9886"]
 			id: "41D35D57A1FFF21E"
 			rewards: [{
+				icon: {
+					id: "mod_journey:copper_coin"
+				}
 				id: "655464F8930984E5"
 				item: {
 					count: 1
@@ -151,6 +175,9 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					id: "functionalstorage:fluid_1"
+				}
 				id: "69187ADEB01D2509"
 				item: { }
 				type: "item"
@@ -162,6 +189,9 @@
 			dependencies: ["61474F5C289C9886"]
 			id: "5529F9D6301E78F4"
 			rewards: [{
+				icon: {
+					id: "mod_journey:copper_coin"
+				}
 				id: "7C4E61519D92D123"
 				item: {
 					count: 1
@@ -170,6 +200,9 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					id: "functionalstorage:fluid_2"
+				}
 				id: "697D79BC6A95BFE5"
 				item: { }
 				type: "item"
@@ -181,6 +214,9 @@
 			dependencies: ["61474F5C289C9886"]
 			id: "43931506096A6217"
 			rewards: [{
+				icon: {
+					id: "mod_journey:copper_coin"
+				}
 				id: "7505BD7A4FD71A78"
 				item: {
 					count: 1
@@ -189,6 +225,9 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					id: "functionalstorage:fluid_4"
+				}
 				id: "1D03991C7A6BA757"
 				item: { }
 				type: "item"
@@ -200,6 +239,9 @@
 			dependencies: ["3A1677DE6BF4F562"]
 			id: "369134843E12B183"
 			rewards: [{
+				icon: {
+					id: "mod_journey:copper_coin"
+				}
 				id: "45171B2238D1DC9C"
 				item: {
 					count: 1
@@ -208,6 +250,9 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					id: "functionalstorage:linking_tool"
+				}
 				id: "49732DA0D5C9FFCF"
 				item: { }
 				type: "item"
@@ -219,6 +264,9 @@
 			dependencies: ["3A1677DE6BF4F562"]
 			id: "3E6AC0930B347725"
 			rewards: [{
+				icon: {
+					id: "mod_journey:copper_coin"
+				}
 				id: "50D2B90929C58BA8"
 				item: {
 					count: 1
@@ -227,6 +275,9 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					id: "functionalstorage:configuration_tool"
+				}
 				id: "5A9DD34D199B9EBB"
 				item: { }
 				type: "item"
@@ -238,6 +289,9 @@
 			dependencies: ["61474F5C289C9886"]
 			id: "3A1677DE6BF4F562"
 			rewards: [{
+				icon: {
+					id: "mod_journey:copper_coin"
+				}
 				id: "184B1E164B200C74"
 				item: {
 					count: 1
@@ -247,7 +301,7 @@
 			}]
 			tasks: [{
 				id: "114A6CD70B1EE587"
-				item: { }
+				item: { count: 1, id: "functionalstorage:storage_controller" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -257,6 +311,9 @@
 			dependencies: ["0FC3F9706DE769F0"]
 			id: "313B9F86BFAC170E"
 			rewards: [{
+				icon: {
+					id: "mod_journey:copper_coin"
+				}
 				id: "260EEF7D72D5B076"
 				item: {
 					count: 1
@@ -266,7 +323,7 @@
 			}]
 			tasks: [{
 				id: "16CA9009DECB3674"
-				item: { }
+				item: { count: 1, id: "functionalstorage:copper_upgrade" }
 				type: "item"
 			}]
 			x: -10.0d
@@ -276,6 +333,9 @@
 			dependencies: ["0FC3F9706DE769F0"]
 			id: "2851C35AFD84C508"
 			rewards: [{
+				icon: {
+					id: "mod_journey:copper_coin"
+				}
 				id: "6F4EA83744D5A91C"
 				item: {
 					count: 1
@@ -285,7 +345,7 @@
 			}]
 			tasks: [{
 				id: "02DFA3D5F4AE1F4F"
-				item: { }
+				item: { count: 1, id: "functionalstorage:gold_upgrade" }
 				type: "item"
 			}]
 			x: -8.5d
@@ -295,6 +355,9 @@
 			dependencies: ["0FC3F9706DE769F0"]
 			id: "57E783E20BE966B3"
 			rewards: [{
+				icon: {
+					id: "mod_journey:copper_coin"
+				}
 				id: "43D04B0F4FC9BF72"
 				item: {
 					count: 1
@@ -304,7 +367,7 @@
 			}]
 			tasks: [{
 				id: "61A78888B7425A8D"
-				item: { }
+				item: { count: 1, id: "functionalstorage:diamond_upgrade" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -315,6 +378,9 @@
 			id: "0D1CE7A2E7381A55"
 			rewards: [
 				{
+					icon: {
+						id: "mod_journey:copper_coin"
+					}
 					id: "0F95266502592207"
 					item: {
 						count: 1
@@ -329,6 +395,9 @@
 				}
 			]
 			tasks: [{
+				icon: {
+					id: "functionalstorage:netherite_upgrade"
+				}
 				id: "39031ADFF4166FB8"
 				item: { }
 				type: "item"
@@ -340,6 +409,9 @@
 			dependencies: ["0FC3F9706DE769F0"]
 			id: "7CA92B2E9226BA88"
 			rewards: [{
+				icon: {
+					id: "mod_journey:copper_coin"
+				}
 				id: "5E62C900F75CB818"
 				item: {
 					count: 1
@@ -348,6 +420,9 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					id: "functionalstorage:iron_downgrade"
+				}
 				id: "691F355B288751AD"
 				item: { }
 				type: "item"
@@ -359,6 +434,9 @@
 			dependencies: ["0FC3F9706DE769F0"]
 			id: "363B82F586FB4376"
 			rewards: [{
+				icon: {
+					id: "mod_journey:copper_coin"
+				}
 				id: "65099CC1333E951B"
 				item: {
 					count: 1
@@ -367,6 +445,12 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					components: {
+						"functionalstorage:direction": "north"
+					}
+					id: "functionalstorage:pusher_upgrade"
+				}
 				id: "3D6FE9C2B67B52AA"
 				item: { }
 				type: "item"
@@ -378,6 +462,9 @@
 			dependencies: ["0FC3F9706DE769F0"]
 			id: "76E0DAD89676806B"
 			rewards: [{
+				icon: {
+					id: "mod_journey:copper_coin"
+				}
 				id: "4191B004EFDE514F"
 				item: {
 					count: 1
@@ -386,6 +473,12 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					components: {
+						"functionalstorage:direction": "north"
+					}
+					id: "functionalstorage:puller_upgrade"
+				}
 				id: "6C9303ED97990AE5"
 				item: { }
 				type: "item"
@@ -397,6 +490,9 @@
 			dependencies: ["0FC3F9706DE769F0"]
 			id: "64E049BBFA47F794"
 			rewards: [{
+				icon: {
+					id: "mod_journey:copper_coin"
+				}
 				id: "04C2991C8484FDD4"
 				item: {
 					count: 1
@@ -406,7 +502,7 @@
 			}]
 			tasks: [{
 				id: "65B94D000ABC0E11"
-				item: { }
+				item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:collector_upgrade" }
 				type: "item"
 			}]
 			x: -8.5d
@@ -419,13 +515,13 @@
 				id: "185CF8F7C4BAF45C"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0F864B8ABF693547"
-				item: { }
+				item: { components: { "functionalstorage:slot": 0 }, count: 1, id: "functionalstorage:redstone_upgrade" }
 				type: "item"
 			}]
 			x: -9.5d
@@ -435,6 +531,9 @@
 			dependencies: ["0FC3F9706DE769F0"]
 			id: "1F72867F68BA7D33"
 			rewards: [{
+				icon: {
+					id: "mod_journey:copper_coin"
+				}
 				id: "41073859C720DA3E"
 				item: {
 					count: 1
@@ -444,7 +543,7 @@
 			}]
 			tasks: [{
 				id: "189F82E252104DBA"
-				item: { }
+				item: { count: 1, id: "functionalstorage:void_upgrade" }
 				type: "item"
 			}]
 			x: -7.5d
@@ -454,6 +553,9 @@
 			dependencies: ["3A1677DE6BF4F562"]
 			id: "68C9A37D916F322A"
 			rewards: [{
+				icon: {
+					id: "mod_journey:copper_coin"
+				}
 				id: "5753FD0AC032B894"
 				item: {
 					count: 1
@@ -462,6 +564,9 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					id: "functionalstorage:controller_extension"
+				}
 				id: "51C56E6895A1E5A2"
 				item: { }
 				type: "item"
@@ -473,6 +578,9 @@
 			dependencies: ["61474F5C289C9886"]
 			id: "18C3353BB549027C"
 			rewards: [{
+				icon: {
+					id: "mod_journey:copper_coin"
+				}
 				id: "2C3B1AFB69BAA507"
 				item: {
 					count: 1
@@ -481,6 +589,9 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					id: "functionalstorage:compacting_drawer"
+				}
 				id: "4A2F641AB5D68CEE"
 				item: { }
 				type: "item"
@@ -492,6 +603,9 @@
 			dependencies: ["61474F5C289C9886"]
 			id: "5BD2AA6ED1E63953"
 			rewards: [{
+				icon: {
+					id: "mod_journey:copper_coin"
+				}
 				id: "0CD03E71832E7057"
 				item: {
 					count: 1
@@ -501,7 +615,7 @@
 			}]
 			tasks: [{
 				id: "3EEF98DEEBA89E97"
-				item: { }
+				item: { count: 1, id: "functionalstorage:simple_compacting_drawer" }
 				type: "item"
 			}]
 			x: -3.5d
