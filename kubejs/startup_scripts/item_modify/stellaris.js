@@ -1,4 +1,5 @@
-ItemEvents.modification(event => {
+let item_modify_stellaris = (event, active, debug) => {
+    if (!active) return;
 
     event.modify('stellaris:uranium_ingot', item => {
         item.setItemName("Enriched Uranium")
@@ -8,4 +9,5 @@ ItemEvents.modification(event => {
         item.setItemName("Enriched Raw Uranium")
     })
 
-})
+}
+
