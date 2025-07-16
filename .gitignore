@@ -81,4 +81,5 @@ kubejs/config/web_server.json
 jsconfig.json
 probe-settings.json
 
-
+#Ignore personal Workspaces
+_workspace
