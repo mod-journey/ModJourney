@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "minecraft_basics"
 	group: "78025998DBB7AC61"
+	icon: {
+		id: "minecraft:grass_block"
+	}
 	id: "62592CBE673BE5C1"
 	order_index: 0
 	quest_links: [ ]
@@ -30,7 +33,7 @@
 			id: "334735438DFE505B"
 			tasks: [{
 				id: "5FC13B4C5F865F34"
-				item: { }
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:logs/archwood))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -50,7 +53,7 @@
 			}]
 			tasks: [{
 				id: "46C23499191C4387"
-				item: { }
+				item: { count: 1, id: "minecraft:wooden_pickaxe" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -69,8 +72,9 @@
 				type: "item"
 			}]
 			tasks: [{
+				count: 10L
 				id: "16F8D00E81EFF942"
-				item: { }
+				item: { count: 1, id: "minecraft:cobblestone" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -90,7 +94,7 @@
 			}]
 			tasks: [{
 				id: "4B33FA9E21910C7D"
-				item: { }
+				item: { count: 1, id: "minecraft:stone_pickaxe" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -110,7 +114,7 @@
 			}]
 			tasks: [{
 				id: "5E8CB35CC3F7D4D1"
-				item: { }
+				item: { count: 1, id: "minecraft:stone_sword" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -130,7 +134,7 @@
 			}]
 			tasks: [{
 				id: "7E615FE9FDD3CA76"
-				item: { }
+				item: { count: 1, id: "minecraft:stone_axe" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -150,7 +154,7 @@
 			}]
 			tasks: [{
 				id: "011C9489F91675BF"
-				item: { }
+				item: { count: 1, id: "minecraft:stone_shovel" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -170,7 +174,7 @@
 			}]
 			tasks: [{
 				id: "6AE227BABAC7609C"
-				item: { }
+				item: { count: 1, id: "minecraft:crafting_table" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -190,7 +194,7 @@
 			}]
 			tasks: [{
 				id: "2CDD2ACE646A24D0"
-				item: { }
+				item: { count: 1, id: "minecraft:furnace" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -209,8 +213,9 @@
 				type: "item"
 			}]
 			tasks: [{
+				count: 3L
 				id: "274557761BFD12BE"
-				item: { }
+				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -230,7 +235,7 @@
 			}]
 			tasks: [{
 				id: "4B81F0781CEEB91F"
-				item: { }
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -249,8 +254,9 @@
 				type: "item"
 			}]
 			tasks: [{
+				count: 3L
 				id: "2C17EAA32A3A1ACE"
-				item: { }
+				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -270,7 +276,7 @@
 			}]
 			tasks: [{
 				id: "356FD8CA87C279AB"
-				item: { }
+				item: { count: 1, id: "minecraft:flint_and_steel" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -289,8 +295,9 @@
 				type: "item"
 			}]
 			tasks: [{
+				count: 10L
 				id: "59446CA4766ECF53"
-				item: { }
+				item: { count: 1, id: "minecraft:obsidian" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -340,7 +347,7 @@
 			}]
 			tasks: [{
 				id: "3CDE71BBE9A1F56B"
-				item: { }
+				item: { count: 1, id: "minecraft:diamond_pickaxe" }
 				type: "item"
 			}]
 			x: 10.5d
@@ -380,8 +387,9 @@
 				type: "item"
 			}]
 			tasks: [{
+				count: 4L
 				id: "2F537CD38C0200DE"
-				item: { }
+				item: { count: 1, id: "minecraft:ancient_debris" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -401,7 +409,7 @@
 			}]
 			tasks: [{
 				id: "7C0EF5C960490FBB"
-				item: { }
+				item: { count: 1, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -421,7 +429,7 @@
 			}]
 			tasks: [{
 				id: "3EE2EB5B924141AB"
-				item: { }
+				item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -509,6 +517,7 @@
 			y: 1.25d
 		}
 		{
+			dependencies: ["03F62F0E4DEE0C1C"]
 			id: "19F53A5F8F69A394"
 			rewards: [
 				{
@@ -527,7 +536,7 @@
 			]
 			tasks: [{
 				id: "3D9C8EA218733C98"
-				item: { }
+				item: { count: 1, id: "minecraft:elytra" }
 				type: "item"
 			}]
 			x: 16.0d
@@ -547,7 +556,7 @@
 			}]
 			tasks: [{
 				id: "144C5013F487FC2D"
-				item: { }
+				item: { count: 1, id: "minecraft:shulker_box" }
 				type: "item"
 			}]
 			x: 16.0d
@@ -577,13 +586,48 @@
 			]
 			tasks: [
 				{
-					id: "7C4F9D8D5496082A"
-					item: { }
+					id: "01CE29A0D31F06F6"
+					item: { count: 1, id: "minecraft:netherite_helmet" }
 					type: "item"
 				}
 				{
-					id: "1DC0D43DEB23A9FF"
-					item: { }
+					id: "1CCECE99C5077331"
+					item: { count: 1, id: "minecraft:netherite_chestplate" }
+					type: "item"
+				}
+				{
+					id: "195B7F0B4042FDD3"
+					item: { count: 1, id: "minecraft:netherite_leggings" }
+					type: "item"
+				}
+				{
+					id: "590900775C5B8932"
+					item: { count: 1, id: "minecraft:netherite_boots" }
+					type: "item"
+				}
+				{
+					id: "30FDC945A7DA651E"
+					item: { count: 1, id: "minecraft:netherite_shovel" }
+					type: "item"
+				}
+				{
+					id: "785B41F69199FA10"
+					item: { count: 1, id: "minecraft:netherite_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "63A99EFE0198E3C0"
+					item: { count: 1, id: "minecraft:netherite_axe" }
+					type: "item"
+				}
+				{
+					id: "16954C8A51223D04"
+					item: { count: 1, id: "minecraft:netherite_hoe" }
+					type: "item"
+				}
+				{
+					id: "3B8163A2ABFEAE57"
+					item: { count: 1, id: "minecraft:netherite_sword" }
 					type: "item"
 				}
 			]
@@ -603,10 +647,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "minecraft:zombie"
-				id: "7819435B28597ACB"
-				type: "kill"
-				value: 100L
+				id: "462FE249118CA538"
+				item: { count: 1, id: "minecraft:leather" }
+				type: "item"
 			}]
 			x: 5.0d
 			y: -4.0d
@@ -627,22 +670,22 @@
 			tasks: [
 				{
 					id: "1C5DEB272E2ACF71"
-					item: { }
+					item: { count: 1, id: "minecraft:leather_chestplate" }
 					type: "item"
 				}
 				{
 					id: "7E86925225699DF6"
-					item: { }
+					item: { count: 1, id: "minecraft:leather_helmet" }
 					type: "item"
 				}
 				{
 					id: "6D8D8D00F06393C6"
-					item: { }
+					item: { count: 1, id: "minecraft:leather_leggings" }
 					type: "item"
 				}
 				{
 					id: "034BC40DFB39C5D9"
-					item: { }
+					item: { count: 1, id: "minecraft:leather_boots" }
 					type: "item"
 				}
 			]
