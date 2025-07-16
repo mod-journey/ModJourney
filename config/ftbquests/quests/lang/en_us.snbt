@@ -938,7 +938,6 @@
 		"{image:ae2:block/large_quartz_bud width:30 height:30 align:1}"
 	]
 	quest.3FCAD3EFEABBED79.quest_subtitle: "Dein erstes Certus"
-	quest.3FCAD3EFEABBED79.title: "Budding Certus Quartz Blocks"
 	quest.3FDE2CC1A40D72FD.quest_desc: ["Der Molekularassembler führt die eigentlichen Crafting-Aufgaben aus. Temporär bekommt die Schablonenkonsole eine Kopie vom Patternprovider und crafted das Rezept durch. Du kannst auch einen Molekularassembler direkt mit einer Schablone bestücken und diesen als Crafter benutzen. Der Molekularassembler kann außerdem mit Beschleunigungkarten ausgerüstet werden, sodass die Crafting-Geschwindigkeit erhöht wird."]
 	quest.40019D79DA3B4858.quest_desc: [
 		"Dieses Item findest Du in den tiefen der Blood Magic Dungeons. Außerdem ist das Item auch in unserem Modpack craftbar. "
@@ -1534,7 +1533,6 @@
 	]
 	quest.695526C12D5AE2E6.quest_subtitle: "Auf die Enderperle, fertig. los...."
 	quest.6A2B6704E919F2BB.quest_desc: ["Jedes Crafting-Rezept braucht eine gewisse Anzahl an Bytes um verarbeitet zu werden. Somit gibt der Fertigungsspeicher an, wie groß dein Crafting-Rezept sein kann. Außerdem kann der Fertigungsspeicher standardgemäß ein Rezept nach dem anderen abarbeiten. Um paralleles Craften zu gewährleisten. Baue weitere Prozessoreinheiten."]
-	quest.6A2B6704E919F2BB.title: "Fertingungsspeicher"
 	quest.6A342B58C9875174.quest_desc: [
 		"Werden benötigt um auf Lebensfeindlichere Planeten vorzustoßen."
 		"Als ob das Vakuum nicht schon Lebensfeindlich genug ist. "
@@ -1805,6 +1803,7 @@
 	task.03D6F3D7B3CAF8DE.title: "Any Cloggrum Tool"
 	task.0465DB55B286A0A3.title: "Any #c:ores/coal"
 	task.04CF943E4A7B7748.title: "Sourceproduktion"
+	task.062537D2E620DB9E.title: "Fertigungsspeicher"
 	task.0690127887DF6BBF.title: "Upgrades"
 	task.0734E682569CEA3F.title: "Energizer"
 	task.074D1299CC61739F.title: "kleinere Bugs"
@@ -1932,6 +1931,7 @@
 	task.76F96F8D84D30423.title: "Besiege den Alchemisten"
 	task.77FA602618CA9249.title: "Common Black Hole Tank"
 	task.77FAAC17DAF04807.title: "Enchanting"
+	task.78122D38C64820B4.title: "Budding Certus Quartz Blocks"
 	task.7A036A144184E16C.title: "Noch ein Dungeon?"
 	task.7BD191F74C472357.title: "Aktiv/Passiv"
 	task.7C8EE3F77A7EF87B.title: "Füße"
