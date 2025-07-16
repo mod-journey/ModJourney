@@ -1,8 +1,8 @@
 //priority 90
 
-let block_add = (event,active,debug) => {
+let block_add = (event, active, debug) => {
 
-        if (!active) return;
+    if (!active) return;
 
     //Erstellen des Antimatter-Blocks
     event.create('mod_journey:antimatter_block')
@@ -24,4 +24,35 @@ let block_add = (event,active,debug) => {
         .tagBlock('minecraft:needs_diamond_tool')
         .tagBlock('minecraft:mineable/pickaxe')
 
+    event.create("mod_journey:venus_platinum_ore")
+        .tag("c:ores")
+        .tag("c:ores/platinum")
+        .tag("c:ores_in_ground/stone")
+        .tagBlock("minecraft:incorrect_for_iron_tool")
+        .tagBlock("minecraft:mineable/pickaxe")
+        .tagBlock("minecraft:incorrect_for_gold_tool")
+        .tagBlock("minecraft:incorrect_for_stone_tool")
+        .tagBlock("minecraft:incorrect_for_wooden_tool")
+        .tagBlock("minecraft:incorrect_for_iron_tool")
+        .tagBlock("stellaris:incorrect_for_steel_tools")
+        .tagBlock("immersiveengineering:incorrect_for_steel_tool")
+        .tagBlock("minecraft:needs_diamond_tool")
+        .tagBlock("mekanism:atomic_disassembler_ore")
+        .tagBlock("immersiveengineering:mineable/drill")
+
+    event.create("mod_journey:mars_iridium_ore")
+        .tag("c:ores")
+        .tag("c:ores/iridium")
+        .tag("c:ores_in_ground/stone")
+        .tagBlock("minecraft:incorrect_for_iron_tool")
+        .tagBlock("minecraft:mineable/pickaxe")
+        .tagBlock("minecraft:incorrect_for_gold_tool")
+        .tagBlock("minecraft:incorrect_for_stone_tool")
+        .tagBlock("minecraft:incorrect_for_wooden_tool")
+        .tagBlock("minecraft:incorrect_for_iron_tool")
+        .tagBlock("stellaris:incorrect_for_steel_tools")
+        .tagBlock("immersiveengineering:incorrect_for_steel_tool")
+        .tagBlock("minecraft:needs_diamond_tool")
+        .tagBlock("mekanism:atomic_disassembler_ore")
+        .tagBlock("immersiveengineering:mineable/drill")
 };
