@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "immsersive_engineering"
 	group: "00D014EB3FA9ED8A"
+	icon: {
+		id: "immersiveengineering:watermill"
+	}
 	id: "486D38DC43A626CE"
 	order_index: 1
 	quest_links: [ ]

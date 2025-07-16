@@ -33,7 +33,7 @@
 			id: "334735438DFE505B"
 			tasks: [{
 				id: "5FC13B4C5F865F34"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:logs/archwood))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:logs))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -366,7 +366,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "minecraft:story/root"
+				advancement: "minecraft:nether/find_fortress"
 				criterion: ""
 				id: "3B5E81ACABC9AD48"
 				type: "advancement"
@@ -449,7 +449,7 @@
 			}]
 			tasks: [{
 				id: "6990CA998DC3CF92"
-				structure: "minecraft:mineshaft"
+				structure: "minecraft:bastion_remnant"
 				type: "structure"
 			}]
 			x: 8.0d
@@ -510,7 +510,7 @@
 			}]
 			tasks: [{
 				id: "68E447E6E606C6BF"
-				structure: "minecraft:mineshaft"
+				structure: "minecraft:end_city"
 				type: "structure"
 			}]
 			x: 15.0d
