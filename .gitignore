@@ -57,8 +57,6 @@
 /config/worldedit/.archive-unpack/
 /config/luckperms/translations/
 /config/luckperms/libs/
-kubejs/config/client.json
-kubejs/config/common.json
 kubejs/config/web_server.json
 
 
@@ -78,4 +76,5 @@ kubejs/config/web_server.json
 jsconfig.json
 probe-settings.json
 
-
+#Ignore personal Workspaces
+_workspace
