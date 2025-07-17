@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": "#mod_journey:remove_osmium_biomes",
+  "features": "alltheores:ore_osmium_placed",
+  "steps": ["underground_ores"]
+}
