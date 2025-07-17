@@ -1,7 +1,5 @@
 ## Changelog:
 
-
-<!--
 # v1.0.1
 
 #### Mods updated:
@@ -106,5 +104,3 @@
 - Add functional storage to carry on blacklist
 - Replace thermal with mod_journey coin
 - Fix ultimine tool-tags
-
--->
