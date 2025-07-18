@@ -29,7 +29,6 @@ if (events_server) {
         /* "./gated/* */
         if (gated_event) {
             apotheosis_gated(event, true);
-            adastra_gated(event, false);                         //Ersetzung durch Stellaris Ticket #12
             ae_gated(event, true);
             arsnoveau_gated(event, true);
             cookingforblockhead_gated(event, true);
@@ -49,11 +48,11 @@ if (events_server) {
             rfttools_gated(event, true);
             sophisticatedbackpacks_gated(event, false);
             remove_item_by_tag(event, true);                    //Checking scipt of using
+            stellaris_gated(event, true);
         }
 
         /* "./add/*" */
         if (add_event) {
-            add_adastra_items(event, false);                     //Ersetzung durch Stellaris Ticket #12
             add_ae2_fluix(event, true);
             add_ae2_skystellingot(event, true);
             add_creativeitemsMagic(event, true);
@@ -64,6 +63,7 @@ if (events_server) {
             add_modjourney_scrolls(event, true);
             add_cataclysm(event, false);                        //deactivate, while cataclysm is deactivated as mod, while throw a lot of errors.
             add_modjourneycoins(event, true);
+            add_stellaris(event, true);
         }
 
         if (customMachine_event) {
@@ -90,6 +90,7 @@ if (events_server) {
             remove_mobGrindingUtils(event, true);
             remove_mysticalAgriculture(event, true);
             remove_rftAndXnet(event, true);
+            remove_stellaris(event, true);
         }
 
         if (replace_ores) {
