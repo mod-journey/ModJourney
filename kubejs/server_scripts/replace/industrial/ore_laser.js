@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
 
             if(tag === null) return;    //Wenn im Ouput kein tag output, skippe.
 
-            if (!(tag.getAsString().includes("c:raw_materials/iridium"))) { //Suchfilter
+            if (tag.getAsString().includes("c:raw_materials/iridium")) { //Suchfilter
                 let rarityArray = r.json.get("rarity"); //gehe in den key (Ab hier valides Array)
 
                 for (let i = 0; i < rarityArray.size(); i++) {
@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
                 //event.custom(r.json).id(r.getId()); //Überschreibe das alte JSON mit der gleichen ID, quasi überschreibe
             }
 
-            if (!tag.getAsString().includes("c:raw_materials/platinum")) {
+            if (tag.getAsString().includes("c:raw_materials/platinum")) {
                 let rarityArray = r.json.get("rarity");
 
                 for (let i = 0; i < rarityArray.size(); i++) {
