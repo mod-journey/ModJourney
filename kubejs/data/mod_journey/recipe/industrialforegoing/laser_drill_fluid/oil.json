@@ -1,30 +1,34 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "stellaris"
+    }
+  ],
   "type": "industrialforegoing:laser_drill_fluid",
   "catalyst": {
-    "item": "industrialforegoing:laser_lens15"
+    "item": "industrialforegoing:black_laser_lens"
   },
   "entity": "minecraft:empty",
-  "output": "{Amount:50,FluidName:\"thermal:crude_oil\"}",
-  "pointer": 0,
+  "output": {
+    "amount": 50,
+    "id": "stellaris:oil"
+  },
   "rarity": [
     {
-      "blacklist": {},
       "depth_max": 62,
       "depth_min": 5,
       "weight": 8,
-      "whitelist": {
-        "type": "minecraft:worldgen/biome",
-        "values": [
-          "minecraft:ocean",
-          "minecraft:warm_ocean",
-          "minecraft:lukewarm_ocean",
-          "minecraft:cold_ocean",
-          "minecraft:frozen_ocean",
-          "minecraft:deep_ocean",
-          "minecraft:deep_warm_ocean",
-          "minecraft:deep_lukewarm_ocean",
-          "minecraft:deep_frozen_ocean"
+      "biome_filter": {
+        "blacklist": [],
+        "whitelist": [
+          "minecraft:is_ocean",
+          "c:is_desert"
         ]
+      },
+      "dimension_filter": {
+        "blacklist": [],
+        "whitelist": []
       }
     }
   ]
