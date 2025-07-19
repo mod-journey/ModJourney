@@ -57,6 +57,7 @@
 /config/worldedit/.archive-unpack/
 /config/luckperms/translations/
 /config/luckperms/libs/
+/config/ars_nouveau/search_index
 kubejs/config/web_server.json
 
 
@@ -78,3 +79,7 @@ probe-settings.json
 
 #Ignore personal Workspaces
 _workspace
+
+#Ignore while mod will removed in soon upgrades
+/config/structures_tweaker
+/defaultconfigs/ftbqoptimizer.snbt

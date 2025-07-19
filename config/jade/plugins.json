@@ -82,6 +82,9 @@
     "jade_chamber": true,
     "jade_wireless": true
   },
+  "custommachinery": {
+    "machine_component_provider": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,
@@ -176,6 +179,10 @@
   },
   "mysticalagradditions": {
     "infused_farmland": true
+  },
+  "twilightforest": {
+    "chiseled_bookshelf_spawner": true,
+    "quest_ram_wool": true
   },
   "corpse": {
     "corpse": true
