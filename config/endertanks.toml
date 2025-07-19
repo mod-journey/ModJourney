@@ -6,13 +6,13 @@ full_stack_linking = true
 
 #List Entry Format <modId>:<item> or tag|<tagId>
 [upgrade_items]
-	small_capacity = ["minecraft:ender_pearl"]
-	large_capacity = ["minecraft:ender_eye"]
-	small_capacity_singleuse = []
-	large_capacity_singleuse = []
 	convert_to_personal = ["tag|c:gems/diamond"]
 	convert_to_team = ["tag|c:gems/emerald"]
+	small_capacity = ["tag|c:ender_pearls"]
+	large_capacity = ["minecraft:ender_eye"]
 	pump_capacity = ["minecraft:piston"]
+	small_capacity_singleuse = []
+	large_capacity_singleuse = []
 	pump_capacity_singleuse = []
 
 #Adjust Available Storage

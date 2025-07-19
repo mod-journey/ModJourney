@@ -4,7 +4,7 @@
 	"Show Fillet recipes in JEI?" = true
 	# Default: 13
 	# Range: 0 ~ 63
-	"How many blocks below sea level Aquaculture fish can spawn" = 0
+	"How many blocks below sea level Aquaculture fish can spawn" = 13
 
 	["basic options"."Amount of Message In A Bottle messages"]
 		# Default: 29

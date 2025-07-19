@@ -1,6 +1,15 @@
 in_world_coloring = true
 full_stack_linking = true
 
+#List Entry Format <modId>:<item> or tag|<tagId>
+[upgrade_items]
+	convert_to_personal = ["tag|c:gems/diamond"]
+	convert_to_team = ["tag|c:gems/emerald"]
+	small_capacity = ["tag|c:ender_pearls"]
+	large_capacity = ["minecraft:ender_eye"]
+	small_capacity_singleuse = []
+	large_capacity_singleuse = []
+
 #Adjust Available Storage
 [capacity_settings]
 	# Default: 9
@@ -28,12 +37,3 @@ full_stack_linking = true
 	team_link_lock = true
 	personal_use_lock = false
 	team_use_lock = false
-
-#List Entry Format <modId>:<item> or tag|<tagId>
-[upgrade_items]
-	convert_to_personal = ["tag|c:gems/diamond"]
-	convert_to_team = ["tag|c:gems/emerald"]
-	small_capacity = ["tag|c:ender_pearls"]
-	large_capacity = ["minecraft:ender_eye"]
-	small_capacity_singleuse = []
-	large_capacity_singleuse = []

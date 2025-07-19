@@ -5,7 +5,7 @@
   "color": "8b99a4",
   "armorPoints": 3,
   "enchantability": 12,
-  "craftingMaterial": "tag:forge:ingots/silver",
+  "craftingMaterial": "tag:c:ingots/silver",
   "creative": false,
   "rarity": 0,
   "toughness": 0.0,
