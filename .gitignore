@@ -66,6 +66,9 @@ kubejs/config/web_server.json
 /config/ItemLocks/nodes/SP/
 /config/jei/world/local/
 /config/worldedit/sessions/
+/config/jei-client.ini
+/config/ftbchunks-client.snbt
+/config/justzoom/config.txt
 
 #This files always changed their order
 /config/jade/sort-order.json
