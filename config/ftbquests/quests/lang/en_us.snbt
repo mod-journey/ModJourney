@@ -33,7 +33,8 @@
 	chapter_group.78025998DBB7AC61.title: "&b&6Allgemein"
 	file.0000000000000001.title: "Minecraft Mod Journey 2"
 	quest.004FACEE5A1D9E61.quest_desc: ["Ein Block um Flux Energy (FE) zu speichern"]
-	quest.005F625FCFC80A7B.quest_subtitle: "Venus"
+	quest.005F625FCFC80A7B.quest_desc: ["Schon auf dem zweiten Nachbarplaneten angekommen. Es wurden Spuren von hier Spuren von Iridium gefunden."]
+	quest.005F625FCFC80A7B.quest_subtitle: "Mars"
 	quest.0060F8847CDD18D9.quest_desc: ["Füllt automatisch deine Hand nach wenn Items ausgehen!"]
 	quest.0060F8847CDD18D9.quest_subtitle: "Ich brauche mehr I"
 	quest.00B3CE4A66835442.quest_desc: ["Finde 5 Horizonit etwas Tiefer unter der Erde"]
@@ -358,11 +359,6 @@
 	quest.120748C2D29DA6FC.title: "Sophisticated Backpacks"
 	quest.1274A16CCC2F9F25.quest_desc: ["Eine Konsole. Gewährt Dir Zugriff auf dein ME-System. "]
 	quest.12A4F63F84843AA8.quest_desc: ["Mittels dem Oxygen-Loader lassen sich Sauerstofftanks oder Eimer befüllen. Diese kannst Du für deinen Raumanzug benutzen. Leite Wasser und Energie in den Block, um Sauerstoff zu erhalten."]
-	quest.12A7A11648BF225C.quest_desc: [
-		"In ad_astra haben wir als einzigen Orbit den der Erde bisher erkundet. Auch nur hier können wir dafür garantieren, dass es sicher ist."
-		"Alle anderen Orbits, die man besuchen möchte, sind laut MJ/SA nicht freigegeben. "
-		"&o(Es reicht einen Orbit voll zumüllen) &r"
-	]
 	quest.12D3B4B92CA5252C.title: "Let's show: Extreme Reactor"
 	quest.12F3E577725BBD4B.quest_subtitle: "Hier könnt ihr Mystical Agriculture Seeds erwerben sofern ihr bei den Quests / durch Handel keinen Erfolg hattet. Für die Seeds wird der Grundrohstoff des Seeds in einer bestimmten Menge benötigt. Eine Farm solltet ihr dazu also bereits haben. "
 	quest.13C1BA3695707A9D.quest_desc: [
@@ -412,8 +408,11 @@
 	quest.154B0F746470B712.quest_subtitle: "Energie Speichern!"
 	quest.15697EE0C7A58D46.quest_subtitle: "Aus dem neu gewonnen Flux Dust, kannst du nun einen Flux Core craften!"
 	quest.1595A8280A792BA3.quest_desc: ["Loot, oder XP können von diesem Item aufgenommen werden und in alle Richtungen aktiv abgegeben werden. "]
-	quest.16A2F679AEC22F43.quest_desc: ["Willkommen auf dem Mars, dem Planeten der wohl am freundlichsten uns Menschen gegenüber ist. Oder?"]
-	quest.16A2F679AEC22F43.quest_subtitle: "Mars"
+	quest.16A2F679AEC22F43.quest_desc: [
+		"Willkommen auf dem Nachbarplaneten Venus."
+		"Es sollen spuren von Platin hier gesichtet worden sein."
+	]
+	quest.16A2F679AEC22F43.quest_subtitle: "Venus"
 	quest.170D5325211091C5.quest_desc: ["Mit einer ME-Schnittstelle kannst Du eine gewisse Anzahl an Items bereit stellen, welche dort gelagert werden und auf Abruf bereit sind. Außerdem lassen sich Items in die Schnittstelle transferieren. Über eine Schnittstelle, lässt sich auch das ME-System auslesen."]
 	quest.1784BD61EB8B6FDC.quest_desc: [
 		"In dem Abschnitt gehen wir genauer auf Autocrafting ein. Es braucht grundlegend zwei Dinge: "
@@ -452,7 +451,7 @@
 	]
 	quest.1840E2C4550564D5.quest_subtitle: "Wie funktioniert der Reaktor?"
 	quest.18C3353BB549027C.quest_desc: ["Halt dich kompakter."]
-	quest.18C3353BB549027C.title: "Compacting Drawer"
+	quest.18D0831832FC3783.quest_subtitle: "Bei dem schaff musst du alle woll farben die es in normalen Minecraft gibt auf das Schaf Rechtsklicken"
 	quest.18D30E75DBA755F4.quest_desc: [
 		"Mit dem Ritual-Diviner lassen sich  erste BloodMagic Rituale aufbauen. Mit shift + Recht oder Linksklick, bekommst Du die Rituale im Screen angezeigt. "
 		""
@@ -561,6 +560,7 @@
 		""
 		"Zum Binden von Glyphen erstellst du in deinem Zauberbuch einen Zauber &l&bOHNE!&r eine Form, legst den Handschuh auf den Scribe's Table und benutzt das Buch mit diesen Glyphen darauf, während du geduckt bist."
 	]
+	quest.20C84AF4F5FE3B66.title: "Die Faust auf's Auge"
 	quest.20D09BE2E5AB2426.quest_desc: ["Moa-Eier können verwendet werden, um weitere Moas auszubrüten und zu züchten. Jede Farbe der Moa hat unterschiedlich starke Fähigkeiten."]
 	quest.20D09BE2E5AB2426.title: "Der beste Freund im Himmel"
 	quest.20E6914605CFDF69.quest_desc: [
@@ -575,7 +575,7 @@
 	quest.21A66CAA4865D3D0.title: "Energy Taps"
 	quest.21B643BD3ABB92CE.title: "Mache die Netherite Ausrüstung"
 	quest.21C1F8929F00A608.quest_subtitle: "Pack doch mal ein paar Seeds rein und schau was passiert. "
-	quest.21DA897D037E4872.quest_desc: ["3 Buckets werden zum Start benötigt. Denke daran genug Reserven mitzunehmen, solltest Du losfliegen."]
+	quest.21DA897D037E4872.quest_desc: ["Es werden 6 Buckets für Hin-/und Rückflug zum Mond benötigt."]
 	quest.222CCB6904E94D05.quest_desc: ["Mit dem Füllstandsemitter kannst Du ein Redstone-Signal ausgeben, welches nach Füllstand und Einstellung unterschiedlich ist. Durch eine Fertigungskarte lassen sich so Rezepte herstellen, welche sonst nur schwer automatisierbar sind. Maschinen die so auf Redstone reagieren, oder aber auch Bauteile mit einer implementieren Redstonekarte lassen sich so steuern."]
 	quest.22C52D850339AF6C.quest_desc: [
 		"Mit 3 Flaschen eines Trankes kannst du dir einen Potion Charm craften, der dir, wenn aktiviert, alle paar Sekunden seinen Potioneffekt gibt und dafür Haltbarkeit verliert. Der Charm hält sogar länger als die 3 verwendeten Tränke zusammen und erlaubt dir, die gegebene Zeitspanne freier zu nutzen."
@@ -589,6 +589,7 @@
 		"Mittels des Füllstandsemitters, lassen sich Redstonesignale ausstoßen, während ein Item gefertigt wird oder um ein Item zu fertigen, in Kombination mit einer Fertigungskarte. "
 		"Ansonsten können damit Füllstände gemessen werden, welche ein Redstone-Signal ausgeben, bei erreichen oder Unterschreiten der angegebenen Menge."
 	]
+	quest.22F9E79A0AAB0990.quest_desc: ["Ein erneutes Upgrade für deine Rakete"]
 	quest.2330E243DDA687E9.quest_desc: ["Erweitert die Distanz des Lüfters"]
 	quest.23387B6FD57598D5.quest_subtitle: "Zerlegt einen Rohstoff in Einzelteile"
 	quest.2364BE0FC6C27739.quest_desc: ["Das mit wichtigste Material in der Halbleitertechnologie."]
@@ -906,6 +907,7 @@
 	quest.3DA44DE3F547CCE6.quest_desc: ["Vernichte automatisch Items deiner Wahl!"]
 	quest.3DA44DE3F547CCE6.quest_subtitle: "Wer will den S....ß I"
 	quest.3E2D2775E7DF1B39.quest_desc: ["Mit einer ME-Schnittstelle kannst Du eine gewisse Anzahl an Items bereit stellen, welche dort gelagert werden und auf Abruf bereit sind. Außerdem lassen sich Items in die Schnittstelle transferieren. Über eine Schnittstelle, lässt sich auch das ME-System auslesen."]
+	quest.3E48D0B7608F78BD.quest_desc: ["Mittels Enriched Uranium oder sogar Blutonium, kannst Du noch weitere Strecken schaffen."]
 	quest.3E5513C235703081.quest_desc: [
 		"Fliegen? Jetzt möglich. "
 		"Shift + Leertaste gedrückt halten, lässt dich in die richtung Fliegen, wo du hinschaust. "
@@ -955,7 +957,6 @@
 	]
 	quest.40A763619721F2D5.quest_desc: ["Die Fertigungskonsole, ist ein Zugangspunkt zu Deinem ME-System. Außerdem ist eine Werkbank mit integriert. "]
 	quest.40CBA9ECA122DDFA.quest_desc: ["Mit dem Mob-Swab kannst Du Dir DNA Abstriche von Entities/ Mobs holen. Wird benötigt um Spawneier daraus zu erstellen."]
-	quest.40DFE8584AA2B00E.quest_desc: ["Eine Material was für vielerlei Crafting-rezepte benötigt wird. Unter anderem auch für die Rocket Engine"]
 	quest.40EFD7E819501CF9.quest_desc: ["Der Bloodstone ist in unserem Pack ein gated-out Item. Außerdem benötigst du diese um deinen Blood Altar aufzuwerten. "]
 	quest.412036FA034F30EA.quest_desc: ["Utherium Tools sind Ultimine Fähig. Die Waffen verursachen gegen gewisse Gegner mehr Schaden. "]
 	quest.412036FA034F30EA.title: "Utherium Tools"
@@ -1038,11 +1039,7 @@
 	quest.43F671F5C49EED69.title: "Essbares Mana"
 	quest.44041124EDB0DD59.quest_desc: ["Genug Platz für die ersten Touren! Insgesamt 27 Slots und einen Upgrade Slot!"]
 	quest.44041124EDB0DD59.quest_subtitle: "Basic Rucksack"
-	quest.44D05D9F33C12F52.quest_desc: [
-		"Besserer Treibstoff und das aus..."
-		""
-		"...Wasser?"
-	]
+	quest.44D05D9F33C12F52.quest_desc: ["Ein weiteres Upgrade für die Rakete."]
 	quest.44EA03142D3BA39E.quest_desc: ["Input und Output sind automatisierbar."]
 	quest.44EA03142D3BA39E.quest_subtitle: "Grillen geht immer II"
 	quest.44F60E7D88036BA5.quest_desc: [
@@ -1108,11 +1105,6 @@
 	]
 	quest.48A426951585B3E6.quest_desc: ["Ein Block welcher Energie aus Thermik herstellt. Den Heißen Block unter den Reaktor und den Reaktor aktiv mit Wasser kühlen. "]
 	quest.48A426951585B3E6.quest_subtitle: "Passiv Strom."
-	quest.48B1E0071D693851.quest_desc: [
-		"Das ist der Platin Dungeon. Verloren geglaubt, ein Mythos, eine Legende. Und doch hast du ihn hier gefunden."
-		""
-		"Ein letzter Boss wartet noch auf dich. Bist du bereit?"
-	]
 	quest.48C79ED35AC136C8.quest_desc: ["Mit ein paar Materialien aus dem End kann deine magische Rüstung noch weiter verbessert werden, um noch mehr Mana und Mana Regeneration sowie die maximalen Threadslots zu bekommen."]
 	quest.48C79ED35AC136C8.quest_subtitle: "doch die Leute, die die Kleider machen..."
 	quest.48C79ED35AC136C8.title: "Kleider machen Leute"
@@ -1250,7 +1242,6 @@
 	quest.534AEFBDAFA3754C.title: "Industrial Handbuch"
 	quest.537E339058A7D8F8.quest_desc: ["Mit 81 Slots und 3 Upgrade Slots, bietet er noch mehr Platz!"]
 	quest.537E339058A7D8F8.quest_subtitle: "Güldener Rucksack"
-	quest.53D4C7145B96D8E5.quest_desc: ["Ein Bauteil für die Rocket Engine."]
 	quest.53FA14DECBF4B405.quest_desc: [
 		"Fügt Mobs schaden zu."
 		"Ideale Spinnenabwehr"
@@ -1320,8 +1311,6 @@
 		"Wird benötigt um Rohre, Kabel zu konfigurieren. "
 		"Modus: Input, output, normal, nichts."
 	]
-	quest.585A1CA7B2EE72FA.quest_desc: ["Glückwunsch, Abenteurer, für deine herausragende Leistung. Möge das Glück immer mit auf deinen Wegen sein."]
-	quest.585A1CA7B2EE72FA.title: "Das wahre Ende"
 	quest.586EFD2747910C1B.quest_subtitle: "Rohstoff rein, Flüssigkeit raus."
 	quest.587C0314547F28A4.quest_desc: ["Beheading, limitiert auf 1."]
 	quest.589407ECB629164D.title: "Let's show: Industrial Foregoing"
@@ -1330,7 +1319,7 @@
 	quest.595FAE939128EC13.quest_desc: [
 		"Finde Desh-Ore. Dies wirst Du gewiss brauchen. "
 		""
-		"Man hat uns mitgeteilt, dass einige versteckte Desh-Ressourcen sich mit Void Minern abbauen lassen."
+		"Es wird gewiss einige Ressourcen mittels Void-Minern geben."
 	]
 	quest.59E92107A4481944.quest_desc: [
 		"Ab der zweiten Woche kannst du jetzt 50 Chunks (pro Spieler im Team) claimen."
@@ -1437,11 +1426,10 @@
 	quest.61474F5C289C9886.title: "Deine ersten Drawer"
 	quest.61BAEC3E8D33CC67.quest_desc: ["Ofen im Rucksack, was sollte da schief gehen."]
 	quest.61BAEC3E8D33CC67.quest_subtitle: "Ofen to go I"
-	quest.61BEBF328D912D14.quest_desc: ["Ein Raketenbauteil."]
 	quest.61DC0E19528E8BD5.quest_desc: ["Demonite brauchst du u.a. dafür, um deinen Altar auf die höchste Stufe zu upgraden."]
 	quest.6207186159232DB8.quest_desc: ["Mehr Filteroptionen!"]
 	quest.6207186159232DB8.quest_subtitle: "Feuchte Angelegenheit II"
-	quest.625BCE0C411DF831.quest_desc: ["In der Nasawerkbank baust Du deine Raketen. Um zu anderen Planeten zu reisen, wirst Du dieses Item benötigen."]
+	quest.625BCE0C411DF831.quest_desc: ["In der Raketenwerkbank baust Du deine Raketen. Um zu anderen Planeten zu reisen, wirst Du dieses Item benötigen."]
 	quest.625BCE0C411DF831.quest_subtitle: "Schon abgespaced"
 	quest.62846CD8CD6D04F4.quest_desc: [
 		"Der Erz Laser funktioniert ähnlich wie der Fluid Laser, fördert allerdings abhängig von Dimension und Bohrtiefe unterschiedliche Erze."
@@ -1538,7 +1526,7 @@
 		"Als ob das Vakuum nicht schon Lebensfeindlich genug ist. "
 		"Hitze, höherer Atmosphärendruck und Säuren soll dieser Raumanzug abkönnen."
 	]
-	quest.6A8AA0E31C3F2F47.quest_desc: ["Ostrum Ingot findest Du auf dem Mars. Auch hier sollte man mal Probebohrungen anstellen. Ggf. findest Du versteckte Ostrumvorkommen."]
+	quest.6A8AA0E31C3F2F47.quest_desc: ["Auf der Venus findest Du immer wieder mal Platin. Sollte man mitnehmen."]
 	quest.6AB3A23E011C7A70.quest_desc: ["Wird aus Certus hergestellt."]
 	quest.6AEC7D9E608F9708.quest_desc: ["Eine wichtige Komponente in AE2 um Peripheriegeräte herzustellen."]
 	quest.6BC62E21B31D6CB9.quest_desc: ["Findet man im End"]
@@ -1585,6 +1573,7 @@
 	quest.6E93D46AB70FC4EA.quest_desc: ["Richtig der Rucksack kann als Pumpe arbeiten. Wie? Keine Ahnung Frag jemand anderes!"]
 	quest.6E93D46AB70FC4EA.quest_subtitle: "Feuchte Angelegenheit I"
 	quest.6E9DAFBCD3D19E5B.quest_desc: ["Damit nicht alle in der Dimension von den Endboss Sounds mitbekommen, kannst Du die folgenden Blöcke dafür nutzen, die Sounds zu unterdrücken."]
+	quest.6F14BA01A20E3D8F.quest_desc: ["Du benötigst Iridium um ein besseres Rocket Upgrade zu bauen."]
 	quest.6F393C46B730C789.quest_desc: [
 		"Der ME-IO Port transferiert schnell Items von Festplatten auf ein vorhandenes System, oder auch umgekehrt. "
 		""
@@ -1626,7 +1615,7 @@
 		"Items müssen effektiv in das ME-System aufgenommen werden, sodass der Prozessor auch einen Fortschritt erkennt. Es reicht nicht aus, die Items mittels Speicherbus abzurufen."
 	]
 	quest.711EB48525AA6836.quest_desc: ["Du kannst gesammeltes Oxygen abgeben um so einen etwas Lebensfreundlicheren Raum zu gestalten. In einem geschlossenen Raum, wird nicht so viel Oxygen verbraucht. Schaffst Du es eine gescheite Raumstation zu erstellen?"]
-	quest.71E143531BC06CA8.quest_desc: ["Cryo Fuel kann benutzt werden als verbesserter Treibstoff. Ein Eimer Cryo Treibstoff ersetzt drei normale Treibstoffeimer."]
+	quest.71E143531BC06CA8.quest_desc: ["Mit dem Wasserstoff als Treibstoff, wirst Du nun in der Lage sein, weitere Entfernungen im Solarsystem zurückzulegen. "]
 	quest.728F7FBD7DA50204.quest_desc: ["In einem Ladegerät lässt sich primär herstellen: Geladener Certus Quartz. Des weiteren kannst Du auch das mittlerweile Neu eingefügte Guide-Buch von Applied darin herstellen, oder auch einen Meteoritenkompass"]
 	quest.728F7FBD7DA50204.quest_subtitle: "Der (Lade)gerät"
 	quest.7294DBAAA5588E92.quest_subtitle: "Zum kopieren von gesetzten Einstellungen des Flux Points und des Flux Plugs."
@@ -1668,7 +1657,7 @@
 	quest.7595DD9DE29C0C44.quest_desc: ["Natürlich braucht es Speicher. Eine bessere Methode Blut zu speichern stellt der Blut Orb da. Dieser bildet sein eigenes Netzwerk und ist gänzlich für neue Mythen und Rituale nutzbar. Auch einige antike Rezepte sollen mit dem Orb als Katalyst funktionieren. Wenn man den Gelehrten glauben schenken darf, so füllt sich dieser im Blut Altar auf."]
 	quest.7595DD9DE29C0C44.quest_subtitle: "Welcher kühne Magier hat auch keinen?"
 	quest.7595DD9DE29C0C44.title: "Natürlich ist es ein Orb"
-	quest.759B24F5EB490DB0.quest_desc: ["Nach dem Du genug Desh Erz gesammelt hast, ist es an der Zeit, eine Leistungsstärkere Rakete zu bauen."]
+	quest.759B24F5EB490DB0.quest_desc: ["Nach dem Du genug Desh Erz gesammelt hast, ist es an der Zeit, ein Upgrade für deine Rakete zu bauen."]
 	quest.75B1DFF177DB3EEB.quest_desc: ["Ob zum weitercraften fürs Essen, zum herstellen eines stylischen Gefährten oder einfach zum craften für eine spiltter Bombe - es ist alles dabei. "]
 	quest.75BA799EEA809FA5.quest_desc: ["Noch viel viel viel mehr stacken!"]
 	quest.75BA799EEA809FA5.quest_subtitle: "MEEEEEEEHR IV"
@@ -1798,6 +1787,7 @@
 	reward_table.5CA59D5BF413471C.title: "meka mid "
 	reward_table.67D5535CC0B3DD64.title: "Agriculture Tear2"
 	task.009105FF3AC43AE2.title: "Functional Storage"
+	task.012ED275E250F620.title: "TODO Tagesquest einfügen"
 	task.01BD2A1FE8967AB2.title: "Finde den Blinding Dungeon"
 	task.03BC595DF682AD4B.title: "Everbright"
 	task.03D6F3D7B3CAF8DE.title: "Any Cloggrum Tool"
@@ -1838,7 +1828,6 @@
 	task.25870ACE1953A776.title: "Körper"
 	task.26A963D2B34DB6C0.title: "Any Froststeel Armor"
 	task.2826BBB3BCCA1C4D.title: "Any Utherium Tool"
-	task.289C9B3C40AAFEB4.title: "Unknown type: questsadditions:use"
 	task.2B5132463EBEBFDE.title: "Edelsteine für edle Steinenthusiasten"
 	task.2B91BA2F29F2F6D6.title: "Die größe des Systems"
 	task.2CC503728D6D0642.title: "Everdawn"
