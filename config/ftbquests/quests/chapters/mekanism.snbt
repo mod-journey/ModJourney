@@ -1,4 +1,5 @@
 {
+	autofocus_id: "67E0A85291DD6898"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mekanism"
@@ -33,78 +34,6 @@
 			width: 3.0d
 			x: -13.0d
 			y: -2.0d
-		}
-		{
-			height: 1.0d
-			image: "kubejs:textures/background/green_symboles/letters/m.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -12.0d
-			y: -9.5d
-		}
-		{
-			height: 1.0d
-			image: "kubejs:textures/background/green_symboles/letters/o.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -11.0d
-			y: -9.5d
-		}
-		{
-			height: 1.0d
-			image: "kubejs:textures/background/green_symboles/letters/d.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -10.0d
-			y: -9.5d
-		}
-		{
-			height: 1.0d
-			image: "kubejs:textures/background/green_symboles/letters/j.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -9.0d
-			y: -9.5d
-		}
-		{
-			height: 1.0d
-			image: "kubejs:textures/background/green_symboles/letters/u.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -8.0d
-			y: -9.5d
-		}
-		{
-			height: 1.0d
-			image: "kubejs:textures/background/green_symboles/letters/n.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.0d
-			y: -9.5d
-		}
-		{
-			height: 1.0d
-			image: "kubejs:textures/background/green_symboles/letters/e.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -5.0d
-			y: -9.5d
-		}
-		{
-			height: 1.0d
-			image: "kubejs:textures/background/green_symboles/letters/y.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: -9.5d
-		}
-		{
-			height: 1.0d
-			image: "kubejs:textures/background/green_symboles/letters/r.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -7.0d
-			y: -9.5d
 		}
 	]
 	order_index: 1
@@ -1262,28 +1191,6 @@
 			]
 			x: -11.5d
 			y: -1.0d
-		}
-		{
-			dependencies: ["67E0A85291DD6898"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			id: "08B4E28823102BBD"
-			optional: true
-			rewards: [{
-				count: 2
-				id: "2AA626C148530211"
-				item: {
-					count: 1
-					id: "minecraft:dirt"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "58BEF53529013D68"
-				type: "checkmark"
-			}]
-			x: -43.0d
-			y: 14.0d
 		}
 		{
 			dependencies: ["0C75BC287EE0BB4B"]
