@@ -8,10 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"0A07C47718CD1F80"
-				"4AED5A8C9C70A9C9"
-			]
+			dependencies: ["4AED5A8C9C70A9C9"]
 			dependency_requirement: "one_completed"
 			id: "2F46349E2FB2FB5E"
 			rewards: [
@@ -620,7 +617,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["0A07C47718CD1F80"]
 			id: "5317D16EC35D2E6F"
 			rewards: [
 				{
@@ -958,7 +954,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0A07C47718CD1F80"]
 			id: "711BD2AFB5308AC5"
 			rewards: [
 				{
