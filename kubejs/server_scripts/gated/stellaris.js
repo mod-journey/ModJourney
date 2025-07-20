@@ -16,6 +16,14 @@ let stellaris_gated = (event, active, debug) => {
 
     event.replaceInput({ output: 'stellaris:hydrogen_motor' }, "minecraft:diamond", "#c:plates/platinum")
     event.replaceInput({ output: 'stellaris:radioactive_motor' }, "#c:ingots/uranium", "#c:plates/iridium")
+    event.replaceInput({ output: "stellaris:rover" }, "stellaris:cable", "stellaris:desh_ingot")
+    event.replaceInput({ output: "stellaris:oxygen_distributor" }, "minecraft:lapis_lazuli", "stellaris:desh_ingot")
+
+    let replace_cable = ['stellaris:fuel_refinery', 'stellaris:water_pump']
+
+    replace_cable.forEach(new_cable => {
+        event.replaceInput({ output: new_cable }, "stellaris:cable", "pipez:energy_pipe")
+    });
 
 
 }
