@@ -1,8 +1,12 @@
 {
+	autofocus_id: "120748C2D29DA6FC"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "sophicated_bagbacks"
 	group: "12D6D4D26DC1B099"
+	icon: {
+		id: "sophisticatedbackpacks:backpack"
+	}
 	id: "498D9D93A15CB670"
 	order_index: 2
 	quest_links: [ ]
