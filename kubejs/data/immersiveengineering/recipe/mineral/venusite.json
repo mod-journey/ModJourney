@@ -1,7 +1,9 @@
 {
     "type": "immersiveengineering:mineral_mix",
-    "dimensions": [
-      "ad_astra:venus"
+    "biome_predicates": [
+      [
+        "ad_astra:venus"
+      ]
     ],
     "fail_chance": 0.2,
     "ores": [
