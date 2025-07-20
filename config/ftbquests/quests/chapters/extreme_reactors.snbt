@@ -8,10 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"0A07C47718CD1F80"
-				"12D3B4B92CA5252C"
-			]
+			dependencies: ["12D3B4B92CA5252C"]
 			dependency_requirement: "one_completed"
 			id: "280D95E313DDA71D"
 			tasks: [{
