@@ -1,7 +1,9 @@
 {
     "type": "immersiveengineering:mineral_mix",
-    "dimensions": [
-      "ad_astra:glacio"
+    "biome_predicates": [
+      [
+        "ad_astra:glacio"
+      ]
     ],
     "fail_chance": 0.2,
     "ores": [
