@@ -16,6 +16,7 @@
 				"7C598C88ABF08E11"
 			]
 			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "43120BDFFF95EF89"
 			rewards: [
