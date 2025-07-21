@@ -1,4 +1,4 @@
-let stellaris_tags = (event, active, debug) => {
+let item_stellaris = (event, active, debug) => {
     if (!active) return;
 
     let uran = [
