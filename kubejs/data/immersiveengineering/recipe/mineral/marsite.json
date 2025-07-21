@@ -2,21 +2,33 @@
     "type": "immersiveengineering:mineral_mix",
     "biome_predicates": [
       [
-        "ad_astra:mars"
+        "stellaris:mars"
       ]
     ],
     "fail_chance": 0.2,
     "ores": [
       {
+        "chance": 0.3,
+        "output": {
+          "item": "stellaris:mars_diamond_ore"
+        }
+      },
+      {
         "chance": 0.1,
         "output": {
-          "item": "ad_astra:mars_ostrum_ore"
+          "item": "stellaris:mars_plutonium_ore"
         }
       },
       {
         "chance": 0.4,
         "output": {
-          "item": "ad_astra:mars_iron_ore"
+          "item": "stellaris:mars_ostrum_ore"
+        }
+      },
+      {
+        "chance": 0.8,
+        "output": {
+          "item": "stellaris:mars_iron_ore"
         }
       }
     ],
@@ -24,25 +36,19 @@
       {
         "chance": 0.1,
         "output": {
-          "item": "ad_astra:mars_ice_shard_ore"
+          "item": "stellaris:mars_ice_shard_ore"
         }
       },
       {
         "chance": 0.5,
         "output": {
-          "item": "ad_astra:mars_sand"
+          "item": "stellaris:mars_sand"
         }
       },
       {
         "chance": 0.4,
         "output": {
-          "item": "ad_astra:mars_stone"
-        }
-      },
-      {
-        "chance": 0.3,
-        "output": {
-          "item": "ad_astra:conglomerate"
+          "item": "stellaris:mars_stone"
         }
       }
     ],
