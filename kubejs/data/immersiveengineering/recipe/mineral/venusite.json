@@ -2,7 +2,7 @@
     "type": "immersiveengineering:mineral_mix",
     "biome_predicates": [
       [
-        "ad_astra:venus"
+        "stellaris:venus"
       ]
     ],
     "fail_chance": 0.2,
@@ -10,19 +10,19 @@
       {
         "chance": 0.1,
         "output": {
-          "item": "ad_astra:venus_calorite_ore"
+          "item": "stellaris:venus_neptunium_ore"
         }
       },
       {
         "chance": 0.7,
         "output": {
-          "item": "ad_astra:venus_gold_ore"
+          "item": "stellaris:venus_gold_ore"
         }
       },
       {
         "chance": 0.2,
         "output": {
-          "item": "ad_astra:venus_diamond_ore"
+          "item": "stellaris:venus_diamond_ore"
         }
       }
 
@@ -31,25 +31,25 @@
       {
         "chance": 0.3,
         "output": {
-          "item": "ad_astra:venus_coal_ore"
+          "item": "stellaris:venus_coal_ore"
         }
       },
       {
         "chance": 0.5,
         "output": {
-          "item": "ad_astra:venus_sand"
+          "item": "stellaris:venus_sand"
         }
       },
       {
         "chance": 0.3,
         "output": {
-          "item": "ad_astra:venus_stone"
+          "item": "stellaris:venus_stone"
         }
       },
       {
         "chance": 0.3,
         "output": {
-          "item": "ad_astra:venus_sandstone"
+          "item": "stellaris:venus_sandstone"
         }
       }
     ],
