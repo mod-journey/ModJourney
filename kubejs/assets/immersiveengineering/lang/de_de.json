@@ -8,5 +8,11 @@
   "desc.immersiveengineering.info.mineral.nether_silt": "Seelenschlick",
   "desc.immersiveengineering.info.mineral.amethyst_crevasse": "Amethyst Spalte",
   "desc.immersiveengineering.info.mineral.hardened_clay_pan": "Gehärtete Tonpfanne",
-  "desc.immersiveengineering.info.mineral.ancient_seabed": "Alter Meeresgrund"
+  "desc.immersiveengineering.info.mineral.ancient_seabed": "Alter Meeresgrund",
+  "tag.biome.minecraft.is_overworld": "in der Oberwelt",
+  "tag.biome.mod_journey.farmworld": "in der Farmwelt",
+  "tag.biome.stellaris.moon": "auf dem Mond",
+  "tag.biome.stellaris.moon": "auf dem Mars",
+  "tag.biome.stellaris.mercury": "auf dem Merkur",
+  "tag.biome.stellaris.venus": "auf der Venus"
 }
