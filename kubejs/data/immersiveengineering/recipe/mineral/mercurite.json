@@ -2,7 +2,7 @@
     "type": "immersiveengineering:mineral_mix",
     "biome_predicates": [
       [
-        "ad_astra:mercury"
+        "stellaris:mercury"
       ]
     ],
     "fail_chance": 0.2,
@@ -10,7 +10,7 @@
     {
         "chance": 0.7,
         "output": {
-            "item": "ad_astra:mercury_iron_ore"
+            "item": "stellaris:mercury_iron_ore"
         }
     }
     ],
@@ -24,7 +24,7 @@
       {
         "chance": 0.4,
         "output": {
-            "item": "ad_astra:mercury_stone"
+            "item": "stellaris:mercury_stone"
         }
       },
       {
