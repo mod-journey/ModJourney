@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#stellaris:mars_biomes",
+  "features": ["mod_journey:ore_iridium"],
+  "step": "underground_ores"
+}
