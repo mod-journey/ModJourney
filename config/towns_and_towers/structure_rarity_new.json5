@@ -20,9 +20,9 @@ GitHub Repository: [NEED TO MAKE ONE]
 		// DEFAULT 48
 		"spacing": 48,
 		// DEFAULT 24
-		"separation": 24,
+		"separation": 12,
 		"frequency": 0.2,
-		"salt": 205745294
+		"salt": 213742069
 	},
 	// Here you can find all structures that aren't villages or outposts.
 	"other": {
@@ -30,14 +30,14 @@ GitHub Repository: [NEED TO MAKE ONE]
 		"spacing": 32,
 		// DEFAULT 16
 		"separation": 16,
-		"salt": 30084234
+		"salt": 213742069
 	},
 	// Here you can find all villages.
 	"towns": {
 		// DEFAULT 48
-		"spacing": 48,
+		"spacing": 51,
 		// DEFAULT 24
-		"separation": 24,
-		"salt": 10587309
+		"separation": 12,
+		"salt": 213742069
 	}
 }
