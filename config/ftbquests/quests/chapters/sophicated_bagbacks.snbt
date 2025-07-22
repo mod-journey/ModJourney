@@ -967,11 +967,8 @@
 			rewards: [{
 				id: "08052B6C57B632D6"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -980,7 +977,7 @@
 				item: { count: 1, id: "sophisticatedbackpacks:jukebox_upgrade" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: 15.0d
 			y: 1.5d
 		}
 		{
@@ -1095,6 +1092,158 @@
 			}]
 			x: -3.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "12BCB3661FB6ED27"
+			rewards: [{
+				id: "3E3446EEC76946E4"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46E3758AD460066C"
+				item: { count: 1, id: "sophisticatedbackpacks:alchemy_upgrade" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["12BCB3661FB6ED27"]
+			id: "6B826441604FE86F"
+			rewards: [{
+				id: "7BFDAC1CA55B7C81"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3032313ADB13D645"
+				item: { count: 1, id: "sophisticatedbackpacks:advanced_alchemy_upgrade" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C756D847549EF66"]
+			id: "346963DA712EE10B"
+			rewards: [{
+				id: "584C0666555C9F8E"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "66456A39D7676FC1"
+				item: { count: 1, id: "sophisticatedbackpacks:advanced_jukebox_upgrade" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "05E2C9D1ECFFFB78"
+			rewards: [{
+				id: "228FF1B34C1FC9E8"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31BADDF54B8FC989"
+				item: { count: 1, id: "sophisticatedbackpacks:smithing_upgrade" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DA3986217ADE592"]
+			id: "0ECF017D956A1888"
+			rewards: [{
+				id: "18D0D29096C6CA63"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C660D5DDC482067"
+				item: { count: 1, id: "sophisticatedbackpacks:stack_downgrade_tier_1" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0ECF017D956A1888"]
+			id: "1E451003EF476340"
+			rewards: [{
+				id: "5A592A325794BA28"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BD97883D4E5A284"
+				item: { count: 1, id: "sophisticatedbackpacks:stack_downgrade_tier_2" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E451003EF476340"]
+			id: "34EB0D38C503FF3C"
+			rewards: [{
+				id: "1FAC8EACFD1035A5"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D4DF3163B4921F9"
+				item: { count: 1, id: "sophisticatedbackpacks:stack_downgrade_tier_3" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["120748C2D29DA6FC"]
+			id: "7F5E5E0EC90AD4A5"
+			rewards: [{
+				id: "172FDC4F31957F24"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "652BDC882F8B7727"
+				item: { count: 1, id: "sophisticatedcore:xp_bucket" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
 		}
 	]
 }

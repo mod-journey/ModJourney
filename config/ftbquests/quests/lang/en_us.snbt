@@ -120,6 +120,9 @@
 	]
 	quest.05BD7F9376C6E8B3.title: "Stürze die Monarchin"
 	quest.05CD468D86DA4DC1.quest_subtitle: "Ein mit Strom betriebener AutoCrafter"
+	quest.05E2C9D1ECFFFB78.quest_desc: ["\"Mr. Smithers to go\" ist dein Schmiedetisch-Upgrade, für deinen Rucksack."]
+	quest.05E2C9D1ECFFFB78.quest_subtitle: "Mr. Smithers"
+	quest.05E2C9D1ECFFFB78.title: "Schmiede-Upgrade"
 	quest.06236B87230672E6.quest_desc: ["Dein Hopper fehlt es an Reichweite, probiere es mit Upgrades."]
 	quest.06417ADE2F421986.quest_desc: ["Es schalten sich nun neue Runen frei, welche Du craften kannst. Außerdem sollte dein Blutaltar durch die neuen Möglichkeiten noch Leistungsstärker werden."]
 	quest.064778D724C27365.quest_desc: ["Durch Spaltung wird aus dem Yellorium Cyanite gewonnen"]
@@ -312,6 +315,9 @@
 		"Item = Liquid"
 	]
 	quest.0E98FD728C17E820.title: "Fluidizer"
+	quest.0ECF017D956A1888.quest_desc: ["Weniger als 64 Stackbar."]
+	quest.0ECF017D956A1888.quest_subtitle: "WEEEENIGER I"
+	quest.0ECF017D956A1888.title: "Stack-Downgrade Tier 1"
 	quest.0EE9BD17F58E71EC.quest_desc: [
 		"Bestimmt fragst du dich, ob es möglich ist, Source auch irgendwie zu sammeln und zu lagern."
 		"Sehet und staunet: Ein Source Jar."
@@ -359,6 +365,9 @@
 	quest.120748C2D29DA6FC.title: "Sophisticated Backpacks"
 	quest.1274A16CCC2F9F25.quest_desc: ["Eine Konsole. Gewährt Dir Zugriff auf dein ME-System. "]
 	quest.12A4F63F84843AA8.quest_desc: ["Mittels dem Oxygen-Loader lassen sich Sauerstofftanks oder Eimer befüllen. Diese kannst Du für deinen Raumanzug benutzen. Leite Wasser und Energie in den Block, um Sauerstoff zu erhalten."]
+	quest.12BCB3661FB6ED27.quest_desc: ["Automatisch Tränke konsumieren. Für die ganz harten ist der Milch-Eimer zu empfehlen."]
+	quest.12BCB3661FB6ED27.quest_subtitle: "Jesse Pinkman"
+	quest.12BCB3661FB6ED27.title: "Alchemie-Upgrade"
 	quest.12D3B4B92CA5252C.title: "Let's show: Extreme Reactor"
 	quest.12F3E577725BBD4B.quest_subtitle: "Hier könnt ihr Mystical Agriculture Seeds erwerben sofern ihr bei den Quests / durch Handel keinen Erfolg hattet. Für die Seeds wird der Grundrohstoff des Seeds in einer bestimmten Menge benötigt. Eine Farm solltet ihr dazu also bereits haben. "
 	quest.13C1BA3695707A9D.quest_desc: [
@@ -513,6 +522,9 @@
 	]
 	quest.1DF4F965DC9C9F39.title: "Upgrades, people. Upgrades"
 	quest.1E1AF7E8C99B85D4.title: "Gut Sachen zum kämpfen "
+	quest.1E451003EF476340.quest_desc: ["Noch weniger stacken."]
+	quest.1E451003EF476340.quest_subtitle: "WEEEENIGER II"
+	quest.1E451003EF476340.title: "Stack-Downgrade Tier 2"
 	quest.1E78C6170EC5067E.quest_desc: ["Zaubersprüche, Rituale, Magische Apparaturen und Tierbegleiter. Das und noch mehr bietet Ars Nouveau."]
 	quest.1E78C6170EC5067E.quest_subtitle: "Willkommen bei Ars Nouveau"
 	quest.1E86BC238F738A44.quest_desc: ["Graphit wird aus Kohle hergestellt. Das wirst Du brauchen. Viel sogar."]
@@ -746,6 +758,12 @@
 	quest.33AA5240D8DC2EC9.quest_subtitle: "Voll machen bitte II"
 	quest.33B1489D36D5EEFC.quest_desc: ["Die Vergessenen Hallen sind ein semi starker Dungeon mit einer Hülle von Spawnern und Lootchests. Außerdem hausen hier schon längst vergessene Monster."]
 	quest.33C76E3BA8A79D32.title: "Ingots"
+	quest.346963DA712EE10B.quest_desc: ["Es ist Zeit für etwas Party!"]
+	quest.346963DA712EE10B.quest_subtitle: "Dein Rave!"
+	quest.346963DA712EE10B.title: "Erweitertes Jukebox-Upgrade"
+	quest.34EB0D38C503FF3C.quest_desc: ["Noch viel weniger stacken."]
+	quest.34EB0D38C503FF3C.quest_subtitle: "WEEEENIGER III"
+	quest.34EB0D38C503FF3C.title: "Stack-Downgrade Tier 3"
 	quest.35117936FBC60CA3.quest_subtitle: "Eine Angelmaschine. Machst du den großen Fang?"
 	quest.3563D0E47D3E64BD.quest_subtitle: "Baue eine Mobfarm aus EnderIO Komponenten um an Liquid EXP zu gelangen "
 	quest.357BF596A36CC80F.quest_desc: [
@@ -1774,6 +1792,8 @@
 	]
 	quest.7EFF472EB4F530FE.quest_subtitle: "Graben wie ein Maulwurf"
 	quest.7F0B55925E6BB823.quest_desc: ["Die Speicherkarte, kann Einstellungen speichern, wie Filter oder eingelegte Zusatzkarten in Geräten. \"Shift + Rechtsklick\" kopiert die Einstellung. Mittels einem Rechtsklick, wird die Einstellung dann auf das neue Gerät übertragen. Es müssen Geräte der gleichen Baugruppe sein. Außerdem lässt sich die Speicherkarte auch für die Tunnelkonfiguration benutzen und ist ein wichtiger Bestandteil davon. Dazu später mehr im Kapitel:"]
+	quest.7F5E5E0EC90AD4A5.quest_desc: ["Für was auch immer dieser Eimer gut ist?"]
+	quest.7F5E5E0EC90AD4A5.quest_subtitle: "EEEEXXP!!"
 	quest.7FFFE7F06BF8115C.quest_desc: [
 		"Den eingestellten Filter ein mal Negieren. "
 		"Du gibst als Filter Redstone an, schmeißt die Karte in den Upgrade-Slot und es wird alles außer Redstone ausgewählt!"
