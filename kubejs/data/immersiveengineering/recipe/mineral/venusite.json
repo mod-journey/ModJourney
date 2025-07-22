@@ -10,19 +10,19 @@
       {
         "chance": 0.1,
         "output": {
-          "item": "stellaris:venus_neptunium_ore"
+          "id": "stellaris:venus_neptunium_ore"
         }
       },
       {
         "chance": 0.7,
         "output": {
-          "item": "stellaris:venus_gold_ore"
+          "id": "stellaris:venus_gold_ore"
         }
       },
       {
         "chance": 0.2,
         "output": {
-          "item": "stellaris:venus_diamond_ore"
+          "id": "stellaris:venus_diamond_ore"
         }
       }
 
@@ -31,25 +31,25 @@
       {
         "chance": 0.3,
         "output": {
-          "item": "stellaris:venus_coal_ore"
+          "id": "stellaris:venus_coal_ore"
         }
       },
       {
         "chance": 0.5,
         "output": {
-          "item": "stellaris:venus_sand"
+          "id": "stellaris:venus_sand"
         }
       },
       {
         "chance": 0.3,
         "output": {
-          "item": "stellaris:venus_stone"
+          "id": "stellaris:venus_stone"
         }
       },
       {
         "chance": 0.3,
         "output": {
-          "item": "stellaris:venus_sandstone"
+          "id": "stellaris:venus_sandstone"
         }
       }
     ],

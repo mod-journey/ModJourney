@@ -16,7 +16,7 @@
     {
       "chance": 0.1,
       "output": {
-        "item": "stellaris:moon_desh_ore"
+        "id": "stellaris:moon_desh_ore"
       }
     }
   ],
@@ -32,14 +32,14 @@
       "chance": 0.5,
       "output": {
         "count": 1,
-        "item": "stellaris:moon_stone"
+        "id": "stellaris:moon_stone"
       }
     },
     {
       "chance": 0.3,
       "output": {
         "count": 1,
-        "item": "stellaris:moon_sand"
+        "id": "stellaris:moon_sand"
       }
     }
   ],

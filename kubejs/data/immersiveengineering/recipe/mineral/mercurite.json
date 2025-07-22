@@ -10,7 +10,7 @@
     {
         "chance": 0.7,
         "output": {
-            "item": "stellaris:mercury_iron_ore"
+            "id": "stellaris:mercury_iron_ore"
         }
     }
     ],
@@ -18,19 +18,19 @@
       {
         "chance": 0.2,
         "output": {
-            "item": "minecraft:magma_block"
+            "id": "minecraft:magma_block"
         }
       },
       {
         "chance": 0.4,
         "output": {
-            "item": "stellaris:mercury_stone"
+            "id": "stellaris:mercury_stone"
         }
       },
       {
         "chance": 0.2,
         "output": {
-            "item": "minecraft:blackstone"
+            "id": "minecraft:blackstone"
         }
       }
     ],
