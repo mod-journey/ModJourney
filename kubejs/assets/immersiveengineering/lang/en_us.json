@@ -5,8 +5,8 @@
   "desc.immersiveengineering.info.mineral.lunarite": "Lunarite",
   "desc.immersiveengineering.info.mineral.venusite": "Venusite",
   "tag.biome.mod_journey.farmworld": "in the Farmworld",
-  "tag.biome.stellaris.moon": "on the Mond",
-  "tag.biome.stellaris.mars": "on the Mars",
-  "tag.biome.stellaris.mercury": "on the Merkur",
-  "tag.biome.stellaris.venus": "on the Venus"
+  "tag.biome.stellaris.moon_biomes": "on the Mond",
+  "tag.biome.stellaris.mars_biomes": "on the Mars",
+  "tag.biome.stellaris.mercury_biomes": "on the Merkur",
+  "tag.biome.stellaris.venus_biomes": "on the Venus"
 }

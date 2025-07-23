@@ -2,7 +2,7 @@
     "type": "immersiveengineering:mineral_mix",
     "biome_predicates": [
       [
-        "stellaris:venus"
+        "stellaris:venus_biomes"
       ]
     ],
     "fail_chance": 0.2,

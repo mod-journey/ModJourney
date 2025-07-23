@@ -2,7 +2,7 @@
   "type": "immersiveengineering:mineral_mix",
   "biome_predicates": [
     [
-      "stellaris:moon"
+      "stellaris:moon_biomes"
     ]
   ],
   "fail_chance": 0.2,
