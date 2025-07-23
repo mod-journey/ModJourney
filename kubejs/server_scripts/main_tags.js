@@ -15,15 +15,17 @@ if (item_tags) {
         ato_tags(event, false)
         tag_event_mj_scrolls(event, true)
         extreme_reactor_tag(event, true)
+        stellaris_tags(event, true)
+        tag_fuer_event(event, true)
         item_stellaris(event, true)
 
     })
 
-if (fluid_tags) {
+    if (fluid_tags) {
 
-    ServerEvents.tags("fluid", event => {
+        ServerEvents.tags("fluid", event => {
 
-        fluid_stellaris(event, true)
-    })
-}
+            fluid_stellaris(event, true)
+        })
+    }
 }
