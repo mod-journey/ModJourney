@@ -5,7 +5,7 @@
   "color": "a4b2a9",
   "armorPoints": 3,
   "enchantability": 15,
-  "craftingMaterial": "tag:forge:ingots/invar",
+  "craftingMaterial": "tag:c:ingots/invar",
   "creative": false,
   "rarity": 0,
   "toughness": 0.0,

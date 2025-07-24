@@ -5,7 +5,7 @@
   "color": "565656",
   "armorPoints": 3,
   "enchantability": 15,
-  "craftingMaterial": "tag:forge:ingots/steel",
+  "craftingMaterial": "tag:c:ingots/steel",
   "creative": false,
   "rarity": 0,
   "toughness": 0.0,

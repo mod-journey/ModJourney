@@ -1,7 +1,0 @@
-#ignore some configs, that also not tracked in git. Thats change is temp.
-/*
-
-#don't ignore the gitignore. I understood....... ;-D
-!/
-!/.gitignore
-!/ftbquests

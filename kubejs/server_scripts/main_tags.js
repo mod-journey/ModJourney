@@ -1,8 +1,9 @@
 // priority: 100
 
-let main_tags = true;
+let item_tags = true;
+let fluid_tags = true;
 
-if (main_tags) {
+if (item_tags) {
     ServerEvents.tags('item', event => {
 
         ores_ad_astra_tag(event, false)
@@ -14,7 +15,16 @@ if (main_tags) {
         ato_tags(event, false)
         tag_event_mj_scrolls(event, true)
         extreme_reactor_tag(event, true)
-        stellaris_tags(event, true)
+        tag_fuer_event(event, true)
+        item_stellaris(event, true)
 
     })
+
+    if (fluid_tags) {
+
+        ServerEvents.tags("fluid", event => {
+
+            fluid_stellaris(event, true)
+        })
+    }
 }

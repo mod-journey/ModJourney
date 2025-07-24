@@ -61,7 +61,7 @@
 		energyUse = 1
 		# Default: 10000
 		# Range: > 100
-		maxEnergy = 1000
+		maxEnergy = 10000
 
 	[items.travelling]
 		# Default: 24
