@@ -240,6 +240,7 @@
 	quest.0D02FD3C537A6CBD.quest_desc: ["Mehr Höhe für den Lüfter"]
 	quest.0D1CE7A2E7381A55.quest_desc: [""]
 	quest.0D454879B07A1A02.quest_subtitle: "Zerstört Items. Papierkorb eben. Vorher alles gespeichert?"
+	quest.0D7A9326A779CF33.quest_subtitle: "fast reload"
 	quest.0D8E474F76C125F7.quest_desc: ["Genau das Richtige, um große Mengen an Tränken zu lagern und zu verarbeiten."]
 	quest.0D8E474F76C125F7.title: "Große Trankbehälter"
 	quest.0D945505970ACD00.quest_desc: [
@@ -987,6 +988,7 @@
 		"Magische Nahrungsquellen aus Ars Nouveau bringen sogar noch mehr Source ein."
 	]
 	quest.41A2BB314608A5F0.title: "Die Macht der Nahrung"
+	quest.41AC786E79F24EA5.quest_subtitle: "Just Damage"
 	quest.41D35D57A1FFF21E.quest_desc: ["Auch Flüssigkeiten lassen sich speichern."]
 	quest.41E3D818423C9002.quest_desc: ["Erhöht die Distanz des Entity Spawners"]
 	quest.421053C942FFE45C.quest_subtitle: "Der Rahmen für den Energiespeicher!"
@@ -1115,6 +1117,7 @@
 	quest.4834BF938B07C244.title: "&4Das Ultimative Lager für Verzauberungen"
 	quest.483E162A53914816.quest_desc: ["Ein Kabel um Strom zu übertragen. nicht mit FE kompatibel"]
 	quest.485A3002F4BD15FF.quest_desc: ["Teile deiner Schnittstelle oder deinem Export Bus anhand dieser Karte mit, dass das Item welches exportiert werden soll automatisch gecraftet wird. Außerdem kannst wählen, ob Items auf bestand benutzt werden sollen, oder explizit neu gecraftet wird. Das Item welches gefertigt werden soll, muss von deinem ME-System aus schon craftbar sein. "]
+	quest.486C8E600D7D2750.quest_subtitle: "Ranged and Close combat"
 	quest.4893E67ED9A2FD40.quest_desc: [
 		"Ein Basismodul für Update-Karten."
 		""
@@ -1664,6 +1667,7 @@
 	quest.749043D84EC00449.quest_subtitle: "Ist ein kleiner guide"
 	quest.749043D84EC00449.title: "Karte des Waldes "
 	quest.74B147C71A1D55E9.quest_subtitle: "Damit kann man Tier in die Twiglight Forst Tire umwandeln "
+	quest.74BC9D9625C7A3F6.quest_subtitle: "Burns Enemys"
 	quest.753D0CFDD1A78040.quest_desc: [
 		"Fast wie Seetang, nur glitzernd. Kann im Ofen köstlich zubereitet werden."
 		"Radon- Zeit für einen Tapetenwechsel?"

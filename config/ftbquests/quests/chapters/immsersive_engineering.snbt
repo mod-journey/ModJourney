@@ -741,5 +741,89 @@
 			x: 2.5d
 			y: 2.0d
 		}
+		{
+			dependencies: ["0B04E60647C11A1D"]
+			id: "69FED45F23BC97C8"
+			rewards: [{
+				id: "73E4552680852227"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2640D9418D6FECA4"
+				item: { count: 1, id: "immersiveengineering:railgun" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["69FED45F23BC97C8"]
+			id: "41AC786E79F24EA5"
+			tasks: [{
+				id: "43384D548E919D2B"
+				item: { count: 1, id: "alltheores:steel_rod" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["69FED45F23BC97C8"]
+			id: "74BC9D9625C7A3F6"
+			tasks: [{
+				id: "25AFD230A5767D9D"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 14.0d
+		}
+		{
+			id: "50476836CF31E575"
+			tasks: [{
+				id: "3F9E3CC2613B37C1"
+				item: { count: 1, id: "immersiveengineering:revolver" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"0B04E60647C11A1D"
+				"50476836CF31E575"
+			]
+			id: "0D7A9326A779CF33"
+			min_required_dependencies: 2
+			tasks: [{
+				id: "7D890439AD631B07"
+				item: { count: 1, id: "immersiveengineering:speedloader" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["50476836CF31E575"]
+			id: "486C8E600D7D2750"
+			tasks: [
+				{
+					id: "68BBB3BFF58B35F2"
+					item: { count: 1, id: "immersiveengineering:bullet_casull" }
+					type: "item"
+				}
+				{
+					id: "0122EC1E9884E72D"
+					item: { count: 1, id: "immersiveengineering:bullet_buckshot" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 10.5d
+		}
 	]
 }
