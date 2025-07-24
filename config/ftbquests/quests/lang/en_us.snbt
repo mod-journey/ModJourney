@@ -1007,13 +1007,6 @@
 	quest.3DA44DE3F547CCE6.quest_subtitle: "Wer will den S....ß I"
 	quest.3E2D2775E7DF1B39.quest_desc: ["Mit einer ME-Schnittstelle kannst Du eine gewisse Anzahl an Items bereit stellen, welche dort gelagert werden und auf Abruf bereit sind. Außerdem lassen sich Items in die Schnittstelle transferieren. Über eine Schnittstelle, lässt sich auch das ME-System auslesen."]
 	quest.3E48D0B7608F78BD.quest_desc: ["Mittels Enriched Uranium oder sogar Blutonium, kannst Du noch weitere Strecken schaffen."]
-	quest.3E5513C235703081.quest_desc: [
-		"Fliegen? Jetzt möglich. "
-		"Shift + Leertaste gedrückt halten, lässt dich in die richtung Fliegen, wo du hinschaust. "
-		"Aber Achtung, Fallschaden gibts trotzdem. "
-	]
-	quest.3E5513C235703081.quest_subtitle: "Flieg kleiner Vogel - FLIEG!"
-	quest.3E5513C235703081.title: "Jet Suit"
 	quest.3E6AC0930B347725.quest_desc: ["drawer loggen, oder Stückzahl anzeigen, oder das Icon des Inhaltes verstecken. dafür brauchst du das Item."]
 	quest.3E8BA9AC92928A5B.quest_desc: ["Erhält man durch das abbauen von Utherium Erz."]
 	quest.3EC2CF7E940184C9.quest_desc: ["Wer will einen Stonecutter to go haben? Du? Hier bitte."]
@@ -1250,7 +1243,6 @@
 		"Ab dem Einlösen der Quest, kannst Du zusätzlich im Magie-Shop einkaufen. "
 	]
 	quest.4834BF938B07C244.title: "&4Das Ultimative Lager für Verzauberungen"
-	quest.483E162A53914816.quest_desc: ["Ein Kabel um Strom zu übertragen. nicht mit FE kompatibel"]
 	quest.485A3002F4BD15FF.quest_desc: ["Teile deiner Schnittstelle oder deinem Export Bus anhand dieser Karte mit, dass das Item welches exportiert werden soll automatisch gecraftet wird. Außerdem kannst wählen, ob Items auf bestand benutzt werden sollen, oder explizit neu gecraftet wird. Das Item welches gefertigt werden soll, muss von deinem ME-System aus schon craftbar sein. "]
 	quest.486C8E600D7D2750.quest_subtitle: "Ranged and Close combat"
 	quest.4893E67ED9A2FD40.quest_desc: [
@@ -1474,10 +1466,6 @@
 		"Zum Binden eines Zaubers erstellst du diesen in deinem Zauberbuch, legst das Auge auf den Scribe's Table und benutzt das Buch mit diesem Zauber darauf, während du geduckt bist."
 	]
 	quest.57E80A56E6D8784A.title: "Ich hab' ein Auge auf dich"
-	quest.582888F9B8D79B52.quest_desc: [
-		"Wird benötigt um Rohre, Kabel zu konfigurieren. "
-		"Modus: Input, output, normal, nichts."
-	]
 	quest.586EFD2747910C1B.quest_subtitle: "Rohstoff rein, Flüssigkeit raus."
 	quest.587C0314547F28A4.quest_desc: ["Beheading, limitiert auf 1."]
 	quest.589407ECB629164D.title: "Let's show: Industrial Foregoing"
@@ -1708,6 +1696,9 @@
 	quest.6AB3A23E011C7A70.quest_desc: ["Wird aus Certus hergestellt."]
 	quest.6ACEC87CC8248AE2.quest_desc: ["Es lässt sich nicht nur wie die Himmelsucher Rüstung reparieren, sondern bietet auch einen Setbonus: Wenn man alle Teile der Rüstung trägt (oder den Brustpanzer gegen eine Elytra austauscht), bewirkt die Rüstung bei einem Treffer, dass alle Gegner in der Nähe für einige Sekunden mit dem Boden verschmelzen und völlig still stehen."]
 	quest.6AEC7D9E608F9708.quest_desc: ["Eine wichtige Komponente in AE2 um Peripheriegeräte herzustellen."]
+	quest.6B826441604FE86F.quest_desc: ["Automatisch Tränke konsumieren. Hat mehr Filteroptionen für Effekte."]
+	quest.6B826441604FE86F.quest_subtitle: "Walter White aka Heisenberg"
+	quest.6B826441604FE86F.title: "Erweitertes Alchemie-Upgrade"
 	quest.6BC62E21B31D6CB9.quest_desc: ["Findet man im End"]
 	quest.6BC62E21B31D6CB9.title: "Anglesite"
 	quest.6BCF86700F5B2929.quest_desc: ["Wird aus Gold hergestellt"]
@@ -1828,10 +1819,6 @@
 	quest.736169731670410F.title: "Magie, Adventure, Utility"
 	quest.73F0DA7E5B71D4C9.quest_desc: ["Noch viel mehr stacken!"]
 	quest.73F0DA7E5B71D4C9.quest_subtitle: "MEEEEEEEHR III"
-	quest.741F7F97C31F37DB.quest_desc: [
-		"Deine nächste Rakete. Herzlichen Glückwunsch. "
-		"Aufgrund der besseren Technologie, schaffen wir es nun weitere Entfernungen zurück zu legen. Vor allem halten wir nun auch weiteren Umweltbedingungen stand."
-	]
 	quest.7440341BEA541FE2.quest_desc: ["Redstone, eine wichtige Zutat im Prozessorbau."]
 	quest.749043D84EC00449.quest_subtitle: "Ist ein kleiner guide"
 	quest.749043D84EC00449.title: "Karte des Waldes "
@@ -1902,10 +1889,6 @@
 	quest.795E9E4C809D1EC2.quest_desc: ["Kann weiter vercrafted werden. "]
 	quest.796D47D4DEDA277C.title: "Lets's show: Ars Nouveau"
 	quest.79ABB8A2C2D1AD3C.quest_subtitle: "Baue in deinem Flux Network einen Zwischenspeicher ein."
-	quest.7A3BD43A426B49A2.quest_desc: [
-		"Man kann Strom generieren."
-		"Ideal wenn es keine andere Möglichkeit gibt Strom zu erzeugen."
-	]
 	quest.7AD9631F43AD87FD.quest_desc: ["Aufgesammelte Items kommen direkt in den Rucksack."]
 	quest.7AD9631F43AD87FD.quest_subtitle: "Put it in I"
 	quest.7AFD7B0DAA8D7791.quest_desc: ["Du benötigst den Catalyst, um den Undergarden besuchen zu können. Platziere Steinziegel, in einer mindestgröße wie ein Netherportal und rechtklicke mit dem Catalyst."]
@@ -1934,7 +1917,6 @@
 	]
 	quest.7D2F2A0BEEDA04C7.quest_desc: ["Dies ist unter einem größeren Baum mit Spinnenweben, (Im Baum ist ein weg nach unten)"]
 	quest.7D2F2A0BEEDA04C7.title: "Der Alchemist"
-	quest.7D480E2743F86B60.quest_desc: ["Teilt Dir mit, ob genug Sauerstoff vorhanden ist. Stößt ein Redstone-Signal aus. "]
 	quest.7D49AA8CE68E9356.quest_subtitle: "Nachdem ihr die ersten Maschinen gebaut habt, könnt ihr diese nun mit Upgrades verstärken"
 	quest.7D49AA8CE68E9356.title: "Thermal Machine Upgrades"
 	quest.7DDF9DAC7B62720D.quest_desc: [
