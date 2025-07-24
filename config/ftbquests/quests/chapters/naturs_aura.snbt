@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "naturs_aura"
+	group: "16F9BB65CBA165C2"
+	id: "461A8BB591B8DA55"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}

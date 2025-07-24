@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "thermal"
-	group: "4B1BD2A866D0526F"
+	group: "3E6C1980FD183851"
 	id: "54043FA86481F5EB"
 	images: [
 		{
@@ -61,7 +61,7 @@
 			y: -2.0d
 		}
 	]
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

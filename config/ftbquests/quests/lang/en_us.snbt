@@ -1,4 +1,5 @@
 {
+	chapter.0352CE84D4BC63C6.title: "Occultism"
 	chapter.04B310FD4BE76150.title: "Botania"
 	chapter.04F3F575A212196A.title: "Bloodmagic"
 	chapter.081AFFC24F876656.title: "Applied Energistics 2"
@@ -10,6 +11,7 @@
 	chapter.3C60290C7292B9D9.title: "Undergarden"
 	chapter.3D16A9014EC265AC.title: "Mekanism"
 	chapter.430393DC3F2A60F9.title: "Erfolge"
+	chapter.461A8BB591B8DA55.title: "Natur's Aura"
 	chapter.486D38DC43A626CE.title: "Immersive Engineering"
 	chapter.488F73A73A492F5A.title: "Ad Astra"
 	chapter.498D9D93A15CB670.title: "Sophisticated Backbacks"
@@ -29,6 +31,7 @@
 	chapter_group.138E6CC1C80F610D.title: "&2Admin"
 	chapter_group.16F9BB65CBA165C2.title: "&b&6Magie"
 	chapter_group.29AF41F0C879F47B.title: "&b&6Stage III"
+	chapter_group.3E6C1980FD183851.title: ".disabled"
 	chapter_group.4B1BD2A866D0526F.title: "&b&6Stage II"
 	chapter_group.78025998DBB7AC61.title: "&b&6Allgemein"
 	file.0000000000000001.title: "Minecraft Mod Journey 2"

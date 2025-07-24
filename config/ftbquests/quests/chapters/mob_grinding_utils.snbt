@@ -4,6 +4,9 @@
 	default_quest_shape: ""
 	filename: "mob_grinding_utils"
 	group: "16F9BB65CBA165C2"
+	icon: {
+		id: "mob_grinding_utils:solid_xp_baby"
+	}
 	id: "5130837EB7936D7C"
 	images: [
 		{
@@ -51,7 +54,7 @@
 			y: 7.196428571428569d
 		}
 	]
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
