@@ -1,0 +1,56 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "biome_predicates": [
+      [
+        "stellaris:mars_biomes"
+      ]
+    ],
+    "fail_chance": 0.2,
+    "ores": [
+      {
+        "chance": 0.3,
+        "output": {
+          "id": "stellaris:mars_diamond_ore"
+        }
+      },
+      {
+        "chance": 0.1,
+        "output": {
+          "id": "stellaris:mars_plutonium_ore"
+        }
+      },
+      {
+        "chance": 0.4,
+        "output": {
+          "id": "stellaris:mars_ostrum_ore"
+        }
+      },
+      {
+        "chance": 0.8,
+        "output": {
+          "id": "stellaris:mars_iron_ore"
+        }
+      }
+    ],
+    "spoils": [
+      {
+        "chance": 0.1,
+        "output": {
+          "id": "stellaris:mars_ice_shard_ore"
+        }
+      },
+      {
+        "chance": 0.5,
+        "output": {
+          "id": "stellaris:mars_sand"
+        }
+      },
+      {
+        "chance": 0.4,
+        "output": {
+          "id": "stellaris:mars_stone"
+        }
+      }
+    ],
+    "weight": 15
+  }

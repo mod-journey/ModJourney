@@ -1,47 +1,45 @@
 {
   "type": "immersiveengineering:mineral_mix",
-  "dimensions": [
-    "ad_astra:moon"
+  "biome_predicates": [
+    [
+      "stellaris:moon_biomes"
+    ]
   ],
   "fail_chance": 0.2,
   "ores": [
     {
       "chance": 0.3,
       "output": {
-        "item": "ad_astra:moon_iron_ore"
-      }
-    },
-    {
-      "chance": 0.7,
-      "output": {
-        "item": "ad_astra:moon_cheese_ore"
+        "id": "stellaris:moon_iron_ore"
       }
     },
     {
       "chance": 0.1,
       "output": {
-        "item": "ad_astra:moon_desh_ore"
+        "id": "stellaris:moon_desh_ore"
       }
     }
-
   ],
   "spoils": [
     {
       "chance": 0.2,
       "output": {
-        "item": "ad_astra:moon_ice_shard_ore"
+        "count": 1,
+        "id": "stellaris:moon_ice_shard_ore"
       }
     },
     {
       "chance": 0.5,
       "output": {
-        "item": "ad_astra:moon_stone"
+        "count": 1,
+        "id": "stellaris:moon_stone"
       }
     },
     {
       "chance": 0.3,
       "output": {
-        "item": "ad_astra:moon_sand"
+        "count": 1,
+        "id": "stellaris:moon_sand"
       }
     }
   ],
