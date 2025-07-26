@@ -24,7 +24,7 @@ let item_add = (event, active, debug) => {
         .rarity("RARE")
         .maxStackSize(1)
 
-    event.create('mod_journey:anti_ingot')
+    event.create('mod_journey:antimatter_ingot')
         .displayName('Antimatter Ingot')
         .rarity("EPIC")
         .maxStackSize(64)
