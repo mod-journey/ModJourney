@@ -1,0 +1,30 @@
+let add_custom_machinary_seedplanter = (event, active, debug) => {
+    if (!active) return;
+
+    /**
+     * @example seed_planter("seed", 0.25, "crop", 0.1, 200, 4000)
+     * @param {String} seed
+     * @param {float} seed_chance
+     * @param {String} crop
+     * @param {float} crop_chance
+     * @param {Int} time
+     * @param {Int} energy
+     */
+    let seed_planter = (seed, seed_chance, crop, crop_chance, time, energy) => {
+
+        event.recipes.custommachinery.custom_machine("mod_journey:seed_planter", time)
+            .requireEnergy(energy)
+            .requireFluid("1000 x minecraft:water")
+            .requireItem(`1x ${seed}`)
+            .produceItem(`1x ${crop}`)
+            .produceItem(`1x ${crop}`).chance(crop_chance)
+            .produceItem(`1x ${seed}`)
+            .produceItem(`1x ${seed}`).chance(seed_chance)
+    }
+
+    croptopia_obj.crops.forEach( id => {
+        seed_planter(id.seed, 0.25, id.crop, 0.5, 200, 4000)
+    })
+
+
+}

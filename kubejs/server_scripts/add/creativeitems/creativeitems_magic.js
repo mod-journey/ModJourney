@@ -1,66 +1,5 @@
-ServerEvents.recipes(event => {
-
-    // Rezept für Everlasting Guilty Pool (Ultimate Crafting Table)
-    event.custom({
-        "type": "extendedcrafting:shaped_table",
-        "tier": 4,
-        "pattern": [
-            "   G   ",
-            " GGGGG ",
-            "GGGGGGG",
-            " GGCBG ",
-            "GGGGGGG",
-            " GGGGG ",
-            "   G   "
-        ],
-        "key": {
-            "G": {
-                "item": "mod_journey:gold_coin"
-            },
-            "C": {
-                "item": stages.stage3.magic.end
-            },
-            "B": {
-                "item": stages.stage1.magic.mid
-            }
-        },
-        "result": {
-            "item": "botania:creative_pool"
-        }
-    }).id('mod_journey:creative/creative_pool');
-
-    // Rezept Mana Tablet (Ultimate Crafting Table)
-    event.custom({
-        "type": "extendedcrafting:shaped_table",
-        "tier": 4,
-        "pattern": [
-            "   G   ",
-            " GGGGG ",
-            "GGGGGGG",
-            " GGCBG ",
-            "GGGGGGG",
-            " GGGGG ",
-            "   G   "
-        ],
-        "key": {
-            "G": {
-                "item": "mod_journey:gold_coin"
-            },
-            "C": {
-                "item": stages.stage3.magic.end
-            },
-            "B": {
-                "item": stages.stage1.magic.end
-            }
-        },
-        "result": {
-            "item": "botania:mana_tablet",
-            "nbt": {
-                "mana": 500000,
-                "creative": 1
-            }
-        }
-    }).id('mod_journey:creative/mana_tablet');
+let add_creativeitemsMagic = (event,active,debug) => {
+    if (!active) return;
 
     // Rezept für Augmenting Table (Ultimate Crafting Table)
     event.custom({
@@ -83,11 +22,11 @@ ServerEvents.recipes(event => {
                 "item": stages.stage3.magic.end
             },
             "B": {
-                "item": "apotheosis:endshelf"
+                "item": "apothic_enchanting:endshelf"
             }
         },
         "result": {
-            "item": "apotheosis:augmenting_table"
+            "id": "apotheosis:augmenting_table"
         }
     }).id('mod_journey:creative/augmenting_table');
 
@@ -116,7 +55,7 @@ ServerEvents.recipes(event => {
             }
         },
         "result": {
-            "item": "ars_nouveau:creative_source_jar"
+            "id": "ars_nouveau:creative_source_jar"
         }
     }).id('mod_journey:creative/creative_source_jar');
 
@@ -130,4 +69,4 @@ ServerEvents.recipes(event => {
     ).id("mod_journey:creative/annotated_codex")
 
 
-});
+};

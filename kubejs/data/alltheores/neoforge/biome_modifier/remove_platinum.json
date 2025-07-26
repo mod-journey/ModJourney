@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": "#mod_journey:remove_platinum_biomes",
+  "features": "alltheores:ore_platinum_placed",
+  "steps": ["underground_ores"]
+}

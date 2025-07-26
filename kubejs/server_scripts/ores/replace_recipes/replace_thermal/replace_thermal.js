@@ -1,6 +1,6 @@
 //priority 50
 
-ServerEvents.recipes(event => {
+let ores_replace_thermal_thermal = event => {
 
     let thermal_ores = [
         'tin',
@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
         event.custom(r.json).id(r.getId())
     });
 
-})
+}
 
     //Laserdrill needs extra handler.
     //InductionSmeklter needs extra handler.

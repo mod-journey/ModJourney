@@ -1,7 +1,7 @@
 //priority 10
 
 let other_tome_shaped = (event, staged_item, id_recipe) => {
-    id_recipe = 'apotheosis:other_tome'
+    id_recipe = 'apothic_enchanting:other_tome'
 
     event.shaped( Item.of( id_recipe, 6 ), [
         'BBC',

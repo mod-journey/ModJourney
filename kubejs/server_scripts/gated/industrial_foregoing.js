@@ -1,16 +1,24 @@
+//priority: 0
 
-ServerEvents.recipes(event => {
+let industrialforegoing_gated = (event, active, debug) => {
+    if (!active) return;
 
-    /**
-     * move this recipe more into late game
-     */
-    event.replaceInput({id: 'industrialforegoing:ore_laser_base'},
+    console.log("Laden des Modules Industrial Foregoing")
+
+    event.replaceInput({ id: 'industrialforegoing:ore_laser_base' },
         '#industrialforegoing:machine_frame/advanced',
         '#industrialforegoing:machine_frame/supreme'
     )
 
-    event.replaceInput({id: 'industrialforegoing:laser_drill'},
-        '#forge:gears/gold',
+    event.replaceInput({ id: 'industrialforegoing:laser_drill' },
+        '#c:gears/gold',
         stages.stage2.gear
     )
-})
+
+    // Void Chassis
+    event.replaceInput(
+        { id: 'industrialforegoing:machine_frame_pity' },
+        'minecraft:redstone_block',
+        stages.stage1.core
+    )
+}

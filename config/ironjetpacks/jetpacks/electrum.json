@@ -5,7 +5,7 @@
   "color": "f6f395",
   "armorPoints": 2,
   "enchantability": 18,
-  "craftingMaterial": "tag:forge:ingots/electrum",
+  "craftingMaterial": "tag:c:ingots/electrum",
   "creative": false,
   "rarity": 0,
   "toughness": 0.0,

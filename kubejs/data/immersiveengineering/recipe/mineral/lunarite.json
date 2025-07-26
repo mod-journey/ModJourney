@@ -1,0 +1,47 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "biome_predicates": [
+    [
+      "stellaris:moon_biomes"
+    ]
+  ],
+  "fail_chance": 0.2,
+  "ores": [
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "stellaris:moon_iron_ore"
+      }
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "id": "stellaris:moon_desh_ore"
+      }
+    }
+  ],
+  "spoils": [
+    {
+      "chance": 0.2,
+      "output": {
+        "count": 1,
+        "id": "stellaris:moon_ice_shard_ore"
+      }
+    },
+    {
+      "chance": 0.5,
+      "output": {
+        "count": 1,
+        "id": "stellaris:moon_stone"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "count": 1,
+        "id": "stellaris:moon_sand"
+      }
+    }
+  ],
+  "weight": 15
+}

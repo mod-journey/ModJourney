@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twiglight_forst"
+	group: "12D6D4D26DC1B099"
+	icon: {
+		id: "twilightforest:lich_trophy"
+	}
+	id: "24DF41E56893FA64"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "52B7129CA651630E"
+		tasks: [{
+			dimension: "twilightforest:twilight_forest"
+			id: "3FE836304C19A910"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

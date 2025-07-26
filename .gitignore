@@ -23,8 +23,8 @@
 /world/level.*
 /world/session.lock
 /world/xaeromap.txt
+/world/deaths
 !/craftpresence
-/world/deaths/*
 
 
 
@@ -43,6 +43,7 @@
 
 # Dont ignore dev-tools
 !/dev-tools/
+/dev-tools/logs/*
 
 # Always ignore Tempfiles and OS generated stuff
 .DS_Store
@@ -56,6 +57,8 @@
 /config/worldedit/.archive-unpack/
 /config/luckperms/translations/
 /config/luckperms/libs/
+/config/ars_nouveau/search_index
+kubejs/config/web_server.json
 
 
 # Ignore files containing user specific config
@@ -63,7 +66,23 @@
 /config/ItemLocks/nodes/SP/
 /config/jei/world/local/
 /config/worldedit/sessions/
+/config/jei-client.ini
+/config/ftbchunks-client.snbt
+/config/justzoom/config.txt
 
 #This files always changed their order
 /config/jade/sort-order.json
 /config/powah.json5
+
+
+# Ignore ProbeJS Generated Files
+.probe
+jsconfig.json
+probe-settings.json
+
+#Ignore personal Workspaces
+_workspace
+
+#Ignore while mod will removed in soon upgrades
+/config/structures_tweaker
+/defaultconfigs/ftbqoptimizer.snbt

@@ -1,4 +1,3 @@
-
 [general]
 	#Whether ghost blocks are shown when you are holding a framed block
 	showGhostBlocks = true
@@ -6,7 +5,7 @@
 	altGhostRenderer = false
 	#Whether certain framed blocks should show fancy hitboxes
 	fancyHitboxes = true
-	#If false only full block faces of framed blocks will be culled, if true all outer faces of famed blocks can be culled
+	#If false only full block faces of framed blocks will be culled, if true all outer faces of framed blocks can be culled
 	detailedCulling = true
 	#If true, the UV remapping will use discrete steps to avoid floating point errors
 	discreteUVSteps = true
@@ -42,6 +41,17 @@
 	#If enabled, special cube blocks will show a type overlay when a camo is applied
 	#Requires resource reload to take effect
 	showSpecialCubeTypeOverlay = true
+	#Set the opacity of the placement preview. 30 is almost completely transparent, 255 is fully opaque
+	# Default: 170
+	# Range: 30 ~ 255
+	ghostRenderOpacity = 170
+	#Disable connected textures support for the listed mod IDs of connected textures mods
+	conTexDisabled = []
+	#If true, item models will be rendered with their camo, if present.
+	#If false, item models will always be rendered without camo
+	renderItemModelsWithCamo = true
+	#If true, framed blocks will be rendered with their camo in Jade, otherwise they will be rendered blank
+	renderCamoInJade = true
 
 [overlay]
 	#If set to HIDDEN, the State Lock overlay will be completely hidden
@@ -89,4 +99,3 @@
 	#If set to DETAILED, the Camo Rotation overlay will show detailed info
 	#Allowed Values: HIDDEN, ICON, DETAILED
 	camoRotationMode = "DETAILED"
-

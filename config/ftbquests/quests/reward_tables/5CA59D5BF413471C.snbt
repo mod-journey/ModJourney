@@ -1,0 +1,89 @@
+{
+	id: "5CA59D5BF413471C"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{
+			id: "01E187C7D2A17E0B"
+			item: {
+				count: 1
+				id: "mekanism:steel_casing"
+			}
+			random_bonus: 1
+		}
+		{
+			count: 2
+			id: "03B752D1F5A82578"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_speed"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "32E5E6F1815EC143"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_energy"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 2
+			id: "31D7AB6E02F6B9E0"
+			item: {
+				count: 1
+				id: "mekanism:basic_tier_installer"
+			}
+			random_bonus: 1
+		}
+		{
+			count: 2
+			id: "37C18E38DB222303"
+			item: {
+				count: 1
+				id: "mekanism:advanced_tier_installer"
+			}
+			random_bonus: 1
+			weight: 0.5f
+		}
+		{
+			count: 2
+			id: "1B18F41F17C50385"
+			item: {
+				count: 1
+				id: "mekanism:elite_control_circuit"
+			}
+			random_bonus: 2
+			weight: 0.8f
+		}
+		{
+			id: "29DDA94D4203612A"
+			item: {
+				count: 1
+				id: "mekanism:alloy_atomic"
+			}
+			random_bonus: 1
+			weight: 0.7f
+		}
+		{
+			count: 2
+			id: "793DD753E6805177"
+			item: {
+				count: 1
+				id: "mekanism:alloy_reinforced"
+			}
+			random_bonus: 2
+			weight: 0.8f
+		}
+		{
+			id: "5803C799AAFB704D"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_control_circuit"
+			}
+			weight: 0.7f
+		}
+	]
+}

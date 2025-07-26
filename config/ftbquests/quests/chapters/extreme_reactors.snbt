@@ -1,0 +1,934 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extreme_reactors"
+	group: "29AF41F0C879F47B"
+	id: "5F4F40A7D501FDEE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"0A07C47718CD1F80"
+				"12D3B4B92CA5252C"
+			]
+			dependency_requirement: "one_completed"
+			id: "280D95E313DDA71D"
+			tasks: [{
+				id: "0D0A3B350C73C428"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E86BC238F738A44"]
+			id: "6BEAD403B7CB0490"
+			rewards: [{
+				id: "064E7086447772BE"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3A78A41E1797DB85"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "685AF51593FC0C57"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "458543F3D40D831F"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "467957C94D183A88"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "6AC033C6237366C8"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "6D2D49D0A5751049"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["280D95E313DDA71D"]
+			id: "1E86BC238F738A44"
+			rewards: [{
+				id: "2E84CC666980B134"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "13AB81629469ABDB"
+				item: { count: 1, id: "bigreactors:graphite_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68CBEF963313DC33"]
+			id: "66DEEA92B5F386C0"
+			rewards: [{
+				id: "3831EB8086861DDF"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FC19862AC343856"
+				item: { }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["68CBEF963313DC33"]
+			id: "646646E999822E90"
+			rewards: [{
+				id: "6F41BCA56F2174D6"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FFC4BAF4B3382CF"
+				item: { }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "4B86830BAFA84372"
+			rewards: [{
+				id: "7393325606512392"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "70BF93F210FDF0DD"
+				item: { }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68CBEF963313DC33"]
+			id: "21A66CAA4865D3D0"
+			rewards: [{
+				id: "1253148AA3DE5C08"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "68E959AF3630EE80"
+				item: { }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "68CBEF963313DC33"
+			rewards: [
+				{
+					id: "06B5355CD5171235"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59629FC1A0269EA0"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "232D2252C3A0B094"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["68CBEF963313DC33"]
+			id: "50C6D9F519D225F4"
+			rewards: [{
+				id: "4CD72DABCEFE8C9B"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FB587E9242CE09F"
+				item: { }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["280D95E313DDA71D"]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			id: "4D3EA87317F9F6BA"
+			tasks: [{
+				id: "0734E682569CEA3F"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6CAB591C5279CFFB"
+				"1DB2485BC022595E"
+			]
+			id: "4C65447B7738A05F"
+			rewards: [{
+				id: "60331C842BCCDC8C"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4607EA68920C2AD1"
+				item: { }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4C65447B7738A05F"]
+			id: "4AB80401F1CA36D1"
+			rewards: [
+				{
+					id: "6D055E9948A2B26D"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2631A0780F320126"
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "299A67366DE25CEB"
+				item: { }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["13C1BA3695707A9D"]
+			id: "6CAB591C5279CFFB"
+			rewards: [{
+				id: "44DA25FE0E3E1FB0"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "41DA615D6CD7479C"
+				item: { }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["77EA9324D2593A1B"]
+			id: "072EB753A23476A3"
+			rewards: [{
+				id: "72B1326C9D858BE6"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71DE0E40F8B0CF69"
+				item: { }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["6A538CD7EEA9C917"]
+			id: "5534116F13F1FECC"
+			rewards: [{
+				id: "498F76B2E73DCEC5"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FBF87B45C3B5824"
+				item: { }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["280D95E313DDA71D"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "1DB2485BC022595E"
+			rewards: [{
+				id: "26F11EB338D3B5AA"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "658964F8434ACEEB"
+				item: { }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["13C1BA3695707A9D"]
+			id: "3B8445B5B7F0BA62"
+			rewards: [{
+				id: "1864CE35F2C8C89B"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "443763D56F574F63"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"3B8445B5B7F0BA62"
+				"25D5F3B047CA75E4"
+			]
+			id: "77EA9324D2593A1B"
+			rewards: [{
+				id: "349E5A452E8A26F1"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F19C7C81193D62E"
+				item: { }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4AB80401F1CA36D1"]
+			id: "25D5F3B047CA75E4"
+			rewards: [{
+				id: "1C9F6BED85614189"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "699EE26E98714DD3"
+				item: { }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4AB80401F1CA36D1"]
+			id: "4ECD09ACFE16E99C"
+			rewards: [{
+				id: "277D5DD9AEB4AA8D"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "14F7D224B90846D3"
+				item: { }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["280D95E313DDA71D"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "13A18FED2817D59A"
+			rewards: [{
+				id: "072207A23387D035"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BEF413D6859D67E"
+				item: { }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["65EEF8159CC6B174"]
+			id: "0DF5AEA45A614607"
+			rewards: [{
+				id: "24457509B127D3E6"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CB436B0531DD31A"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"4ECD09ACFE16E99C"
+				"13A18FED2817D59A"
+			]
+			id: "65EEF8159CC6B174"
+			rewards: [{
+				id: "46C8A74A4F62856A"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DDDCE0171349167"
+				item: { }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0DF5AEA45A614607"]
+			id: "0E31ED057ED8CD24"
+			rewards: [{
+				id: "703E991A10F9B259"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "514AB9B8B5329F9A"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0E31ED057ED8CD24"]
+			id: "68D70945E7B41457"
+			rewards: [{
+				id: "42C4576AD5E6ACEA"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A3A3D47B61C565B"
+				item: { }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["68D70945E7B41457"]
+			id: "0B7096A5E53E67EF"
+			rewards: [{
+				id: "1D5FE1D615D27AC7"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "03B8AFB323A53EDF"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["058F5156168C41AD"]
+			id: "6CBD102C9BA554AF"
+			rewards: [{
+				id: "365403D1786FBAAA"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "28E429B17342EB34"
+				item: { }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4AB80401F1CA36D1"]
+			id: "058F5156168C41AD"
+			rewards: [{
+				id: "778F6DE86E408962"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "22B2B7D67662B9A7"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6CBD102C9BA554AF"]
+			id: "116CAD3989B3CCF5"
+			rewards: [{
+				id: "7588B37A724BDAE0"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "207D84CA68012ECF"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"060309360F27D1EA"
+				"3C07F92EF68FCC33"
+			]
+			id: "6A538CD7EEA9C917"
+			rewards: [{
+				id: "3A63FB449836E672"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4603F7CC08D0185E"
+				item: { }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["116CAD3989B3CCF5"]
+			id: "060309360F27D1EA"
+			rewards: [{
+				id: "1140BC5D77008484"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CC05D5D8620ACB6"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["072EB753A23476A3"]
+			id: "3C07F92EF68FCC33"
+			rewards: [{
+				id: "0AE6F701710F18A7"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B2D7FF6919FAEC2"
+				item: { }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"358328CB0AB4DF09"
+				"46D6CDBCAB067ECA"
+			]
+			id: "544531C0D2F7DCED"
+			rewards: [{
+				id: "4D091B3DF0B11377"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "032EA9BFF09429CA"
+				item: { }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5534116F13F1FECC"]
+			id: "358328CB0AB4DF09"
+			rewards: [{
+				id: "6D10F3C2A594C5B1"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7929C9B067AF8C23"
+				item: { }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0B7096A5E53E67EF"]
+			id: "46D6CDBCAB067ECA"
+			rewards: [{
+				id: "682793091945B693"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4077DBE330A0215A"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"5C8E6D7BDD2F3D7C"
+				"60B95EE1477F2724"
+			]
+			id: "040C1D850A9C12DF"
+			rewards: [{
+				id: "37DECAECF8E70D09"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F91243D34DE2E4A"
+				item: { }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0B7096A5E53E67EF"]
+			id: "5C8E6D7BDD2F3D7C"
+			rewards: [{
+				id: "6093258B3C3697D9"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1476B082F3227F86"
+				type: "checkmark"
+			}]
+			x: 18.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["280D95E313DDA71D"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "60B95EE1477F2724"
+			rewards: [{
+				id: "67EB780A53ECF04C"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "563C98530FC6A712"
+				item: { }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["040C1D850A9C12DF"]
+			id: "47B6FC0234860B71"
+			rewards: [{
+				id: "54E5437145A6EB0A"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "013661E13C8303F0"
+				item: { }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["544531C0D2F7DCED"]
+			id: "2685BD79EDA932C1"
+			rewards: [{
+				id: "01CD22947315CC08"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "42B671F4FD869406"
+				item: { }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"2685BD79EDA932C1"
+				"47B6FC0234860B71"
+			]
+			id: "0B6F1727ECC8D86A"
+			rewards: [{
+				id: "42FEDE482791379F"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E74AC4BB7647314"
+				item: { }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["26B645871A11798E"]
+			id: "064778D724C27365"
+			rewards: [{
+				id: "32BBDA4D6BD79C92"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16277502FDE0FA0F"
+				item: { }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["68CBEF963313DC33"]
+			id: "26B645871A11798E"
+			rewards: [{
+				id: "6A551EA0F2CA88D2"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CE806849D563B37"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["064778D724C27365"]
+			id: "13C1BA3695707A9D"
+			rewards: [{
+				id: "7B0E4CBE7D5B13DF"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "34E99BB60961DDF4"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3B859360824909AE"]
+			id: "51D668BB5A301993"
+			rewards: [{
+				id: "6E1A40D119A91A38"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "345FF4181B947AB6"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "10B9F758C92D2B26"
+					item: { }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["68CBEF963313DC33"]
+			id: "3B859360824909AE"
+			rewards: [{
+				id: "4DD8E54AE288CDB1"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BD191F74C472357"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+	]
+}

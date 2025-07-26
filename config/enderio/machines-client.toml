@@ -1,4 +1,3 @@
-
 [blocks]
 	#The color of the range box of the Vacuum Chest
 	vacuumChestRangeColor = "0000FF"
@@ -8,8 +7,13 @@
 	poweredSpawnerRangeColor = "FF0000"
 	#The color of the range box of the Drain
 	drainRangeColor = "FFA500"
+	#The color of the range box of the Inhibitor Obelisk
+	inhibitorRangeColor = "8B0000"
+	#The color of the range box of the Relocator Obelisk
+	relocatorRangeColor = "8B0000"
+	#The color of the range box of the Aversion Obelisk
+	aversionRangeColor = "8B0000"
 
 [ioconfig]
 	#Neighbour Transparency [0-1]
 	neighbourTransparency = 0.4
-

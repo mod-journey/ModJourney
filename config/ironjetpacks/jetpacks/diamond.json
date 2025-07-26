@@ -5,7 +5,7 @@
   "color": "4cf4e0",
   "armorPoints": 4,
   "enchantability": 10,
-  "craftingMaterial": "tag:forge:gems/diamond",
+  "craftingMaterial": "tag:c:gems/diamond",
   "creative": false,
   "rarity": 0,
   "toughness": 0.0,

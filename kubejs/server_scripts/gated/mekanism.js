@@ -1,8 +1,11 @@
 //priority 0
 
+let mekanism_gated = (event, active, debug) => {
+    if (!active) return;
 
-ServerEvents.recipes(event => {
-    let mekanismCoreItem = 'mekanism:steel_casing';
+    console.log("Laden des Modules Mekanism Gating")
+
+    let mekanismCoreItem = stages.mod_based.mekanism;
 
     // Void Chassis
     event.replaceInput(
@@ -12,9 +15,9 @@ ServerEvents.recipes(event => {
     )
 
     event.replaceInput([
-            { id: 'mekanism:metallurgic_infuser' },
-            { id: 'mekanismgenerators:generator/heat' }
-        ],
+        { id: 'mekanism:metallurgic_infuser' },
+        { id: 'mekanismgenerators:generator/heat' }
+    ],
         'minecraft:furnace',
         mekanismCoreItem
     )
@@ -22,8 +25,7 @@ ServerEvents.recipes(event => {
     // Replace redstone on bottom/middle
     replacer.replaceInputByPosition(
         { id: 'mekanism:electrolytic_separator' },
-        1,2,
+        1, 2,
         { 'item': mekanismCoreItem }
     )
-
-})
+}

@@ -44,7 +44,8 @@ GitHub Repository: [NEED TO MAKE ONE]
 			"pillager_outpost_oriental": true,
 			"pillager_outpost_swedish": true,
 			"pillager_outpost_iberian": true,
-			"pillager_outpost_rustic": true
+			"pillager_outpost_rustic": true,
+			"pillager_outpost_nilotic": true
 		}
 	},
 	// Here you can find all structures that aren't villages or outposts.

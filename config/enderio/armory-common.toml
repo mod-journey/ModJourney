@@ -1,6 +1,3 @@
-
-[darksteel]
-
 	[darksteel.darksteelaxe]
 		energyUsePerFelledLog = 1500
 
@@ -40,4 +37,3 @@
 			explosivePenetrationI = 1
 			explosivePenetrationActivationCostII = 12
 			explosivePenetrationII = 2
-

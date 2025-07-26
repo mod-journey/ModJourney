@@ -2,7 +2,7 @@
 
 //This Script replace Dust recipes from the thermal pulverizer.
 
-ServerEvents.recipes(event => {
+let ores_replace_thermal_pulverizer = event => {
 
     let thermal_ores = [
         'tin',
@@ -63,4 +63,4 @@ ServerEvents.recipes(event => {
     });
 
 
-})
+}

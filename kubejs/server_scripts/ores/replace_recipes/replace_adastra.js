@@ -1,6 +1,6 @@
 //priority 50
 
-ServerEvents.recipes(event => {
+let ores_replace_adastra = event => {
 
     console.log("Start Ore-Rezept Editing: AdAstra")
 
@@ -34,4 +34,4 @@ ServerEvents.recipes(event => {
         event.remove({ output: element })
     });
 
-})
+}

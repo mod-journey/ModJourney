@@ -1,4 +1,5 @@
-ServerEvents.recipes(event => {
+let remove_mekanism = (event, active, debug) => {
+    if (!active) return;
     event.remove([
         { output: 'mekanismadditions:walkie_talkie' },
         { output: 'mekanism:upgrade_anchor' },
@@ -20,4 +21,4 @@ ServerEvents.recipes(event => {
         event.remove({ id: recipeId });
     });
     //event.remove({ id: 'minecraft:enchantment.mekanismadditions.walkie_talkie' })
-})
+};

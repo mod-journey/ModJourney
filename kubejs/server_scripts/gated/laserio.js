@@ -1,14 +1,15 @@
 //priority 0
 
-console.log('Ändern der Gated LaserIO Items')
+let laserio_gated = (event, active, debug) => {
+    if (!active) return;
 
-ServerEvents.recipes(event => {
+    console.log('Ändern der Gated LaserIO Items')
 
     // Raw Logic Chip
     event.replaceInput(
-        { id: 'laserio:logic_chip_raw' },         // Filterung nach Rezept-ID.
-        'minecraft:gold_nugget',            // Das Item, was ersetzt werden soll.
-        stages.stage1.core                 // Womit wird das Item ersetzt!
+        { id: 'laserio:logic_chip_raw' },
+        'minecraft:gold_nugget',
+        stages.stage1.core
     )
+}
 
-})
