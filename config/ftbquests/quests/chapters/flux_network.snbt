@@ -54,7 +54,7 @@
 			]
 			tasks: [{
 				id: "7FD6AEFF35253853"
-				item: { }
+				item: { count: 1, id: "fluxnetworks:flux_plug" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -73,7 +73,7 @@
 			}]
 			tasks: [{
 				id: "4BB36A2605F1ED39"
-				item: { }
+				item: { count: 1, id: "fluxnetworks:flux_point" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -95,7 +95,7 @@
 			}]
 			tasks: [{
 				id: "12A0F40BD32B28CF"
-				item: { }
+				item: { count: 1, id: "fluxnetworks:basic_flux_storage" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -114,7 +114,7 @@
 			}]
 			tasks: [{
 				id: "45F55646352A1361"
-				item: { }
+				item: { count: 1, id: "fluxnetworks:herculean_flux_storage" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -133,7 +133,7 @@
 			}]
 			tasks: [{
 				id: "533B68F026630C69"
-				item: { }
+				item: { count: 1, id: "fluxnetworks:gargantuan_flux_storage" }
 				type: "item"
 			}]
 			x: 10.0d
@@ -152,7 +152,7 @@
 			}]
 			tasks: [{
 				id: "1DE6630235E3D92A"
-				item: { }
+				item: { count: 1, id: "fluxnetworks:flux_core" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -171,7 +171,7 @@
 			}]
 			tasks: [{
 				id: "07B74821518C9932"
-				item: { }
+				item: { count: 1, id: "fluxnetworks:flux_configurator" }
 				type: "item"
 			}]
 			x: 11.5d
