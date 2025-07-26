@@ -10,7 +10,7 @@
         "text": "Stelle ein Antimaterie Ingot her."
       },
       "icon": {
-        "item": "mod_journey:anti_ingot"
+        "id": "mod_journey:anti_ingot"
       },
       "background": "minecraft:textures/block/obsidian.png",
       "frame": "task",

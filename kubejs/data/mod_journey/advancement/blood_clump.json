@@ -10,7 +10,7 @@
         "text": "Stelle ein Clotted Blood Clump her."
       },
       "icon": {
-        "item": "mod_journey:clotted_blood_clump"
+        "id": "mod_journey:clotted_blood_clump"
       },
       "background": "minecraft:textures/block/obsidian.png",
       "frame": "task",
