@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "item.mod_journey.maschine.coal_gen",
+    "text": "item.mod_journey.machine.coal_gen",
     "color": "white"
   },
   "appearance": {},
@@ -59,7 +59,7 @@
       "y": 18,
       "height": 16,
       "text": {
-        "text": "item.mod_journey.maschine.coal_gen",
+        "text": "item.mod_journey.machine.coal_gen",
         "color": "black",
         "bold": true
       }

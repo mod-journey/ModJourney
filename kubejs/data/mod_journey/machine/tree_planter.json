@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "item.mod_journey.maschine.tree_planter",
+    "text": "item.mod_journey.machine.tree_planter",
     "color": "white"
   },
   "appearance": {
@@ -144,7 +144,7 @@
       "y": 9,
       "height": 13,
       "text": {
-        "text": "item.mod_journey.maschine.tree_planter",
+        "text": "item.mod_journey.machine.tree_planter",
         "bold": true
       }
     }
@@ -154,6 +154,6 @@
     "cooldown": 40
   },
   "tooltips": {
-    "text": "item.mod_journey.maschine.tree_planter.tooltip"
+    "text": "item.mod_journey.machine.tree_planter.tooltip"
   }
 }

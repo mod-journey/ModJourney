@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "item.mod_journey.maschine.seed_planter",
+    "text": "item.mod_journey.machine.seed_planter",
     "color": "white"
   },
   "appearance": {
@@ -115,7 +115,7 @@
       "y": 14,
       "height": 14,
       "text": {
-        "text": "item.mod_journey.maschine.seed_planter",
+        "text": "item.mod_journey.machine.seed_planter",
         "color": "black",
         "bold": true
       }
