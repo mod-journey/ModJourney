@@ -1,4 +1,8 @@
 {
+  "advancement.mod_journey.copper_coin.desc": "Kupfer Münzen sind durch Quests erhältlich. An sich auch ein ideales Bezahlungsmittel für Dienstleistungen.",
+  "advancement.mod_journey.gold_coin.desc": "Du kannst Gold Münzen verdienen, durch Aktivität, das Questbuch oder durch das Herstellen von bestimmten Items",
+  "advancement.mod_journey.main_root": "Das Münzen-System",
+  "advancement.mod_journey.silver_coin.desc": "Silber Münzen verdienst Du Dir durch Aktivität auf dem Server.",
   "block.mod_journey.antimatter_block": "Antimatterie Block",
   "block.mod_journey.clotted_bloodblock": "Geronnener Blutklumpen",
   "item.mod_journey.antimatter_ingot": "Antimatterie Barren",

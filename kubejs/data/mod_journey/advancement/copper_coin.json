@@ -2,12 +2,12 @@
     "parent": "mod_journey:silver_coin",
     "display": {
       "title": {
-        "text": "Das Coinsystem",
+        "translate": "advancement.mod_journey.main_root",
         "color": "green"
       },
       "description": {
         "color": "white",
-        "text": "Kupfer Coins sind durch Quests erhältlich. An sich auch ein ideales Bezahlungsmittel für Dienstleistungen."
+        "translate": "advancement.mod_journey.copper_coin.desc"
       },
       "icon": {
         "id": "mod_journey:copper_coin"
