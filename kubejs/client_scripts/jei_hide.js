@@ -35,9 +35,6 @@ let jei_hide = (event, active, debug) => {
     })
 
 
-    //immersive
-    event.hide('immersiveengineering:cloche')
-
 
     //Mob_Grinding_Utils
     const mob_grinding = [

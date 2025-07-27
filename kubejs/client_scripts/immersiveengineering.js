@@ -1,9 +1,9 @@
-// priority: 0
+const hide_immersiveenigneering_items = (event, active) => {
+    if (!active) {
+        return;
+    }
 
-let hide_ores = (event, active, debug) => {
-    if(!active) return;
-
-    let remove_ore = [
+    const immersiveengineering_hide = [
         "immersiveengineering:deepslate_ore_aluminum",
         "immersiveengineering:deepslate_ore_lead",
         "immersiveengineering:deepslate_ore_nickel",
@@ -69,11 +69,11 @@ let hide_ores = (event, active, debug) => {
         "immersiveengineering:storage_nickel",
         "immersiveengineering:storage_silver",
         "immersiveengineering:storage_steel",
-        "immersiveengineering:storage_uranium"
-    ]
+        "immersiveengineering:storage_uranium",
+        'immersiveengineering:cloche'
+    ];
 
-    remove_ore.forEach(element => {
+    immersiveengineering_hide.forEach(element => {
         event.hide(element)
     });
-
-};
+}
