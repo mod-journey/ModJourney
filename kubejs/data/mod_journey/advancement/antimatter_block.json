@@ -1,29 +1,30 @@
 {
+  "parent": "mod_journey:antimatter_ingot",
   "display": {
     "title": {
-      "text": "Das Coinsystem",
+      "text": "Reine Antimaterie",
       "color": "green"
     },
     "description": {
       "color": "white",
-      "text": "Du kannst Gold Coins verdienen, durch aktivität, das Questbuch oder durch das Craften von bestimmten Items"
+      "text": "Stelle einen Block aus Antimaterie her."
     },
     "icon": {
-      "item": "mod_journey:gold_coin"
+      "id": "mod_journey:antimatter_block"
     },
     "background": "minecraft:textures/block/obsidian.png",
     "frame": "task",
     "show_toast": true,
-    "announce_to_chat": false,
+    "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "has_antimaterie_block": {
+    "has_gold_coin": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": ["mod_journey:gold_coin"]
+            "items": ["mod_journey:antimatter_block"]
           }
         ]
       }

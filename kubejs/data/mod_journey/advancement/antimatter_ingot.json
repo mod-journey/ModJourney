@@ -1,4 +1,4 @@
-{
+  {
     "parent": "mod_journey:root_gold_coin",
     "display": {
       "title": {
@@ -10,7 +10,7 @@
         "text": "Stelle ein Antimaterie Ingot her."
       },
       "icon": {
-        "item": "mod_journey:antimatter_ingot"
+        "id": "mod_journey:antimatter_ingot"
       },
       "background": "minecraft:textures/block/obsidian.png",
       "frame": "task",

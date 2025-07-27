@@ -2,20 +2,20 @@
     "parent": "mod_journey:root_gold_coin",
     "display": {
       "title": {
-        "text": "Das Coinsystem",
+        "text": "Kristallisiertes Blut",
         "color": "green"
       },
       "description": {
         "color": "white",
-        "text": "Silber Coins verdienst Du Dir durch Aktivität auf dem Server."
+        "text": "Stelle ein Clotted Blood Clump her."
       },
       "icon": {
-        "item": "mod_journey:silver_coin"
+        "id": "mod_journey:clotted_blood_clump"
       },
       "background": "minecraft:textures/block/obsidian.png",
       "frame": "task",
       "show_toast": true,
-      "announce_to_chat": false,
+      "announce_to_chat": true,
       "hidden": false
     },
     "criteria": {
@@ -24,7 +24,7 @@
         "conditions": {
           "items": [
             {
-              "items": ["mod_journey:silver_coin"]
+              "items": ["mod_journey:clotted_blood_clump"]
             }
           ]
         }

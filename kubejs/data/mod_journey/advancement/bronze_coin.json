@@ -7,10 +7,10 @@
       },
       "description": {
         "color": "white",
-        "text": "Bronze Coins sind durch Quests erhältlich. An sich auch ein ideales Bezahlungsmittel für Dienstleistungen."
+        "text": "Kupfer Coins sind durch Quests erhältlich. An sich auch ein ideales Bezahlungsmittel für Dienstleistungen."
       },
       "icon": {
-        "item": "mod_journey:bronze_coin"
+        "id": "mod_journey:copper_coin"
       },
       "background": "minecraft:textures/block/obsidian.png",
       "frame": "task",
@@ -24,7 +24,7 @@
         "conditions": {
           "items": [
             {
-              "items": ["mod_journey:bronze_coin"]
+              "items": ["mod_journey:copper_coin"]
             }
           ]
         }
