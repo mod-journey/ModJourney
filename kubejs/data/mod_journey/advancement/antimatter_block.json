@@ -19,7 +19,7 @@
     "hidden": false
   },
   "criteria": {
-    "has_gold_coin": {
+    "has_item": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
