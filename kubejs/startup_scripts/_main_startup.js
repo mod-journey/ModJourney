@@ -1,5 +1,8 @@
 //priority: 100
 
+//Platform.mods.mod_journey.name = 'Mod Journey'
+Platform.mods.custommachinery.name = 'Mod_Journey' // Works only in jei, not in inventory
+
 let startup = true
 
 if (startup) {
