@@ -1,4 +1,12 @@
 {
+  "advancement.mod_journey.antimatter": "Efficient waste disposal",
+  "advancement.mod_journey.antimatter.desc": "Craft an antimatter ingot.",
+  "advancement.mod_journey.antimatter_block": "Pure Antimatter",
+  "advancement.mod_journey.antimatter_block.desc": "Craft a block of antimatter.",
+  "advancement.mod_journey.blood_block": "A block of pure blood",
+  "advancement.mod_journey.blood_block.desc": "Craft a Clotted Blood Block.",
+  "advancement.mod_journey.blood_clump": "Crystallized Blood",
+  "advancement.mod_journey.blood_clump.desc": "Craft a Clotted Blood Clump.",
   "advancement.mod_journey.copper_coin.desc": "Copper coins can be earned from quests. They are an ideal payment for services.",
   "advancement.mod_journey.gold_coin.desc": "You can earn gold coins, from activity, the questbook or from crafting of specific items",
   "advancement.mod_journey.main_root": "The Coinsystem",

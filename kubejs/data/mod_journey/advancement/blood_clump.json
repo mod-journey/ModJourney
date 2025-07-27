@@ -2,12 +2,12 @@
     "parent": "mod_journey:root_gold_coin",
     "display": {
       "title": {
-        "text": "Kristallisiertes Blut",
+        "translate": "advancement.mod_journey.blood_clump",
         "color": "green"
       },
       "description": {
         "color": "white",
-        "text": "Stelle ein Clotted Blood Clump her."
+        "translate": "advancement.mod_journey.blood_clump.desc"
       },
       "icon": {
         "id": "mod_journey:clotted_blood_clump"

@@ -2,12 +2,12 @@
     "parent": "mod_journey:root_gold_coin",
     "display": {
       "title": {
-        "text": "Effiziente Müllentsorgung",
+        "translate": "advancement.mod_journey.antimatter",
         "color": "green"
       },
       "description": {
         "color": "white",
-        "text": "Stelle ein Antimaterie Ingot her."
+        "translate": "advancement.mod_journey.antimatter.desc"
       },
       "icon": {
         "id": "mod_journey:antimatter_ingot"

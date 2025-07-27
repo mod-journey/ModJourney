@@ -2,12 +2,12 @@
   "parent": "mod_journey:antimatter_ingot",
   "display": {
     "title": {
-      "text": "Reine Antimaterie",
+      "translate": "advancement.mod_journey.antimatter",
       "color": "green"
     },
     "description": {
       "color": "white",
-      "text": "Stelle einen Block aus Antimaterie her."
+      "translate": "advancement.mod_journey.antimatter_block.desc"
     },
     "icon": {
       "id": "mod_journey:antimatter_block"

@@ -1,4 +1,12 @@
 {
+  "advancement.mod_journey.antimatter": "Effiziente Müllentsorgung",
+  "advancement.mod_journey.antimatter.desc": "Stelle ein Antimaterie Barren her.",
+  "advancement.mod_journey.antimatter_block": "Reine Antimaterie",
+  "advancement.mod_journey.antimatter_block.desc": "Stelle einen Block aus Antimaterie her.",
+  "advancement.mod_journey.blood_block": "Ein Block aus reinem Blut",
+  "advancement.mod_journey.blood_block.desc": "Stelle einen Clotted Blood Block her.",
+  "advancement.mod_journey.blood_clump": "Kristallisiertes Blut",
+  "advancement.mod_journey.blood_clump.desc": "Stelle ein Geronnenen Blutklumpen her.",
   "advancement.mod_journey.copper_coin.desc": "Kupfer Münzen sind durch Quests erhältlich. An sich auch ein ideales Bezahlungsmittel für Dienstleistungen.",
   "advancement.mod_journey.gold_coin.desc": "Du kannst Gold Münzen verdienen, durch Aktivität, das Questbuch oder durch das Herstellen von bestimmten Items",
   "advancement.mod_journey.main_root": "Das Münzen-System",
