@@ -3,18 +3,6 @@
 let jei_hide = (event, active, debug) => {
     if(!active) return;
 
-    let mekanism_hide = [
-        'mekanismadditions:walkie_talkie',
-        'mekanism:upgrade_anchor',
-        'mekanismadditions:obsidian_tnt',
-        'mekanism:dimensional_stabilizer',
-        'mekanism:digital_miner'
-    ]
-    mekanism_hide.forEach((itemName) => {
-        event.hide(itemName)
-    })
-
-
     // Mystical Agriculture
     let mystical_hide = [
         'mysticalagriculture:harvester',
@@ -252,7 +240,6 @@ let jei_hide = (event, active, debug) => {
     })
 
     event.hide(Item.of('ae2:vibration_chamber'))
-    event.hide(Item.of('mekanism:creative_chemical_tank'))
     event.hide(Item.of('easy_villagers:iron_farm'))
     event.hide(Item.of('ae2wtlib:quantum_bridge_card'))
 

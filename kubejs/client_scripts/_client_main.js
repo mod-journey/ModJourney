@@ -12,6 +12,8 @@ if (Jeihide) {
         jei_hide(event, false);                 // Aktuell noch nicht auf Neo 1.21.1 angepasst
         stellaris_remove_items(event, true)
 
+        hide_mekanism_items(event, true)
+
     });
 };
 
