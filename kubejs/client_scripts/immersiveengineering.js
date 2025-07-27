@@ -1,9 +1,9 @@
-const hide_immersiveenigneering_items = (event, active) => {
+let hide_immersiveenigneering_items = (event, active) => {
     if (!active) {
         return;
     }
 
-    const immersiveengineering_hide = [
+    let immersiveengineering_hide = [
         "immersiveengineering:deepslate_ore_aluminum",
         "immersiveengineering:deepslate_ore_lead",
         "immersiveengineering:deepslate_ore_nickel",
