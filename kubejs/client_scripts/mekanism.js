@@ -1,4 +1,4 @@
-let hide_mekanism_items = (event, active) => {
+let hide_mekanism_items = (event, active, debug) => {
     if(!active) {
         return;
     }
