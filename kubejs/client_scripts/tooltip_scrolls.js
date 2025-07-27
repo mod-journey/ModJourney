@@ -10,7 +10,7 @@ let tooltip_scrolls = event => {
     for (let i = 1; i <= 9; i++) {
 
         //Fügt den Scrolls eine Beschreibung hinzu
-        event.addAdvanced('mod_journey:scroll' + i, (item, advanced, text) => {
+        event.addAdvanced('mod_journey:scroll_' + i, (item, advanced, text) => {
 
             text.add(1, [ Text.yellow('Mit diesem Gegenstand, lassen sich verdeckte Quests freischalten.') ])
             if (!event.shift) {
@@ -48,7 +48,7 @@ let tooltip_scrolls = event => {
 
     //Schriftrolle 1
     // TODO Rework this to run over an array e.g. ['First Mod', 'Second Mod'].forEach((i, name) => event.addAdvanced('mod_journey:scroll_' + i, (item, advanced, text) => {})
-    event.addAdvanced('mod_journey:scroll1', (item, advanced, text) => {
+    event.addAdvanced('mod_journey:scroll_1', (item, advanced, text) => {
         if (event.shift) {
             text.add(2,[
                 Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
@@ -60,7 +60,7 @@ let tooltip_scrolls = event => {
     });
 
     //Schriftrolle 2
-    event.addAdvanced('mod_journey:scroll2', (item, advanced, text) => {
+    event.addAdvanced('mod_journey:scroll_2', (item, advanced, text) => {
         if (event.shift) {
             text.add(2,[
                 Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
@@ -72,7 +72,7 @@ let tooltip_scrolls = event => {
     });
 
     //Schriftrolle 3
-    event.addAdvanced('mod_journey:scroll3', (item, advanced, text) => {
+    event.addAdvanced('mod_journey:scroll_3', (item, advanced, text) => {
         if (event.shift) {
             text.add(2,[
                 Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
@@ -84,7 +84,7 @@ let tooltip_scrolls = event => {
     })
 
     //Schriftrolle 4
-    event.addAdvanced('mod_journey:scroll4', (item, advanced, text) => {
+    event.addAdvanced('mod_journey:scroll_4', (item, advanced, text) => {
         if (event.shift) {
             text.add(2,[
                 Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
@@ -96,7 +96,7 @@ let tooltip_scrolls = event => {
     })
 
     //Schriftrolle 5
-    event.addAdvanced('mod_journey:scroll5', (item, advanced, text) => {
+    event.addAdvanced('mod_journey:scroll_5', (item, advanced, text) => {
         if (event.shift) {
             text.add(2,[
                 Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
@@ -108,7 +108,7 @@ let tooltip_scrolls = event => {
     })
 
     //Schriftrolle 6
-    event.addAdvanced('mod_journey:scroll6', (item, advanced, text) => {
+    event.addAdvanced('mod_journey:scroll_6', (item, advanced, text) => {
         if (event.shift) {
             text.add(2,[
                 Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
@@ -120,7 +120,7 @@ let tooltip_scrolls = event => {
     })
 
     //Schriftrolle 7
-    event.addAdvanced('mod_journey:scroll7', (item, advanced, text) => {
+    event.addAdvanced('mod_journey:scroll_7', (item, advanced, text) => {
         if (event.shift) {
             text.add(2,[
                 Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
@@ -132,7 +132,7 @@ let tooltip_scrolls = event => {
     })
 
     //Schriftrolle 8
-    event.addAdvanced('mod_journey:scroll8', (item, advanced, text) => {
+    event.addAdvanced('mod_journey:scroll_8', (item, advanced, text) => {
         if (event.shift) {
             text.add(2,[
                 Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
@@ -144,7 +144,7 @@ let tooltip_scrolls = event => {
     })
 
     //Schriftrolle 9
-    event.addAdvanced('mod_journey:scroll9', (item, advanced, text) => {
+    event.addAdvanced('mod_journey:scroll_9', (item, advanced, text) => {
         if (event.shift) {
             text.add(2,[
                 Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.

@@ -20,7 +20,7 @@ let add_modjourney_scrolls = (event, active, debug) => {
     for (let i = 1; i <= 8; i++) {
         event.shapeless(
 
-            Item.of('mod_journey:scroll' + i, 1),
+            Item.of('mod_journey:scroll_' + i, 1),
             [
                 i + 'x #c:dyes/black',
                 'mod_journey:blank_scroll'
@@ -29,7 +29,7 @@ let add_modjourney_scrolls = (event, active, debug) => {
     }
 
     event.shapeless(
-        Item.of('mod_journey:scroll9', 1),
+        Item.of('mod_journey:scroll_9', 1),
         [
             '#mod_journey:rolls_crafting'
         ]

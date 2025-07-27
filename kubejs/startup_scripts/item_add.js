@@ -5,7 +5,7 @@ let item_add = (event, active, debug) => {
     if (debug) console.info('Add custom Scrolls.')
 
     for (let i = 1; i <= 9; i++) {
-        event.create('mod_journey:scroll' + i)
+        event.create('mod_journey:scroll_' + i)
             .texture('mod_journey:item/scroll' + i)
             .maxStackSize(16)
             .rarity("EPIC")
