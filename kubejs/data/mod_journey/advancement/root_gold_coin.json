@@ -1,15 +1,16 @@
 {
   "display": {
+    "icon": {
+      "id": "mod_journey:gold_coin",
+      "count": 1
+    },
     "title": {
       "text": "Das Coinsystem",
       "color": "green"
     },
     "description": {
-      "color": "white",
-      "text": "Du kannst Gold Coins verdienen, durch aktivität, das Questbuch oder durch das Craften von bestimmten Items"
-    },
-    "icon": {
-      "item": "mod_journey:gold_coin"
+      "text": "Du kannst Gold Coins verdienen, durch aktivität, das Questbuch oder durch das Craften von bestimmten Items",
+      "color": "white"
     },
     "background": "minecraft:textures/block/obsidian.png",
     "frame": "task",
@@ -23,7 +24,7 @@
       "conditions": {
         "items": [
           {
-            "items": ["mod_journey:gold_coin"]
+            "items": "mod_journey:gold_coin"
           }
         ]
       }

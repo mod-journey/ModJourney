@@ -10,7 +10,7 @@
       "text": "Stelle einen Block aus Antimaterie her."
     },
     "icon": {
-      "item": "mod_journey:antimatter_block"
+      "id": "mod_journey:antimatter_block"
     },
     "background": "minecraft:textures/block/obsidian.png",
     "frame": "task",

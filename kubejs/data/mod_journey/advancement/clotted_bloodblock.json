@@ -10,7 +10,7 @@
             "text": "Stelle einen Clotted Blood Block her."
         },
         "icon": {
-            "item": "mod_journey:clotted_bloodblock"
+            "id": "mod_journey:clotted_bloodblock"
         },
         "background": "minecraft:textures/block/obsidian.png",
         "frame": "task",
