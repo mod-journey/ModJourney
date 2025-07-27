@@ -53,23 +53,19 @@ let add_modjourney_scrolls = (event, active, debug) => {
 
 
     let magic_scrolls_array = [
-        "one",
-        "two",
-        "three"
+        1,
+        2,
+        3
     ]
-    let magic_counter = 1;
 
     magic_scrolls_array.forEach(scroll => {
         event.shapeless(
-
             Item.of('mod_journey:magic_scroll_' + scroll, 1),
             [
-                magic_counter + 'x #c:dyes/purple',
+                scroll + 'x #c:dyes/purple',
                 'mod_journey:magic_scroll_blank'
             ]
-        ).id("mod_journey:magic_scroll_" + magic_counter)
-
-        magic_counter = magic_counter + 1;
+        ).id("mod_journey:magic_scroll_" + scroll)
     });
 
 

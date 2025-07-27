@@ -29,19 +29,16 @@ let item_add = (event, active, debug) => {
 
     let magic_scrolls_array = [
         "blank",
-        "one",
-        "two",
-        "three"
+        1,
+        2,
+        3
     ]
 
-    let magic_counter = 0;
     magic_scrolls_array.forEach(scroll => {
         event.create('mod_journey:magic_scroll_' + scroll)
             .texture('mod_journey:magic_scroll_' + scroll)
             .maxStackSize(16)
             .rarity("EPIC")
-
-        magic_counter = magic_counter + 1;
     });
 
     event.create('mod_journey:copper_coin')
