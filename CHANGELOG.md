@@ -1,5 +1,66 @@
 # Changelog:
 
+## NEXT RELEASE
+
+### Migration to NeoForge and 1.21
+
+#### Mods added:
+- Aether Villages
+- Applied Flux
+- Ars Elemental
+- Ars Ocultas
+- BaguetteLib
+- Construction Sticks
+- Decorative Blocks
+- Macaw's Stairs
+- Mekanism Covers
+- Mekanism: Weapons
+- MrCrayfish's Furniture Mod
+- My Server Is Compatible
+- No-fly Zone
+- Oculus
+- Quests Additions
+- RightClickHarvest
+- Simple Shops
+- The Twilight Forest
+- Undergarden Additional Structures
+- Undergarden Delight
+
+#### Mods removed:
+- Ad Astra
+- Aether: Lost Content
+- Alex's Delight
+- Alex's Mobs
+- AmbientSounds 6
+- Applied Cooking
+- Athena
+- Better Villages
+- Blood Magic
+- Blue Skies
+- Botania
+  - Applied Botanics
+  - Botanical Machinery
+- Botany Pots
+- Botarium
+- Cataclysmic Combat
+- Citadel
+- Construction Wand
+- Embeddium
+- Embeddium++
+- Limit Mob Spawn
+- Occultism
+- MrCrayfish's Furniture Mod: Refurbished
+- Stellaris
+- Thermal
+  - CoFH Core
+  - Thermal Cultivation
+  - Thermal Dynamics
+  - Thermal Expansion
+  - Thermal Foundation
+  - Thermal Innovation
+
+
+
 ## v1.0.1
 
 #### Mods updated:
