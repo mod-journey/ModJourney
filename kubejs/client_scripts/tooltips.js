@@ -19,7 +19,7 @@ let tooltips = event => {
 
     //Fügt den Scrolls eine Beschreibung hinzu
     let mod_journey_items = [
-        'mod_journey:anti_ingot',
+        'mod_journey:antimatter_ingot',
         'mod_journey:antimatter_block'
     ]
     mod_journey_items.forEach(items => {
@@ -36,7 +36,7 @@ let tooltips = event => {
 
 
     //Antimaterie Ingot
-    event.addAdvanced('mod_journey:anti_ingot', (item, advanced, text) => {
+    event.addAdvanced('mod_journey:antimatter_ingot', (item, advanced, text) => {
         if (event.shift) {
             text.add(1,[
                 Text.green("Hochkomprimiertes Ingot aus Antimaterie")

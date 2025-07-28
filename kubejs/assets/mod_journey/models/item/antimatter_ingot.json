@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "mod_journey:item/anti_ingot",
-		"particle": "mod_journey:item/anti_ingot"
+		"0": "mod_journey:item/antimatter_ingot",
+		"particle": "mod_journey:item/antimatter_ingot"
 	},
 	"elements": [
 		{

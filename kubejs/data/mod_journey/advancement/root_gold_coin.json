@@ -5,11 +5,11 @@
       "count": 1
     },
     "title": {
-      "text": "Das Coinsystem",
+      "translate": "advancement.mod_journey.main_root",
       "color": "green"
     },
     "description": {
-      "text": "Du kannst Gold Coins verdienen, durch aktivität, das Questbuch oder durch das Craften von bestimmten Items",
+      "translate": "advancement.mod_journey.gold_coin.desc",
       "color": "white"
     },
     "background": "minecraft:textures/block/obsidian.png",
@@ -19,7 +19,7 @@
     "hidden": false
   },
   "criteria": {
-    "has_antimaterie_block": {
+    "has_item": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

@@ -21,10 +21,10 @@ let add_modjourney_bloodmagic = (event, active, debug) => {
             "item": "mod_journey:clotted_blood_clump"
         },
         "upgradeLevel": 4
-    }).id("modjourney:shapless/clotted_blood_clump")
+    }).id("mod_journey:shapeless/clotted_blood_clump")
 
     event.shapeless(
         Item.of('mod_journey:clotted_bloodblock', 1), [
         '9x mod_journey:clotted_blood_clump'
-    ]).id("modjourney:shapless/clotted_blood_block")
+    ]).id("mod_journey:shapeless/clotted_blood_block")
 };

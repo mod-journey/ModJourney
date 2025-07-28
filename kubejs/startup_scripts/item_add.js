@@ -1,54 +1,44 @@
 // priority: 90
-console.info('Add custom Scrolls.')
-
 let item_add = (event, active, debug) => {
 
     if (!active) return;
+    if (debug) console.info('Add custom Scrolls.')
 
     for (let i = 1; i <= 9; i++) {
-        event.create('mod_journey:scroll' + i)
+        event.create('mod_journey:scroll_' + i)
             .texture('mod_journey:item/scroll' + i)
             .maxStackSize(16)
-            .displayName("Schriftrolle " + i)
             .rarity("EPIC")
     }
 
     event.create('mod_journey:blank_scroll')
         .texture('mod_journey:item/blank_scroll')
         .maxStackSize(64)
-        .displayName("Leere Schriftrolle")
         .rarity("RARE")
 
     event.create('mod_journey:the_rod_of_real_life')
-        .displayName('The Rod of Real Life')
         .rarity("RARE")
         .maxStackSize(1)
 
-    event.create('mod_journey:anti_ingot')
-        .displayName('Antimatter Ingot')
+    event.create('mod_journey:antimatter_ingot')
         .rarity("EPIC")
         .maxStackSize(64)
 
     event.create('mod_journey:clotted_blood_clump')
-        .displayName('Clotted Blood Clump')
         .maxStackSize(64)
 
     let magic_scrolls_array = [
         "blank",
-        "one",
-        "two",
-        "three"
+        1,
+        2,
+        3
     ]
 
-    let magic_counter = 0;
     magic_scrolls_array.forEach(scroll => {
         event.create('mod_journey:magic_scroll_' + scroll)
             .texture('mod_journey:magic_scroll_' + scroll)
             .maxStackSize(16)
-            .displayName("Magische Schriftrolle " + magic_counter)
             .rarity("EPIC")
-
-        magic_counter = magic_counter + 1;
     });
 
     event.create('mod_journey:copper_coin')

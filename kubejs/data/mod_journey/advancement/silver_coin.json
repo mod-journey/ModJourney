@@ -2,12 +2,12 @@
     "parent": "mod_journey:root_gold_coin",
     "display": {
       "title": {
-        "text": "Das Coinsystem",
+        "translate": "advancement.mod_journey.main_root",
         "color": "green"
       },
       "description": {
         "color": "white",
-        "text": "Silber Coins verdienst Du Dir durch Aktivität auf dem Server."
+        "translate": "advancement.mod_journey.silver_coin.desc"
       },
       "icon": {
         "id": "mod_journey:silver_coin"
@@ -19,7 +19,7 @@
       "hidden": false
     },
     "criteria": {
-      "has_gold_coin": {
+      "has_item": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [

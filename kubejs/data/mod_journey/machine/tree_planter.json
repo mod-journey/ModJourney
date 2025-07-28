@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "Tree Planter",
+    "text": "item.mod_journey.machine.tree_planter",
     "color": "white"
   },
   "appearance": {
@@ -144,7 +144,7 @@
       "y": 9,
       "height": 13,
       "text": {
-        "text": "Tree Planter",
+        "text": "item.mod_journey.machine.tree_planter",
         "bold": true
       }
     }
@@ -154,6 +154,6 @@
     "cooldown": 40
   },
   "tooltips": {
-    "text": "Got some logs from saplings"
+    "text": "item.mod_journey.machine.tree_planter.tooltip"
   }
 }
