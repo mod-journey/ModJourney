@@ -1,19 +1,19 @@
-## Changelog:
+# Changelog:
 
-# v1.0.1
+## v1.0.1
 
 #### Mods updated:
 - Quest additions
 
 
-# v1.0.0
+## v1.0.0
 
 #### Feautures added
 - Added full Questbook
 - Server file also aviable
 
 
-# v0.8.4
+## v0.8.4
 
 #### Mods updated:
 - Ars Noveau
@@ -36,7 +36,7 @@
 - Blacklist foregoing soul items for carry-on
 
 
-# v0.8.3
+## v0.8.3
 
 #### Mods added:
  - Nullscape
@@ -72,7 +72,7 @@
 
 
 
-# v0.8.2
+## v0.8.2
 
 #### Mods added:
 
@@ -93,7 +93,7 @@
 - remove thermal ender grenade recipe
 
 ---
-# v0.8.1
+## v0.8.1
 
 - Add mods occulus, embeddium
 - Move sink to stage 2
