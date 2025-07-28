@@ -63,6 +63,7 @@
 				"25ADF4BACFFF9FB7"
 			]
 			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "5600D421C0F617A9"
 			shape: "diamond"

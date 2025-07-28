@@ -7,7 +7,7 @@
 		id: "twilightforest:lich_trophy"
 	}
 	id: "24DF41E56893FA64"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -17,7 +17,7 @@
 				id: "3FE836304C19A910"
 				type: "dimension"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 0.0d
 		}
 		{
@@ -28,7 +28,7 @@
 				item: { count: 1, id: "twilightforest:magic_map" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -39,7 +39,7 @@
 				item: { count: 1, id: "twilightforest:quest_ram_trophy" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: -1.5d
 		}
 		{
@@ -50,7 +50,7 @@
 				item: { count: 1, id: "twilightforest:ore_magnet" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 2.0d
 		}
 		{
@@ -61,7 +61,7 @@
 				item: { count: 1, id: "twilightforest:transformation_powder" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -72,7 +72,7 @@
 				item: { count: 1, id: "twilightforest:naga_trophy" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -90,7 +90,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -101,7 +101,7 @@
 				item: { count: 1, id: "twilightforest:lich_trophy" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -202,6 +202,39 @@
 			]
 			x: 15.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["3D48EF5B90DCEC58"]
+			id: "37DFFD79867D6F8F"
+			tasks: [{
+				id: "4C2197C0CF3E8B3F"
+				item: { count: 1, id: "twilightforest:charm_of_keeping_1" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["37DFFD79867D6F8F"]
+			id: "2197D9C85349D768"
+			tasks: [{
+				id: "2F117051A3380984"
+				item: { count: 1, id: "twilightforest:charm_of_keeping_2" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2197D9C85349D768"]
+			id: "3BB2E4884DAA9AAC"
+			tasks: [{
+				id: "65879EE0CB7F2298"
+				item: { count: 1, id: "twilightforest:charm_of_keeping_3" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
 		}
 	]
 }

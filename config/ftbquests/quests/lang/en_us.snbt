@@ -152,6 +152,7 @@
 	quest.0788F9E6D027F21F.title: "Verkabelung"
 	quest.07BFBAE08D89B702.quest_desc: ["Mit diesen Seeds können Mageblooms angebaut werden, die dann verschiedene Einsatzmöglichkeiten von Rüstungsmaterial zu magischem Essen ermöglichen."]
 	quest.07BFBAE08D89B702.title: "Grüner Magiedaumen"
+	quest.07C4A9582BCBDAD1.title: "hide botania"
 	quest.082E43A5EEBDF80B.quest_desc: ["Der Controller ermöglicht mehrere Black Hole Tanks oder Units in einem Block zu lagern."]
 	quest.082E43A5EEBDF80B.quest_subtitle: "16 in 1"
 	quest.08377ECC8FA7DD80.quest_desc: ["Ermöglicht das Laden von FE basierten Items in einem Container, Kiste, Storage. "]
@@ -1357,6 +1358,7 @@
 	quest.5AE90AC31CD60938.quest_desc: ["Auch hier kann eine Fertigungskarte installiert werden. Mittels zusätzlicher Beschleunigungskarten, gibst Du die Chargengröße des Craftingprozesses an. "]
 	quest.5AF633DB1C78EDBD.quest_desc: ["Erhält man durch das abbauen des gleichnamigen Erzes."]
 	quest.5BD2AA6ED1E63953.quest_desc: ["Halte Dich kompakt."]
+	quest.5C18E2E90C59C472.title: "hide blood magic"
 	quest.5C36E3B78AB146C0.quest_desc: [
 		"Das Wort Mana stammt aus dem Polynesischen und...achso, wie es hier funktioniert."
 		"Zum Wirken deiner Spells benötigst du Mana. Dieses siehst du in der Regel links unten neben deiner Inventarleiste. Glyphen und dessen Zusammensetzungen kosten mehr oder weniger Mana, je nach Stärke, Tier und Effekt."
@@ -1824,6 +1826,7 @@
 	task.0690127887DF6BBF.title: "Upgrades"
 	task.0734E682569CEA3F.title: "Energizer"
 	task.074D1299CC61739F.title: "kleinere Bugs"
+	task.08F838D4927BA0E6.title: "disable bloodmagic"
 	task.0C3202C694CE3D6A.title: "Simple Black Hole Unit"
 	task.0CB57C52EC082C7F.title: "Zusatzgeräte"
 	task.0D0A3B350C73C428.title: "Extreme Reactor"
@@ -1921,6 +1924,7 @@
 	task.62145B5C3787975C.title: "Level 75"
 	task.6224485A1F5440CF.title: "Das Pardon zu Apotheosis"
 	task.62F2C4411EA05CAE.title: "Energieproduktion"
+	task.63478662F77CE78C.title: "hide Thermal"
 	task.639B495E41074485.title: "bevor du losfliegst"
 	task.64F6832552E0F930.title: "Steck dein Gebiet ab"
 	task.667A2BE5B955BA43.title: "gar nicht über(powah)t"
@@ -1941,6 +1945,7 @@
 	task.6DD47017596E7645.title: "moi"
 	task.6FF8DF5C6BA9E591.title: "Any #botania:generating_special_flowers"
 	task.7203F46653E6A739.title: "Dein Start mit Botania"
+	task.72A47B857312AED5.title: "hide blue_skies"
 	task.72B008863DBD6560.title: "Miners Entry"
 	task.74CB5C3F334DF6F9.title: "Getting an Upgrade 2.0"
 	task.76D43A5CFB25EA8E.title: "Applied Energistics"
