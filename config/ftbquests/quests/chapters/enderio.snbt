@@ -28,7 +28,7 @@
 			]
 			tasks: [{
 				id: "3FCD42BFBF8E5A11"
-				item: { }
+				item: { count: 1, id: "enderio:primitive_alloy_smelter" }
 				type: "item"
 			}]
 			x: -1.5d
@@ -54,7 +54,7 @@
 			]
 			tasks: [{
 				id: "665CA948342D570E"
-				item: { }
+				item: { count: 1, id: "enderio:void_chassis" }
 				type: "item"
 			}]
 			x: -1.5d
@@ -80,7 +80,7 @@
 			]
 			tasks: [{
 				id: "052ABD7FD728611F"
-				item: { }
+				item: { count: 1, id: "enderio:alloy_smelter" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -106,7 +106,7 @@
 			]
 			tasks: [{
 				id: "6FB0E6FF833F2007"
-				item: { }
+				item: { count: 1, id: "enderio:stirling_generator" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -132,7 +132,7 @@
 			]
 			tasks: [{
 				id: "37B1ED1D03B8284E"
-				item: { }
+				item: { count: 1, id: "enderio:sag_mill" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -158,7 +158,7 @@
 			]
 			tasks: [{
 				id: "30874CBB78C324A8"
-				item: { }
+				item: { count: 1, id: "enderio:impulse_hopper" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -184,7 +184,7 @@
 			]
 			tasks: [{
 				id: "6734653B33AFEE5F"
-				item: { }
+				item: { count: 1, id: "enderio:crafter" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -210,7 +210,7 @@
 			]
 			tasks: [{
 				id: "099344A3366953CD"
-				item: { }
+				item: { count: 1, id: "enderio:wired_charger" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -236,7 +236,7 @@
 			]
 			tasks: [{
 				id: "174C91B35DF37B66"
-				item: { }
+				item: { count: 1, id: "enderio:painting_machine" }
 				type: "item"
 			}]
 			x: -4.5d
@@ -262,7 +262,7 @@
 			]
 			tasks: [{
 				id: "106728410ECC8369"
-				item: { }
+				item: { count: 1, id: "enderio:drain" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -288,7 +288,7 @@
 			]
 			tasks: [{
 				id: "6C3B7B71F7188A9E"
-				item: { }
+				item: { count: 1, id: "enderio:copper_alloy_ingot" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -314,7 +314,7 @@
 			]
 			tasks: [{
 				id: "4FD71B2D319A9333"
-				item: { }
+				item: { count: 1, id: "enderio:energetic_alloy_ingot" }
 				type: "item"
 			}]
 			x: -8.0d
@@ -340,7 +340,7 @@
 			]
 			tasks: [{
 				id: "1E55AA8A0CC3C173"
-				item: { }
+				item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
 				type: "item"
 			}]
 			x: -8.5d
@@ -366,7 +366,7 @@
 			]
 			tasks: [{
 				id: "442BDFE8FD0FED4B"
-				item: { }
+				item: { count: 1, id: "enderio:redstone_alloy_ingot" }
 				type: "item"
 			}]
 			x: -8.5d
@@ -392,7 +392,7 @@
 			]
 			tasks: [{
 				id: "7FDC996AB6743097"
-				item: { }
+				item: { count: 1, id: "enderio:conductive_alloy_ingot" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -418,7 +418,7 @@
 			]
 			tasks: [{
 				id: "7CEC0BA6335D2088"
-				item: { }
+				item: { count: 1, id: "enderio:pulsating_alloy_ingot" }
 				type: "item"
 			}]
 			x: -8.0d
@@ -444,7 +444,7 @@
 			]
 			tasks: [{
 				id: "30E0F04FD48DCB38"
-				item: { }
+				item: { count: 1, id: "enderio:soularium_ingot" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -470,7 +470,7 @@
 			]
 			tasks: [{
 				id: "2DD075F311617C8A"
-				item: { }
+				item: { count: 1, id: "enderio:ensouled_chassis" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -496,7 +496,7 @@
 			]
 			tasks: [{
 				id: "33288E290AD475B3"
-				item: { }
+				item: { count: 1, id: "enderio:slice_and_splice" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -522,7 +522,7 @@
 			]
 			tasks: [{
 				id: "3AD768C54FA319FB"
-				item: { }
+				item: { count: 1, id: "enderio:soul_binder" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -553,7 +553,7 @@
 			]
 			tasks: [{
 				id: "34F5DD272F059BF9"
-				item: { }
+				item: { count: 1, id: "enderio:powered_spawner" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -579,7 +579,7 @@
 			]
 			tasks: [{
 				id: "57D625BEAA0A25F7"
-				item: { }
+				item: { count: 1, id: "enderio:soul_engine" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -610,7 +610,7 @@
 			]
 			tasks: [{
 				id: "7C32151A50AA50C1"
-				item: { }
+				item: { count: 1, id: "enderio:xp_obelisk" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -635,7 +635,7 @@
 			]
 			tasks: [{
 				id: "199AB05CA66B7446"
-				item: { }
+				item: { count: 1, id: "enderio:conduit_binder_composite" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -661,7 +661,7 @@
 			]
 			tasks: [{
 				id: "3ABE95DE8CE5EC40"
-				item: { }
+				item: { count: 1, id: "enderio:conduit_binder" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -687,7 +687,7 @@
 			]
 			tasks: [{
 				id: "3BAE03D98B3D2A35"
-				item: { }
+				item: { components: { "enderio:conduit": "enderio:energy" }, count: 1, id: "enderio:conduit" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -713,7 +713,7 @@
 			]
 			tasks: [{
 				id: "525B76D8CD307F34"
-				item: { }
+				item: { components: { "enderio:conduit": "enderio:fluid" }, count: 1, id: "enderio:conduit" }
 				type: "item"
 			}]
 			x: 6.5d
@@ -739,7 +739,7 @@
 			]
 			tasks: [{
 				id: "5439622E64532007"
-				item: { }
+				item: { components: { "enderio:conduit": "enderio:pressurized_fluid" }, count: 1, id: "enderio:conduit" }
 				type: "item"
 			}]
 			x: 6.5d
@@ -765,7 +765,7 @@
 			]
 			tasks: [{
 				id: "320CE2E1C23B1801"
-				item: { }
+				item: { components: { "enderio:conduit": "enderio:ender_fluid" }, count: 1, id: "enderio:conduit" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -791,7 +791,7 @@
 			]
 			tasks: [{
 				id: "4FF9469476EFA496"
-				item: { }
+				item: { components: { "enderio:conduit": "enderio:redstone" }, count: 1, id: "enderio:conduit" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -817,7 +817,7 @@
 			]
 			tasks: [{
 				id: "542ABDF838676327"
-				item: { }
+				item: { components: { "enderio:conduit": "enderio:item" }, count: 1, id: "enderio:conduit" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -843,7 +843,7 @@
 			]
 			tasks: [{
 				id: "616111FD3BD2E751"
-				item: { }
+				item: { components: { "enderio:conduit": "enderio:dense_me" }, count: 1, id: "enderio:conduit" }
 				type: "item"
 			}]
 			x: 10.0d
@@ -869,7 +869,7 @@
 			]
 			tasks: [{
 				id: "0990B1683E3DABD6"
-				item: { }
+				item: { components: { "enderio:conduit": "enderio:me" }, count: 1, id: "enderio:conduit" }
 				type: "item"
 			}]
 			x: 11.0d
@@ -895,7 +895,7 @@
 			]
 			tasks: [{
 				id: "15AD6B6264A553A6"
-				item: { }
+				item: { components: { "enderio:conduit": "enderio:chemical" }, count: 1, id: "enderio:conduit" }
 				type: "item"
 			}]
 			x: 11.5d
@@ -921,7 +921,7 @@
 			]
 			tasks: [{
 				id: "466E4C65E9CE136C"
-				item: { }
+				item: { components: { "enderio:conduit": "enderio:ender_chemical" }, count: 1, id: "enderio:conduit" }
 				type: "item"
 			}]
 			x: 11.5d
@@ -947,7 +947,7 @@
 			]
 			tasks: [{
 				id: "095AC37DBF20415A"
-				item: { }
+				item: { components: { "enderio:conduit": "enderio:heat" }, count: 1, id: "enderio:conduit" }
 				type: "item"
 			}]
 			x: 11.0d
@@ -972,7 +972,7 @@
 			]
 			tasks: [{
 				id: "3BA010EDF39A3A0B"
-				item: { }
+				item: { count: 1, id: "enderio:grains_of_infinity" }
 				type: "item"
 			}]
 			x: -14.5d
@@ -998,7 +998,7 @@
 			]
 			tasks: [{
 				id: "0848782F5CD57CD0"
-				item: { }
+				item: { count: 1, id: "enderio:basic_capacitor" }
 				type: "item"
 			}]
 			x: -14.5d
@@ -1024,7 +1024,7 @@
 			]
 			tasks: [{
 				id: "06F5AEA450EE6F2C"
-				item: { }
+				item: { count: 1, id: "enderio:double_layer_capacitor" }
 				type: "item"
 			}]
 			x: -14.5d
@@ -1050,7 +1050,7 @@
 			]
 			tasks: [{
 				id: "7E60208FD6E3C56D"
-				item: { }
+				item: { count: 1, id: "enderio:basic_capacitor_bank" }
 				type: "item"
 			}]
 			x: -16.5d
@@ -1076,7 +1076,7 @@
 			]
 			tasks: [{
 				id: "1BA0094EF52378C8"
-				item: { }
+				item: { count: 1, id: "enderio:advanced_capacitor_bank" }
 				type: "item"
 			}]
 			x: -16.5d
@@ -1107,7 +1107,7 @@
 			]
 			tasks: [{
 				id: "7E91D1398797DB61"
-				item: { }
+				item: { count: 1, id: "enderio:vibrant_capacitor_bank" }
 				type: "item"
 			}]
 			x: -16.5d
@@ -1133,7 +1133,7 @@
 			]
 			tasks: [{
 				id: "09BA167CC0225FF7"
-				item: { }
+				item: { count: 1, id: "enderio:energetic_photovoltaic_module" }
 				type: "item"
 			}]
 			x: -12.5d
@@ -1159,7 +1159,7 @@
 			]
 			tasks: [{
 				id: "4E0B1F249656ADCD"
-				item: { }
+				item: { count: 1, id: "enderio:pulsating_photovoltaic_module" }
 				type: "item"
 			}]
 			x: -12.5d
@@ -1185,7 +1185,7 @@
 			]
 			tasks: [{
 				id: "3725A41AABCA293C"
-				item: { }
+				item: { count: 1, id: "enderio:vibrant_photovoltaic_module" }
 				type: "item"
 			}]
 			x: -12.5d
@@ -1211,7 +1211,7 @@
 			]
 			tasks: [{
 				id: "04877F9798D0B635"
-				item: { }
+				item: { count: 1, id: "enderio:yeta_wrench" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -1237,7 +1237,7 @@
 			]
 			tasks: [{
 				id: "2E79612594839F7A"
-				item: { }
+				item: { count: 1, id: "enderio:zombie_electrode" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -1263,7 +1263,7 @@
 			]
 			tasks: [{
 				id: "2E150EC8D262AAF7"
-				item: { }
+				item: { count: 1, id: "enderio:z_logic_controller" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -1294,7 +1294,7 @@
 			]
 			tasks: [{
 				id: "0E3F9CA4F56F201B"
-				item: { }
+				item: { count: 1, id: "enderio:travel_anchor" }
 				type: "item"
 			}]
 			x: -10.0d
@@ -1321,7 +1321,7 @@
 			]
 			tasks: [{
 				id: "3E0BC5CB4A1E5006"
-				item: { }
+				item: { count: 1, id: "enderio:staff_of_travelling" }
 				type: "item"
 			}]
 			x: -10.0d
@@ -1347,7 +1347,7 @@
 			]
 			tasks: [{
 				id: "45B0E86EAA7D1CAB"
-				item: { }
+				item: { count: 1, id: "enderio:dark_steel_ingot" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -1373,7 +1373,7 @@
 			]
 			tasks: [{
 				id: "08A6B5430A42CE0C"
-				item: { }
+				item: { count: 1, id: "enderio:dark_steel_sword" }
 				type: "item"
 			}]
 			x: -6.5d
@@ -1403,7 +1403,7 @@
 			]
 			tasks: [{
 				id: "58E53D98373BFEEF"
-				item: { }
+				item: { count: 1, id: "enderio:empty_soul_vial" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -1432,7 +1432,7 @@
 			]
 			tasks: [{
 				id: "0571DBBB62FF9C0E"
-				item: { }
+				item: { count: 1, id: "enderio:xp_juice_bucket" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -1458,7 +1458,7 @@
 			]
 			tasks: [{
 				id: "5A303EE97C836137"
-				item: { }
+				item: { count: 1, id: "enderio:fluid_tank" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -1484,7 +1484,7 @@
 			]
 			tasks: [{
 				id: "3E53E12A5185ECCD"
-				item: { }
+				item: { count: 1, id: "enderio:xp_vacuum" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -1503,7 +1503,7 @@
 			}]
 			tasks: [{
 				id: "3741580ABB8CB343"
-				item: { }
+				item: { count: 1, id: "enderio:octadic_capacitor" }
 				type: "item"
 			}]
 			x: -14.5d
