@@ -81,6 +81,8 @@
 		""
 		"&1Botania&r wird gebraucht um dieses Item herzustellen."
 	]
+	quest.04443A6AB94C4DDA.quest_desc: ["Um es mit dem Aufbau des Rituals einfacher zu haben, öffnet euer \"Book of Aura\" und sucht dort das \"Ritual of Forest/Ritual des Waldes\". Dann könnt ihr euch die Struktur anzeigen lassen (mit rechtsklick fixieren)."]
+	quest.04443A6AB94C4DDA.title: "Ritual des Waldes"
 	quest.047EA9E03F9DA8BB.quest_desc: [
 		"Um Verzauberungen bis Level 45 zu bekommen, muss man entweder den Nether oder den Ozean gemeistert haben."
 		""
@@ -323,6 +325,7 @@
 	quest.0ECF017D956A1888.quest_desc: ["Weniger als 64 Stackbar."]
 	quest.0ECF017D956A1888.quest_subtitle: "WEEEENIGER I"
 	quest.0ECF017D956A1888.title: "Stack-Downgrade Tier 1"
+	quest.0EE6AA97352EC588.quest_desc: ["Wird benötigt um Aura einzusammeln."]
 	quest.0EE9BD17F58E71EC.quest_desc: [
 		"Bestimmt fragst du dich, ob es möglich ist, Source auch irgendwie zu sammeln und zu lagern."
 		"Sehet und staunet: Ein Source Jar."
@@ -535,6 +538,8 @@
 	quest.1E86BC238F738A44.quest_desc: ["Graphit wird aus Kohle hergestellt. Das wirst Du brauchen. Viel sogar."]
 	quest.1EEE1CC4BE9692A2.quest_subtitle: "Lava und Wasser / Eis Mischer"
 	quest.1F1DABCEE502A81F.quest_desc: ["Importiert aktiv Items oder Flüssigkeiten in dein ME-System. In der GUI lassen sich Filter einstellen. Auf der rechten Seite der GUI lassen sich Karten einfügen. Dazu später mehr."]
+	quest.1F2977171C91D362.quest_desc: ["Wird in \"Aura reicher\" umgebung &l&4im Nether&r&r eingesammelt, wenn ihr mit einer Bottle and Cork, einen Rechtsklick in die Luft macht."]
+	quest.1F526D7C3FD0C711.quest_desc: ["Wird in \"Aura reicher\" umgebung eingesammelt, wenn ihr mit einer Bottle and Cork, einen Rechtsklick in die Luft macht."]
 	quest.1F70D2C20154A8B5.quest_subtitle: "BIENEN!!!"
 	quest.1F72867F68BA7D33.quest_desc: ["Alles was die Stackgröße überschreitet wird zerstört (gevoided). Ein einfacher und effizienter Überlaufschutz."]
 	quest.1F8F537E56CCED3F.quest_subtitle: "Speichere deine Spieler Experience im XP Obelisk. Die gespeicherte Experience lässt sich jederzeit zurück transferien. Solltest du die Flüssigkeit in flüssiger Form benötigen, kannst du diese mit einem Flüssigkeitsrohr abpumpen oder dem Obelisken hinzufügen"
@@ -682,6 +687,7 @@
 	quest.287B4338E5CB1AA0.title: "Sichtlich Besser"
 	quest.28CCBF0929A22DBC.quest_subtitle: "Lade mehrere Items gleichzeitig auf!"
 	quest.29CA54BFB00443D1.quest_desc: ["Erhältst Du durch das zusammen craften von 9 x  Utheric Shards"]
+	quest.2A1131AA06C836C5.quest_desc: ["Rechtsklicke mit Brilliant Fiber in der Hand das Laub eines Baumes. Warte anschließend eine weile.."]
 	quest.2AB8746017BEEEA3.quest_desc: ["Forgotten Nuggets, werden durch Forgotten Guardians gedroppt. Auch andere Mobs im Undergarden lassen diese Fallen, zu geringeren Chancen aber. "]
 	quest.2AF2078918509008.quest_desc: ["Konsolen, Import- \\& Exportbus, Schnittstellen usw. sind sogenannte Peripherie. Ein jenes solcher Zusatzteile, belegt ein Channel auf deinem Kabel."]
 	quest.2B916E825296EE08.title: "Common Black Hole Unit"
@@ -906,6 +912,14 @@
 		"Schmiede und Steinsägerezepte"
 		"Diese kommen in einen Schablonenprovider. Es müssen sowohl Molekularassembler als auch entweder ein Schmiedetisch oder eine Steinsäge neben dem Schablonenprovide sein."
 	]
+	quest.3C28EE39F70494BD.quest_desc: [
+		"Der beste Weg mit Aura zu starten, ist es eine dieser Pflanzen zu finden."
+		""
+		"&eAura Bloom:&r überall wo grass wächst zu finden."
+		"&2Aura Cactus:&r zu finden im Wüsenbiom"
+		"&cAura Mushroom:&r zu finden in Waldregionen"
+		"&4Crimson Aura Fungus:&r zu finden in Waldregionen &4im Nether"
+	]
 	quest.3C50BD72E832D66A.quest_desc: [
 		"Diese Apparatur produziert Source aus brennbaren Materialien. Archwood bringt dabei größere Erträge, mit der Blazing Variante sogar noch mehr."
 		""
@@ -999,6 +1013,12 @@
 	quest.4256D1E40BD2250A.quest_desc: ["Nach dem sammeln von so vielen Zutaten, scheint das wohl die beste Speise zu sein die man sich hier aus dem Undergarden so zusammen suchen kann."]
 	quest.42949BA4369F9B3F.quest_subtitle: "Ein großer Energiespeicher für das Flux Network"
 	quest.429795EB7B105CB3.title: "Let's show: Thermal Series"
+	quest.42CDE40BE2D20885.quest_desc: [
+		"Zeigt euch anhand eines Balkens an, wie viel Aura in der Umgebung ( oder in einem Block) ist."
+		"Leerer Balken = wenig Aura"
+		"halbvoller Balken = normal Aura (natürlicher Zustand)"
+		"voller Balken = viel Aura"
+	]
 	quest.42CF8AE80D8AB778.quest_desc: ["Erweitert die Breite des Lüfters"]
 	quest.42D6F202CE26D9A4.quest_desc: ["Dieses Regal erhöht &eRectification&r. Es kann auch verwendet werden, um den negativen Effekten der Heart-Forged Seashelves entgegenzuwirken."]
 	quest.42D6F202CE26D9A4.title: "Ordnung im Chaos"
@@ -1099,6 +1119,7 @@
 	quest.460860A0F0CCC4E1.title: "Nur noch ein schritt ins Portal"
 	quest.46746A29EC0DB581.quest_desc: ["Mit dem Cloggrum Schwert, hast Du zusätzlich +3 Reichweite auf Mobs"]
 	quest.46746A29EC0DB581.title: "Cloggrum Weapons"
+	quest.4718DB0B3EFC6628.quest_desc: ["Wird für das \"Ritual des Waldes\" benötigt."]
 	quest.4759C2D9F4C40115.quest_desc: ["Flüssigkeiten kannst du jetzt auch mit deinem Rucksack transportieren!"]
 	quest.4759C2D9F4C40115.quest_subtitle: "Flasche to go!"
 	quest.4765FE21496CDB09.quest_desc: ["Schneller Erze verarbeiten mit dem Blast Furnace!"]
@@ -1240,6 +1261,7 @@
 		""
 		"Somit sollten hier mindestens zwei Prozessoreinheiten da sein, damit das Rezept parallel angearbeitet werden kann und kein leerlauf entsteht."
 	]
+	quest.51C82D53874A6455.quest_desc: ["Wird in \"Aura armer\" umgebung eingesammelt, wenn ihr mit einer Bottle and Cork, einen Rechtsklick in die Luft macht."]
 	quest.51D668BB5A301993.quest_desc: ["Du kannst mit der in den Tasks aufgelisteten Blöcken aktiv Wasser eingeben und Dampf rausziehen. Es gibt sogar einen Block der den Dampf umwandelt in Mekanism Dampf. Hiermit lassen sich Mekanism Turbinen betreiben."]
 	quest.51D668BB5A301993.title: "Aktivkühlung"
 	quest.5212A64D43DAD486.quest_desc: [
@@ -1347,6 +1369,7 @@
 		""
 		"Es wird gewiss einige Ressourcen mittels Void-Minern geben."
 	]
+	quest.59A51F9358D6A234.quest_desc: ["Wird in \"Aura reicher\" umgebung &l&4im End&r&r eingesammelt, wenn ihr mit einer Bottle and Cork, einen Rechtsklick in die Luft macht."]
 	quest.59E92107A4481944.quest_desc: [
 		"Ab der zweiten Woche kannst du jetzt 50 Chunks (pro Spieler im Team) claimen."
 		""
@@ -1450,6 +1473,7 @@
 		""
 		"{ \"text\": \"Ender Cells\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"181561179B55197E\" } }"
 	]
+	quest.60C1C7062E5EA5FA.quest_desc: ["Wird für das \"Ritual des Waldes\" benötigt und ist bestandteil einiger Rezepte."]
 	quest.61474F5C289C9886.title: "Deine ersten Drawer"
 	quest.61BAEC3E8D33CC67.quest_desc: ["Ofen im Rucksack, was sollte da schief gehen."]
 	quest.61BAEC3E8D33CC67.quest_subtitle: "Ofen to go I"
@@ -1844,6 +1868,7 @@
 	task.1CD049F99BFEF2DA.title: "Potions"
 	task.1CE806849D563B37.title: "Yellorium"
 	task.1DDE93CE98C31741.title: "Skyroot Ausrüstung"
+	task.1DF39A19C014B583.title: "Aura Bottling"
 	task.1EB43361D4A643DF.title: "neeee"
 	task.2041ED0C946F25C5.title: "Finde Ein Gatekeeper House"
 	task.207D84CA68012ECF.title: "Magentite"
@@ -1916,12 +1941,14 @@
 	task.5AADB98601C9615B.title: "Any Cloggrum Weapon"
 	task.5AE347FA991EC91F.title: "Stahl"
 	task.5B9E238DC485BE38.title: "Mana"
+	task.5BEE8836A83005FB.title: "Aura Pflanzen"
 	task.5CC05D5D8620ACB6.title: "Magentite"
 	task.5E3D615666A2A3C0.title: "Level 45"
 	task.5EF66C8DDB6EC1D6.title: "und noch mehr"
 	task.5FC13B4C5F865F34.title: "Any #minecraft:logs"
 	task.6051587D5CD87E44.title: "Trade dir Ein Blaues Tagebuch"
 	task.6082C36859C795AE.title: "Regalium Erz"
+	task.61B2E186C1135822.title: "Ritual des Waldes"
 	task.62145B5C3787975C.title: "Level 75"
 	task.6224485A1F5440CF.title: "Das Pardon zu Apotheosis"
 	task.62F2C4411EA05CAE.title: "Energieproduktion"

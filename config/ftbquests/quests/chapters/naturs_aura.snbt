@@ -6,5 +6,194 @@
 	id: "461A8BB591B8DA55"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["3C28EE39F70494BD"]
+			id: "4A2E58CD07F4ED0A"
+			tasks: [{
+				id: "583472EB1EB94F7C"
+				item: { components: { "patchouli:book": "naturesaura:book" }, count: 1, id: "patchouli:guide_book" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A2E58CD07F4ED0A"]
+			id: "2A1131AA06C836C5"
+			tasks: [{
+				id: "438AA6D6F3E6ABF9"
+				item: { count: 1, id: "naturesaura:gold_fiber" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A1131AA06C836C5"]
+			id: "60C1C7062E5EA5FA"
+			tasks: [{
+				id: "5C5354D9CDBF3DF7"
+				item: { count: 1, id: "naturesaura:gold_leaf" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["60C1C7062E5EA5FA"]
+			id: "4718DB0B3EFC6628"
+			tasks: [{
+				id: "25F06504A578BC34"
+				item: { count: 1, id: "naturesaura:gold_powder" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4718DB0B3EFC6628"]
+			id: "0EE6AA97352EC588"
+			tasks: [{
+				id: "4ABAB833203EB2AF"
+				item: { count: 1, id: "naturesaura:bottle_two_the_rebottling" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0EE6AA97352EC588"]
+			id: "1F526D7C3FD0C711"
+			tasks: [{
+				id: "0B493F02E49FBBB1"
+				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:overworld" } }, count: 1, id: "naturesaura:aura_bottle" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0EE6AA97352EC588"]
+			id: "51C82D53874A6455"
+			tasks: [{
+				id: "366760B4D15F3F42"
+				item: { count: 1, id: "naturesaura:vacuum_bottle" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0EE6AA97352EC588"]
+			id: "1F2977171C91D362"
+			tasks: [{
+				id: "03D408B42D19FD43"
+				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:nether" } }, count: 1, id: "naturesaura:aura_bottle" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0EE6AA97352EC588"]
+			id: "59A51F9358D6A234"
+			tasks: [{
+				id: "7FA2FE26885EE056"
+				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:end" } }, count: 1, id: "naturesaura:aura_bottle" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4718DB0B3EFC6628"]
+			id: "04443A6AB94C4DDA"
+			tasks: [
+				{
+					count: 16L
+					id: "0D8012925099945C"
+					item: { count: 16, id: "naturesaura:gold_powder" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "46624AB448BD53DD"
+					item: { count: 8, id: "naturesaura:wood_stand" }
+					type: "item"
+				}
+				{
+					id: "1FCC069073893274"
+					item: { count: 1, id: "minecraft:oak_sapling" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["04443A6AB94C4DDA"]
+			id: "5B684BF428FFE49C"
+			tasks: [{
+				id: "5CE46284563D8D4A"
+				item: { count: 1, id: "naturesaura:token_joy" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["04443A6AB94C4DDA"]
+			id: "3554956ABC829D50"
+			tasks: [{
+				id: "0CC1D4C9CDBD2B1F"
+				item: { count: 1, id: "naturesaura:token_sorrow" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["04443A6AB94C4DDA"]
+			id: "58E52A58980F4FE4"
+			tasks: [{
+				id: "1D1C3EA9CC1EA753"
+				item: { count: 1, id: "naturesaura:token_anger" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["04443A6AB94C4DDA"]
+			id: "09E64DB4A285FBD9"
+			tasks: [{
+				id: "4F89298D5CB913D4"
+				item: { count: 1, id: "naturesaura:token_fear" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["04443A6AB94C4DDA"]
+			id: "42CDE40BE2D20885"
+			tasks: [{
+				id: "36E5C41852C6178F"
+				item: { count: 1, id: "naturesaura:eye" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			id: "3C28EE39F70494BD"
+			tasks: [{
+				id: "5BEE8836A83005FB"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
 }
