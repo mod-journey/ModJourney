@@ -11,17 +11,15 @@
 - Ars Ocultas
 - BaguetteLib
 - Construction Sticks
+- Custom Machinery
 - Decorative Blocks
 - Macaw's Stairs
 - Mekanism Covers
 - Mekanism: Weapons
 - MrCrayfish's Furniture Mod
 - My Server Is Compatible
-- No-fly Zone
 - Oculus
 - Quests Additions
-- RightClickHarvest
-- Simple Shops
 - The Twilight Forest
 - Undergarden Additional Structures
 - Undergarden Delight
@@ -50,7 +48,10 @@
 - Limit Mob Spawn
 - Occultism
 - MrCrayfish's Furniture Mod: Refurbished
+- No-fly Zone
+- Simple Shops
 - Stellaris
+- RightClickHarvest
 - Thermal
   - CoFH Core
   - Thermal Cultivation
