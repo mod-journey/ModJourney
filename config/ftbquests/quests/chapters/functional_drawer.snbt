@@ -139,8 +139,8 @@
 				item: { count: 1, id: "functionalstorage:framed_1" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -4.0d
+			x: -3.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["61474F5C289C9886"]
@@ -481,8 +481,8 @@
 				item: { count: 1, id: "functionalstorage:compacting_drawer" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -5.0d
+			x: -2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["61474F5C289C9886"]
@@ -500,8 +500,27 @@
 				item: { count: 1, id: "functionalstorage:simple_compacting_drawer" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -5.0d
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["61474F5C289C9886"]
+			id: "4EDF9C5361EC6E0A"
+			rewards: [{
+				id: "3B810E67419D8B73"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A4B5D43B8697B3F"
+				item: { count: 1, id: "functionalstorage:framed_fluid_1" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
 		}
 	]
 }
