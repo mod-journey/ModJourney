@@ -11,6 +11,7 @@
 - Ars Ocultas
 - BaguetteLib
 - Construction Sticks
+- Custom Machinery
 - Decorative Blocks
 - Macaw's Stairs
 - Mekanism Covers
@@ -20,7 +21,6 @@
 - Oculus
 - Occultism
 - Quests Additions
-- RightClickHarvest
 - The Twilight Forest
 - Undergarden Additional Structures
 - Undergarden Delight
