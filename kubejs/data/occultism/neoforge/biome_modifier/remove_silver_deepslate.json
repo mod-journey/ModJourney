@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": "#mod_journey:remove_in_overworld",
+  "features": "occultism:ore_silver_deepslate",
+  "steps": ["underground_ores"]
+}
