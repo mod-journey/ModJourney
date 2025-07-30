@@ -50,4 +50,19 @@ ServerEvents.recipes(event => {
             }
         }
     );
+
+    let angelsiteOreLaser = LaserOreBuilder("industrialforegoing:yellow_laser_lens", "c:ores/angelsite")
+        .dimensionWhitelist("stellaris:mercury")
+        .maxDepth(10)
+        .minDepth(-64)
+        .weight(4);
+    angelsiteOreLaser.createRecipe(event, "mod_journey:industrial_ore_laser/angelsite")
+
+    let benitoiteOreLaser = LaserOreBuilder("industrialforegoing:cyan_laser_lens", "c:ores/benitoite")
+        .dimensionWhitelist("stellaris:mercury")
+        .maxDepth(10)
+        .minDepth(-64)
+        .weight(4);
+    benitoiteOreLaser.createRecipe(event, "mod_journey:industrial_ore_laser/benitoite")
+
 });
