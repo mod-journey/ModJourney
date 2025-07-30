@@ -108,21 +108,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "stellaris:steel_ingot",
-          "weight": 20,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:coal",
           "weight": 20,
           "functions": [
@@ -190,26 +175,6 @@
               }
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "stellaris:jet_suit_chestplate",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "stellaris:jet_suit_boots",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "stellaris:jet_suit_helmet",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "stellaris:jet_suit_leggings",
-          "weight": 10
         },
         {
           "type": "minecraft:item",
