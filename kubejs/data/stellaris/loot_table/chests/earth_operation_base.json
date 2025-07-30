@@ -44,77 +44,12 @@
         },
         {
           "type": "minecraft:item",
-          "name": "stellaris:steel_hoe",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1,
-              "add": false
-            },
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "type": "minecraft:uniform",
-                "min": 0.8,
-                "max": 1
-              },
-              "add": false
-            },
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "min": 30,
-                "max": 50
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "stellaris:steel_pickaxe",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1,
-              "add": false
-            },
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "type": "minecraft:uniform",
-                "min": 0.8,
-                "max": 1
-              },
-              "add": false
-            },
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "min": 30,
-                "max": 50
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:music_disc_13",
           "weight": 2
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_cat",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "stellaris:jet_suit_leggings",
           "weight": 2
         },
         {
@@ -178,11 +113,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "stellaris:space_suit_leggings",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:potion",
           "weight": 5,
           "functions": [
@@ -243,36 +173,6 @@
               "add": false
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "stellaris:tiny_rocket_upgrade",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "stellaris:heavy_metal_ingot",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "stellaris:big_oxygen_tank",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "stellaris:pumpjack_drill",
-          "weight": 2
         }
       ]
     }
