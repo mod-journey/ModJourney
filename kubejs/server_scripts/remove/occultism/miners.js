@@ -9,7 +9,9 @@ ServerEvents.recipes(event => {
                 "c:storage_blocks/raw_platinum",
                 "c:ores/platinum",
                 "c:ores/iridium",
-                "c:storage_blocks/raw_iridium"
+                "c:storage_blocks/raw_iridium",
+                "c:storage_blocks/raw_osmium",
+                "c:ores/osmium"
             ]
 
             remove_them_all.forEach(ore_to_remove => {

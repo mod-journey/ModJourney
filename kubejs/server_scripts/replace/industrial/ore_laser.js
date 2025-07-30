@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
             let output = r.json.get("output");
             let tag = output.get("tag");
 
-            if(tag === null) return;    //Wenn im Ouput kein tag output, skippe.
+            if (tag === null) return;    //Wenn im Ouput kein tag output, skippe.
 
             if (tag.getAsString().includes("c:raw_materials/iridium")) { //Suchfilter
                 let rarityArray = r.json.get("rarity"); //gehe in den key (Ab hier valides Array)
@@ -28,6 +28,20 @@ ServerEvents.recipes(event => {
                     let entry = rarityArray.get(i);
 
                     let newDimensionFilter = JSON.parse('{"whitelist": ["stellaris:mars"], "blacklist": []}');
+                    entry.add("dimension_filter", newDimensionFilter);
+                    rarityArray.set(i, entry);
+                }
+                r.json.add("rarity", rarityArray);
+                //event.custom(r.json).id(r.getId());
+            }
+
+            if (tag.getAsString().includes("c:raw_materials/osmium")) {
+                let rarityArray = r.json.get("rarity");
+
+                for (let i = 0; i < rarityArray.size(); i++) {
+                    let entry = rarityArray.get(i);
+
+                    let newDimensionFilter = JSON.parse('{"whitelist": ["stellaris:mercury"], "blacklist": []}');
                     entry.add("dimension_filter", newDimensionFilter);
                     rarityArray.set(i, entry);
                 }
