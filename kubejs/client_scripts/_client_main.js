@@ -10,7 +10,8 @@ if (Jeihide) {
 
         hide_ores(event, false);                // Aktuell noch nicht auf Neo 1.21.1 angepasst
         jei_hide(event, false);                 // Aktuell noch nicht auf Neo 1.21.1 angepasst
-        stellaris_remove_items(event, true)
+        stellaris_remove_items(event, true);
+        hideNaturesAura(event, true);
 
     });
 };
