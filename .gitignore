@@ -58,14 +58,16 @@
 /config/luckperms/translations/
 /config/luckperms/libs/
 kubejs/config/web_server.json
+/config/jei/jei-debug.ini
+/config/jei/jei-mod-id-format.ini
 
 
 # Ignore files containing user specific config
 /config/voicechat/username-cache.json
 /config/ItemLocks/nodes/SP/
-/config/jei/world/local/
 /config/worldedit/sessions/
-/config/jei-client.ini
+/config/jei/world/local/
+/config/jei/jei-client.ini
 /config/ftbchunks-client.snbt
 /config/justzoom/config.txt
 
@@ -81,3 +83,8 @@ probe-settings.json
 
 #Ignore personal Workspaces
 _workspace
+
+#Ignore while mod will removed in soon upgrades
+/config/structures_tweaker
+/defaultconfigs/ftbqoptimizer.snbt
+
