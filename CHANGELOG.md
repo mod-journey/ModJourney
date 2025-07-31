@@ -16,15 +16,15 @@
 - Mekanism Covers
 - Mekanism: Weapons
 - MrCrayfish's Furniture Mod
-- My Server Is Compatible
-- No-fly Zone
+- Natur`s Aura
 - Oculus
+- Occultism
 - Quests Additions
 - RightClickHarvest
-- Simple Shops
 - The Twilight Forest
 - Undergarden Additional Structures
 - Undergarden Delight
+- Stellaris
 
 #### Mods removed:
 - Ad Astra
@@ -48,9 +48,10 @@
 - Embeddium
 - Embeddium++
 - Limit Mob Spawn
-- Occultism
 - MrCrayfish's Furniture Mod: Refurbished
-- Stellaris
+- My Server Is Compatible
+- No-fly Zone
+- Simple Shops
 - Thermal
   - CoFH Core
   - Thermal Cultivation
