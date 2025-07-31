@@ -77,9 +77,9 @@ let tooltip_scrolls = event => {
             text.add(2,[
                 Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
             ])
-            text.add(3,[
-                Text.gold("Thermal Series")
-            ])
+            // text.add(3,[
+            //     Text.gold("Thermal Series")
+            // ]) // todo vermutlich löschen?
         }
     })
 
