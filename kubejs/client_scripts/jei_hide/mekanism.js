@@ -1,5 +1,5 @@
 let hide_mekanism_items = (event, active, debug) => {
-    if(!active) {
+    if (!active) {
         return;
     }
 
