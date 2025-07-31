@@ -14,6 +14,8 @@ let remove_mekanism = (event, active, debug) => {
         'mekanism:mekasuit_pants', // Meka Pants
         'mekanism:mekasuit_boots', // Meka Boots
         'mekanism:module_energy_unit', // Meka energy Unit
+        'mekanism:module_excavation_escalation_unit',   //from MekkaTools Addon
+        'mekanism:module_vein_mining_unit'  //from MekkaTools Addon
     ];
 
     // Entfernen aller definierten Rezepte
