@@ -51,6 +51,8 @@
 	]
 	quest.01256AFE747A1CBF.title: "Die Reise beginnt"
 	quest.013F4DF5BE81AFA4.quest_subtitle: "Frakking!"
+	quest.016A7860CCA8F684.quest_desc: ["Das Dictionary wird dein bester Freund und Helfer in dieser Mod sein. Eine Art Wiki!"]
+	quest.016A7860CCA8F684.title: "Dictionary"
 	quest.01AEA72DE639B9C3.quest_subtitle: "Ein mittelgroßer Energiespeicher für das Flux Network"
 	quest.0229BE506646586A.title: "Nicht Wirklich Nützlich aber was man hat hat man"
 	quest.026272F9CF7A8047.quest_desc: ["Du hast deine ersten 2B Cobble, Steam etc. im ME System und willst ein Limit setzen? Mit dieser Karte zerstörst Du alle Items die über den angegebenen Speicherplatz hinaus gehen."]
@@ -124,6 +126,7 @@
 		"Viel Erfolg, Abenteurer!"
 	]
 	quest.05BD7F9376C6E8B3.title: "Stürze die Monarchin"
+	quest.05C780534209ADC1.quest_desc: ["Mit der \"Soulstrider's Hoe\" könnt ihr das Laub eines Baumes in einem großen Bereich entfernen."]
 	quest.05CD468D86DA4DC1.quest_subtitle: "Ein mit Strom betriebener AutoCrafter"
 	quest.05E2C9D1ECFFFB78.quest_desc: ["\"Mr. Smithers to go\" ist dein Schmiedetisch-Upgrade, für deinen Rucksack."]
 	quest.05E2C9D1ECFFFB78.quest_subtitle: "Mr. Smithers"
@@ -132,6 +135,7 @@
 	quest.06417ADE2F421986.quest_desc: ["Es schalten sich nun neue Runen frei, welche Du craften kannst. Außerdem sollte dein Blutaltar durch die neuen Möglichkeiten noch Leistungsstärker werden."]
 	quest.064778D724C27365.quest_desc: ["Durch Spaltung wird aus dem Yellorium Cyanite gewonnen"]
 	quest.065688CB9CA86E9C.quest_desc: ["Man muss das Hydrogen/Wasserstoff raus pumpen "]
+	quest.067DBD94BF6397E1.quest_desc: ["Das finale und beste Chalc, damit kannst du alles machen!"]
 	quest.06962A36D95865FD.quest_desc: ["Eine Mächtige Waffe, welche außerdem recht stylisch aussieht!"]
 	quest.06C275BDFA07CB4A.quest_desc: ["Von der Häufigkeit wie Eisen. Kann auf jeder Höhe gefunden werden."]
 	quest.06C275BDFA07CB4A.title: "Clogrum"
@@ -179,6 +183,7 @@
 	]
 	quest.09676AC0DBDF507F.quest_desc: ["Noch mehr Energie. Ist quasi ein Akku"]
 	quest.09878609373929E8.quest_desc: ["Deine erste Speicherkomponente. Daraus kannst Du dir deine ersten Speicherzellen oder deinen ersten Prozessor bauen um schnell größere herzustellen. Bedenke, das es nicht immer die größten Speicherkomponenten braucht um effektiv viele verschiedene Items zu Speichern."]
+	quest.09E64DB4A285FBD9.quest_desc: ["Zeichen der Angst"]
 	quest.0A9E71C0572B1CC8.quest_desc: ["Neben magischem Holz hat man auch die Möglichkeit, Stein magisch zu durchdringen und daraus dann weitere Apparaturen zu bauen."]
 	quest.0A9E71C0572B1CC8.quest_subtitle: "Magisches Gestein"
 	quest.0A9E71C0572B1CC8.title: "Zwergenmagie"
@@ -349,6 +354,8 @@
 		"Außerdem erlaubt der Tisch, auch Gems zu Staub zu verarbeiten."
 	]
 	quest.0F2C4F134E19A2C1.title: "Recycling"
+	quest.0F2CA9476A7B3550.quest_desc: ["Lege den Göttern ein Opfer dar und werde großzügig belohnt!"]
+	quest.0F2CA9476A7B3550.quest_subtitle: "Opfergabe"
 	quest.0F721A48AD385F18.quest_desc: ["Halte Die Augen offen. Der Schlüssel stahlt eine eigene Aura aus und kündigt sich im Dungeon an. Diesen brauchst Du einmalig, m tiefer in den Dungeon vordringen zu können."]
 	quest.0FC3F9706DE769F0.quest_desc: [
 		"Der einfachste Drawer. "
@@ -409,6 +416,10 @@
 	]
 	quest.146D1D0765124A16.quest_desc: ["Du kannst diese Quest alle 24h ein mal abschließen. Der Spieler, der die Belohnung abholt, erhält die Münzen für das gesamte Team"]
 	quest.146D1D0765124A16.title: "Daily"
+	quest.14C48A8ADAF19F56.quest_desc: [
+		"Vergleichbar mit einer Eisenrüstung. Tragt ihr das volle Rüstungsset, erhaltet ihr einen Setbonus."
+		"Um die Haltbarkeit aufzuladen, benötigt ihr einen Aura Cache."
+	]
 	quest.14EE44BE9A6CACA9.quest_desc: ["Dieser Tisch funktioniert genau wie sein Vorgänger, aber hier können nun auch Affix Items mit &5Epic&r und &6Mythic&r Seltenheit gecraftet werden."]
 	quest.14EE44BE9A6CACA9.title: "Bei der Macht von Grayskull."
 	quest.14FBB805C032D907.quest_desc: [
@@ -425,6 +436,8 @@
 	quest.154B0F746470B712.quest_subtitle: "Energie Speichern!"
 	quest.15697EE0C7A58D46.quest_subtitle: "Aus dem neu gewonnen Flux Dust, kannst du nun einen Flux Core craften!"
 	quest.1595A8280A792BA3.quest_desc: ["Loot, oder XP können von diesem Item aufgenommen werden und in alle Richtungen aktiv abgegeben werden. "]
+	quest.1611A6F1787BD657.quest_desc: ["Um dieses Item zu erhalten müssen ein paar mehr zwischen Rituale gemacht werden. Welche du für die jeweiligen Items benötigst siehst du oben links bei JEI. "]
+	quest.1611A6F1787BD657.title: "Ein kleiner Sprung"
 	quest.16A2F679AEC22F43.quest_desc: [
 		"Willkommen auf dem Nachbarplaneten Venus."
 		"Es sollen spuren von Platin hier gesichtet worden sein."
@@ -467,6 +480,7 @@
 		"Mittels dem Auto Mode, schaltet der Reaktor bei einem vollen internen Energie Speicher automatisch ab. Sollte dieser unter 70% fallen, schaltet sich der Generator automatisch wieder ein."
 	]
 	quest.1840E2C4550564D5.quest_subtitle: "Wie funktioniert der Reaktor?"
+	quest.18C31864E2EE3129.quest_desc: ["Die \"Handaxt des Himmelssuchers\" ist, wenn sie durch \"sneak Interaktion\" aktiviert wird, sehr effizient beim Fällen kleiner Bäume, und zwar mit einem Schlag!"]
 	quest.18C3353BB549027C.quest_desc: ["Halt dich kompakter."]
 	quest.18D0831832FC3783.quest_subtitle: "Bei dem schaff musst du alle woll farben die es in normalen Minecraft gibt auf das Schaf Rechtsklicken"
 	quest.18D30E75DBA755F4.quest_desc: [
@@ -530,6 +544,10 @@
 	]
 	quest.1DF4F965DC9C9F39.title: "Upgrades, people. Upgrades"
 	quest.1E1AF7E8C99B85D4.title: "Gut Sachen zum kämpfen "
+	quest.1E23B241202FED55.quest_desc: [
+		"Über das \"Ritual des Waldes\" könnt ihr euch den \"Natural Altar\" herstellen."
+		"Diesen benötigt ihr um \"&aInfused Iron Ingot&r\" und \"&eTainted Gold Ingot&r\" herzustellen."
+	]
 	quest.1E451003EF476340.quest_desc: ["Noch weniger stacken."]
 	quest.1E451003EF476340.quest_subtitle: "WEEEENIGER II"
 	quest.1E451003EF476340.title: "Stack-Downgrade Tier 2"
@@ -543,6 +561,13 @@
 	quest.1F70D2C20154A8B5.quest_subtitle: "BIENEN!!!"
 	quest.1F72867F68BA7D33.quest_desc: ["Alles was die Stackgröße überschreitet wird zerstört (gevoided). Ein einfacher und effizienter Überlaufschutz."]
 	quest.1F8F537E56CCED3F.quest_subtitle: "Speichere deine Spieler Experience im XP Obelisk. Die gespeicherte Experience lässt sich jederzeit zurück transferien. Solltest du die Flüssigkeit in flüssiger Form benötigen, kannst du diese mit einem Flüssigkeitsrohr abpumpen oder dem Obelisken hinzufügen"
+	quest.1FAAFE2BCCDD025F.quest_desc: ["Wird später für \"Spirit of Calling\" verwendet."]
+	quest.1FC7C4795C41F618.quest_desc: [
+		"Der Aura Cache ist ein Tragbarer Speicher für Aura. Diesen könnt ihr am Natural Altar aufladen."
+		""
+		"Um Waffen und Werkzeuge aufzuladen, nehmt sie einfach in die Hand und sneaked."
+	]
+	quest.1FC7C4795C41F618.quest_subtitle: "Tragbarer Aura Speicher"
 	quest.1FCAC2791A2BDF7F.quest_desc: [
 		"Über die Schablonen-Konsolen lassen sich Schablonen für das Auto-Crafting anlegen und konsolidiert an einem Fleck einordnen. Dazu im Bereich Autocrafting mehr."
 		""
@@ -598,6 +623,7 @@
 	quest.21B643BD3ABB92CE.title: "Mache die Netherite Ausrüstung"
 	quest.21C1F8929F00A608.quest_subtitle: "Pack doch mal ein paar Seeds rein und schau was passiert. "
 	quest.21DA897D037E4872.quest_desc: ["Es werden 6 Buckets für Hin-/und Rückflug zum Mond benötigt."]
+	quest.221C1CFCEA6FEC37.quest_desc: ["Ist eine verbesserte Version vom \"Token of Joy\"."]
 	quest.222CCB6904E94D05.quest_desc: ["Mit dem Füllstandsemitter kannst Du ein Redstone-Signal ausgeben, welches nach Füllstand und Einstellung unterschiedlich ist. Durch eine Fertigungskarte lassen sich so Rezepte herstellen, welche sonst nur schwer automatisierbar sind. Maschinen die so auf Redstone reagieren, oder aber auch Bauteile mit einer implementieren Redstonekarte lassen sich so steuern."]
 	quest.22C52D850339AF6C.quest_desc: [
 		"Mit 3 Flaschen eines Trankes kannst du dir einen Potion Charm craften, der dir, wenn aktiviert, alle paar Sekunden seinen Potioneffekt gibt und dafür Haltbarkeit verliert. Der Charm hält sogar länger als die 3 verwendeten Tränke zusammen und erlaubt dir, die gegebene Zeitspanne freier zu nutzen."
@@ -622,9 +648,6 @@
 	]
 	quest.24BAA2C1FA713866.quest_desc: ["120 Slots und 5 Upgrade Slots. Besser geht nicht! Oder etwa doch..."]
 	quest.24BAA2C1FA713866.quest_subtitle: "Dia Rucksack!"
-	quest.24BF72E2B35CCAD7.quest_desc: ["Dieses Regal ist eine noch bessere Version seines Vorgängers."]
-	quest.24BF72E2B35CCAD7.quest_subtitle: "und Ordnung"
-	quest.24BF72E2B35CCAD7.title: "Bei Allem, was Recht ist"
 	quest.24CF3ABE17A5E8AD.quest_desc: ["Um noch schneller Entities zu spawnen, kannst Du folgendes Upgrade benutzen"]
 	quest.24E4F0946133DA9C.title: "Ein Echt Heißer Ofen"
 	quest.251E5B47E2C62B8D.quest_desc: [
@@ -668,6 +691,9 @@
 	quest.26AFE523C18061F6.quest_desc: ["Ein seed den man entweder traden, oder durch das abbauen des mysteriösen Gloomer Kürbisses ercraften kann. "]
 	quest.26B645871A11798E.quest_desc: ["Gebe Uran oder Yellorium in deinen Reaktor"]
 	quest.26BC003C6E939699.quest_subtitle: "Verbinde eine Flüssigkeit mit einem Feststoff"
+	quest.26EB29AFD6A72D19.quest_desc: ["Es lässt sich nicht nur wie die Himmelsucher Rüstung reparieren, sondern bietet auch einen Setbonus: Wenn man alle Teile der Rüstung trägt (oder den Brustpanzer gegen eine Elytra austauscht), bewirkt die Rüstung bei einem Treffer, dass alle Gegner in der Nähe für einige Sekunden mit dem Boden verschmelzen und völlig still stehen."]
+	quest.26F7407D7F87E3AF.quest_desc: ["Es lässt sich nicht nur wie die Botanists Rüstung reparieren, sondern bietet auch einen Setbonus: Wenn man alle Teile der Rüstung trägt (oder den Brustpanzer gegen eine Elytra austauscht), erhöht sich die Bewegungsgeschwindigkeit des Trägers. Außerdem wird seine Fähigkeit auf Blöcke zu steigen verbessert, sodass er nicht mehr so oft springen muss."]
+	quest.2705308BB7AB87CE.quest_desc: ["Die \"Spitzhacke des Botanikers\" verwandelt, mit einem Rechtsklick, einen Block in seine moosige Variante. Voraussetzung ist, das es eine gibt."]
 	quest.273F072768D87F2B.quest_desc: ["Die Fertigungskarte kann verwendet werden, um automatisiert Craftingprozesse anzustoßen. "]
 	quest.27A8B343CD99EA6D.quest_desc: [
 		"Zanite ist das himmlische Äquivalent zu Eisen."
@@ -686,11 +712,15 @@
 	quest.287B4338E5CB1AA0.quest_desc: ["Dieses Regal ist eine verbesserte Version seines Vorgängers."]
 	quest.287B4338E5CB1AA0.title: "Sichtlich Besser"
 	quest.28CCBF0929A22DBC.quest_subtitle: "Lade mehrere Items gleichzeitig auf!"
+	quest.28E3B5C9CAD88DCD.quest_desc: ["Es lässt sich nicht nur wie die Botanists Rüstung reparieren, sondern bietet auch einen Setbonus: Wenn man alle Teile der Rüstung trägt (oder den Brustpanzer gegen eine Elytra austauscht), erhöht sich die Bewegungsgeschwindigkeit des Trägers. Außerdem wird seine Fähigkeit auf Blöcke zu steigen verbessert, sodass er nicht mehr so oft springen muss."]
 	quest.29CA54BFB00443D1.quest_desc: ["Erhältst Du durch das zusammen craften von 9 x  Utheric Shards"]
+	quest.29E69EB1DEDC7921.quest_desc: ["Die \"Klinge des Botanikers\" ist eine gute Möglichkeit mit Monstern fertig zu werden. Sie verlangsamt jedes getroffene Monster für ein paar Sekunden und macht es so zu einem leichteren Ziel."]
 	quest.2A1131AA06C836C5.quest_desc: ["Rechtsklicke mit Brilliant Fiber in der Hand das Laub eines Baumes. Warte anschließend eine weile.."]
 	quest.2AB8746017BEEEA3.quest_desc: ["Forgotten Nuggets, werden durch Forgotten Guardians gedroppt. Auch andere Mobs im Undergarden lassen diese Fallen, zu geringeren Chancen aber. "]
 	quest.2AF2078918509008.quest_desc: ["Konsolen, Import- \\& Exportbus, Schnittstellen usw. sind sogenannte Peripherie. Ein jenes solcher Zusatzteile, belegt ein Channel auf deinem Kabel."]
+	quest.2B3256EDDEB698CB.quest_desc: ["Ist eine verbesserte Version vom \"Token of Anger\"."]
 	quest.2B916E825296EE08.title: "Common Black Hole Unit"
+	quest.2C4CAE3C053348BE.quest_desc: ["Die schiere Größe des \"Soulstrider's Blades\" kommt zum Tragen, wenn eine größere Gruppe von Monstern angegriffen wird. Wenn man mehrere Monster angreift, bleiben diese in einem ziemlich großen Bereich stecken, als ob sie mit einer mächtigeren Version von \"Sweeping Edge\" verzaubert wären. Natürlich schließen sich diese beiden Fähigkeiten auch nicht gegenseitig aus."]
 	quest.2C5CFE4579A1DF6E.quest_desc: [
 		"Gravitite gehört zum stärksten Material, das es im Aether zu finden gibt."
 		""
@@ -713,7 +743,29 @@
 	]
 	quest.2D0F23DBA856E880.title: "Schatzverzauberungen"
 	quest.2D3254F9CAF5FD1C.quest_subtitle: "Für die Trankherstellung!"
+	quest.2D4373175C12C82D.quest_desc: [
+		"Hier sind die Grundlagen:"
+		""
+		"Stufen der Rituals:"
+		""
+		"Rituals haben (grundsätzlich) vier Stufen, je nachdem, wie mächtig der Dämon ist, den du beschwörst. Die erste Stufe ist Foliot, dann Dijini, Afrit und Marid. Manche Rituals liegen zwischen den Stufen, wie zum Beispiel die Stufe Unbound Afrit."
+		""
+		"Arten von Rituals:"
+		""
+		"Es gibt fünf Hauptarten von Rituals, aber wir brauchen nur vier davon für den Fortschritt. Die drei wichtigsten sind Summoning Rituals, Possession Rituals und Infusion Rituals. Jede davon wird erklärt, sobald sie zum ersten Mal in den Quests vorkommt. Die vierte Art ist eine Art demon-loses Ritual, das Elemente aus allen drei Hauptarten nutzt, um eine spezielle Aktion auszuführen – ohne einen Dämon direkt einzusetzen."
+		""
+		"Die fünfte Art, Familiar Rituals, ist für den Fortschritt nicht notwendig. Aber sie können dir dennoch hilfreiche Begleiter bescheren!"
+		""
+		"Chalks:"
+		""
+		"Es gibt zwei Arten von Chalks: Foundation Chalks und Colored Chalks."
+		""
+		"Foundation Chalks werden in jedem Ritual verwendet. Mit jeder höheren Stufe wird der Farbton dunkler, angefangen bei White Chalk bis hin zu Black Chalk."
+		""
+		"Colored Chalks werden am häufigsten verwendet, aber ihre Farbe steht nicht direkt in Verbindung mit der Stärke, wie es bei den Foundation Chalks der Fall ist."
+	]
 	quest.2D93732882C77D34.title: "Der Anfang von Etwas Kleinem (Blue Skies)"
+	quest.2DA1CC2FF00F8041.quest_desc: ["Die \"Hacke des Himmelssuchers\" hilft Bauern in zweierlei Hinsicht: Zum einen bearbeitet sie eine größere Fläche. Zum anderen führt die Zerstörung eines Stücks hohen Grases dazu, dass alle anderen buschartigen Blöcke in einem größeren Bereich ebenfalls zerstört werden."]
 	quest.2DAD93848DABE5D6.quest_subtitle: "Extrahiert Latex von Bäumen"
 	quest.2DE28895E3897B29.quest_desc: ["Es gibt Funktionsblöcke, welche Energie speichern, verbrauchen oder abgeben"]
 	quest.2DE570D3BFF08F48.quest_desc: ["Ein Raketenbauteil."]
@@ -739,6 +791,8 @@
 		"NBTs sind mir doch egal. "
 		"Willst Du Rüstungen Filtern, Gems oder Bücher. Dann ist die Karte das Richtige für Dich. "
 	]
+	quest.30BCA4DCF7A86182.quest_desc: ["Einfach ein paar Gräßer abbauen, um die Seeds zu bekommen. Diese können ganz normal vortgepflanzt werden."]
+	quest.30BCA4DCF7A86182.title: "Go touch some Grass!"
 	quest.313B9F86BFAC170E.quest_desc: ["Kupfer gibt es genug in der Welt. Erhalte mehr Speicher durch das hinzufügen in deine Drawer."]
 	quest.3253AC6BB40CD3AD.quest_desc: [
 		"Ein Guter Moderator für den "
@@ -776,6 +830,7 @@
 	quest.34EB0D38C503FF3C.quest_subtitle: "WEEEENIGER III"
 	quest.34EB0D38C503FF3C.title: "Stack-Downgrade Tier 3"
 	quest.35117936FBC60CA3.quest_subtitle: "Eine Angelmaschine. Machst du den großen Fang?"
+	quest.3554956ABC829D50.quest_desc: ["Zeichen der Trauer"]
 	quest.3563D0E47D3E64BD.quest_subtitle: "Baue eine Mobfarm aus EnderIO Komponenten um an Liquid EXP zu gelangen "
 	quest.357BF596A36CC80F.quest_desc: [
 		"Stell Dir die Karte vor, die willst verschiedene Volumes auf einem Laufwerk erstellen. "
@@ -790,6 +845,7 @@
 		"Zum Binden von Glyphen erstellst du in deinem Zauberbuch einen Zauber &l&bOHNE!&r eine Form, legst das Schwert auf den Scribe's Table und benutzt das Buch mit diesen Glyphen darauf, während du geduckt bist."
 	]
 	quest.35E69FD0D9133061.title: "Close and personal"
+	quest.3631ECB37FE26818.quest_desc: ["Es lässt sich nicht nur wie die Himmelsucher Rüstung reparieren, sondern bietet auch einen Setbonus: Wenn man alle Teile der Rüstung trägt (oder den Brustpanzer gegen eine Elytra austauscht), bewirkt die Rüstung bei einem Treffer, dass alle Gegner in der Nähe für einige Sekunden mit dem Boden verschmelzen und völlig still stehen."]
 	quest.363B82F586FB4376.quest_desc: ["Leider ein bisschen Buggy. Arbeitet nur Links vom Drawer."]
 	quest.369134843E12B183.quest_desc: [
 		"Mittels diesem Tool kannst Du einem Storage Controller die einzelnen Drawer zuteilen und Netzwerke erstellen. "
@@ -830,6 +886,10 @@
 	quest.378D7B50458C9799.quest_desc: ["Dein Rucksack ist unkaputtbar!"]
 	quest.378D7B50458C9799.quest_subtitle: "I am Superman!"
 	quest.379B63836CDB3221.quest_desc: ["Mit einem Exportbus, lassen sich Items oder Flüssigkeiten aus deinem System, in andere Container transferieren. Du musst aktiv einen Filter angeben, sodass exportiert werden kann. Auf der rechten Seite der GUI kannst Du Karten hinzufügen. Dazu später mehr."]
+	quest.37A0E12BC86D04E0.quest_desc: [
+		"Vergleichbar mit einer Eisenrüstung. Tragt ihr das volle Rüstungsset, erhaltet ihr einen Setbonus."
+		"Um die Haltbarkeit aufzuladen, benötigt ihr einen Aura Cache."
+	]
 	quest.37A521C972CFAF9E.quest_desc: [
 		"Diese Pfeile modifizieren den Zauber, der durch den Enchanter's Bow oder Crossbow gewirkt wird."
 		""
@@ -840,6 +900,8 @@
 		"Pierce lässt den Pfeil durch zwei Ziele hindurchfliegen. Ziele sind sowohl Entities als auch Blöcke."
 	]
 	quest.37A521C972CFAF9E.title: "Spezialmunition"
+	quest.382870F3E8699127.quest_desc: ["Hieraus könnt ihr Rüstungen, Waffen und Werkzeuge herstellen."]
+	quest.382870F3E8699127.quest_subtitle: "This is the End!"
 	quest.3828E5EB05AA35F3.quest_desc: ["Der beste Block für die Turbine"]
 	quest.3886DDD04C153233.quest_desc: ["Mehr als nur 64 mal Stackbar!"]
 	quest.3886DDD04C153233.quest_subtitle: "MEEEEEEEHR I"
@@ -864,6 +926,10 @@
 		"{image:powah:item/player_aerial_pearl width:30 height:30 align:1}"
 	]
 	quest.399C9B626732C513.quest_subtitle: "Wie kommt der Zombie hier rein?"
+	quest.399D56AFC3117C95.quest_desc: [
+		"Vergleichbar mit einer Eisenrüstung. Tragt ihr das volle Rüstungsset, erhaltet ihr einen Setbonus."
+		"Um die Haltbarkeit aufzuladen, benötigt ihr einen Aura Cache."
+	]
 	quest.39A2FE8389D8CF87.quest_desc: ["Um Wireless Strom zu beziehen, kannst Du dieses Item nutzen. Mittels einer Player Card, welche an dich gebunden ist, ist dieser Block dein persönlicher Stromzugangspunkt."]
 	quest.3A1677DE6BF4F562.quest_desc: ["Das Gehirn deines Storage-Networks. Um diesen Block effektiv zu benutzen, brauchst du eine Konfigurationskarte."]
 	quest.3AA73B8FD2461794.quest_desc: ["Eine erweiterte Speicherkomponente. Diese wird aus 3 x 1k Speicherkomponenten hergestellt."]
@@ -913,7 +979,7 @@
 		"Diese kommen in einen Schablonenprovider. Es müssen sowohl Molekularassembler als auch entweder ein Schmiedetisch oder eine Steinsäge neben dem Schablonenprovide sein."
 	]
 	quest.3C28EE39F70494BD.quest_desc: [
-		"Der beste Weg mit Aura zu starten, ist es eine dieser Pflanzen zu finden."
+		"Der beste Weg mit Aura zu starten ist es, eine dieser Pflanzen zu finden."
 		""
 		"&eAura Bloom:&r überall wo grass wächst zu finden."
 		"&2Aura Cactus:&r zu finden im Wüsenbiom"
@@ -1024,7 +1090,21 @@
 	quest.42D6F202CE26D9A4.title: "Ordnung im Chaos"
 	quest.42D9B4438680C937.quest_desc: ["Nun kannst Du deinen Stufe 4 Altar bauen, hast Du dies geschafft, lassen sich neue Runen craften, mit denen Du nun neuen Progress freischalten kannst. "]
 	quest.43120BDFFF95EF89.quest_desc: ["AE2 ist eine Storage Mod. Mit dieser Mod kannst Du Items konsolidiert speichern und auf diese dezentral Zugreifen. Du kannst Craftingprozesse automatisieren und die wildesten Konstellationen automatisieren. "]
+	quest.4320267CBCF92515.quest_desc: ["Die \"Handaxt des Seelenwanderers\" ist, wenn sie durch \"sneak Interaktion\" aktiviert wird, sehr effizient beim Fällen von Bäumen aller Art (&oselbst große Bäume&r), und zwar mit einem Schlag!"]
 	quest.432170C0C4C197D3.quest_desc: ["Die Formen des Budding Certus, haben eine Wahrscheinlichkeit kaputt zu gehen. Um eine endlose Certus Quelle zu bekommen, kannst du sogenannte Flawless Blöcke in Meteoriten finden. Nun brauchst Du nur noch eine Möglichkeit, diese mitzunehmen. "]
+	quest.43803774A3915BAD.quest_desc: [
+		"Mit Spiritfire können wir verschiedene Materialien aus der Overworld in ihre Otherworld-Varianten umwandeln. Du kannst auch einige Otherworld-Materialien finden, wenn du unter dem Effekt des Third Eye stehst und in der Welt umherstreifst. Um es einfacher zu machen, gibt es Rezepte zum Herstellen der Grundmaterialien, indem man sie ins Spiritfire wirft."
+		""
+		"Andesite wird zu Otherstone, das verwendet werden kann, um ein dauerhaftes Spiritfire zu entzünden."
+		""
+		"Oak Saplings werden zu Oak Saplings, aber sie sind nicht gleich. Wenn sie wachsen, sehen sie genau wie normale Oak-Bäume aus. Unter dem Einfluss des Third Eye kannst du jedoch die Otherworld-Variante ernten."
+		"Diesen Effekt kannst du bekommen, wenn du eine Dremon Dream Fruits isst."
+		""
+		"Wenn du Schwierigkeiten hast, die Stämme zu sammeln (wenn sie sich trotz Third Eye in normale Oak Logs verwandeln), versuche, sie von oben zu sammeln."
+		""
+		"Diamonds verwandeln sich in Spirit Attuned Gems, die in mehreren Rezepten verwendet werden, die wir später noch brauchen werden."
+	]
+	quest.43803774A3915BAD.title: "Spiritfire Conversion"
 	quest.438D14498160D7CF.quest_desc: ["Mehr Filteroptionen!"]
 	quest.438D14498160D7CF.quest_subtitle: "Quick Stack II"
 	quest.43931506096A6217.quest_desc: [
@@ -1083,6 +1163,9 @@
 	quest.43F671F5C49EED69.title: "Essbares Mana"
 	quest.44041124EDB0DD59.quest_desc: ["Genug Platz für die ersten Touren! Insgesamt 27 Slots und einen Upgrade Slot!"]
 	quest.44041124EDB0DD59.quest_subtitle: "Basic Rucksack"
+	quest.444C338BE3A09ABC.quest_desc: ["Diese Leine kann ein Tier in sich einfangen für einen einfacheren Transport."]
+	quest.444C338BE3A09ABC.title: "Ein Pokeball?"
+	quest.44C743311C5523E3.quest_desc: ["Die \"Hacke des Botanikers\" hilft einem Bauern, auf die alte Art, verschiedene Arten von Saatgut zu gewinnen indem er sie einfach auf einem Stück Gras oder Erde verwendet (rechtsklick auf boden)."]
 	quest.44D05D9F33C12F52.quest_desc: ["Ein weiteres Upgrade für die Rakete."]
 	quest.44EA03142D3BA39E.quest_desc: ["Input und Output sind automatisierbar."]
 	quest.44EA03142D3BA39E.quest_subtitle: "Grillen geht immer II"
@@ -1094,6 +1177,7 @@
 		"Fünf Bücher mit jeweils Sharpness III werden hineingelegt. Man hätte nun genug Material, um Sharpness V herauszuholen. Aber da Stufe III die höchste Stufe war, die von Sharpness hineingelegt wurde, kann auch nur höchstens Sharpness III wieder herausgeholt werden."
 	]
 	quest.44F60E7D88036BA5.title: "Lagerplatz für Verzauberungen"
+	quest.4523B6508D0FE41F.quest_desc: ["Die \"Spitzhacke des Himmelssuchers\" bewirkt, dass alle abgebauten Gegenstände sofort in das Inventar des Benutzers gelangen, wodurch die Gefahr verringert wird, dass wertvolle Diamanten in die Lava darunter stürzen"]
 	quest.455EEC6211A5D6B1.quest_subtitle: "Eine unendliche Wasserquelle als Maschine!"
 	quest.45AC3B6AE5C814FE.quest_desc: ["Gebe etwas geladenen Certus, Redstone und Netherquartz in ein Wasserbecken und erhalte Fluixkristalle"]
 	quest.45B554092CB5ED7F.quest_desc: ["Ein Upgrade für u.A. deine Wireless Konsole. Du kannst entscheiden, ob Items direkt in dein ME-System transferiert werden, oder in dein Spieler-Inventar. Außerdem hast Du für beide Optionen einen White- oder Blacklist Filter."]
@@ -1124,6 +1208,9 @@
 	quest.4759C2D9F4C40115.quest_subtitle: "Flasche to go!"
 	quest.4765FE21496CDB09.quest_desc: ["Schneller Erze verarbeiten mit dem Blast Furnace!"]
 	quest.4765FE21496CDB09.quest_subtitle: "Blast it I"
+	quest.476F82802273C0FC.quest_desc: ["Es lässt sich nicht nur wie die Botanists Rüstung reparieren, sondern bietet auch einen Setbonus: Wenn man alle Teile der Rüstung trägt (oder den Brustpanzer gegen eine Elytra austauscht), erhöht sich die Bewegungsgeschwindigkeit des Trägers. Außerdem wird seine Fähigkeit auf Blöcke zu steigen verbessert, so dass er nicht mehr so oft springen muss."]
+	quest.47B737F4DCE8510E.quest_desc: ["Mit dem eben beschworenen Crusher, können Materiealen für diese Chalks produziert werden."]
+	quest.47B737F4DCE8510E.title: "Chalks"
 	quest.47D2FFAE08876D53.quest_desc: ["Ein Raketenbauteil."]
 	quest.47DF718336469399.quest_desc: [
 		"Der Multiblock muss immer ein Rechteck bilden und mindestens einen Fertigungsspeicher beinhalten. Somit ist auch ein einzelner Fertigungspeicher ein Valider Prozessor für das Autocrafting."
@@ -1180,8 +1267,11 @@
 		"Ein Speicherbus erkennt den Container vor sich. Ob Truhe, Flüssigkeiten Behälter, das ist relativ egal. Dieser Speicher wird deinem ME-System hinzugefügt und ist ein Valider Speicher."
 		"Du kannst im Speicherbus einen Filter anlegen, aus den Items die aktuell dort zur Verfügung stehen. Kannst ihn einstellen, das dieser nur Items reinlegen soll, den Inhalt aber nicht sieht, oder eben auch umgekehrt. Platziere doch mal einen Speicherbus an eine Schnittstelle und hänge eine Konsole dran. Es passieren wilde Dinge."
 	]
+	quest.4A2E58CD07F4ED0A.quest_desc: ["In diesem Buch findet ihr alle Informationen zu dieser Mod (in Englisch). Dort werdet ihr auch einige Dinge finden, welche im Questbuch nicht oder nur kurz behandelt werden."]
+	quest.4A2E58CD07F4ED0A.quest_subtitle: "Dein Guide für diese Mod"
 	quest.4A57684ABED4A3A4.quest_desc: ["Finde Alle Hölzer im Everdawn"]
 	quest.4A57684ABED4A3A4.title: "Holz Sammler"
+	quest.4AD6686953FB9B55.quest_desc: ["Die \"Botanikerschaufel\" hat die Fähigkeit, durch einfache Interaktion, Gras auf Brachland wachsen zu lassen. Ihr könnt außerdem breitere Trampelpfade erstellen."]
 	quest.4AED5A8C9C70A9C9.title: "Let's show: Ender IO"
 	quest.4B03A47B6DCFAF22.quest_desc: ["Diese Apparatur produziert Source, wenn in dessen Nähe Mobs sterben oder Tiere sich vermehren."]
 	quest.4B03A47B6DCFAF22.title: "Die Macht der Lebensenergie"
@@ -1209,8 +1299,10 @@
 		"Zum erlernen der Glyphen sind dann immer XP und bestimmte Items nötig, die aus deiner Hand auf den Tisch gelegt werden."
 	]
 	quest.4C813B4746E751B2.title: "Mehr Glyphen, mehr Magie!"
+	quest.4CADDC5EBD079BE4.quest_desc: ["Mit der \"Schaufel des Himmelssuchers\" lässt sich viel einfacher ein abwechslungsreicher Pfad erstellen: Wenn Blöcke in der Nebenhand gehalten werden, wird durch die Verwendung der Schaufel, der Zielblock durch den gehaltenen Block ersetzt."]
 	quest.4CE85AB71C678CF6.quest_desc: ["Dein Altar lässt sich ohne Probleme bis auf Stufe 3 Upgraden. Um die Multiblockstruktur kennen zu lernen, nutze bitte das Sankturium, welches Du bereits als Belohnung erhalten hast. "]
 	quest.4CE85AB71C678CF6.quest_subtitle: "Bis hier hin"
+	quest.4D344D73F53A625F.quest_desc: ["Es lässt sich nicht nur wie die Himmelsucher Rüstung reparieren, sondern bietet auch einen Setbonus: Wenn man alle Teile der Rüstung trägt (oder den Brustpanzer gegen eine Elytra austauscht), bewirkt die Rüstung bei einem Treffer, dass alle Gegner in der Nähe für einige Sekunden mit dem Boden verschmelzen und völlig still stehen."]
 	quest.4D3EA87317F9F6BA.quest_desc: [
 		"entfällt bei uns im Modpack. Eine Zelle speichert knapp 700 T/FE. Der Draconic Reactor wäre neidisch auf den Multiblock. Ausgebaut entspräche der Multiblock ~ 1.8 Exa FE. Wurde die Maßeinheit schon erreicht?"
 		"{@pagebreak}"
@@ -1223,6 +1315,7 @@
 	quest.4DB1B18A3B301D4E.title: "Ein neuer Gefährte"
 	quest.4DBA3461786E55B4.quest_desc: ["Mehr Fluid Speicher? Dafür ist der Tank."]
 	quest.4DE9D19B2C01B348.quest_subtitle: "Besser als Dia Rüstung"
+	quest.4DF7B98D4DD6AD2A.quest_desc: ["Mit dem \"Altar of Birthing\" könnt ihr Tiere und Monster spawnen."]
 	quest.4EAA710CD2A15E03.quest_desc: ["Ein Raketenbauteil."]
 	quest.4ECE88BDAF352ECC.title: "Upgrades Thermal Dynamos"
 	quest.4EDF9C5361EC6E0A.quest_desc: ["Auch ein Drawer, dieses mal aber versteckt, oder deinem Baustil angepasst? Versuch es doch mal mit einem Framed Fluid Drawer. Dieser ist in allen Formen craftbar."]
@@ -1310,6 +1403,10 @@
 	quest.541AFC2144795998.title: "Passive Heilung"
 	quest.541FAC3028FB33D8.quest_desc: ["Mehr Optionen und Wrenches können auch geswitched werden!"]
 	quest.541FAC3028FB33D8.quest_subtitle: "Switcheru II"
+	quest.54276DF73E1030C9.quest_desc: [
+		"Vergleichbar mit einer Eisenrüstung. Tragt ihr das volle Rüstungsset, erhaltet ihr einen Setbonus."
+		"Um die Haltbarkeit aufzuladen, benötigt ihr einen Aura Cache."
+	]
 	quest.545CED820632EFB9.quest_desc: ["Wird in den XP-Soldifier gelegt, damit werden die Jelly Baby's hergestellt."]
 	quest.545E1A2C4F9C2E1E.quest_desc: [
 		"Um Ether Gas zu fördern, muss der Fluid Laser über einem Wither platziert werden."
@@ -1362,6 +1459,7 @@
 	quest.586EFD2747910C1B.quest_subtitle: "Rohstoff rein, Flüssigkeit raus."
 	quest.587C0314547F28A4.quest_desc: ["Beheading, limitiert auf 1."]
 	quest.589407ECB629164D.title: "Let's show: Industrial Foregoing"
+	quest.58E52A58980F4FE4.quest_desc: ["Zeichen des Zorns"]
 	quest.5902419C7421AA67.title: "Lets's show: Blood Magic"
 	quest.5937774ED0FCF478.quest_desc: ["Erteile mehr schaden gegen Undergarden Mobs. Ausgenommen sind Boss Mobs."]
 	quest.595FAE939128EC13.quest_desc: [
@@ -1379,8 +1477,10 @@
 	quest.5A21339405F8A5A5.quest_desc: ["Redstone dust + Snow Block"]
 	quest.5A21339405F8A5A5.title: "Cryomisi"
 	quest.5A83CAD196067494.title: "Die erste Rüstung"
+	quest.5AE5065E8E3AC023.quest_desc: ["Was hieraus wohl entsteht?"]
 	quest.5AE90AC31CD60938.quest_desc: ["Auch hier kann eine Fertigungskarte installiert werden. Mittels zusätzlicher Beschleunigungskarten, gibst Du die Chargengröße des Craftingprozesses an. "]
 	quest.5AF633DB1C78EDBD.quest_desc: ["Erhält man durch das abbauen des gleichnamigen Erzes."]
+	quest.5B684BF428FFE49C.quest_desc: ["Zeichen der Freude"]
 	quest.5BD2AA6ED1E63953.quest_desc: ["Halte Dich kompakt."]
 	quest.5C18E2E90C59C472.title: "hide blood magic"
 	quest.5C36E3B78AB146C0.quest_desc: [
@@ -1427,6 +1527,7 @@
 		"Sattel einen Dweller und halte ihm den Stock vor die Nase..."
 		".... und lauuuuf."
 	]
+	quest.5D91187B8A1E706D.quest_desc: ["Mit der \"Klinge des Himmelssuchers\" können Sie hervorragend mit Monstern fertig werden: Bei einem Angriff werden Monster kurzzeitig mit dem Schwebeeffekt belegt, der Monster in den Himmel aufsteigen und kurze Zeit später wieder herabstürzen lässt."]
 	quest.5DA64CADB81708C8.quest_desc: ["Werden im Inventar benötigt, um Rituale zu bauen."]
 	quest.5E039C48CE24F1FD.quest_desc: ["ballert viel mehr wie die Rods zuvor."]
 	quest.5E51716BBA7C0BE6.quest_desc: [
@@ -1457,6 +1558,8 @@
 	quest.5F98BAF82E1271EE.title: "Der Meister der Meister aller Meister"
 	quest.5FBE953877FCAC23.quest_desc: ["Dieses Regal verringert die Menge von &2Eterna&r und &cQuanta&r. Gut, um begrenzte Quantabereiche für bestimmte Verzauberungen zu erreichen."]
 	quest.5FBE953877FCAC23.title: "Süß und Wohltuend"
+	quest.5FDF133E70DEC72B.quest_desc: ["Wird für einige Dinge wie z.B. Werkzeuge, Rüstungen und Upgrades benötigt."]
+	quest.6027754B0CA152B6.quest_desc: ["Ist eine verbesserte Version vom \"Token of Fear\"."]
 	quest.6032E9282E0CB1DD.quest_desc: ["Eine Basis-Upgrade Karte"]
 	quest.607F70C3549B4670.quest_desc: [""]
 	quest.6092D820D8CA7DDF.quest_desc: [
@@ -1473,6 +1576,7 @@
 		""
 		"{ \"text\": \"Ender Cells\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"181561179B55197E\" } }"
 	]
+	quest.60BA461ED63506B5.quest_desc: ["Unser erstes Ritual. Der Crusher wird hauptzächlich benötigt um Endstonedust herzustellen."]
 	quest.60C1C7062E5EA5FA.quest_desc: ["Wird für das \"Ritual des Waldes\" benötigt und ist bestandteil einiger Rezepte."]
 	quest.61474F5C289C9886.title: "Deine ersten Drawer"
 	quest.61BAEC3E8D33CC67.quest_desc: ["Ofen im Rucksack, was sollte da schief gehen."]
@@ -1480,6 +1584,7 @@
 	quest.61DC0E19528E8BD5.quest_desc: ["Demonite brauchst du u.a. dafür, um deinen Altar auf die höchste Stufe zu upgraden."]
 	quest.6207186159232DB8.quest_desc: ["Mehr Filteroptionen!"]
 	quest.6207186159232DB8.quest_subtitle: "Feuchte Angelegenheit II"
+	quest.62428405522D18D8.quest_desc: ["Ist eine verbesserte Version vom \"Token of Sorrow\"."]
 	quest.625BCE0C411DF831.quest_desc: ["In der Raketenwerkbank baust Du deine Raketen. Um zu anderen Planeten zu reisen, wirst Du dieses Item benötigen."]
 	quest.625BCE0C411DF831.quest_subtitle: "Schon abgespaced"
 	quest.62846CD8CD6D04F4.quest_desc: [
@@ -1553,6 +1658,8 @@
 	quest.67D770AFB8C867EB.title: "Froststeel Armor"
 	quest.67E0A85291DD6898.quest_desc: ["Das ist das Staged-In Item für Mekanism"]
 	quest.67E0A85291DD6898.quest_subtitle: "Staged In"
+	quest.689657DD70045DAA.quest_desc: ["Wirf eine Demon Dream Fruit auf den Boden (am besten auf Cobble oder sonstigen nicht abbrenbaren Blöcken) und zünd es an. Dies wird das Spirit Fire erzeugen, welches Ewig hält und wie eine Art Trade-Portal funktioniert."]
+	quest.689657DD70045DAA.title: "Spiritfire"
 	quest.68C9A37D916F322A.quest_desc: ["Ein Zusätzlicher Anschluss, an dem Du Items deinem Drawersystem zuführen kannst."]
 	quest.68CBEF963313DC33.quest_desc: ["Mit den Reinforced Reaktoren lassen sich in unserem Modpack Multiblöcke bis zu einer größe von 16x16x16 bauen."]
 	quest.68CBEF963313DC33.title: "Reinforced Reaktor"
@@ -1579,6 +1686,7 @@
 	]
 	quest.6A8AA0E31C3F2F47.quest_desc: ["Auf der Venus findest Du immer wieder mal Platin. Sollte man mitnehmen."]
 	quest.6AB3A23E011C7A70.quest_desc: ["Wird aus Certus hergestellt."]
+	quest.6ACEC87CC8248AE2.quest_desc: ["Es lässt sich nicht nur wie die Himmelsucher Rüstung reparieren, sondern bietet auch einen Setbonus: Wenn man alle Teile der Rüstung trägt (oder den Brustpanzer gegen eine Elytra austauscht), bewirkt die Rüstung bei einem Treffer, dass alle Gegner in der Nähe für einige Sekunden mit dem Boden verschmelzen und völlig still stehen."]
 	quest.6AEC7D9E608F9708.quest_desc: ["Eine wichtige Komponente in AE2 um Peripheriegeräte herzustellen."]
 	quest.6BC62E21B31D6CB9.quest_desc: ["Findet man im End"]
 	quest.6BC62E21B31D6CB9.title: "Anglesite"
@@ -1602,8 +1710,10 @@
 		"Dabei werden je 3 Portionen der beiden Tränke zu einem Trank zusammengeführt."
 	]
 	quest.6CD7BF6C4503FD98.title: "Tränke mixen wie echte Hexen"
+	quest.6CE647CAC97FA5D8.quest_desc: ["Die \"Soulstrider's Shovel\" verwandelt einen kargen Block wie Erde in einen üppigen Grasblock, wenn mit ihm interagiert wird, und verändert dabei zusätzlich einen großen Bereich um ihn herum."]
 	quest.6D06A0D7D85691CC.quest_desc: ["Mehr Filteroptionen!"]
 	quest.6D06A0D7D85691CC.quest_subtitle: "Put it in II"
+	quest.6D0869A0B69E38BB.quest_desc: ["Die \"Handaxt des Botanikers\" ist wesentlich besser zum Entfernen von Laub geeignet und geht dabei viel schneller vor als ein herkömmliches Werkzeug."]
 	quest.6D2C5C59D1DF0F56.quest_desc: ["Man kann mit der Box viele Blöcke und Spawner mit nehmmen "]
 	quest.6D2CB936DA4BA56A.quest_desc: [
 		"Ein Basismodul für Update-Karten."
@@ -1640,8 +1750,10 @@
 	quest.6F7793C5284BE3AA.title: "Besige den Naga"
 	quest.6F85FEEE1707BF38.quest_desc: ["Mit diesem Block kannst du Brennstoff als Flüssigkeit in den reaktor ein/aus geben "]
 	quest.6F85FEEE1707BF38.title: "Fuel Injection Port"
+	quest.6FF1DA16E004D886.quest_desc: ["Mit einem Rechtsklick auf eine Maschine, zeigt euch dieses Tool die Reichweite der Maschine an."]
 	quest.7061359DDF860CFB.quest_desc: ["Dieses Regal verringert die Menge von &2Eterna&r und &5Arcana&r. Gut, um begrenzte Arcanabereiche für bestimmte Verzauberungen zu erreichen."]
 	quest.7061359DDF860CFB.title: "Stur und Steinhart"
+	quest.7096BA5276670D56.quest_desc: ["Wird für einige Dinge wie z.B. Werkzeuge, Rüstungen und Upgrades benötigt."]
 	quest.70ACC2EB80EFB6A3.title: "Manadiamant oder Manaperle"
 	quest.70C06F01206CCE9B.quest_desc: [
 		"Der Enchanter's Wand hat von sich aus schon die Glyphen \"Projectile\" und \"Accelerate\", braucht also nur noch Effektglyphen, um zu funktionieren."
@@ -1670,6 +1782,8 @@
 	quest.728F7FBD7DA50204.quest_desc: ["In einem Ladegerät lässt sich primär herstellen: Geladener Certus Quartz. Des weiteren kannst Du auch das mittlerweile Neu eingefügte Guide-Buch von Applied darin herstellen, oder auch einen Meteoritenkompass"]
 	quest.728F7FBD7DA50204.quest_subtitle: "Der (Lade)gerät"
 	quest.7294DBAAA5588E92.quest_subtitle: "Zum kopieren von gesetzten Einstellungen des Flux Points und des Flux Plugs."
+	quest.72C8E334A84BB475.title: "Geh da rein!"
+	quest.72F6647F47F3D23D.quest_desc: ["Es lässt sich nicht nur wie die Botanists Rüstung reparieren, sondern bietet auch einen Setbonus: Wenn man alle Teile der Rüstung trägt (oder den Brustpanzer gegen eine Elytra austauscht), erhöht sich die Bewegungsgeschwindigkeit des Trägers. Außerdem wird seine Fähigkeit auf Blöcke zu steigen verbessert, sodass er nicht mehr so oft springen muss."]
 	quest.732256E339B0D5FC.quest_subtitle: "das 2x"
 	quest.73258DB8AECFABE8.quest_desc: [
 		"Der Enchanter's Bow hüllt geschossene Pfeile mit den eingebundenen Glyphen. Wenn keine Pfeile im Inventar des Anwenders sind, so wird ein magischer Pfeil benutzt, der an für sich keinen Schaden verursacht. Hat der Anwender kein/nicht genug Mana für den Zauber zur Verfügung, so werden normale Pfeile ohne Zauber abgeschossen."
@@ -1739,6 +1853,7 @@
 	quest.778B1BEFC6341B66.quest_desc: ["Dein Rucksack kann jetzt auch Strom speichern!"]
 	quest.778B1BEFC6341B66.quest_subtitle: "Elektrisierend!"
 	quest.77AA85B028579CF6.quest_desc: ["Im Endless Realm gibt es einen Raum, welcher Dich noch tiefer in die Dungeons von Blood Magic führt. Hier erhältst Du noch stärkeren Loot um unter anderem einen noch besseren Altar zu bauen."]
+	quest.77CFCEE9E0FAA2D4.quest_desc: ["Die \"Spitzhacke des Seelenwanderers\", wenn sie durch schleichender Interaktion aktiviert wird, erlaubt sie dem Nutzer ein komplettes Erzvorkommen aufeinmal abzubauen."]
 	quest.77D31EC2C76058E2.quest_desc: ["Gut, dass der Minecraft Charakter übermäßig stark ist. Jetzt muss nur noch in Intelligenz geskillt werden. Dafür brauchst du das &l&5Große Buch, wo alles drin steht&r. Mit dem ersten Spellbook kannst du Tier 1 Zauber wirken und hast jegliche Informationen gesammelt an einer Stelle."]
 	quest.77D31EC2C76058E2.quest_subtitle: "...und so ein dickes Buch auch."
 	quest.77D31EC2C76058E2.title: "Aller Anfang ist schwer..."
@@ -1746,6 +1861,7 @@
 	quest.785AB01D2228B7A9.quest_desc: ["Die Battle Axe kann laut Wiki von Stonewalkern getradet werden oder laut Reddit von den Vergessenen im Dungeon gedroppt werden. Teste es aus und lasse es uns wissen."]
 	quest.789913E88083A2FF.quest_desc: ["XP kann jetzt auch mit dem Rücksack gepumpt werden. Wieso? Darum!"]
 	quest.789913E88083A2FF.quest_subtitle: "Damn Son!"
+	quest.78A9440B51036626.quest_desc: ["Könnt ihr zu Ancient Planks und Sticks weiterverarbeiten."]
 	quest.78D7575B8BFD8848.quest_desc: [
 		"Mit der Simple Voice Chat Mod kannst du ingame mit andern Spielern sprechen."
 		""
@@ -1847,11 +1963,13 @@
 	task.03D6F3D7B3CAF8DE.title: "Any Cloggrum Tool"
 	task.0465DB55B286A0A3.title: "Any #c:ores/coal"
 	task.04CF943E4A7B7748.title: "Sourceproduktion"
+	task.05AAE2D9FA5FF59E.title: "dictionary"
 	task.062537D2E620DB9E.title: "Fertigungsspeicher"
 	task.0690127887DF6BBF.title: "Upgrades"
 	task.0734E682569CEA3F.title: "Energizer"
 	task.074D1299CC61739F.title: "kleinere Bugs"
 	task.08F838D4927BA0E6.title: "disable bloodmagic"
+	task.0B36148C5D92BAA6.title: "Rituale"
 	task.0C3202C694CE3D6A.title: "Simple Black Hole Unit"
 	task.0CB57C52EC082C7F.title: "Zusatzgeräte"
 	task.0D0A3B350C73C428.title: "Extreme Reactor"
@@ -1873,6 +1991,7 @@
 	task.2041ED0C946F25C5.title: "Finde Ein Gatekeeper House"
 	task.207D84CA68012ECF.title: "Magentite"
 	task.20C49CC4A0A68378.title: "Stab des Waldes"
+	task.219D3EDD7896C834.title: "Questformen"
 	task.21B304ED655A56D1.title: "Coke Ofen"
 	task.22302190657BB6C4.title: "Altar der Stufe 3"
 	task.22B2B7D67662B9A7.title: "Blutonium"
@@ -1884,7 +2003,6 @@
 	task.25870ACE1953A776.title: "Körper"
 	task.26A963D2B34DB6C0.title: "Any Froststeel Armor"
 	task.2826BBB3BCCA1C4D.title: "Any Utherium Tool"
-	task.2B5132463EBEBFDE.title: "Edelsteine für edle Steinenthusiasten"
 	task.2B91BA2F29F2F6D6.title: "Die größe des Systems"
 	task.2CC503728D6D0642.title: "Everdawn"
 	task.2DB27A2902A994C4.title: "Mystical Agriculture"
