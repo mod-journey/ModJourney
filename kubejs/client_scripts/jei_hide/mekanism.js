@@ -74,6 +74,6 @@ let hide_mekanism_items = (event, active, debug) => {
         "mekanism:uranium_ore"
     ]
     mekanism_hide.forEach((itemName) => {
-        event.hide(itemName)
+        event.remove(itemName)
     });
 }

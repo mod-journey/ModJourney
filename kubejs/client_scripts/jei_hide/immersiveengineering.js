@@ -74,6 +74,6 @@ let hide_immersiveenigneering_items = (event, active, debug) => {
     ];
 
     immersiveengineering_hide.forEach(element => {
-        event.hide(element)
+        event.remove(element)
     });
 }
