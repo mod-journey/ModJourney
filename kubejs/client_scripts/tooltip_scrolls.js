@@ -7,21 +7,13 @@
 
 let tooltip_scrolls = event => {
 
-    for (let i = 1; i <= 9; i++) {
 
-        //Fügt den Scrolls eine Beschreibung hinzu
-        event.addAdvanced('mod_journey:scroll_' + i, (item, advanced, text) => {
+    event.add(/mod_journey:scroll_/, {shift: false}, [
+        Text.gold('Hold '),
+        Text.yellow('Shift '),
+        Text.gold('to see more info.')
+    ])
 
-            text.add(1, [ Text.yellow('Mit diesem Gegenstand, lassen sich verdeckte Quests freischalten.') ])
-            if (!event.shift) {
-                text.add(2, [
-                    Text.gold('Hold '),
-                    Text.yellow('Shift '),
-                    Text.gold('to see more info.')
-                ]);
-            };
-        });
-    };
 
     let magic_scrolls_array = [
         1,
@@ -30,22 +22,17 @@ let tooltip_scrolls = event => {
         "blank"
     ]
 
-    magic_scrolls_array.forEach(scroll => {
-        event.addAdvanced('mod_journey:magic_scroll_' + scroll, (item, advanced, text) => {
 
-            text.add(1, [Text.yellow('Mit diesem Gegenstand, lassen sich verdeckte Quests freischalten.')])
-            if (!event.shift) {
-                text.add(2, [
-                    Text.gold('Hold '),
-                    Text.yellow('Shift '),
-                    Text.gold('to see more info.')
-                ]);
-            };
-        });
-    });
+    event.add(/mod_journey:magic_scroll_/, Text.yellow('Mit diesem Gegenstand, lassen sich verdeckte Quests freischalten.'))
+
+    event.add(/mod_journey:magic_scroll_/, {shift: false}, [
+        Text.gold('Hold '),
+        Text.yellow('Shift '),
+        Text.gold('to see more info.')
+    ])
 
 
-
+ /*
     //Schriftrolle 1
     // TODO Rework this to run over an array e.g. ['First Mod', 'Second Mod'].forEach((i, name) => event.addAdvanced('mod_journey:scroll_' + i, (item, advanced, text) => {})
     event.addAdvanced('mod_journey:scroll_1', (item, advanced, text) => {
@@ -208,4 +195,5 @@ let tooltip_scrolls = event => {
         }
     })
 
+*/
 };
