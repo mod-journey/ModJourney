@@ -4,6 +4,8 @@ let hide_mekanism_items = (event, active, debug) => {
     }
 
     let mekanism_hide = [
+        'mekanism:module_excavation_escalation_unit',
+        'mekanism:module_vein_mining_unit',
         'mekanismadditions:walkie_talkie',
         'mekanism:upgrade_anchor',
         'mekanismadditions:obsidian_tnt',
