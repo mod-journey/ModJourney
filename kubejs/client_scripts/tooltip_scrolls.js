@@ -1,12 +1,19 @@
 //priority 5
 
-/*  Hatte eine implementierung mit Objekten oder Arrays versucht, leider bleibt das Script nach dem Durchladen auf dem
-    letzten Zählerstand stehen, womit sich so keine vereinfachte Form der Informationsübertragung mitteilen lässt. Tatsächlich
-    prüft das script bei jedem mal rüberhovern über das Item, ob die Kondition "shift" erfüllt ist.
-*/
-
 let tooltip_scrolls = event => {
 
+    let technic_scrolls_array = [
+        null,
+        'Industrial Foregoing',
+        'Stellaris', //'Ad Astra'
+        'Thermal Series',
+        'Applied Energistics',
+        'Extreme Reactor',
+        'Powah',
+        'Ender IO',
+        'Flux Network',
+        'Mekanism',
+    ]
 
     event.add(/mod_journey:scroll_/, {shift: false}, [
         Text.gold('Hold '),
@@ -32,116 +39,19 @@ let tooltip_scrolls = event => {
     ])
 
 
- /*
-    //Schriftrolle 1
-    // TODO Rework this to run over an array e.g. ['First Mod', 'Second Mod'].forEach((i, name) => event.addAdvanced('mod_journey:scroll_' + i, (item, advanced, text) => {})
-    event.addAdvanced('mod_journey:scroll_1', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2,[
-                Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
-            ])
-            text.add(3,[
-                Text.gold("Industrial Foregoing")
-            ]);
-        };
-    });
 
-    //Schriftrolle 2
-    event.addAdvanced('mod_journey:scroll_2', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2,[
-                Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
-            ])
-            text.add(3,[
-                Text.gold("Ad Astra")
-            ]);
-        };
-    });
-
-    //Schriftrolle 3
-    event.addAdvanced('mod_journey:scroll_3', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2,[
-                Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
-            ])
-            // text.add(3,[
-            //     Text.gold("Thermal Series")
-            // ]) // todo vermutlich löschen?
+    // Add SHIFT-Text - Schriftrolle 1-9
+    technic_scrolls_array.forEach((modName, i) => {
+        if (modName) {
+            event.add(`mod_journey:scroll_${i}`, {shift: true}, [
+                    Text.green("Schaltet im Questbuch frei:"),
+                    Text.gold(modName),
+                ]
+            )
         }
     })
 
-    //Schriftrolle 4
-    event.addAdvanced('mod_journey:scroll_4', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2,[
-                Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
-            ])
-            text.add(3,[
-                Text.gold("Applied Energistics")
-            ])
-        }
-    })
-
-    //Schriftrolle 5
-    event.addAdvanced('mod_journey:scroll_5', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2,[
-                Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
-            ])
-            text.add(3,[
-                Text.gold("Extreme Reactor")
-            ])
-        }
-    })
-
-    //Schriftrolle 6
-    event.addAdvanced('mod_journey:scroll_6', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2,[
-                Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
-            ])
-            text.add(3,[
-                Text.gold("Powah")
-            ])
-        }
-    })
-
-    //Schriftrolle 7
-    event.addAdvanced('mod_journey:scroll_7', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2,[
-                Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
-            ])
-            text.add(3,[
-                Text.gold("Ender IO")
-            ])
-        }
-    })
-
-    //Schriftrolle 8
-    event.addAdvanced('mod_journey:scroll_8', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2,[
-                Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
-            ])
-            text.add(3,[
-                Text.gold("Flux Network")
-            ])
-        }
-    })
-
-    //Schriftrolle 9
-    event.addAdvanced('mod_journey:scroll_9', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2,[
-                Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
-            ])
-            text.add(3,[
-                Text.gold("Mekanism")
-            ])
-        }
-    })
-
+/*
     //leere Schriftrolle
     event.addAdvanced('mod_journey:blank_scroll', (item, advanced, text) => {
         if (!event.shift) {
