@@ -54,7 +54,7 @@
 			y: 7.196428571428569d
 		}
 	]
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -72,8 +72,8 @@
 				id: "6224485A1F5440CF"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: -0.5d
+			x: -0.5136054421768605d
+			y: -0.5272108843537424d
 		}
 		{
 			dependencies: ["5600D421C0F617A9"]

@@ -4,7 +4,16 @@
 	filename: "naturs_aura"
 	group: "16F9BB65CBA165C2"
 	id: "461A8BB591B8DA55"
-	order_index: 1
+	images: [{
+		color: 170
+		height: 2.0d
+		image: "easy_piglins:block/bottom_frame"
+		rotation: 0.0d
+		width: 2.0d
+		x: 29.5d
+		y: -2.5d
+	}]
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -109,6 +118,7 @@
 		{
 			dependencies: ["4718DB0B3EFC6628"]
 			id: "04443A6AB94C4DDA"
+			shape: "square"
 			tasks: [
 				{
 					count: 16L
@@ -183,8 +193,8 @@
 				item: { count: 1, id: "naturesaura:eye" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.5d
+			x: 2.0d
+			y: 2.5d
 		}
 		{
 			id: "3C28EE39F70494BD"
@@ -193,6 +203,506 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E23B241202FED55"]
+			id: "5FDF133E70DEC72B"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 20L
+				id: "763590210B86BFF9"
+				item: { count: 1, id: "naturesaura:infused_iron" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E23B241202FED55"]
+			id: "1FAAFE2BCCDD025F"
+			tasks: [{
+				count: 20L
+				id: "153FED96881A067E"
+				item: { count: 1, id: "naturesaura:tainted_gold" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1E23B241202FED55"]
+			id: "71BB8757DBDC8B96"
+			tasks: [{
+				count: 250L
+				id: "183DC02911FCD929"
+				item: { count: 1, id: "naturesaura:birth_spirit" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7096BA5276670D56"]
+			hide_dependency_lines: true
+			id: "382870F3E8699127"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 20L
+				id: "6AC740FFFEAE84D7"
+				item: { count: 1, id: "naturesaura:depth_ingot" }
+				type: "item"
+			}]
+			x: 29.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0F2CA9476A7B3550"]
+			id: "7096BA5276670D56"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 20L
+				id: "7A2F80BE4E6B847E"
+				item: { count: 1, id: "naturesaura:sky_ingot" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["04443A6AB94C4DDA"]
+			id: "1E23B241202FED55"
+			shape: "square"
+			tasks: [{
+				id: "34FF25D8FDE6F06F"
+				item: { count: 1, id: "naturesaura:nature_altar" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["71BB8757DBDC8B96"]
+			id: "0F2CA9476A7B3550"
+			shape: "square"
+			tasks: [{
+				id: "07DBA9F6701B3DB5"
+				item: { count: 1, id: "naturesaura:offering_table" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0F2CA9476A7B3550"]
+			id: "4EC151D0B0E9DEBC"
+			tasks: [{
+				id: "09FC8E23CD050EB8"
+				item: { count: 1, id: "naturesaura:calling_spirit" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4EC151D0B0E9DEBC"]
+			id: "221C1CFCEA6FEC37"
+			tasks: [{
+				id: "570E36296D00C124"
+				item: { count: 1, id: "naturesaura:token_euphoria" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4EC151D0B0E9DEBC"]
+			id: "6027754B0CA152B6"
+			tasks: [{
+				id: "77B80823C9F12EAE"
+				item: { count: 1, id: "naturesaura:token_terror" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4EC151D0B0E9DEBC"]
+			id: "2B3256EDDEB698CB"
+			tasks: [{
+				id: "58F4C599FFD2CBCD"
+				item: { count: 1, id: "naturesaura:token_rage" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4EC151D0B0E9DEBC"]
+			id: "62428405522D18D8"
+			tasks: [{
+				id: "72CBE0CEBFC8D5FD"
+				item: { count: 1, id: "naturesaura:token_grief" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["04443A6AB94C4DDA"]
+			id: "5AE5065E8E3AC023"
+			tasks: [{
+				id: "33132DA0BD8B7515"
+				item: { count: 1, id: "naturesaura:ancient_sapling" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5AE5065E8E3AC023"]
+			id: "78A9440B51036626"
+			tasks: [{
+				count: 8L
+				id: "0D2C97AD4366035E"
+				item: { count: 1, id: "naturesaura:ancient_log" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5FDF133E70DEC72B"]
+			id: "14C48A8ADAF19F56"
+			tasks: [{
+				id: "756EB35142764329"
+				item: { count: 1, id: "naturesaura:infused_iron_helmet" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5FDF133E70DEC72B"]
+			id: "54276DF73E1030C9"
+			tasks: [{
+				id: "5A28E739FB4E63CA"
+				item: { count: 1, id: "naturesaura:infused_iron_chest" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5FDF133E70DEC72B"]
+			id: "37A0E12BC86D04E0"
+			tasks: [{
+				id: "512413464D9E73F6"
+				item: { count: 1, id: "naturesaura:infused_iron_pants" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5FDF133E70DEC72B"]
+			id: "399D56AFC3117C95"
+			tasks: [{
+				id: "75A2300C6DEB6D74"
+				item: { count: 1, id: "naturesaura:infused_iron_shoes" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5FDF133E70DEC72B"]
+			id: "2705308BB7AB87CE"
+			tasks: [{
+				id: "30F07BB259A6FB38"
+				item: { count: 1, id: "naturesaura:infused_iron_pickaxe" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5FDF133E70DEC72B"]
+			id: "6D0869A0B69E38BB"
+			tasks: [{
+				id: "356C63B53E4BC929"
+				item: { count: 1, id: "naturesaura:infused_iron_axe" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5FDF133E70DEC72B"]
+			id: "4AD6686953FB9B55"
+			tasks: [{
+				id: "3A02BE8AEC444E52"
+				item: { count: 1, id: "naturesaura:infused_iron_shovel" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5FDF133E70DEC72B"]
+			id: "44C743311C5523E3"
+			tasks: [{
+				id: "62E079CB49781A16"
+				item: { count: 1, id: "naturesaura:infused_iron_hoe" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5FDF133E70DEC72B"]
+			id: "29E69EB1DEDC7921"
+			tasks: [{
+				id: "6EBD2F195DFC72F5"
+				item: { count: 1, id: "naturesaura:infused_iron_sword" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["71BB8757DBDC8B96"]
+			id: "4DF7B98D4DD6AD2A"
+			shape: "square"
+			tasks: [{
+				id: "018AEF62FBC0ED47"
+				item: { count: 1, id: "naturesaura:animal_spawner" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FDF133E70DEC72B"]
+			id: "1FC7C4795C41F618"
+			tasks: [{
+				id: "016D2EDEABA8F15F"
+				item: { count: 1, id: "naturesaura:aura_cache" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5FDF133E70DEC72B"]
+			id: "6FF1DA16E004D886"
+			tasks: [{
+				id: "0A5FD10DE0858C3D"
+				item: { count: 1, id: "naturesaura:range_visualizer" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7096BA5276670D56"]
+			id: "476F82802273C0FC"
+			tasks: [{
+				id: "395810F32DAE2C3A"
+				item: { count: 1, id: "naturesaura:sky_helmet" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7096BA5276670D56"]
+			id: "26F7407D7F87E3AF"
+			tasks: [{
+				id: "73D85AFF734AF801"
+				item: { count: 1, id: "naturesaura:sky_chest" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7096BA5276670D56"]
+			id: "72F6647F47F3D23D"
+			tasks: [{
+				id: "07A84A04ECA261AB"
+				item: { count: 1, id: "naturesaura:sky_shoes" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7096BA5276670D56"]
+			id: "28E3B5C9CAD88DCD"
+			tasks: [{
+				id: "5C3745477991D33F"
+				item: { count: 1, id: "naturesaura:sky_pants" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7096BA5276670D56"]
+			id: "5D91187B8A1E706D"
+			tasks: [{
+				id: "3DEDD668B539AF10"
+				item: { count: 1, id: "naturesaura:sky_sword" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7096BA5276670D56"]
+			id: "4523B6508D0FE41F"
+			tasks: [{
+				id: "76692109CDB11B1C"
+				item: { count: 1, id: "naturesaura:sky_pickaxe" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7096BA5276670D56"]
+			id: "18C31864E2EE3129"
+			tasks: [{
+				id: "45DDCB94605612BE"
+				item: { count: 1, id: "naturesaura:sky_axe" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7096BA5276670D56"]
+			id: "2DA1CC2FF00F8041"
+			tasks: [{
+				id: "2A837AAF60628720"
+				item: { count: 1, id: "naturesaura:sky_hoe" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7096BA5276670D56"]
+			id: "4CADDC5EBD079BE4"
+			tasks: [{
+				id: "2AAC640AFB6A62CC"
+				item: { count: 1, id: "naturesaura:sky_shovel" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["382870F3E8699127"]
+			id: "4D344D73F53A625F"
+			tasks: [{
+				id: "5F346CA87A5BA53D"
+				item: { count: 1, id: "naturesaura:depth_helmet" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["382870F3E8699127"]
+			id: "6ACEC87CC8248AE2"
+			tasks: [{
+				id: "30C49F1E43E45FFB"
+				item: { count: 1, id: "naturesaura:depth_chest" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["382870F3E8699127"]
+			id: "26EB29AFD6A72D19"
+			tasks: [{
+				id: "60277FD516B301A5"
+				item: { count: 1, id: "naturesaura:depth_pants" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["382870F3E8699127"]
+			id: "3631ECB37FE26818"
+			tasks: [{
+				id: "69FE434A626EA8AE"
+				item: { count: 1, id: "naturesaura:depth_shoes" }
+				type: "item"
+			}]
+			x: 28.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["382870F3E8699127"]
+			id: "2C4CAE3C053348BE"
+			tasks: [{
+				id: "64F0DA3EAD6B4126"
+				item: { count: 1, id: "naturesaura:depth_sword" }
+				type: "item"
+			}]
+			x: 29.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["382870F3E8699127"]
+			id: "77CFCEE9E0FAA2D4"
+			tasks: [{
+				id: "13D93D403B4AE9E9"
+				item: { count: 1, id: "naturesaura:depth_pickaxe" }
+				type: "item"
+			}]
+			x: 30.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["382870F3E8699127"]
+			id: "4320267CBCF92515"
+			tasks: [{
+				id: "1B33C921B42ED1C4"
+				item: { count: 1, id: "naturesaura:depth_axe" }
+				type: "item"
+			}]
+			x: 31.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["382870F3E8699127"]
+			id: "6CE647CAC97FA5D8"
+			tasks: [{
+				id: "5581FF0DBD52DF34"
+				item: { count: 1, id: "naturesaura:depth_shovel" }
+				type: "item"
+			}]
+			x: 32.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["382870F3E8699127"]
+			id: "05C780534209ADC1"
+			tasks: [{
+				id: "461722AB8BC8B949"
+				item: { count: 1, id: "naturesaura:depth_hoe" }
+				type: "item"
+			}]
+			x: 33.5d
 			y: -1.5d
 		}
 	]

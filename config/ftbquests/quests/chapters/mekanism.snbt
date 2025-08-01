@@ -247,7 +247,7 @@
 				item: { count: 1, id: "mekanism:sawdust" }
 				type: "item"
 			}]
-			x: -10.5d
+			x: -11.0d
 			y: -6.0d
 		}
 		{
@@ -258,7 +258,7 @@
 				item: { count: 1, id: "mekanism:cardboard_box" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.5d
 			y: -7.0d
 		}
 		{
@@ -1260,7 +1260,7 @@
 				type: "item"
 			}]
 			x: -15.5d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -1274,7 +1274,7 @@
 				type: "item"
 			}]
 			x: -15.5d
-			y: -8.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["67E0A85291DD6898"]
