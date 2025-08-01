@@ -25,28 +25,28 @@ let tooltip_scrolls = event => {
 
 
     // Add text via reg-exp to all non-blank scrolls - see https://regex101.com/r/NWcfGg/1
-    event.add(/mod_journey:(scroll_|magic_scroll_)[0-9]/, Text.yellow('Mit diesem Gegenstand, lassen sich verdeckte Quests freischalten.'))
+    event.add(/mod_journey:(scroll_|magic_scroll_)[0-9]/, Text.translate('item.mod_journey.scroll_blank.tooltip.unlock').yellow())
 
     // Add blank scroll technic and magic
     event.add(/mod_journey:(magic_scroll_blank|blank_scroll)/, {shift: true}, [
-            Text.green("Wird zum craften von Schriftrollen benötigt.")
+            Text.translate('item.mod_journey.scroll_blank.tooltip.needed_for_crafting').green()
         ]
     )
 
     event.add(/mod_journey:(blank_scroll|magic_scroll_|scroll_)/, {shift: false}, [
-        Text.gold('Hold ')
-            .append(Text.yellow('Shift '))
-            .append(Text.gold('to see more info.'))
+        Text.translate('item.mod_journey.scroll.tooltip.hold_key_for_info', [
+            Text.translate('button.mod_journey.shift').yellow()
+        ]).gold()
     ])
 
     // Add SHIFT-Text - Schriftrolle 1-9
     technic_scrolls_array.forEach((modName, i) => {
         if (modName) {
             event.add(`mod_journey:scroll_${i}`, {shift: true}, [
-                    Text.green("Schaltet im Questbuch frei:"),
-                    Text.gold(modName),
-                ]
-            )
+                Text.translate('item.mod_journey.scroll.tooltip.unlock_questbook',
+                    Text.gold(modName)
+                ).green()
+            ])
         }
     })
 
@@ -54,8 +54,9 @@ let tooltip_scrolls = event => {
     magic_scrolls_array.forEach((modName, i) => {
         if (modName) {
             event.add(`mod_journey:magic_scroll_${i}`, {shift: true}, [
-                Text.green("Schaltet im Questbuch frei:"),
-                Text.gold(modName),
+                Text.translate('item.mod_journey.scroll.tooltip.unlock_questbook',
+                    Text.gold(modName)
+                ).green()
             ])
         }
     })
