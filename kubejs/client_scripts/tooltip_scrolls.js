@@ -16,10 +16,10 @@ let tooltip_scrolls = event => {
 
 
     let magic_scrolls_array = [
-        1,
-        2,
-        3,
-        "blank"
+        null,
+        'Blood Magic',
+        'Ars Noveau',
+        'Mob Grinding Utils',
     ]
 
 
@@ -166,34 +166,14 @@ let tooltip_scrolls = event => {
             ])
         }
     })
-
-    //Magic Scroll Blank
-    // TODO Rework this to run over an array e.g. ['First Mod', 'Second Mod'].forEach((i, name) => event.addAdvanced('mod_journey:magic_scroll_' + i, (item, advanced, text) => {})
-    event.addAdvanced('mod_journey:magic_scroll_1', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2, [
-                Text.green("Schaltet Blood Magic frei.")
-            ])
-        }
-    })
-
-    //Magic Scroll Blank
-    event.addAdvanced('mod_journey:magic_scroll_2', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2, [
-                Text.green("Schaltet Ars Noveau frei.")
-            ])
-        }
-    })
-
-    //Magic Scroll Blank
-    event.addAdvanced('mod_journey:magic_scroll_3', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2, [
-                Text.green("Schaltet Mob Grinding Utils frei.")
-            ])
-        }
-    })
-
 */
+
+    // Add SHIFT-Text to magic scrolls
+    magic_scrolls_array.forEach((modName, i) => {
+        if (modName) {
+            event.add(`mod_journey:magic_scroll_${i}`, {shift: true}, [
+                Text.green(`Schaltet ${modName} frei.`),
+            ])
+        }
+    })
 };

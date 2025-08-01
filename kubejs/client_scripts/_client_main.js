@@ -1,7 +1,7 @@
 //priority: 100
 
-let Jeihide = true;
-let tooltip = false;
+let Jeihide = false;
+let tooltip = true;
 
 
 if (Jeihide) {
@@ -20,10 +20,9 @@ if (Jeihide) {
 // Aktuell noch nicht auf Neo 1.21.1 angepasst
 if (tooltip) {
 
-    ItemEvents.tooltip(event => {
-
+    ItemEvents.modifyTooltips(event => {
         tooltip_scrolls(event);
-        tooltips(event);
+        //tooltips(event);
 
     });
 };
