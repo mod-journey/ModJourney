@@ -116,9 +116,10 @@
 	quest.058F5156168C41AD.quest_desc: ["Hast Du das Blutonium in flüssiger Form, kannst du es deinem Reactor wieder hinzufügen oder es weiter verarbeiten. "]
 	quest.058F5156168C41AD.title: "Liquid"
 	quest.05ABC06AABB602DC.quest_desc: [
-		"Damit kann deion Setup noch auf Level 60 ausgeweitet werden. "
+		"Nun kommt eine neue Mechanik des Verzauberungstisches zum Einsatz: Infusionen"
 		""
-		"Aber Achtung: Diese stärkeren Regale bringen auch ein paar negative Eigenschaften mit sich!"
+		"Damit kann man auch bestimmte Blöcke und Items verzaubern und dadurch auch verbessern."
+		"Angefangen mit den Hellshelfs und Seashelfs, um das Verzauberungslimit auf Lv60 zu erhöhen."
 	]
 	quest.05BD7F9376C6E8B3.quest_desc: [
 		"Wenn du der Königin der Walküren nun 10 Victory Medals gibst, wird sie einem Kampf gegen dich zustimmen."
@@ -275,11 +276,11 @@
 	quest.0DC1334D5CA78599.quest_desc: [
 		"Um das Deep Dark auch wirklich zu meistern, muss man in der Lage sein, auch den Warden zu besiegen."
 		""
-		"Beide Skulkshelf-Varianten bringen &cQuanta&r und &5Arcana&r in unterschiedlicher Menge und &2Eterna&r in gleicher Menge mit sich."
+		"Beide Skulkshelf-Varianten bringen &cQuanta&r und &5Arcana&r in unterschiedlicher Menge, &2Eterna&r und &3Enchanting Clues&r in gleicher Menge mit sich."
 		""
-		"Echoing bringt &3Enchanting Clues&r und mehr &5Arcana&r mit sich."
+		"Echoing bringt mehr &5Arcana&r mit sich."
 		""
-		"Soul-Touched bringt &eRectification&r und mehr &cQuanta&r mit sich."
+		"Soul-Touched bringt mehr &cQuanta&r mit sich."
 	]
 	quest.0DD2D5F39A7FC453.quest_desc: ["Mittels dem Messer können wir das erste Blut den alten Göttern opfern. Stelle dich neben den Altar und  drücke die Rechte Maustaste. Aber vorsicht, die Götter können nicht genug bekommen, nicht das Du zu viel her gibst. "]
 	quest.0DD2D5F39A7FC453.quest_subtitle: "Das erste Blutopfer"
@@ -588,9 +589,9 @@
 		""
 		"-&2Eterna&r: Erhöht das maximale Verzauberungslevel."
 		""
-		"-&cQuanta&r: Erhöht die Breite an zufällig ausgewählten Verzauberungen. "
+		"-&cQuanta&r: Erhöht die Breite an zufällig ausgewählten Verzauberungen. Die Reichweite geht von 1-&cQuanta&r bis 1+&cQuanta&r."
 		""
-		"-&eRectification&r verringert das Aufkommen negativer Effekte."
+		"-&6Quantic Stability&r Verhindert negative Quantawerte."
 		""
 		"-&5Arcana&r: Erhöht die Wahrscheinlichkeit für seltenere Verzauberungen und die Anzahl an Verzauberungen."
 		""
@@ -628,7 +629,7 @@
 	quest.22C52D850339AF6C.quest_desc: [
 		"Mit 3 Flaschen eines Trankes kannst du dir einen Potion Charm craften, der dir, wenn aktiviert, alle paar Sekunden seinen Potioneffekt gibt und dafür Haltbarkeit verliert. Der Charm hält sogar länger als die 3 verwendeten Tränke zusammen und erlaubt dir, die gegebene Zeitspanne freier zu nutzen."
 		""
-		"Man kann sie auch verzaubern, sodass sie keine Haltbarkeit mehr verlieren."
+		"Man kann sie später auch verzaubern, sodass sie keine Haltbarkeit mehr verlieren."
 	]
 	quest.22C52D850339AF6C.title: "Potion Charm"
 	quest.22C805CD0CA544E5.quest_desc: ["Magnetisiert herumliegende Items und saugt sie auf!"]
@@ -811,11 +812,6 @@
 	]
 	quest.325B0F0901FD93A8.quest_subtitle: "und das mit Stil!"
 	quest.325B0F0901FD93A8.title: "Der Drip"
-	quest.32C5700512A7E86C.quest_desc: [
-		"Sobald dein Setup für Level 45 ausgelegt ist, kannst du die Hell- und Seashelves infusen und zu ihrer Enchanted Variante verbessern."
-		""
-		"Dieser Vorgang funktioniert nur als Lv45 Verzauberung!"
-	]
 	quest.32CCA4CEC3CE9954.title: "Turbine"
 	quest.334735438DFE505B.title: "Klopf auf Holz"
 	quest.33A120F279366798.quest_desc: ["Fluixkristalle kannst Du auch crushen. Wird für einige Rezepte benötigt."]
@@ -1038,6 +1034,12 @@
 	quest.3F43A51AF14B6FF9.title: "&2 Fluid Laser"
 	quest.3F4E21E41CB14473.quest_desc: ["Ein verbessertes Endshelf, das mehr &2Eterna&r, &cQuanta&r und &5Arcana&r bringt als sein Vorgänger."]
 	quest.3F4E21E41CB14473.title: "The Cooler Level 90"
+	quest.3F5DBA8045B50D6D.quest_desc: [
+		"Diese verbesserte Leine erlaubt es, die meisten Mobs einzufangen und mitzunehmen."
+		""
+		"Ein Lv45 Verzauberungssetup wird mind. benötigt!"
+	]
+	quest.3F5DBA8045B50D6D.title: "Komm mal mit!"
 	quest.3FCAD3EFEABBED79.quest_desc: [
 		"Die ersten Blöcke findest Du in Meteoriten, welche Du über den Kompass findest. Aus diesen Blöcken wachsen mit der Zeit Certus Quarz Kristalle. Diese kannst Du abbauen, um dein erstes Certus zu erhalten. Baust Du sie mit Glück ab, erhältst du einen größeren Output"
 		"{image:ae2:block/large_quartz_bud width:30 height:30 align:1}"
@@ -1086,7 +1088,7 @@
 		"voller Balken = viel Aura"
 	]
 	quest.42CF8AE80D8AB778.quest_desc: ["Erweitert die Breite des Lüfters"]
-	quest.42D6F202CE26D9A4.quest_desc: ["Dieses Regal erhöht &eRectification&r. Es kann auch verwendet werden, um den negativen Effekten der Heart-Forged Seashelves entgegenzuwirken."]
+	quest.42D6F202CE26D9A4.quest_desc: ["Dieses Regal ist die einzige Quelle, um &6Quantic Stability&r für die Verzauberungen zu bekommen."]
 	quest.42D6F202CE26D9A4.title: "Ordnung im Chaos"
 	quest.42D9B4438680C937.quest_desc: ["Nun kannst Du deinen Stufe 4 Altar bauen, hast Du dies geschafft, lassen sich neue Runen craften, mit denen Du nun neuen Progress freischalten kannst. "]
 	quest.43120BDFFF95EF89.quest_desc: ["AE2 ist eine Storage Mod. Mit dieser Mod kannst Du Items konsolidiert speichern und auf diese dezentral Zugreifen. Du kannst Craftingprozesse automatisieren und die wildesten Konstellationen automatisieren. "]
@@ -1116,13 +1118,37 @@
 		""
 		"Mit der \"Capturing\" Verzauberung können Spawneier von getöteten Mobs gedropt werden, mit denen man Spawner zu dem jeweiligen Mob ändern kann."
 		"{@pagebreak}"
+		"Erhöhung/Verringerung von Werten:"
+		""
+		""
 		"&6-&rSoul Lantern: Ignoriert Licht, Mobs spawnen trotz Licht."
 		""
-		"&6-&rFermented Spider Eye: +1 Spawn Count"
+		"&6-&rFermented Spider Eye: +2 Spawn Count"
 		"Anzahl an Mobs, die pro Spawnvorgang auftauchen"
 		""
 		"&6-&rGhast Tear: +2 Max Entities"
 		"maximale Anzahl dieses Mobs, die gleichzeitig vorhanden sein darf"
+		""
+		"&6-&rSugar: -10 Min Spawn Delay"
+		"Mindestzeit zum nächsten Spawnvorgang"
+		""
+		"&6-&rClock: -20 Max Spawn Delay"
+		"Höchstzeit zum nächsten Spawnvorgang"
+		""
+		"&6-&rPrismarin Crystals: +4 Activation Range"
+		"Reichweite, in der ein Spieler vorhanden sein muss zum Spawnen"
+		""
+		"&6-&rPiston: +2 Spawn Range"
+		"Reichweite, in der Mobs um den Spawner herum auftauchen"
+		""
+		"&6-&rPointed Dripstone: -5% Max Health"
+		"Mobs spawnen mit weniger HP"
+		""
+		"&6-&rNether Quartz (Offhand): Gegenteiliger Effekt"
+		"kehrt Effekte oben genannter Items um"
+		"{@pagebreak}"
+		"Toggle von Effekten:"
+		""
 		""
 		"&6-&rWool: Silent"
 		"Mobs machen keine Geräusche mehr"
@@ -1130,26 +1156,23 @@
 		"&6-&rChorus Fruit: No AI"
 		"Mobs haben keine KI mehr, können weder angreifen noch sich bewegen"
 		""
-		"&6-&rSugar: -10 Min Spawn Delay"
-		"Mindestzeit zum nächsten Spawnvorgang"
-		""
-		"&6-&rPrismarin Crystals: +2 Activation Range"
-		"Reichweite, in der ein Spieler vorhanden sein muss zum Spawnen"
-		""
 		"&6-&rTurtle Egg: Baby Variant"
 		"spawnt nur noch Babymobs"
 		""
 		"&6-&rRedstone Comparator: Redstone Control"
 		"Spawner per Redstone ein- und ausschaltbar"
 		""
-		"&6-&rClock: -10 Max Spawn Delay"
-		"Höchstzeit zum nächsten Spawnvorgang"
-		""
-		"&6-&rDragon Egg: Ignoriert Spawnbedingungen"
+		"&6-&rConduit: Ignoriert Spawnbedingungen"
 		"Beispiel: Grasblockboden für Tiere, Lichtverhältnisse etc."
 		""
-		"&6-&rBlaze Rod: +1 Spawn Range"
-		"Reichweite, in der Mobs um den Spawner herum auftauchen"
+		"&6-&rNether Star: Ignore Player"
+		"Es müssen keine Spieler mehr in der Nähe sein, damit Mobs spawnen"
+		""
+		"&6-&rCampfire: Burning"
+		"Mobs spawnen brennend"
+		""
+		"&6-&rEcho Shard: Echoing"
+		"Mobs droppen mehr Loot pro Stufe"
 		""
 		"&6-&rNether Quartz (Offhand): Gegenteiliger Effekt"
 		"kehrt Effekte oben genannter Items um"
@@ -1332,7 +1355,7 @@
 	quest.4FE30C332131292E.quest_desc: [
 		"Dieses Endshelf erlaubt, das maximale Verzauberunglevel von 100 zu erreichen. Allerdings bringt es nur &2Eterna&r mit sich."
 		""
-		"&cQuanta&r, &5Arcana&r, &eRectification&r und &3Enchanting Clues&r müssen dafür aus anderen Quellen bezogen werden."
+		"&cQuanta&r, &5Arcana&r und &3Enchanting Clues&r müssen dafür aus anderen Quellen bezogen werden."
 	]
 	quest.4FE30C332131292E.quest_subtitle: "Das absolute Maximum"
 	quest.4FE30C332131292E.title: "Level 100"
@@ -1370,10 +1393,11 @@
 		"Dieses Modul von Apotheosis bringt für die Kämpfer unter euch viele Zusätze mit sich."
 		""
 		"So gibt es viele Modifikationen für Waffen, Tools und Rüstungen, Minibosse und mehr!"
+		"Eine neue Mechanik stellt die Einführung von World Tiers dar, die durch bestimmte Meilensteine freigeschaltet werden. Diese wirken sich auf die Stärke der Mobs und deren Drops aus."
 		""
 		"Das Questbuch fokussiert sich darauf, euch durch die Modifizierungsprozesse für die Ausrüstung zu führen."
 		""
-		"Informationen zu Bossmechaniken etc. findet ihr im \"Chronical of Shadows\" Buch."
+		"Informationen zu Bossmechaniken, World Tiers etc. findest du im \"Chronical of Shadows\" Buch."
 	]
 	quest.53384F1CAA1193C0.quest_desc: [
 		"Ein Quantentunnel ermöglicht dir dein System Dimensions-übergreifen oder einfach auf Distanz zu bauen. Du benötigst 2 x8 Ringe. 2 x 1 Quantenkammer und ein parr quantenverschränkte Singularitäten. "
@@ -1421,8 +1445,6 @@
 	quest.54E91CBDA4D83EDE.title: "Let's show: Powah!"
 	quest.5529F9D6301E78F4.quest_desc: ["Doppelt so viele Flüssigkeitstypen, aber nur halb so groß."]
 	quest.557F56AEDAF2680A.quest_desc: ["Ein Raketenbauteil."]
-	quest.55C158C08F87D675.quest_desc: ["Dieses Regal ist eine verbesserte Version seines Vorgängers."]
-	quest.55C158C08F87D675.title: "Recht und Ordnung müssen gewahrt werden"
 	quest.55F9D00503EA0664.quest_desc: ["Es lassen sich mit diesem Gegenstand nun weitere und stärkere Rituale bauen. Teste es doch mal aus und baue das Ritual \"Passway to the hidden Realm\""]
 	quest.5600D421C0F617A9.quest_desc: ["Da hier Mods gefunden wurden, welche Entity Spawning mittels spawner erlauben und dadurch auch XP, Item Farmen zustande kommen, hat es Mob Grinding Utils in das Modpack geschafft. Diese Mod ermöglicht es, Mobs effizienter zu farmen. "]
 	quest.565D5FCA805C2F32.quest_desc: [
@@ -1650,8 +1672,6 @@
 		"Skelettschädel erhöhen &cQuanta&r."
 		""
 		"Kerzen erhöhen &5Arcana&r."
-		""
-		"Amethyst Cluster erhöhen &eRectification&r."
 	]
 	quest.67CAE51EBC46F9F1.title: "Level 1-30"
 	quest.67D770AFB8C867EB.quest_desc: ["Eine Anfängerrüstung, die dich pro Rüstungsteil mehr verlangsamt."]
@@ -1782,6 +1802,11 @@
 	quest.728F7FBD7DA50204.quest_desc: ["In einem Ladegerät lässt sich primär herstellen: Geladener Certus Quartz. Des weiteren kannst Du auch das mittlerweile Neu eingefügte Guide-Buch von Applied darin herstellen, oder auch einen Meteoritenkompass"]
 	quest.728F7FBD7DA50204.quest_subtitle: "Der (Lade)gerät"
 	quest.7294DBAAA5588E92.quest_subtitle: "Zum kopieren von gesetzten Einstellungen des Flux Points und des Flux Plugs."
+	quest.72C8E334A84BB475.quest_desc: [
+		"Diese Leine funktioniert wie sein Vorgänger mit dem Zusatz, dass der eingefangene Mob in einen Spawner gepackt werden kann."
+		""
+		"Ein Lv75 Verzauberungssetup wird mind. benötigt!"
+	]
 	quest.72C8E334A84BB475.title: "Geh da rein!"
 	quest.72F6647F47F3D23D.quest_desc: ["Es lässt sich nicht nur wie die Botanists Rüstung reparieren, sondern bietet auch einen Setbonus: Wenn man alle Teile der Rüstung trägt (oder den Brustpanzer gegen eine Elytra austauscht), erhöht sich die Bewegungsgeschwindigkeit des Trägers. Außerdem wird seine Fähigkeit auf Blöcke zu steigen verbessert, sodass er nicht mehr so oft springen muss."]
 	quest.732256E339B0D5FC.quest_subtitle: "das 2x"
@@ -2016,7 +2041,6 @@
 	task.32A3B13F973EF6CA.title: "Backpack"
 	task.32FF7AAA5FD69B16.title: "Metallpresse"
 	task.3431FF0D1CEAA984.title: "Nice to know"
-	task.34C59C287F3F9A18.title: "Potion Charm"
 	task.34E99BB60961DDF4.title: "Cyanite"
 	task.35D7180AD7FB5125.title: "Any Froststeel Tool"
 	task.39F041BF05060216.title: "Sky is the limit"
