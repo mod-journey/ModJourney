@@ -17,21 +17,27 @@ let tooltip_scrolls = event => {
 
     let magic_scrolls_array = [
         null,
+        // TODO replace Bloodmagic and add new scroll for occultism
         'Blood Magic',
         'Ars Noveau',
         'Mob Grinding Utils',
     ]
 
 
-    event.add(/mod_journey:magic_scroll_/, Text.yellow('Mit diesem Gegenstand, lassen sich verdeckte Quests freischalten.'))
+    // Add text via reg-exp to all non-blank scrolls - see https://regex101.com/r/NWcfGg/1
+    event.add(/mod_journey:(scroll_|magic_scroll_)[0-9]/, Text.yellow('Mit diesem Gegenstand, lassen sich verdeckte Quests freischalten.'))
+
+    // Add blank scroll technic and magic
+    event.add(/mod_journey:(magic_scroll_blank|blank_scroll)/, {shift: true}, [
+            Text.green("Wird zum craften von Schriftrollen benötigt.")
+        ]
+    )
 
     event.add(/mod_journey:(blank_scroll|magic_scroll_|scroll_)/, {shift: false}, [
         Text.gold('Hold '),
         Text.yellow('Shift '),
         Text.gold('to see more info.')
     ])
-
-
 
     // Add SHIFT-Text - Schriftrolle 1-9
     technic_scrolls_array.forEach((modName, i) => {
@@ -44,19 +50,12 @@ let tooltip_scrolls = event => {
         }
     })
 
-
-    // leere Schriftrolle und Magic Scroll Blank
-    event.add(/mod_journey:(magic_scroll_blank|blank_scroll)/, {shift: true}, [
-                Text.green("Wird zum craften von Schriftrollen benötigt.")
-        ]
-    )
-
-
     // Add SHIFT-Text to magic scrolls
     magic_scrolls_array.forEach((modName, i) => {
         if (modName) {
             event.add(`mod_journey:magic_scroll_${i}`, {shift: true}, [
-                Text.green(`Schaltet ${modName} frei.`),
+                Text.green("Schaltet im Questbuch frei:"),
+                Text.gold(modName),
             ])
         }
     })
