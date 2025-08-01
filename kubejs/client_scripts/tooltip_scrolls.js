@@ -34,9 +34,9 @@ let tooltip_scrolls = event => {
     )
 
     event.add(/mod_journey:(blank_scroll|magic_scroll_|scroll_)/, {shift: false}, [
-        Text.gold('Hold '),
-        Text.yellow('Shift '),
-        Text.gold('to see more info.')
+        Text.gold('Hold ')
+            .append(Text.yellow('Shift '))
+            .append(Text.gold('to see more info.'))
     ])
 
     // Add SHIFT-Text - Schriftrolle 1-9
