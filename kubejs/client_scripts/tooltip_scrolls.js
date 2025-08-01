@@ -15,13 +15,6 @@ let tooltip_scrolls = event => {
         'Mekanism',
     ]
 
-    event.add(/mod_journey:scroll_/, {shift: false}, [
-        Text.gold('Hold '),
-        Text.yellow('Shift '),
-        Text.gold('to see more info.')
-    ])
-
-
     let magic_scrolls_array = [
         null,
         'Blood Magic',
@@ -32,7 +25,7 @@ let tooltip_scrolls = event => {
 
     event.add(/mod_journey:magic_scroll_/, Text.yellow('Mit diesem Gegenstand, lassen sich verdeckte Quests freischalten.'))
 
-    event.add(/mod_journey:magic_scroll_/, {shift: false}, [
+    event.add(/mod_journey:(blank_scroll|magic_scroll_|scroll_)/, {shift: false}, [
         Text.gold('Hold '),
         Text.yellow('Shift '),
         Text.gold('to see more info.')
@@ -51,32 +44,13 @@ let tooltip_scrolls = event => {
         }
     })
 
-/*
-    //leere Schriftrolle
-    event.addAdvanced('mod_journey:blank_scroll', (item, advanced, text) => {
-        if (!event.shift) {
-            text.add(1, [
-                Text.gold('Hold '),
-                Text.yellow('Shift '),
-                Text.gold('to see more info.')
-            ])
-        } else {
-            text.add(1,[
+
+    // leere Schriftrolle und Magic Scroll Blank
+    event.add(/mod_journey:(magic_scroll_blank|blank_scroll)/, {shift: true}, [
                 Text.green("Wird zum craften von Schriftrollen benötigt.")
-            ])
-        }
-    })
+        ]
+    )
 
-
-    //Magic Scroll Blank
-    event.addAdvanced('mod_journey:magic_scroll_blank', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2, [
-                Text.green("Wird zum weitercraften benötigt")
-            ])
-        }
-    })
-*/
 
     // Add SHIFT-Text to magic scrolls
     magic_scrolls_array.forEach((modName, i) => {
