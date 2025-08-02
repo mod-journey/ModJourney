@@ -1,0 +1,6 @@
+{
+  "item.mob_grinding_utils.saw_upgrade_beheading": "Monster Stampfer Upgrade Enthauptung",
+  "item.mob_grinding_utils.saw_upgrade_looting": "Monster Stampfer Upgrade Plünderung",
+  "tooltip.sawupgrade_beheading": "Enthauptung: +1. Max von %d.",
+  "tooltip.sawupgrade_looting": "Plünderung: +1. Max von %d."
+}

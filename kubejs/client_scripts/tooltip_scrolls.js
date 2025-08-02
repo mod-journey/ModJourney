@@ -34,7 +34,7 @@ let tooltip_scrolls = event => {
     )
 
     event.add(/mod_journey:(blank_scroll|magic_scroll_|scroll_)/, {shift: false}, [
-        Text.translate('item.mod_journey.scroll.tooltip.hold_key_for_info', [
+        Text.translate('item.mod_journey.tooltip.hold_key_for_info', [
             Text.translate('button.mod_journey.shift').yellow()
         ]).gold()
     ])

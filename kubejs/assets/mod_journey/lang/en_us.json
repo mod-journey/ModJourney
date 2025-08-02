@@ -14,7 +14,9 @@
   "block.mod_journey.antimatter_block": "Antimatter Block",
   "block.mod_journey.clotted_bloodblock": "Clotted Blood Clump",
   "button.mod_journey.shift": "Shift",
+  "item.mod_journey.antimatter_block.tooltip": "High compressed block of antimatter",
   "item.mod_journey.antimatter_ingot": "Antimatter Ingot",
+  "item.mod_journey.antimatter_ingot.tooltip": "High compressed ingot of antimatter",
   "item.mod_journey.blank_scroll": "Blank Scroll",
   "item.mod_journey.clotted_blood_clump": "Clotted Blood Clump",
   "item.mod_journey.frame_core_1": "Framed Core 1",
@@ -30,7 +32,6 @@
   "item.mod_journey.magic_scroll_2": "Magical Scroll 2",
   "item.mod_journey.magic_scroll_3": "Magical Scroll 3",
   "item.mod_journey.magic_scroll_blank": "Black Magical Scroll",
-  "item.mod_journey.scroll.tooltip.hold_key_for_info": "Hold %s to see more info.",
   "item.mod_journey.scroll.tooltip.unlock_questbook": "unlocks in questbook: %s",
   "item.mod_journey.scroll_1": "Scroll 1",
   "item.mod_journey.scroll_2": "Scroll 2",
@@ -44,5 +45,8 @@
   "item.mod_journey.scroll_blank.tooltip.needed_for_crafting": "This is needed for crafting scrolls.",
   "item.mod_journey.scroll_blank.tooltip.unlock": "This item can unlock hidden quests.",
   "item.mod_journey.silver_coin": "Silver Coin",
-  "item.mod_journey.the_rod_of_real_life": "The Rod of Real Life"
+  "item.mod_journey.the_rod_of_real_life": "The Rod of Real Life",
+  "item.mod_journey.the_rod_of_real_life.tooltip": "Using at own risk...",
+  "item.mod_journey.the_rod_of_real_life.tooltip.hold_key": "Hold %1$s and %2$s to return to real life",
+  "item.mod_journey.tooltip.hold_key_for_info": "Hold %s to see more info."
 }
