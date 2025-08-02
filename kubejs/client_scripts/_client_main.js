@@ -1,6 +1,6 @@
 //priority: 100
 
-let Jeihide = false;
+let Jeihide = true;
 let tooltip = true;
 
 
@@ -22,7 +22,7 @@ if (tooltip) {
 
     ItemEvents.modifyTooltips(event => {
         tooltip_scrolls(event);
-        //tooltips(event);
+        tooltips(event);
 
     });
 };
