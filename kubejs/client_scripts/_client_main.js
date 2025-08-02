@@ -17,7 +17,6 @@ if (Jeihide) {
 };
 
 
-// Aktuell noch nicht auf Neo 1.21.1 angepasst
 if (tooltip) {
 
     ItemEvents.modifyTooltips(event => {
