@@ -6,7 +6,7 @@ let tooltip_scrolls = event => {
         null,
         'Industrial Foregoing',
         'Stellaris', //'Ad Astra'
-        'Thermal Series',
+        null,
         'Applied Energistics',
         'Extreme Reactor',
         'Powah',
@@ -18,7 +18,7 @@ let tooltip_scrolls = event => {
     let magic_scrolls_array = [
         null,
         // TODO replace Bloodmagic and add new scroll for occultism
-        'Blood Magic',
+        'Occultism',
         'Ars Noveau',
         'Mob Grinding Utils',
     ]
