@@ -2,7 +2,7 @@
 	#Armory slot amount
 	# Default: 4096
 	# Range: > 1
-	ARMORY_CABINET_SIZE = 4096
+	ARMORY_CABINET_SIZE = 1024
 	#Linking range radius
 	DRAWER_CONTROLLER_LINKING_RANGE = 8
 	#Every how many ticks the drawer upgrades will work
@@ -34,4 +34,4 @@
 	#How much should the range be divided by for any given Storage Upgrade
 	# Default: 4
 	# Range: > 1
-	RANGE_DIVISOR = 4
+	RANGE_DIVISOR = 26
