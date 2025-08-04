@@ -4,7 +4,9 @@ let remove_occultism = (event, active, debug) => {
     event.remove([
         { id: "occultism:ritual/summon_djinni_night_time" },
         { id: "occultism:ritual/summon_djinni_day_time" },
-        { id: "occultism:ritual/summon_djinni_clear_weather" }
+        { id: "occultism:ritual/summon_djinni_clear_weather" },
+        { id: "occultism:ritual/summon_afrit_thunder_weather" },
+        { id: "occultism:ritual/summon_afrit_rain_weather" },
     ])
 
     event.forEachRecipe({ mod: "occultism", type: "occultism:miner" }, r => {

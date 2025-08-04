@@ -4,7 +4,9 @@ let hide_occultism = (event, active, debug) => {
     let hide_item = [
         "occultism:ritual_dummy/summon_djinni_clear_weather",
         "occultism:ritual_dummy/summon_djinni_night_time",
-        "occultism:ritual_dummy/summon_djinni_day_time"
+        "occultism:ritual_dummy/summon_djinni_day_time",
+        'occultism:ritual_dummy/summon_afrit_rain_weather',
+        'occultism:ritual_dummy/summon_afrit_thunder_weather'
     ]
 
     hide_item.forEach(hide_items => {
