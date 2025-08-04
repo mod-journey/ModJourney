@@ -92,6 +92,7 @@ if (events_server) {
             remove_rftAndXnet(event, true);
             remove_stellaris(event, true);
             remove_natureAura(event, true);
+            remove_occultism(event, true);
         }
 
         if (replace_ores) {
