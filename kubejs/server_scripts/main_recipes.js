@@ -93,6 +93,7 @@ if (events_server) {
             remove_stellaris(event, true);
             remove_natureAura(event, true);
             remove_occultism(event, true);
+            remove_arsElemental(event, true);
         }
 
         if (replace_ores) {
