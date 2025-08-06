@@ -11,6 +11,7 @@ if (Jeihide) {
         stellaris_remove_items(event, true);
         hideNaturesAura(event, true);
         hide_occultism(event, true);
+        hide_arsElemental(event, true);
 
 
         hide_mekanism_items(event, true)
