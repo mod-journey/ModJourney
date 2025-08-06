@@ -6,7 +6,8 @@ let remove_arsNoveau = (event, active, debug) => {
     let ars_weather_and_time =[
         'ars_nouveau:ritual_moonfall',
         'ars_nouveau:ritual_cloudshaping',
-        'ars_nouveau:ritual_sunrise']
+        'ars_nouveau:ritual_sunrise'
+    ]
 
     let ars_biome_modification = [
         'ars_nouveau:ritual_conjure_island_plains',
