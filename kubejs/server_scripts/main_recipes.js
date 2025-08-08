@@ -78,7 +78,7 @@ if (events_server) {
         if (remove_event) {
             remove_ae2_portable_cell(event, true);
             remove_ae2_removeComplete(event, true);
-            remove_aether(event, false);                        //forgot to install to pack. will be merged in a few days
+            remove_aether(event, true);
             remove_apotheosis(event, true, false);
             remove_arsNoveau(event, true);
             remove_easyVillager(event, true);
@@ -91,6 +91,9 @@ if (events_server) {
             remove_mysticalAgriculture(event, true);
             remove_rftAndXnet(event, true);
             remove_stellaris(event, true);
+            remove_natureAura(event, true);
+            remove_occultism(event, true);
+            remove_arsElemental(event, true);
         }
 
         if (replace_ores) {

@@ -3,105 +3,6 @@
 let jei_hide = (event, active, debug) => {
     if(!active) return;
 
-    //thermal series tnt removen
-
-    const tnt = [
-        'thermal:detonator',
-        'thermal:explosive_grenade',
-        'thermal:fire_tnt',
-        'thermal:ice_tnt',
-        'thermal:lightning_tnt',
-        'thermal:earth_tnt',
-        'thermal:ender_tnt',
-        'thermal:glowstone_tnt',
-        'thermal:redstone_tnt',
-        'thermal:slime_tnt',
-        'thermal:phyto_tnt',
-        'thermal:nuke_tnt',
-        'thermal:lightning_grenade',
-        'thermal:ice_grenade',
-        'thermal:explosive_grenade',
-        'thermal:phyto_grenade',
-        'thermal:fire_grenade',
-        'thermal:earth_grenade',
-        'thermal:ender_grenade'
-    ]
-
-    tnt.forEach(element => {
-        event.hide(element)
-    });
-
-    //thermal series hide florb
-    event.hide('thermal:florb')
-
-    //thermal series satchel
-    event.hide('thermal:satchel')
-
-    //thermal coins hide
-    const coins = [
-        'thermal:iron_coin',
-        'thermal:copper_coin',
-        'thermal:netherite_coin',
-        'thermal:tin_coin',
-        'thermal:lead_coin',
-        'thermal:nickel_coin',
-        'thermal:electrum_coin',
-        'thermal:invar_coin',
-        'thermal:constantan_coin',
-        'thermal:signalum_coin',
-        'thermal:lumium_coin',
-        'thermal:enderium_coin',
-        'thermal:gold_coin',
-        'thermal:silver_coin',
-        'thermal:bronze_coin'
-    ];
-
-    coins.forEach(element => {
-        event.hide(element);
-    });
-
-    //botania lenses removen
-
-    const lens = [
-        'botania:lens_explosive',
-        'botania:lens_piston',
-        'botania:lens_weight',
-        'botania:lens_mine'
-    ]
-
-    lens.forEach(element => {
-        event.hide(element)
-    });
-
-
-    //botania Staebe removen
-
-    let rods = [
-        'botania:terraform_rod',
-        'botania:exchange_rod',
-        'botania:water_rod'
-    ]
-
-    rods.forEach(element => {
-        event.hide(element)
-    });
-
-    //botania Laputa Shard removen
-    event.hide('botania:laputa_shard')
-
-
-    let mekanism_hide = [
-        'mekanismadditions:walkie_talkie',
-        'mekanism:upgrade_anchor',
-        'mekanismadditions:obsidian_tnt',
-        'mekanism:dimensional_stabilizer',
-        'mekanism:digital_miner'
-    ]
-    mekanism_hide.forEach((itemName) => {
-        event.hide(itemName)
-    })
-
-
     // Mystical Agriculture
     let mystical_hide = [
         'mysticalagriculture:harvester',
@@ -133,9 +34,6 @@ let jei_hide = (event, active, debug) => {
         event.hide(element)
     })
 
-
-    //immersive
-    event.hide('immersiveengineering:cloche')
 
 
     //Mob_Grinding_Utils
@@ -339,7 +237,6 @@ let jei_hide = (event, active, debug) => {
     })
 
     event.hide(Item.of('ae2:vibration_chamber'))
-    event.hide(Item.of('mekanism:creative_chemical_tank'))
     event.hide(Item.of('easy_villagers:iron_farm'))
     event.hide(Item.of('ae2wtlib:quantum_bridge_card'))
 
