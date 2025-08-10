@@ -903,7 +903,7 @@
 	quest.3886DDD04C153233.quest_subtitle: "MEEEEEEEHR I"
 	quest.38C03105A0BAA33C.quest_subtitle: "Ein Zerkleinerer mit Nebenprodukten"
 	quest.38C06A9C50CC10B4.quest_desc: ["Platziere einen Master Ritual Stone und klicke mit dem Ritual Diviner mit Rechtsklick drauf. Dein Ritual baut sich automatsch zusammen, sofern keine Blöcke im Weg sind und Du genug normale Rituale Steine im Inventar hast."]
-	quest.38FCDBC67E137073.quest_desc: ["Alle 4 Stunden kann dein Team eine Silbermünze bekommen. Die Zeit zählt nur solange Du aktiv auf dem Server online bist."]
+	quest.38FCDBC67E137073.quest_desc: ["Alle 4 Stunden kann dein Team eine Münze bekommen. Die Zeit zählt nur solange Du aktiv auf dem Server online bist."]
 	quest.391C89DCEF97A976.quest_desc: [
 		"Der Raumanzug schützt dich vor dem Lebensfeindlichen Vakuum, der außerhalb der Atmosphäre liegt. "
 		"{@pagebreak}"
@@ -1982,7 +1982,6 @@
 	reward_table.5CA59D5BF413471C.title: "meka mid "
 	reward_table.67D5535CC0B3DD64.title: "Agriculture Tear2"
 	task.009105FF3AC43AE2.title: "Functional Storage"
-	task.012ED275E250F620.title: "TODO Tagesquest einfügen"
 	task.01BD2A1FE8967AB2.title: "Finde den Blinding Dungeon"
 	task.03BC595DF682AD4B.title: "Everbright"
 	task.03D6F3D7B3CAF8DE.title: "Any Cloggrum Tool"
@@ -2036,6 +2035,7 @@
 	task.2F492EBF4069D00F.title: "Any #aether:moa_eggs"
 	task.30B3C8265D064CFC.title: "Level 54"
 	task.30C33DEDF6374D94.title: "Teams"
+	task.30D9E8CD52F44C9A.title: "4h"
 	task.3209864899ECF55C.title: "Any Utherium Armor"
 	task.324C1250EBBF7D1F.title: "Pity Black Hole Tank"
 	task.32A3B13F973EF6CA.title: "Backpack"
@@ -2080,6 +2080,7 @@
 	task.57C0868197229AD9.title: "Crafte Die Horizonitschmiede"
 	task.58130F61425C0D83.title: "Garden"
 	task.58BEF53529013D68.title: "lol"
+	task.597813E4951FDC5E.title: "24h"
 	task.5AADB98601C9615B.title: "Any Cloggrum Weapon"
 	task.5AE347FA991EC91F.title: "Stahl"
 	task.5B9E238DC485BE38.title: "Mana"

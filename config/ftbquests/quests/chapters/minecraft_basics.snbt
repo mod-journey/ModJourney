@@ -769,16 +769,53 @@
 			y: 5.0d
 		}
 		{
+			can_repeat: true
+			icon: {
+				id: "mod_journey:copper_coin"
+			}
 			id: "38FCDBC67E137073"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "738C3631FA49D6B6"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				team_reward: false
+				type: "item"
+			}]
 			tasks: [{
-				id: "012ED275E250F620"
-				type: "checkmark"
+				icon: {
+					id: "minecraft:clock"
+				}
+				id: "30D9E8CD52F44C9A"
+				type: "custom"
 			}]
 			x: -3.5d
 			y: 3.0d
 		}
 		{
+			can_repeat: true
+			icon: {
+				id: "mod_journey:silver_coin"
+			}
 			id: "146D1D0765124A16"
+			optional: true
+			rewards: [{
+				id: "65A83C70BA4FDE02"
+				icon: {
+					id: "mod_journey:silver_coin"
+				}
+				type: "custom"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:clock"
+				}
+				id: "597813E4951FDC5E"
+				type: "custom"
+			}]
 			x: -1.5d
 			y: 3.0d
 		}
