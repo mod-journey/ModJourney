@@ -75,3 +75,5 @@
 	transportLeashed = "ENABLED"
 	#List of entities that cannot be teleported, either as pet, leashed, or on warp plates.
 	entityDenyList = ["minecraft:wither"]
+	#Set to true to enable warp modifier items for applying status effects on teleports.
+	enableModifiers = true
