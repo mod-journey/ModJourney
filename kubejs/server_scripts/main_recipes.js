@@ -28,7 +28,7 @@ if (events_server) {
 
         /* "./gated/* */
         if (gated_event) {
-            modjourney_gated_items(event, true)
+            modjourney_gated_items(event, true);
             apotheosis_gated(event, true);
             ae_gated(event, true);
             arsnoveau_gated(event, true);
@@ -38,6 +38,7 @@ if (events_server) {
             extendedcrafting_gated(event, true);
             extremereactor_gated(event, true);
             fluxnetwork_gated(event, true);
+            immersive_gated(event, true);
             industrialforegoing_gated(event, true);
             ironjetpacks_gated(event, true);
             itemcollector_gated(event, true);
