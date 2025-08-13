@@ -17,6 +17,7 @@ if (item_tags) {
         extreme_reactor_tag(event, true)
         tag_fuer_event(event, true)
         item_stellaris(event, true)
+        naturesAura_tags(event, true)
 
     })
 

@@ -9,12 +9,7 @@ const dummy_items = [
     { id: "mod_journey:dummy_1" },
     { id: "mod_journey:dummy_2" },
     { id: "mod_journey:dummy_3" },
-    { id: "mod_journey:dummy_4" },
-    { id: "mod_journey:dummy_5" },
-    { id: "mod_journey:dummy_6" },
-    { id: "mod_journey:dummy_7" },
-    { id: "mod_journey:dummy_8" },
-    { id: "mod_journey:dummy_9" }
+
 ]
 
 const stages = {
@@ -24,9 +19,9 @@ const stages = {
         second: '',
         endgame: '',
         magic: {
-            early: dummy_items[0].id,
-            mid: dummy_items[1].id,
-            end: dummy_items[2].id
+            early: '#mod_journey:magic/stage/one/early',
+            mid: 'naturesaura:birth_spirit',
+            end: 'naturesaura:sky_ingot'
         },
     },
     stage2: {
@@ -36,9 +31,9 @@ const stages = {
         second: '',
         endgame: '',
         magic: {
-            early: dummy_items[3].id,
-            mid: dummy_items[4].id,
-            end: dummy_items[5].id,
+            early: dummy_items[1].id,
+            mid: dummy_items[2].id,
+            end: dummy_items[3].id,
         },
     },
     stage3: {
@@ -46,18 +41,18 @@ const stages = {
         second: '',
         endgame: '',
         magic: {
-            early: dummy_items[6].id,
-            mid: dummy_items[7].id,
-            end: dummy_items[8].id
+            early: 'ars_nouveau:source_gem',
+            mid: 'ars_nouveau:archmage_spell_book',
+            end: 'apothic_enchanting:ender_library'
         },
     },
     mod_based: {
         mekanism: "mekanism:steel_casing"
     },
     coins: {
-        bronze: "",
-        silver: "",
-        gold: ""
+        bronze: "mod_journey:copper_coin",
+        silver: "mod_journey:silver_coin",
+        gold: "mod_journey:gold_coin"
     }
 }
 
