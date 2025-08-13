@@ -36,7 +36,7 @@ let modjourney_gated_items = (event, active, debug) => {
         'SSS'
     ], {
         S: 'alltheores:steel_plate',
-        c: 'immersiveengineering:circuit_board'
+        C: 'immersiveengineering:circuit_board'
     }).id('mod_journey:shaped/hardend_steel_plate');
 
     event.shaped('mod_journey:platin_plate', [
@@ -45,7 +45,7 @@ let modjourney_gated_items = (event, active, debug) => {
         'SSS'
     ], {
         S: 'alltheores:platinum_plate',
-        c: 'alltheores:steel_block'
+        C: 'alltheores:steel_block'
     }).id('mod_journey:shaped/platin_plate');
 
     event.shaped('mod_journey:frame_core_1', [
