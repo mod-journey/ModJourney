@@ -19,6 +19,7 @@ const dummy_items = [
 
 const stages = {
     stage1: {
+        vanilla: "mod_journey:frame_core_1",
         core: 'mod_journey:frame_core_2',
         second: '',
         endgame: '',
