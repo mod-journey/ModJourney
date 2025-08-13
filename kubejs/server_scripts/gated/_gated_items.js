@@ -19,7 +19,7 @@ const dummy_items = [
 
 const stages = {
     stage1: {
-        core: 'immersiveengineering:circuit_board',
+        core: 'mod_journey:frame_core_2',
         second: '',
         endgame: '',
         magic: {
@@ -29,7 +29,7 @@ const stages = {
         },
     },
     stage2: {
-        core: 'stellaris:mercury_cobblestone',
+        core: 'mod_journey:frame_core_3',
         // indirect gated via darksteel and ender io allow smelting
         gear: 'enderio:dark_bimetal_gear',
         second: '',
@@ -41,7 +41,7 @@ const stages = {
         },
     },
     stage3: {
-        core: 'powah:crystal_nitro',
+        core: 'mod_journey:frame_core_4',
         second: '',
         endgame: '',
         magic: {
