@@ -28,6 +28,7 @@ if (events_server) {
 
         /* "./gated/* */
         if (gated_event) {
+            modjourney_gated_items(event, true)
             apotheosis_gated(event, true);
             ae_gated(event, true);
             arsnoveau_gated(event, true);
