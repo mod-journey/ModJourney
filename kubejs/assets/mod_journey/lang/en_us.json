@@ -48,5 +48,11 @@
   "item.mod_journey.the_rod_of_real_life": "The Rod of Real Life",
   "item.mod_journey.the_rod_of_real_life.tooltip": "Using at own risk...",
   "item.mod_journey.the_rod_of_real_life.tooltip.hold_key": "Hold %1$s and %2$s to return to real life",
-  "item.mod_journey.tooltip.hold_key_for_info": "Hold %s to see more info."
+  "item.mod_journey.tooltip.hold_key_for_info": "Hold %s to see more info.",
+  "item.mod_journey.copperchunk.tooltip": "Test: %s",
+  "item.mod_journey.hardend_steel_plate.tooltip": "Test: %s",
+  "item.mod_journey.lumber.tooltip": "Test: %s",
+  "item.mod_journey.nitro_cube.tooltip": "Test: %s",
+  "item.mod_journey.platin_plate.tooltip": "Test: %s",
+  "item.mod_journey.steel_carrier.tooltip": "Test: %s"
 }
