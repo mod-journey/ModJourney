@@ -48,5 +48,11 @@
   "item.mod_journey.silver_coin": "Silber Münze",
   "item.mod_journey.the_rod_of_real_life": "Verwenden auf eigenes Risiko...",
   "item.mod_journey.the_rod_of_real_life.tooltip.hold_key": "Halte %1$s und %2$s um ins Real Life zurückzukehren",
-  "item.mod_journey.tooltip.hold_key_for_info": "Halte %s um mehr Infos anzuzeigen."
+  "item.mod_journey.tooltip.hold_key_for_info": "Halte %s um mehr Infos anzuzeigen.",
+  "item.mod_journey.copperchunk.tooltip": "Eine Handwerkszutat",
+  "item.mod_journey.hardend_steel_plate.tooltip": "Eine Handwerkszutat",
+  "item.mod_journey.lumber.tooltip": "Eine Handwerkszutat",
+  "item.mod_journey.nitro_cube.tooltip": "Eine Handwerkszutat",
+  "item.mod_journey.platin_plate.tooltip": "Eine Handwerkszutat",
+  "item.mod_journey.steel_carrier.tooltip": "Eine Handwerkszutat"
 }

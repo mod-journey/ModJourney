@@ -86,7 +86,7 @@ let item_add = (event, active, debug) => {
         let itemName = ingredient_list[i]
 
         event.create(`mod_journey:${itemName}`)
-            .tooltip(Text.translate(`item.mod_journey.${itemName}.tooltip`, itemName))
+            .tooltip(Text.translate(`item.mod_journey.${itemName}.tooltip`))
             .texture(`mod_journey:item/staged/ingredient/${itemName}`)
     }
 
