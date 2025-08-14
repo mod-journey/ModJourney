@@ -4,7 +4,7 @@ let arsnoveau_gated = (event, active, debug) => {
     if (!active) return;
     console.log('Gated Ars_Nouveau')
 
-    //edit the scribes_table to add a bucket of life. #earlygame
+    //edit the scribes_table. #earlygame
     event.forEachRecipe(
         { id: 'ars_nouveau:scribes_table' }, r => {
             event.remove({
@@ -30,7 +30,7 @@ let arsnoveau_gated = (event, active, debug) => {
         }
     )
 
-    //edit the imbuement_chamber to add a bucket of life. #earlygame
+    //edit the imbuement_chamber. #earlygame
     event.forEachRecipe(
         { id: 'ars_nouveau:imbuement_chamber' }, r => {
             event.remove({
@@ -55,7 +55,7 @@ let arsnoveau_gated = (event, active, debug) => {
         }
     )
 
-    // edit the enchanting apparatus to add bloodstone Brick #midgame
+    // edit the enchanting. #midgame
     event.forEachRecipe(
         { id: 'ars_nouveau:enchanting_apparatus' }, r => {
             event.remove({
@@ -82,7 +82,7 @@ let arsnoveau_gated = (event, active, debug) => {
         }
     )
 
-    // edit the ritual brazier to add bloodstone Brick #midgame
+    // edit the ritual brazier. #midgame
     event.forEachRecipe(
         { id: 'ars_nouveau:ritual_brazier' }, r => {
             event.remove({
@@ -104,29 +104,31 @@ let arsnoveau_gated = (event, active, debug) => {
         }
     )
 
-    //change archmage spellbook and replace one smaragd for one hellforge part  #endgame
+    //change archmage spellbook and resort the recipe. #endgame
     event.forEachRecipe(
-        { id: "ars_nouveau:archmage_spell_book_upgrade" }, r => {
-            //change crafting design cosmetic
-            let input3 = r.json.get("ingredients").get(3)
-            input3.add("id", "minecraft:emerald")
+        { id: "ars_nouveau:archmage_book_upgrade" }, r => {
 
-            let input5 = r.json.get("ingredients").get(5)
-            input5.add("id", "minecraft:ender_pearl")
+            event.remove(r.getId())
+            event.custom({
+                category: "misc",
+                type: "ars_nouveau:book_upgrade",
+                ingredients: [
+                    { tag: "c:ender_pearls" },
+                    { item: "ars_nouveau:apprentice_spell_book" },
+                    { tag: "c:ender_pearls" },
+                    { tag: "c:gems/emerald" },
+                    { item: stages.stage2.magic.end },
+                    { tag: "c:gems/emerald" },
+                    { item: "minecraft:totem_of_undying" },
+                    { item: "minecraft:nether_star" },
+                    { item: "ars_nouveau:wilden_tribute" }
+                ],
+                result: {
+                    id: "ars_nouveau:archmage_spell_book",
+                    count: 1
 
-            let input6 = r.json.get("ingredients").get(6)
-            input6.add("id", "minecraft:emerald")
-
-            let input8 = r.json.get("ingredients").get(8)
-            input8.add("id", "minecraft:ender_pearl")
-
-            let input4 = r.json.get("ingredients").get(4)
-            input4.add("id", stages.stage2.magic.end)
-
-            let input7 = r.json.get("ingredients").get(7)
-            input7.add("id", "minecraft:totem_of_undying")
-
-            event.custom(r.json).id(r.getId())
+                },
+            }).id(r.getId())
         }
     )
 }
