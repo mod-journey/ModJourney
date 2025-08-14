@@ -41,7 +41,30 @@ const stages = {
         },
     },
     mod_based: {
-        mekanism: "mekanism:steel_casing"
+        mekanism: "mekanism:steel_casing",
+        mobGrindingUtils: {
+            stick: '#c:rods/iridium',
+            swords: [
+                'naturesaura:depth_sword',
+                'naturesaura:infused_iron_sword'
+            ],
+            helmets: [
+                'naturesaura:depth_helmet',
+                'naturesaura:infused_iron_helmet'
+            ],
+            chestplates: [
+                'naturesaura:depth_chest',
+                'naturesaura:infused_iron_chest'
+            ],
+            pents: [
+                'naturesaura:depth_pants',
+                'naturesaura:infused_iron_pants'
+            ],
+            shoes: [
+                'naturesaura:depth_shoes',
+                'naturesaura:infused_iron_shoes'
+            ]
+        }
     },
     coins: {
         bronze: "mod_journey:copper_coin",
