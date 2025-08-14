@@ -59,16 +59,6 @@ let item_add = (event, active, debug) => {
         .tag("c:coins/gold")
         .tag("c:coins")
 
-    //Generate Dummy Items, for Mod Stages that NIY or will change in future.
-
-    let max_items = 10;
-    for (let i = 1; i < max_items; i++) {
-        event.create(`mod_journey:dummy_${i}`)
-            .textures({
-                layer0: "minecraft:item/ghast_tear"
-            })
-    }
-
     let staged_items = 4;
     let number_as_word = ["one", "two", "three", "four"];
 

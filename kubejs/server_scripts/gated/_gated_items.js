@@ -5,12 +5,6 @@
 Hier werden die Stages Items definiert!
 */
 /** Die Items schalten die nächst höhere Stage frei! */
-const dummy_items = [
-    { id: "mod_journey:dummy_1" },
-    { id: "mod_journey:dummy_2" },
-    { id: "mod_journey:dummy_3" },
-
-]
 
 const stages = {
     stage1: {
@@ -31,9 +25,9 @@ const stages = {
         second: '',
         endgame: '',
         magic: {
-            early: dummy_items[1].id,
-            mid: dummy_items[2].id,
-            end: dummy_items[3].id,
+            early: 'occultism:crushed_end_stone',
+            mid: 'occultism:fragile_soul_gem',
+            end: 'occultism:chalk_void',
         },
     },
     stage3: {
