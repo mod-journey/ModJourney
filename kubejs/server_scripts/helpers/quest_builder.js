@@ -8,27 +8,27 @@
  */
 function TaskListener(taskID) {
     this.taskID = taskID
+}
 
-    this.prototype = {
-        /**
-         * @param {Number} maxProgress
-         * @returns {TaskListener}
-         */
-        setMaxProgress: (maxProgress) => {
-            this.maxProgress = maxProgress
-            return this;
-        },
+TaskListener.prototype = {
+    /**
+     * @param {Number} maxProgress
+     * @returns {TaskListener}
+     */
+    setMaxProgress: function(maxProgress)  {
+        this.maxProgress = maxProgress
+        return this;
+    },
 
 
-        /**
-         * Build FTBQuests task listener event
-         */
-        build: () => {
-            console.debug(`Register task ${this.taskID} with max ${this.maxProgress}`)
-            FTBQuestsEvents.customTask(taskID, event => {
-                event.maxProgress = this.maxProgress
-            })
-        }
+    /**
+     * Build FTBQuests task listener event
+     */
+    build: function() {
+        console.debug(`Register task ${this.taskID} with max ${this.maxProgress}`)
+        FTBQuestsEvents.customTask(taskID, event => {
+            event.maxProgress = this.maxProgress
+        })
     }
 }
 
