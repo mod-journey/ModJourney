@@ -1,4 +1,5 @@
-ServerEvents.recipes(event => {
+let fixAlloyRecipes = (event, active, debug) => {
+    if (!active) return;
 
     let alloy = [
         { id: 'alltheores:invar_ingot', name: 'invar' },
@@ -25,16 +26,20 @@ ServerEvents.recipes(event => {
             //got the additives container and count the inputs
             for (let n = 0; n < additives.size(); n++) {
                 additivesValue += additives.get(n).get("count").getAsInt()
-            }
+            };
 
             //adds the received values to one
             inputComplete = additivesValue + inputValue
 
             //when output not equal input, overwrite output similiar the input.
             if (outputValue === inputComplete) {
-                console.log(`Nothing change by ${alloy[i].id}. The output and Inputs are equal`)
+                if (debug) {
+                    console.log(`Nothing change by ${alloy[i].id}. The output and Inputs are equal`)
+                };
             } else {
-                console.log(`The output will change by: ${alloy[i].id} from ${outputValue} to ${inputComplete}.`)
+                if (debug) {
+                    console.log(`The output will change by: ${alloy[i].id} from ${outputValue} to ${inputComplete}.`)
+                };
 
                 //overwrite output
                 r.json.get("results").get(0).remove("count")
@@ -42,7 +47,40 @@ ServerEvents.recipes(event => {
 
                 event.remove(r.getId())
                 event.custom(r.json).id(r.getId())
-            }
+            };
         })
-    }
-})
+
+        event.forEachRecipe({ id: `alltheores:alloysmelter/${alloy[i].name}/ingot` }, r => {
+
+            let slot = 0;
+            let inputCount = 0;
+            let outputValue = r.json.get("result").get("count").getAsInt()
+
+            //check different inputs, if no count found, the Counter will add one, if one count found, the value to the counter will be added.
+            while (r.json.has(`input${slot}`)) {
+                if (r.json.get(`input${slot}`).has("count")) {
+                    inputCount += r.json.get(`input${slot}`).get("count").getAsInt()
+                } else {
+                    inputCount++
+                };
+                slot++
+            };
+            //when output not equal input, overwrite output similiar the input.
+            if (outputValue === inputCount) {
+                if (debug) {
+                    console.log(`Nothing change by ${alloy[i].id}. The output and Inputs are equal`)
+                }
+            } else {
+                if (debug) {
+                    console.log(`The output will change by: ${alloy[i].id} from ${outputValue} to ${inputCount}.`)
+                }
+                //overwrite output
+                r.json.get("result").remove("count")
+                r.json.get("result").add("count", inputCount)
+
+                event.remove(r.getId())
+                event.custom(r.json).id(r.getId())
+            };
+        })
+    };
+};
