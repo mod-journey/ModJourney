@@ -123,13 +123,12 @@ if (events_server) {
             replace_stellaris_steel(event, true);
             replace_stellaris_uran(event, true);
         }
+        fixAlloyRecipes(event, true)
     })
 
     if (other_events) {
-        immersive_chest_loottable_modify(event);
         remove_pickup_mobs(event);
     };
-
 
 };
 
