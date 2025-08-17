@@ -56,7 +56,7 @@ let QuestBuilder = {
              * Build FTBQuests task listener event
              */
             build: function() {
-                console.debug(`Register task ${this.taskID} with max ${this.maxProgress}, rum timer every ${this.checkTimer/20} seconds`)
+                console.debug(`Register task ${this.taskID} with max ${this.maxProgress}, run timer every ${this.checkTimer/20} seconds`)
                 FTBQuestsEvents.customTask(taskID, event => {
                     event.maxProgress = this.maxProgress
                     event.checkTimer  = this.checkTimer
