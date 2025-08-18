@@ -2,19 +2,14 @@
 
 let QuestBuilder = {
     /**
-     *
-     * @param {string} taskID Hexadecimal ID of the task in questbook
      * @returns {TaskListener}
      */
-    loadTask: (taskID) => {
+    customTask: () => {
 
         /**
          * @constructor for TaskListener
-         *
-         * @param {string} taskID
          */
-        function TaskListener(taskID) {
-            this.taskID = taskID
+        function TaskListener() {
             this.setCheckTimer(20)
             this.setMaxProgress(2)
             this.setCheck(taskData => taskData.progress++)
@@ -54,9 +49,12 @@ let QuestBuilder = {
 
             /**
              * Build FTBQuests task listener event
+             *
+             * @param   {string} taskID  Hexadecimal ID of the task in questbook
+             * @returns {TaskListener}
              */
-            build: function() {
-                console.debug(`Register task ${this.taskID} with max ${this.maxProgress}, run timer every ${this.checkTimer/20} seconds`)
+            build: function(taskID) {
+                console.debug(`Register task ${taskID} with max ${this.maxProgress}, run timer every ${this.checkTimer/20} seconds`)
                 FTBQuestsEvents.customTask(taskID, event => {
                     event.maxProgress = this.maxProgress
                     event.checkTimer  = this.checkTimer
@@ -65,7 +63,7 @@ let QuestBuilder = {
             }
         }
 
-        return new TaskListener(taskID)
+        return new TaskListener()
     },
 
     // loadReward: TODO implement this

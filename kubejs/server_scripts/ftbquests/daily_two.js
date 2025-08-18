@@ -3,13 +3,13 @@
 const $FTBTeamsAPI = Java.loadClass("dev.ftb.mods.ftbteams.api.FTBTeamsAPI");
 
 QuestBuilder
-    .loadTask('597813E4951FDC5E')
+    .customTask()
     .setMaxProgress(1440) // 24h max
     .setCheckTimer(18000) // Timer wird jede 15 Minuten geprueft
     .setCheck(task => {
         task.progress += 15 // Adds progress to the quest.
     })
-    .build()
+    .build('597813E4951FDC5E')
 
 FTBQuestsEvents.customReward("65A83C70BA4FDE02", event => {
 
