@@ -60,6 +60,7 @@ let QuestBuilder = {
                     event.checkTimer  = this.checkTimer
                     event.check       = this.checkFunction
                 })
+                return this
             }
         }
 
