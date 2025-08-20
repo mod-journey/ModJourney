@@ -24,6 +24,7 @@ if (events_server) {
 
     ServerEvents.recipes((event) => {
 
+
         replacer.init(event);
 
         /* "./gated/* */
@@ -51,6 +52,9 @@ if (events_server) {
             sophisticatedbackpacks_gated(event, false);
             remove_item_by_tag(event, true);                    //Checking scipt of using
             stellaris_gated(event, true);
+            occultism_gated(event, true);
+
+
         }
 
         /* "./add/*" */
