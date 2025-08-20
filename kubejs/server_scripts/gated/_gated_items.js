@@ -26,7 +26,7 @@ const stages = {
         endgame: '',
         magic: {
             early: 'occultism:crushed_end_stone',
-            mid: 'occultism:fragile_soul_gem',
+            mid: 'occultism:soul_gem',
             end: 'occultism:chalk_void',
         },
     },
