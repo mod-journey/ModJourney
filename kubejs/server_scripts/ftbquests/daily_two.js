@@ -10,8 +10,28 @@ QuestBuilder
 
     .setMaxProgress(1440) // 24h max
     .setCheckTimer(18000) // Timer wird jede 15 Minuten geprueft
-    .setCheck(task => task.progress += 15) // Adds progress to the quest.
+    .setCheck(task => { task.progress += 15 }) // Adds progress to the quest.
     .build('597813E4951FDC5E')
+
+// Weekly Quests
+let WEEK = 60*60*24*7
+let projectStart = new Date(2025, 9, 31, 18, 0).getTime() / 1000;
+
+QuestBuilder
+    .customTask()
+    .setCheck(taskData => { taskData.progress = Date.now() / 1000 })
+    .setMaxProgress(projectStart + WEEK)
+    .build('05B74B2E0F42359F')
+
+    .setMaxProgress(projectStart + WEEK * 2)
+    .build('0707E0514EDD6A01')
+
+    .setMaxProgress(projectStart + WEEK * 3)
+    .build('61DD4DAADD7E6BD3')
+
+    .setMaxProgress(projectStart + WEEK * 4)
+    .build('1459E7CC4CC6A32F')
+
 
 FTBQuestsEvents.customReward("65A83C70BA4FDE02", event => {
 
