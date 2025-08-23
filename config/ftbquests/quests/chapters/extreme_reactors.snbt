@@ -3,13 +3,18 @@
 	default_quest_shape: ""
 	filename: "extreme_reactors"
 	group: "29AF41F0C879F47B"
+	icon: {
+		id: "bigreactors:yellorium_ingot"
+	}
 	id: "5F4F40A7D501FDEE"
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["12D3B4B92CA5252C"]
-			dependency_requirement: "one_completed"
+			dependencies: [
+				"12D3B4B92CA5252C"
+				"1D4986D36052E5D1"
+			]
 			id: "280D95E313DDA71D"
 			tasks: [{
 				id: "0D0A3B350C73C428"
