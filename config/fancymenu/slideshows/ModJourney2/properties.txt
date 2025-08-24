@@ -1,0 +1,12 @@
+type = slideshow
+
+slideshow-meta {
+   name = ModJourney2
+   width = 1280
+   height = 720
+   x = 0
+   y = 0
+   duration = 8.0
+   fadespeed = 5.0
+   randomize = true
+}
