@@ -59,18 +59,8 @@ let item_add = (event, active, debug) => {
         .tag("c:coins/gold")
         .tag("c:coins")
 
-    //Generate Dummy Items, for Mod Stages that NIY or will change in future.
-
-    let max_items = 10;
-    for (let i = 1; i < max_items; i++) {
-        event.create(`mod_journey:dummy_${i}`)
-            .textures({
-                layer0: "minecraft:item/ghast_tear"
-            })
-    }
-
     let staged_items = 4;
-    let number_as_word = [ "one", "two", "three", "four"];
+    let number_as_word = ["one", "two", "three", "four"];
 
     for (let i = 1; i <= staged_items; i++) {
         event.create(`mod_journey:frame_core_${i}`)
@@ -78,6 +68,26 @@ let item_add = (event, active, debug) => {
                 layer0: `mod_journey:item/staged/frame/stage_${i}`
             })
             .tag("mod_journey:staged_item")
-            .tag(`mod_journey:stage/${number_as_word[i-1]}`)
+            .tag(`mod_journey:stage/${number_as_word[i - 1]}`)
     };
+
+    //Initial Staged Ingredients
+    let ingredient_list = [
+        null,
+        "copperchunk",
+        "hardend_steel_plate",
+        "lumber",
+        "nitro_cube",
+        "platin_plate",
+        "steel_carrier"
+    ]
+
+    for (let i = 1; i < ingredient_list.length; i++) {
+        let itemName = ingredient_list[i]
+
+        event.create(`mod_journey:${itemName}`)
+            .tooltip(Text.translate(`item.mod_journey.${itemName}.tooltip`))
+            .texture(`mod_journey:item/staged/ingredient/${itemName}`)
+    }
+
 };

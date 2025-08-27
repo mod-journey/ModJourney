@@ -11,7 +11,7 @@ let mobgrindingutils = (event, active, debug) => {
         ' B ',
         'C  '
     ], {
-        B: "alltheores:steel_rod",
+        B: stages.mod_based.mobGrindingUtils.stick,
         C: "#minecraft:wool"
     }).id('mob_grinding_utils:recipe_mob_swab')
 
@@ -25,11 +25,11 @@ let mobgrindingutils = (event, active, debug) => {
         G: "#c:glass_blocks",
     }).id('mob_grinding_utils:recipe_tintedglass')
 
-    //replace the iron swords with manasteel sword
+    //replace the iron swords with magic mod based weapon.
     event.replaceInput(
         { id: 'mob_grinding_utils:recipe_saw' },
         "minecraft:iron_sword",
-        Item.of('botania:manasteel_sword')
+        Item.of(stages.mod_based.mobGrindingUtils.swords[1])
     )
 
     //edit and gate the beheading Upgrade, with mix out of botania and blood_magic
@@ -38,10 +38,10 @@ let mobgrindingutils = (event, active, debug) => {
         'BDB',
         'CAC'
     ], {
-        A: Item.of('botania:elementium_helmet'),
-        B: Item.of('botania:manasteel_helmet'),
-        C: 'botania:manasteel_nugget',
-        D: 'bloodmagic:largebloodstonebrick',
+        A: Item.of(stages.mod_based.mobGrindingUtils.helmets[0]),
+        B: Item.of(stages.mod_based.mobGrindingUtils.helmets[1]),
+        C: stages.stage1.magic.early,
+        D: stages.stage2.magic.mid,
     }).id('mob_grinding_utils:recipe_saw_upgrade_beheading')
 
     //edit the fortune upgrade to make it more diffculty
@@ -52,6 +52,6 @@ let mobgrindingutils = (event, active, debug) => {
     ], {
         A: stages.stage3.magic.early,
         B: stages.stage2.magic.mid,
-        D: 'botania:manasteel_nugget'
+        D: stages.stage1.magic.early
     }).id('mob_grinding_utils:recipe_saw_upgrade_looting')
 }

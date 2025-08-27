@@ -24,10 +24,12 @@ if (events_server) {
 
     ServerEvents.recipes((event) => {
 
+
         replacer.init(event);
 
         /* "./gated/* */
         if (gated_event) {
+            modjourney_gated_items(event, true);
             apotheosis_gated(event, true);
             ae_gated(event, true);
             arsnoveau_gated(event, true);
@@ -37,18 +39,22 @@ if (events_server) {
             extendedcrafting_gated(event, true);
             extremereactor_gated(event, true);
             fluxnetwork_gated(event, true);
+            immersive_gated(event, true);
             industrialforegoing_gated(event, true);
             ironjetpacks_gated(event, true);
             itemcollector_gated(event, true);
             laserio_gated(event, true);
             mekanism_gated(event, true);
-            mobgrindingutils(event, false);                     //much items like weapons and armor must replace, if we have new magic mods.
+            mobgrindingutils(event, true);                     //much items like weapons and armor must replace, if we have new magic mods.
             mysticalagriculture_gated(event, true);
             powah_gated(event, true);
             rfttools_gated(event, true);
             sophisticatedbackpacks_gated(event, false);
             remove_item_by_tag(event, true);                    //Checking scipt of using
             stellaris_gated(event, true);
+            occultism_gated(event, true);
+
+
         }
 
         /* "./add/*" */
