@@ -1,4 +1,7 @@
 {
+	icon: {
+		id: "mysticalagriculture:inferium_essence"
+	}
 	id: "4A66DD99435F8E13"
 	loot_size: 1
 	order_index: 0

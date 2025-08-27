@@ -4,6 +4,9 @@
 	default_quest_shape: ""
 	filename: "mob_grinding_utils"
 	group: "16F9BB65CBA165C2"
+	icon: {
+		id: "mob_grinding_utils:solid_xp_baby"
+	}
 	id: "5130837EB7936D7C"
 	images: [
 		{
@@ -51,7 +54,7 @@
 			y: 7.196428571428569d
 		}
 	]
-	order_index: 4
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -60,6 +63,7 @@
 				"25ADF4BACFFF9FB7"
 			]
 			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "5600D421C0F617A9"
 			shape: "diamond"
@@ -68,8 +72,8 @@
 				id: "6224485A1F5440CF"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: -0.5d
+			x: -0.5136054421768605d
+			y: -0.5272108843537424d
 		}
 		{
 			dependencies: ["5600D421C0F617A9"]

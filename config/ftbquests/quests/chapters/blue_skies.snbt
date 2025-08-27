@@ -1,13 +1,16 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "blue_skies"
-	group: "12D6D4D26DC1B099"
+	group: "3E6C1980FD183851"
 	id: "13792A57E56A306D"
-	order_index: 1
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["478FDE053BA314D6"]
 			id: "2D93732882C77D34"
 			rewards: [{
 				id: "65507482DB0DACF3"
@@ -473,6 +476,15 @@
 			}]
 			x: 5.0d
 			y: 1.5d
+		}
+		{
+			id: "478FDE053BA314D6"
+			tasks: [{
+				id: "72A47B857312AED5"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
 		}
 	]
 }

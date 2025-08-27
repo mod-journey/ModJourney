@@ -1,4 +1,7 @@
 {
+	icon: {
+		id: "mysticalagriculture:tertium_essence"
+	}
 	id: "24F63EB4DD5227DC"
 	loot_size: 1
 	order_index: 3

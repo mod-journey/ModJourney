@@ -1,4 +1,7 @@
 {
+	icon: {
+		id: "mysticalagriculture:prudentium_essence"
+	}
 	id: "67D5535CC0B3DD64"
 	loot_size: 1
 	order_index: 1
