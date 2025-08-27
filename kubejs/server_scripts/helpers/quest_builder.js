@@ -21,7 +21,7 @@ let QuestBuilder = {
              * @returns {TaskListener}
              */
             setMaxProgress: function(maxProgress)  {
-                this.maxProgress = maxProgress
+                this._maxProgress = maxProgress
                 return this;
             },
 
@@ -32,7 +32,7 @@ let QuestBuilder = {
              * @returns {TaskListener}
              */
             setCheckTimer: function(tickIntervall)  {
-                this.checkTimer = tickIntervall
+                this._checkTimer = tickIntervall
                 return this;
             },
 
@@ -43,7 +43,7 @@ let QuestBuilder = {
              * @returns {TaskListener}
              */
             setCheck: function(checkFunction) {
-                this.checkFunction = checkFunction
+                this._checkFunction = checkFunction
                 return this
             },
 
@@ -54,11 +54,11 @@ let QuestBuilder = {
              * @returns {TaskListener}
              */
             build: function(taskID) {
-                console.debug(`Register task ${taskID} with max ${this.maxProgress}, run timer every ${this.checkTimer/20} seconds`)
+                console.debug(`Register task ${taskID} with max ${this._maxProgress}, run timer every ${this._checkTimer/20} seconds`)
                 FTBQuestsEvents.customTask(taskID, event => {
-                    event.maxProgress = this.maxProgress
-                    event.checkTimer  = this.checkTimer
-                    event.check       = this.checkFunction
+                    event.maxProgress = this._maxProgress
+                    event.checkTimer  = this._checkTimer
+                    event.check       = this._checkFunction
                 })
                 return this
             }
