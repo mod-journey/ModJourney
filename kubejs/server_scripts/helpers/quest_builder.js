@@ -39,7 +39,7 @@ let QuestBuilder = {
             /**
              * Set a function that checks conditions and updates progress
              *
-             * @param {$CustomTask$Check$$Type} checkFunction
+             * @param {TaskListener~checkFunction} checkFunction
              * @returns {TaskListener}
              */
             setCheck: function(checkFunction) {
@@ -58,7 +58,11 @@ let QuestBuilder = {
                 FTBQuestsEvents.customTask(taskID, event => {
                     event.maxProgress = this._maxProgress
                     event.checkTimer  = this._checkTimer
-                    event.check       = this._checkFunction
+                    if (typeof this._checkFunction === 'function') {
+                        event.check = (taskData, player) => {
+                            this._checkFunction(taskData, player, event, this)
+                        }
+                    }
                 })
                 return this
             }
@@ -68,4 +72,11 @@ let QuestBuilder = {
     },
 
     // loadReward: TODO implement this
+
+    /**
+     * Callback function for the checkTimer
+     * @typedef {
+     *   (taskData: $CustomTask$Data, player: $ServerPlayer, event: $CustomTaskKubeEvent, builder: TaskListener,) => void
+     * } TaskListener~checkFunction
+     */
 }
