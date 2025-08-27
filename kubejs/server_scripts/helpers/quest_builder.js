@@ -75,8 +75,10 @@ let QuestBuilder = {
 
     /**
      * Callback function for the checkTimer
-     * @typedef {
-     *   (taskData: $CustomTask$Data, player: $ServerPlayer, event: $CustomTaskKubeEvent, builder: TaskListener,) => void
-     * } TaskListener~checkFunction
+     * @callback TaskListener~checkFunction
+     * @param {$CustomTask$Data}     taskData
+     * @param {$ServerPlayer}        player
+     * @param {$CustomTaskKubeEvent} event
+     * @param {TaskListener}         builder
      */
 }
