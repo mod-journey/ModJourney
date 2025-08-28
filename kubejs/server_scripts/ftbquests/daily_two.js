@@ -14,22 +14,19 @@ QuestBuilder
     .build('597813E4951FDC5E')
 
 // Weekly Quests
-let WEEK = 60*60*24*7
-let projectStart = new Date(2025, 9, 31, 18, 0).getTime() / 1000;
-
 QuestBuilder
     .customTask()
     .setCheck(taskData => { taskData.progress = Date.now() / 1000 })
-    .setMaxProgress(projectStart + WEEK)
+    .setMaxProgress(global.mjConfig.times.week_1)
     .build('05B74B2E0F42359F')
 
-    .setMaxProgress(projectStart + WEEK * 2)
+    .setMaxProgress(global.mjConfig.times.week_2)
     .build('0707E0514EDD6A01')
 
-    .setMaxProgress(projectStart + WEEK * 3)
+    .setMaxProgress(global.mjConfig.times.week_3)
     .build('61DD4DAADD7E6BD3')
 
-    .setMaxProgress(projectStart + WEEK * 4)
+    .setMaxProgress(global.mjConfig.times.week_4)
     .build('1459E7CC4CC6A32F')
 
 

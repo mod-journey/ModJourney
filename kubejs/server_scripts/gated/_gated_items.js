@@ -62,4 +62,7 @@ const stages = {
 
 /* Zugriff auf das Objekt mittels "stages.stage1.core" order stages.stage3.magic*/
 
+// TODO move this file to startup-scripts and change "stages." to "global.mjConfig.stages." in all files
+global.mjConfig.stages = stages
+
 console.info("Laden der Staged Items.")
