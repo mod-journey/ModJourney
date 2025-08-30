@@ -6,7 +6,7 @@ QuestBuilder
     .customTask()
     .setMaxProgress(240) // 4h
     .setCheckTimer(20*60) // Timer wird jede Minute geprueft
-    .build('5738C3631FA49D6B6')
+    .build('30D9E8CD52F44C9A')
 
     .setMaxProgress(1440) // 24h max
     .setCheckTimer(18000) // Timer wird jede 15 Minuten geprueft
