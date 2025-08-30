@@ -1,6 +1,5 @@
 //priority 10
 
-const $FTBTeamsAPI = Java.loadClass("dev.ftb.mods.ftbteams.api.FTBTeamsAPI");
 
 QuestBuilder
     .customTask()
@@ -32,9 +31,8 @@ QuestBuilder
 
 FTBQuestsEvents.customReward("65A83C70BA4FDE02", event => {
 
-    const teamManager = $FTBTeamsAPI.api().getManager();
     const playerUUID = event.player.getUuid();
-    const teamOptional = teamManager.getTeamForPlayerID(playerUUID);
+    const teamOptional = FTBteamManager.getTeamForPlayerID(playerUUID);
 
     if (teamOptional.isPresent()) {
         const team = teamOptional.get();

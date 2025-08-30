@@ -1,5 +1,11 @@
 // priority: 101
 
+const $FTBTeamsAPI = Java.loadClass("dev.ftb.mods.ftbteams.api.FTBTeamsAPI");
+/**
+ * @var {$TeamManager} FTBteamManager
+ */
+const FTBteamManager = $FTBTeamsAPI.api().getManager();
+
 let QuestBuilder = {
     /**
      * @var {boolean} debug enables debug messages
