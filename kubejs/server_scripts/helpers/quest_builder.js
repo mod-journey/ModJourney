@@ -56,7 +56,7 @@ let QuestBuilder = {
              * Build FTBQuests task listener event
              *
              * @param   {string} taskID  Hexadecimal ID of the task in questbook
-             * @returns {TaskListener}
+             * @returns {TaskListener}   A clone of this object to create more quest using similar config
              */
             build: function(taskID) {
                 //console.debug(`Add event listener for task ${taskID} with max ${this._maxProgress}, run timer every ${this._checkTimer/20} seconds`)
@@ -72,7 +72,16 @@ let QuestBuilder = {
                         }
                     }
                 })
-                return this
+                return this.clone();
+            },
+
+            /**
+             * Creates a clone of an existing object
+             *
+             * @returns {TaskListener}
+             */
+            clone: function() {
+                return Object.assign(new TaskListener(), this);
             }
         }
 
