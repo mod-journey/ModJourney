@@ -31,8 +31,9 @@ QuestBuilder
 
 FTBQuestsEvents.customReward("65A83C70BA4FDE02", event => {
 
+    const teamManager = FTB.getTeamManager();
     const playerUUID = event.player.getUuid();
-    const teamOptional = FTBteamManager.getTeamForPlayerID(playerUUID);
+    const teamOptional = teamManager.getTeamForPlayerID(playerUUID);
 
     if (teamOptional.isPresent()) {
         const team = teamOptional.get();
