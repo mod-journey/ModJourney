@@ -1,5 +1,5 @@
 //priority 10
-
+QuestBuilder.debug = true
 
 QuestBuilder
     .customTask()
@@ -8,8 +8,30 @@ QuestBuilder
     .build('30D9E8CD52F44C9A')
 
     .setMaxProgress(1440) // 24h max
-    .setCheckTimer(18000) // Timer wird jede 15 Minuten geprueft
-    .setCheck(task => { task.progress += 15 }) // Adds progress to the quest.
+    .setCheckTimer(20*15) // Timer wird jede 15 Sekunden geprueft
+    // Adds progress to the quest.
+    .setCheck((taskData, player, event, builder) => {
+        let now = Date.now() / 1000
+        if(FTB.isTeamManagerLoaded) {
+            const teamOptional = FTB.getTeamManager().getTeamForPlayer(player)
+            let questStore = QuestBuilder.getStore(player, teamOptional)
+            let questID = event.task.codeString
+
+            if (!questStore.contains(questID)) {
+                questStore.putLong(questID, now)
+            }
+            let questStart = questStore.getLong(questID)
+            let progress = (now-questStart)/60
+
+            // calculate progress depending on start-Time, or set it to max
+            taskData.progress = (progress < builder.maxProgress)
+                ? Math.floor(progress)
+                : builder.maxProgress
+
+            player.tell("QuestProgress: " +  progress)
+        }
+        else console.warn('__TEAM MANAGER NOT_LOADED')
+    })
     .build('597813E4951FDC5E')
 
 // Weekly Quests

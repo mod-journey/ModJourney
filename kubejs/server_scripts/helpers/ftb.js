@@ -1,4 +1,4 @@
-// priority: 101
+// priority: 102
 const $FTBTeamsAPI = Java.loadClass("dev.ftb.mods.ftbteams.api.FTBTeamsAPI");
 
 /**

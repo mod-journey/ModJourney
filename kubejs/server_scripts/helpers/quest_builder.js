@@ -23,6 +23,13 @@ let QuestBuilder = {
 
         TaskListener.prototype = {
             /**
+             * @returns {Number}
+             */
+            get maxProgress() {
+                return this._maxProgress
+            },
+
+            /**
              * @param   {Number} maxProgress
              * @returns {TaskListener}
              */
@@ -103,7 +110,7 @@ let QuestBuilder = {
     /**
      * Returns the quest-store (Either for matching team or player)
      *
-     * @param {$Player} player
+     * @param {$Player|$ServerPlayer} player
      * @param {?$Optional<($Team)>} teamOptional
      *
      * @return $CompoundTag
