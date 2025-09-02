@@ -99,4 +99,41 @@ let QuestBuilder = {
      * @param {$CustomTaskKubeEvent} event
      * @param {TaskListener}         builder
      */
+
+    /**
+     * Returns the quest-store (Either for matching team or player)
+     *
+     * @param {$Player} player
+     * @param {?$Optional<($Team)>} teamOptional
+     *
+     * @return $CompoundTag
+     */
+    getStore: (player, teamOptional) => {
+        const questKey = 'quests-test'
+        let playerOrTeamStore = null
+
+        // Load store for player or init store for team
+        if (teamOptional && teamOptional.isPresent()) {
+            player.server.persistentData
+            if (!player.server.persistentData.contains('teams')) {
+                player.server.persistentData.put('teams', {})
+            }
+
+            let teamsStore = player.server.persistentData.getCompound('teams')
+            let teamID = teamOptional.get().teamId.toString()
+            if (!teamsStore.contains(teamID)) {
+                teamsStore.put(teamID, {})
+            }
+            playerOrTeamStore = player.server.persistentData.getCompound('teams')
+
+        } else {
+            playerOrTeamStore = player.persistentData
+        }
+
+        if (!playerOrTeamStore.contains(questKey)) {
+            playerOrTeamStore.put(questKey, {})
+        }
+
+        return playerOrTeamStore.getCompound(questKey);
+    }
 }
