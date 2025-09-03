@@ -15,12 +15,12 @@ QuestBuilder
         if(FTB.isTeamManagerLoaded) {
             const teamOptional = FTB.getTeamManager().getTeamForPlayer(player)
             let questStore = QuestBuilder.getStore(player, teamOptional)
-            let questID = event.task.codeString
+            let taskID = event.task.codeString
 
-            if (!questStore.contains(questID)) {
-                questStore.putLong(questID, now)
+            if (!questStore.contains(taskID)) {
+                questStore.putLong(taskID, now)
             }
-            let questStart = questStore.getLong(questID)
+            let questStart = questStore.getLong(taskID)
             let progress = (now-questStart)/60
 
             // calculate progress depending on start-Time, or set it to max
@@ -28,7 +28,7 @@ QuestBuilder
                 ? Math.floor(progress)
                 : builder.maxProgress
 
-            player.tell("QuestProgress: " +  progress)
+            // player.tell("QuestProgress: " +  progress)
         }
         else console.warn('__TEAM MANAGER NOT_LOADED')
     })

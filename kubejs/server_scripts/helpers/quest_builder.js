@@ -116,7 +116,7 @@ let QuestBuilder = {
      * @return $CompoundTag
      */
     getStore: (player, teamOptional) => {
-        const questKey = 'quests-test'
+        const questKey = 'quests'
         let playerOrTeamStore = null
 
         // Load store for player or init store for team
@@ -131,7 +131,7 @@ let QuestBuilder = {
             if (!teamsStore.contains(teamID)) {
                 teamsStore.put(teamID, {})
             }
-            playerOrTeamStore = player.server.persistentData.getCompound('teams')
+            playerOrTeamStore = teamsStore.getCompound(teamID)
 
         } else {
             playerOrTeamStore = player.persistentData
