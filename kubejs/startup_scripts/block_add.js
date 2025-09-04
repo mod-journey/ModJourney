@@ -102,11 +102,6 @@ let block_add = (event, active, debug) => {
         .tagBlock("mekanism:atomic_disassembler_ore")
         .tagBlock("immersiveengineering:mineable/drill")
 
-/*
-    TODO: Durch keine Solid Texture, muss das Rendering geändert werden.
-    Weitere Tags müssten noch vergeben werden!
-*/
-
     let staged_items = 4;
     let number_as_word = ["one", "two", "three", "four"];
 
@@ -114,5 +109,12 @@ let block_add = (event, active, debug) => {
         event.create(`mod_journey:staging/frame_core_${i}`)
             .tag("mod_journey:staged_item")
             .tag(`mod_journey:stage/${number_as_word[i - 1]}`)
+            .hardness(1.0)
+            .resistance(1.0)
+            .requiresTool(true)
+            .tagBlock('minecraft:needs_diamond_tool')
+            .tagBlock('minecraft:mineable/pickaxe')
+            .fullBlock(false)
+            .notSolid()
     };
 };
