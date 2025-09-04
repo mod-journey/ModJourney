@@ -101,4 +101,20 @@ let block_add = (event, active, debug) => {
         .tagBlock("minecraft:needs_diamond_tool")
         .tagBlock("mekanism:atomic_disassembler_ore")
         .tagBlock("immersiveengineering:mineable/drill")
+
+    let staged_items = 4;
+    let number_as_word = ["one", "two", "three", "four"];
+
+    for (let i = 1; i <= staged_items; i++) {
+        event.create(`mod_journey:staging/frame_core_${i}`)
+            .tag("mod_journey:staged_item")
+            .tag(`mod_journey:stage/${number_as_word[i - 1]}`)
+            .hardness(1.0)
+            .resistance(1.0)
+            .requiresTool(true)
+            .tagBlock('minecraft:needs_diamond_tool')
+            .tagBlock('minecraft:mineable/pickaxe')
+            .fullBlock(false)
+            .notSolid()
+    };
 };

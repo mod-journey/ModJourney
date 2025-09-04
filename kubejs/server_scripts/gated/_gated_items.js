@@ -8,8 +8,8 @@ Hier werden die Stages Items definiert!
 
 const stages = {
     stage1: {
-        vanilla: "mod_journey:frame_core_1",
-        core: 'mod_journey:frame_core_2',
+        vanilla: "mod_journey:staging/frame_core_1",
+        core: 'mod_journey:staging/frame_core_2',
         second: '',
         endgame: '',
         magic: {
@@ -19,7 +19,7 @@ const stages = {
         },
     },
     stage2: {
-        core: 'mod_journey:frame_core_3',
+        core: 'mod_journey:staging/frame_core_3',
         // indirect gated via darksteel and ender io allow smelting
         gear: 'enderio:dark_bimetal_gear',
         second: '',
@@ -31,7 +31,7 @@ const stages = {
         },
     },
     stage3: {
-        core: 'mod_journey:frame_core_4',
+        core: 'mod_journey:staging/frame_core_4',
         second: '',
         endgame: '',
         magic: {

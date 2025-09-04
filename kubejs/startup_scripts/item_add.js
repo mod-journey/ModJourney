@@ -59,18 +59,6 @@ let item_add = (event, active, debug) => {
         .tag("c:coins/gold")
         .tag("c:coins")
 
-    let staged_items = 4;
-    let number_as_word = ["one", "two", "three", "four"];
-
-    for (let i = 1; i <= staged_items; i++) {
-        event.create(`mod_journey:frame_core_${i}`)
-            .textures({
-                layer0: `mod_journey:item/staged/frame/stage_${i}`
-            })
-            .tag("mod_journey:staged_item")
-            .tag(`mod_journey:stage/${number_as_word[i - 1]}`)
-    };
-
     //Initial Staged Ingredients
     let ingredient_list = [
         null,

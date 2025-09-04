@@ -48,7 +48,7 @@ let modjourney_gated_items = (event, active, debug) => {
         C: 'alltheores:steel_block'
     }).id('mod_journey:shaped/platin_plate');
 
-    event.shaped('mod_journey:frame_core_1', [
+    event.shaped('mod_journey:staging/frame_core_1', [
         'CLC',
         'LBL',
         'CLC'
@@ -58,32 +58,32 @@ let modjourney_gated_items = (event, active, debug) => {
         L: 'mod_journey:lumber'
     }).id('mod_journey:shaped/frame_core_1');
 
-    event.shaped('mod_journey:frame_core_2', [
+    event.shaped('mod_journey:staging/frame_core_2', [
         'CLC',
         'LBL',
         'CLC'
     ], {
-        B: 'mod_journey:frame_core_1',
+        B: 'mod_journey:staging/frame_core_1',
         C: 'mod_journey:hardend_steel_plate',
         L: 'mod_journey:lumber'
     }).id('mod_journey:shaped/frame_core_2');
 
-    event.shaped('mod_journey:frame_core_3', [
+    event.shaped('mod_journey:staging/frame_core_3', [
         'CLC',
         'LBL',
         'CLC'
     ], {
-        B: 'mod_journey:frame_core_2',
+        B: 'mod_journey:staging/frame_core_2',
         C: 'mod_journey:platin_plate',
         L: 'mod_journey:steel_carrier'
     }).id('mod_journey:shaped/frame_core_3');
 
-    event.shaped('mod_journey:frame_core_4', [
+    event.shaped('mod_journey:staging/frame_core_4', [
         'CLC',
         'LBL',
         'CLC'
     ], {
-        B: 'mod_journey:frame_core_3',
+        B: 'mod_journey:staging/frame_core_3',
         C: 'mod_journey:nitro_cube',
         L: 'mod_journey:platin_plate'
     }).id('mod_journey:shaped/frame_core_4');
