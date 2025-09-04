@@ -28,10 +28,10 @@ let jei_hide = (event, active, debug) => {
      * @see https://wiki.latvian.dev/books/kubejs-legacy/page/item-and-ingredient
      */
     mystical_hide.push(Item.of('mysticalagriculture:soul_jar', '{Souls:0.5d,Type:"mysticalagriculture:fish"}'));
-    //event.hide(Item.withNBT('mysticalagriculture:soul_jar', '{Souls:0.5d,Type:"mysticalagriculture:fish"}'));
+    //event.remove(Item.withNBT('mysticalagriculture:soul_jar', '{Souls:0.5d,Type:"mysticalagriculture:fish"}'));
 
     mystical_hide.forEach((element) => {
-        event.hide(element)
+        event.remove(element)
     })
 
 
@@ -51,7 +51,7 @@ let jei_hide = (event, active, debug) => {
     ]
 
     mob_grinding.forEach((element) => {
-        event.hide(Item.of('mob_grinding_utils:' + element))
+        event.remove(Item.of('mob_grinding_utils:' + element))
     });
 
 
@@ -69,7 +69,7 @@ let jei_hide = (event, active, debug) => {
     ]
 
     structure_api.forEach((element) => {
-        event.hide(Item.of('structure_gel:' + element))
+        event.remove(Item.of('structure_gel:' + element))
     });
 
 
@@ -94,7 +94,7 @@ let jei_hide = (event, active, debug) => {
     ]
 
     remove.forEach((element) => {
-        event.hide(Item.of('rftoolsutility:' + element))
+        event.remove(Item.of('rftoolsutility:' + element))
     });
 
     //Industrial Foregoing
@@ -110,7 +110,7 @@ let jei_hide = (event, active, debug) => {
     ]
 
     infinty_hide.forEach((element) => {
-        event.hide(
+        event.remove(
             Item.of('industrialforegoing:infinity_' + element)
         )
     });
@@ -129,9 +129,9 @@ let jei_hide = (event, active, debug) => {
     ]
 
     cataclysm_boss_mobs.forEach(element => {
-        event.hide(Item.of('enderio:filled_soul_vial', '{BlockEntityTag:{EntityStorage:{Entity:{id:' + element + '}}}}'))
-        event.hide(Item.of('enderio:broken_spawner', '{BlockEntityTag:{EntityStorage:{Entity:{id:' + element + '}}}}'))
-        event.hide( element + '_spawn_egg' )
+        event.remove(Item.of('enderio:filled_soul_vial', '{BlockEntityTag:{EntityStorage:{Entity:{id:' + element + '}}}}'))
+        event.remove(Item.of('enderio:broken_spawner', '{BlockEntityTag:{EntityStorage:{Entity:{id:' + element + '}}}}'))
+        event.remove( element + '_spawn_egg' )
     });
 
     //removen der Concrete Botany Pots
@@ -155,8 +155,8 @@ let jei_hide = (event, active, debug) => {
     ]
 
     dyes.forEach(colour => {
-        event.hide(Item.of(`botanypots:${colour}_concrete_hopper_botany_pot`))
-        event.hide(Item.of(`botanypots:${colour}_concrete_botany_pot`))
+        event.remove(Item.of(`botanypots:${colour}_concrete_hopper_botany_pot`))
+        event.remove(Item.of(`botanypots:${colour}_concrete_botany_pot`))
     });
 
 
@@ -181,7 +181,7 @@ let jei_hide = (event, active, debug) => {
     ]
 
     extreme_remove.forEach(element => {
-        event.hide(Item.of(element))
+        event.remove(Item.of(element))
     });
 
 
@@ -205,7 +205,7 @@ let jei_hide = (event, active, debug) => {
     ]
 
     ars_remove.forEach(element => {
-        event.hide(Item.of(element))
+        event.remove(Item.of(element))
     });
 
     //alltheores - Other Ores werden removed
@@ -232,13 +232,13 @@ let jei_hide = (event, active, debug) => {
     ]
 
     other_oreToRemove.forEach((atm_ore) => {
-        event.hide(`alltheores:other_${ atm_ore }_ore`)
-        event.hide(Item.of('ae2:facade', '{item:"alltheores:other_' + atm_ore + '_ore"}'))
+        event.remove(`alltheores:other_${ atm_ore }_ore`)
+        event.remove(Item.of('ae2:facade', '{item:"alltheores:other_' + atm_ore + '_ore"}'))
     })
 
-    event.hide(Item.of('ae2:vibration_chamber'))
-    event.hide(Item.of('easy_villagers:iron_farm'))
-    event.hide(Item.of('ae2wtlib:quantum_bridge_card'))
+    event.remove(Item.of('ae2:vibration_chamber'))
+    event.remove(Item.of('easy_villagers:iron_farm'))
+    event.remove(Item.of('ae2wtlib:quantum_bridge_card'))
 
 
     //aether
@@ -248,7 +248,7 @@ let jei_hide = (event, active, debug) => {
     ]
 
     aether_ice.forEach(element => {
-        event.hide(element)
+        event.remove(element)
     });
 
 
@@ -272,7 +272,7 @@ let jei_hide = (event, active, debug) => {
     ]
 
     itemfilters_hide.forEach(element => {
-        event.hide(element)
+        event.remove(element)
     });
 
 
@@ -290,7 +290,7 @@ let jei_hide = (event, active, debug) => {
     ]
 
     ftbquests_hide.forEach(element => {
-        event.hide(element)
+        event.remove(element)
     });
 
 };

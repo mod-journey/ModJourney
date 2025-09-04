@@ -4,23 +4,23 @@ let tooltip_scrolls = event => {
 
     let technic_scrolls_array = [
         null,
-        'Industrial Foregoing',
-        'Stellaris', //'Ad Astra'
+        {unlocks: 'Industrial Foregoing'},
+        {unlocks: 'Stellaris'}, //'Ad Astra'
         null,
-        'Applied Energistics',
-        'Extreme Reactor',
-        'Powah',
-        'Ender IO',
-        'Flux Network',
-        'Mekanism',
+        {unlocks: 'Applied Energistics'},
+        {unlocks: 'Extreme Reactor'},
+        {unlocks: 'Powah'},
+        {unlocks: 'Ender IO'},
+        {unlocks: 'Flux Network'},
+        {unlocks: 'Mekanism'},
     ]
 
     let magic_scrolls_array = [
         null,
         // TODO replace Bloodmagic and add new scroll for occultism
-        'Occultism',
-        'Ars Noveau',
-        'Mob Grinding Utils',
+        {unlocks: 'Occultism'},
+        {unlocks: 'Ars Noveau'},
+        {unlocks: 'Mob Grinding Utils'},
     ]
 
 
@@ -40,22 +40,22 @@ let tooltip_scrolls = event => {
     ])
 
     // Add SHIFT-Text - Schriftrolle 1-9
-    technic_scrolls_array.forEach((modName, i) => {
-        if (modName) {
+    technic_scrolls_array.forEach((mod, i) => {
+        if (mod) {
             event.add(`mod_journey:scroll_${i}`, {shift: true}, [
                 Text.translate('item.mod_journey.scroll.tooltip.unlock_questbook',
-                    Text.gold(modName)
+                    Text.gold(mod.unlocks)
                 ).green()
             ])
         }
     })
 
     // Add SHIFT-Text to magic scrolls
-    magic_scrolls_array.forEach((modName, i) => {
-        if (modName) {
+    magic_scrolls_array.forEach((mod, i) => {
+        if (mod) {
             event.add(`mod_journey:magic_scroll_${i}`, {shift: true}, [
                 Text.translate('item.mod_journey.scroll.tooltip.unlock_questbook',
-                    Text.gold(modName)
+                    Text.gold(mod.unlocks)
                 ).green()
             ])
         }
