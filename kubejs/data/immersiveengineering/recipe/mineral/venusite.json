@@ -1,0 +1,57 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "biome_predicates": [
+      [
+        "stellaris:venus_biomes"
+      ]
+    ],
+    "fail_chance": 0.2,
+    "ores": [
+      {
+        "chance": 0.1,
+        "output": {
+          "id": "stellaris:venus_neptunium_ore"
+        }
+      },
+      {
+        "chance": 0.7,
+        "output": {
+          "id": "stellaris:venus_gold_ore"
+        }
+      },
+      {
+        "chance": 0.2,
+        "output": {
+          "id": "stellaris:venus_diamond_ore"
+        }
+      }
+
+    ],
+    "spoils": [
+      {
+        "chance": 0.3,
+        "output": {
+          "id": "stellaris:venus_coal_ore"
+        }
+      },
+      {
+        "chance": 0.5,
+        "output": {
+          "id": "stellaris:venus_sand"
+        }
+      },
+      {
+        "chance": 0.3,
+        "output": {
+          "id": "stellaris:venus_stone"
+        }
+      },
+      {
+        "chance": 0.3,
+        "output": {
+          "id": "stellaris:venus_sandstone"
+        }
+      }
+    ],
+    "weight": 15
+  }

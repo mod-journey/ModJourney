@@ -1,6 +1,81 @@
-## Changelog:
+# Changelog:
 
-# v0.8.4
+## NEXT RELEASE
+
+### Migration to NeoForge and 1.21
+
+#### Mods added:
+- Aether Villages
+- Applied Flux
+- Ars Elemental
+- Ars Ocultas
+- BaguetteLib
+- Construction Sticks
+- Custom Machinery
+- Decorative Blocks
+- Macaw's Stairs
+- Mekanism Covers
+- Mekanism: Weapons
+- MrCrayfish's Furniture Mod
+- My Server Is Compatible
+- Oculus
+- Quests Additions
+- The Twilight Forest
+- Undergarden Additional Structures
+- Undergarden Delight
+
+#### Mods removed:
+- Ad Astra
+- Aether: Lost Content
+- Alex's Delight
+- Alex's Mobs
+- AmbientSounds 6
+- Applied Cooking
+- Athena
+- Better Villages
+- Blood Magic
+- Blue Skies
+- Botania
+  - Applied Botanics
+  - Botanical Machinery
+- Botany Pots
+- Botarium
+- Cataclysmic Combat
+- Citadel
+- Construction Wand
+- Embeddium
+- Embeddium++
+- Limit Mob Spawn
+- Occultism
+- MrCrayfish's Furniture Mod: Refurbished
+- No-fly Zone
+- Simple Shops
+- Stellaris
+- RightClickHarvest
+- Thermal
+  - CoFH Core
+  - Thermal Cultivation
+  - Thermal Dynamics
+  - Thermal Expansion
+  - Thermal Foundation
+  - Thermal Innovation
+
+
+
+## v1.0.1
+
+#### Mods updated:
+- Quest additions
+
+
+## v1.0.0
+
+#### Feautures added
+- Added full Questbook
+- Server file also aviable
+
+
+## v0.8.4
 
 #### Mods updated:
 - Ars Noveau
@@ -23,7 +98,7 @@
 - Blacklist foregoing soul items for carry-on
 
 
-# v0.8.3
+## v0.8.3
 
 #### Mods added:
  - Nullscape
@@ -59,7 +134,7 @@
 
 
 
-# v0.8.2
+## v0.8.2
 
 #### Mods added:
 
@@ -80,7 +155,7 @@
 - remove thermal ender grenade recipe
 
 ---
-# v0.8.1
+## v0.8.1
 
 - Add mods occulus, embeddium
 - Move sink to stage 2

@@ -1,4 +1,3 @@
-
 [Menu]
 	#Determines whether the Menu API is enabled or not
 	"Enable Menu API" = true
@@ -7,3 +6,10 @@
 	#Adds a button to the top right of the main menu screen to open a menu selection screen
 	"Enables menu selection button" = false
 
+["World Preview"]
+	#Changes the background panorama into a preview of the latest played world
+	"Enables world preview" = false
+	#Adds a button to the top right of the main menu screen to toggle between the panorama and world preview
+	"Enables toggle world button" = true
+	#Adds a button to the top right of the main menu screen to allow quick loading into a world if the world preview is enabled
+	"Enables quick load button" = true

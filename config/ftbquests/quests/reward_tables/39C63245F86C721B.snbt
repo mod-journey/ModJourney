@@ -1,4 +1,7 @@
 {
+	icon: {
+		id: "mysticalagriculture:imperium_essence"
+	}
 	id: "39C63245F86C721B"
 	loot_size: 1
 	order_index: 4

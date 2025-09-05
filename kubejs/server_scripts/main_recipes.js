@@ -24,53 +24,52 @@ if (events_server) {
 
     ServerEvents.recipes((event) => {
 
+
         replacer.init(event);
 
         /* "./gated/* */
         if (gated_event) {
+            modjourney_gated_items(event, true);
             apotheosis_gated(event, true);
-            adastra_gated(event, false);                         //Ersetzung durch Stellaris Ticket #12
             ae_gated(event, true);
             arsnoveau_gated(event, true);
-            bloodmagic_gated(event, false);                     //deactivate, while blood magic is NIY
             cookingforblockhead_gated(event, true);
             enderchestandtank_gated(event, true);
             enerdeio_gated(event, true);
             extendedcrafting_gated(event, true);
             extremereactor_gated(event, true);
             fluxnetwork_gated(event, true);
+            immersive_gated(event, true);
             industrialforegoing_gated(event, true);
             ironjetpacks_gated(event, true);
             itemcollector_gated(event, true);
             laserio_gated(event, true);
             mekanism_gated(event, true);
-            mobgrindingutils(event, false);                     //much items like weapons and armor must replace, if we have new magic mods.
+            mobgrindingutils(event, true);                     //much items like weapons and armor must replace, if we have new magic mods.
             mysticalagriculture_gated(event, true);
             powah_gated(event, true);
             rfttools_gated(event, true);
             sophisticatedbackpacks_gated(event, false);
-            thermal_gated(event, false);                        //deactivate, while Thermal is NIY
             remove_item_by_tag(event, true);                    //Checking scipt of using
+            stellaris_gated(event, true);
+            occultism_gated(event, true);
+
+
         }
 
         /* "./add/*" */
         if (add_event) {
-            add_adastra_items(event, false);                     //Ersetzung durch Stellaris Ticket #12
             add_ae2_fluix(event, true);
             add_ae2_skystellingot(event, true);
             add_creativeitemsMagic(event, true);
             add_creativeitemsTechnic(event, true);
-            add_immersive_alternativeCircuitRecipes(event, false); //Thermal entfallen Staging abwarten oder Ersatz
             add_immersive_excavator(event, true);
-            add_industrial_laser_fluidLaser(event, false);      //actually no content in this file.
-            add_magic_bloodMagic(event, false);                 //deactivate, while blood magic is NIY
-            add_magic_botania(event, false);                    //deactivate, while botania magic is NIY
-            add_magic_botanyPots(event, true);                  //deactivate, while bot. Pots is NIY
+            add_industrial_laser_fluidLaser(event, true);
             add_modjourney_antimatter(event, true);
-            add_modjourney_bloodmagic(event, false);            //deactivate, while blood magic is NIY
             add_modjourney_scrolls(event, true);
             add_cataclysm(event, false);                        //deactivate, while cataclysm is deactivated as mod, while throw a lot of errors.
-            add_modjourneycoins(event, true);                   //graphics needed
+            add_modjourneycoins(event, true);
+            add_stellaris(event, true);
         }
 
         if (customMachine_event) {
@@ -85,22 +84,22 @@ if (events_server) {
         if (remove_event) {
             remove_ae2_portable_cell(event, true);
             remove_ae2_removeComplete(event, true);
-            remove_aether(event, false);                        //forgot to install to pack. will be merged in a few days
+            remove_aether(event, true);
             remove_apotheosis(event, true, false);
             remove_arsNoveau(event, true);
-            remove_bloodmagic(event, false);                    //deactivate, while blood magic is NIY
-            remove_botania(event, false);                       //deactivate, while botania is NIY
             remove_easyVillager(event, true);
             remove_extremeReactor(event, true);
             remove_ftbquest(event, true);
             remove_immersive(event, true);
             remove_industrial(event, true);
-            remove_itemfilters(event, false);                   //deactivate, while itemfilters is NIY
             remove_mekanism(event, true);
             remove_mobGrindingUtils(event, true);
             remove_mysticalAgriculture(event, true);
             remove_rftAndXnet(event, true);
-            remove_Thermal(event, false);                       //deactivate, while Thermal is NIY
+            remove_stellaris(event, true);
+            remove_natureAura(event, true);
+            remove_occultism(event, true);
+            remove_arsElemental(event, true);
         }
 
         if (replace_ores) {
@@ -126,18 +125,16 @@ if (events_server) {
 
         if (replace_event) {
             replace_extremereactors(event, true);
-            replace_farmersdelight(event, false);       //so this is more a Thermal Recipe as farmersdelight? deactivate, while thermal is NIY
             replace_bamboo(event, true);
             replace_stellaris_steel(event, true);
             replace_stellaris_uran(event, true);
         }
+        fixAlloyRecipes(event, true)
     })
 
     if (other_events) {
-        immersive_chest_loottable_modify(event);
         remove_pickup_mobs(event);
     };
-
 
 };
 

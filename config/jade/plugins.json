@@ -13,7 +13,7 @@
     "fluid_storage.detailed": false,
     "next_entity_drop": true,
     "energy_storage": true,
-    "entity_armor.max_for_render": 40,
+    "entity_armor.max_for_render": 20,
     "breaking_progress": true,
     "tnt_stability": true,
     "item_storage.items_per_line": 9,
@@ -81,6 +81,9 @@
   "extendedae": {
     "jade_chamber": true,
     "jade_wireless": true
+  },
+  "custommachinery": {
+    "machine_component_provider": true
   },
   "ae2": {
     "part_icon": true,
@@ -176,6 +179,10 @@
   },
   "mysticalagradditions": {
     "infused_farmland": true
+  },
+  "twilightforest": {
+    "chiseled_bookshelf_spawner": true,
+    "quest_ram_wool": true
   },
   "corpse": {
     "corpse": true

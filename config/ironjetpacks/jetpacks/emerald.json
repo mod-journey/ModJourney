@@ -5,7 +5,7 @@
   "color": "4dd979",
   "armorPoints": 4,
   "enchantability": 15,
-  "craftingMaterial": "tag:forge:gems/emerald",
+  "craftingMaterial": "tag:c:gems/emerald",
   "creative": false,
   "rarity": 0,
   "toughness": 0.0,

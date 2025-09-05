@@ -1,17 +1,16 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "bloodmagic"
-	group: "16F9BB65CBA165C2"
+	group: "3E6C1980FD183851"
 	id: "04F3F575A212196A"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"407F543ADE3A3EC3"
-				"5902419C7421AA67"
-			]
+			dependencies: ["5C18E2E90C59C472"]
 			dependency_requirement: "one_completed"
 			hide_until_deps_visible: true
 			id: "19ECDD38FF50B386"
@@ -631,6 +630,15 @@
 			}]
 			x: -10.0d
 			y: 0.5d
+		}
+		{
+			id: "5C18E2E90C59C472"
+			tasks: [{
+				id: "08F838D4927BA0E6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.0d
 		}
 	]
 }

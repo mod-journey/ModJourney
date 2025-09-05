@@ -1,9 +1,11 @@
 {
+	always_invisible: true
 	autofocus_id: "0524EAE590378B3C"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "thermal"
-	group: "4B1BD2A866D0526F"
+	group: "3E6C1980FD183851"
 	id: "54043FA86481F5EB"
 	images: [
 		{
@@ -61,7 +63,7 @@
 			y: -2.0d
 		}
 	]
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -397,10 +399,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"7DC64335DF20BD93"
-				"429795EB7B105CB3"
-			]
+			dependencies: ["2969D63A060DCE42"]
 			dependency_requirement: "one_completed"
 			hide_until_deps_visible: true
 			id: "0524EAE590378B3C"
@@ -1856,6 +1855,15 @@
 				type: "item"
 			}]
 			x: 6.0d
+			y: -1.0d
+		}
+		{
+			id: "2969D63A060DCE42"
+			tasks: [{
+				id: "63478662F77CE78C"
+				type: "checkmark"
+			}]
+			x: -7.0d
 			y: -1.0d
 		}
 	]

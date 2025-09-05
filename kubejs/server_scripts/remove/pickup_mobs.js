@@ -3,7 +3,8 @@
 /*
 This Script must be better integreated in the common project.
 */
-let remove_pickup_mobs = (event) => {
+let remove_pickup_mobs = (active, debug) => {
+    if (!active) return;
 
     // Quellen:
     // https://kubejs.com/wiki/events
@@ -21,15 +22,15 @@ let remove_pickup_mobs = (event) => {
         "cataclysm:ignis",
         "cataclysm:ender_guardian",
         "cataclysm:netherite_monstrosity",
-        "cataclysm:ender_golem",
-
-        'alexsmobs:cachalot_whale',
-        'alexsmobs:giant_squid',
-        'alexsmobs:void_worm',
-        'alexsmobs:centipede',
-        'alexsmobs:bone_serpent',
-        'alexsmobs:anaconda'
+        "cataclysm:ender_golem"
     ];
+
+    // Add no_swab Tag to the blacklisted Mobs.
+    ServerEvents.tags('entity_type', event => {
+        bosses_blacklist.forEach(blacklisted_mob => {
+            event.add('mob_grinding_utils:no_swab', blacklisted_mob)
+        });
+    })
 
     //remove the right-click event from enderio soulvials. The event wehre canceld.
     ItemEvents.entityInteracted('enderio:empty_soul_vial', event => {
@@ -39,13 +40,6 @@ let remove_pickup_mobs = (event) => {
             event.cancel();
         });
     });
-
-    // Add no_swab Tag to the blacklisted Mobs.
-    ServerEvents.tags('entity_type', event => {
-        bosses_blacklist.forEach(blacklisted_mob => {
-            event.add('mob_grinding_utils:no_swab', blacklisted_mob)
-        });
-    })
 
     //remove the right-click event from the imprisoment from industiral. The event wehre canceld.
     ItemEvents.entityInteracted('industrialforegoing:mob_imprisonment_tool', event => {

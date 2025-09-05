@@ -1,4 +1,7 @@
 {
+	icon: {
+		id: "industrialforegoing:laser_drill"
+	}
 	id: "247187814ADF8B4E"
 	loot_size: 2
 	order_index: 12

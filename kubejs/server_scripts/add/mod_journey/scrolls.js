@@ -15,25 +15,25 @@ let add_modjourney_scrolls = (event, active, debug) => {
             B: '#c:rods/wooden',
             C: 'minecraft:paper'
         }
-    ).id('modjourney:blank_scroll')
+    ).id('mod_journey:blank_scroll')
 
     for (let i = 1; i <= 8; i++) {
         event.shapeless(
 
-            Item.of('mod_journey:scroll' + i, 1),
+            Item.of('mod_journey:scroll_' + i, 1),
             [
                 i + 'x #c:dyes/black',
                 'mod_journey:blank_scroll'
             ]
-        ).id("modjourney:scroll/" + i)
+        ).id("mod_journey:scroll/" + i)
     }
 
     event.shapeless(
-        Item.of('mod_journey:scroll9', 1),
+        Item.of('mod_journey:scroll_9', 1),
         [
-            '#modjourney:rolls_crafting'
+            '#mod_journey:rolls_crafting'
         ]
-    ).id("modjourney:scroll/9")
+    ).id("mod_journey:scroll/9")
 
 
     //Rezepte fuer die magischen Schriftrollen
@@ -49,27 +49,23 @@ let add_modjourney_scrolls = (event, active, debug) => {
             B: '#c:rods/wooden',
             C: 'minecraft:paper'
         }
-    ).id('modjourney:magic_scroll_blank')
+    ).id('mod_journey:magic_scroll_blank')
 
 
     let magic_scrolls_array = [
-        "one",
-        "two",
-        "three"
+        1,
+        2,
+        3
     ]
-    let magic_counter = 1;
 
     magic_scrolls_array.forEach(scroll => {
         event.shapeless(
-
             Item.of('mod_journey:magic_scroll_' + scroll, 1),
             [
-                magic_counter + 'x #c:dyes/purple',
+                scroll + 'x #c:dyes/purple',
                 'mod_journey:magic_scroll_blank'
             ]
-        ).id("modjourney:magic_scroll_" + magic_counter)
-
-        magic_counter = magic_counter + 1;
+        ).id("mod_journey:magic_scroll_" + scroll)
     });
 
 

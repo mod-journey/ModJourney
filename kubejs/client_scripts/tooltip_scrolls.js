@@ -1,209 +1,63 @@
 //priority 5
 
-/*  Hatte eine implementierung mit Objekten oder Arrays versucht, leider bleibt das Script nach dem Durchladen auf dem
-    letzten Zählerstand stehen, womit sich so keine vereinfachte Form der Informationsübertragung mitteilen lässt. Tatsächlich
-    prüft das script bei jedem mal rüberhovern über das Item, ob die Kondition "shift" erfüllt ist.
-*/
-
 let tooltip_scrolls = event => {
 
-    for (let i = 1; i <= 9; i++) {
-
-        //Fügt den Scrolls eine Beschreibung hinzu
-        event.addAdvanced('mod_journey:scroll' + i, (item, advanced, text) => {
-
-            text.add(1, [ Text.yellow('Mit diesem Gegenstand, lassen sich verdeckte Quests freischalten.') ])
-            if (!event.shift) {
-                text.add(2, [
-                    Text.gold('Hold '),
-                    Text.yellow('Shift '),
-                    Text.gold('to see more info.')
-                ]);
-            };
-        });
-    };
-
-    let magic_scrolls_array = [
-        "one",
-        "two",
-        "three",
-        "blank"
+    let technic_scrolls_array = [
+        null,
+        {unlocks: 'Industrial Foregoing'},
+        {unlocks: 'Stellaris'}, //'Ad Astra'
+        null,
+        {unlocks: 'Applied Energistics'},
+        {unlocks: 'Extreme Reactor'},
+        {unlocks: 'Powah'},
+        {unlocks: 'Ender IO'},
+        {unlocks: 'Flux Network'},
+        {unlocks: 'Mekanism'},
     ]
 
-    magic_scrolls_array.forEach(scroll => {
-        event.addAdvanced('mod_journey:magic_scroll_' + scroll, (item, advanced, text) => {
-
-            text.add(1, [Text.yellow('Mit diesem Gegenstand, lassen sich verdeckte Quests freischalten.')])
-            if (!event.shift) {
-                text.add(2, [
-                    Text.gold('Hold '),
-                    Text.yellow('Shift '),
-                    Text.gold('to see more info.')
-                ]);
-            };
-        });
-    });
+    let magic_scrolls_array = [
+        null,
+        // TODO replace Bloodmagic and add new scroll for occultism
+        {unlocks: 'Occultism'},
+        {unlocks: 'Ars Noveau'},
+        {unlocks: 'Mob Grinding Utils'},
+    ]
 
 
+    // Add text via reg-exp to all non-blank scrolls - see https://regex101.com/r/NWcfGg/1
+    event.add(/mod_journey:(scroll_|magic_scroll_)[0-9]/, Text.translate('item.mod_journey.scroll_blank.tooltip.unlock').yellow())
 
-    //Schriftrolle 1
-    event.addAdvanced('mod_journey:scroll1', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2,[
-                Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
-            ])
-            text.add(3,[
-                Text.gold("Industrial Foregoing")
-            ]);
-        };
-    });
+    // Add blank scroll technic and magic
+    event.add(/mod_journey:(magic_scroll_blank|blank_scroll)/, {shift: true}, [
+            Text.translate('item.mod_journey.scroll_blank.tooltip.needed_for_crafting').green()
+        ]
+    )
 
-    //Schriftrolle 2
-    event.addAdvanced('mod_journey:scroll2', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2,[
-                Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
-            ])
-            text.add(3,[
-                Text.gold("Ad Astra")
-            ]);
-        };
-    });
+    event.add(/mod_journey:(blank_scroll|magic_scroll_|scroll_)/, {shift: false}, [
+        Text.translate('item.mod_journey.tooltip.hold_key_for_info', [
+            Text.translate('button.mod_journey.shift').yellow()
+        ]).gold()
+    ])
 
-    //Schriftrolle 3
-    event.addAdvanced('mod_journey:scroll3', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2,[
-                Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
-            ])
-            text.add(3,[
-                Text.gold("Thermal Series")
+    // Add SHIFT-Text - Schriftrolle 1-9
+    technic_scrolls_array.forEach((mod, i) => {
+        if (mod) {
+            event.add(`mod_journey:scroll_${i}`, {shift: true}, [
+                Text.translate('item.mod_journey.scroll.tooltip.unlock_questbook',
+                    Text.gold(mod.unlocks)
+                ).green()
             ])
         }
     })
 
-    //Schriftrolle 4
-    event.addAdvanced('mod_journey:scroll4', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2,[
-                Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
-            ])
-            text.add(3,[
-                Text.gold("Applied Energistics")
-            ])
-        }
-    })
-
-    //Schriftrolle 5
-    event.addAdvanced('mod_journey:scroll5', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2,[
-                Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
-            ])
-            text.add(3,[
-                Text.gold("Extreme Reactor")
+    // Add SHIFT-Text to magic scrolls
+    magic_scrolls_array.forEach((mod, i) => {
+        if (mod) {
+            event.add(`mod_journey:magic_scroll_${i}`, {shift: true}, [
+                Text.translate('item.mod_journey.scroll.tooltip.unlock_questbook',
+                    Text.gold(mod.unlocks)
+                ).green()
             ])
         }
     })
-
-    //Schriftrolle 6
-    event.addAdvanced('mod_journey:scroll6', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2,[
-                Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
-            ])
-            text.add(3,[
-                Text.gold("Powah")
-            ])
-        }
-    })
-
-    //Schriftrolle 7
-    event.addAdvanced('mod_journey:scroll7', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2,[
-                Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
-            ])
-            text.add(3,[
-                Text.gold("Ender IO")
-            ])
-        }
-    })
-
-    //Schriftrolle 8
-    event.addAdvanced('mod_journey:scroll8', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2,[
-                Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
-            ])
-            text.add(3,[
-                Text.gold("Flux Network")
-            ])
-        }
-    })
-
-    //Schriftrolle 9
-    event.addAdvanced('mod_journey:scroll9', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2,[
-                Text.green("Schaltet im Questbuch frei:")      //Wenn Shift, wird dieser Text angezeigt. Text kann hier definiert werden.
-            ])
-            text.add(3,[
-                Text.gold("Mekanism")
-            ])
-        }
-    })
-
-    //leere Schriftrolle
-    event.addAdvanced('mod_journey:blank_scroll', (item, advanced, text) => {
-        if (!event.shift) {
-            text.add(1, [
-                Text.gold('Hold '),
-                Text.yellow('Shift '),
-                Text.gold('to see more info.')
-            ])
-        } else {
-            text.add(1,[
-                Text.green("Wird zum craften von Schriftrollen benötigt.")
-            ])
-        }
-    })
-
-
-    //Magic Scroll Blank
-    event.addAdvanced('mod_journey:magic_scroll_blank', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2, [
-                Text.green("Wird zum weitercraften benötigt")
-            ])
-        }
-    })
-
-    //Magic Scroll Blank
-    event.addAdvanced('mod_journey:magic_scroll_one', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2, [
-                Text.green("Schaltet Blood Magic frei.")
-            ])
-        }
-    })
-
-    //Magic Scroll Blank
-    event.addAdvanced('mod_journey:magic_scroll_two', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2, [
-                Text.green("Schaltet Ars Noveau frei.")
-            ])
-        }
-    })
-
-    //Magic Scroll Blank
-    event.addAdvanced('mod_journey:magic_scroll_three', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(2, [
-                Text.green("Schaltet Mob Grinding Utils frei.")
-            ])
-        }
-    })
-
 };

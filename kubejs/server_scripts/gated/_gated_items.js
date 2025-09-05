@@ -5,58 +5,71 @@
 Hier werden die Stages Items definiert!
 */
 /** Die Items schalten die nächst höhere Stage frei! */
-const dummy_items = [
-    { id: "mod_journey:dummy_1" },
-    { id: "mod_journey:dummy_2" },
-    { id: "mod_journey:dummy_3" },
-    { id: "mod_journey:dummy_4" },
-    { id: "mod_journey:dummy_5" },
-    { id: "mod_journey:dummy_6" },
-    { id: "mod_journey:dummy_7" },
-    { id: "mod_journey:dummy_8" },
-    { id: "mod_journey:dummy_9" }
-]
 
 const stages = {
     stage1: {
-        core: 'immersiveengineering:circuit_board',
+        vanilla: "mod_journey:staging/frame_core_1",
+        core: 'mod_journey:staging/frame_core_2',
         second: '',
         endgame: '',
         magic: {
-            early: dummy_items[0].id,
-            mid: dummy_items[1].id,
-            end: dummy_items[2].id
+            early: '#mod_journey:magic/stage/one/early',
+            mid: 'naturesaura:birth_spirit',
+            end: 'naturesaura:sky_ingot'
         },
     },
     stage2: {
-        core: 'stellaris:mercury_cobblestone',
+        core: 'mod_journey:staging/frame_core_3',
         // indirect gated via darksteel and ender io allow smelting
         gear: 'enderio:dark_bimetal_gear',
         second: '',
         endgame: '',
         magic: {
-            early: dummy_items[3].id,
-            mid: dummy_items[4].id,
-            end: dummy_items[5].id,
+            early: 'occultism:crushed_end_stone',
+            mid: 'occultism:soul_gem',
+            end: 'occultism:chalk_void',
         },
     },
     stage3: {
-        core: 'powah:crystal_nitro',
+        core: 'mod_journey:staging/frame_core_4',
         second: '',
         endgame: '',
         magic: {
-            early: dummy_items[6].id,
-            mid: dummy_items[7].id,
-            end: dummy_items[8].id
+            early: 'ars_nouveau:source_gem',
+            mid: 'ars_nouveau:archmage_spell_book',
+            end: 'apothic_enchanting:ender_library'
         },
     },
     mod_based: {
-        mekanism: "mekanism:steel_casing"
+        mekanism: "mekanism:steel_casing",
+        mobGrindingUtils: {
+            stick: '#c:rods/iridium',
+            swords: [
+                'naturesaura:depth_sword',
+                'naturesaura:infused_iron_sword'
+            ],
+            helmets: [
+                'naturesaura:depth_helmet',
+                'naturesaura:infused_iron_helmet'
+            ],
+            chestplates: [
+                'naturesaura:depth_chest',
+                'naturesaura:infused_iron_chest'
+            ],
+            pents: [
+                'naturesaura:depth_pants',
+                'naturesaura:infused_iron_pants'
+            ],
+            shoes: [
+                'naturesaura:depth_shoes',
+                'naturesaura:infused_iron_shoes'
+            ]
+        }
     },
     coins: {
-        bronze: "",
-        silver: "",
-        gold: ""
+        bronze: "mod_journey:copper_coin",
+        silver: "mod_journey:silver_coin",
+        gold: "mod_journey:gold_coin"
     }
 }
 

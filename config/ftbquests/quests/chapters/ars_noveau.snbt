@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "ars_noveau"
 	group: "16F9BB65CBA165C2"
+	icon: {
+		id: "ars_nouveau:creative_spell_book"
+	}
 	id: "791B5B0012F48C8B"
 	order_index: 1
 	quest_links: [ ]
@@ -18,14 +21,6 @@
 				id: "ars_nouveau:arcanist_hood"
 			}
 			id: "1E78C6170EC5067E"
-			rewards: [{
-				id: "066E95FE50A1FE24"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "47B9EA7DBC0FE347"
 				type: "checkmark"
@@ -36,17 +31,9 @@
 		{
 			dependencies: ["1E78C6170EC5067E"]
 			id: "77D31EC2C76058E2"
-			rewards: [{
-				id: "53D72757A676E1EA"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "24AF965390A4C6A8"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -58,14 +45,6 @@
 				id: "ars_nouveau:spell_parchment"
 			}
 			id: "5C7D0094496E8E53"
-			rewards: [{
-				id: "16592DE910CA9F3B"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "24F8B896271FC943"
 				type: "checkmark"
@@ -79,14 +58,6 @@
 				id: "minecraft:potion"
 			}
 			id: "5C36E3B78AB146C0"
-			rewards: [{
-				id: "11DC35F02D656B6C"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "5B9E238DC485BE38"
 				type: "checkmark"
@@ -100,43 +71,20 @@
 				"5C36E3B78AB146C0"
 			]
 			id: "18DAE72E4F2B32E0"
-			rewards: [{
-				id: "744A1133848C492C"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
+			tasks: [{
+				id: "559F657E5193AA89"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(ars_nouveau:blue_archwood_log)item(ars_nouveau:red_archwood_log)item(ars_nouveau:purple_archwood_log)item(ars_nouveau:green_archwood_log)item(ars_elemental:yellow_archwood_log))", "minecraft:custom_name": "\"Archwood\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "1A3D083FE8DD2698"
-					item: { }
-					type: "item"
-				}
-				{
-					id: "46F5091042DAC929"
-					item: { }
-					type: "item"
-				}
-			]
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["18DAE72E4F2B32E0"]
 			id: "4C813B4746E751B2"
-			rewards: [{
-				id: "7EDF3BA409964368"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "4EAED3CC3D1DEE70"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:scribes_table" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -145,17 +93,9 @@
 		{
 			dependencies: ["4C813B4746E751B2"]
 			id: "540D952C52F19CB4"
-			rewards: [{
-				id: "7ED5AE2CA3B7617C"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "64720B4A034165B1"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -164,17 +104,9 @@
 		{
 			dependencies: ["540D952C52F19CB4"]
 			id: "30268E4E09E5A13C"
-			rewards: [{
-				id: "2B5852350A08FA49"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "781F5BA89245D1C5"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:source_gem" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -183,17 +115,9 @@
 		{
 			dependencies: ["30268E4E09E5A13C"]
 			id: "0EE9BD17F58E71EC"
-			rewards: [{
-				id: "38CD9F1437476883"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "7AC5EABB617B01E6"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:source_jar" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -202,14 +126,6 @@
 		{
 			dependencies: ["0EE9BD17F58E71EC"]
 			id: "27DA0134EECFA2F7"
-			rewards: [{
-				id: "5023663C3578FDCC"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "04CF943E4A7B7748"
 				type: "checkmark"
@@ -220,17 +136,9 @@
 		{
 			dependencies: ["27DA0134EECFA2F7"]
 			id: "5F442ACC0CCC3DEE"
-			rewards: [{
-				id: "642AE51E0EE439A9"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "30B05F6BCE480392"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:agronomic_sourcelink" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -239,17 +147,9 @@
 		{
 			dependencies: ["27DA0134EECFA2F7"]
 			id: "41A2BB314608A5F0"
-			rewards: [{
-				id: "3C0DB61060929B93"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "0CACEACA91C4034B"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:mycelial_sourcelink" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -258,17 +158,9 @@
 		{
 			dependencies: ["27DA0134EECFA2F7"]
 			id: "3C50BD72E832D66A"
-			rewards: [{
-				id: "19D7BF796EDFA2EB"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "5D9E703771E5454C"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:volcanic_sourcelink" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -277,17 +169,9 @@
 		{
 			dependencies: ["27DA0134EECFA2F7"]
 			id: "4B03A47B6DCFAF22"
-			rewards: [{
-				id: "3F5A87BEE4DA2DBB"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "6818E55DD139D5DA"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:vitalic_sourcelink" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -296,17 +180,9 @@
 		{
 			dependencies: ["27DA0134EECFA2F7"]
 			id: "0C2CF50BADD2E02D"
-			rewards: [{
-				id: "29A369294F0409E2"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "3A2EAE824DDE42FB"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:alchemical_sourcelink" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -319,17 +195,9 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "0D8E474F76C125F7"
-			rewards: [{
-				id: "47362A5D6BB9AC1F"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "21F6AEB9395E849B"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:potion_jar" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -338,17 +206,10 @@
 		{
 			dependencies: ["30268E4E09E5A13C"]
 			id: "0A9E71C0572B1CC8"
-			rewards: [{
-				id: "1F80B2BCF9B14DA9"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
+				count: 8L
 				id: "36701298308E1133"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:sourcestone" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -357,17 +218,10 @@
 		{
 			dependencies: ["0A9E71C0572B1CC8"]
 			id: "04AE7500461EC1F9"
-			rewards: [{
-				id: "7F2B15D3668C7BE5"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
+				count: 4L
 				id: "3C04DF34DC091279"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -376,17 +230,9 @@
 		{
 			dependencies: ["04AE7500461EC1F9"]
 			id: "0F2A2629A9A933CA"
-			rewards: [{
-				id: "46AFE5ADF15F8F3E"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "4CA1C20799C32F01"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:ritual_brazier" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -395,23 +241,15 @@
 		{
 			dependencies: ["04AE7500461EC1F9"]
 			id: "5E51716BBA7C0BE6"
-			rewards: [{
-				id: "233B230D920A8D75"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "68BAFCD685BF0D86"
-					item: { }
+					item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
 					type: "item"
 				}
 				{
 					id: "4117EC65D51C519B"
-					item: { }
+					item: { count: 1, id: "ars_nouveau:arcane_core" }
 					type: "item"
 				}
 			]
@@ -421,17 +259,9 @@
 		{
 			dependencies: ["5E51716BBA7C0BE6"]
 			id: "0B60EBFBF42F9C5C"
-			rewards: [{
-				id: "0123A61F98960296"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "59E540EED6EB0B7A"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:dominion_wand" }
 				type: "item"
 			}]
 			x: 11.0d
@@ -440,17 +270,9 @@
 		{
 			dependencies: ["77D31EC2C76058E2"]
 			id: "1A242A1A421B358B"
-			rewards: [{
-				id: "53639DE3E1B505B3"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "679BC2E8846EFD39"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:worn_notebook" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -459,17 +281,9 @@
 		{
 			dependencies: ["5E51716BBA7C0BE6"]
 			id: "07BFBAE08D89B702"
-			rewards: [{
-				id: "765AC7A84947082F"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "728528A5D4332AEC"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:magebloom_crop" }
 				type: "item"
 			}]
 			x: 13.0d
@@ -478,17 +292,9 @@
 		{
 			dependencies: ["325B0F0901FD93A8"]
 			id: "070DD06560D8888A"
-			rewards: [{
-				id: "2A30CC606FC2BF7F"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "65123589D452BF01"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:alteration_table" }
 				type: "item"
 			}]
 			x: 17.0d
@@ -497,17 +303,9 @@
 		{
 			dependencies: ["18DAE72E4F2B32E0"]
 			id: "5D60F90E34176239"
-			rewards: [{
-				id: "5E793A82506C2950"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
-				id: "5D1F4D5EC2E07B1B"
-				item: { }
+				id: "6B16E155DD241703"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:mendosteen_pod)item(ars_nouveau:bastion_pod)item(ars_nouveau:frostaya_pod)item(ars_nouveau:bombegranate_pod)item(ars_elemental:flashpine_pod))", "minecraft:custom_name": "\"Archwood Früchte\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -516,17 +314,9 @@
 		{
 			dependencies: ["325B0F0901FD93A8"]
 			id: "1BCEF5B7D4A2DEA9"
-			rewards: [{
-				id: "26616615145EF7AC"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "0C9AA87D5FD692BB"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
 				type: "item"
 			}]
 			x: 15.0d
@@ -535,17 +325,9 @@
 		{
 			dependencies: ["5C36E3B78AB146C0"]
 			id: "43F671F5C49EED69"
-			rewards: [{
-				id: "5DB9BDF5FA8B0B30"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "3DF69EF9634F4669"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:sourceberry_bush" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -554,17 +336,9 @@
 		{
 			dependencies: ["43F671F5C49EED69"]
 			id: "4B916435E4D68736"
-			rewards: [{
-				id: "7CCA5F8083F51F8A"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "3AEA72DB997153EF"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:source_berry_roll" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -573,17 +347,9 @@
 		{
 			dependencies: ["4B916435E4D68736"]
 			id: "0D945505970ACD00"
-			rewards: [{
-				id: "66572338BECD7756"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "0B9C26C803CEEA8E"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:source_berry_pie" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -595,19 +361,10 @@
 				"251E5B47E2C62B8D"
 			]
 			id: "6092D820D8CA7DDF"
-			rewards: [{
-				id: "21A4AB610D8F314D"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
-				entity: "minecraft:zombie"
-				id: "1DD590172698F87D"
-				type: "kill"
-				value: 100L
+				id: "4A1128455A74AEE4"
+				item: { count: 1, id: "ars_nouveau:wilden_tribute" }
+				type: "item"
 			}]
 			x: 12.0d
 			y: 2.5d
@@ -615,17 +372,10 @@
 		{
 			dependencies: ["1BCEF5B7D4A2DEA9"]
 			id: "251E5B47E2C62B8D"
-			rewards: [{
-				id: "350FE05235BE18B7"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
+				count: 8L
 				id: "7901A7B361466A85"
-				item: { }
+				item: { count: 1, id: "minecraft:blaze_rod" }
 				type: "item"
 			}]
 			x: 15.0d
@@ -634,17 +384,9 @@
 		{
 			dependencies: ["0F2A2629A9A933CA"]
 			id: "45CE9D3D869EBBDD"
-			rewards: [{
-				id: "3CACB32BABD0E38E"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "52C88471406E12F1"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:ritual_wilden_summon" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -653,27 +395,9 @@
 		{
 			dependencies: ["48C79ED35AC136C8"]
 			id: "5F98BAF82E1271EE"
-			rewards: [
-				{
-					id: "012EA3498ED59755"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-				{
-					id: "24C9F5C0571D8AF2"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "317CBB592D93EA69"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
 				type: "item"
 			}]
 			x: 12.0d
@@ -682,23 +406,17 @@
 		{
 			dependencies: ["6092D820D8CA7DDF"]
 			id: "48C79ED35AC136C8"
-			rewards: [{
-				id: "50C9E216E159D458"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [
 				{
+					count: 8L
 					id: "56F382FEE9DC6FE7"
-					item: { }
+					item: { count: 1, id: "minecraft:ender_pearl" }
 					type: "item"
 				}
 				{
+					count: 4L
 					id: "3BB85F19818ACDEF"
-					item: { }
+					item: { count: 1, id: "minecraft:chorus_fruit" }
 					type: "item"
 				}
 			]
@@ -708,17 +426,9 @@
 		{
 			dependencies: ["0D8E474F76C125F7"]
 			id: "6CD7BF6C4503FD98"
-			rewards: [{
-				id: "6E21267CAAF16D25"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "49F68E527B2216DB"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:potion_melder" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -745,36 +455,20 @@
 		{
 			dependencies: ["7CDC16333D2E3B89"]
 			id: "70C06F01206CCE9B"
-			rewards: [{
-				id: "568D2284F5DA916B"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "0D13D5620FF27733"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:wand" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: 10.0d
+			x: 10.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7CDC16333D2E3B89"]
 			id: "73258DB8AECFABE8"
-			rewards: [{
-				id: "66D10E92F28679C7"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "5B44D72B4E3DDD8C"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:spell_bow" }
 				type: "item"
 			}]
 			x: 10.0d
@@ -783,17 +477,9 @@
 		{
 			dependencies: ["7CDC16333D2E3B89"]
 			id: "0FD9CD79455004A5"
-			rewards: [{
-				id: "60C409F2B7569535"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "0A90C4CDC8FB89EE"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:spell_crossbow" }
 				type: "item"
 			}]
 			x: 10.0d
@@ -802,17 +488,9 @@
 		{
 			dependencies: ["7CDC16333D2E3B89"]
 			id: "35E69FD0D9133061"
-			rewards: [{
-				id: "7FDCECFA9262897E"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "682B63F5C889CECD"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:enchanters_sword" }
 				type: "item"
 			}]
 			x: 12.0d
@@ -821,17 +499,9 @@
 		{
 			dependencies: ["7CDC16333D2E3B89"]
 			id: "0351CB5474F159D3"
-			rewards: [{
-				id: "6A1E80172BB5ECB3"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "79F441EBAF5B8B7E"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:enchanters_shield" }
 				type: "item"
 			}]
 			x: 12.0d
@@ -840,37 +510,21 @@
 		{
 			dependencies: ["7CDC16333D2E3B89"]
 			id: "397AAFC8FCFF0CBD"
-			rewards: [{
-				id: "389E1350FC70728E"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "59883E18E545300C"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:enchanters_mirror" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 8.0d
+			x: 11.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["505227A456788448"]
 			dependency_requirement: "one_completed"
 			id: "57E80A56E6D8784A"
-			rewards: [{
-				id: "6380519739162153"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "185EDACE7DF1F496"
-				item: { }
+				item: { count: 1, id: "ars_nouveau:enchanters_eye" }
 				type: "item"
 			}]
 			x: 13.0d
@@ -883,17 +537,9 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "37A521C972CFAF9E"
-			rewards: [{
-				id: "53DE3ABA93BB29A7"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "435965CB0DB0D3DB"
-				item: { }
+				item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:amplify_arrow)item(ars_nouveau:split_arrow)item(ars_nouveau:pierce_arrow))", "minecraft:custom_name": "\"Spezial-Pfeile\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -913,17 +559,17 @@
 			tasks: [
 				{
 					id: "3EE349945CF681AB"
-					item: { }
+					item: { count: 1, id: "ars_nouveau:scryers_oculus" }
 					type: "item"
 				}
 				{
 					id: "4C905BA1C24B9F5C"
-					item: { }
+					item: { count: 1, id: "ars_nouveau:scryers_crystal" }
 					type: "item"
 				}
 				{
 					id: "42827188348E638B"
-					item: { }
+					item: { count: 1, id: "ars_nouveau:blank_parchment" }
 					type: "item"
 				}
 			]
@@ -933,33 +579,25 @@
 		{
 			dependencies: ["07BFBAE08D89B702"]
 			id: "325B0F0901FD93A8"
-			rewards: [{
-				id: "544EA8B880DC77D4"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "13B202AF476EB4DE"
-					item: { }
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:sorcerer_hood)item(ars_nouveau:arcanist_hood)item(ars_nouveau:battlemage_hood))", "minecraft:custom_name": "\"AN Kopf\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "25870ACE1953A776"
-					item: { }
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:sorcerer_robes)item(ars_nouveau:arcanist_robes)item(ars_nouveau:battlemage_robes))", "minecraft:custom_name": "\"AN Körper\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "6CDD9B822C49770E"
-					item: { }
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:sorcerer_leggings)item(ars_nouveau:arcanist_leggings)item(ars_nouveau:battlemage_leggings))", "minecraft:custom_name": "\"AN Beine\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "7C8EE3F77A7EF87B"
-					item: { }
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:sorcerer_boots)item(ars_nouveau:arcanist_boots)item(ars_nouveau:battlemage_boots))", "minecraft:custom_name": "\"AN Füße\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -983,6 +621,39 @@
 			}]
 			x: 11.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["7CDC16333D2E3B89"]
+			id: "20C84AF4F5FE3B66"
+			tasks: [{
+				id: "634EDA6569B1C793"
+				item: { count: 1, id: "ars_nouveau:enchanters_gauntlet" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7CDC16333D2E3B89"]
+			id: "3431F8258BFAE1F9"
+			tasks: [{
+				id: "12D1B4D2C5E85775"
+				item: { count: 1, id: "ars_nouveau:enchanters_fishing_rod" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7CDC16333D2E3B89"]
+			id: "2430850475414E3D"
+			tasks: [{
+				id: "0B7B1E897FBEEE24"
+				item: { count: 1, id: "ars_elemental:spell_horn" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 11.0d
 		}
 	]
 }

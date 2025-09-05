@@ -1,6 +1,6 @@
-# Mod Journey
+# Mod Journey 2
 
-[![Minecraft Version](https://img.shields.io/badge/For%20Minecraft-1.20.1-yellow.svg?style=flat)](#introduction)
+[![Minecraft Version](https://img.shields.io/badge/For%20Minecraft-1.21.1-yellow.svg?style=flat)](#introduction)
 [![Discord](https://img.shields.io/discord/807398168139530271?style=flat&logo=discord&label=Discord&color=7289DA)](https://discord.gg/Xuu4Wn3ay2)
 [![CurseForge Downloads](https://img.shields.io/curseforge/dt/1067408?style=flat&logo=curseforge&color=e04e14
 )](https://www.curseforge.com/minecraft/modpacks/mod-journey)
@@ -45,8 +45,7 @@ und führt auch Vanilla Spieler und Mod Einsteiger schrittweise an die Welt der 
 See [Develop Setup Guide](dev-tools/README.md) for more details.
 
 ## Download
-<!-- @todo Update CureForge-link when pack is released -->
-Download the pack on [GitLab](https://gitlab.com/dytech_mc/pack/dytech-4/-/releases) or
+Download the pack from [Github Releases] or
 [CurseForge](https://www.curseforge.com/minecraft/modpacks/mod-journey).
 
 ## SocialLinks
@@ -59,3 +58,4 @@ Download the pack on [GitLab](https://gitlab.com/dytech_mc/pack/dytech-4/-/relea
 [Dylans Discord]: https://discord.gg/Xuu4Wn3ay2
 [YouTube]: https://www.youtube.com/letsdylan
 [Website]: https://dylan-web.net/minecraft-mod-journey/
+[Github Releases]: https://github.com/mod-journey/ModJourney/releases

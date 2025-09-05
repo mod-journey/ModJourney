@@ -5,7 +5,7 @@
   "color": "a6e9ff",
   "armorPoints": 4,
   "enchantability": 12,
-  "craftingMaterial": "tag:forge:ingots/platinum",
+  "craftingMaterial": "tag:c:ingots/platinum",
   "creative": false,
   "rarity": 0,
   "toughness": 0.0,

@@ -1,0 +1,36 @@
+{
+    "parent": "mod_journey:root_gold_coin",
+    "display": {
+      "title": {
+        "translate": "advancement.mod_journey.blood_clump",
+        "color": "green"
+      },
+      "description": {
+        "color": "white",
+        "translate": "advancement.mod_journey.blood_clump.desc"
+      },
+      "icon": {
+        "id": "mod_journey:clotted_blood_clump"
+      },
+      "background": "minecraft:textures/block/obsidian.png",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "has_item": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["mod_journey:clotted_blood_clump"]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 100
+    }
+  }

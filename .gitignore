@@ -57,16 +57,20 @@
 /config/worldedit/.archive-unpack/
 /config/luckperms/translations/
 /config/luckperms/libs/
-kubejs/config/client.json
-kubejs/config/common.json
+/config/ars_nouveau/search_index
 kubejs/config/web_server.json
+/config/jei/jei-debug.ini
+/config/jei/jei-mod-id-format.ini
 
 
 # Ignore files containing user specific config
 /config/voicechat/username-cache.json
 /config/ItemLocks/nodes/SP/
-/config/jei/world/local/
 /config/worldedit/sessions/
+/config/jei/world/local/
+/config/jei/jei-client.ini
+/config/ftbchunks-client.snbt
+/config/justzoom/config.txt
 
 #This files always changed their order
 /config/jade/sort-order.json
@@ -76,7 +80,12 @@ kubejs/config/web_server.json
 # Ignore ProbeJS Generated Files
 .probe
 jsconfig.json
-dev.json
 probe-settings.json
 
+#Ignore personal Workspaces
+_workspace
+
+#Ignore while mod will removed in soon upgrades
+/config/structures_tweaker
+/defaultconfigs/ftbqoptimizer.snbt
 
