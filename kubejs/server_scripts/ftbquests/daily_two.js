@@ -18,7 +18,8 @@ QuestBuilder
             let taskID = event.task.codeString
 
             if (!questStore.contains(taskID)) {
-                questStore.putLong(taskID, now)
+                // calc time from first check to real startTime and save it to store
+                questStore.putLong(taskID, now - builder.checkTimer/20)
             }
             let questStart = questStore.getLong(taskID)
             let progress = (now-questStart)/60
@@ -84,7 +85,7 @@ FTBQuestsEvents.customReward("65A83C70BA4FDE02", event => {
     for (let task of event.reward.quest.tasks) {
         if (task.tags.contains('timespan') /*&& task.type.internalId === 2*/) {
             //event.player.tell("QuestProgress Reset: " +  Date.now() / 1000)
-            questStore.putLong('597813E4951FDC5E', Date.now() / 1000)
+            questStore.remove('597813E4951FDC5E')
         }
     }
 })

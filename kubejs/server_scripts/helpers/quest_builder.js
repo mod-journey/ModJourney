@@ -39,6 +39,13 @@ let QuestBuilder = {
             },
 
             /**
+             * @returns {Number}
+             */
+            get checkTimer() {
+                return this._checkTimer
+            },
+
+            /**
              * Set intervall in ticks, how often check-function is running
              *
              * @param   {int} tickIntervall
