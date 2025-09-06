@@ -1,0 +1,151 @@
+{
+  "name": {
+    "text": "Pulverizer",
+    "color": "white"
+  },
+  "appearance": {
+    "custommachinery:ambient_sound": {
+      "sound": "minecraft:"
+    },
+    "custommachinery:block": "mod_journey:machine/pulverizer#standalone"
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 256000,
+      "max_input": 8000,
+      "max_output": 8000
+    },
+    {
+      "type": "custommachinery:item_result",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output_0",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_result",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output_1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_result",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output_2",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_0",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item_result",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output_3",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 79,
+      "y": 12,
+      "width": 94,
+      "text": {
+        "text": "Pulverizer",
+        "color": "black",
+        "bold": true
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_2",
+      "x": 152,
+      "y": 69
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 45,
+      "y": 105
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 45,
+      "y": 46
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_0",
+      "x": 74,
+      "y": 61
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_1",
+      "x": 92,
+      "y": 61
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 122,
+      "y": 62
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_0",
+      "x": 152,
+      "y": 51
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_1",
+      "x": 170,
+      "y": 51
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_3",
+      "x": 170,
+      "y": 69
+    }
+  ]
+}

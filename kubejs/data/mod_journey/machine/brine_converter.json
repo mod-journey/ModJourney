@@ -1,0 +1,95 @@
+{
+  "name": {
+    "text": "Brine Converter",
+    "color": "white"
+  },
+  "appearance": {
+    "custommachinery:block": "mod_journey:machine/brine_converter#standalone"
+  },
+  "components": [
+    {
+      "type": "custommachinery:fluid",
+      "whitelist": "#minecraft:water",
+      "mode": "input",
+      "id": "input",
+      "capacity": 512000,
+      "max_input": 16000,
+      "max_output": 16000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output",
+      "capacity": 256000,
+      "max_input": 0,
+      "max_output": 16000
+    },
+    {
+      "type": "custommachinery:energy",
+      "capacity": 256000,
+      "max_input": 8000,
+      "max_output": 8000
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 44,
+      "y": 104
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input",
+      "x": 82,
+      "y": 55,
+      "height": 35
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "output",
+      "x": 144,
+      "y": 55,
+      "width": 19,
+      "height": 35,
+      "highlight": false,
+      "orientation": "LEFT"
+    },
+    {
+      "type": "custommachinery:energy",
+      "orientation": "BOTTOM",
+      "x": 21,
+      "y": 32,
+      "width": 19,
+      "height": 58
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 110,
+      "y": 64
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 59,
+      "y": 20,
+      "height": 14,
+      "text": {
+        "text": "Brine Converter",
+        "color": "black",
+        "bold": true
+      }
+    }
+  ]
+}
