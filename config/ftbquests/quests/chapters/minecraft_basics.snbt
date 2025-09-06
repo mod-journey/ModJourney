@@ -882,6 +882,7 @@
 					id: "minecraft:clock"
 				}
 				id: "597813E4951FDC5E"
+				tags: ["timespan"]
 				type: "custom"
 			}]
 			x: -1.5d

@@ -79,4 +79,12 @@ FTBQuestsEvents.customReward("65A83C70BA4FDE02", event => {
         event.player.tell("Etwas ist bei der Abgabe der Quest schiefgelaufen, bitte Kontaktiere umgehend die Orga.")
         event.player.give("mod_journey:gold_coin")
     }
+
+    let questStore = QuestBuilder.getStore(event.player, teamOptional)
+    for (let task of event.reward.quest.tasks) {
+        if (task.tags.contains('timespan') /*&& task.type.internalId === 2*/) {
+            //event.player.tell("QuestProgress Reset: " +  Date.now() / 1000)
+            questStore.putLong('597813E4951FDC5E', Date.now() / 1000)
+        }
+    }
 })
