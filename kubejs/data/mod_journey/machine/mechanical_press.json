@@ -3,7 +3,9 @@
     "text": "Mechanical Press",
     "color": "white"
   },
-  "appearance": {},
+  "appearance": {
+    "custommachinery:block": "mod_journey:machine/metal_press#standalone"
+  },
   "components": [
     {
       "type": "custommachinery:item",
