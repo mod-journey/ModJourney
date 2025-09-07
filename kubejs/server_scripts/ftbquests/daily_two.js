@@ -57,35 +57,36 @@ FTBQuestsEvents.customReward("65A83C70BA4FDE02", event => {
     const teamManager = FTB.getTeamManager();
     const playerUUID = event.player.getUuid();
     const teamOptional = teamManager.getTeamForPlayerID(playerUUID);
+    let memberCount = 1;
 
     if (teamOptional.isPresent()) {
         const team = teamOptional.get();
 
-        // Mitglieder des Teams abrufen
-        const teamMembers = team.getMembers();
-
-        // Anzahl der Mitglieder im Team
-        const memberCount = teamMembers.size();
+        // Mitglieder des Teams abrufen und Anzahl ermitteln
+        memberCount = team.getMembers().size();
 
         // Anzahl der Teammitglieder ausgeben
         console.log("Quest-Erfolg: " + event.player.name.getString() + " hat erfolgreich " + memberCount + " Münze/n für sein Team abgeholt.");
         event.player.tell("Du hast erfolgreich " + memberCount + " Münze/n für dein Team abgeholt")
-
-        for (let n = 1; n <= memberCount; n++) {
-
-            event.player.give("mod_journey:gold_coin")
-        }
     } else {
-        console.log("Quest-Fehler: " + event.player.name.getString() + " hat nur einen Goldcoin erhalten")
+        console.warn("Quest-Fehler: " + event.player.name.getString() + " hat nur einen Goldcoin erhalten")
         event.player.tell("Etwas ist bei der Abgabe der Quest schiefgelaufen, bitte Kontaktiere umgehend die Orga.")
-        event.player.give("mod_journey:gold_coin")
+    }
+
+    // Check if an item is defined as Icon (otherwise it is identical to altIcon)
+    if (event.reward.icon.equals(event.reward.altIcon)) {
+        console.warn('Quest-Fehler: Kein Quest Reward definiert');
+    } else {
+        for (let n = 1; n <= memberCount; n++) {
+            event.player.give(event.reward.icon.ingredient)
+        }
     }
 
     let questStore = QuestBuilder.getStore(event.player, teamOptional)
     for (let task of event.reward.quest.tasks) {
-        if (task.tags.contains('timespan') /*&& task.type.internalId === 2*/) {
+        if (task.hasTag('timespan') /*&& task.type.internalId === 2*/) {
             //event.player.tell("QuestProgress Reset: " +  Date.now() / 1000)
-            questStore.remove('597813E4951FDC5E')
+            questStore.remove(task.codeString)
         }
     }
 })
