@@ -69,7 +69,7 @@ FTBQuestsEvents.customReward("65A83C70BA4FDE02", event => {
         console.log("Quest-Erfolg: " + event.player.name.getString() + " hat erfolgreich " + memberCount + " Münze/n für sein Team abgeholt.");
         event.player.tell("Du hast erfolgreich " + memberCount + " Münze/n für dein Team abgeholt")
     } else {
-        console.warn("Quest-Fehler: " + event.player.name.getString() + " hat nur einen Goldcoin erhalten")
+        console.warn("Quest-Fehler: " + event.player.name.getString() + " hat nur ein Reward Item erhalten")
         event.player.tell("Etwas ist bei der Abgabe der Quest schiefgelaufen, bitte Kontaktiere umgehend die Orga.")
     }
 

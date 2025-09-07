@@ -126,15 +126,23 @@ let QuestBuilder = {
         const questKey = 'quests'
         let playerOrTeamStore = null
 
-        // Load store for player or init store for team
+        /**
+         * @type {null|$Team}
+         */
+        let team = null;
         if (teamOptional && teamOptional.isPresent()) {
+            team = teamOptional.get()
+        }
+
+        // Load store for player or init store for team
+        if (team && !team.isPlayerTeam()) {
             player.server.persistentData
             if (!player.server.persistentData.contains('teams')) {
                 player.server.persistentData.put('teams', {})
             }
 
             let teamsStore = player.server.persistentData.getCompound('teams')
-            let teamID = teamOptional.get().teamId.toString()
+            let teamID = team.teamId.toString()
             if (!teamsStore.contains(teamID)) {
                 teamsStore.put(teamID, {})
             }
