@@ -58,6 +58,14 @@ FTBQuestsEvents.customReward("65A83C70BA4FDE02", event => {
     const playerUUID = event.player.getUuid();
     const teamOptional = teamManager.getTeamForPlayerID(playerUUID);
     let memberCount = 1;
+    let rewardItem = stages.coins.silver
+
+    // Check if an item is defined as Icon (otherwise it is identical to altIcon)
+    if (event.reward.icon.equals(event.reward.altIcon)) {
+        console.warn('Quest-Fehler: Kein Quest Reward definiert');
+    } else {
+        rewardItem = event.reward.icon.ingredient
+    }
 
     if (teamOptional.isPresent()) {
         const team = teamOptional.get();
@@ -66,20 +74,15 @@ FTBQuestsEvents.customReward("65A83C70BA4FDE02", event => {
         memberCount = team.getMembers().size();
 
         // Anzahl der Teammitglieder ausgeben
-        console.log("Quest-Erfolg: " + event.player.name.getString() + " hat erfolgreich " + memberCount + " Münze/n für sein Team abgeholt.");
+        console.log("Quest-Erfolg: " + event.player.name.getString() + " hat erfolgreich " + memberCount + " '" + rewardItem + "' für sein Team abgeholt.");
         event.player.tell("Du hast erfolgreich " + memberCount + " Münze/n für dein Team abgeholt")
     } else {
-        console.warn("Quest-Fehler: " + event.player.name.getString() + " hat nur ein Reward Item erhalten")
+        console.warn("Quest-Fehler: " + event.player.name.getString() + " hat nur ein '" + rewardItem + "' erhalten")
         event.player.tell("Etwas ist bei der Abgabe der Quest schiefgelaufen, bitte Kontaktiere umgehend die Orga.")
     }
 
-    // Check if an item is defined as Icon (otherwise it is identical to altIcon)
-    if (event.reward.icon.equals(event.reward.altIcon)) {
-        console.warn('Quest-Fehler: Kein Quest Reward definiert');
-    } else {
-        for (let n = 1; n <= memberCount; n++) {
-            event.player.give(event.reward.icon.ingredient)
-        }
+    for (let n = 1; n <= memberCount; n++) {
+        event.player.give(rewardItem)
     }
 
     let questStore = QuestBuilder.getStore(event.player, teamOptional)
