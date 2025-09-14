@@ -747,38 +747,144 @@
 			dependencies: ["49D841614CC15BE6"]
 			hide_until_deps_visible: true
 			id: "06058D4919841D02"
+			optional: true
+			rewards: [{
+				command: "/ftbranks add @p weekling"
+				exclude_from_claim_all: true
+				id: "2E96B6183FB01228"
+				permission_level: 2
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:clock"
+				}
+				id: "05B74B2E0F42359F"
+				tags: ["time_system"]
+				type: "custom"
+			}]
 			x: -7.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["06058D4919841D02"]
 			id: "59E92107A4481944"
+			optional: true
+			rewards: [{
+				command: "/ftbranks add @p double-weekling"
+				exclude_from_claim_all: true
+				id: "496226723098CD38"
+				permission_level: 2
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:clock"
+				}
+				id: "0707E0514EDD6A01"
+				tags: ["time_system"]
+				type: "custom"
+			}]
 			x: -7.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["59E92107A4481944"]
 			id: "6E7B5D5F3EC952AD"
+			optional: true
+			rewards: [{
+				command: "/ftbranks add @p triple-weekling"
+				exclude_from_claim_all: true
+				id: "05D519F88C5EBAC7"
+				permission_level: 2
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:clock"
+				}
+				id: "61DD4DAADD7E6BD3"
+				tags: ["time_system"]
+				type: "custom"
+			}]
 			x: -7.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["6E7B5D5F3EC952AD"]
 			id: "17F4AD786B66A4A7"
+			optional: true
+			rewards: [{
+				command: "/ftbranks add @p monthling"
+				exclude_from_claim_all: true
+				id: "69D8BF511A6C798F"
+				permission_level: 2
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:clock"
+				}
+				id: "1459E7CC4CC6A32F"
+				tags: ["time_system"]
+				type: "custom"
+			}]
 			x: -7.0d
 			y: 5.0d
 		}
 		{
+			can_repeat: true
+			icon: {
+				id: "mod_journey:copper_coin"
+			}
 			id: "38FCDBC67E137073"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "738C3631FA49D6B6"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				team_reward: false
+				type: "item"
+			}]
 			tasks: [{
-				id: "012ED275E250F620"
-				type: "checkmark"
+				icon: {
+					id: "minecraft:clock"
+				}
+				id: "30D9E8CD52F44C9A"
+				type: "custom"
 			}]
 			x: -3.5d
 			y: 3.0d
 		}
 		{
+			can_repeat: true
+			icon: {
+				id: "mod_journey:silver_coin"
+			}
 			id: "146D1D0765124A16"
+			optional: true
+			rewards: [{
+				icon: {
+					id: "mod_journey:silver_coin"
+				}
+				id: "65A83C70BA4FDE02"
+				type: "custom"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:clock"
+				}
+				id: "597813E4951FDC5E"
+				tags: ["timespan"]
+				type: "custom"
+			}]
 			x: -1.5d
 			y: 3.0d
 		}
