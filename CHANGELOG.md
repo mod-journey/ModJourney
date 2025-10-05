@@ -6,6 +6,7 @@
 ## v2.0.1.5
 
 #### Mods updated:
+- Construction Sticks 1.2.0 => 1.2.3
 - LootJS 3.4.0 => 3.4.3
 -->
 
