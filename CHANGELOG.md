@@ -13,6 +13,7 @@
 - CraftPresence 2.6.1 => 2.6.2
 - CraftingTweaks 21.1.5 => 21.1.6
 - Domum Ornamentum 1.0.213 => 1.0.221
+- Entity Culling 1.7.4 => 1.8.2
 - Extreme Sound Muffler 3.49.2 => 3.51
 - Get it Together, Drops 1.3.2 => 1.4
 - FancyMenu 3.5.0 => 3.7.0
