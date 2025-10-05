@@ -13,6 +13,7 @@
 - FancyMenu 3.5.0 => 3.7.0
 - JEI 19.21.9.247 => 19.21.2.313
 - LootJS 3.4.0 => 3.4.3
+- Toast Control 9.0.0 => 9.0.1
 -->
 
 ### Migration to NeoForge and 1.21
