@@ -6,11 +6,13 @@
 ## v2.0.1.5
 
 #### Mods updated:
+- Amplified Nether 1.2.8 => 1.2.11
 - Corpse 1.1.7 => 1.1.13
 - Colorful Hearts 10.3.8 => 10.5.9
 - Construction Sticks 1.2.0 => 1.2.3
 - CraftPresence 2.6.1 => 2.6.2
 - CraftingTweaks 21.1.5 => 21.1.6
+- Domum Ornamentum 1.0.213 => 1.0.221
 - Extreme Sound Muffler 3.49.2 => 3.51
 - Get it Together, Drops 1.3.2 => 1.4
 - FancyMenu 3.5.0 => 3.7.0
