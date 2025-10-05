@@ -13,6 +13,7 @@
 - Extreme Sound Muffler 3.49.2 => 3.51
 - Get it Together, Drops 1.3.2 => 1.4
 - FancyMenu 3.5.0 => 3.7.0
+- FastWorkbench 9.1.2 => 9.1.3
 - FTB Ultimine 2101.1.4 => 2101.1.10
 - Jade 15.10.0 => 15.10.3
 - JEI 19.21.9.247 => 19.21.2.313
