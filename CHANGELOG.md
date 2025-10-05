@@ -6,6 +6,7 @@
 ## v2.0.1.5
 
 #### Mods updated:
+- Colorful Hearts 10.3.8 => 10.5.9
 - Construction Sticks 1.2.0 => 1.2.3
 - Extreme Sound Muffler 3.49.2 => 3.51
 - Get it Together, Drops 1.3.2 => 1.4
