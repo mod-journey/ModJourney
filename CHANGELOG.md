@@ -6,6 +6,7 @@
 ## v2.0.1.5
 
 #### Mods updated:
+- Corpse 1.1.7 => 1.1.13
 - Colorful Hearts 10.3.8 => 10.5.9
 - Construction Sticks 1.2.0 => 1.2.3
 - CraftPresence 2.6.1 => 2.6.2
