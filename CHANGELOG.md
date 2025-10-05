@@ -8,6 +8,7 @@
 #### Mods updated:
 - Colorful Hearts 10.3.8 => 10.5.9
 - Construction Sticks 1.2.0 => 1.2.3
+- CraftPresence 2.6.1 => 2.6.2
 - Extreme Sound Muffler 3.49.2 => 3.51
 - Get it Together, Drops 1.3.2 => 1.4
 - FancyMenu 3.5.0 => 3.7.0
