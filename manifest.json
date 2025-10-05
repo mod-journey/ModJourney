@@ -3,7 +3,7 @@
     "version": "1.21.1",
     "modLoaders": [
       {
-        "id": "neoforge-21.1.170",
+        "id": "neoforge-21.1.187",
         "primary": true
       }
     ]

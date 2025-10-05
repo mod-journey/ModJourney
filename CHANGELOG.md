@@ -6,6 +6,7 @@
 ## v2.0.1.5
 
 #### Mods updated:
+- Neoforge 21.1.170 => 21.1.187
 - Amplified Nether 1.2.8 => 1.2.11
 - Corpse 1.1.7 => 1.1.13
 - Colorful Hearts 10.3.8 => 10.5.9
