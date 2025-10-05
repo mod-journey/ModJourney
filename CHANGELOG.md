@@ -23,6 +23,7 @@
 - JEI 19.21.9.247 => 19.21.2.313
 - LootJS 3.4.0 => 3.4.3
 - Macaw`s Windows 2.3.0 => 2.4.1
+- Placebo 9.8.1 => 9.9.1
 - Polymorph 1.0.10 => 1.1.0
 - Toast Control 9.0.0 => 9.0.1
 -->
