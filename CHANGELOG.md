@@ -2,6 +2,13 @@
 
 ## NEXT RELEASE
 
+<!--
+## v2.0.1.5
+
+#### Mods updated:
+- LootJS 3.4.0 => 3.4.3
+-->
+
 ### Migration to NeoForge and 1.21
 
 #### Mods added:
