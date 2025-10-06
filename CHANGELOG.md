@@ -7,19 +7,29 @@
 
 #### Mods updated:
 - Neoforge 21.1.170 => 21.1.208
+- Athena 4.0.1 => 4.0.2
 - Additional Lanterns 1.1.1 => 1.1.2
 - Additional Lights 2.1.10 => 2.1.9
 - Amplified Nether 1.2.8 => 1.2.11
+- baguettelib 1.0.0 => 1.1.2
+- Balm 21.0.49 => 21.0.52
+- Bookshelf 21.1.64 => 21.1.69
 - Cooking for Blockheads 21.1.16 => 21.1.17
 - Corpse 1.1.7 => 1.1.13
+- Collective 1.8.3 => 1.8.7
 - Colorful Hearts 10.3.8 => 10.5.9
 - Construction Sticks 1.2.0 => 1.2.3
 - CraftPresence 2.6.1 => 2.6.2
 - CraftingTweaks 21.1.5 => 21.1.6
+- Cucumber Library 8.0.12 => 8.0.14
 - Domum Ornamentum 1.0.213 => 1.0.221
+- Enchantment Descriptions 21.1.7 => 21.1.9
+- EnderChests 0.1 => 1.0
+- EnderTanks 0.1 => 1.0
 - Entity Culling 1.7.4 => 1.8.2
 - Extreme Sound Muffler 3.49.2 => 3.51
 - Everything is Copper 2.4.3 => 2.4.5
+- GeckoLib 4.7.6 => 4.8.2
 - Get it Together, Drops 1.3.2 => 1.4
 - FancyMenu 3.5.0 => 3.7.0
 - Farmer's Delight 1.2.8 => 1.2.9
@@ -29,12 +39,21 @@
 - Fusion 1.2.7b => 1.2.11b
 - Jade 15.10.0 => 15.10.3
 - JEI 19.21.9.247 => 19.21.2.313
+- Kotlin for Forge 5.9.0 => 5.10.0
 - LootJS 3.4.0 => 3.4.3
 - Macaw's Paths and Pavings 1.1.0 => 1.1.1
 - Macaw`s Windows 2.3.0 => 2.4.1
+- Modonomicon 1.115.1 => 1.117.1
 - Placebo 9.8.1 => 9.9.1
 - Polymorph 1.0.10 => 1.1.0
+- Prickle 21.1.8 => 21.1.11
+- Puzzles Lib 21.1.36 => 21.1.38
 - Toast Control 9.0.0 => 9.0.1
+- ShetiPhianCore 0.3 => 1.1
+- Simple Backups 4.0.18 => 4.0.20
+- Simple Voice Chat 2.5.31 => 2.5.35
+- SmartBrainLib 1.16.10 => 1.16.11
+- UniLib 1.1.0 => 1.1.1
 -->
 
 ### Migration to NeoForge and 1.21
