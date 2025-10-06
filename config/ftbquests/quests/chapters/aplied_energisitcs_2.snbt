@@ -2003,23 +2003,5 @@
 			x: 13.5d
 			y: 1.2273809523809511d
 		}
-		{
-			id: "77E4B7D94243624D"
-			rewards: [{
-				id: "5695D1F6A9AE5CFE"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "567381DBC2D7DC52"
-				item: { count: 1, id: "megacells:sky_steel_ingot" }
-				type: "item"
-			}]
-			x: -9.0d
-			y: 6.75d
-		}
 	]
 }
