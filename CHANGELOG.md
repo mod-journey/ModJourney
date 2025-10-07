@@ -66,6 +66,7 @@
 - BaguetteLib
 - Construction Sticks
 - Custom Machinery
+- Connectivity
 - Decorative Blocks
 - Macaw's Stairs
 - Mekanism Covers
