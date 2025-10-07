@@ -7,10 +7,10 @@
 
 #### Mods updated:
 - Neoforge 21.1.170 => 21.1.208
-- Athena 4.0.1 => 4.0.2
 - Additional Lanterns 1.1.1 => 1.1.2
 - Additional Lights 2.1.10 => 2.1.9
 - Amplified Nether 1.2.8 => 1.2.11
+- Athena 4.0.1 => 4.0.2
 - baguettelib 1.0.0 => 1.1.2
 - Balm 21.0.49 => 21.0.52
 - Bookshelf 21.1.64 => 21.1.69
@@ -43,17 +43,21 @@
 - LootJS 3.4.0 => 3.4.3
 - Macaw's Paths and Pavings 1.1.0 => 1.1.1
 - Macaw`s Windows 2.3.0 => 2.4.1
+- McJtyLib 9.0.9 => 9.0.14
 - Modonomicon 1.115.1 => 1.117.1
 - Placebo 9.8.1 => 9.9.1
 - Polymorph 1.0.10 => 1.1.0
 - Prickle 21.1.8 => 21.1.11
 - Puzzles Lib 21.1.36 => 21.1.38
 - Toast Control 9.0.0 => 9.0.1
+- RFTools Base 6.0.7 => 6.0.8
+- RFTools Utility 7.0.3 => 7.0.9
 - ShetiPhianCore 0.3 => 1.1
 - Simple Backups 4.0.18 => 4.0.20
 - Simple Voice Chat 2.5.31 => 2.5.35
 - SmartBrainLib 1.16.10 => 1.16.11
 - UniLib 1.1.0 => 1.1.1
+- XNet Gases 6.0.0 => 6.0.1
 -->
 
 ### Migration to NeoForge and 1.21
