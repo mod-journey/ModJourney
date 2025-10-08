@@ -50,7 +50,11 @@
 - Macaw`s Windows 2.3.0 => 2.4.1
 - McJtyLib 9.0.9 => 9.0.14
 - Modonomicon 1.115.1 => 1.117.1
+- Mystical Agradditions 8.0.7 => 8.0.9
+- Mystical Agriculture 8.0.17 => 8.0.19
+- Nature's Aura 41.7 => 41.9
 - Nullscape 1.2.11 => 1.2.14
+- Occultism 1.189.0 => 1.192.2
 - Placebo 9.8.1 => 9.9.1
 - Polymorph 1.0.10 => 1.1.0
 - Prickle 21.1.8 => 21.1.11
