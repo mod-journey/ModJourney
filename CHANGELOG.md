@@ -34,6 +34,7 @@
 - EnderTanks 0.1 => 1.0
 - Entity Culling 1.7.4 => 1.8.2
 - Extended Crafting 7.0.5 => 7.0.6
+- Extreme Reactors 2.4.24 => 2.4.25
 - Extreme Sound Muffler 3.49.2 => 3.51
 - Everything is Copper 2.4.3 => 2.4.5
 - GeckoLib 4.7.6 => 4.8.2
@@ -43,8 +44,10 @@
 - FastWorkbench 9.1.2 => 9.1.3
 - FramedBlocks 10.3.2 => 10.5.0
 - FTB Ultimine 2101.1.4 => 2101.1.10
+- Functional Storage 1.4.3 => 1.5.4
 - Fusion 1.2.7b => 1.2.11b
 - Jade 15.10.0 => 15.10.3
+- Industrial Foregoing 3.6.29 => 3.6.36
 - Iron Jetpacks 8.0.9 => 8.0.10
 - JEI 19.21.9.247 => 19.21.2.313
 - Kotlin for Forge 5.9.0 => 5.10.0
@@ -53,6 +56,7 @@
 - Macaw's Paths and Pavings 1.1.0 => 1.1.1
 - Macaw`s Windows 2.3.0 => 2.4.1
 - McJtyLib 9.0.9 => 9.0.14
+- Mob Grinding Utils 1.1.9 => 1.1.10
 - Modonomicon 1.115.1 => 1.117.1
 - Mystical Agradditions 8.0.7 => 8.0.9
 - Mystical Agriculture 8.0.17 => 8.0.19
@@ -61,6 +65,7 @@
 - Occultism 1.189.0 => 1.192.2
 - Placebo 9.8.1 => 9.9.1
 - Polymorph 1.0.10 => 1.1.0
+- Powah! (Rearchitected) 6.2.4 => 6.2.6
 - Prickle 21.1.8 => 21.1.11
 - Puzzles Lib 21.1.36 => 21.1.38
 - Toast Control 9.0.0 => 9.0.1
@@ -70,6 +75,8 @@
 - Simple Backups 4.0.18 => 4.0.20
 - Simple Voice Chat 2.5.31 => 2.5.35
 - SmartBrainLib 1.16.10 => 1.16.11
+- Sophisticated Backpacks 3.24.15.1250 => 3.25.9.1390
+- Sophisticated Core 1.3.50.1004 => 1.3.87.1229
 - UniLib 1.1.0 => 1.1.1
 - Waystones 21.1.22 => 21.1.23
 - XNet Gases 6.0.0 => 6.0.1
