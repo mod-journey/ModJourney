@@ -10,6 +10,10 @@
 - Additional Lanterns 1.1.1 => 1.1.2
 - Additional Lights 2.1.10 => 2.1.9
 - Amplified Nether 1.2.8 => 1.2.11
+- Apotheosis 8.3.6 => 8.4.0
+- Apothic Attributes 2.8.1 => 2.9.0
+- Apothic Enchanting 1.4.2 => 1.5.0
+- Apothic Spawners 1.3.0 => 1.3.2
 - Athena 4.0.1 => 4.0.2
 - baguettelib 1.0.0 => 1.1.2
 - Balm 21.0.49 => 21.0.52
