@@ -1,5 +1,6 @@
 in_world_coloring = true
 full_stack_linking = true
+curios_trinkets = true
 
 #List Entry Format <modId>:<item> or tag|<tagId>
 [upgrade_items]
