@@ -47,6 +47,7 @@
 - Functional Storage 1.4.3 => 1.5.4
 - Fusion 1.2.7b => 1.2.11b
 - Jade 15.10.0 => 15.10.3
+- Just Enough Mekanism Multiblocks 7.7 => 7.11
 - Industrial Foregoing 3.6.29 => 3.6.36
 - Iron Jetpacks 8.0.9 => 8.0.10
 - JEI 19.21.9.247 => 19.21.2.313
@@ -56,6 +57,11 @@
 - Macaw's Paths and Pavings 1.1.0 => 1.1.1
 - Macaw`s Windows 2.3.0 => 2.4.1
 - McJtyLib 9.0.9 => 9.0.14
+- Mekanism 10.7.14.79 => 10.7.16.82
+- Mekanism Additions 10.7.14.79 => 10.7.16.82
+- Mekanism Generators 10.7.14.79 => 10.7.16.82
+- Mekanism Tools 10.7.14.79 => 10.7.16.82
+- Mekanism: Weapons 2.6 => 3.0
 - Mob Grinding Utils 1.1.9 => 1.1.10
 - Modonomicon 1.115.1 => 1.117.1
 - Mystical Agradditions 8.0.7 => 8.0.9
