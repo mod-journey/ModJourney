@@ -14,6 +14,8 @@
 - Apothic Attributes 2.8.1 => 2.9.0
 - Apothic Enchanting 1.4.2 => 1.5.0
 - Apothic Spawners 1.3.0 => 1.3.2
+- Applied Energistics 2 - 2.14 => 2.17
+- Applied Energistics 2 Wireless Terminals 2.5 => 2.6
 - Athena 4.0.1 => 4.0.2
 - baguettelib 1.0.0 => 1.1.2
 - Balm 21.0.49 => 21.0.52
@@ -33,6 +35,7 @@
 - EnderChests 0.1 => 1.0
 - EnderTanks 0.1 => 1.0
 - Entity Culling 1.7.4 => 1.8.2
+- ExtendedAE 2.2.15 => 2.2.23
 - Extended Crafting 7.0.5 => 7.0.6
 - Extreme Reactors 2.4.24 => 2.4.25
 - Extreme Sound Muffler 3.49.2 => 3.51
@@ -57,11 +60,13 @@
 - Macaw's Paths and Pavings 1.1.0 => 1.1.1
 - Macaw`s Windows 2.3.0 => 2.4.1
 - McJtyLib 9.0.9 => 9.0.14
+- MEGA Cells 4.9.0 => 4.10.1
 - Mekanism 10.7.14.79 => 10.7.16.82
 - Mekanism Additions 10.7.14.79 => 10.7.16.82
 - Mekanism Generators 10.7.14.79 => 10.7.16.82
 - Mekanism Tools 10.7.14.79 => 10.7.16.82
 - Mekanism: Weapons 2.6 => 3.0
+- ME Requester 1.2.0 => 1.4.1
 - Mob Grinding Utils 1.1.9 => 1.1.10
 - Modonomicon 1.115.1 => 1.117.1
 - Mystical Agradditions 8.0.7 => 8.0.9
