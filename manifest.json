@@ -10,7 +10,7 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Mod Journey 2 - dev",
+  "name": "Mod Journey 2 - dev - update",
   "version": "2.0.1.5",
   "author": "",
   "files": [
@@ -41,7 +41,7 @@
     },
     {
       "projectID": 410811,
-      "fileID": 6179042,
+      "fileID": 6979622,
       "required": true
     },
     {
@@ -241,7 +241,7 @@
     },
     {
       "projectID": 289412,
-      "fileID": 6829025,
+      "fileID": 7029249,
       "required": true
     },
     {
@@ -351,7 +351,7 @@
     },
     {
       "projectID": 943925,
-      "fileID": 6755210,
+      "fileID": 6899527,
       "required": true
     },
     {
@@ -411,7 +411,7 @@
     },
     {
       "projectID": 889915,
-      "fileID": 6743720,
+      "fileID": 6979171,
       "required": true
     },
     {
@@ -471,7 +471,7 @@
     },
     {
       "projectID": 314906,
-      "fileID": 6504893,
+      "fileID": 7029260,
       "required": true
     },
     {
@@ -556,7 +556,7 @@
     },
     {
       "projectID": 404465,
-      "fileID": 6807431,
+      "fileID": 7029003,
       "required": true
     },
     {
@@ -651,7 +651,7 @@
     },
     {
       "projectID": 404468,
-      "fileID": 6119437,
+      "fileID": 6930910,
       "required": true
     },
     {

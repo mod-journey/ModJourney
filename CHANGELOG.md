@@ -46,7 +46,14 @@
 - Farmer's Delight 1.2.8 => 1.2.9
 - FastWorkbench 9.1.2 => 9.1.3
 - FramedBlocks 10.3.2 => 10.5.0
+- FTB Chunks (Forge) 2101.1.6 => 2101.1.11
+- FTB Essentials (Forge & Fabric) 1.6 => 1.7
+- FTB Filter System 21.1.2 => 21.1.3
+- FTB Library (Forge) 2101.1.18 => 2101.1.21
+- FTB Quests (Forge) 2101.1.13 => 2101.1.16
+- FTB Teams (Forge) 2101.1.2 => 2101.1.4
 - FTB Ultimine 2101.1.4 => 2101.1.10
+- FTB XMod Compat 21.1.4 => 21.1.6
 - Functional Storage 1.4.3 => 1.5.4
 - Fusion 1.2.7b => 1.2.11b
 - Jade 15.10.0 => 15.10.3
