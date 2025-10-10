@@ -8,8 +8,8 @@
 #### Mods updated:
 - Neoforge 21.1.170 => 21.1.208
 - Additional Lanterns 1.1.1 => 1.1.2
-- Additional Lights 2.1.10 => 2.1.9
-- Aether 2.5.8 => 1.5.10
+- Additional Lights 2.1.9 => 2.1.10
+- Aether 1.5.8 => 1.5.10
 - Amplified Nether 1.2.8 => 1.2.11
 - Apotheosis 8.3.6 => 8.4.0
 - Apothic Attributes 2.8.1 => 2.9.0
