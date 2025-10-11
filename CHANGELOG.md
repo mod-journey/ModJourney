@@ -8,31 +8,39 @@
 #### Mods updated:
 - Neoforge 21.1.170 => 21.1.208
 - Additional Lanterns 1.1.1 => 1.1.2
-- Additional Lights 2.1.10 => 2.1.9
+- Additional Lights 2.1.9 => 2.1.10
+- Aether 1.5.8 => 1.5.10
 - Amplified Nether 1.2.8 => 1.2.11
 - Apotheosis 8.3.6 => 8.4.0
 - Apothic Attributes 2.8.1 => 2.9.0
 - Apothic Enchanting 1.4.2 => 1.5.0
 - Apothic Spawners 1.3.0 => 1.3.2
+- Applied Energistics 2 - 2.14 => 2.17
+- Applied Energistics 2 Wireless Terminals 2.5 => 2.6
+- Ars Elemental 0.7.5.0.1 => 0.7.6.1
+- Ars Nouveau 5.10.3 => 5.10.5
 - Athena 4.0.1 => 4.0.2
+- ATO - All the Ores 3.1.6 => 3.1.8
 - baguettelib 1.0.0 => 1.1.2
 - Balm 21.0.49 => 21.0.52
 - Baubley Heart Canisters 1.2.2 => 1.2.3
 - Bookshelf 21.1.64 => 21.1.69
 - Cooking for Blockheads 21.1.16 => 21.1.17
 - Corpse 1.1.7 => 1.1.13
-- Corpse x Curios API Compat 3.0.2 => 3.1.2
+- Corpse x Curios API Compat 3.0.2 => 3.1.3
 - Collective 1.8.3 => 1.8.7
 - Colorful Hearts 10.3.8 => 10.5.9
 - Construction Sticks 1.2.0 => 1.2.3
 - CraftPresence 2.6.1 => 2.6.2
 - CraftingTweaks 21.1.5 => 21.1.6
 - Cucumber Library 8.0.12 => 8.0.14
+- Custom Machinery 0.10.36 => 0.10.45
 - Domum Ornamentum 1.0.213 => 1.0.221
 - Enchantment Descriptions 21.1.7 => 21.1.9
 - EnderChests 0.1 => 1.0
 - EnderTanks 0.1 => 1.0
-- Entity Culling 1.7.4 => 1.8.2
+- Entity Culling 1.7.4 => 1.9.0
+- ExtendedAE 2.2.15 => 2.2.23
 - Extended Crafting 7.0.5 => 7.0.6
 - Extreme Reactors 2.4.24 => 2.4.25
 - Extreme Sound Muffler 3.49.2 => 3.51
@@ -43,10 +51,18 @@
 - Farmer's Delight 1.2.8 => 1.2.9
 - FastWorkbench 9.1.2 => 9.1.3
 - FramedBlocks 10.3.2 => 10.5.0
+- FTB Chunks (Forge) 2101.1.6 => 2101.1.11
+- FTB Essentials (Forge & Fabric) 1.6 => 1.7
+- FTB Filter System 21.1.2 => 21.1.3
+- FTB Library (Forge) 2101.1.18 => 2101.1.21
+- FTB Quests (Forge) 2101.1.13 => 2101.1.16
+- FTB Teams (Forge) 2101.1.2 => 2101.1.4
 - FTB Ultimine 2101.1.4 => 2101.1.10
+- FTB XMod Compat 21.1.4 => 21.1.6
 - Functional Storage 1.4.3 => 1.5.4
 - Fusion 1.2.7b => 1.2.11b
 - Jade 15.10.0 => 15.10.3
+- Just Enough Mekanism Multiblocks 7.7 => 7.11
 - Industrial Foregoing 3.6.29 => 3.6.36
 - Iron Jetpacks 8.0.9 => 8.0.10
 - JEI 19.21.9.247 => 19.21.2.313
@@ -56,21 +72,31 @@
 - Macaw's Paths and Pavings 1.1.0 => 1.1.1
 - Macaw`s Windows 2.3.0 => 2.4.1
 - McJtyLib 9.0.9 => 9.0.14
+- MEGA Cells 4.9.0 => 4.10.1
+- Mekanism 10.7.14.79 => 10.7.16.82
+- Mekanism Additions 10.7.14.79 => 10.7.16.82
+- Mekanism Generators 10.7.14.79 => 10.7.16.82
+- Mekanism Tools 10.7.14.79 => 10.7.16.82
+- Mekanism: Weapons 2.6 => 3.0
+- ME Requester 1.2.0 => 1.4.1
 - Mob Grinding Utils 1.1.9 => 1.1.10
-- Modonomicon 1.115.1 => 1.117.1
+- Modonomicon 1.115.1 => 1.117.2
 - Mystical Agradditions 8.0.7 => 8.0.9
 - Mystical Agriculture 8.0.17 => 8.0.19
 - Nature's Aura 41.7 => 41.9
 - Nullscape 1.2.11 => 1.2.14
 - Occultism 1.189.0 => 1.192.2
+- owo-lib 0.12.15.1-beta.3 => 0.12.15.5-beta.1
 - Placebo 9.8.1 => 9.9.1
 - Polymorph 1.0.10 => 1.1.0
 - Powah! (Rearchitected) 6.2.4 => 6.2.6
 - Prickle 21.1.8 => 21.1.11
 - Puzzles Lib 21.1.36 => 21.1.38
+- The Undergarden 0.8.22 => 0.9.3
 - Toast Control 9.0.0 => 9.0.1
 - RFTools Base 6.0.7 => 6.0.8
 - RFTools Utility 7.0.3 => 7.0.9
+- Rhino 2101.2.7-build 74 => 2101.2.7-build 77
 - ShetiPhianCore 0.3 => 1.1
 - Simple Backups 4.0.18 => 4.0.20
 - Simple Voice Chat 2.5.31 => 2.5.35
@@ -105,6 +131,7 @@
 - The Twilight Forest
 - Undergarden Additional Structures
 - Undergarden Delight
+- Toms Trading Network 1.21.1-0.3.3
 
 #### Mods removed:
 - Ad Astra
