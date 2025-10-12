@@ -7,7 +7,7 @@
 		id: "occultism:ritual_dummy/summon_foliot_crusher"
 	}
 	id: "0352CE84D4BC63C6"
-	order_index: 4
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
