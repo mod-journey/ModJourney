@@ -235,7 +235,7 @@
 				id: "7C39473C3E3F41E1"
 				observe_type: 0
 				timer: 0L
-				to_observe: "minecraft:dirt"
+				to_observe: "ae2:flawless_budding_quartz"
 				type: "observation"
 			}]
 			x: -3.0d
