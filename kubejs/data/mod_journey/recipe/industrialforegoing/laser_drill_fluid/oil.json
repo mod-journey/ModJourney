@@ -12,7 +12,7 @@
   "entity": "minecraft:empty",
   "output": {
     "amount": 50,
-    "id": "stellaris:oil"
+    "fluid": "stellaris:oil"
   },
   "rarity": [
     {
