@@ -125,13 +125,13 @@
 			optional: true
 			tasks: [
 				{
-					id: "1D4C50D053757F4A"
-					item: { count: 1, id: "occultism:ritual_dummy/summon_foliot_crusher" }
+					id: "4EFD62BFCF5BBD57"
+					item: { components: { "occultism:spirit_name": "Krlynder" }, count: 1, id: "occultism:book_of_binding_bound_foliot" }
 					type: "item"
 				}
 				{
-					id: "4EFD62BFCF5BBD57"
-					item: { components: { "occultism:spirit_name": "Krlynder" }, count: 1, id: "occultism:book_of_binding_bound_foliot" }
+					id: "0BCDD3EC7D2C9B08"
+					item: { count: 1, id: "occultism:crushed_end_stone" }
 					type: "item"
 				}
 			]
