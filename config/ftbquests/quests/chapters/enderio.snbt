@@ -10,6 +10,7 @@
 		{
 			dependencies: ["4AED5A8C9C70A9C9"]
 			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "2F46349E2FB2FB5E"
 			rewards: [
 				{
@@ -617,6 +618,8 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["2F46349E2FB2FB5E"]
+			hide_dependency_lines: true
 			id: "5317D16EC35D2E6F"
 			rewards: [
 				{
@@ -954,6 +957,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2F46349E2FB2FB5E"]
+			hide_dependency_lines: true
 			id: "711BD2AFB5308AC5"
 			rewards: [
 				{

@@ -15,6 +15,8 @@
 				"12D3B4B92CA5252C"
 				"1D4986D36052E5D1"
 			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "280D95E313DDA71D"
 			tasks: [{
 				id: "0D0A3B350C73C428"
@@ -451,6 +453,8 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["280D95E313DDA71D"]
+			hide_dependency_lines: true
 			id: "52BDD73ACE4C17D7"
 			tasks: [{
 				id: "364B333643B951AA"
@@ -548,6 +552,8 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["280D95E313DDA71D"]
+			hide_dependency_lines: true
 			id: "6BC62E21B31D6CB9"
 			tasks: [{
 				id: "03DAB7BEA9C38BB8"

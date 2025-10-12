@@ -76,7 +76,12 @@
 			y: -0.5272108843537424d
 		}
 		{
-			dependencies: ["5600D421C0F617A9"]
+			dependencies: [
+				"5600D421C0F617A9"
+				"25ADF4BACFFF9FB7"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "776BA18F35EA7817"
 			size: 1.0d
 			tasks: [{

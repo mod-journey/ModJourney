@@ -16,7 +16,7 @@
 				"796D47D4DEDA277C"
 			]
 			dependency_requirement: "one_completed"
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			icon: {
 				id: "ars_nouveau:arcanist_hood"
 			}

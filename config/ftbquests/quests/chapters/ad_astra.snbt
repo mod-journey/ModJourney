@@ -158,7 +158,7 @@
 				"0B7B7C7A1366C9D1"
 			]
 			dependency_requirement: "one_completed"
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "625BCE0C411DF831"
 			rewards: [
 				{

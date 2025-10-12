@@ -45,7 +45,7 @@
 				"1037AFA7BDC22B53"
 			]
 			dependency_requirement: "one_completed"
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "67E0A85291DD6898"
 			size: 1.5d
 			tasks: [{
@@ -1185,7 +1185,7 @@
 				{
 					count: 2L
 					id: "1CB8BA6FFB55D2EB"
-					item: { count: 2, id: "mekanism:raw_osmium" }
+					item: { count: 2, id: "alltheores:raw_osmium" }
 					type: "item"
 				}
 			]

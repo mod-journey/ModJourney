@@ -422,7 +422,12 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["2619E71D63B1B7FE"]
+			dependencies: [
+				"2619E71D63B1B7FE"
+				"0B7B7C7A1366C9D1"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "012414144A7C0228"
 			tasks: [{
 				id: "6FCBFBDD2BEBBDF0"
