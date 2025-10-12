@@ -6,11 +6,11 @@
     "useActionBar": true,
     "effect": "2003",
     "sound": "entity.enderman.teleport",
-    "preventMobSpawns": false,
-    "preventEnderpearl": false,
-    "preventChorusFruit": false,
-    "visualizerEnabled": false,
-    "visualizerRange": 8,
+    "preventMobSpawns": true,
+    "preventEnderpearl": true,
+    "preventChorusFruit": true,
+    "visualizerEnabled": true,
+    "visualizerRange": 16,
     "visualizerColor": "20A0FF"
   },
   "mapOptions": {
