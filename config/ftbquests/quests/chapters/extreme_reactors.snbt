@@ -36,7 +36,7 @@
 				}
 				{
 					id: "53108B6305488F89"
-					item: { count: 1, id: "bigreactors:reinforced_reactorcontroller" }
+					item: { count: 1, id: "bigreactors:basic_reactorcontroller" }
 					type: "item"
 				}
 				{
