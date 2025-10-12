@@ -4,6 +4,9 @@
 	default_quest_shape: ""
 	filename: "mystical_agriculture"
 	group: "78025998DBB7AC61"
+	icon: {
+		id: "mysticalagriculture:inferium_seeds"
+	}
 	id: "628369B0B9A2CE0B"
 	order_index: 1
 	quest_links: [ ]

@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "naturs_aura"
 	group: "16F9BB65CBA165C2"
+	icon: {
+		id: "naturesaura:nature_altar"
+	}
 	id: "461A8BB591B8DA55"
 	images: [{
 		color: 170
