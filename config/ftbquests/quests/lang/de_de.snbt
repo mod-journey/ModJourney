@@ -530,6 +530,7 @@
 	]
 	quest.1BCEF5B7D4A2DEA9.title: "Beförderung"
 	quest.1C0E26CDD05060DD.quest_desc: ["In den Meteoriten gibt es einen Block, der sämtliche Schablonen beinhaltet. Diese wirst Du für weitere Crafting Rezepte in der Mod brauchen"]
+	quest.1C0E26CDD05060DD.title: "Druckerplatten"
 	quest.1C84F8611AA48F76.quest_desc: ["Du kannst hin auch erweitern "]
 	quest.1C84F8611AA48F76.title: "Spaltungsreaktor (Fission Reactor)"
 	quest.1CA7D865E47A7D27.quest_desc: ["Versuche deine Systeme so klein wie möglich zu halten. Große Systeme, mit ungefilterten Zugriffen, egal welcher Art verursachen Lags. Diese gilt es zu vermeiden. Baue Smart, sodass jeder seinen Spielspaß auf dem Server beibehält."]
