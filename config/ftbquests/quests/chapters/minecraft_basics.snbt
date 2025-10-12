@@ -459,26 +459,6 @@
 		{
 			dependencies: ["403812BA7909FF11"]
 			hide_until_deps_visible: true
-			id: "2C8AC35868B1A016"
-			rewards: [{
-				id: "32F4C350A13A2B04"
-				item: {
-					count: 1
-					id: "minecraft:apple"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "1FD6CE4940D60707"
-				structure: "minecraft:mineshaft"
-				type: "structure"
-			}]
-			x: 12.0d
-			y: 1.25d
-		}
-		{
-			dependencies: ["2C8AC35868B1A016"]
-			hide_until_deps_visible: true
 			id: "56959F905714B915"
 			rewards: [{
 				id: "732AC8A1907D0D2A"
@@ -493,7 +473,7 @@
 				id: "6BAFF2940497C0C2"
 				type: "dimension"
 			}]
-			x: 13.5d
+			x: 12.0d
 			y: 1.25d
 		}
 		{
@@ -514,7 +494,7 @@
 				structure: "minecraft:end_city"
 				type: "structure"
 			}]
-			x: 15.0d
+			x: 13.5d
 			y: 1.25d
 		}
 		{
@@ -540,7 +520,7 @@
 				item: { count: 1, id: "minecraft:elytra" }
 				type: "item"
 			}]
-			x: 16.0d
+			x: 14.5d
 			y: 0.5d
 		}
 		{
@@ -560,7 +540,7 @@
 				item: { count: 1, id: "minecraft:shulker_box" }
 				type: "item"
 			}]
-			x: 16.0d
+			x: 14.5d
 			y: 2.0d
 		}
 		{
