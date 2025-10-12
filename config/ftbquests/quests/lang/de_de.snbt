@@ -150,9 +150,9 @@
 	quest.070DD06560D8888A.title: "Magische Threads"
 	quest.070E4C57EBA4CC18.quest_desc: ["Auch dieser Block bewegt Entitys. Braucht ein aktives Redstone Signal"]
 	quest.073EAA0D4341E3AC.quest_desc: [
-		"[ \"Pink Slime wird produziert, wenn Monster oder Tiere von dem \", { \"text\": \"Industriellen Schlachter\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5A557E0D8DFA312E\" } }, \" geschlachtet werden.\" ] "
+		"Pinker Schleim wird produziert, wenn Monster oder Tiere von dem Industriellen Schlachter"
 		""
-		"Jeder Kreatur liefert dabei eine unterschiedliche Menge."
+		"Jede Kreatur liefert dabei eine unterschiedliche Menge."
 	]
 	quest.077C86B2B3E3546C.quest_desc: ["Noch mehr stacken!"]
 	quest.077C86B2B3E3546C.quest_subtitle: "MEEEEEEEHR II"
