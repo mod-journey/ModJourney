@@ -37,6 +37,15 @@ let tools_pickaxe = {
         `ae2:certus_quartz_pickaxe`,
         `ae2:nether_quartz_pickaxe`,
         `ae2:fluix_pickaxe`,
+        'occultism:iesnium_pickaxe',
+        'twilightforest:steeleaf_pickaxe',
+        'twilightforest:ironwood_pickaxe',
+        'twilightforest:giant_pickaxe',
+        'naturesaura:infused_iron_pickaxe',
+        //'occultism:infused_pickaxe',
+        //'twilightforest:fiery_pickaxe',
+        //'naturesaura:depth_pickaxe',
+        //'naturesaura:sky_pickaxe'
     ],
     reference: [
         `minecraft:diamond_pickaxe`,
@@ -75,5 +84,14 @@ let tools_pickaxe = {
         `ae2:certus_quartz_pickaxe`,
         `ae2:nether_quartz_pickaxe`,
         `ae2:fluix_pickaxe`,
+        'occultism:iesnium_pickaxe',
+        'twilightforest:steeleaf_pickaxe',
+        'twilightforest:ironwood_pickaxe',
+        'twilightforest:giant_pickaxe',
+        'naturesaura:infused_iron_pickaxe',
+        'occultism:infused_pickaxe',
+        'twilightforest:fiery_pickaxe',
+        'naturesaura:depth_pickaxe',
+        'naturesaura:sky_pickaxe'
     ]
 }
