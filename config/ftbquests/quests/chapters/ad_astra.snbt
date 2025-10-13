@@ -14,21 +14,14 @@
 		{
 			dependencies: ["12A4F63F84843AA8"]
 			id: "765CC36D1E9FC407"
-			rewards: [
-				{
-					id: "6FD2531FA3AA27C9"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
+			rewards: [{
+				id: "32AE59FEC6F23F3F"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "06CB6BA6606646AE"
-					type: "loot"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "44CCC89F490E872A"
 				item: { components: { "stellaris:rocket_component": { fuel: 0, fuel_capacity: 5000, fuel_texture: "stellaris:util/energy_full", fuel_type: "radioactive", model: "tiny", skin: "stellaris" } }, count: 1, id: "stellaris:rocket" }
@@ -41,10 +34,10 @@
 			dependencies: ["625BCE0C411DF831"]
 			id: "21631BCC49F3C8AA"
 			rewards: [{
-				id: "3D4B5FF7624A94E0"
+				id: "29AE69DEDF0B4A7F"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -61,10 +54,10 @@
 			dependencies: ["08EA8E426B32DE48"]
 			id: "391C89DCEF97A976"
 			rewards: [{
-				id: "6FA720305F1DDDBF"
+				id: "0DE81D36FE4A11F6"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -80,10 +73,10 @@
 			dependencies: ["08EA8E426B32DE48"]
 			id: "6C17B293709B16B2"
 			rewards: [{
-				id: "789AB43FB103543E"
+				id: "41A09B41D1B2F76C"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -99,10 +92,10 @@
 			dependencies: ["08EA8E426B32DE48"]
 			id: "2E9BA93B5FF65F59"
 			rewards: [{
-				id: "7CC555819A6478C6"
+				id: "7FC3C54D03BB3555"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -118,10 +111,10 @@
 			dependencies: ["08EA8E426B32DE48"]
 			id: "76CF23596EA32DCC"
 			rewards: [{
-				id: "07583F08D763352C"
+				id: "43C09DC5090ED6FD"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -137,10 +130,10 @@
 			dependencies: ["595FAE939128EC13"]
 			id: "711EB48525AA6836"
 			rewards: [{
-				id: "1741BE236D75C189"
+				id: "06F2E66465E0BBA9"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -160,24 +153,14 @@
 			dependency_requirement: "one_completed"
 			hide_until_deps_complete: true
 			id: "625BCE0C411DF831"
-			rewards: [
-				{
-					id: "65B715E604659BBE"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
+			rewards: [{
+				id: "1EBCC57208D40F6C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "022C1BB8E11A9D26"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "583AC639D8E9EF1F"
 				item: { count: 1, id: "stellaris:rocket_station" }
@@ -190,10 +173,10 @@
 			dependencies: ["625BCE0C411DF831"]
 			id: "2DE570D3BFF08F48"
 			rewards: [{
-				id: "1E79D2ED98197F25"
+				id: "3BD75B1FE07DD6A6"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -209,10 +192,10 @@
 			dependencies: ["625BCE0C411DF831"]
 			id: "47D2FFAE08876D53"
 			rewards: [{
-				id: "4A4AF4DAAF96C159"
+				id: "576DE30F19D5DD01"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -229,10 +212,10 @@
 			dependencies: ["625BCE0C411DF831"]
 			id: "557F56AEDAF2680A"
 			rewards: [{
-				id: "297539CF78D8FFEA"
+				id: "599E0A069BD8E57F"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -248,10 +231,10 @@
 			dependencies: ["21631BCC49F3C8AA"]
 			id: "12A4F63F84843AA8"
 			rewards: [{
-				id: "722A7310BAA26B32"
+				id: "5D677B65CA7E8976"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -267,10 +250,10 @@
 			dependencies: ["12A4F63F84843AA8"]
 			id: "08EA8E426B32DE48"
 			rewards: [{
-				id: "412DC0FB842E8AD3"
+				id: "5BEC1705DDEBBFCD"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -286,10 +269,10 @@
 			dependencies: ["765CC36D1E9FC407"]
 			id: "0B83FB0E9BFBE96E"
 			rewards: [{
-				id: "1D1A816FFB99138F"
+				id: "72F880436E8B85F2"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -309,10 +292,10 @@
 			dependencies: ["0B83FB0E9BFBE96E"]
 			id: "595FAE939128EC13"
 			rewards: [{
-				id: "16A7CB1C10F3C787"
+				id: "731C615FA7332C12"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -328,10 +311,10 @@
 			dependencies: ["625BCE0C411DF831"]
 			id: "4EAA710CD2A15E03"
 			rewards: [{
-				id: "63D91A43DD12F803"
+				id: "37528BECD4A409B6"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -347,10 +330,10 @@
 			dependencies: ["595FAE939128EC13"]
 			id: "2F6ABA1EE21191DD"
 			rewards: [{
-				id: "5C3C40CF91A8B68A"
+				id: "2A0671FF87DDF49E"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -366,10 +349,10 @@
 			dependencies: ["0B83FB0E9BFBE96E"]
 			id: "759B24F5EB490DB0"
 			rewards: [{
-				id: "4866AC37667DA71A"
+				id: "760DBBAC8F31432F"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -385,10 +368,10 @@
 			dependencies: ["759B24F5EB490DB0"]
 			id: "16A2F679AEC22F43"
 			rewards: [{
-				id: "18CAE1BE5C1CE870"
+				id: "7AEA817B7172629C"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -405,10 +388,10 @@
 			dependencies: ["16A2F679AEC22F43"]
 			id: "6A8AA0E31C3F2F47"
 			rewards: [{
-				id: "2F0D80E50C5025D9"
+				id: "333D793314B610B6"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -424,10 +407,10 @@
 			dependencies: ["16A2F679AEC22F43"]
 			id: "005F625FCFC80A7B"
 			rewards: [{
-				id: "48659342BC69B8CA"
+				id: "2644405E88A19B71"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -444,10 +427,10 @@
 			dependencies: ["005F625FCFC80A7B"]
 			id: "2619E71D63B1B7FE"
 			rewards: [{
-				id: "1088E931FDC5D24F"
+				id: "64D66F3A0C49720D"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -464,10 +447,10 @@
 			dependencies: ["62C53AC440B3380E"]
 			id: "21DA897D037E4872"
 			rewards: [{
-				id: "74BEBC1FBA6C1C30"
+				id: "6C9D3DC33CE264BB"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -484,10 +467,10 @@
 			dependencies: ["765CC36D1E9FC407"]
 			id: "62C53AC440B3380E"
 			rewards: [{
-				id: "16395AB5EFA4A64C"
+				id: "1C5082A5F409C0F9"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -502,10 +485,10 @@
 			dependencies: ["595FAE939128EC13"]
 			id: "6D367DEA55F87102"
 			rewards: [{
-				id: "2F1B8067E3DA293F"
+				id: "11D24B300D777DE7"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -521,10 +504,10 @@
 			dependencies: ["595FAE939128EC13"]
 			id: "4FA4161E5D4F5285"
 			rewards: [{
-				id: "356F4A3A3427E8FE"
+				id: "101DC9F03F328D34"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -540,10 +523,10 @@
 			dependencies: ["595FAE939128EC13"]
 			id: "6A342B58C9875174"
 			rewards: [{
-				id: "00000422A8F5624B"
+				id: "48E33162D4BDEA02"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -559,10 +542,10 @@
 			dependencies: ["595FAE939128EC13"]
 			id: "5212A64D43DAD486"
 			rewards: [{
-				id: "51A97DAACA47D0AB"
+				id: "2BCDCFF4530E86BA"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -578,10 +561,10 @@
 			dependencies: ["6A8AA0E31C3F2F47"]
 			id: "44D05D9F33C12F52"
 			rewards: [{
-				id: "08FFB67145194C7F"
+				id: "62B57B3A8E8E5D4A"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -597,10 +580,10 @@
 			dependencies: ["44D05D9F33C12F52"]
 			id: "71E143531BC06CA8"
 			rewards: [{
-				id: "670ACB8BD04422ED"
+				id: "37E1C3B2A709B67C"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -615,6 +598,14 @@
 		{
 			dependencies: ["005F625FCFC80A7B"]
 			id: "6F14BA01A20E3D8F"
+			rewards: [{
+				id: "755B662718075314"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6AE4966EC781790C"
 				item: { count: 1, id: "alltheores:iridium_ingot" }
@@ -626,6 +617,14 @@
 		{
 			dependencies: ["6F14BA01A20E3D8F"]
 			id: "22F9E79A0AAB0990"
+			rewards: [{
+				id: "6CA9E9DD067796A4"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "24683A284A0458CF"
 				item: { count: 1, id: "stellaris:radioactive_motor" }
@@ -637,6 +636,14 @@
 		{
 			dependencies: ["22F9E79A0AAB0990"]
 			id: "3E48D0B7608F78BD"
+			rewards: [{
+				id: "34B9154A52994A47"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "165C95409FEC085C"
 				item: { count: 1, id: "stellaris:uranium_ingot" }
