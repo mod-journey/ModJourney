@@ -33,7 +33,12 @@ let tools_hoe = {
         //`undergarden:forgotten_hoe`,
         `ae2:certus_quartz_hoe`,
         `ae2:nether_quartz_hoe`,
-        `ae2:fluix_hoe`
+        `ae2:fluix_hoe`,
+        `naturesaura:sky_hoe`,
+        `naturesaura:infused_iron_hoe`,
+        `twilightforest:ironwood_hoe`,
+        `twilightforest:steeleaf_hoe`,
+        //`naturesaura:depth_hoe`
     ],
 
     // Alle Items werden beibehalten und das Array dient anschließend als Überprüfung.
@@ -70,6 +75,11 @@ let tools_hoe = {
         `undergarden:forgotten_hoe`,
         `ae2:certus_quartz_hoe`,
         `ae2:nether_quartz_hoe`,
-        `ae2:fluix_hoe`
+        `ae2:fluix_hoe`,
+        `naturesaura:sky_hoe`,
+        `naturesaura:infused_iron_hoe`,
+        `twilightforest:ironwood_hoe`,
+        `twilightforest:steeleaf_hoe`,
+        `naturesaura:depth_hoe`
     ]
 }
