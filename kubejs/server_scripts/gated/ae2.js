@@ -68,12 +68,6 @@ let ae_gated = (event, active, debug) => {
         'mekanism:alloy_atomic'
     )
 
-    event.replaceInput(
-        {output: 'extendedae:concurrent_processor'},
-        'minecraft:redstone',
-        'mekanism:alloy_atomic'
-    )
-
     /* Geht Inscriber und Crystal Assembler Rezepte durch, tauscht wenn eines der beiden gefunden wurde Redstone mit Atomic Alloy*/
     event.forEachRecipe({ output: 'extendedae:concurrent_processor' }, r => {
         if (r.json.get("type") + '' === '"ae2:inscriber"') {
