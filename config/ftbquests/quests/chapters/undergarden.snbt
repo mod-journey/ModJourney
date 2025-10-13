@@ -13,13 +13,10 @@
 		{
 			id: "7AFD7B0DAA8D7791"
 			rewards: [{
-				id: "001E23D73F304384"
+				id: "55493487BDD253C6"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -35,13 +32,10 @@
 			dependencies: ["37678FC28A608F68"]
 			id: "5D0614C216109F4F"
 			rewards: [{
-				id: "5A3DACBEAFF1FB94"
+				id: "3E2D06F11C43CC85"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -57,13 +51,10 @@
 			dependencies: ["5D0614C216109F4F"]
 			id: "67D770AFB8C867EB"
 			rewards: [{
-				id: "46F7F4108D93A755"
+				id: "5B8EDD2AB931DCF3"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -82,13 +73,10 @@
 			dependencies: ["5AF633DB1C78EDBD"]
 			id: "1CFF5ED27DA0852A"
 			rewards: [{
-				id: "581D918B520525D4"
+				id: "5041A8CB6A8EA6D8"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -107,13 +95,10 @@
 			}
 			id: "26A870FC3228E17D"
 			rewards: [{
-				id: "058BCFB98392064E"
+				id: "1CCEB4FA11C82DC2"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -132,13 +117,10 @@
 			}
 			id: "4B4A2387F7C307B6"
 			rewards: [{
-				id: "08FD0A3FD846329C"
+				id: "4B7D9A7E5997A0D6"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -157,13 +139,10 @@
 			}
 			id: "46746A29EC0DB581"
 			rewards: [{
-				id: "7EC33E906B07EA9D"
+				id: "75498EC84A1CAB32"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -179,13 +158,10 @@
 			dependencies: ["1CFF5ED27DA0852A"]
 			id: "785AB01D2228B7A9"
 			rewards: [{
-				id: "3B341570B5D17254"
+				id: "75A986C41E6816BA"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -202,13 +178,10 @@
 			hide_dependency_lines: true
 			id: "3E0EEFCE5F001FD4"
 			rewards: [{
-				id: "08BA457339CBC2B1"
+				id: "796310055CB4459D"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -228,13 +201,10 @@
 			]
 			id: "06962A36D95865FD"
 			rewards: [{
-				id: "043F25FE1E13B986"
+				id: "5EF5623A3976F665"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -254,13 +224,10 @@
 			]
 			id: "5937774ED0FCF478"
 			rewards: [{
-				id: "2E90536154B47F63"
+				id: "2170A60AD426908A"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -282,31 +249,14 @@
 				id: "undergarden:forgotten_pickaxe"
 			}
 			id: "548F099E63C07C64"
-			rewards: [
-				{
-					id: "367BACD224F7FA22"
-					item: {
-						components: {
-							"ftbquests:missing_item": "mod_journey:bronze_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+			rewards: [{
+				id: "1893D9343661E196"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					count: 10
-					id: "1449537488A4B79E"
-					item: {
-						components: {
-							"ftbquests:missing_item": "mod_journey:gold_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "6DC206489437BCB8"
 				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
@@ -319,13 +269,10 @@
 			dependencies: ["3E8BA9AC92928A5B"]
 			id: "29CA54BFB00443D1"
 			rewards: [{
-				id: "377C1A9C1F303504"
+				id: "2ADC38C0D38E7FBF"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -344,13 +291,10 @@
 			}
 			id: "1914C5782105712B"
 			rewards: [{
-				id: "7C209730D9EBE7A0"
+				id: "6EFC3BE67F67A420"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -369,13 +313,10 @@
 			}
 			id: "412036FA034F30EA"
 			rewards: [{
-				id: "42A819ED59AB541D"
+				id: "7D0FA8166A3B0C2F"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -394,13 +335,10 @@
 			}
 			id: "19009C9588494133"
 			rewards: [{
-				id: "47F6FCC834FAD0D6"
+				id: "5E5CD1831E29C9EC"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -416,13 +354,10 @@
 			dependencies: ["7AFD7B0DAA8D7791"]
 			id: "67973447F729D73A"
 			rewards: [{
-				id: "6B583F86CF5F76E0"
+				id: "57DF476C23221305"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -438,13 +373,10 @@
 			dependencies: ["7AFD7B0DAA8D7791"]
 			id: "3D9ECA51804963B2"
 			rewards: [{
-				id: "24FFAD3DD6884D08"
+				id: "272B77FA5CC5CCC1"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -460,13 +392,10 @@
 			dependencies: ["7AFD7B0DAA8D7791"]
 			id: "7AFFEA1B611A8CB9"
 			rewards: [{
-				id: "73428FDC909E8290"
+				id: "5ECF6464541D787C"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -482,13 +411,10 @@
 			dependencies: ["7AFD7B0DAA8D7791"]
 			id: "06C275BDFA07CB4A"
 			rewards: [{
-				id: "3B513C5670648870"
+				id: "439140DC01990D63"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -504,13 +430,10 @@
 			dependencies: ["67973447F729D73A"]
 			id: "7AC068B90786F823"
 			rewards: [{
-				id: "3823266A02745F4A"
+				id: "19135413EE542D85"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -526,13 +449,10 @@
 			dependencies: ["3D9ECA51804963B2"]
 			id: "3E8BA9AC92928A5B"
 			rewards: [{
-				id: "67FC9CB38F03AAAA"
+				id: "2614DDE5D2CF7855"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -548,13 +468,10 @@
 			dependencies: ["7AFFEA1B611A8CB9"]
 			id: "37678FC28A608F68"
 			rewards: [{
-				id: "2338FE7A8CB14134"
+				id: "25B09C20228F88BD"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -570,13 +487,10 @@
 			dependencies: ["06C275BDFA07CB4A"]
 			id: "5AF633DB1C78EDBD"
 			rewards: [{
-				id: "26317F05FC4175B9"
+				id: "59C7CB1E8F200952"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -592,13 +506,10 @@
 			dependencies: ["33B1489D36D5EEFC"]
 			id: "2AB8746017BEEEA3"
 			rewards: [{
-				id: "0797A66C140EC025"
+				id: "7C8C89B56D3EDD53"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -614,13 +525,10 @@
 			dependencies: ["2AB8746017BEEEA3"]
 			id: "195971D0CE37082F"
 			rewards: [{
-				id: "5D2523BD44C0D842"
+				id: "69D0C77E70040ECE"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -636,13 +544,10 @@
 			dependencies: ["0C6E4A026A9AFDC1"]
 			id: "5D7DA053B6EB899D"
 			rewards: [{
-				id: "13C4E307E9EC73E9"
+				id: "6D813E9F87A5DA63"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -658,13 +563,10 @@
 			dependencies: ["7AFD7B0DAA8D7791"]
 			id: "0C6E4A026A9AFDC1"
 			rewards: [{
-				id: "60083D8D05800959"
+				id: "4961320140F48073"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -680,13 +582,10 @@
 			dependencies: ["0C6E4A026A9AFDC1"]
 			id: "1CCD659F19C544C6"
 			rewards: [{
-				id: "2AB314CE38479DDE"
+				id: "79581710C75C9B6A"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -702,13 +601,10 @@
 			dependencies: ["7AC068B90786F823"]
 			id: "0C02F4D3A4CD631B"
 			rewards: [{
-				id: "299F5184CFA3855B"
+				id: "1D98A9566D335F35"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -725,13 +621,10 @@
 			dependencies: ["7AFD7B0DAA8D7791"]
 			id: "03C95A4231EAF03D"
 			rewards: [{
-				id: "2A5F08CEA6AC5EB7"
+				id: "79B202D0FAE7AC03"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -747,13 +640,10 @@
 			dependencies: ["03C95A4231EAF03D"]
 			id: "3D10D465EA369E48"
 			rewards: [{
-				id: "529B13868FDFEACC"
+				id: "3860C0D54EB9E6CD"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -786,13 +676,10 @@
 			dependencies: ["7AFD7B0DAA8D7791"]
 			id: "33B1489D36D5EEFC"
 			rewards: [{
-				id: "56828EF7D3910B9F"
+				id: "632E8D0B0BC897EE"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -809,13 +696,10 @@
 			dependencies: ["1CCD659F19C544C6"]
 			id: "262C43DC57419CD4"
 			rewards: [{
-				id: "55919B0A23FE98CA"
+				id: "1F4A756B8AFDBACF"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -831,13 +715,10 @@
 			dependencies: ["1CCD659F19C544C6"]
 			id: "0DAEA91E14746AB6"
 			rewards: [{
-				id: "498B5C25E6BD378F"
+				id: "272FB3DEAB27EA67"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -856,27 +737,14 @@
 				"1CDF85C5A461F445"
 			]
 			id: "4256D1E40BD2250A"
-			rewards: [
-				{
-					id: "53AD458360F85EB7"
-					item: {
-						count: 1
-						id: "minecraft:cake"
-					}
-					type: "item"
+			rewards: [{
+				id: "1FDACA3DDD94834A"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "6C776D815A8F8E60"
-					item: {
-						components: {
-							"ftbquests:missing_item": "mod_journey:bronze_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "64E5CDE70714F3F0"
 				item: { count: 1, id: "undergarden:gloomgourd_pie" }
@@ -889,13 +757,10 @@
 			dependencies: ["26AFE523C18061F6"]
 			id: "753D0CFDD1A78040"
 			rewards: [{
-				id: "7F95F505C6CF60EB"
+				id: "4226259453B1E7CC"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -911,13 +776,10 @@
 			dependencies: ["1CCD659F19C544C6"]
 			id: "26AFE523C18061F6"
 			rewards: [{
-				id: "4C2D8BD043817B6F"
+				id: "5C49E9F89F111349"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -933,13 +795,10 @@
 			dependencies: ["26AFE523C18061F6"]
 			id: "1CDF85C5A461F445"
 			rewards: [{
-				id: "0E9AB661E653C005"
+				id: "797CDE7C80630148"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -955,13 +814,10 @@
 			dependencies: ["26AFE523C18061F6"]
 			id: "75B1DFF177DB3EEB"
 			rewards: [{
-				id: "22206D6D864A4F38"
+				id: "2AE986C8EBDFDDDC"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -977,13 +833,10 @@
 			dependencies: ["195971D0CE37082F"]
 			id: "4DB1B18A3B301D4E"
 			rewards: [{
-				id: "2810F5A35392A507"
+				id: "536B10E0DE30052E"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mod_journey:bronze_coin"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
