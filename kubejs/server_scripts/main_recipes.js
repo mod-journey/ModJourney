@@ -87,7 +87,6 @@ if (events_server) {
             remove_aether(event, true);
             remove_apotheosis(event, true, false);
             remove_arsNoveau(event, true);
-            remove_easyVillager(event, true);
             remove_extremeReactor(event, true);
             remove_ftbquest(event, true);
             remove_immersive(event, true);

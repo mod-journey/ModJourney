@@ -237,7 +237,6 @@ let jei_hide = (event, active, debug) => {
     })
 
     event.remove(Item.of('ae2:vibration_chamber'))
-    event.remove(Item.of('easy_villagers:iron_farm'))
     event.remove(Item.of('ae2wtlib:quantum_bridge_card'))
 
 
