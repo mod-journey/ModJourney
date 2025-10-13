@@ -278,13 +278,13 @@
 				{
 					count: 4L
 					id: "64A2DD96297BD56E"
-					item: { count: 4, id: "alltheores:osmium_dust" }
+					item: { count: 1, id: "alltheores:osmium_dust" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "67D7D97A3C76987D"
-					item: { count: 4, id: "alltheores:iron_dust" }
+					item: { count: 1, id: "alltheores:iron_dust" }
 					type: "item"
 				}
 			]
@@ -439,13 +439,13 @@
 				{
 					count: 4L
 					id: "1DA50BC442446037"
-					item: { count: 4, id: "minecraft:iron_ingot" }
+					item: { count: 1, id: "minecraft:iron_ingot" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "3A955484C8DAE35A"
-					item: { count: 4, id: "alltheores:osmium_ingot" }
+					item: { count: 1, id: "alltheores:osmium_ingot" }
 					type: "item"
 				}
 			]
@@ -1155,49 +1155,49 @@
 				{
 					count: 81L
 					id: "3E3FFA79D7920EE9"
-					item: { count: 81, id: "mekanismgenerators:turbine_casing" }
+					item: { count: 1, id: "mekanismgenerators:turbine_casing" }
 					type: "item"
 				}
 				{
 					count: 46L
 					id: "247D5CD86501721A"
-					item: { count: 46, id: "mekanism:structural_glass" }
+					item: { count: 1, id: "mekanism:structural_glass" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "52C1B3F9EDD1FE6E"
-					item: { count: 4, id: "mekanismgenerators:turbine_rotor" }
+					item: { count: 1, id: "mekanismgenerators:turbine_rotor" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "3DBC043303E24555"
-					item: { count: 8, id: "mekanismgenerators:turbine_blade" }
+					item: { count: 1, id: "mekanismgenerators:turbine_blade" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "45D92B25D8A9CCE7"
-					item: { count: 2, id: "mekanismgenerators:turbine_valve" }
+					item: { count: 1, id: "mekanismgenerators:turbine_valve" }
 					type: "item"
 				}
 				{
 					count: 33L
 					id: "58B98D5B253B38CC"
-					item: { count: 33, id: "mekanismgenerators:turbine_vent" }
+					item: { count: 1, id: "mekanismgenerators:turbine_vent" }
 					type: "item"
 				}
 				{
 					count: 9L
 					id: "117095B227C0A1FC"
-					item: { count: 9, id: "mekanismgenerators:saturating_condenser" }
+					item: { count: 1, id: "mekanismgenerators:saturating_condenser" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "07A0120683FF9D25"
-					item: { count: 8, id: "mekanism:pressure_disperser" }
+					item: { count: 1, id: "mekanism:pressure_disperser" }
 					type: "item"
 				}
 				{
@@ -1208,7 +1208,7 @@
 				{
 					count: 9L
 					id: "31BE7029F4CB6D23"
-					item: { count: 9, id: "mekanismgenerators:electromagnetic_coil" }
+					item: { count: 1, id: "mekanismgenerators:electromagnetic_coil" }
 					type: "item"
 				}
 			]
@@ -1235,13 +1235,13 @@
 				{
 					count: 3L
 					id: "02DFBD5708DA44A9"
-					item: { count: 3, id: "mekanismgenerators:fission_reactor_port" }
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_port" }
 					type: "item"
 				}
 				{
 					count: 10L
 					id: "30591B0A2D8E1885"
-					item: { count: 10, id: "mekanismgenerators:fission_reactor_casing" }
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
 					type: "item"
 				}
 				{
@@ -1252,7 +1252,7 @@
 				{
 					count: 2L
 					id: "6ED0C9A727432E00"
-					item: { count: 2, id: "mekanismgenerators:reactor_glass" }
+					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
 					type: "item"
 				}
 			]
@@ -1293,13 +1293,13 @@
 				{
 					count: 84L
 					id: "6355972518B32CB6"
-					item: { count: 84, id: "mekanism:sps_casing" }
+					item: { count: 1, id: "mekanism:sps_casing" }
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "3E83B220CC1927D9"
-					item: { count: 3, id: "mekanism:sps_port" }
+					item: { count: 1, id: "mekanism:sps_port" }
 					type: "item"
 				}
 				{
@@ -1310,7 +1310,7 @@
 				{
 					count: 102L
 					id: "0FFA06581D0AC600"
-					item: { count: 20, id: "mekanismgenerators:reactor_glass" }
+					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
 					type: "item"
 				}
 			]
@@ -1385,19 +1385,19 @@
 				{
 					count: 43L
 					id: "710F0A139FB859E8"
-					item: { count: 43, id: "mekanismgenerators:fusion_reactor_frame" }
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_frame" }
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "7361927B4C199888"
-					item: { count: 3, id: "mekanismgenerators:fusion_reactor_port" }
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_port" }
 					type: "item"
 				}
 				{
 					count: 10L
 					id: "6250820F923804D5"
-					item: { count: 10, id: "mekanismgenerators:reactor_glass" }
+					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
 					type: "item"
 				}
 				{
@@ -1581,7 +1581,7 @@
 				{
 					count: 3L
 					id: "6B392065DB3123C3"
-					item: { count: 3, id: "mekanism:thermal_evaporation_valve" }
+					item: { count: 1, id: "mekanism:thermal_evaporation_valve" }
 					type: "item"
 				}
 				{
@@ -1592,7 +1592,7 @@
 				{
 					count: 33L
 					id: "5F3EE67CFEEFDB94"
-					item: { count: 33, id: "mekanism:thermal_evaporation_block" }
+					item: { count: 1, id: "mekanism:thermal_evaporation_block" }
 					type: "item"
 				}
 				{
@@ -1758,13 +1758,13 @@
 				{
 					count: 2L
 					id: "785423EB856A57CE"
-					item: { count: 2, id: "mekanism:laser_amplifier" }
+					item: { count: 1, id: "mekanism:laser_amplifier" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "6DF5D8C34BCCA32C"
-					item: { count: 4, id: "mekanism:laser" }
+					item: { count: 1, id: "mekanism:laser" }
 					type: "item"
 				}
 			]
@@ -1791,7 +1791,7 @@
 				{
 					count: 2L
 					id: "418642CB67AD374D"
-					item: { count: 2, id: "mekanism:induction_port" }
+					item: { count: 1, id: "mekanism:induction_port" }
 					type: "item"
 				}
 				{
@@ -1843,7 +1843,7 @@
 				{
 					count: 2L
 					id: "7D1764A80650DE54"
-					item: { count: 2, id: "minecraft:raw_iron" }
+					item: { count: 1, id: "minecraft:raw_iron" }
 					type: "item"
 				}
 				{
