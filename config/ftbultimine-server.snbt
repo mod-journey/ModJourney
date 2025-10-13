@@ -23,12 +23,12 @@
 		
 		# Require a damageable tool, or an item in the 'ftbultimine:tools' tag, to ultimine.
 		# Default: false
-		require_tool: false
+		require_tool: true
 		
 		# Cooldown in ticks between successive uses of the Ultimine feature
 		# Default: 0
 		# Range: 0 ~ 9223372036854775807
-		ultimine_cooldown: 0L
+		ultimine_cooldown: 60L
 	}
 	features: {
 		# Right-click with an axe with the Ultimine key held to strip multiple logs and scrape/unwax copper blocks
