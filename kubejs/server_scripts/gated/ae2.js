@@ -61,22 +61,6 @@ let ae_gated = (event, active, debug) => {
         'mekanism:alloy_atomic'
     )
 
-    //definiert die Prozessortypen für kommende Funktion
-    let prozessoren = [
-        'calculation',
-        'logic',
-        'engineering'
-    ]
-
-    //Funktion ersetzt aus der Mod extendedAE alle Prozessoren durch den accumulation Prozessor
-    prozessoren.forEach(element => {
-        event.replaceInput(
-            { mod: 'extendedae' },
-            `ae2:${element}_processor`,
-            'megacells:accumulation_processor'
-        )
-    });
-
     //Wireless Tool fürs verbinden von ME Systemen. Einmaliger Craftprozess, da Tool. Kalkulationsprozessor getauscht durch mekanism:alloy_atomic
     event.replaceInput(
         { id: 'expatternprovider:wireless_tool' },
