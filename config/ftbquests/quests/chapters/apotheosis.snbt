@@ -12,6 +12,14 @@
 	quests: [
 		{
 			id: "736169731670410F"
+			rewards: [{
+				id: "4200A5569793D54E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "54E4A312D7912534"
 				item: { components: { "patchouli:book": "apotheosis:apoth_chronicle" }, count: 1, id: "patchouli:guide_book" }
@@ -26,6 +34,14 @@
 				id: "minecraft:netherite_sword"
 			}
 			id: "52E3890CD233C42D"
+			rewards: [{
+				id: "5784DFC3570DB7B1"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3EFD7BC8486F976A"
 				type: "checkmark"
@@ -40,6 +56,14 @@
 				id: "minecraft:enchanting_table"
 			}
 			id: "209E7BD721F663CC"
+			rewards: [{
+				id: "780203B110D74D3B"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "77FAAC17DAF04807"
 				type: "checkmark"
@@ -53,6 +77,14 @@
 				id: "minecraft:spawner"
 			}
 			id: "439A11FC8B1BE52A"
+			rewards: [{
+				id: "3C90A7C872AFF05A"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "470552CCC5DF54DE"
 				type: "checkmark"
@@ -66,6 +98,14 @@
 				id: "minecraft:potion"
 			}
 			id: "0DE688D34731681F"
+			rewards: [{
+				id: "178B12919E7D97CF"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1CD049F99BFEF2DA"
 				type: "checkmark"
@@ -76,6 +116,14 @@
 		{
 			dependencies: ["0DE688D34731681F"]
 			id: "22C52D850339AF6C"
+			rewards: [{
+				id: "39CD1D5C093A249C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "54A4809AAEB18D20"
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(curios:charm))not(mod(naturesaura))not(mod(twilightforest))", "minecraft:custom_name": "\"Potion Charms\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -87,6 +135,14 @@
 		{
 			dependencies: ["3F07618A23C6659B"]
 			id: "0BC54337EB830293"
+			rewards: [{
+				id: "1D99CD000A85EB0B"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 2L
 				id: "69485809B2879486"
@@ -99,6 +155,14 @@
 		{
 			dependencies: ["0BC54337EB830293"]
 			id: "0F2C4F134E19A2C1"
+			rewards: [{
+				id: "1300A1803798A29A"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5D5FBC433AECE1C6"
 				item: { count: 1, id: "apotheosis:salvaging_table" }
@@ -110,6 +174,14 @@
 		{
 			dependencies: ["0F2C4F134E19A2C1"]
 			id: "57CCD05DF44E26E1"
+			rewards: [{
+				id: "1A57ABAD79871742"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1FB0EDC5C469AA1B"
 				item: { count: 1, id: "apotheosis:gem_cutting_table" }
@@ -124,6 +196,14 @@
 				id: "apotheosis:simple_reforging_table"
 			}
 			id: "03BE5EF16114B846"
+			rewards: [{
+				id: "0C72800220406C0E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "448336FE1A7C7B61"
@@ -146,6 +226,14 @@
 				id: "apotheosis:augmenting_table"
 			}
 			id: "1DF4F965DC9C9F39"
+			rewards: [{
+				id: "33AC15EBB279F865"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6BC0968BD196F26E"
@@ -165,6 +253,14 @@
 		{
 			dependencies: ["52E3890CD233C42D"]
 			id: "3F07618A23C6659B"
+			rewards: [{
+				id: "5E204656F12C9C2A"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "177719A8941FA0EC"
 				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"apotheosis:gem\":\"apotheosis:core/ballast\"})component(fuzzy:{\"apotheosis:gem\":\"apotheosis:core/brawlers\"})component(fuzzy:{\"apotheosis:gem\":\"apotheosis:core/breach\"})component(fuzzy:{\"apotheosis:gem\":\"apotheosis:core/combatant\"})component(fuzzy:{\"apotheosis:gem\":\"apotheosis:core/guardian\"})component(fuzzy:{\"apotheosis:gem\":\"apotheosis:core/lightning\"})component(fuzzy:{\"apotheosis:gem\":\"apotheosis:core/lunar\"})component(fuzzy:{\"apotheosis:gem\":\"apotheosis:core/samurai\"})component(fuzzy:{\"apotheosis:gem\":\"apotheosis:core/slipstream\"})component(fuzzy:{\"apotheosis:gem\":\"apotheosis:core/solar\"})component(fuzzy:{\"apotheosis:gem\":\"apotheosis:core/splendor\"})component(fuzzy:{\"apotheosis:gem\":\"apotheosis:core/tyrannical\"})component(fuzzy:{\"apotheosis:gem\":\"apotheosis:core/warlord\"})component(fuzzy:{\"apotheosis:gem\":\"apotheosis:overworld/earth\"})component(fuzzy:{\"apotheosis:gem\":\"apotheosis:overworld/royalty\"})component(fuzzy:{\"apotheosis:gem\":\"apotheosis:overworld/verdant_ruin\"})component(fuzzy:{\"apotheosis:gem\":\"apotheosis:the_end/endersurge\"})component(fuzzy:{\"apotheosis:gem\":\"apotheosis:the_end/mageslayer\"})component(fuzzy:{\"apotheosis:gem\":\"apotheosis:the_nether/blood_lord\"})component(fuzzy:{\"apotheosis:gem\":\"apotheosis:the_nether/inferno\"})component(fuzzy:{\"apotheosis:gem\":\"apotheosis:the_nether/molten_breach\"})component(fuzzy:{\"apotheosis:gem\":\"apotheosis:twilight/forest\"})component(fuzzy:{\"apotheosis:gem\":\"apotheosis:twilight/queen\"}))", "minecraft:custom_name": "\"Apo Gems\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -176,6 +272,14 @@
 		{
 			dependencies: ["03BE5EF16114B846"]
 			id: "14EE44BE9A6CACA9"
+			rewards: [{
+				id: "3EF6C6D77B890F86"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "43F4894D40B7EE30"
 				item: { count: 1, id: "apotheosis:reforging_table" }
@@ -188,6 +292,14 @@
 			dependencies: ["209E7BD721F663CC"]
 			hide_until_deps_visible: true
 			id: "67CAE51EBC46F9F1"
+			rewards: [{
+				id: "0ED11804755DB171"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 15L
 				id: "40AEDCC7D1C08198"
@@ -200,6 +312,14 @@
 		{
 			dependencies: ["67CAE51EBC46F9F1"]
 			id: "047EA9E03F9DA8BB"
+			rewards: [{
+				id: "4E4D11C01A11CFA3"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 7L
 				id: "5E3D615666A2A3C0"
@@ -213,6 +333,14 @@
 			dependencies: ["047EA9E03F9DA8BB"]
 			dependency_requirement: "one_completed"
 			id: "05ABC06AABB602DC"
+			rewards: [{
+				id: "29E45C4C50848250"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 3L
 				id: "3CC50E336A1E68EF"
@@ -225,6 +353,14 @@
 		{
 			dependencies: ["05ABC06AABB602DC"]
 			id: "0C7450F1CB8EC522"
+			rewards: [{
+				id: "6FA2519C36E6D17B"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "028C0D70383C8A84"
 				item: { count: 1, id: "apothic_enchanting:sightshelf" }
@@ -236,6 +372,14 @@
 		{
 			dependencies: ["0C7450F1CB8EC522"]
 			id: "287B4338E5CB1AA0"
+			rewards: [{
+				id: "145B031DE8E3125C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "25CDBA06DDB9319A"
 				item: { count: 1, id: "apothic_enchanting:sightshelf_t2" }
@@ -247,6 +391,14 @@
 		{
 			dependencies: ["05ABC06AABB602DC"]
 			id: "42D6F202CE26D9A4"
+			rewards: [{
+				id: "6A281AD3459A2FA8"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "052C6C6FD4BB4F46"
 				item: { count: 1, id: "apothic_enchanting:geode_shelf" }
@@ -258,6 +410,14 @@
 		{
 			dependencies: ["05ABC06AABB602DC"]
 			id: "3D0065CD7EC0D9EF"
+			rewards: [{
+				id: "6A8607EEA9C56BFB"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2A57378136326909"
 				item: { count: 1, id: "apothic_enchanting:filtering_shelf" }
@@ -269,6 +429,14 @@
 		{
 			dependencies: ["05ABC06AABB602DC"]
 			id: "7DF501F1067F23D2"
+			rewards: [{
+				id: "01080DC57A59A205"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F466AFDCBD369B9"
 				item: { count: 1, id: "apothic_enchanting:dormant_deepshelf" }
@@ -280,6 +448,14 @@
 		{
 			dependencies: ["7DF501F1067F23D2"]
 			id: "20E6914605CFDF69"
+			rewards: [{
+				id: "63548BE244CF9390"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 5L
 				id: "2C6F6B1795D595CD"
@@ -292,6 +468,14 @@
 		{
 			dependencies: ["20E6914605CFDF69"]
 			id: "2D0F23DBA856E880"
+			rewards: [{
+				id: "6E8EBEABF6597C45"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4F7A95C949C035F6"
 				item: { count: 1, id: "apothic_enchanting:treasure_shelf" }
@@ -303,6 +487,14 @@
 		{
 			dependencies: ["20E6914605CFDF69"]
 			id: "0915EAA3DEB29E46"
+			rewards: [{
+				id: "0ED4C15D4AB74437"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 3L
 				id: "62145B5C3787975C"
@@ -315,6 +507,14 @@
 		{
 			dependencies: ["0915EAA3DEB29E46"]
 			id: "0DC1334D5CA78599"
+			rewards: [{
+				id: "722610DD46BAF3B8"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "681C8F247C99A96F"
 				item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:echoing_sculkshelf)item(apothic_enchanting:soul_touched_sculkshelf))", "minecraft:custom_name": "\"Lv80\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -326,6 +526,14 @@
 		{
 			dependencies: ["0DC1334D5CA78599"]
 			id: "377A0A03A61E745B"
+			rewards: [{
+				id: "2A76FFAEDE0E79E7"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1EA9F22D1892E5B9"
 				item: { count: 1, id: "minecraft:dragon_breath" }
@@ -337,6 +545,14 @@
 		{
 			dependencies: ["377A0A03A61E745B"]
 			id: "3C5C7FA47DA1AF13"
+			rewards: [{
+				id: "373EC4D9774F2CE7"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 3L
 				id: "2C1B6E1D48B0E629"
@@ -350,6 +566,14 @@
 			dependencies: ["3C5C7FA47DA1AF13"]
 			hide_dependent_lines: true
 			id: "4FE30C332131292E"
+			rewards: [{
+				id: "501F44E69BC5ABDA"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4E445066B38AD813"
 				item: { count: 1, id: "apothic_enchanting:draconic_endshelf" }
@@ -361,6 +585,14 @@
 		{
 			dependencies: ["3C5C7FA47DA1AF13"]
 			id: "3F4E21E41CB14473"
+			rewards: [{
+				id: "5E3043BD45B9684F"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D77C2CEAD8A8BEE"
 				item: { count: 1, id: "apothic_enchanting:pearl_endshelf" }
@@ -372,6 +604,14 @@
 		{
 			dependencies: ["05ABC06AABB602DC"]
 			id: "44F60E7D88036BA5"
+			rewards: [{
+				id: "2290B761B08B0FE0"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "56E2AD46553CF125"
 				item: { count: 1, id: "apothic_enchanting:library" }
@@ -387,10 +627,12 @@
 			]
 			id: "4834BF938B07C244"
 			rewards: [{
-				auto: "invisible"
-				id: "0D0EB4751351B1C4"
-				stage: ""
-				type: "gamestage"
+				id: "4DB68DEF3B45AAD7"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "7C55D2B29E0EC573"
@@ -403,6 +645,14 @@
 		{
 			dependencies: ["67CAE51EBC46F9F1"]
 			id: "7061359DDF860CFB"
+			rewards: [{
+				id: "7A5DD9148EA8BC57"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D21DB03DBA3A204"
 				item: { count: 1, id: "apothic_enchanting:stoneshelf" }
@@ -414,6 +664,14 @@
 		{
 			dependencies: ["67CAE51EBC46F9F1"]
 			id: "0E74B55074D8E47B"
+			rewards: [{
+				id: "5B4F0083D585A756"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "681C02BFCAA96F81"
 				item: { count: 1, id: "apothic_enchanting:beeshelf" }
@@ -425,6 +683,14 @@
 		{
 			dependencies: ["67CAE51EBC46F9F1"]
 			id: "5FBE953877FCAC23"
+			rewards: [{
+				id: "5BBC92A5616CC85F"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "19A486D9223312F6"
 				item: { count: 1, id: "apothic_enchanting:melonshelf" }
@@ -436,6 +702,14 @@
 		{
 			dependencies: ["047EA9E03F9DA8BB"]
 			id: "565D5FCA805C2F32"
+			rewards: [{
+				id: "2E3AD144FAB299E9"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1243A7A84D911B1C"
 				item: { count: 1, id: "apothic_enchanting:inert_trident" }
@@ -450,6 +724,14 @@
 				"439A11FC8B1BE52A"
 			]
 			id: "444C338BE3A09ABC"
+			rewards: [{
+				id: "2CBF9E9204EAD397"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3DFAF7F78EB377DD"
 				item: { count: 1, id: "apothic_enchanting:flimsy_ender_lead" }
@@ -464,6 +746,14 @@
 				"047EA9E03F9DA8BB"
 			]
 			id: "3F5DBA8045B50D6D"
+			rewards: [{
+				id: "36E6C05F6B9906F3"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B3C8F79E973CA84"
 				item: { count: 1, id: "apothic_enchanting:ender_lead" }
@@ -478,6 +768,14 @@
 				"0915EAA3DEB29E46"
 			]
 			id: "72C8E334A84BB475"
+			rewards: [{
+				id: "7F744B1746FB7522"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "276A900CF8475994"
 				item: { count: 1, id: "apothic_enchanting:occult_ender_lead" }
