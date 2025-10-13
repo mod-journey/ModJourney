@@ -49,7 +49,7 @@ if (events_server) {
             mysticalagriculture_gated(event, true);
             powah_gated(event, true);
             rfttools_gated(event, true);
-            sophisticatedbackpacks_gated(event, false);
+            sophisticatedbackpacks_gated(event, true);
             remove_item_by_tag(event, true);                    //Checking scipt of using
             stellaris_gated(event, true);
             occultism_gated(event, true);
@@ -100,6 +100,7 @@ if (events_server) {
             remove_natureAura(event, true);
             remove_occultism(event, true);
             remove_arsElemental(event, true);
+            remove_sophisticated(event, true);
         }
 
         if (replace_ores) {
