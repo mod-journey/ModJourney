@@ -14,10 +14,10 @@
 		{
 			id: "01256AFE747A1CBF"
 			rewards: [{
-				id: "5619179DA7CB24C1"
+				id: "6E77BC9466965AB3"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -32,6 +32,14 @@
 			dependencies: ["01256AFE747A1CBF"]
 			hide_until_deps_visible: true
 			id: "334735438DFE505B"
+			rewards: [{
+				id: "725279639DA0FE78"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5FC13B4C5F865F34"
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:logs))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -45,10 +53,10 @@
 			hide_until_deps_visible: true
 			id: "19EBC03B9B5C0DD4"
 			rewards: [{
-				id: "2A42D68B0E6A7644"
+				id: "0BFE6BD90AD05ED7"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -65,10 +73,10 @@
 			hide_until_deps_visible: true
 			id: "51C95C07DD4FE5A6"
 			rewards: [{
-				id: "709F00026E9092E1"
+				id: "744CF22F232349D1"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -86,10 +94,10 @@
 			hide_until_deps_visible: true
 			id: "2B172DC8F87F8321"
 			rewards: [{
-				id: "01E66EA26F850FA4"
+				id: "38A9C484905F8E04"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -106,10 +114,10 @@
 			hide_until_deps_visible: true
 			id: "3ED1EE762185E1D1"
 			rewards: [{
-				id: "1AF7CEC2456FBBF2"
+				id: "4461A233D10922C2"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -126,10 +134,10 @@
 			hide_until_deps_visible: true
 			id: "5336C3257F6E6DCE"
 			rewards: [{
-				id: "7AE92B1DD03221A6"
+				id: "1946B2F0114DA46D"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -146,10 +154,10 @@
 			hide_until_deps_visible: true
 			id: "0B927369431933B8"
 			rewards: [{
-				id: "676D2D139243D8D4"
+				id: "0A226E8A9ED58A5F"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -166,10 +174,10 @@
 			hide_until_deps_visible: true
 			id: "616B979CDF814586"
 			rewards: [{
-				id: "0EE7A79D03709FA5"
+				id: "25AC88DF20185E59"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -186,10 +194,10 @@
 			hide_until_deps_visible: true
 			id: "054D5EAF0AB8E6FA"
 			rewards: [{
-				id: "4AAAD4B44A558299"
+				id: "1E2EC3CC2CA1F590"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -206,10 +214,10 @@
 			hide_until_deps_visible: true
 			id: "58D909280639A503"
 			rewards: [{
-				id: "0DE073C8B1DC94D4"
+				id: "3A4E755648F479F0"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -227,10 +235,10 @@
 			hide_until_deps_visible: true
 			id: "5B6D417CBB35D96F"
 			rewards: [{
-				id: "1D1AED20A459AE04"
+				id: "1B296E43DCD84682"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -247,10 +255,10 @@
 			hide_until_deps_visible: true
 			id: "6F80A4096725A7ED"
 			rewards: [{
-				id: "643DF5CA87474943"
+				id: "53CCF7118CD4B3F2"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -268,10 +276,10 @@
 			hide_until_deps_visible: true
 			id: "30D96A391AF9E050"
 			rewards: [{
-				id: "32D40EF976C58542"
+				id: "337C58D63A640409"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -288,10 +296,10 @@
 			hide_until_deps_visible: true
 			id: "03FC230411E16641"
 			rewards: [{
-				id: "455A824F948CC115"
+				id: "4A3287C2C762C8BB"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -311,21 +319,14 @@
 			]
 			hide_until_deps_visible: true
 			id: "090D1D6106BE4F06"
-			rewards: [
-				{
-					id: "3D784CEBF118655D"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
+			rewards: [{
+				id: "1A02BFEE6FEC3671"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "3FE60C6BD93D16E4"
-					type: "loot"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "715BAD043766542E"
@@ -339,10 +340,10 @@
 			hide_until_deps_visible: true
 			id: "1393B7943AFB6B54"
 			rewards: [{
-				id: "480936A5593C46D2"
+				id: "02756DB598F260CC"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -359,10 +360,10 @@
 			hide_until_deps_visible: true
 			id: "403812BA7909FF11"
 			rewards: [{
-				id: "5179DF1AD91DE8EE"
+				id: "3A85BE447DF1DAA5"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -380,10 +381,10 @@
 			hide_until_deps_visible: true
 			id: "0FE73B1C3A1E181F"
 			rewards: [{
-				id: "68AC533EDC8D9076"
+				id: "548EA7A8121DC3B2"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -401,10 +402,10 @@
 			hide_until_deps_visible: true
 			id: "112B3BF69ADCB53A"
 			rewards: [{
-				id: "6A8634893258FAB5"
+				id: "0E7C20F1ACC00604"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -421,10 +422,10 @@
 			hide_until_deps_visible: true
 			id: "3E3397459D149D72"
 			rewards: [{
-				id: "292F93F5E00135D3"
+				id: "5E4397F6CB9B4D24"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -441,10 +442,10 @@
 			hide_until_deps_visible: true
 			id: "7BCBE649891D1C9B"
 			rewards: [{
-				id: "456E27F2036D48E7"
+				id: "5C2C2D58F0291753"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -459,12 +460,15 @@
 		{
 			dependencies: ["403812BA7909FF11"]
 			hide_until_deps_visible: true
+			icon: {
+				id: "minecraft:end_portal_frame"
+			}
 			id: "56959F905714B915"
 			rewards: [{
-				id: "732AC8A1907D0D2A"
+				id: "2A238E21864804B9"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -482,10 +486,10 @@
 			hide_until_deps_visible: true
 			id: "03F62F0E4DEE0C1C"
 			rewards: [{
-				id: "420BBDE7AAC15374"
+				id: "3934B826C7AA00DE"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -500,21 +504,14 @@
 		{
 			dependencies: ["03F62F0E4DEE0C1C"]
 			id: "19F53A5F8F69A394"
-			rewards: [
-				{
-					id: "2C72A2F4EED3341F"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
+			rewards: [{
+				id: "40CA4703E5E78E9F"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "0FABC09D57C468DC"
-					type: "loot"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D9C8EA218733C98"
 				item: { count: 1, id: "minecraft:elytra" }
@@ -528,10 +525,10 @@
 			hide_until_deps_visible: true
 			id: "3C8CDA5FB3B3E5DD"
 			rewards: [{
-				id: "64BFB079C058C073"
+				id: "088A5D9966AA156B"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -550,21 +547,14 @@
 			]
 			hide_until_deps_visible: true
 			id: "21B643BD3ABB92CE"
-			rewards: [
-				{
-					id: "478E24C411C4C042"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
+			rewards: [{
+				id: "1F16E841A3549EF6"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "1B1F808ABB77C301"
-					type: "loot"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "01CE29A0D31F06F6"
@@ -620,10 +610,10 @@
 			hide_until_deps_visible: true
 			id: "08CD0F35FC56877F"
 			rewards: [{
-				id: "7D067FE36C26D753"
+				id: "281366D1A86EFBAA"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -641,10 +631,10 @@
 			hide_until_deps_visible: true
 			id: "5A83CAD196067494"
 			rewards: [{
-				id: "4CD12A846E8E59C1"
+				id: "5D08460EDE51950A"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -676,6 +666,14 @@
 		{
 			dependencies: ["01256AFE747A1CBF"]
 			id: "49D841614CC15BE6"
+			rewards: [{
+				id: "6113C7B15DC495C6"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "64F6832552E0F930"
 				type: "checkmark"
@@ -686,6 +684,14 @@
 		{
 			dependencies: ["01256AFE747A1CBF"]
 			id: "6436E46E095D0BDD"
+			rewards: [{
+				id: "11F1240CD48E9094"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "30C33DEDF6374D94"
 				type: "checkmark"
@@ -696,6 +702,14 @@
 		{
 			dependencies: ["01256AFE747A1CBF"]
 			id: "78D7575B8BFD8848"
+			rewards: [{
+				id: "0516C8498588D4A3"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "66B1A93AFB06BED2"
 				type: "checkmark"
@@ -706,6 +720,14 @@
 		{
 			dependencies: ["01256AFE747A1CBF"]
 			id: "7EFF472EB4F530FE"
+			rewards: [{
+				id: "1519885CC35D79F4"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "10D148E57A7476A6"
 				type: "checkmark"
@@ -716,6 +738,14 @@
 		{
 			dependencies: ["01256AFE747A1CBF"]
 			id: "1403FE3F41E3D45D"
+			rewards: [{
+				id: "6AB27E5CE158B754"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "68C94AF9FDB6A1CD"
 				type: "checkmark"
