@@ -34,6 +34,14 @@ let tools_axe = {
         `ae2:certus_quartz_axe`,
         `ae2:nether_quartz_axe`,
         `ae2:fluix_axe`,
+        `naturesaura:infused_iron_axe`,
+        `twilightforest:ironwood_axe`,
+        `twilightforest:steeleaf_axe`,
+        //'naturesaura:depth_axe',
+        //'naturesaura:sky_axe',
+        //'twilightforest:diamond_minotaur_axe',
+        //'twilightforest:gold_minotaur_axe',
+        //'twilightforest:knightmetal_axe'
 
     ],
     reference: [
@@ -70,6 +78,14 @@ let tools_axe = {
         `ae2:certus_quartz_axe`,
         `ae2:nether_quartz_axe`,
         `ae2:fluix_axe`,
+        `naturesaura:infused_iron_axe`,
+        `twilightforest:ironwood_axe`,
+        `twilightforest:steeleaf_axe`,
+        'naturesaura:depth_axe',
+        'naturesaura:sky_axe',
+        'twilightforest:diamond_minotaur_axe',
+        'twilightforest:gold_minotaur_axe',
+        'twilightforest:knightmetal_axe'
     ]
 }
 
