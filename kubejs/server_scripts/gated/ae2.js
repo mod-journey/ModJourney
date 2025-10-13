@@ -7,8 +7,8 @@ let ae_gated = (event, active, debug) => {
 
     // Inscriber
     event.replaceInput(
-        { id: 'ae2:inscriber' },
-        'minecraft:sticky_piston',
+        { id: 'ae2:network/blocks/inscribers' },
+        'minecraft:piston',
         stages.stage1.core
     )
 
@@ -49,7 +49,7 @@ let ae_gated = (event, active, debug) => {
 
     //Drahtlosempfänger - Eisen getauscht durch mekanism:alloy_atmoic
     event.replaceInput(
-        { id: 'ae2:wireless_receiver' },
+        { id: 'ae2:network/wireless_part' },
         'minecraft:iron_ingot',
         'mekanism:alloy_atomic'
     )
