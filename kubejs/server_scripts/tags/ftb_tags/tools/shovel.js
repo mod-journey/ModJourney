@@ -33,7 +33,12 @@ let tools_shovel = {
         //`undergarden:forgotten_shovel`,
         `ae2:certus_quartz_shovel`,
         `ae2:nether_quartz_shovel`,
-        `ae2:fluix_shovel`
+        `ae2:fluix_shovel`,
+        //`naturesaura:depth_shovel`,
+        //`naturesaura:sky_shovel`,
+        `naturesaura:infused_iron_shovel`,
+        `twilightforest:ironwood_shovel`,
+        `twilightforest:steeleaf_shovel`
 
     ],
     reference: [
@@ -69,6 +74,11 @@ let tools_shovel = {
         `undergarden:forgotten_shovel`,
         `ae2:certus_quartz_shovel`,
         `ae2:nether_quartz_shovel`,
-        `ae2:fluix_shovel`
+        `ae2:fluix_shovel`,
+        `naturesaura:depth_shovel`,
+        `naturesaura:sky_shovel`,
+        `naturesaura:infused_iron_shovel`,
+        `twilightforest:ironwood_shovel`,
+        `twilightforest:steeleaf_shovel`
     ]
 }
