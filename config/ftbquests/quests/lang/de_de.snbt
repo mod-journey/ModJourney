@@ -719,7 +719,6 @@
 	quest.2AB8746017BEEEA3.quest_desc: ["Forgotten Nuggets, werden durch Forgotten Guardians gedroppt. Auch andere Mobs im Undergarden lassen diese Fallen, zu geringeren Chancen aber. "]
 	quest.2AF2078918509008.quest_desc: ["Konsolen, Import- \\& Exportbus, Schnittstellen usw. sind sogenannte Peripherie. Ein jenes solcher Zusatzteile, belegt ein Channel auf deinem Kabel."]
 	quest.2B3256EDDEB698CB.quest_desc: ["Ist eine verbesserte Version vom \"Token of Anger\"."]
-	quest.2B916E825296EE08.title: "Common Black Hole Unit"
 	quest.2C4CAE3C053348BE.quest_desc: ["Die schiere Größe des \"Soulstrider's Blades\" kommt zum Tragen, wenn eine größere Gruppe von Monstern angegriffen wird. Wenn man mehrere Monster angreift, bleiben diese in einem ziemlich großen Bereich stecken, als ob sie mit einer mächtigeren Version von \"Sweeping Edge\" verzaubert wären. Natürlich schließen sich diese beiden Fähigkeiten auch nicht gegenseitig aus."]
 	quest.2C5CFE4579A1DF6E.quest_desc: [
 		"Gravitite gehört zum stärksten Material, das es im Aether zu finden gibt."
@@ -731,7 +730,6 @@
 		"Werkzeuge aus Gravitite können bestimmte Blöcke und Gegner nach oben schweben lassen."
 	]
 	quest.2C5CFE4579A1DF6E.title: "Kontrolliere die Schwerkraft"
-	quest.2C8AC35868B1A016.title: "Finde die Festung"
 	quest.2C9AFD3062A6F1D7.quest_desc: ["Mittels Dem Logikdruck, Redstone und Siliziumdruck, erhältst Du nun einen Logikprozessor."]
 	quest.2D0F23DBA856E880.quest_desc: [
 		"Dieses besondere Regal erlaubt dir, Schatzverzauberungen im Verzauberungstisch zu bekommen, die man normalerweise nur in Lootkisten finden kann."
