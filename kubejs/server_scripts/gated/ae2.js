@@ -68,21 +68,28 @@ let ae_gated = (event, active, debug) => {
         'mekanism:alloy_atomic'
     )
 
-    //Extended Drive - Hinzufügen des accumulation Prozessor in der Mitte oben bei Buchstabe A
-    event.shaped(
-        Item.of('extendedae:ex_drive', 1),
-        [
-            ' A ',
-            'BCB',
-            'DED'
-        ],
-        {
-            A: 'megacells:accumulation_processor',
-            B: '#ae2:glass_cable',
-            C: 'ae2:drive',
-            D: 'ae2:fluix_dust',
-            E: 'ae2:capacity_card'
-        }
+    event.replaceInput(
+        {output: 'extendedae:concurrent_processor'},
+        'minecraft:redstone',
+        'mekanism:alloy_atomic'
     )
+
+    /* Geht Inscriber und Crystal Assembler Rezepte durch, tauscht wenn eines der beiden gefunden wurde Redstone mit Atomic Alloy*/
+    event.forEachRecipe({ output: 'extendedae:concurrent_processor' }, r => {
+        if (r.json.get("type") + '' === '"ae2:inscriber"') {
+            let objectToReplace = r.json.get("ingredients").get("middle")
+
+            objectToReplace.remove("tag")
+            objectToReplace.add("tag", "c:alloys/ultimate")
+            event.custom(r.json).id(r.getId())
+        }
+        if (r.json.get("type") + '' === '"extendedae:crystal_assembler"') {
+            let objectToReplace = r.json.get("input_items").get(2).get("ingredient")
+
+            objectToReplace.remove("tag")
+            objectToReplace.add("tag", "c:alloys/ultimate")
+            event.custom(r.json).id(r.getId())
+        }
+    })
 
 }
