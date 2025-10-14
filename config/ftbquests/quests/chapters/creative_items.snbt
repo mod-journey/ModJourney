@@ -1,0 +1,19 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "creative_items"
+	group: "5137A643BD4C4882"
+	id: "7E4C16B1CFFEA76C"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "1A68095FE4424786"
+		tasks: [{
+			id: "5E9F04C4A41D0EBA"
+			type: "checkmark"
+		}]
+		x: 1.0d
+		y: 0.0d
+	}]
+}
