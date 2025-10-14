@@ -23,6 +23,7 @@
 	chapter.53C1E22F3D3647F5.title: "Functional Drawer"
 	chapter.54043FA86481F5EB.title: "Thermal"
 	chapter.5F4F40A7D501FDEE.title: "Extreme Reactors"
+	chapter.61690176D17563A1.title: "Mystical Agriculture IV"
 	chapter.62592CBE673BE5C1.title: "Minecraft Grundlagen"
 	chapter.628369B0B9A2CE0B.title: "Mystical Agriculture"
 	chapter.74E4029DEC1BAF42.title: "Flux Network"
@@ -53,7 +54,7 @@
 		""
 		"Es beginnt wie jedes normale Minecraft Spiel, für jeden Fortschritt im Questbuch erhaltet ihr jedoch Belohnungen und schaltet Schritt für Schritt neue Technologie, Magie oder andere Vorteile frei."
 		""
-		"Mit Hilfe der Münzen könnt ihr im Verlauf des Spieles besonders Items erwerben, die auf \"normalem\" Wege nicht zu finden sind."
+		"Mit Hilfe der Münzen könnt ihr im Verlauf des Spieles besondere Items erwerben, die auf \"normalem\" Wege nicht zu finden sind."
 	]
 	quest.01256AFE747A1CBF.title: "Die Reise beginnt"
 	quest.013F4DF5BE81AFA4.quest_subtitle: "Frakking!"
@@ -817,6 +818,8 @@
 		"Werkzeuge aus Gravitite können bestimmte Blöcke und Gegner nach oben schweben lassen."
 	]
 	quest.2C5CFE4579A1DF6E.title: "Kontrolliere die Schwerkraft"
+	quest.2C8AC35868B1A016.quest_subtitle: "Wohin schaut das Enderauge?"
+	quest.2C8AC35868B1A016.title: "Finde die Endfestung"
 	quest.2C9AFD3062A6F1D7.quest_desc: ["Mittels Dem Logikdruck, Redstone und Siliziumdruck, erhältst Du nun einen Logikprozessor."]
 	quest.2D0F23DBA856E880.quest_desc: [
 		"Dieses besondere Regal erlaubt dir, Schatzverzauberungen im Verzauberungstisch zu bekommen, die man normalerweise nur in Lootkisten finden kann."
