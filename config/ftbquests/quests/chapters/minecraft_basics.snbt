@@ -320,7 +320,7 @@
 			hide_until_deps_visible: true
 			id: "090D1D6106BE4F06"
 			rewards: [{
-				id: "3D784CEBF118655D",
+				id: "3D784CEBF118655D"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -460,6 +460,9 @@
 		{
 			dependencies: ["403812BA7909FF11"]
 			hide_until_deps_visible: true
+			icon: {
+				id: "minecraft:end_portal_frame"
+			}
 			id: "2C8AC35868B1A016"
 			rewards: [{
 				id: "32F4C350A13A2B04"
@@ -470,8 +473,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "1FD6CE4940D60707",
-				structure: "betterstrongholds:stronghold",
+				id: "1FD6CE4940D60707"
+				structure: "betterstrongholds:stronghold"
 				type: "structure"
 			}]
 			x: 12.0d
@@ -522,7 +525,7 @@
 			dependencies: ["03F62F0E4DEE0C1C"]
 			id: "19F53A5F8F69A394"
 			rewards: [{
-				id: "2C72A2F4EED3341F",
+				id: "2C72A2F4EED3341F"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
