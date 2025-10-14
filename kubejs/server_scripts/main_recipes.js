@@ -49,7 +49,7 @@ if (events_server) {
             mysticalagriculture_gated(event, true);
             powah_gated(event, true);
             rfttools_gated(event, true);
-            sophisticatedbackpacks_gated(event, false);
+            sophisticatedbackpacks_gated(event, true);
             remove_item_by_tag(event, true);                    //Checking scipt of using
             stellaris_gated(event, true);
             occultism_gated(event, true);
@@ -70,6 +70,7 @@ if (events_server) {
             add_cataclysm(event, false);                        //deactivate, while cataclysm is deactivated as mod, while throw a lot of errors.
             add_modjourneycoins(event, true);
             add_stellaris(event, true);
+            easy_villagers_gated(event, true)
         }
 
         if (customMachine_event) {
@@ -87,7 +88,6 @@ if (events_server) {
             remove_aether(event, true);
             remove_apotheosis(event, true, false);
             remove_arsNoveau(event, true);
-            remove_easyVillager(event, true);
             remove_extremeReactor(event, true);
             remove_ftbquest(event, true);
             remove_immersive(event, true);
@@ -100,6 +100,7 @@ if (events_server) {
             remove_natureAura(event, true);
             remove_occultism(event, true);
             remove_arsElemental(event, true);
+            remove_sophisticated(event, true);
         }
 
         if (replace_ores) {

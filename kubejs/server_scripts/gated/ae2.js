@@ -7,8 +7,8 @@ let ae_gated = (event, active, debug) => {
 
     // Inscriber
     event.replaceInput(
-        { id: 'ae2:inscriber' },
-        'minecraft:sticky_piston',
+        { id: 'ae2:network/blocks/inscribers' },
+        'minecraft:piston',
         stages.stage1.core
     )
 
@@ -49,7 +49,7 @@ let ae_gated = (event, active, debug) => {
 
     //Drahtlosempfänger - Eisen getauscht durch mekanism:alloy_atmoic
     event.replaceInput(
-        { id: 'ae2:wireless_receiver' },
+        { id: 'ae2:network/wireless_part' },
         'minecraft:iron_ingot',
         'mekanism:alloy_atomic'
     )
@@ -61,22 +61,6 @@ let ae_gated = (event, active, debug) => {
         'mekanism:alloy_atomic'
     )
 
-    //definiert die Prozessortypen für kommende Funktion
-    let prozessoren = [
-        'calculation',
-        'logic',
-        'engineering'
-    ]
-
-    //Funktion ersetzt aus der Mod extendedAE alle Prozessoren durch den accumulation Prozessor
-    prozessoren.forEach(element => {
-        event.replaceInput(
-            { mod: 'extendedae' },
-            `ae2:${element}_processor`,
-            'megacells:accumulation_processor'
-        )
-    });
-
     //Wireless Tool fürs verbinden von ME Systemen. Einmaliger Craftprozess, da Tool. Kalkulationsprozessor getauscht durch mekanism:alloy_atomic
     event.replaceInput(
         { id: 'expatternprovider:wireless_tool' },
@@ -84,21 +68,22 @@ let ae_gated = (event, active, debug) => {
         'mekanism:alloy_atomic'
     )
 
-    //Extended Drive - Hinzufügen des accumulation Prozessor in der Mitte oben bei Buchstabe A
-    event.shaped(
-        Item.of('extendedae:ex_drive', 1),
-        [
-            ' A ',
-            'BCB',
-            'DED'
-        ],
-        {
-            A: 'megacells:accumulation_processor',
-            B: '#ae2:glass_cable',
-            C: 'ae2:drive',
-            D: 'ae2:fluix_dust',
-            E: 'ae2:capacity_card'
+    /* Geht Inscriber und Crystal Assembler Rezepte durch, tauscht wenn eines der beiden gefunden wurde Redstone mit Atomic Alloy*/
+    event.forEachRecipe({ output: 'extendedae:concurrent_processor' }, r => {
+        if (r.json.get("type") + '' === '"ae2:inscriber"') {
+            let objectToReplace = r.json.get("ingredients").get("middle")
+
+            objectToReplace.remove("tag")
+            objectToReplace.add("tag", "c:alloys/ultimate")
+            event.custom(r.json).id(r.getId())
         }
-    )
+        if (r.json.get("type") + '' === '"extendedae:crystal_assembler"') {
+            let objectToReplace = r.json.get("input_items").get(2).get("ingredient")
+
+            objectToReplace.remove("tag")
+            objectToReplace.add("tag", "c:alloys/ultimate")
+            event.custom(r.json).id(r.getId())
+        }
+    })
 
 }
