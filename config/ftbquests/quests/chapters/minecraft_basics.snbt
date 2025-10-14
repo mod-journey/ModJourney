@@ -14,7 +14,7 @@
 		{
 			id: "01256AFE747A1CBF"
 			rewards: [{
-				id: "6E77BC9466965AB3"
+				id: "5619179DA7CB24C1"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -53,7 +53,7 @@
 			hide_until_deps_visible: true
 			id: "19EBC03B9B5C0DD4"
 			rewards: [{
-				id: "0BFE6BD90AD05ED7"
+				id: "2A42D68B0E6A7644"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -73,7 +73,7 @@
 			hide_until_deps_visible: true
 			id: "51C95C07DD4FE5A6"
 			rewards: [{
-				id: "744CF22F232349D1"
+				id: "709F00026E9092E1"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -94,7 +94,7 @@
 			hide_until_deps_visible: true
 			id: "2B172DC8F87F8321"
 			rewards: [{
-				id: "38A9C484905F8E04"
+				id: "01E66EA26F850FA4"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -114,7 +114,7 @@
 			hide_until_deps_visible: true
 			id: "3ED1EE762185E1D1"
 			rewards: [{
-				id: "4461A233D10922C2"
+				id: "1AF7CEC2456FBBF2"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -134,7 +134,7 @@
 			hide_until_deps_visible: true
 			id: "5336C3257F6E6DCE"
 			rewards: [{
-				id: "1946B2F0114DA46D"
+				id: "7AE92B1DD03221A6"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -154,7 +154,7 @@
 			hide_until_deps_visible: true
 			id: "0B927369431933B8"
 			rewards: [{
-				id: "0A226E8A9ED58A5F"
+				id: "676D2D139243D8D4"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -174,7 +174,7 @@
 			hide_until_deps_visible: true
 			id: "616B979CDF814586"
 			rewards: [{
-				id: "25AC88DF20185E59"
+				id: "0EE7A79D03709FA5"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -194,7 +194,7 @@
 			hide_until_deps_visible: true
 			id: "054D5EAF0AB8E6FA"
 			rewards: [{
-				id: "1E2EC3CC2CA1F590"
+				id: "4AAAD4B44A558299"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -214,7 +214,7 @@
 			hide_until_deps_visible: true
 			id: "58D909280639A503"
 			rewards: [{
-				id: "3A4E755648F479F0"
+				id: "0DE073C8B1DC94D4"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -235,7 +235,7 @@
 			hide_until_deps_visible: true
 			id: "5B6D417CBB35D96F"
 			rewards: [{
-				id: "1B296E43DCD84682"
+				id: "1D1AED20A459AE04"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -255,7 +255,7 @@
 			hide_until_deps_visible: true
 			id: "6F80A4096725A7ED"
 			rewards: [{
-				id: "53CCF7118CD4B3F2"
+				id: "643DF5CA87474943"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -276,7 +276,7 @@
 			hide_until_deps_visible: true
 			id: "30D96A391AF9E050"
 			rewards: [{
-				id: "337C58D63A640409"
+				id: "32D40EF976C58542"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -296,7 +296,7 @@
 			hide_until_deps_visible: true
 			id: "03FC230411E16641"
 			rewards: [{
-				id: "4A3287C2C762C8BB"
+				id: "455A824F948CC115"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -320,7 +320,7 @@
 			hide_until_deps_visible: true
 			id: "090D1D6106BE4F06"
 			rewards: [{
-				id: "1A02BFEE6FEC3671"
+				id: "3D784CEBF118655D",
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -340,7 +340,7 @@
 			hide_until_deps_visible: true
 			id: "1393B7943AFB6B54"
 			rewards: [{
-				id: "02756DB598F260CC"
+				id: "480936A5593C46D2"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -360,7 +360,7 @@
 			hide_until_deps_visible: true
 			id: "403812BA7909FF11"
 			rewards: [{
-				id: "3A85BE447DF1DAA5"
+				id: "5179DF1AD91DE8EE"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -381,7 +381,7 @@
 			hide_until_deps_visible: true
 			id: "0FE73B1C3A1E181F"
 			rewards: [{
-				id: "548EA7A8121DC3B2"
+				id: "68AC533EDC8D9076"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -402,7 +402,7 @@
 			hide_until_deps_visible: true
 			id: "112B3BF69ADCB53A"
 			rewards: [{
-				id: "0E7C20F1ACC00604"
+				id: "6A8634893258FAB5"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -422,7 +422,7 @@
 			hide_until_deps_visible: true
 			id: "3E3397459D149D72"
 			rewards: [{
-				id: "5E4397F6CB9B4D24"
+				id: "292F93F5E00135D3"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -442,7 +442,7 @@
 			hide_until_deps_visible: true
 			id: "7BCBE649891D1C9B"
 			rewards: [{
-				id: "5C2C2D58F0291753"
+				id: "456E27F2036D48E7"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -460,12 +460,29 @@
 		{
 			dependencies: ["403812BA7909FF11"]
 			hide_until_deps_visible: true
-			icon: {
-				id: "minecraft:end_portal_frame"
-			}
+			id: "2C8AC35868B1A016"
+			rewards: [{
+				id: "32F4C350A13A2B04"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FD6CE4940D60707",
+				structure: "betterstrongholds:stronghold",
+				type: "structure"
+			}]
+			x: 12.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["2C8AC35868B1A016"]
+			hide_until_deps_visible: true
 			id: "56959F905714B915"
 			rewards: [{
-				id: "2A238E21864804B9"
+				id: "732AC8A1907D0D2A"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -477,7 +494,7 @@
 				id: "6BAFF2940497C0C2"
 				type: "dimension"
 			}]
-			x: 12.0d
+			x: 13.5d
 			y: 1.25d
 		}
 		{
@@ -486,7 +503,7 @@
 			hide_until_deps_visible: true
 			id: "03F62F0E4DEE0C1C"
 			rewards: [{
-				id: "3934B826C7AA00DE"
+				id: "420BBDE7AAC15374"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -498,14 +515,14 @@
 				structure: "minecraft:end_city"
 				type: "structure"
 			}]
-			x: 13.5d
+			x: 15.0d
 			y: 1.25d
 		}
 		{
 			dependencies: ["03F62F0E4DEE0C1C"]
 			id: "19F53A5F8F69A394"
 			rewards: [{
-				id: "40CA4703E5E78E9F"
+				id: "2C72A2F4EED3341F",
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -517,7 +534,7 @@
 				item: { count: 1, id: "minecraft:elytra" }
 				type: "item"
 			}]
-			x: 14.5d
+			x: 16.0d
 			y: 0.5d
 		}
 		{
@@ -525,7 +542,7 @@
 			hide_until_deps_visible: true
 			id: "3C8CDA5FB3B3E5DD"
 			rewards: [{
-				id: "088A5D9966AA156B"
+				id: "64BFB079C058C073"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -537,7 +554,7 @@
 				item: { count: 1, id: "minecraft:shulker_box" }
 				type: "item"
 			}]
-			x: 14.5d
+			x: 16.0d
 			y: 2.0d
 		}
 		{
@@ -548,7 +565,7 @@
 			hide_until_deps_visible: true
 			id: "21B643BD3ABB92CE"
 			rewards: [{
-				id: "1F16E841A3549EF6"
+				id: "478E24C411C4C042"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -610,7 +627,7 @@
 			hide_until_deps_visible: true
 			id: "08CD0F35FC56877F"
 			rewards: [{
-				id: "281366D1A86EFBAA"
+				id: "7D067FE36C26D753"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -631,7 +648,7 @@
 			hide_until_deps_visible: true
 			id: "5A83CAD196067494"
 			rewards: [{
-				id: "5D08460EDE51950A"
+				id: "4CD12A846E8E59C1"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
