@@ -13,6 +13,19 @@
 - Fix some Grammer Issues in Questbook
 - Fix some dependencies in Questbook
 - Fix some Tasks in Questbook
+- Chunky Border now visible on Servers
+- Fix Industrial Fluid Laser pump Stellaris Oil
+- readd Iron Farm from Easy Villagers
+  - smurf it.
+  - add to stage 2
+- rebalance Stage 4 Crafting Item
+- Add AE2 Gating, near to MJ1
+- rebalance Extended Crafting Staging.
+- remove Steel Block back crafting Recipe from Stellaris
+- remove crafting Recipe from Omega Upgrade (sophisticated), while add to creativ Shop.
+- readd Ultimine bind ob tiered Tools.
+  - remove old Mods e.g. Blood-Magic and Blue-Skies
+  - add Mods e.g. Nature Aura, Occultism and Twillight-Forest
 -->
 
 <!--
