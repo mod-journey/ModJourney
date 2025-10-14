@@ -320,6 +320,8 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["0E92633B7DC58B57"]
+			hide_until_deps_complete: true
 			id: "3C28EE39F70494BD"
 			rewards: [{
 				id: "7BB452F27158D37F"

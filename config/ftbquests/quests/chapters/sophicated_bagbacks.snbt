@@ -133,6 +133,8 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["0E92633B7DC58B57"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "sophisticatedbackpacks:backpack"
 			}

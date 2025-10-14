@@ -33,6 +33,8 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["0E92633B7DC58B57"]
+			hide_until_deps_complete: true
 			id: "19BDD9A98862D1F7"
 			rewards: [
 				{
@@ -750,6 +752,8 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["19BDD9A98862D1F7"]
+			hide_dependency_lines: true
 			id: "50476836CF31E575"
 			rewards: [{
 				id: "6BEB528B1749759B"

@@ -13,14 +13,24 @@
 	quests: [
 		{
 			id: "01256AFE747A1CBF"
-			rewards: [{
-				id: "5619179DA7CB24C1"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					id: "5619179DA7CB24C1"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					auto: "invisible"
+					id: "3E48017668866E36"
+					ignore_reward_blocking: true
+					stage: "intro"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
 			tasks: [{
 				id: "1C4F77DADCA06904"
 				type: "checkmark"
@@ -29,7 +39,11 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["01256AFE747A1CBF"]
+			dependencies: [
+				"01256AFE747A1CBF"
+				"0E92633B7DC58B57"
+			]
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "334735438DFE505B"
 			rewards: [{
@@ -774,7 +788,11 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["49D841614CC15BE6"]
+			dependencies: [
+				"49D841614CC15BE6"
+				"0E92633B7DC58B57"
+			]
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "06058D4919841D02"
 			optional: true
@@ -868,6 +886,8 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["0E92633B7DC58B57"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "mod_journey:copper_coin"
 			}
@@ -895,6 +915,8 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["0E92633B7DC58B57"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "mod_journey:silver_coin"
 			}
