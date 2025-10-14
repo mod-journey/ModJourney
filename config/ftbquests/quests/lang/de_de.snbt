@@ -2173,7 +2173,9 @@
 	quest.7EEBDA12D85434A5.quest_desc: ["Benutze den Sun Altar und erlaube dem Tag-Nacht-Zyklus wieder frei zu laufen."]
 	quest.7EEBDA12D85434A5.title: "Sonnenuntergang"
 	quest.7EFF472EB4F530FE.quest_desc: [
-		"[ \"Sobald ihr eine \", { \"text\": \"Diamantspitzhacke\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1393B7943AFB6B54\" } }, \" besitzt, könnt ihr die Abbauhilfe Ultimine nutzen.\" ]"
+		"Sobald ihr eine "
+		"{ \"translate\": \"item.minecraft.diamond_pickaxe\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1393B7943AFB6B54\" } } "
+		"besitzt, könnt ihr die Abbauhilfe Ultimine nutzen."
 		""
 		"Dadurch bekommt ihr die Möglichkeit eine mehrere Blöcke des selben Types (z.b. Eisenerz) gleichzeitig abzubauen."
 		""
