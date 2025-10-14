@@ -57,21 +57,26 @@
 	]
 	quest.01256AFE747A1CBF.title: "Die Reise beginnt"
 	quest.013F4DF5BE81AFA4.quest_subtitle: "Frakking!"
+	quest.014F159CFE840FB8.title: "Kuh IV"
 	quest.016A7860CCA8F684.quest_desc: ["Das Dictionary wird dein bester Freund und Helfer in dieser Mod sein. Eine Art Wiki!"]
 	quest.016A7860CCA8F684.title: "Dictionary"
 	quest.01AEA72DE639B9C3.quest_subtitle: "Ein mittelgroßer Energiespeicher für das Flux Network"
+	quest.01DEF2DAFC937F8E.title: "Kuh II"
 	quest.0229BE506646586A.title: "Nicht Wirklich Nützlich aber was man hat hat man"
 	quest.026272F9CF7A8047.quest_desc: ["Du hast deine ersten 2B Cobble, Steam etc. im ME System und willst ein Limit setzen? Mit dieser Karte zerstörst Du alle Items die über den angegebenen Speicherplatz hinaus gehen."]
 	quest.026B9FF404AEA42D.title: "Nur noch ein schritt ins Portal"
 	quest.0295BE21DA3E9D39.quest_desc: ["Diese Fackeln können im Aether als Lichtquelle hingestellt werden, wenn es Nacht...achja, da war ja was."]
 	quest.0295BE21DA3E9D39.title: "Es werde Licht"
+	quest.031506467C50A735.title: "Schildkröte II"
 	quest.0351CB5474F159D3.quest_desc: ["Der Enchanter's Shield funktioniert wie ein normaler Schild, gibt dem Anwender aber Mana Regeneration und Spell Damage nach dem Blocken eines Angriffs. Außerdem repariert dieser sich automatisch durch das eigene Mana."]
 	quest.0351CB5474F159D3.title: "Verteidigung ist die beste Verteidigung"
+	quest.0368209E630E1E24.title: "Schaf III"
 	quest.038957C888562E9F.quest_subtitle: "Staub und Wasser werden zu Feststoff"
 	quest.0390C2B9DD42D306.quest_desc: ["Ambrosium, das himmlische Äquivalent zu Kohle. Besitzt heilerische Fähigkeiten und heilt ein halbes Herz wenn konsumiert."]
 	quest.0390C2B9DD42D306.title: "Ambrosium, Speise der Götter"
 	quest.039871909EFF48A3.quest_desc: ["Kann in den Multiblock integriert werden, und zeigt das aktuelle Crafting-Rezept an, welches gerade vom Prozessor verarbeitet wird."]
 	quest.03993D2DCBC69C3A.quest_desc: ["Ein Teil einer Multiblockstruktur. Diese kannst Du nutzen, um deine Orb in Fusing Rezepten mit Strom zu versorgen. Wie man dies mittels Autocrafting hinbekommt, lernst du in der folge Quest."]
+	quest.03B6DAF808E94956.title: "Kupfer III"
 	quest.03BE5EF16114B846.quest_desc: [
 		"An diesem Tisch können selbst Affix Items gecraftet werden. Dafür setzt man in den mittleren Slot das zu bearbeitende Item, links oben das Aufwertungsmaterial in der gewünschten Seltenheit und rechts unten die Sigil of Rebirth."
 		""
@@ -83,6 +88,7 @@
 	quest.0400DBB195284E8E.quest_desc: ["Mit folgendem Block kannst Du Dir deine eigenen Level absaugen, indem Du dich einfach drauf stellst. Mit einem Rohr, Eimer, etc. kannst Du die XP aufnehmen oder weiterleiten. "]
 	quest.04037DF1C50C7CAB.quest_subtitle: "damit kann man seine Megarüstung Upgraden"
 	quest.04037DF1C50C7CAB.title: "Mega Upgrade"
+	quest.040C04F4795E71E6.title: "Amethyst III"
 	quest.041CD4FF5110FCD7.quest_desc: [
 		"Ein Item, welches mit unzähligen Upgrades versehen werden kann. "
 		"Fügt Mobs schaden hinzu. "
@@ -91,6 +97,7 @@
 	]
 	quest.04443A6AB94C4DDA.quest_desc: ["Um es mit dem Aufbau des Rituals einfacher zu haben, öffnet euer \"Book of Aura\" und sucht dort das \"Ritual of Forest/Ritual des Waldes\". Dann könnt ihr euch die Struktur anzeigen lassen (mit rechtsklick fixieren)."]
 	quest.04443A6AB94C4DDA.title: "Ritual des Waldes"
+	quest.0450648A288A88F4.title: "Certus Quartz IV"
 	quest.047EA9E03F9DA8BB.quest_desc: [
 		"Um Verzauberungen bis Level 45 zu bekommen, muss man entweder den Nether oder den Ozean gemeistert haben."
 		""
@@ -102,7 +109,7 @@
 	]
 	quest.047EA9E03F9DA8BB.title: "Level 45"
 	quest.0483CB253596FF20.quest_desc: [
-		"Wenn Dein Blut Netzwerk genug Blut gespeichert hat, kannst Du mit dem Item den Master Ritualstone rechts-klicken, nachdem du es aufgebaut hast. Es sollte nun Funktionieren. "
+		"Wenn Dein Blut Netzwerk genug Blut gespeichert hat, kannst Du mit dem Item den Meister Ritualstein rechts-klicken, nachdem du es aufgebaut hast. Es sollte nun Funktionieren. "
 		"Es braucht Blut zum aktivieren und es braucht außerdem Blut pro Tick. "
 		"Nähere Informationen dazu findest Du in den jeweiligen Seiten des Guide-Buchs."
 	]
@@ -119,6 +126,7 @@
 	quest.0555F3309ADAE672.quest_desc: ["Mehr Filteroptionen!"]
 	quest.0555F3309ADAE672.quest_subtitle: "Wer will den S....ß II"
 	quest.055723E081112022.quest_desc: ["Dieses Item findest Du entweder sehr selten in den tiefen der bloodmagic Dungeon wie dem hidden Realm. Außerdem kannst Du normale Tau Pflanzen finden, welche Du dann durch Blutopfer zu Saturated Tau umwandeln kannst. "]
+	quest.055EC1E96F449CDA.title: "Schwein I"
 	quest.058F5156168C41AD.quest_desc: ["Hast Du das Blutonium in flüssiger Form, kannst du es deinem Reactor wieder hinzufügen oder es weiter verarbeiten. "]
 	quest.058F5156168C41AD.title: "Liquid"
 	quest.05ABC06AABB602DC.quest_desc: [
@@ -155,6 +163,7 @@
 	quest.070DD06560D8888A.quest_subtitle: "Eine...Nähmaschine?"
 	quest.070DD06560D8888A.title: "Magische Threads"
 	quest.070E4C57EBA4CC18.quest_desc: ["Auch dieser Block bewegt Entitys. Braucht ein aktives Redstone Signal"]
+	quest.071714AF7FC1B780.title: "Diamant I"
 	quest.073EAA0D4341E3AC.quest_desc: [
 		"Pinker Schleim wird produziert, wenn Monster oder Tiere von dem "
 		"{ \"text\": \"Industrieller Schlachter\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5A557E0D8DFA312E\" } } "
@@ -162,23 +171,28 @@
 		""
 		"Jede Kreatur liefert dabei eine unterschiedliche Menge."
 	]
+	quest.074E404460A64411.title: "Nether IV"
 	quest.077C86B2B3E3546C.quest_desc: ["Noch mehr stacken!"]
 	quest.077C86B2B3E3546C.quest_subtitle: "MEEEEEEEHR II"
 	quest.0788F9E6D027F21F.title: "Verkabelung"
 	quest.07BFBAE08D89B702.quest_desc: ["Mit diesen Seeds können Mageblooms angebaut werden, die dann verschiedene Einsatzmöglichkeiten von Rüstungsmaterial zu magischem Essen ermöglichen."]
 	quest.07BFBAE08D89B702.title: "Grüner Magiedaumen"
 	quest.07C4A9582BCBDAD1.title: "hide botania"
+	quest.080453BF04566EE0.title: "Amethyst I"
 	quest.08377ECC8FA7DD80.quest_desc: ["Ermöglicht das Laden von FE basierten Items in einem Container, Kiste, Storage. "]
+	quest.084CE3C5D3F72C59.title: "Kupfer IV"
 	quest.084F397A9654B3BB.quest_desc: ["Ein ME-Laufwerk bietet Dir die Möglichkeit, 10 Festplatten an dein System anzubinden. "]
 	quest.085524FB2AA3BAEF.quest_desc: ["wird weitaus mehr ballern wie die Rods zuvor."]
+	quest.08A02B295DC87498.title: "Prismarin II"
 	quest.08BDD4ADC8DDB9C2.quest_desc: [
 		"&4Zusätzlich:&r"
 		"Ab dem Einlösen der Quest, kannst Du zusätzlich im Technic-Shop einkaufen. "
 	]
-	quest.08BDD4ADC8DDB9C2.title: "&4Nitro Crystal"
+	quest.08BDD4ADC8DDB9C2.title: "&4Nitro Kristall"
 	quest.08CD0F35FC56877F.title: "Wir brauchen Leder"
 	quest.08EA8E426B32DE48.quest_desc: ["Mit den Oxygen-Tanks kannst du Teile deines Raumanzugs craften. Außerdem benötigst Du sie um Sauerstoff nachzutanken. Hast Du vor auf andere Planeten zu fliegen? Nehm dir immer welche auf Vorrat mit. "]
 	quest.090D1D6106BE4F06.title: "Ab in die Hölle"
+	quest.0911F717093E2068.title: "Leuchtstein II"
 	quest.0915EAA3DEB29E46.quest_desc: [
 		"Um noch stärkere Verzauberungen zu bekommen, muss das Deep Dark nun auch erobert werden."
 		""
@@ -213,6 +227,7 @@
 	]
 	quest.0AEAF1A388DE10D7.quest_subtitle: "Ein mit Strom betriebener Ofen"
 	quest.0AEF2BF3D306BD40.title: "Naga Rüstung"
+	quest.0B17234CFC70262D.title: "Blattstahl I"
 	quest.0B60EBFBF42F9C5C.quest_desc: [
 		"Dieser Zauberstab wird allerdings nicht zum Zaubern selbst verwendet, sondern ermöglicht es dir, deine Apparate mit Lager-Jars oder Minions mit ihren Arbeitsblöcken miteinander zu verbinden, um eine Automatisierung zu erschaffen"
 		""
@@ -227,6 +242,7 @@
 	quest.0B7B7C7A1366C9D1.title: "Let's show: Stellaris"
 	quest.0B83FB0E9BFBE96E.quest_desc: ["Kannst Du den Mann im Mond finden?"]
 	quest.0B83FB0E9BFBE96E.quest_subtitle: "Mond"
+	quest.0B91CEAC34C0218B.title: "Nether I"
 	quest.0B9F69583404896F.quest_subtitle: "Brennbares Material rein um als Output verbranntes Material und Öl zu erhalten. "
 	quest.0BB0BC7C847CE06A.quest_desc: ["Ein Item, welches Energie aus Items zieht und in dein aktuelles Netzwerk einspeist. "]
 	quest.0BB0BC7C847CE06A.quest_subtitle: "Entlade alles!"
@@ -238,7 +254,8 @@
 		"Später kann man es auch an einem der Tische craften."
 	]
 	quest.0BC54337EB830293.quest_subtitle: "Staub! Es ist nur Staub."
-	quest.0BC54337EB830293.title: "Crystal M..."
+	quest.0BC54337EB830293.title: "Kristall M..."
+	quest.0BD455B02E5C7205.title: "Obsidian IV"
 	quest.0C02F4D3A4CD631B.quest_desc: ["Du kannst Overworld Materialien oder Undergarden Materialien vertraden um so schneller an Gute Items zu kommen. Laut Wiki kann man die Kriesaxt auch hier bekommen. Nach dem beschwören von 50 Stonewalkern, hat das nicht geklappt."]
 	quest.0C02F4D3A4CD631B.quest_subtitle: "Trade mit einem Stoneborn"
 	quest.0C02F4D3A4CD631B.title: "Gehe einen Handel ein."
@@ -253,7 +270,11 @@
 	quest.0C6E4A026A9AFDC1.quest_desc: ["Underbeans, roh scheinen dem Menschen nicht zu schmecken, geröstet haben sie aber durchaus was von gebackenen Mandeln. Außerdem scheinen einige Undergarden Mobs diese Bohnen zu lieben."]
 	quest.0C7450F1CB8EC522.quest_desc: ["Dieses Regal lässt dich mehr Verzauberungen in der Vorschau sehen. Es kann auch verwendet werden, um den negativen Effekten der Blazing Hellshelves entgegenzuwirken."]
 	quest.0C7450F1CB8EC522.title: "Das Magische Auge"
+	quest.0C90DC7193CB6550.title: "Eis IV"
+	quest.0C983259740701CA.title: "Sylikon III"
 	quest.0C9A56AE665B29A7.quest_desc: ["ballert noch mehr wie der vorige."]
+	quest.0CCC99DA72026AD0.title: "Vibrant Legierung I"
+	quest.0CE6CBFD83DB97A7.title: "Yellorium I"
 	quest.0D02872448C4DA2F.quest_desc: ["Sind Die Quarzblüten voll Ausgewachsen, erhältst Du je nach Glück-Level Certusquatzkristalle."]
 	quest.0D02FD3C537A6CBD.quest_desc: ["Mehr Höhe für den Lüfter"]
 	quest.0D1CE7A2E7381A55.quest_desc: [""]
@@ -324,6 +345,7 @@
 	]
 	quest.0DF5AEA45A614607.quest_desc: ["Anschließend erhältst Du Verderium"]
 	quest.0E05C8E051268AD2.quest_desc: ["Dein ME-Peripheriegerät ist nun Steuerbar mit Redstone. Ob Puls-, NOR oder normales Signal. Alles mit der Karte steuerbar."]
+	quest.0E185AC4879B2F4A.title: "Nether Quartz II"
 	quest.0E74B55074D8E47B.quest_desc: ["Dieses Regal gibt einen 100% Boost für &cQuanta&r und verringert dafür die Menge an &2Eterna&r."]
 	quest.0E74B55074D8E47B.title: "Fleißige Bienen"
 	quest.0E98FD728C17E820.quest_desc: [
@@ -334,6 +356,7 @@
 		"Item = Liquid"
 	]
 	quest.0E98FD728C17E820.title: "Fluidizer"
+	quest.0EB102DF0374F5C2.title: "Hühnchen II"
 	quest.0ECF017D956A1888.quest_desc: ["Weniger als 64 Stackbar."]
 	quest.0ECF017D956A1888.quest_subtitle: "WEEEENIGER I"
 	quest.0ECF017D956A1888.title: "Stack-Downgrade Tier 1"
@@ -368,6 +391,7 @@
 		"Der einfachste Drawer. "
 		"Schmeiße eine Truhe in den Crafting Table"
 	]
+	quest.0FD657E49ACB9971.title: "Prismarin III"
 	quest.0FD9CD79455004A5.quest_desc: [
 		"Der Enchanter's Crossbow hüllt geladene Pfeile mit den eingebundenen Glyphen. Wenn keine Pfeile im Inventar des Anwenders sind, so wird ein magischer Pfeil benutzt, der für sich keinen Schaden verursacht. Hat der Anwender kein/nicht genug Mana für den Zauber zur Verfügung, so werden normale Pfeile ohne Zauber geladen."
 		""
@@ -375,8 +399,10 @@
 	]
 	quest.0FD9CD79455004A5.quest_subtitle: "und Magie natürlich"
 	quest.0FD9CD79455004A5.title: "Hand, Arm und Brust"
+	quest.1006F9B368BA6309.title: "Eis III"
 	quest.1037AFA7BDC22B53.title: "Let's show: Mekanism"
 	quest.10552CFF145F722D.quest_desc: ["wird am meisten geballert haben wie die Rods zuvor."]
+	quest.111CC1558B0A992A.title: "Tiefenschiefer II"
 	quest.11440B533262C7FB.quest_desc: ["Functional Storage ist ungleich Storage Drawer. In den vergangen Packs wurde auf Storage Drawer gesetzt. Dies haben wir dieses Jahr geändert. Somit werden einige Vorteile, schon durch diese Mod erzeugt. Wireless-Crafting ist so nun möglich und stark vereinfacht."]
 	quest.115AB3F93465A685.quest_desc: ["Plaziere etwas Heißes auf einer Seite der Maschine und etwas Kaltes auf der anderen um Strom zu produzieren"]
 	quest.115AB3F93465A685.quest_subtitle: "Heiß gegen Kalt"
@@ -385,18 +411,24 @@
 	quest.120748C2D29DA6FC.quest_desc: ["Mit einem eigenem Backpack und den passenden Upgrades, lässt sich so viel mehr schaffen! Crafted euch einen und ihr werdet schon sehen welche Vorteile es hat!"]
 	quest.120748C2D29DA6FC.quest_subtitle: "Ich bin der Looter-King!"
 	quest.120748C2D29DA6FC.title: "Sophisticated Backpacks"
+	quest.1219D09382F96AFE.title: "Certus Quartz I"
+	quest.126B23F2B57892F6.title: "Eis I"
 	quest.1274A16CCC2F9F25.quest_desc: ["Eine Konsole. Gewährt Dir Zugriff auf dein ME-System. "]
+	quest.129C8CD4FD0D1AFF.title: "Kuh I"
 	quest.12A4F63F84843AA8.quest_desc: ["Mittels dem Oxygen-Loader lassen sich Sauerstofftanks oder Eimer befüllen. Diese kannst Du für deinen Raumanzug benutzen. Leite Wasser und Energie in den Block, um Sauerstoff zu erhalten."]
 	quest.12BCB3661FB6ED27.quest_desc: ["Automatisch Tränke konsumieren. Für die ganz harten ist der Milch-Eimer zu empfehlen."]
 	quest.12BCB3661FB6ED27.quest_subtitle: "Jesse Pinkman"
 	quest.12BCB3661FB6ED27.title: "Alchemie-Upgrade"
 	quest.12D3B4B92CA5252C.title: "Let's show: Extreme Reactor"
 	quest.12F3E577725BBD4B.quest_subtitle: "Hier könnt ihr Mystical Agriculture Seeds erwerben sofern ihr bei den Quests / durch Handel keinen Erfolg hattet. Für die Seeds wird der Grundrohstoff des Seeds in einer bestimmten Menge benötigt. Eine Farm solltet ihr dazu also bereits haben. "
+	quest.1313C7E06930DB69.title: "Tiefenschiefer III"
+	quest.132DF5DE67AFA20C.title: "Niotic Kristall I"
 	quest.13C1BA3695707A9D.quest_desc: [
 		"Du entscheidest was für eine Ausgabe, in Fester oder Flüssiger Form."
 		"&6Merke:&r"
 		"Du kannst Feste Items jederzeit in eine Flüssigkeit mittels des Fluidizer umwandeln, aber nicht zurück!"
 	]
+	quest.13DBDB7971B79A64.title: "Honig II"
 	quest.1403FE3F41E3D45D.quest_desc: [
 		"Im Hintergrund gibt es noch einige hilfreiche Befehle, die über die Chat-Konsole eingetippt werden können. Denkt daran, dass einige Befehle erst später aktiviert werden."
 		""
@@ -423,6 +455,7 @@
 	]
 	quest.146D1D0765124A16.quest_desc: ["Du kannst diese Quest alle 24h ein mal abschließen. Der Spieler, der die Belohnung abholt, erhält die Münzen für das gesamte Team"]
 	quest.146D1D0765124A16.title: "Daily"
+	quest.14C1780F1770F90D.title: "Mystical Agriculture Tier IV"
 	quest.14C48A8ADAF19F56.quest_desc: [
 		"Vergleichbar mit einer Eisenrüstung. Tragt ihr das volle Rüstungsset, erhaltet ihr einen Setbonus."
 		"Um die Haltbarkeit aufzuladen, benötigt ihr einen Aura Cache."
@@ -443,6 +476,7 @@
 	quest.154B0F746470B712.quest_subtitle: "Energie Speichern!"
 	quest.15697EE0C7A58D46.quest_subtitle: "Aus dem neu gewonnen Flux Dust, kannst du nun einen Flux Core craften!"
 	quest.1595A8280A792BA3.quest_desc: ["Loot, oder XP können von diesem Item aufgenommen werden und in alle Richtungen aktiv abgegeben werden. "]
+	quest.15B5D3FBBC0461DB.title: "Obsidian II"
 	quest.1611A6F1787BD657.quest_desc: ["Um dieses Item zu erhalten müssen ein paar mehr zwischen Rituale gemacht werden. Welche du für die jeweiligen Items benötigst siehst du oben links bei JEI. "]
 	quest.1611A6F1787BD657.title: "Ein kleiner Sprung"
 	quest.16A2F679AEC22F43.quest_desc: [
@@ -460,8 +494,10 @@
 		" &4b.&r Bereitstellung durch Emitter."
 		" &4c.&r Bereitstellung durch Maschinen."
 	]
+	quest.1792B32FDBE2FAB9.title: "Redstone Legierungsbarren III"
 	quest.17AF308CF5197526.quest_desc: ["Schließe den Fluid Hahn an einen Tank an und Du kannst XP abpumpen."]
 	quest.17F4AD786B66A4A7.quest_desc: ["Ein Monat bist du bereits auf deiner Reise, um dein Gebiet weiter auszubauen kannst du ab jetzt 75 Chunks (pro Spieler im Team) claimen."]
+	quest.17FBD31E4EF0D639.title: "Nitro Kristall IV"
 	quest.181561179B55197E.quest_desc: [
 		"Ein Block, welcher UUID, also Spieler-gebunden ist. Dieser beinhaltet mehrere Channels, welche genutzt werden können. Dieser Block ist dein Wireless Input. Kann aber auch als Speicher benutzt werden. Die gesamt Speicherkapazität kann erhöht werden, durch Akkus. Die I/O Rate bleibt gleich. Mit den sogenannten Ender Gates, kann man den Strom, welcher in deinem Netzwerk gespeichert ist, Wireless an Maschinen übertragen. "
 		""
@@ -478,6 +514,7 @@
 		"Nicht sehr Nachhaltig"
 	]
 	quest.181C5275E9678EDC.quest_subtitle: "Verbrenne alles.."
+	quest.183AFC622C196CAC.title: "Zombie III"
 	quest.1840E2C4550564D5.quest_desc: [
 		"Eine Multiblockstruktur, welche 36 Blöcke von diesem benötigt. Sorge dafür das Du eine freie Fläche von 3 x 4 x 4 Blöcken hast setze einen Reaktor Block. und der Rest des Reaktor baut sich automatisch auf. "
 		"Dieser wird standardmäßig mit Uranite betrieben und ist auf eine Kühlung angewiesen."
@@ -487,6 +524,7 @@
 		"Mittels dem Auto Mode, schaltet der Reaktor bei einem vollen internen Energie Speicher automatisch ab. Sollte dieser unter 70% fallen, schaltet sich der Generator automatisch wieder ein."
 	]
 	quest.1840E2C4550564D5.quest_subtitle: "Wie funktioniert der Reaktor?"
+	quest.1869477CCFF568D5.title: "Spinne IV"
 	quest.18C31864E2EE3129.quest_desc: ["Die \"Handaxt des Himmelssuchers\" ist, wenn sie durch \"sneak Interaktion\" aktiviert wird, sehr effizient beim Fällen kleiner Bäume, und zwar mit einem Schlag!"]
 	quest.18C3353BB549027C.quest_desc: ["Halt dich kompakter."]
 	quest.18D0831832FC3783.quest_subtitle: "Bei dem schaff musst du alle woll farben die es in normalen Minecraft gibt auf das Schaf Rechtsklicken"
@@ -506,15 +544,17 @@
 	quest.1914C5782105712B.quest_desc: ["Eine solide Rüstung, mit der man durchaus eine lange Zeit gut klar kommt."]
 	quest.1914C5782105712B.title: "Utherium Armor"
 	quest.195971D0CE37082F.quest_desc: ["Das Forgotten Ingot erhältst Du durch das zusammen craften von 9 x Nuggets und benötigst Du um Forgotten Tools herzustellen. Dies basiert auf dem Schmiedevorlagen Rezept."]
+	quest.19B518EE50C960E0.title: "Zink III"
 	quest.19BDD9A98862D1F7.quest_desc: [
 		"Mit dem &9Hammer&r können die ersten Metallplatten hergestellt und Multiblockstrukturen formiert werden."
 		""
 		"Mit dem &9Kabelschneider&r stellt man aus Metallplatten die ersten Kabel her und kann verlegte Kabel wieder abbauen."
 	]
 	quest.19BDD9A98862D1F7.title: "Erste Werkzeuge"
-	quest.19BE04C1BB555974.quest_desc: ["Dieses Item brauchst Du um ein Blood Stone zu erstellen. "]
-	quest.19ECDD38FF50B386.quest_desc: ["In Blood Magic dreht sich alles um den Blutaltar. Mittels diesen, ist es dir möglich neue Items zu erschaffen, welche Du über einen Rechtsklick in den Altar legst. Finden wir heraus, wie wir unser erstes Blut opfern."]
-	quest.19ECDD38FF50B386.quest_subtitle: "Herzlich Willkommen in Blood Magic"
+	quest.19BE04C1BB555974.quest_desc: ["Dieses Item brauchst Du um ein Blut Stein zu erstellen. "]
+	quest.19D75B5ACE7AFAC5.title: "Zombie II"
+	quest.19ECDD38FF50B386.quest_desc: ["In Blut Magie dreht sich alles um den Blutaltar. Mittels diesen, ist es dir möglich neue Items zu erschaffen, welche Du über einen Rechtsklick in den Altar legst. Finden wir heraus, wie wir unser erstes Blut opfern."]
+	quest.19ECDD38FF50B386.quest_subtitle: "Herzlich Willkommen in Blut Magie"
 	quest.19ECDD38FF50B386.title: "Tier 1"
 	quest.1A242A1A421B358B.quest_desc: [
 		"In diesem Buch kannst du allerlei Informationen zu jeglichen Items und Blöcken aus Ars Nouveau und dessen Benutzung in Erfahrung bringen."
@@ -525,8 +565,12 @@
 	]
 	quest.1A242A1A421B358B.quest_subtitle: "Das uralte Wissen der alten Ahnen"
 	quest.1A242A1A421B358B.title: "Das magische Notizbuch"
+	quest.1A5D4DFA7919B2BD.title: "Schwein II"
 	quest.1A6F631FCF135230.quest_desc: ["Genau so viele Slots wie der Dia Rucksack, also 120, aber dafür 7 Upgrade Slots!"]
 	quest.1A6F631FCF135230.quest_subtitle: "None Plus Ultra Rucksack"
+	quest.1A92BA38712EA453.title: "Mystical Agriculture Tier III"
+	quest.1AE43ACFEEF65B21.title: "Cyanite I"
+	quest.1B146865E684FAEC.title: "Kohle II"
 	quest.1B2FE7C5CBB54589.quest_desc: ["Nie wieder selber essen! Du wirst gefüttert!"]
 	quest.1B2FE7C5CBB54589.quest_subtitle: "Fütterungszeit I"
 	quest.1BCEF5B7D4A2DEA9.quest_desc: [
@@ -537,14 +581,19 @@
 	quest.1BCEF5B7D4A2DEA9.title: "Beförderung"
 	quest.1C0E26CDD05060DD.quest_desc: ["In den Meteoriten gibt es einen Block, der sämtliche Schablonen beinhaltet. Diese wirst Du für weitere Crafting Rezepte in der Mod brauchen"]
 	quest.1C0E26CDD05060DD.title: "Druckerplatten"
+	quest.1C8376B4F8F569C5.title: "Kupfer I"
 	quest.1C84F8611AA48F76.quest_desc: ["Du kannst hin auch erweitern "]
 	quest.1C84F8611AA48F76.title: "Spaltungsreaktor (Fission Reactor)"
 	quest.1CA7D865E47A7D27.quest_desc: ["Versuche deine Systeme so klein wie möglich zu halten. Große Systeme, mit ungefilterten Zugriffen, egal welcher Art verursachen Lags. Diese gilt es zu vermeiden. Baue Smart, sodass jeder seinen Spielspaß auf dem Server beibehält."]
 	quest.1CA9843D124FB9DB.quest_desc: ["Hast Du einen Weg in die tiefsten gewölbe des Dungeons gefunden, benötigst Du neue Schlüssel. Gebe acht, diese sind teurer. Du kannst Sie außerdem als Loot in Kisten finden. "]
+	quest.1CAA5D17F6F2EF55.title: "Nether Quartz III"
 	quest.1CCD659F19C544C6.quest_desc: ["Eine köstliche Mahlzeit, die Dir das Leben im Undergarden versüßt"]
 	quest.1CFF5ED27DA0852A.quest_desc: ["Rohes Cloggrum kann geschmolzen werden, dadurch erhält man Cloggrum Ingots"]
+	quest.1D0665578D04DFC4.title: "Amethyst II"
 	quest.1DA3986217ADE592.quest_desc: ["Die Basis für alle eure Upgrades!"]
 	quest.1DA3986217ADE592.quest_subtitle: "Crafted Upgrades Leute!"
+	quest.1DC5E0D8A3F7DD5D.title: "Natur I"
+	quest.1DE118947564E39D.title: "Schleimball IV"
 	quest.1DF4F965DC9C9F39.quest_desc: [
 		"An diesem Tisch können Affix Items noch weiter verbessert und die Affixe gezielt ausgetauscht werden."
 		""
@@ -554,14 +603,19 @@
 	quest.1E1AF7E8C99B85D4.title: "Gute Sachen zum kämpfen "
 	quest.1E23B241202FED55.quest_desc: [
 		"Über das \"Ritual des Waldes\" könnt ihr euch den \"Natural Altar\" herstellen."
-		"Diesen benötigt ihr um \"&aInfused Iron Ingot&r\" und \"&eTainted Gold Ingot&r\" herzustellen."
+		"Diesen benötigt ihr um \"&aInfused Eisen Barren&r\" und \"&eTainted Gold Ingot&r\" herzustellen."
 	]
+	quest.1E3BE17B77B615E4.title: "Nitro Kristall I"
 	quest.1E451003EF476340.quest_desc: ["Noch weniger stacken."]
 	quest.1E451003EF476340.quest_subtitle: "WEEEENIGER II"
 	quest.1E451003EF476340.title: "Stack-Downgrade Tier 2"
+	quest.1E5FA3057A0B3F72.title: "Schleimball III"
 	quest.1E78C6170EC5067E.quest_desc: ["Zaubersprüche, Rituale, Magische Apparaturen und Tierbegleiter. Das und noch mehr bietet Ars Nouveau."]
 	quest.1E78C6170EC5067E.quest_subtitle: "Willkommen bei Ars Nouveau"
 	quest.1E86BC238F738A44.quest_desc: ["Graphit wird aus Kohle hergestellt. Das wirst Du brauchen. Viel sogar."]
+	quest.1E92F21F287903D5.title: "Erde I"
+	quest.1E93E151F2F50C99.title: "Sylikon IV"
+	quest.1EAA7A64D610694B.title: "Eisen II"
 	quest.1EEE1CC4BE9692A2.quest_subtitle: "Lava und Wasser / Eis Mischer"
 	quest.1F1DABCEE502A81F.quest_desc: ["Importiert aktiv Items oder Flüssigkeiten in dein ME-System. In der GUI lassen sich Filter einstellen. Auf der rechten Seite der GUI lassen sich Karten einfügen. Dazu später mehr."]
 	quest.1F2977171C91D362.quest_desc: ["Wird in \"Aura reicher\" umgebung &l&4im Nether&r&r eingesammelt, wenn ihr mit einer Bottle and Cork, einen Rechtsklick in die Luft macht."]
@@ -570,6 +624,7 @@
 	quest.1F72867F68BA7D33.quest_desc: ["Alles was die Stackgröße überschreitet wird zerstört (gevoided). Ein einfacher und effizienter Überlaufschutz."]
 	quest.1F8F537E56CCED3F.quest_subtitle: "Speichere deine Spieler Experience im XP Obelisk. Die gespeicherte Experience lässt sich jederzeit zurück transferien. Solltest du die Flüssigkeit in flüssiger Form benötigen, kannst du diese mit einem Flüssigkeitsrohr abpumpen oder dem Obelisken hinzufügen"
 	quest.1FAAFE2BCCDD025F.quest_desc: ["Wird später für \"Spirit of Calling\" verwendet."]
+	quest.1FB2565EB3D8B23C.title: "Hölzerner Eisen Barren II"
 	quest.1FC7C4795C41F618.quest_desc: [
 		"Der Aura Cache ist ein Tragbarer Speicher für Aura. Diesen könnt ihr am Natural Altar aufladen."
 		""
@@ -645,18 +700,24 @@
 		"Mittels des Füllstandsemitters, lassen sich Redstonesignale ausstoßen, während ein Item gefertigt wird oder um ein Item zu fertigen, in Kombination mit einer Fertigungskarte. "
 		"Ansonsten können damit Füllstände gemessen werden, welche ein Redstone-Signal ausgeben, bei erreichen oder Unterschreiten der angegebenen Menge."
 	]
+	quest.22F7230A59AC0302.title: "Tiefenschiefer IV"
 	quest.22F9E79A0AAB0990.quest_desc: ["Ein erneutes Upgrade für deine Rakete"]
 	quest.2330E243DDA687E9.quest_desc: ["Erweitert die Distanz des Lüfters"]
 	quest.23387B6FD57598D5.quest_subtitle: "Zerlegt einen Rohstoff in Einzelteile"
 	quest.2364BE0FC6C27739.quest_desc: ["Das mit wichtigste Material in der Halbleitertechnologie."]
+	quest.23F37812907090F7.title: "Smaragd I"
+	quest.241263C1DA9521B2.title: "Zinn III"
 	quest.2430850475414E3D.quest_desc: [
 		"Das Enchanter's Horn wirkt die gebundenen Glyphen wie der Spiegel auf den Anwender selbst und verlängert dessen Effekte, wirkt dabei zusätzlich auf alle in einem bestimmten Radius um den Nutzer."
 		""
 		"Zum Binden von Glyphen erstellst du in deinem Zauberbuch einen Zauber &l&bOHNE!&r eine Form, legst das Horn auf den Scribe's Table und benutzt das Buch mit diesen Glyphen darauf, während du geduckt bist."
 	]
+	quest.24963A6383567BE8.title: "Nether II"
+	quest.249683A57ED33D41.title: "Blei II"
 	quest.24BAA2C1FA713866.quest_desc: ["120 Slots und 5 Upgrade Slots. Besser geht nicht! Oder etwa doch..."]
 	quest.24BAA2C1FA713866.quest_subtitle: "Dia Rucksack!"
 	quest.24CF3ABE17A5E8AD.quest_desc: ["Um noch schneller Entities zu spawnen, kannst Du folgendes Upgrade benutzen"]
+	quest.24DC768C85603AE6.title: "Bronze I"
 	quest.24E4F0946133DA9C.title: "Ein Echt Heißer Ofen"
 	quest.251E5B47E2C62B8D.quest_desc: [
 		"So wie dein Zauberbuch können deine magischen Gewänder auch weiter geupgradet und verstärkt werden. Dazu benötigst du für jedes Rüstungsteil zwei Lohenruten (Blazerods), die über den Enchanting Apparatus hineingearbeitet werden."
@@ -664,8 +725,12 @@
 		"Dadurch erhöhen sich dein maximales Mana und deine Mana Regeneration. Außerdem werden auch die Threadslots verbessert und/oder weitere hinzugefügt."
 	]
 	quest.251E5B47E2C62B8D.title: "Upgrades, People! Upgrades!"
+	quest.2533C5322E17867C.title: "Blazing Kristall I"
+	quest.254A771407B9295A.title: "Blattstahl II"
+	quest.255A3EB9F9BFBE80.title: "Hase IV"
 	quest.258FF05B463315D1.quest_desc: ["Baust Du die Quarzblüten zu früh ab, erhältst Du lediglich Dust."]
 	quest.25ADF4BACFFF9FB7.title: "Lets's show: Mob Grinding Utils"
+	quest.25B4005EAD00F8DA.title: "Erde II"
 	quest.25D555627E5F7556.quest_desc: [
 		"\"Du, der den Aether betrittst! Wisse, dass diese Dimension meiner Kontrolle unterliegt! Mir, dem unvergleichlichen Sun Spirit!"
 		"Und wie es sich für einen wahren Herrscher gehört, habe ich die Naturgesetze nach meinen himmlischen Vorstellungen geformt!"
@@ -699,10 +764,13 @@
 	quest.26AFE523C18061F6.quest_desc: ["Ein seed den man entweder traden, oder durch das abbauen des mysteriösen Gloomer Kürbisses ercraften kann. "]
 	quest.26B645871A11798E.quest_desc: ["Gebe Uran oder Yellorium in deinen Reaktor"]
 	quest.26BC003C6E939699.quest_subtitle: "Verbinde eine Flüssigkeit mit einem Feststoff"
+	quest.26D3386BF6600704.title: "Hölzerner Eisen Barren I"
 	quest.26EB29AFD6A72D19.quest_desc: ["Es lässt sich nicht nur wie die Himmelsucher Rüstung reparieren, sondern bietet auch einen Setbonus: Wenn man alle Teile der Rüstung trägt (oder den Brustpanzer gegen eine Elytra austauscht), bewirkt die Rüstung bei einem Treffer, dass alle Gegner in der Nähe für einige Sekunden mit dem Boden verschmelzen und völlig still stehen."]
 	quest.26F7407D7F87E3AF.quest_desc: ["Es lässt sich nicht nur wie die Botanists Rüstung reparieren, sondern bietet auch einen Setbonus: Wenn man alle Teile der Rüstung trägt (oder den Brustpanzer gegen eine Elytra austauscht), erhöht sich die Bewegungsgeschwindigkeit des Trägers. Außerdem wird seine Fähigkeit auf Blöcke zu steigen verbessert, sodass er nicht mehr so oft springen muss."]
 	quest.2705308BB7AB87CE.quest_desc: ["Die \"Spitzhacke des Botanikers\" verwandelt, mit einem Rechtsklick, einen Block in seine moosige Variante. Voraussetzung ist, das es eine gibt."]
 	quest.273F072768D87F2B.quest_desc: ["Die Fertigungskarte kann verwendet werden, um automatisiert Craftingprozesse anzustoßen. "]
+	quest.273F8EA6BA2D86C9.title: "Phantom III"
+	quest.2773D007ABDAADF9.title: "Nether Stern III"
 	quest.27A8B343CD99EA6D.quest_desc: [
 		"Zanite ist das himmlische Äquivalent zu Eisen."
 		""
@@ -715,19 +783,30 @@
 		"&2&lYellorium ist identisch zu Uran&r."
 	]
 	quest.2842882E7E709D30.quest_desc: ["Mit einer Speicherzellenwerkbank lassen sich Speicherzellen Hard-Formatieren, sodass hier nur die angegebenen Items darauf gespeichert werden können. Update-Karten können so auch auf die Zellen gebracht werden. So lassen sich z.B. eine Umkehrungskarte und eine Ungenauigkeitskarte darauf legen. Nun kann man Rüstung hinzufügen als Filter und schon hat man ein recht sauberes ME-System. "]
+	quest.284F84D34C0C953A.title: "Zink I"
 	quest.2851C35AFD84C508.quest_desc: ["Solltest Du deinen Drawer schon die maximale Anzahl an Upgrades zugewiesen haben, kannst du mittels der nächsten höheren Stufe hier die geringere Stufe ersetzen."]
 	quest.285A519325E14E23.quest_desc: ["Der Drahtlose Zugangspunkt, ermöglicht Dir Wireless auf dein ME-System zuzugreifen. "]
+	quest.2865B9F662D4828B.title: "Tiefenschiefer IV"
 	quest.287B4338E5CB1AA0.quest_desc: ["Dieses Regal ist eine verbesserte Version seines Vorgängers."]
 	quest.287B4338E5CB1AA0.title: "Sichtlich Besser"
 	quest.28CCBF0929A22DBC.quest_subtitle: "Lade mehrere Items gleichzeitig auf!"
 	quest.28E3B5C9CAD88DCD.quest_desc: ["Es lässt sich nicht nur wie die Botanists Rüstung reparieren, sondern bietet auch einen Setbonus: Wenn man alle Teile der Rüstung trägt (oder den Brustpanzer gegen eine Elytra austauscht), erhöht sich die Bewegungsgeschwindigkeit des Trägers. Außerdem wird seine Fähigkeit auf Blöcke zu steigen verbessert, sodass er nicht mehr so oft springen muss."]
+	quest.296AD0A3E531548B.title: "Zink IV"
 	quest.29CA54BFB00443D1.quest_desc: ["Erhältst Du durch das zusammen craften von 9 x  Utheric Shards"]
 	quest.29E69EB1DEDC7921.quest_desc: ["Die \"Klinge des Botanikers\" ist eine gute Möglichkeit mit Monstern fertig zu werden. Sie verlangsamt jedes getroffene Monster für ein paar Sekunden und macht es so zu einem leichteren Ziel."]
 	quest.2A1131AA06C836C5.quest_desc: ["Rechtsklicke mit Brilliant Fiber in der Hand das Laub eines Baumes. Warte anschließend eine weile.."]
+	quest.2A73DE312B92CFA5.title: "Kupfer Legierungsbarren IV"
+	quest.2AA8DDE3F8CBA41C.title: "Eisen III"
 	quest.2AB8746017BEEEA3.quest_desc: ["Forgotten Nuggets, werden durch Forgotten Guardians gedroppt. Auch andere Mobs im Undergarden lassen diese Fallen, zu geringeren Chancen aber. "]
 	quest.2AF2078918509008.quest_desc: ["Konsolen, Import- \\& Exportbus, Schnittstellen usw. sind sogenannte Peripherie. Ein jenes solcher Zusatzteile, belegt ein Channel auf deinem Kabel."]
+	quest.2B1704E6CFC8CD70.title: "Schildkröte I"
+	quest.2B2392C030B04D14.title: " I"
 	quest.2B3256EDDEB698CB.quest_desc: ["Ist eine verbesserte Version vom \"Token of Anger\"."]
+	quest.2B8B412085372EDD.title: "Kohle IV"
+	quest.2BCC5444F25D57DB.title: "Sylikon I"
+	quest.2C229F261B693DD1.title: "Himmelsstein II"
 	quest.2C4CAE3C053348BE.quest_desc: ["Die schiere Größe des \"Soulstrider's Blades\" kommt zum Tragen, wenn eine größere Gruppe von Monstern angegriffen wird. Wenn man mehrere Monster angreift, bleiben diese in einem ziemlich großen Bereich stecken, als ob sie mit einer mächtigeren Version von \"Sweeping Edge\" verzaubert wären. Natürlich schließen sich diese beiden Fähigkeiten auch nicht gegenseitig aus."]
+	quest.2C4E375C0BF9D7F6.title: "Nether Quartz I"
 	quest.2C5CFE4579A1DF6E.quest_desc: [
 		"Gravitite gehört zum stärksten Material, das es im Aether zu finden gibt."
 		""
@@ -770,11 +849,13 @@
 		""
 		"Colored Chalks werden am häufigsten verwendet, aber ihre Farbe steht nicht direkt in Verbindung mit der Stärke, wie es bei den Foundation Chalks der Fall ist."
 	]
+	quest.2D612605CD66AB82.title: "Nitro Kristall III"
 	quest.2D93732882C77D34.title: "Der Anfang von Etwas Kleinem (Blue Skies)"
 	quest.2DA1CC2FF00F8041.quest_desc: ["Die \"Hacke des Himmelssuchers\" hilft Bauern in zweierlei Hinsicht: Zum einen bearbeitet sie eine größere Fläche. Zum anderen führt die Zerstörung eines Stücks hohen Grases dazu, dass alle anderen buschartigen Blöcke in einem größeren Bereich ebenfalls zerstört werden."]
 	quest.2DAD93848DABE5D6.quest_subtitle: "Extrahiert Latex von Bäumen"
 	quest.2DE28895E3897B29.quest_desc: ["Es gibt Funktionsblöcke, welche Energie speichern, verbrauchen oder abgeben"]
 	quest.2DE570D3BFF08F48.quest_desc: ["Ein Raketenbauteil."]
+	quest.2E452C251278767F.title: "Hölzerner Eisen Barren IV"
 	quest.2E77ADF906B1850A.quest_desc: [
 		"Mit der Lanze der Walküre solltest du gut gerüstet sein, um den Silbernen Dungeon aufzusuchen. Diesen findest du meist weit oben gelegen und er sieht aus wie ein riesiger griechischer Tempel."
 		""
@@ -786,10 +867,15 @@
 		"{@pagebreak}"
 		"Es ist nicht nur wichtig sich vor dem Vakuum zu schützen, sondern auch vor der Strahlung welche unser Stern abgibt. Im Normalfall filtert unsere Atmosphäre den meisten Teil davon raus. "
 	]
+	quest.2EA99850639C298A.title: "Phantom IV"
+	quest.2EC1511B23D8ABB9.title: "Tintenfisch I"
+	quest.2F3FCCA95F8EAE7A.title: "Tiefenschiefer II"
 	quest.2F43B87E319D7520.quest_desc: ["Nie wieder eine Werkbank craften, benutz deinen Rucksack dafür!"]
 	quest.2F43B87E319D7520.quest_subtitle: "Werkbank to go!"
 	quest.2F6ABA1EE21191DD.quest_desc: ["Wie der Name sagt. Überträgt Flüssigkeiten."]
 	quest.2FE06EF9861456E9.quest_desc: ["Den Schablonenprovider gibt es ein mal in Flach und als Block. In diesen Block werden die Schablonen gelegt, welche Rezepte beinhalten. Außerdem hat der Schablonenprovider ein Rückgabe-Inventar. In der GUI auf der Linken Seite kann man außerdem Einstellen, ob Rezepte warten müssen, bis das Zielinventar leer ist, oder ob z.B. die Hauptzutat durch den Provider zurück in das ME gekommen ist. Außerdem kann man diesen auch konfigurieren, sodass dieser auf Redstonesignale hört."]
+	quest.2FE809B068A070CF.title: "Messing III"
+	quest.30172BEE4E9270A4.title: "Stein I"
 	quest.3020FE733C32B9C3.quest_desc: ["Eine wichtige Komponente in AE2 um Peripheriegeräte herzustellen."]
 	quest.30268E4E09E5A13C.quest_desc: ["Eines der wichtigsten Items, das in der Imbuement Chamber hergestellt wird, sind Source Gems. Dafür musst du nur ein Stück Lapis Lazuli oder eine Amethystscherbe hineinlegen und seine Magie wirken lassen."]
 	quest.30268E4E09E5A13C.title: "Uuuhh, Shiny!"
@@ -797,9 +883,12 @@
 		"NBTs sind mir doch egal. "
 		"Willst Du Rüstungen Filtern, Gems oder Bücher. Dann ist die Karte das Richtige für Dich. "
 	]
+	quest.304F55340F14DF7E.title: "Sylikon IV"
+	quest.308D5079C060F8E3.title: "Stein III"
 	quest.30BCA4DCF7A86182.quest_desc: ["Einfach ein paar Gräßer abbauen, um die Seeds zu bekommen. Diese können ganz normal vortgepflanzt werden."]
 	quest.30BCA4DCF7A86182.title: "Go touch some Grass!"
 	quest.313B9F86BFAC170E.quest_desc: ["Kupfer gibt es genug in der Welt. Erhalte mehr Speicher durch das hinzufügen in deine Drawer."]
+	quest.3172C2D525DD748A.title: "Prismarin IV"
 	quest.3253AC6BB40CD3AD.quest_desc: [
 		"Ein Guter Moderator für den "
 		"{ \"text\": \"Thermo Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"48A426951585B3E6\" } }"
@@ -817,19 +906,24 @@
 	]
 	quest.325B0F0901FD93A8.quest_subtitle: "und das mit Stil!"
 	quest.325B0F0901FD93A8.title: "Der Drip"
+	quest.32995C3E724DC7F4.title: "Wither Skellet I"
 	quest.32CCA4CEC3CE9954.title: "Turbine"
+	quest.3335E7346C35ABA4.title: "Spinne II"
 	quest.334735438DFE505B.title: "Klopf auf Holz"
 	quest.33A120F279366798.quest_desc: ["Fluixkristalle kannst Du auch crushen. Wird für einige Rezepte benötigt."]
 	quest.33AA5240D8DC2EC9.quest_desc: ["Selbe Funktion aber mehr Filteroptionen"]
 	quest.33AA5240D8DC2EC9.quest_subtitle: "Voll machen bitte II"
+	quest.33B13ABE54BF5054.title: "Skelett III"
 	quest.33B1489D36D5EEFC.quest_desc: ["Die Vergessenen Hallen sind ein semi starker Dungeon mit einer Hülle von Spawnern und Lootchests. Außerdem hausen hier schon längst vergessene Monster."]
 	quest.33C76E3BA8A79D32.title: "Ingots"
 	quest.346963DA712EE10B.quest_desc: ["Es ist Zeit für etwas Party!"]
 	quest.346963DA712EE10B.quest_subtitle: "Dein Rave!"
 	quest.346963DA712EE10B.title: "Erweitertes Jukebox-Upgrade"
+	quest.3476FDEEDABABE8B.title: "Fisch II"
 	quest.34EB0D38C503FF3C.quest_desc: ["Noch viel weniger stacken."]
 	quest.34EB0D38C503FF3C.quest_subtitle: "WEEEENIGER III"
 	quest.34EB0D38C503FF3C.title: "Stack-Downgrade Tier 3"
+	quest.34EB6A93D7F96FF1.title: "Schaf II"
 	quest.35117936FBC60CA3.quest_subtitle: "Eine Angelmaschine. Machst du den großen Fang?"
 	quest.3554956ABC829D50.quest_desc: ["Zeichen der Trauer"]
 	quest.3563D0E47D3E64BD.quest_subtitle: "Baue eine Mobfarm aus EnderIO Komponenten um an Liquid EXP zu gelangen "
@@ -839,6 +933,7 @@
 		""
 		"So in etwa funktioniert die Karte. Du kannst sagen, dass X Bytes für ein Item vorgesehen sind, der Rest aber frei wäre. "
 	]
+	quest.3595397DB0C6039C.title: "Iridium I"
 	quest.35CE63FDE38B74D2.quest_subtitle: "Flüssigkeit rein, Feststoff raus."
 	quest.35E69FD0D9133061.quest_desc: [
 		"Das Enchanter's Sword hat von sich aus schon die Glyphen \"Touch\" und \"Amplify\", braucht also nur noch Effektglyphen, um zu funktionieren."
@@ -846,12 +941,15 @@
 		"Zum Binden von Glyphen erstellst du in deinem Zauberbuch einen Zauber &l&bOHNE!&r eine Form, legst das Schwert auf den Scribe's Table und benutzt das Buch mit diesen Glyphen darauf, während du geduckt bist."
 	]
 	quest.35E69FD0D9133061.title: "Close and personal"
+	quest.35EC293008925194.title: "Tintenfisch II"
 	quest.3631ECB37FE26818.quest_desc: ["Es lässt sich nicht nur wie die Himmelsucher Rüstung reparieren, sondern bietet auch einen Setbonus: Wenn man alle Teile der Rüstung trägt (oder den Brustpanzer gegen eine Elytra austauscht), bewirkt die Rüstung bei einem Treffer, dass alle Gegner in der Nähe für einige Sekunden mit dem Boden verschmelzen und völlig still stehen."]
 	quest.363B82F586FB4376.quest_desc: ["Leider ein bisschen Buggy. Arbeitet nur Links vom Drawer."]
 	quest.369134843E12B183.quest_desc: [
 		"Mittels diesem Tool kannst Du einem Storage Controller die einzelnen Drawer zuteilen und Netzwerke erstellen. "
 		"Es gibt Single-Mode und Multi-Mode, sowohl im adden als auch im removen. Lese Dir doch die Beschreibung des Items mal genauer durch."
 	]
+	quest.36C4AE9A7BB1C739.title: "Blei III"
+	quest.36E86ECA409453BD.title: "Skelett II"
 	quest.37137208FC2D7F9A.quest_desc: ["Smoke dein Essen und das To-Go!"]
 	quest.37137208FC2D7F9A.quest_subtitle: "Grillen geht immer I"
 	quest.372535099216FF16.quest_desc: [
@@ -861,6 +959,7 @@
 	]
 	quest.372535099216FF16.quest_subtitle: "Besiege den Sun Spirit"
 	quest.372535099216FF16.title: "Feuerwehr"
+	quest.375E883FE9490849.title: "Hühnchen III"
 	quest.37678FC28A608F68.quest_desc: ["Gewinnt man aus dem Erz Block."]
 	quest.37706A8F418CE74C.quest_desc: [
 		"The Aether ist eine himmlische Dimension voller Sonnenschein, Ambrosia und goldenem Nektar. Und Fallschaden...sehr viel Fallschaden."
@@ -901,19 +1000,23 @@
 		"Pierce lässt den Pfeil durch zwei Ziele hindurchfliegen. Ziele sind sowohl Entities als auch Blöcke."
 	]
 	quest.37A521C972CFAF9E.title: "Spezialmunition"
+	quest.37A53950F7016080.title: "Spinne I"
 	quest.382870F3E8699127.quest_desc: ["Hieraus könnt ihr Rüstungen, Waffen und Werkzeuge herstellen."]
 	quest.382870F3E8699127.quest_subtitle: "This is the End!"
 	quest.3828E5EB05AA35F3.quest_desc: ["Der beste Block für die Turbine"]
+	quest.38543FC54CF9CFE8.title: "Silber IV"
 	quest.3886DDD04C153233.quest_desc: ["Mehr als nur 64 mal Stackbar!"]
 	quest.3886DDD04C153233.quest_subtitle: "MEEEEEEEHR I"
 	quest.38C03105A0BAA33C.quest_subtitle: "Ein Zerkleinerer mit Nebenprodukten"
-	quest.38C06A9C50CC10B4.quest_desc: ["Platziere einen Master Ritual Stone und klicke mit dem Ritual Diviner mit Rechtsklick drauf. Dein Ritual baut sich automatsch zusammen, sofern keine Blöcke im Weg sind und Du genug normale Rituale Steine im Inventar hast."]
+	quest.38C06A9C50CC10B4.quest_desc: ["Platziere einen Meister Ritual Stein und klicke mit dem Ritual Diviner mit Rechtsklick drauf. Dein Ritual baut sich automatsch zusammen, sofern keine Blöcke im Weg sind und Du genug normale Rituale Steine im Inventar hast."]
+	quest.38D86F6C307C1B49.title: "Creeper II"
 	quest.38FCDBC67E137073.quest_desc: ["Alle 4 Stunden kann dein Team eine Münze bekommen. Die Zeit zählt nur solange Du aktiv auf dem Server online bist."]
 	quest.391C89DCEF97A976.quest_desc: [
 		"Der Raumanzug schützt dich vor dem Lebensfeindlichen Vakuum, der außerhalb der Atmosphäre liegt. "
 		"{@pagebreak}"
 		"Funfact: Wasser beginnt schon unter dem Gefrierpunkt zu sieden, wenn unter 0,1Pa Druck vorhanden ist. "
 	]
+	quest.3920B53151D8263A.title: "Tintenfisch IV"
 	quest.397AAFC8FCFF0CBD.quest_desc: [
 		"Der Enchanter's Mirror wirkt die gebundenen Glyphen auf den Anwender selbst, verringert dabei die Manakosten und verlängert dessen Effekte."
 		""
@@ -997,6 +1100,7 @@
 	quest.3C50BD72E832D66A.title: "Die Macht der Hitze"
 	quest.3C5C7FA47DA1AF13.quest_desc: ["Eines der letzten Bücherregale, um den Verzauberungstisch zu maximieren."]
 	quest.3C5C7FA47DA1AF13.title: "Level 90"
+	quest.3CABAA78BCB1B4DF.title: "Honig III"
 	quest.3CD003B49F0BCB3B.quest_desc: ["Noch mehr Filteroptionen!"]
 	quest.3CD003B49F0BCB3B.quest_subtitle: "Lange Leitung II"
 	quest.3D0065CD7EC0D9EF.quest_desc: [
@@ -1012,6 +1116,7 @@
 	quest.3DA44DE3F547CCE6.quest_subtitle: "Wer will den S....ß I"
 	quest.3E2D2775E7DF1B39.quest_desc: ["Mit einer ME-Schnittstelle kannst Du eine gewisse Anzahl an Items bereit stellen, welche dort gelagert werden und auf Abruf bereit sind. Außerdem lassen sich Items in die Schnittstelle transferieren. Über eine Schnittstelle, lässt sich auch das ME-System auslesen."]
 	quest.3E48D0B7608F78BD.quest_desc: ["Mittels Enriched Uranium oder sogar Blutonium, kannst Du noch weitere Strecken schaffen."]
+	quest.3E4BA97E77B46B32.title: "Sulfur I"
 	quest.3E6AC0930B347725.quest_desc: ["drawer loggen, oder Stückzahl anzeigen, oder das Icon des Inhaltes verstecken. dafür brauchst du das Item."]
 	quest.3E8BA9AC92928A5B.quest_desc: ["Erhält man durch das abbauen von Utherium Erz."]
 	quest.3EC2CF7E940184C9.quest_desc: ["Wer will einen Stonecutter to go haben? Du? Hier bitte."]
@@ -1022,6 +1127,7 @@
 		""
 		"Primär werden sie verwendet, um ihre Eigenschaften in leere Gem-Slots von Ausrüstung zu packen und so die eigenen Fähigkeiten zu steigern."
 	]
+	quest.3F3F1926B933EAA7.title: "Blattstahl III"
 	quest.3F43A51AF14B6FF9.quest_desc: [
 		"Der Fluid Laser fördert verschiedene Flüssigkeiten abhängig vom Biom und der eingesetzten Linse."
 		""
@@ -1045,7 +1151,7 @@
 	quest.3FCAD3EFEABBED79.quest_subtitle: "Dein erstes Certus"
 	quest.3FDE2CC1A40D72FD.quest_desc: ["Der Molekularassembler führt die eigentlichen Crafting-Aufgaben aus. Temporär bekommt die Schablonenkonsole eine Kopie vom Patternprovider und crafted das Rezept durch. Du kannst auch einen Molekularassembler direkt mit einer Schablone bestücken und diesen als Crafter benutzen. Der Molekularassembler kann außerdem mit Beschleunigungkarten ausgerüstet werden, sodass die Crafting-Geschwindigkeit erhöht wird."]
 	quest.40019D79DA3B4858.quest_desc: [
-		"Dieses Item findest Du in den tiefen der Blood Magic Dungeons. Außerdem ist das Item auch in unserem Modpack craftbar. "
+		"Dieses Item findest Du in den tiefen der Blut Magie Dungeons. Außerdem ist das Item auch in unserem Modpack craftbar. "
 		"Es wird später in anderen Mods noch benötigt. "
 		"Außerdem lassen sich so verbesserte Runen herstellen, die deine bloodaltar Leistung verdoppeln."
 	]
@@ -1060,12 +1166,13 @@
 	]
 	quest.40A763619721F2D5.quest_desc: ["Die Fertigungskonsole, ist ein Zugangspunkt zu Deinem ME-System. Außerdem ist eine Werkbank mit integriert. "]
 	quest.40CBA9ECA122DDFA.quest_desc: ["Mit dem Mob-Swab kannst Du Dir DNA Abstriche von Entities/ Mobs holen. Wird benötigt um Spawneier daraus zu erstellen."]
-	quest.40EFD7E819501CF9.quest_desc: ["Der Bloodstone ist in unserem Pack ein gated-out Item. Außerdem benötigst du diese um deinen Blood Altar aufzuwerten. "]
+	quest.40EFD7E819501CF9.quest_desc: ["Der Bloodstone ist in unserem Pack ein gated-out Item. Außerdem benötigst du diese um deinen Blut Altar aufzuwerten. "]
 	quest.412036FA034F30EA.quest_desc: ["Utherium Tools sind Ultimine Fähig. Die Waffen verursachen gegen gewisse Gegner mehr Schaden. "]
 	quest.412036FA034F30EA.title: "Utherium Tools"
-	quest.413828EBD4CE1AA8.quest_desc: ["Eine Rune benutzt Du um dein Blutaltar zu vergrößern. Im Blood Magic Guide Book wirst Du zu diesen komplexen Strukturen bestimmt fündig. Den überlieferungen zu folge, soll der erste Blood Altar aus 8 weiteren Blanken Runensteinen bestehen."]
+	quest.413828EBD4CE1AA8.quest_desc: ["Eine Rune benutzt Du um dein Blutaltar zu vergrößern. Im Blut Magie Guide Book wirst Du zu diesen komplexen Strukturen bestimmt fündig. Den überlieferungen zu folge, soll der erste Blut Altar aus 8 weiteren Blanken Runensteinen bestehen."]
 	quest.413828EBD4CE1AA8.quest_subtitle: "Slates != Rune"
 	quest.413828EBD4CE1AA8.title: "Deine erste Runen"
+	quest.419BE3FCE88C1685.title: "Eisen I"
 	quest.41A2BB314608A5F0.quest_desc: [
 		"Diese Apparatur produziert Source aus Nahrungsquellen. Je besser die Nahrung, desto mehr Source wird daraus gemacht."
 		""
@@ -1075,8 +1182,10 @@
 	quest.41AC786E79F24EA5.quest_subtitle: "Just Damage"
 	quest.41D35D57A1FFF21E.quest_desc: ["Auch Flüssigkeiten lassen sich speichern."]
 	quest.41E3D818423C9002.quest_desc: ["Erhöht die Distanz des Entity Spawners"]
+	quest.41E7832EC865D34E.title: "Zinn II"
 	quest.421053C942FFE45C.quest_subtitle: "Der Rahmen für den Energiespeicher!"
 	quest.4256D1E40BD2250A.quest_desc: ["Nach dem sammeln von so vielen Zutaten, scheint das wohl die beste Speise zu sein die man sich hier aus dem Undergarden so zusammen suchen kann."]
+	quest.42844C9226C2A491.title: "Graphit IV"
 	quest.42949BA4369F9B3F.quest_subtitle: "Ein großer Energiespeicher für das Flux Network"
 	quest.429795EB7B105CB3.title: "Let's show: Thermal Series"
 	quest.42CDE40BE2D20885.quest_desc: [
@@ -1088,10 +1197,13 @@
 	quest.42CF8AE80D8AB778.quest_desc: ["Erweitert die Breite des Lüfters"]
 	quest.42D6F202CE26D9A4.quest_desc: ["Dieses Regal ist die einzige Quelle, um &6Quantic Stability&r für die Verzauberungen zu bekommen."]
 	quest.42D6F202CE26D9A4.title: "Ordnung im Chaos"
+	quest.42D9477F5259025B.title: "Schleimball II"
 	quest.42D9B4438680C937.quest_desc: ["Nun kannst Du deinen Stufe 4 Altar bauen, hast Du dies geschafft, lassen sich neue Runen craften, mit denen Du nun neuen Progress freischalten kannst. "]
 	quest.43120BDFFF95EF89.quest_desc: ["AE2 ist eine Storage Mod. Mit dieser Mod kannst Du Items konsolidiert speichern und auf diese dezentral Zugreifen. Du kannst Craftingprozesse automatisieren und die wildesten Konstellationen automatisieren. "]
 	quest.4320267CBCF92515.quest_desc: ["Die \"Handaxt des Seelenwanderers\" ist, wenn sie durch \"sneak Interaktion\" aktiviert wird, sehr effizient beim Fällen von Bäumen aller Art (&oselbst große Bäume&r), und zwar mit einem Schlag!"]
 	quest.432170C0C4C197D3.quest_desc: ["Die Formen des Budding Certus, haben eine Wahrscheinlichkeit kaputt zu gehen. Um eine endlose Certus Quelle zu bekommen, kannst du sogenannte Flawless Blöcke in Meteoriten finden. Nun brauchst Du nur noch eine Möglichkeit, diese mitzunehmen. "]
+	quest.43224663535962A2.title: "Silber III"
+	quest.43396FE762B48D76.title: "Schaf I"
 	quest.43803774A3915BAD.quest_desc: [
 		"Mit Spiritfire können wir verschiedene Materialien aus der Overworld in ihre Otherworld-Varianten umwandeln. Du kannst auch einige Otherworld-Materialien finden, wenn du unter dem Effekt des Third Eye stehst und in der Welt umherstreifst. Um es einfacher zu machen, gibt es Rezepte zum Herstellen der Grundmaterialien, indem man sie ins Spiritfire wirft."
 		""
@@ -1121,22 +1233,22 @@
 		""
 		"&6-&rSoul Lantern: Ignoriert Licht, Mobs spawnen trotz Licht."
 		""
-		"&6-&rFermented Spider Eye: +2 Spawn Count"
+		"&6-&rFermentiertes Spinnen Auge: +2 Spawn Anzahl"
 		"Anzahl an Mobs, die pro Spawnvorgang auftauchen"
 		""
 		"&6-&rGhast Tear: +2 Max Entities"
 		"maximale Anzahl dieses Mobs, die gleichzeitig vorhanden sein darf"
 		""
-		"&6-&rSugar: -10 Min Spawn Delay"
+		"&6-&rSugar: -10 Min Spawn Verzögerung"
 		"Mindestzeit zum nächsten Spawnvorgang"
 		""
-		"&6-&rClock: -20 Max Spawn Delay"
+		"&6-&rClock: -20 Max Spawn Verzögerung"
 		"Höchstzeit zum nächsten Spawnvorgang"
 		""
-		"&6-&rPrismarin Crystals: +4 Activation Range"
+		"&6-&rPrismarin Crystals: +4 Activation Reichweite"
 		"Reichweite, in der ein Spieler vorhanden sein muss zum Spawnen"
 		""
-		"&6-&rPiston: +2 Spawn Range"
+		"&6-&rPiston: +2 Spawn Reichweite"
 		"Reichweite, in der Mobs um den Spawner herum auftauchen"
 		""
 		"&6-&rPointed Dripstone: -5% Max Health"
@@ -1154,7 +1266,7 @@
 		"&6-&rChorus Fruit: No AI"
 		"Mobs haben keine KI mehr, können weder angreifen noch sich bewegen"
 		""
-		"&6-&rTurtle Egg: Baby Variant"
+		"&6-&rSchildkröte Ei: Baby Variante"
 		"spawnt nur noch Babymobs"
 		""
 		"&6-&rRedstone Comparator: Redstone Control"
@@ -1175,6 +1287,7 @@
 		"&6-&rNether Quartz (Offhand): Gegenteiliger Effekt"
 		"kehrt Effekte oben genannter Items um"
 	]
+	quest.43C393C868DAE8D8.title: "Sylikon II"
 	quest.43EE4C5A2997ADF1.quest_desc: ["Mit dem Meteoritenkompass, lassen sich Meteoriten finden. Schnapp Dir einen, bevor die Wege relativ lang werden. Üblicherweise findest Du Meteoriten aber auch neben Dörfern. "]
 	quest.43F671F5C49EED69.quest_desc: [
 		"Mit Sourceberries kannst du zu Beginn deine Mana Regeneration aufbessern und so länger und mehr zaubern."
@@ -1184,12 +1297,15 @@
 	quest.43F671F5C49EED69.title: "Essbares Mana"
 	quest.44041124EDB0DD59.quest_desc: ["Genug Platz für die ersten Touren! Insgesamt 27 Slots und einen Upgrade Slot!"]
 	quest.44041124EDB0DD59.quest_subtitle: "Basic Rucksack"
+	quest.442207600EE38780.title: "Graphit I"
 	quest.444C338BE3A09ABC.quest_desc: ["Diese Leine kann ein Tier in sich einfangen für einen einfacheren Transport."]
 	quest.444C338BE3A09ABC.title: "Ein Pokeball?"
+	quest.4458785729A3EC60.title: "Aluminium I"
 	quest.44C743311C5523E3.quest_desc: ["Die \"Hacke des Botanikers\" hilft einem Bauern, auf die alte Art, verschiedene Arten von Saatgut zu gewinnen indem er sie einfach auf einem Stück Gras oder Erde verwendet (rechtsklick auf boden)."]
 	quest.44D05D9F33C12F52.quest_desc: ["Ein weiteres Upgrade für die Rakete."]
 	quest.44EA03142D3BA39E.quest_desc: ["Input und Output sind automatisierbar."]
 	quest.44EA03142D3BA39E.quest_subtitle: "Grillen geht immer II"
+	quest.44ECF6409473AFFC.title: "Nether Stern I"
 	quest.44F60E7D88036BA5.quest_desc: [
 		"In diesem Block können Verzauberungen von Büchern eingelagert werden. Diese können dann nach Belieben wieder als Verzauberte Bücher kombiniert und herausgeholt werden. Die maximale Stufe der Verzauberung wird dabei festgelegt von der maximalen Stufe, die von dieser Verzauberung hineingelegt wurde."
 		"{@pagebreak}"
@@ -1198,8 +1314,11 @@
 		"Fünf Bücher mit jeweils Sharpness III werden hineingelegt. Man hätte nun genug Material, um Sharpness V herauszuholen. Aber da Stufe III die höchste Stufe war, die von Sharpness hineingelegt wurde, kann auch nur höchstens Sharpness III wieder herausgeholt werden."
 	]
 	quest.44F60E7D88036BA5.title: "Lagerplatz für Verzauberungen"
+	quest.45151C385E22D3AF.title: "Prismarin I"
+	quest.45189D8B5D0ABB7D.title: "End Steel I"
 	quest.4523B6508D0FE41F.quest_desc: ["Die \"Spitzhacke des Himmelssuchers\" bewirkt, dass alle abgebauten Gegenstände sofort in das Inventar des Benutzers gelangen, wodurch die Gefahr verringert wird, dass wertvolle Diamanten in die Lava darunter stürzen"]
 	quest.455EEC6211A5D6B1.quest_subtitle: "Eine unendliche Wasserquelle als Maschine!"
+	quest.457C5E56D2C6603E.title: "Natur IV"
 	quest.45AC3B6AE5C814FE.quest_desc: ["Gebe etwas geladenen Certus, Redstone und Netherquartz in ein Wasserbecken und erhalte Fluixkristalle"]
 	quest.45B554092CB5ED7F.quest_desc: ["Ein Upgrade für u.A. deine Wireless Konsole. Du kannst entscheiden, ob Items direkt in dein ME-System transferiert werden, oder in dein Spieler-Inventar. Außerdem hast Du für beide Optionen einen White- oder Blacklist Filter."]
 	quest.45CE9D3D869EBBDD.quest_desc: [
@@ -1208,6 +1327,7 @@
 		"Aber man kann auch über dieses Ritual eine Hand voll von ihnen spawnen und bekämpfen."
 	]
 	quest.45CE9D3D869EBBDD.title: "Wilde Bestien"
+	quest.45E0AD5F86CDA3CB.title: "Erde III"
 	quest.46007DFEA68D9AA0.quest_desc: [
 		"Das Grundmodul für den Prozessor beim Autocrafting. Teil eines Multiblocks."
 		""
@@ -1230,13 +1350,18 @@
 	quest.4765FE21496CDB09.quest_desc: ["Schneller Erze verarbeiten mit dem Blast Furnace!"]
 	quest.4765FE21496CDB09.quest_subtitle: "Blast it I"
 	quest.476F82802273C0FC.quest_desc: ["Es lässt sich nicht nur wie die Botanists Rüstung reparieren, sondern bietet auch einen Setbonus: Wenn man alle Teile der Rüstung trägt (oder den Brustpanzer gegen eine Elytra austauscht), erhöht sich die Bewegungsgeschwindigkeit des Trägers. Außerdem wird seine Fähigkeit auf Blöcke zu steigen verbessert, so dass er nicht mehr so oft springen muss."]
+	quest.4780D85B8C93BDA4.title: "Graphit III"
 	quest.47B737F4DCE8510E.quest_desc: ["Mit dem eben beschworenen Crusher, können Materiealen für diese Chalks produziert werden."]
 	quest.47B737F4DCE8510E.title: "Chalks"
+	quest.47C5BC8EF880BC4E.title: "Farbstoff II"
 	quest.47D2FFAE08876D53.quest_desc: ["Ein Raketenbauteil."]
 	quest.47DF718336469399.quest_desc: [
 		"Der Multiblock muss immer ein Rechteck bilden und mindestens einen Fertigungsspeicher beinhalten. Somit ist auch ein einzelner Fertigungspeicher ein Valider Prozessor für das Autocrafting."
 		"Außerdem kann die Fertigungseinheit als Füllmaterial im Multiblock benutzt werden, um diesen zu Vervollständigen. Einen Vorteil bringen diese Blöcke aber im Multiblock nicht."
 	]
+	quest.481BD81783C94007.title: "Blei I"
+	quest.482618A095738D85.title: "Sylikon III"
+	quest.4831F4DF254FE3E0.title: "Aluminium II"
 	quest.4834BF938B07C244.quest_desc: [
 		"In diesem Block können noch mehr Mengen an Verzauberungen gelagert werden als in seinem Vorgänger."
 		""
@@ -1256,6 +1381,7 @@
 		""
 		"{ \"text\": \"Nähere Beschreibung\", \"underlined\": \"true\", \"color\": \"red\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0AB6B0BC4CDCB54F\" } }"
 	]
+	quest.4895CABDAE6FBC6B.title: "Nether Stern II"
 	quest.48A426951585B3E6.quest_desc: ["Ein Block welcher Energie aus Thermik herstellt. Den Heißen Block unter den Reaktor und den Reaktor aktiv mit Wasser kühlen. "]
 	quest.48A426951585B3E6.quest_subtitle: "Passiv Strom."
 	quest.48C79ED35AC136C8.quest_desc: ["Mit ein paar Materialien aus dem End kann deine magische Rüstung noch weiter verbessert werden, um noch mehr Mana und Mana Regeneration sowie die maximalen Threadslots zu bekommen."]
@@ -1264,6 +1390,7 @@
 	quest.48CF9B4938E075C3.quest_subtitle: "Damit kann man Erzes aus dem Boden saugen "
 	quest.48F3472B18648E82.quest_desc: ["Ein Block, welcher aus Sonnenlicht Energie gewinnt. Wenn Du diesen mit einer Lens of Ender kombinierst, arbeitet die Solarpanele auch durch Blöcke hindurch und ist nicht mehr direkt auf Sonnenlicht angewiesen."]
 	quest.48F3472B18648E82.quest_subtitle: "Die Kraft der Sonne"
+	quest.49206D481FEDD5EC.title: "Fisch IV"
 	quest.492E5E8E2DC49D14.title: "Holz Sammler"
 	quest.49B65584F6D6176D.title: "Zerkleinerer"
 	quest.49D841614CC15BE6.quest_desc: [
@@ -1291,6 +1418,7 @@
 	quest.4A2E58CD07F4ED0A.quest_subtitle: "Dein Guide für diese Mod"
 	quest.4A57684ABED4A3A4.quest_desc: ["Finde Alle Hölzer im Everdawn"]
 	quest.4A57684ABED4A3A4.title: "Holz Sammler"
+	quest.4A83565783872FF1.title: "Spirited Kristall I"
 	quest.4AD6686953FB9B55.quest_desc: ["Die \"Botanikerschaufel\" hat die Fähigkeit, durch einfache Interaktion, Gras auf Brachland wachsen zu lassen. Ihr könnt außerdem breitere Trampelpfade erstellen."]
 	quest.4AED5A8C9C70A9C9.title: "Let's show: Ender IO"
 	quest.4B03A47B6DCFAF22.quest_desc: ["Diese Apparatur produziert Source, wenn in dessen Nähe Mobs sterben oder Tiere sich vermehren."]
@@ -1300,8 +1428,11 @@
 		"Füttere ein Huhn damit."
 		"Stelle deine Sounds hoch. :)"
 	]
+	quest.4B31704D46F9D6BC.title: "Stein IV"
 	quest.4B4A2387F7C307B6.quest_desc: ["Crafte ein Cloggrum Werkzeug, du kannst es später noch veredeln!"]
 	quest.4B4A2387F7C307B6.title: "Cloggrum Tools"
+	quest.4B54C232723221A0.title: "Konduktiver Legierungsbarren  III"
+	quest.4B54E3EBF42EEE28.title: "Himmelsstein I"
 	quest.4B5731EA58070191.quest_desc: ["Dies ist die effizentiste flüssigkeit um deinen reactor passive zu kühlen"]
 	quest.4B5731EA58070191.title: "Redfrigium"
 	quest.4B86830BAFA84372.quest_desc: ["Auch für die Turbine gibt es eine Basic Form. Mein Rat an der Stelle, solltet ihr in betracht ziehen über Extreme-Reactors Strom zu beziehen, baut direkt die Advanced Turbine. Spart Euch die Ressourcen. "]
@@ -1313,12 +1444,15 @@
 	quest.4B9318FBFB1FF36F.title: "Fusion Reaktor"
 	quest.4BE494C590D81A5C.quest_desc: ["Finde Pyrope und Aquit auf ca. mittlerer Höhe unter der oberfläche"]
 	quest.4BE494C590D81A5C.title: "Grund Metalle?"
+	quest.4C64E64B22D90019.title: "Hühnchen IV"
 	quest.4C813B4746E751B2.quest_desc: [
 		"Um weitere Glyphen zum Zaubern zu bekommen, brauchst du einen magischen Tisch, an dem du deine Studien im Spellbook festhalten kannst. Dazu stellst du den Tisch in die Welt und interagierst mit ihm, während du dein Spellbook in der Hand hast."
 		""
 		"Zum erlernen der Glyphen sind dann immer XP und bestimmte Items nötig, die aus deiner Hand auf den Tisch gelegt werden."
 	]
 	quest.4C813B4746E751B2.title: "Mehr Glyphen, mehr Magie!"
+	quest.4C90EA5165CD685E.title: "Redstone IV"
+	quest.4C9B72C6E3B38E6D.title: "Aluminium IV"
 	quest.4CADDC5EBD079BE4.quest_desc: ["Mit der \"Schaufel des Himmelssuchers\" lässt sich viel einfacher ein abwechslungsreicher Pfad erstellen: Wenn Blöcke in der Nebenhand gehalten werden, wird durch die Verwendung der Schaufel, der Zielblock durch den gehaltenen Block ersetzt."]
 	quest.4CE85AB71C678CF6.quest_desc: ["Dein Altar lässt sich ohne Probleme bis auf Stufe 3 Upgraden. Um die Multiblockstruktur kennen zu lernen, nutze bitte das Sankturium, welches Du bereits als Belohnung erhalten hast. "]
 	quest.4CE85AB71C678CF6.quest_subtitle: "Bis hier hin"
@@ -1329,16 +1463,26 @@
 		"Um es greifbarer zu machen das wäre eine 1 gefolgt von 18 Nullen. "
 	]
 	quest.4D3EA87317F9F6BA.quest_subtitle: "Der Energizer"
+	quest.4D52E51473C6ECF7.title: "Redstone I"
 	quest.4D795F9100DE385B.quest_subtitle: "Sammelt Items in der Nähe auf."
+	quest.4D7AF05231F11F04.title: "Stein II"
 	quest.4D9501280F4CFE64.quest_subtitle: "Sammelt Experience auf und speichert diese als Flüssigkeit."
 	quest.4DB1B18A3B301D4E.quest_desc: ["Im Grunde wie ein Schneegolem, nur viel Stylischer!"]
 	quest.4DB1B18A3B301D4E.title: "Ein neuer Gefährte"
 	quest.4DBA3461786E55B4.quest_desc: ["Mehr Fluid Speicher? Dafür ist der Tank."]
+	quest.4DC4ACCA809BC11F.title: "Aluminium III"
+	quest.4DC77BE7D3BAF28D.title: "Drachen Ei III"
 	quest.4DE9D19B2C01B348.quest_subtitle: "Besser als Dia Rüstung"
 	quest.4DF7B98D4DD6AD2A.quest_desc: ["Mit dem \"Altar of Birthing\" könnt ihr Tiere und Monster spawnen."]
+	quest.4DFDEFE480800211.title: "Zink II"
+	quest.4E2C63B99042440F.title: "Holz II"
+	quest.4E7511DC73364F88.title: "Blattstahl IV"
 	quest.4EAA710CD2A15E03.quest_desc: ["Ein Raketenbauteil."]
 	quest.4ECE88BDAF352ECC.title: "Upgrades Thermal Dynamos"
 	quest.4EDF9C5361EC6E0A.quest_desc: ["Auch ein Drawer, dieses mal aber versteckt, oder deinem Baustil angepasst? Versuch es doch mal mit einem Framed Fluid Drawer. Dieser ist in allen Formen craftbar."]
+	quest.4F182E42323AFC7E.title: "Graphit II"
+	quest.4F1CF4F91B4F9689.title: "Hase II"
+	quest.4F78AD9B9A30A2AB.title: "Phantom II"
 	quest.4FA4161E5D4F5285.quest_desc: [
 		"Werden benötigt um auf Lebensfeindlichere Planeten vorzustoßen."
 		"Als ob das Vakuum nicht schon Lebensfeindlich genug ist. "
@@ -1356,15 +1500,19 @@
 	]
 	quest.4FE30C332131292E.quest_subtitle: "Das absolute Maximum"
 	quest.4FE30C332131292E.title: "Level 100"
-	quest.505227A456788448.quest_desc: ["Die Scryer Items erlauben dir, die Sicht des Crystals einzunehmen. Die Scroll wird an den Crystal gebunden und in die Nähe der Oculus auf ein Pedestal gelegt. Durch Interagieren mit der Oculus kann man nun die Sicht des Crystals sehen."]
+	quest.5036FB6A4F808ECB.title: "Himmelsstein III"
+	quest.505227A456788448.quest_desc: ["Die Scryer Items erlauben dir, die Sicht des Crystals einzunehmen. Die Scroll wird an den Kristall gebunden und in die Nähe der Oculus auf ein Pedestal gelegt. Durch Interagieren mit der Oculus kann man nun die Sicht des Crystals sehen."]
 	quest.505227A456788448.title: "Ich sehe dich!"
 	quest.50861A06499F6A87.quest_desc: ["2x2 und 3x3 Rezepte werden Platz sparend gelagert."]
 	quest.50861A06499F6A87.quest_subtitle: "Mach mal kleiner II"
+	quest.50B7FD0D1883B624.title: "Erde IV"
 	quest.50BA018956B58618.quest_subtitle: "Man kann auch mehr bauen "
 	quest.50BA018956B58618.title: "Laser"
 	quest.50C6D9F519D225F4.quest_desc: ["Prinzipiell spielt es keine Rolle, ob Du Glas oder Ramen benutzt. Wichtig an der Stelle ist, dass die Ecken und das außen Gerüst immer Frames enthalten. Der innen Bereich der Flächen kann ausgefüllt werden mit Glas, aus optischen Gründen."]
 	quest.50C6D9F519D225F4.title: "Glas oder Ramen"
 	quest.50E017A67D63471B.title: "Inducion zelle"
+	quest.512737BF550D058E.title: "Schaf IV"
+	quest.512B1F79A4208335.title: "Zinn I"
 	quest.51A5F68FDD62187E.quest_desc: [
 		"Teil des Multiblocks."
 		"Die Prozessoreinheit sorgt für Parallele abarbeitung eines Rezepts. Hat man nun mehrere Schritte zu craften, oder auch viele parallele Aufträge, so sollte man die Anzahl an den sogenannten Prozessoreinheiten erhöhen. "
@@ -1396,6 +1544,7 @@
 		""
 		"Informationen zu Bossmechaniken, World Tiers etc. findest du im \"Chronical of Shadows\" Buch."
 	]
+	quest.52E473543B5F7E88.title: "Obsidian III"
 	quest.53384F1CAA1193C0.quest_desc: [
 		"Ein Quantentunnel ermöglicht dir dein System Dimensions-übergreifen oder einfach auf Distanz zu bauen. Du benötigst 2 x8 Ringe. 2 x 1 Quantenkammer und ein parr quantenverschränkte Singularitäten. "
 		""
@@ -1404,6 +1553,7 @@
 	quest.534AEFBDAFA3754C.title: "Industrial Handbuch"
 	quest.537E339058A7D8F8.quest_desc: ["Mit 81 Slots und 3 Upgrade Slots, bietet er noch mehr Platz!"]
 	quest.537E339058A7D8F8.quest_subtitle: "Güldener Rucksack"
+	quest.53C1FFDDB62B28FB.title: "Kohle I"
 	quest.53FA14DECBF4B405.quest_desc: [
 		"Fügt Mobs schaden zu."
 		"Ideale Spinnenabwehr"
@@ -1414,6 +1564,7 @@
 	]
 	quest.540D952C52F19CB4.quest_subtitle: "Ist das noch Magie oder schon Technik?"
 	quest.540D952C52F19CB4.title: "Der erste Apparat"
+	quest.540E11DEDAE831E2.title: "Natur III"
 	quest.541AFC2144795998.quest_desc: [
 		"Du hast es bald geschafft. Der Sun Spirit ist nicht mehr weit. "
 		""
@@ -1444,9 +1595,12 @@
 	quest.548F099E63C07C64.title: "Forgotten Tools"
 	quest.54E91CBDA4D83EDE.title: "Let's show: Powah!"
 	quest.5529F9D6301E78F4.quest_desc: ["Doppelt so viele Flüssigkeitstypen, aber nur halb so groß."]
+	quest.5562884ED74575FC.title: "Hühnchen I"
 	quest.557F56AEDAF2680A.quest_desc: ["Ein Raketenbauteil."]
 	quest.55F9D00503EA0664.quest_desc: ["Es lassen sich mit diesem Gegenstand nun weitere und stärkere Rituale bauen. Teste es doch mal aus und baue das Ritual \"Passway to the hidden Realm\""]
 	quest.5600D421C0F617A9.quest_desc: ["Da hier Mods gefunden wurden, welche Entity Spawning mittels spawner erlauben und dadurch auch XP, Item Farmen zustande kommen, hat es Mob Grinding Utils in das Modpack geschafft. Diese Mod ermöglicht es, Mobs effizienter zu farmen. "]
+	quest.560BE427BAFA28A6.title: "Hase I"
+	quest.560D7F16570EC620.title: "Redstone II"
 	quest.565D5FCA805C2F32.quest_desc: [
 		"Apotheosis erlaubt dir, selbst Tridents herzustellen. Dafür muss erst die Inert-Variante gecraftet und dann im Verzauberungstisch infuset werden."
 		""
@@ -1458,6 +1612,9 @@
 	quest.5687ACBB8EDE2C51.title: "Eine Rune- Nein ein blanke Rune"
 	quest.56959F905714B915.quest_desc: ["Nimm an Event zur Öffnung des Endportales teil und erhalte eine Belohnung."]
 	quest.56959F905714B915.title: "Das End-Event"
+	quest.56A56EEBB9405DA5.title: "Kupfer II"
+	quest.56FFC4BEF58D7AE4.title: "Redstone Legierungbarren I"
+	quest.572303A5274BE1EE.title: "Zombie I"
 	quest.5749EC872D93D38E.title: "Dielectric Rods"
 	quest.574EEBFC1C74B329.quest_desc: ["Wer will so viel den überhaupt stacken."]
 	quest.574EEBFC1C74B329.quest_subtitle: "MEEEEEEEHR V"
@@ -1469,14 +1626,18 @@
 	quest.57CCD05DF44E26E1.title: "Feine Edelsteine, Edle Verfeinerung"
 	quest.57E783E20BE966B3.quest_desc: ["Mehr Platz. Einfach mehr Platz."]
 	quest.57E80A56E6D8784A.quest_desc: [
-		"Das Enchanter's Eye kann mit einem Scry Crystal verbunden werden, um den gebunden Zauber aus diesem heraus zu wirken."
+		"Das Enchanter's Eye kann mit einem Scry Kristall verbunden werden, um den gebunden Zauber aus diesem heraus zu wirken."
 		""
 		"Zum Binden eines Zaubers erstellst du diesen in deinem Zauberbuch, legst das Auge auf den Scribe's Table und benutzt das Buch mit diesem Zauber darauf, während du geduckt bist."
 	]
 	quest.57E80A56E6D8784A.title: "Ich hab' ein Auge auf dich"
+	quest.57FACF7776A18E29.title: "Farbstoff III"
+	quest.5801E821603AF43F.title: "Himmelsstein IV"
 	quest.586EFD2747910C1B.quest_subtitle: "Rohstoff rein, Flüssigkeit raus."
+	quest.58742DDCF0B46D9C.title: "Eis II"
 	quest.587C0314547F28A4.quest_desc: ["Beheading, limitiert auf 1."]
 	quest.589407ECB629164D.title: "Let's show: Industrial Foregoing"
+	quest.5894741FAA3E645D.title: "Honig IV"
 	quest.58E52A58980F4FE4.quest_desc: ["Zeichen des Zorns"]
 	quest.5902419C7421AA67.title: "Lets's show: Occultism"
 	quest.5937774ED0FCF478.quest_desc: ["Erteile mehr schaden gegen Undergarden Mobs. Ausgenommen sind Boss Mobs."]
@@ -1485,6 +1646,7 @@
 		""
 		"Es wird gewiss einige Ressourcen mittels Void-Minern geben."
 	]
+	quest.59802E53AA9E6919.title: "Sylikon II"
 	quest.59A51F9358D6A234.quest_desc: ["Wird in \"Aura reicher\" umgebung &l&4im End&r&r eingesammelt, wenn ihr mit einer Bottle and Cork, einen Rechtsklick in die Luft macht."]
 	quest.59E92107A4481944.quest_desc: [
 		"Ab der zweiten Woche kannst du jetzt 50 Chunks (pro Spieler im Team) claimen."
@@ -1494,18 +1656,24 @@
 	quest.59EAB8353580FBFB.title: "Vorbereitung für die Agglomerationsplate"
 	quest.5A21339405F8A5A5.quest_desc: ["Redstone dust + Snow Block"]
 	quest.5A21339405F8A5A5.title: "Cryomisi"
+	quest.5A3F3F6A38B4C831.title: "Netherite I"
 	quest.5A83CAD196067494.title: "Die erste Rüstung"
 	quest.5AE5065E8E3AC023.quest_desc: ["Was hieraus wohl entsteht?"]
 	quest.5AE90AC31CD60938.quest_desc: ["Auch hier kann eine Fertigungskarte installiert werden. Mittels zusätzlicher Beschleunigungskarten, gibst Du die Chargengröße des Craftingprozesses an. "]
 	quest.5AF633DB1C78EDBD.quest_desc: ["Erhält man durch das abbauen des gleichnamigen Erzes."]
+	quest.5B30887AA7433E29.title: "Obsidian I"
 	quest.5B684BF428FFE49C.quest_desc: ["Zeichen der Freude"]
+	quest.5BA7DB5D07B68DE5.title: "Nether III"
 	quest.5BD2AA6ED1E63953.quest_desc: ["Halte Dich kompakt."]
-	quest.5C18E2E90C59C472.title: "hide blood magic"
+	quest.5BED96FC4FE14A0D.title: "Farbstoff IV"
+	quest.5C18E2E90C59C472.title: "hide Blut Magie"
 	quest.5C36E3B78AB146C0.quest_desc: [
 		"Das Wort Mana stammt aus dem Polynesischen und...achso, wie es hier funktioniert."
 		"Zum Wirken deiner Spells benötigst du Mana. Dieses siehst du in der Regel links unten neben deiner Inventarleiste. Glyphen und dessen Zusammensetzungen kosten mehr oder weniger Mana, je nach Stärke, Tier und Effekt."
 		"Die Menge an Mana und dessen Regeneration ist steigerbar durch Erlernen weiterer Glyphen, Magische Rüstung, Mana Potions etc."
 	]
+	quest.5C55A49E1A2825AD.title: "Konduktiver Legierungsbarren IV"
+	quest.5C748344B5226C9D.title: "Natur II"
 	quest.5C7D0094496E8E53.quest_desc: [
 		"Öffne hierzu dein Spellbook in deiner Hand (Default: C)."
 		"Grundsätzlich gilt: Jeder Spell braucht mindestens eine Form (auf welche Weise wird der Effekt ausgeführt) und einen Effekt."
@@ -1514,6 +1682,8 @@
 		"Die Formen, Effekte und Modifikationen heißen Glyphen."
 	]
 	quest.5C7D0094496E8E53.quest_subtitle: "Wie funktioniert das?"
+	quest.5CB40E648C09D661.title: "Creeper III"
+	quest.5CB57D817F584C7F.title: "Schildkröte IV"
 	quest.5CDBF914FFF477D7.quest_desc: ["Input und Output sind jetzt automatisierbar!"]
 	quest.5CDBF914FFF477D7.quest_subtitle: "Blast it II"
 	quest.5D0614C216109F4F.quest_desc: ["Nach dem Einschmelzen vom rohen Froststeel erhältst Du ein Ingot."]
@@ -1555,6 +1725,10 @@
 	]
 	quest.5E51716BBA7C0BE6.title: "Verzauberungen 101"
 	quest.5E82814E40451406.quest_desc: ["Glück Upgrade, Limitiert auf 3"]
+	quest.5EB1CBAD301B35C6.title: "Messing I"
+	quest.5EB73CECD6B5A8B3.title: "Nitro Kristall II"
+	quest.5EEED8BA75D222AC.title: "Tiefenschiefer I"
+	quest.5EFEFB853D35D898.title: "Mystical Agriculture Tier V u. VI"
 	quest.5F0DB83F6DED68A3.quest_desc: ["Mit einem nun besseren Blut Altar lässt sich ein noch besserer Orb herstellen. Mit diesem werden bestimmt weitere Rezepte freigeschaltet."]
 	quest.5F0DB83F6DED68A3.quest_subtitle: "Natürlich, es folgen sogar noch mehr"
 	quest.5F0DB83F6DED68A3.title: "Noch ein Orb?"
@@ -1571,14 +1745,17 @@
 		"Die Betonung liegt dabei auf &lNATÜRLICH!&r, also kein Knochenmehl oder dergleichen."
 	]
 	quest.5F442ACC0CCC3DEE.title: "Die Macht der Pflanzen"
+	quest.5F4B4317DABDD61D.title: "Spinne III"
 	quest.5F98BAF82E1271EE.quest_desc: ["Um auch die stärksten Glyphen nutzen zu können, muss dein Zauberbuch nochmals geupgradet werden. Doch nur wer sich als würdig erweist, vermag das volle Potential zu entfesseln."]
 	quest.5F98BAF82E1271EE.quest_subtitle: "Der lange weiße Bart steht dir gut"
 	quest.5F98BAF82E1271EE.title: "Der Meister der Meister aller Meister"
 	quest.5FBE953877FCAC23.quest_desc: ["Dieses Regal verringert die Menge von &2Eterna&r und &cQuanta&r. Gut, um begrenzte Quantabereiche für bestimmte Verzauberungen zu erreichen."]
 	quest.5FBE953877FCAC23.title: "Süß und Wohltuend"
+	quest.5FDC46235AEB9551.title: "Leuchtstein III"
 	quest.5FDF133E70DEC72B.quest_desc: ["Wird für einige Dinge wie z.B. Werkzeuge, Rüstungen und Upgrades benötigt."]
 	quest.6027754B0CA152B6.quest_desc: ["Ist eine verbesserte Version vom \"Token of Fear\"."]
 	quest.6032E9282E0CB1DD.quest_desc: ["Eine Basis-Upgrade Karte"]
+	quest.604A72B31F1E5DC2.title: "Honig I"
 	quest.607F70C3549B4670.quest_desc: [""]
 	quest.6092D820D8CA7DDF.quest_desc: [
 		"Unter den Wilden gibt es noch eine weitere weitaus stärkere Lebensform, Die Wilden Chimera. Eine wahrlich schreckliche Kreatur, die nur von den mächtigsten Zauberern erlegt werden kann."
@@ -1587,6 +1764,7 @@
 		"&l&4ACHTUNG!&r Wenn die Wilden Chimera durch das Ritual gerufen wird, können Blöcke um das Ritualpodest herum zerstört werden, auch in Chunk-Claims!"
 	]
 	quest.6092D820D8CA7DDF.title: "Die Schöne und das Biest"
+	quest.609F95DDAF6CF34E.title: "Kupfer Legierungsbarren III"
 	quest.60B7003EF62EB651.quest_desc: [
 		"Das sind Wireless Empfänger von deinem Ender Netzwerk. Auch hier kannst du die Channel einstellen. Willst du die ID löschen, so lege den Plug einfach in ein Crafting-Terminal. Damit werden die NBT Daten des Users aus dem Item entfernt."
 		""
@@ -1599,10 +1777,13 @@
 	quest.61474F5C289C9886.title: "Deine ersten Drawer"
 	quest.61BAEC3E8D33CC67.quest_desc: ["Ofen im Rucksack, was sollte da schief gehen."]
 	quest.61BAEC3E8D33CC67.quest_subtitle: "Ofen to go I"
+	quest.61C0B9402FBCA146.title: "Kupfer Legierungsbarren II"
 	quest.61DC0E19528E8BD5.quest_desc: ["Demonite brauchst du u.a. dafür, um deinen Altar auf die höchste Stufe zu upgraden."]
+	quest.61EB9141B7553921.title: "Schleimball I"
 	quest.6207186159232DB8.quest_desc: ["Mehr Filteroptionen!"]
 	quest.6207186159232DB8.quest_subtitle: "Feuchte Angelegenheit II"
 	quest.62428405522D18D8.quest_desc: ["Ist eine verbesserte Version vom \"Token of Sorrow\"."]
+	quest.6254DC67404FB690.title: "Redstone III"
 	quest.625BCE0C411DF831.quest_desc: ["In der Raketenwerkbank baust Du deine Raketen. Um zu anderen Planeten zu reisen, wirst Du dieses Item benötigen."]
 	quest.625BCE0C411DF831.quest_subtitle: "Schon abgespaced"
 	quest.62846CD8CD6D04F4.quest_desc: [
@@ -1610,11 +1791,15 @@
 		""
 		"Verschiedene farbige Linsen verändern die Häufigkeit in der bestimmte  Erze gefördert werden. Z.b. erhält man mit einer gelben Linse mehr Gold, aber dafür weniger andere Erze."
 	]
+	quest.62B49B650A11D37D.title: "Tintenfisch III"
 	quest.62C53AC440B3380E.quest_desc: [
 		"Sämtliche Öl Reserven an der Oberwelt sind aufgebraucht.  Um diese zu erfarmen, wirst Du mit einem Laserdrill gezielter in Ozeanen danach suchen müssen. "
 		"Wenn Du eine Ölquelle gefunden hast, wird diese aber Glücklicherweise nicht mehr versiegen. "
 	]
+	quest.62E82C10AB7EE5B2.title: "Messing IV"
+	quest.631661DF18D627BD.title: "Kupfer Legierungsbarren I"
 	quest.632E51936F4DC306.quest_desc: ["Mehr Varianten, weniger Platz, dies erreichst du mit dem 2 zu 1 Drawer"]
+	quest.6404A7C734D42056.title: "Skelett I"
 	quest.6436E46E095D0BDD.quest_desc: [
 		"Wenn ihr eure Reise durch das Questbuch gemeinsam mit anderen Spielern bestreiten wollt, könnt ihr ein Team gründen."
 		""
@@ -1653,10 +1838,15 @@
 	quest.65E14369D16F30ED.quest_subtitle: "weniger ist nicht mehr"
 	quest.65E14369D16F30ED.title: "Mehr Runen"
 	quest.663D58FDB00228B1.quest_desc: ["Ein Teil einer Multiblockstruktur. Diese kannst Du nutzen, um deine Orb in Fusing Rezepten mit Strom zu versorgen. Wie man dies mittels Autocrafting hinbekommt, lernst du in der folge Quest."]
+	quest.664C5992E6D9347E.title: "Leuchtstein IV"
 	quest.664DE4738DDB1F77.quest_subtitle: "Eine Presse!"
+	quest.66660D95AFD526F0.title: "Redstone Legierungsbarren II"
+	quest.6697A61A1A6D37F5.title: "Fisch III"
 	quest.66DEEA92B5F386C0.quest_desc: ["Die Access Ports sind die Zugangspunkte zum Reaktor. Diese kannst Du Rechtsklicken. In der GUI kannst Du einstellen, ob dieser als Eingabe- oder Ausgabepunkt dienen soll. Außerdem kannst Du hier manuell triggern, ob dieser In- oder Output Material ausgeben soll. Die Ausgabe erfolgt in Fester Form, also als Ingot."]
 	quest.66DEEA92B5F386C0.title: "Any Access Port"
+	quest.66F986B77C85AAE3.title: "Drachen Ei I"
 	quest.671FB6732DEC8471.quest_desc: ["Du benötigst mindestens einen halben Manapool um diese Ingot herzustellen."]
+	quest.675F2328B09CD7E6.title: "Schildkröte III"
 	quest.676D5DA809676207.quest_desc: ["Auch ein Drawer, dieses mal aber versteckt, oder deinem Baustil angepasst? Versuch es doch mal mit einem framed Drawer. Dieser ist in allen Formen craftbar."]
 	quest.67973447F729D73A.quest_desc: ["Regalium ist in der Welt relativ selten zu finden. Ab einer Höhe von 11. Die Wahrscheinlichkeit welches zu finden ist gleichzusetzen wie Antiker Schrott. Das Erz kannst Du nutzen um mit den Einheimischen Stonewalkern Tauschhandel zu betreiben."]
 	quest.67973447F729D73A.title: "Regalium"
@@ -1681,6 +1871,7 @@
 	quest.68CBEF963313DC33.title: "Reinforced Reaktor"
 	quest.68DE5BDE3F537F42.quest_desc: ["Platz für noch mehr Zeug. 28 Slots und 2 Upgrade Slots!"]
 	quest.68DE5BDE3F537F42.quest_subtitle: "Eisener Rucksack!"
+	quest.68E9ED874A7797FC.title: "Amethyst IV"
 	quest.6932EE98766BBCB7.quest_desc: [
 		"Die Gravur-Maschine ist gegated auf das Immersive End-Game. "
 		"Um mit Applied weiter zu spielen, wirst Du in Immersive wohl erst mal voran schreiten müssen"
@@ -1694,6 +1885,9 @@
 		"{image:powah:item/binding_card_dim width:30 height:30 align:1}"
 	]
 	quest.695526C12D5AE2E6.quest_subtitle: "Auf die Enderperle, fertig. los...."
+	quest.698A0693A35701ED.title: "Blei IV"
+	quest.698E9A5C4AA30FB0.title: "Creeper I"
+	quest.69C572DA0801C9E1.title: "Messing II"
 	quest.6A2B6704E919F2BB.quest_desc: ["Jedes Crafting-Rezept braucht eine gewisse Anzahl an Bytes um verarbeitet zu werden. Somit gibt der Fertigungsspeicher an, wie groß dein Crafting-Rezept sein kann. Außerdem kann der Fertigungsspeicher standardgemäß ein Rezept nach dem anderen abarbeiten. Um paralleles Craften zu gewährleisten. Baue weitere Prozessoreinheiten."]
 	quest.6A342B58C9875174.quest_desc: [
 		"Werden benötigt um auf Lebensfeindlichere Planeten vorzustoßen."
@@ -1704,6 +1898,7 @@
 	quest.6AB3A23E011C7A70.quest_desc: ["Wird aus Certus hergestellt."]
 	quest.6ACEC87CC8248AE2.quest_desc: ["Es lässt sich nicht nur wie die Himmelsucher Rüstung reparieren, sondern bietet auch einen Setbonus: Wenn man alle Teile der Rüstung trägt (oder den Brustpanzer gegen eine Elytra austauscht), bewirkt die Rüstung bei einem Treffer, dass alle Gegner in der Nähe für einige Sekunden mit dem Boden verschmelzen und völlig still stehen."]
 	quest.6AEC7D9E608F9708.quest_desc: ["Eine wichtige Komponente in AE2 um Peripheriegeräte herzustellen."]
+	quest.6B2E7E1C06A8C219.title: "Hase III"
 	quest.6B826441604FE86F.quest_desc: ["Automatisch Tränke konsumieren. Hat mehr Filteroptionen für Effekte."]
 	quest.6B826441604FE86F.quest_subtitle: "Walter White aka Heisenberg"
 	quest.6B826441604FE86F.title: "Erweitertes Alchemie-Upgrade"
@@ -1721,6 +1916,9 @@
 		""
 		"In dem Brustteil des Raumanzugs sind deine Sauerstoffvorräte verbaut. "
 	]
+	quest.6C1A814ABFD85843.title: "Drachen Ei II"
+	quest.6C374DDEE772D436.title: "Bronze IV"
+	quest.6C8E936990D9E696.title: "Fisch I"
 	quest.6CAB591C5279CFFB.quest_desc: ["Gebe Cyanite in Barrenform deinen Reprocessor hinzu."]
 	quest.6CBD102C9BA554AF.quest_desc: ["Wusstest Du, dass Du deinen Reaktor nicht kühlen musst? Der Verbrauch steigt dadurch und du kannst effektiver umwandeln. Wenn es nur darum geht."]
 	quest.6CBD102C9BA554AF.title: "\"ineffizient\""
@@ -1745,14 +1943,17 @@
 		"Als ob das Vakuum nicht schon Lebensfeindlich genug ist. "
 		"Hitze, höherer Atmosphärendruck und Säuren soll dieser Raumanzug abkönnen."
 	]
+	quest.6D62D66820959C88.title: "Farbstoff I"
 	quest.6D8C8F5FCCC086C0.quest_desc: ["Wandelt Lava in Energie um."]
 	quest.6D8C8F5FCCC086C0.quest_subtitle: "Pumpe den Nether leer."
+	quest.6DE4FDE401002D86.title: "Konduktiver Legierungsbarren I"
 	quest.6E087C2758FDEB6C.quest_desc: ["Drawer sind nun abhängig des Füllstands mit einem Komparator auslesbar."]
 	quest.6E80082139A42376.quest_desc: ["2x2 Rezepte werden Platz sparend gelagert"]
 	quest.6E80082139A42376.quest_subtitle: "Mach mal kleiner I"
 	quest.6E93D46AB70FC4EA.quest_desc: ["Richtig der Rucksack kann als Pumpe arbeiten. Wie? Keine Ahnung Frag jemand anderes!"]
 	quest.6E93D46AB70FC4EA.quest_subtitle: "Feuchte Angelegenheit I"
 	quest.6E9DAFBCD3D19E5B.quest_desc: ["Damit nicht alle in der Dimension von den Endboss Sounds mitbekommen, kannst Du die folgenden Blöcke dafür nutzen, die Sounds zu unterdrücken."]
+	quest.6EFAEE92801D584C.title: "Tiefenschiefer I"
 	quest.6F14BA01A20E3D8F.quest_desc: ["Du benötigst Iridium um ein besseres Rocket Upgrade zu bauen."]
 	quest.6F393C46B730C789.quest_desc: [
 		"Der ME-IO Port transferiert schnell Items von Festplatten auf ein vorhandenes System, oder auch umgekehrt. "
@@ -1769,11 +1970,15 @@
 	quest.6F7793C5284BE3AA.title: "Besige den Naga"
 	quest.6F85FEEE1707BF38.quest_desc: ["Mit diesem Block kannst du Brennstoff als Flüssigkeit in den reaktor ein/aus geben "]
 	quest.6F85FEEE1707BF38.title: "Fuel Injection Port"
+	quest.6F8E36E1943892EE.title: "Leuchtstein I"
 	quest.6FF1DA16E004D886.quest_desc: ["Mit einem Rechtsklick auf eine Maschine, zeigt euch dieses Tool die Reichweite der Maschine an."]
+	quest.7009BA0F327BDF35.title: "Schwein III"
 	quest.7061359DDF860CFB.quest_desc: ["Dieses Regal verringert die Menge von &2Eterna&r und &5Arcana&r. Gut, um begrenzte Arcanabereiche für bestimmte Verzauberungen zu erreichen."]
 	quest.7061359DDF860CFB.title: "Stur und Steinhart"
+	quest.70888A03C3642EC8.title: "Certus Quartz II"
 	quest.7096BA5276670D56.quest_desc: ["Wird für einige Dinge wie z.B. Werkzeuge, Rüstungen und Upgrades benötigt."]
 	quest.70ACC2EB80EFB6A3.title: "Manadiamant oder Manaperle"
+	quest.70BAB86CA058C15F.title: "Drachen Ei IV"
 	quest.70C06F01206CCE9B.quest_desc: [
 		"Der Enchanter's Wand hat von sich aus schon die Glyphen \"Projectile\" und \"Accelerate\", braucht also nur noch Effektglyphen, um zu funktionieren."
 		""
@@ -1825,6 +2030,7 @@
 	]
 	quest.736169731670410F.quest_subtitle: "Willkommen bei Apotheosis"
 	quest.736169731670410F.title: "Magie, Adventure, Utility"
+	quest.73649595F549AADA.title: "Phantom I"
 	quest.73F0DA7E5B71D4C9.quest_desc: ["Noch viel mehr stacken!"]
 	quest.73F0DA7E5B71D4C9.quest_subtitle: "MEEEEEEEHR III"
 	quest.7440341BEA541FE2.quest_desc: ["Redstone, eine wichtige Zutat im Prozessorbau."]
@@ -1832,6 +2038,7 @@
 	quest.749043D84EC00449.title: "Karte des Waldes "
 	quest.74B147C71A1D55E9.quest_subtitle: "Damit kann man Tier in die Twiglight Forst Tire umwandeln "
 	quest.74BC9D9625C7A3F6.quest_subtitle: "Burns Enemys"
+	quest.750F56E678FF5641.title: "Platin I"
 	quest.753D0CFDD1A78040.quest_desc: [
 		"Fast wie Seetang, nur glitzernd. Kann im Ofen köstlich zubereitet werden."
 		"Radon- Zeit für einen Tapetenwechsel?"
@@ -1840,6 +2047,9 @@
 	quest.7556BC1029C2B666.quest_subtitle: "Switcheru I"
 	quest.75611DC723B62AE4.quest_subtitle: "Mit Hilfe des Flux Plugs kannst du Remote Energie deinem Netzwerk hinzufügen"
 	quest.7573E4D1345E6922.title: "Reinforced Turbine"
+	quest.75750991A0240B08.title: "Creeper IV"
+	quest.757CA98C2B1B4546.title: "Nether Stern IV"
+	quest.7588A6F40ADE6C48.title: "Certus Quartz III"
 	quest.7595DD9DE29C0C44.quest_desc: ["Natürlich braucht es Speicher. Eine bessere Methode Blut zu speichern stellt der Blut Orb da. Dieser bildet sein eigenes Netzwerk und ist gänzlich für neue Mythen und Rituale nutzbar. Auch einige antike Rezepte sollen mit dem Orb als Katalyst funktionieren. Wenn man den Gelehrten glauben schenken darf, so füllt sich dieser im Blut Altar auf."]
 	quest.7595DD9DE29C0C44.quest_subtitle: "Welcher kühne Magier hat auch keinen?"
 	quest.7595DD9DE29C0C44.title: "Natürlich ist es ein Orb"
@@ -1847,9 +2057,12 @@
 	quest.75B1DFF177DB3EEB.quest_desc: ["Ob zum weitercraften fürs Essen, zum herstellen eines stylischen Gefährten oder einfach zum craften für eine spiltter Bombe - es ist alles dabei. "]
 	quest.75BA799EEA809FA5.quest_desc: ["Noch viel viel viel mehr stacken!"]
 	quest.75BA799EEA809FA5.quest_subtitle: "MEEEEEEEHR IV"
+	quest.75E7086CBC6DD98F.title: "Nether Quartz IV"
 	quest.75EE38089094F5A0.title: "Sawdust"
 	quest.7600E42EC1039D65.quest_desc: ["Ein Block, welcher Entities pusht. Mobs können auf natürliche Weise hier drauf spawnen"]
+	quest.7626A78AFD6D9253.title: "Silber II"
 	quest.764E50746BC2A66F.quest_subtitle: "Speicher für deine Flüssigkeiten!"
+	quest.7654E9BF0F9B2254.title: "Bronze III"
 	quest.765CC36D1E9FC407.quest_desc: [
 		"Du hast es geschafft deine Tier 1 Rakete zu bauen. "
 		"Nehme genug Sauerstoff und Treibstoff mit um unseren Trabanten den Mond zu besuchen. "
@@ -1878,10 +2091,12 @@
 	quest.77D31EC2C76058E2.quest_subtitle: "...und so ein dickes Buch auch."
 	quest.77D31EC2C76058E2.title: "Aller Anfang ist schwer..."
 	quest.77FB11E4F613C5D3.quest_subtitle: "Verbindet mehrere Materialien zu einem"
+	quest.7805EDEA73EE98FC.title: "Zombie IV"
 	quest.785AB01D2228B7A9.quest_desc: ["Die Battle Axe kann laut Wiki von Stonewalkern getradet werden oder laut Reddit von den Vergessenen im Dungeon gedroppt werden. Teste es aus und lasse es uns wissen."]
 	quest.789913E88083A2FF.quest_desc: ["XP kann jetzt auch mit dem Rücksack gepumpt werden. Wieso? Darum!"]
 	quest.789913E88083A2FF.quest_subtitle: "Damn Son!"
 	quest.78A9440B51036626.quest_desc: ["Könnt ihr zu Ancient Planks und Sticks weiterverarbeiten."]
+	quest.78B66ED051F77639.title: "Zinn IV"
 	quest.78D7575B8BFD8848.quest_desc: [
 		"Mit der Simple Voice Chat Mod kannst du ingame mit andern Spielern sprechen."
 		""
@@ -1894,9 +2109,14 @@
 		"Um mit Spielern in größerer Entfernung zu sprechen, könnt ihr eine Chatgruppe eröffnen, oder euch einer vorhandenen Gruppe anschließen."
 	]
 	quest.78D7575B8BFD8848.quest_subtitle: "Kein Bock zu tippen?"
+	quest.78D8DBFC816FE694.title: "Uraninite I"
 	quest.795E9E4C809D1EC2.quest_desc: ["Kann weiter vercrafted werden. "]
 	quest.796D47D4DEDA277C.title: "Lets's show: Ars Nouveau"
+	quest.79A89B4305585A9B.title: "Eisen IV"
 	quest.79ABB8A2C2D1AD3C.quest_subtitle: "Baue in deinem Flux Network einen Zwischenspeicher ein."
+	quest.79B146018D2682BB.title: "Kohle III"
+	quest.7A3A3B706CFB4440.title: "Bronze II"
+	quest.7A9935BC07AA5F19.title: "Konduktiver Legierungsbarren II"
 	quest.7AD9631F43AD87FD.quest_desc: ["Aufgesammelte Items kommen direkt in den Rucksack."]
 	quest.7AD9631F43AD87FD.quest_subtitle: "Put it in I"
 	quest.7AFD7B0DAA8D7791.quest_desc: ["Du benötigst den Catalyst, um den Undergarden besuchen zu können. Platziere Steinziegel, in einer mindestgröße wie ein Netherportal und rechtklicke mit dem Catalyst."]
@@ -1904,15 +2124,17 @@
 	quest.7AFFEA1B611A8CB9.title: "Froststeel"
 	quest.7B0B511E8A8D0C10.quest_desc: ["Wird aus Diamanten hergestellt."]
 	quest.7B63B6CB65BC3172.quest_desc: ["Noch viel mehr Flüssigkeitspeicher? Dafür ist der Jumbo-Tank."]
-	quest.7BC484BE1CEB92D5.title: "Wood Seed"
+	quest.7BC484BE1CEB92D5.title: "Holz I"
 	quest.7BCBE649891D1C9B.title: "Finde eine Bastion"
 	quest.7BDF271FC28A9299.quest_desc: ["Filter Items die rein und raus gehen beim Rucksack!"]
 	quest.7BDF271FC28A9299.quest_subtitle: "Lange Leitung I"
+	quest.7C1ADA6D4CFC09D7.title: "Mystical Agriculture Tier I"
 	quest.7C598C88ABF08E11.title: "Let's show: AE2"
 	quest.7C756D847549EF66.quest_desc: ["Mach mal Mucke!"]
 	quest.7C756D847549EF66.quest_subtitle: "Drop the Beat!"
 	quest.7CA92B2E9226BA88.quest_desc: ["Maximal ein Stack (x64) passt nun nur noch in deinen Drawer. "]
 	quest.7CD185434F97FCA8.quest_desc: ["Im ME-Requester kannst Du vorhandene Autocrafting-Rezepte auf einen Füllstand X vorbereiten lassen, sodass diese immer Vorrätig ist. Im gleichen Zuge bestimmst Du auch die Craftinggröße. DU kannst mehrere ME-Requester an deinem System anschließen und sie konsolidiert mittels der Requester-Konsole abrufen."]
+	quest.7CD4BB26A718C894.title: "Mystical Agriculture Tier II"
 	quest.7CDC16333D2E3B89.quest_desc: [
 		"Ars Nouveau bietet eine Reihe von magischen Waffen und Werkzeugen, die entweder magische Eigenschaften haben oder Glyphen wirken können."
 		""
@@ -1927,6 +2149,7 @@
 	quest.7D2F2A0BEEDA04C7.title: "Der Alchemist"
 	quest.7D49AA8CE68E9356.quest_subtitle: "Nachdem ihr die ersten Maschinen gebaut habt, könnt ihr diese nun mit Upgrades verstärken"
 	quest.7D49AA8CE68E9356.title: "Thermal Machine Upgrades"
+	quest.7D69F88F42E72FFC.title: "Schwein IV"
 	quest.7DDF9DAC7B62720D.quest_desc: [
 		"In Ars Nouveau gibt es eine Verzauberung, die nicht funktioniert, wenn sie erst als Buch gecraftet wird, so wie es das Crafting-Rezept zeigt."
 		"Zur Lösung dieses Problems wird statt einem Buch direkt das gewünschte Item in den Enchanting Apparatus gelegt."
@@ -1937,7 +2160,10 @@
 	quest.7DF501F1067F23D2.quest_desc: ["Nun geht es tiefer unter die Oberfläche. Deepshelves werden die nächsthöhere Verzauberungsstufe sein."]
 	quest.7DF501F1067F23D2.title: "Vorbereitung für Level 70"
 	quest.7E09B6005EC482B2.quest_subtitle: "Bind a Soul to the Vial"
+	quest.7E4DEA5FCB6C528A.title: "Holz III"
 	quest.7E5BBD28E9BD33E9.quest_desc: ["Willkommen bei Powah, hier lernst Du die Basics der Mod, was jeder Block macht und vor allem wie man diese Mod spielend leicht automatisiert."]
+	quest.7E644433778532BB.title: "Kuh III"
+	quest.7E8EF36BA705F222.title: "Skelett IV"
 	quest.7EAADE6CE1AB0D0C.title: "Ein Echt kalter Ofen"
 	quest.7ED15FE4EF0579C1.quest_desc: ["Anglesite + ender Pearl"]
 	quest.7ED15FE4EF0579C1.title: "Tangerium"
@@ -1956,9 +2182,12 @@
 		"Wenn ihr die Ultimine- und die Shift Taste gedrückt halted, könnt ihr mit dem Mausrad zwischen unterschiedlichen Abbau-Formen wählen (Z.b. ein gerader Gang in Blickrichtung, oder eine Treppe nach unten)"
 	]
 	quest.7EFF472EB4F530FE.quest_subtitle: "Graben wie ein Maulwurf"
+	quest.7F03736195EAEEBA.title: "Hölzernes Eisen Ingot III"
 	quest.7F0B55925E6BB823.quest_desc: ["Die Speicherkarte, kann Einstellungen speichern, wie Filter oder eingelegte Zusatzkarten in Geräten. \"Shift + Rechtsklick\" kopiert die Einstellung. Mittels einem Rechtsklick, wird die Einstellung dann auf das neue Gerät übertragen. Es müssen Geräte der gleichen Baugruppe sein. Außerdem lässt sich die Speicherkarte auch für die Tunnelkonfiguration benutzen und ist ein wichtiger Bestandteil davon. Dazu später mehr im Kapitel:"]
 	quest.7F5E5E0EC90AD4A5.quest_desc: ["Für was auch immer dieser Eimer gut ist?"]
 	quest.7F5E5E0EC90AD4A5.quest_subtitle: "EEEEXXP!!"
+	quest.7F8AF0DCBB87941E.title: "Redstone Legierungsbarren IV"
+	quest.7FF75F8F056EFB98.title: "Tiefenschiefer III"
 	quest.7FFFE7F06BF8115C.quest_desc: [
 		"Den eingestellten Filter ein mal Negieren. "
 		"Du gibst als Filter Redstone an, schmeißt die Karte in den Upgrade-Slot und es wird alles außer Redstone ausgewählt!"
@@ -1977,10 +2206,11 @@
 	reward_table.67D5535CC0B3DD64.title: "Agriculture Tear2"
 	task.009105FF3AC43AE2.title: "Functional Storage"
 	task.01BD2A1FE8967AB2.title: "Finde den Blinding Dungeon"
+	task.02645A08A79CA683.title: "Tier II"
 	task.03BC595DF682AD4B.title: "Everbright"
 	task.03D6F3D7B3CAF8DE.title: "Any Cloggrum Tool"
-	task.0465DB55B286A0A3.title: "Any #c:ores/coal"
 	task.04CF943E4A7B7748.title: "Sourceproduktion"
+	task.04FC7A177CB21CA6.title: "Tier V"
 	task.05AAE2D9FA5FF59E.title: "dictionary"
 	task.05B74B2E0F42359F.title: "1. Woche"
 	task.062537D2E620DB9E.title: "Fertigungsspeicher"
@@ -2037,11 +2267,13 @@
 	task.324C1250EBBF7D1F.title: "Pity Black Hole Tank"
 	task.32A3B13F973EF6CA.title: "Backpack"
 	task.32FF7AAA5FD69B16.title: "Metallpresse"
+	task.337557B85A9C9012.title: "Tier III"
 	task.3431FF0D1CEAA984.title: "Nice to know"
 	task.34E99BB60961DDF4.title: "Cyanite"
 	task.35D7180AD7FB5125.title: "Any Froststeel Tool"
 	task.39F041BF05060216.title: "Sky is the limit"
 	task.3C2B5623ACE2FBDF.title: "Gaten und Limits"
+	task.3C303F1062F62B16.title: "Tier IV"
 	task.3CC50E336A1E68EF.title: "Level 60"
 	task.3DB4DF78EB966730.title: "Village"
 	task.3EFD7BC8486F976A.title: "Adventure"
@@ -2049,6 +2281,7 @@
 	task.401DD48C11B715A0.title: "Any #minecraft:logs"
 	task.4077DBE330A0215A.title: "Rossinite"
 	task.4233FA732EAB6049.title: "Besiege den Starlit Crusher"
+	task.427D6424FEBCAB27.title: "Mystical Agriculture"
 	task.4333D7E9404534D6.title: "Tier 4"
 	task.435965CB0DB0D3DB.title: "Spezialmunition"
 	task.440518162912BD83.title: "ja"
@@ -2118,6 +2351,7 @@
 	task.72A47B857312AED5.title: "hide blue_skies"
 	task.72B008863DBD6560.title: "Miners Entry"
 	task.74CB5C3F334DF6F9.title: "Getting an Upgrade 2.0"
+	task.75544F4E717B9CFC.title: "Tier I"
 	task.76D43A5CFB25EA8E.title: "Applied Energistics"
 	task.76F96F8D84D30423.title: "Besiege den Alchemisten"
 	task.77FA602618CA9249.title: "Common Black Hole Tank"
