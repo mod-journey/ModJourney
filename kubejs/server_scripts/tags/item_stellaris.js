@@ -11,4 +11,5 @@ let item_stellaris = (event, active, debug) => {
         event.add("mod_journey:enriched/uran", uran_tag);
     });
 
+    event.removeAllTagsFrom("stellaris:steel_block")
 }

@@ -15,6 +15,14 @@
 			dependencies: ["03993D2DCBC69C3A"]
 			hide_until_deps_visible: true
 			id: "69CA3D774927EF1E"
+			rewards: [{
+				id: "511C6C09B69FF5AF"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "145A870C0B729954"
 				item: { count: 1, id: "powah:energizing_orb" }
@@ -30,6 +38,14 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "7E5BBD28E9BD33E9"
+			rewards: [{
+				id: "3E75C5A211313B35"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "667A2BE5B955BA43"
 				type: "checkmark"
@@ -40,6 +56,14 @@
 		{
 			dependencies: ["2496090B13AD140C"]
 			id: "0BB0BC7C847CE06A"
+			rewards: [{
+				id: "28D71ABA36F4E2B1"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "37FEF5AD23A7D270"
 				item: { count: 1, id: "powah:energy_discharger_starter" }
@@ -51,6 +75,14 @@
 		{
 			dependencies: ["2496090B13AD140C"]
 			id: "1840E2C4550564D5"
+			rewards: [{
+				id: "1B14C83422D819DB"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "012FE9916E44930D"
 				item: { count: 1, id: "powah:reactor_starter" }
@@ -62,6 +94,14 @@
 		{
 			dependencies: ["2496090B13AD140C"]
 			id: "48F3472B18648E82"
+			rewards: [{
+				id: "7891EFD76D2FAC03"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7782A9D070868419"
 				item: { count: 1, id: "powah:solar_panel_starter" }
@@ -73,6 +113,14 @@
 		{
 			dependencies: ["2496090B13AD140C"]
 			id: "181C5275E9678EDC"
+			rewards: [{
+				id: "608966E40060E821"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "32BBAC68FD41F329"
 				item: { count: 1, id: "powah:furnator_starter" }
@@ -84,6 +132,14 @@
 		{
 			dependencies: ["2496090B13AD140C"]
 			id: "6D8C8F5FCCC086C0"
+			rewards: [{
+				id: "14F63E78E197965D"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D60B0B641198D2D"
 				item: { count: 1, id: "powah:magmator_starter" }
@@ -96,11 +152,12 @@
 			dependencies: ["2496090B13AD140C"]
 			id: "48A426951585B3E6"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "1E5A0814F9C51296"
-				table_id: 4163070181652591131L
-				team_reward: true
-				type: "loot"
+				id: "5EB153BFE1EA4682"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "48E1F29179A8BA0E"
@@ -113,6 +170,14 @@
 		{
 			dependencies: ["2DE28895E3897B29"]
 			id: "5F2DC3215BEC9C68"
+			rewards: [{
+				id: "24F6DCEB0813FDB1"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "578729ED52E9C785"
 				item: { count: 1, id: "powah:battery_starter" }
@@ -125,11 +190,12 @@
 			dependencies: ["2DE28895E3897B29"]
 			id: "004FACEE5A1D9E61"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "05408DE815D6C6B2"
-				table_id: 4163070181652591131L
-				team_reward: true
-				type: "loot"
+				id: "46D4AD57CFA80634"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "6E14EC223D839E32"
@@ -142,6 +208,14 @@
 		{
 			dependencies: ["2DE28895E3897B29"]
 			id: "181561179B55197E"
+			rewards: [{
+				id: "3560786D11004118"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "477F2CC306A15CA4"
 				item: { count: 1, id: "powah:ender_cell_starter" }
@@ -153,6 +227,14 @@
 		{
 			dependencies: ["2DE28895E3897B29"]
 			id: "3AE05262BCF6560F"
+			rewards: [{
+				id: "33B230F6095A9E96"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7AC03D76A91346F2"
 				item: { count: 1, id: "powah:energy_cable_starter" }
@@ -164,6 +246,14 @@
 		{
 			dependencies: ["2DE28895E3897B29"]
 			id: "60B7003EF62EB651"
+			rewards: [{
+				id: "11FF03733C8DDEDA"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E14D1CDB7A67D30"
 				item: { count: 1, id: "powah:ender_gate_starter" }
@@ -175,6 +265,14 @@
 		{
 			dependencies: ["2DE28895E3897B29"]
 			id: "39A2FE8389D8CF87"
+			rewards: [{
+				id: "2972C5B5AF524DF6"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2C0C73AD09CC6188"
 				item: { count: 1, id: "powah:player_transmitter_starter" }
@@ -186,6 +284,14 @@
 		{
 			dependencies: ["2DE28895E3897B29"]
 			id: "08377ECC8FA7DD80"
+			rewards: [{
+				id: "3338CE176F952F4C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "485388830735E5AA"
 				item: { count: 1, id: "powah:energy_hopper_starter" }
@@ -198,11 +304,12 @@
 			dependencies: ["2DE28895E3897B29"]
 			id: "663D58FDB00228B1"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "7D987C7AAAC961CF"
-				table_id: 4163070181652591131L
-				team_reward: true
-				type: "loot"
+				id: "36AE18497D9D1D6B"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "4946A8367B176176"
@@ -215,6 +322,14 @@
 		{
 			dependencies: ["7E5BBD28E9BD33E9"]
 			id: "2496090B13AD140C"
+			rewards: [{
+				id: "2D5E5B8E90B2FA66"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "62F2C4411EA05CAE"
 				type: "checkmark"
@@ -225,6 +340,14 @@
 		{
 			dependencies: ["2496090B13AD140C"]
 			id: "2DE28895E3897B29"
+			rewards: [{
+				id: "7C5C19D8EADB2BC6"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "50C71CBAE6E38C8A"
 				type: "checkmark"
@@ -235,6 +358,14 @@
 		{
 			dependencies: ["03993D2DCBC69C3A"]
 			id: "1FCFB67BE712AB97"
+			rewards: [{
+				id: "0D13B0AAFD24E776"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "766EE6E559391240"
 				item: { count: 1, id: "powah:energizing_rod_basic" }
@@ -246,6 +377,14 @@
 		{
 			dependencies: ["1FCFB67BE712AB97"]
 			id: "0C9A56AE665B29A7"
+			rewards: [{
+				id: "5AEAA8A6C80ACEAA"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7ECDC7A818E2660D"
 				item: { count: 1, id: "powah:energizing_rod_hardened" }
@@ -257,6 +396,14 @@
 		{
 			dependencies: ["0C9A56AE665B29A7"]
 			id: "5E039C48CE24F1FD"
+			rewards: [{
+				id: "28D6B9F1F928C964"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2EFAFC71245E6468"
 				item: { count: 1, id: "powah:energizing_rod_blazing" }
@@ -268,6 +415,14 @@
 		{
 			dependencies: ["5E039C48CE24F1FD"]
 			id: "052F1AB54FECE74C"
+			rewards: [{
+				id: "6A43AA7A5027CC8E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "17AAEAABAB98252C"
 				item: { count: 1, id: "powah:energizing_rod_niotic" }
@@ -279,6 +434,14 @@
 		{
 			dependencies: ["052F1AB54FECE74C"]
 			id: "085524FB2AA3BAEF"
+			rewards: [{
+				id: "00C785E8C9A00A11"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2EC708F3042794AC"
 				item: { count: 1, id: "powah:energizing_rod_spirited" }
@@ -290,6 +453,14 @@
 		{
 			dependencies: ["085524FB2AA3BAEF"]
 			id: "10552CFF145F722D"
+			rewards: [{
+				id: "697D128489DFDD6A"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "300F16D66AEA289D"
 				item: { count: 1, id: "powah:energizing_rod_nitro" }
@@ -301,6 +472,14 @@
 		{
 			dependencies: ["39A2FE8389D8CF87"]
 			id: "399C9B626732C513"
+			rewards: [{
+				id: "33F8ABC6D5CA524D"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "79C104E82169752F"
 				item: { count: 1, id: "powah:aerial_pearl" }
@@ -312,6 +491,14 @@
 		{
 			dependencies: ["39A2FE8389D8CF87"]
 			id: "695526C12D5AE2E6"
+			rewards: [{
+				id: "670F50160E7D5F94"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5C00342F490A218C"
 				item: { count: 1, id: "powah:binding_card" }
@@ -328,24 +515,14 @@
 			dependency_requirement: "one_completed"
 			hide_until_deps_visible: false
 			id: "08BDD4ADC8DDB9C2"
-			rewards: [
-				{
-					auto: "invisible"
-					exclude_from_claim_all: true
-					id: "73DE5AC2BEA2503C"
-					ignore_reward_blocking: true
-					stage: "technic"
-					tags: ["technic"]
-					type: "gamestage"
+			rewards: [{
+				id: "3A9394322FF86116"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "1C5B8277F9E57ECC"
-					table_id: 4163070181652591131L
-					team_reward: true
-					type: "loot"
-				}
-			]
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -359,6 +536,14 @@
 		{
 			dependencies: ["052F1AB54FECE74C"]
 			id: "28467BD83047B107"
+			rewards: [{
+				id: "7D3E0348A61F7E16"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "59F4FF0EA6036BAF"
 				item: { count: 1, id: "powah:crystal_spirited" }
@@ -370,6 +555,14 @@
 		{
 			dependencies: ["5E039C48CE24F1FD"]
 			id: "4E85CB4C5C6BF88E"
+			rewards: [{
+				id: "2DC84DB0C5D147C7"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "550008E319723D5D"
 				item: { count: 1, id: "powah:crystal_niotic" }
@@ -381,6 +574,14 @@
 		{
 			dependencies: ["0C9A56AE665B29A7"]
 			id: "7885A68DC52188F3"
+			rewards: [{
+				id: "18FA4AF7D1690DC5"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "54F405423421A525"
 				item: { count: 1, id: "powah:crystal_blazing" }
@@ -392,6 +593,14 @@
 		{
 			dependencies: ["1FCFB67BE712AB97"]
 			id: "0E287F74847CB367"
+			rewards: [{
+				id: "38A2221C6325AC30"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0589C8044AC283E8"
 				item: { count: 1, id: "powah:steel_energized" }
@@ -403,6 +612,14 @@
 		{
 			dependencies: ["7885A68DC52188F3"]
 			id: "3253AC6BB40CD3AD"
+			rewards: [{
+				id: "4B35A9CD3011B584"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "317A6719917A432C"
 				item: { count: 1, id: "powah:blazing_crystal_block" }
@@ -414,6 +631,14 @@
 		{
 			dependencies: ["2DE28895E3897B29"]
 			id: "14FBB805C032D907"
+			rewards: [{
+				id: "78A3B32EDCFAFED2"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5EF66C8DDB6EC1D6"
 				type: "checkmark"
@@ -422,8 +647,21 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["2619E71D63B1B7FE"]
+			dependencies: [
+				"2619E71D63B1B7FE"
+				"0B7B7C7A1366C9D1"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "012414144A7C0228"
+			rewards: [{
+				id: "37469F31530540FC"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6FCBFBDD2BEBBDF0"
 				item: { count: 1, id: "powah:dielectric_paste" }
@@ -435,6 +673,14 @@
 		{
 			dependencies: ["012414144A7C0228"]
 			id: "5749EC872D93D38E"
+			rewards: [{
+				id: "696DF2B768FA5778"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2E4947BC15AAEBD7"
@@ -456,6 +702,14 @@
 			hide_dependency_lines: false
 			hide_until_deps_visible: true
 			id: "4E1D47FF582DA376"
+			rewards: [{
+				id: "5B51E339A06E5B7F"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -470,6 +724,14 @@
 			dependencies: ["5749EC872D93D38E"]
 			hide_until_deps_visible: true
 			id: "13B7A3863BECAD64"
+			rewards: [{
+				id: "5F3E1AE7144E1468"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -484,6 +746,14 @@
 			dependencies: ["14FBB805C032D907"]
 			disable_toast: true
 			id: "03993D2DCBC69C3A"
+			rewards: [{
+				id: "7E758C3AEA34EC75"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "53B18E5BAB3E03CC"
 				item: { count: 1, id: "powah:energizing_rod_starter" }

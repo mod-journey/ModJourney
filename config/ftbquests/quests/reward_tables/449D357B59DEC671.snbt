@@ -67,10 +67,6 @@
 		{ id: "4FA46F96DF355D6A", item: { count: 1, id: "mysticalagriculture:constantan_seeds" } }
 		{ id: "5B7A63CAAE769BFF", item: { count: 1, id: "mysticalagriculture:electrum_seeds" } }
 		{ id: "79DA94FF330DCEAF", item: { count: 1, id: "mysticalagriculture:invar_seeds" } }
-		{ id: "6A3D13AB237788A8", item: { components: { "ftbquests:missing_item": "mysticalagriculture:mithril_seeds" }, count: 1, id: "ftbquests:missing_item" } }
-		{ id: "108A9E7AF47BB18C", item: { components: { "ftbquests:missing_item": "mysticalagriculture:tungsten_seeds" }, count: 1, id: "ftbquests:missing_item" } }
-		{ id: "60C56EEE4A7BCD5B", item: { components: { "ftbquests:missing_item": "mysticalagriculture:titanium_seeds" }, count: 1, id: "ftbquests:missing_item" } }
-		{ id: "67BC15CE9885F9CB", item: { components: { "ftbquests:missing_item": "mysticalagriculture:chrome_seeds" }, count: 1, id: "ftbquests:missing_item" } }
 		{ id: "73F0BB93F44801CE", item: { count: 1, id: "mysticalagriculture:ruby_seeds" } }
 		{ id: "5F34FBB47B28DFC8", item: { count: 1, id: "mysticalagriculture:sapphire_seeds" } }
 		{ id: "434FF3945221D422", item: { count: 1, id: "mysticalagriculture:peridot_seeds" } }
