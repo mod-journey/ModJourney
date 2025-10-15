@@ -30,7 +30,7 @@
 	chapter.755B9005FE1A4302.title: "Industrial Foregoing"
 	chapter.791B5B0012F48C8B.title: "Ars Nouveau"
 	chapter.794E571853408FC4.title: "Powah"
-	chapter.7E4C16B1CFFEA76C.title: "Shop - Creativ Items"
+	chapter.7E4C16B1CFFEA76C.title: "Markt - Creativ Items"
 	chapter_group.00D014EB3FA9ED8A.title: "&b&6Stufe I"
 	chapter_group.0C536217AA8FF9E1.title: "&b&6Stufe IV"
 	chapter_group.12D6D4D26DC1B099.title: "&b&6Abenteuer"
@@ -39,7 +39,7 @@
 	chapter_group.29AF41F0C879F47B.title: "&b&6Stufe III"
 	chapter_group.3E6C1980FD183851.title: ".disabled"
 	chapter_group.4B1BD2A866D0526F.title: "&b&6Stufe II"
-	chapter_group.5137A643BD4C4882.title: "Einkaufszentrum"
+	chapter_group.5137A643BD4C4882.title: "Markt"
 	chapter_group.78025998DBB7AC61.title: "&b&6Allgemein"
 	file.0000000000000001.title: "Minecraft Mod Journey 2"
 	quest.004FACEE5A1D9E61.quest_desc: ["Ein Block um Flux Energy (FE) zu speichern"]
@@ -1340,7 +1340,7 @@
 	quest.45189D8B5D0ABB7D.title: "End Steel I"
 	quest.4523B6508D0FE41F.quest_desc: ["Die \"Spitzhacke des Himmelssuchers\" bewirkt, dass alle abgebauten Gegenstände sofort in das Inventar des Benutzers gelangen, wodurch die Gefahr verringert wird, dass wertvolle Diamanten in die Lava darunter stürzen"]
 	quest.455EEC6211A5D6B1.quest_subtitle: "Eine unendliche Wasserquelle als Maschine!"
-	quest.4561534AF53E0D10.title: "Smithing Template"
+	quest.4561534AF53E0D10.title: "Schmiedevorlage"
 	quest.457C5E56D2C6603E.title: "Natur IV"
 	quest.45AC3B6AE5C814FE.quest_desc: ["Gebe etwas geladenen Certus, Redstone und Netherquartz in ein Wasserbecken und erhalte Fluixkristalle"]
 	quest.45B554092CB5ED7F.quest_desc: ["Ein Upgrade für u.A. deine Wireless Konsole. Du kannst entscheiden, ob Items direkt in dein ME-System transferiert werden, oder in dein Spieler-Inventar. Außerdem hast Du für beide Optionen einen White- oder Blacklist Filter."]
@@ -1772,7 +1772,7 @@
 	quest.5F98BAF82E1271EE.quest_desc: ["Um auch die stärksten Glyphen nutzen zu können, muss dein Zauberbuch nochmals geupgradet werden. Doch nur wer sich als würdig erweist, vermag das volle Potential zu entfesseln."]
 	quest.5F98BAF82E1271EE.quest_subtitle: "Der lange weiße Bart steht dir gut"
 	quest.5F98BAF82E1271EE.title: "Der Meister der Meister aller Meister"
-	quest.5FAB86380F99F739.title: "Creative Energy Cell"
+	quest.5FAB86380F99F739.title: "Kreativer Energie-Würfel"
 	quest.5FBE953877FCAC23.quest_desc: ["Dieses Regal verringert die Menge von &2Eterna&r und &cQuanta&r. Gut, um begrenzte Quantabereiche für bestimmte Verzauberungen zu erreichen."]
 	quest.5FBE953877FCAC23.title: "Süß und Wohltuend"
 	quest.5FDC46235AEB9551.title: "Leuchtstein III"
@@ -1806,7 +1806,7 @@
 	quest.61EB9141B7553921.title: "Schleimball I"
 	quest.6207186159232DB8.quest_desc: ["Mehr Filteroptionen!"]
 	quest.6207186159232DB8.quest_subtitle: "Feuchte Angelegenheit II"
-	quest.621DE3717291CA28.title: "Creative Source Jar"
+	quest.621DE3717291CA28.title: "Kreatives Quellglas"
 	quest.62428405522D18D8.quest_desc: ["Ist eine verbesserte Version vom \"Token of Sorrow\"."]
 	quest.6254DC67404FB690.title: "Redstone III"
 	quest.625BCE0C411DF831.quest_desc: ["In der Raketenwerkbank baust Du deine Raketen. Um zu anderen Planeten zu reisen, wirst Du dieses Item benötigen."]
