@@ -68,7 +68,6 @@ if (events_server) {
             add_industrial_laser_fluidLaser(event, true);
             add_modjourney_antimatter(event, true);
             add_modjourney_scrolls(event, true);
-            add_cataclysm(event, false);                        //deactivate, while cataclysm is deactivated as mod, while throw a lot of errors.
             add_modjourneycoins(event, true);
             add_stellaris(event, true);
             easy_villagers_gated(event, true)
