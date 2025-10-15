@@ -16,7 +16,6 @@ if (events_server) {
     let remove_event = true;
     let add_event = true;
     let replace_ores = false;
-    let other_events = false;
     let replace_event = true;
     let customMachine_event = true;
 
@@ -132,11 +131,6 @@ if (events_server) {
         }
         fixAlloyRecipes(event, true)
     })
-
-    if (other_events) {
-        remove_pickup_mobs(event);
-    };
-
 };
 
 
