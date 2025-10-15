@@ -59,8 +59,8 @@
 	quests: [
 		{
 			dependencies: [
-				"644466781495F7E7"
 				"25ADF4BACFFF9FB7"
+				"1611A6F1787BD657"
 			]
 			dependency_requirement: "one_completed"
 			hide_until_deps_complete: true
