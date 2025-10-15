@@ -14,14 +14,23 @@
 			dependencies: ["0B04E60647C11A1D"]
 			disable_recipe_mod: false
 			id: "7DC64335DF20BD93"
-			rewards: [{
-				id: "3F38BAEEF5B4AA2D"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					id: "3F38BAEEF5B4AA2D"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "2CFFD5C0B9D241DF"
+					table_id: 9136516928215374765L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -52,6 +61,14 @@
 						id: "mod_journey:copper_coin"
 					}
 					type: "item"
+				}
+				{
+					command: "/scoreboard players add @s stage 1"
+					id: "4A1627548888A6D8"
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
 				}
 			]
 			shape: "rsquare"
@@ -819,6 +836,34 @@
 			]
 			x: -9.0d
 			y: 10.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0E92633B7DC58B57"]
+			hide_until_deps_complete: true
+			id: "19788ED9A4D51815"
+			rewards: [{
+				command: "/scoreboard players set @s stage 1"
+				icon: {
+					components: {
+						"ftbquests:icon": "kubejs:textures/background/green_symboles/number/1.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "1126AF0DC68B5BD9"
+				permission_level: 2
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "1F361E8CD8BA4D4F"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: 3.5d
 		}
 	]
 }

@@ -5,6 +5,9 @@
 	filename: "mystical_agriculture_ii"
 	group: "5137A643BD4C4882"
 	hide_quest_until_deps_complete: true
+	icon: {
+		id: "mysticalagriculture:prudentium_essence"
+	}
 	id: "2034E93B5F456EB8"
 	order_index: 1
 	quest_links: [ ]

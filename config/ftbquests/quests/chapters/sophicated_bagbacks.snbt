@@ -237,14 +237,23 @@
 		{
 			dependencies: ["75BA799EEA809FA5"]
 			id: "574EEBFC1C74B329"
-			rewards: [{
-				id: "1655E289F7CB4AF2"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					id: "1655E289F7CB4AF2"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "21957BCD0D5741EE"
+					table_id: 9136516928215374765L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "7BF565C08E211049"
 				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_4" }

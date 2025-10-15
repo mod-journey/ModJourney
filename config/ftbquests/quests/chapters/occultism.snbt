@@ -201,14 +201,23 @@
 		{
 			dependencies: ["47B737F4DCE8510E"]
 			id: "1611A6F1787BD657"
-			rewards: [{
-				id: "621459480C37ADA9"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					id: "621459480C37ADA9"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "45EE573DA1587421"
+					table_id: 2025559148286503432L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				id: "1DCD159EC20BAC27"

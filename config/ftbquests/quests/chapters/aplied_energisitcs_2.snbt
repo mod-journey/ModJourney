@@ -1320,14 +1320,23 @@
 		{
 			dependencies: ["51A5F68FDD62187E"]
 			id: "039871909EFF48A3"
-			rewards: [{
-				id: "732100DBB1355110"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					id: "732100DBB1355110"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "7F2137081D16F676"
+					table_id: 2025559148286503432L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "01C0D4815C058430"
 				item: { count: 1, id: "ae2:crafting_monitor" }

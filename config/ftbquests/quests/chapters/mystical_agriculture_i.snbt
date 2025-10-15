@@ -6,7 +6,7 @@
 	group: "5137A643BD4C4882"
 	hide_quest_until_deps_complete: true
 	icon: {
-		id: "mod_journey:gold_coin"
+		id: "mysticalagriculture:inferium_essence"
 	}
 	id: "0CDA1E160351B33E"
 	order_index: 0

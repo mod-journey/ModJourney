@@ -328,14 +328,23 @@
 		{
 			dependencies: ["372535099216FF16"]
 			id: "7EEBDA12D85434A5"
-			rewards: [{
-				id: "650983ADEAA48A09"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					id: "650983ADEAA48A09"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "0E6166F8AB47DEBB"
+					table_id: 2025559148286503432L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				advancement: "aether:aether_sleep"
 				criterion: ""

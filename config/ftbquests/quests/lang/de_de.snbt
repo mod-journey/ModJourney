@@ -30,7 +30,7 @@
 	chapter.755B9005FE1A4302.title: "Industrial Foregoing"
 	chapter.791B5B0012F48C8B.title: "Ars Nouveau"
 	chapter.794E571853408FC4.title: "Powah"
-	chapter.7E4C16B1CFFEA76C.title: "Creative Items"
+	chapter.7E4C16B1CFFEA76C.title: "Shop - Creativ Items"
 	chapter_group.00D014EB3FA9ED8A.title: "&b&6Stufe I"
 	chapter_group.0C536217AA8FF9E1.title: "&b&6Stufe IV"
 	chapter_group.12D6D4D26DC1B099.title: "&b&6Abenteuer"
@@ -404,6 +404,7 @@
 	quest.1037AFA7BDC22B53.title: "Let's show: Mekanism"
 	quest.10552CFF145F722D.quest_desc: ["wird am meisten geballert haben wie die Rods zuvor."]
 	quest.111CC1558B0A992A.title: "Tiefenschiefer II"
+	quest.112FBC69511A5B70.title: "Magie"
 	quest.11440B533262C7FB.quest_desc: ["Functional Storage ist ungleich Storage Drawer. In den vergangen Packs wurde auf Storage Drawer gesetzt. Dies haben wir dieses Jahr geändert. Somit werden einige Vorteile, schon durch diese Mod erzeugt. Wireless-Crafting ist so nun möglich und stark vereinfacht."]
 	quest.115AB3F93465A685.quest_desc: ["Plaziere etwas Heißes auf einer Seite der Maschine und etwas Kaltes auf der anderen um Strom zu produzieren"]
 	quest.115AB3F93465A685.quest_subtitle: "Heiß gegen Kalt"
@@ -567,6 +568,18 @@
 	quest.1A242A1A421B358B.quest_subtitle: "Das uralte Wissen der alten Ahnen"
 	quest.1A242A1A421B358B.title: "Das magische Notizbuch"
 	quest.1A5D4DFA7919B2BD.title: "Schwein II"
+	quest.1A68095FE4424786.quest_desc: [
+		"&4&lEarly Game:&r&r"
+		"Hier kann sofort gekauft werden. "
+		""
+		"&4&lMagie:&r&r"
+		"Erst nach Abschluss von Apotheosis kann in diesem Shop gekauft werden."
+		""
+		"&4&lTechnik:&r&r"
+		"Erst nach Abschluss von Mekanism kann in diesem Shop gekauft werden."
+	]
+	quest.1A68095FE4424786.quest_subtitle: "Der Shop fürs Early Game , Magie und Technik"
+	quest.1A68095FE4424786.title: "Der Creative Shop"
 	quest.1A6F631FCF135230.quest_desc: ["Genau so viele Slots wie der Dia Rucksack, also 120, aber dafür 7 Upgrade Slots!"]
 	quest.1A6F631FCF135230.quest_subtitle: "None Plus Ultra Rucksack"
 	quest.1A92BA38712EA453.title: "Mystical Agriculture Tier III"
@@ -618,6 +631,7 @@
 	quest.1E93E151F2F50C99.title: "Sylikon IV"
 	quest.1EAA7A64D610694B.title: "Eisen II"
 	quest.1EEE1CC4BE9692A2.quest_subtitle: "Lava und Wasser / Eis Mischer"
+	quest.1F15419719279899.title: "Godforged Pearl"
 	quest.1F1DABCEE502A81F.quest_desc: ["Importiert aktiv Items oder Flüssigkeiten in dein ME-System. In der GUI lassen sich Filter einstellen. Auf der rechten Seite der GUI lassen sich Karten einfügen. Dazu später mehr."]
 	quest.1F2977171C91D362.quest_desc: ["Wird in \"Aura reicher\" umgebung &l&4im Nether&r&r eingesammelt, wenn ihr mit einer Bottle and Cork, einen Rechtsklick in die Luft macht."]
 	quest.1F526D7C3FD0C711.quest_desc: ["Wird in \"Aura reicher\" umgebung eingesammelt, wenn ihr mit einer Bottle and Cork, einen Rechtsklick in die Luft macht."]
@@ -680,6 +694,7 @@
 		"Dieser Vorgang funktioniert nur als Lv60 Verzauberung!"
 	]
 	quest.20E6914605CFDF69.title: "Level 70"
+	quest.20E7F0F41A8E64FB.title: "Drills für mehr Bohrkraft"
 	quest.2110D091E58418EF.title: "Tauschen mit den Elfen"
 	quest.21631BCC49F3C8AA.quest_desc: ["Von Einem Launchpad aus kannst Du deine Rakete starten."]
 	quest.21A66CAA4865D3D0.quest_desc: ["Energy Ports sind die Schnittstelle für Energie. Hier kannst Du Energie aus dem Reaktor in dein Energienetzwerk einspeisen. Es gibt zwei Arten. Die Aktiven und Passiven Energy Ports. Der Unterschied liegt darin, dass man aktiv den Strom aus den passiven Ports rausziehen muss, während die aktiven versuchen diesen direkt an den Benachbarten Block abzugeben."]
@@ -732,6 +747,7 @@
 	quest.258FF05B463315D1.quest_desc: ["Baust Du die Quarzblüten zu früh ab, erhältst Du lediglich Dust."]
 	quest.25ADF4BACFFF9FB7.title: "Lets's show: Mob Grinding Utils"
 	quest.25B4005EAD00F8DA.title: "Erde II"
+	quest.25CFBFA45F14C286.title: "Early Game"
 	quest.25D555627E5F7556.quest_desc: [
 		"\"Du, der den Aether betrittst! Wisse, dass diese Dimension meiner Kontrolle unterliegt! Mir, dem unvergleichlichen Sun Spirit!"
 		"Und wie es sich für einen wahren Herrscher gehört, habe ich die Naturgesetze nach meinen himmlischen Vorstellungen geformt!"
@@ -760,6 +776,7 @@
 	quest.26430E5AE2EF3D6F.quest_desc: ["Mehr Optionen wann und wie du gefüttert wirst!"]
 	quest.26430E5AE2EF3D6F.quest_subtitle: "Fütterungszeit II"
 	quest.2677B43BE16309EC.quest_subtitle: "Mit Hilfe des Flux Points kannst du Energie aus deinem Flux Network verwenden"
+	quest.26A055E345983DE9.title: "Apotheosis Gems"
 	quest.26A870FC3228E17D.quest_desc: ["Die Cloggrum Rüstung ist eine solide starter Rüstung."]
 	quest.26A870FC3228E17D.title: "Cloggrum Armor"
 	quest.26AFE523C18061F6.quest_desc: ["Ein seed den man entweder traden, oder durch das abbauen des mysteriösen Gloomer Kürbisses ercraften kann. "]
@@ -794,6 +811,7 @@
 	quest.28E3B5C9CAD88DCD.quest_desc: ["Es lässt sich nicht nur wie die Botanists Rüstung reparieren, sondern bietet auch einen Setbonus: Wenn man alle Teile der Rüstung trägt (oder den Brustpanzer gegen eine Elytra austauscht), erhöht sich die Bewegungsgeschwindigkeit des Trägers. Außerdem wird seine Fähigkeit auf Blöcke zu steigen verbessert, sodass er nicht mehr so oft springen muss."]
 	quest.296AD0A3E531548B.title: "Zink IV"
 	quest.29CA54BFB00443D1.quest_desc: ["Erhältst Du durch das zusammen craften von 9 x  Utheric Shards"]
+	quest.29DDB10166CCB978.title: "Augmenting Table"
 	quest.29E69EB1DEDC7921.quest_desc: ["Die \"Klinge des Botanikers\" ist eine gute Möglichkeit mit Monstern fertig zu werden. Sie verlangsamt jedes getroffene Monster für ein paar Sekunden und macht es so zu einem leichteren Ziel."]
 	quest.2A1131AA06C836C5.quest_desc: ["Rechtsklicke mit Brilliant Fiber in der Hand das Laub eines Baumes. Warte anschließend eine weile.."]
 	quest.2A73DE312B92CFA5.title: "Kupfer Legierungsbarren IV"
@@ -947,6 +965,7 @@
 	quest.35EC293008925194.title: "Tintenfisch II"
 	quest.3631ECB37FE26818.quest_desc: ["Es lässt sich nicht nur wie die Himmelsucher Rüstung reparieren, sondern bietet auch einen Setbonus: Wenn man alle Teile der Rüstung trägt (oder den Brustpanzer gegen eine Elytra austauscht), bewirkt die Rüstung bei einem Treffer, dass alle Gegner in der Nähe für einige Sekunden mit dem Boden verschmelzen und völlig still stehen."]
 	quest.363B82F586FB4376.quest_desc: ["Leider ein bisschen Buggy. Arbeitet nur Links vom Drawer."]
+	quest.36573BD5A413B942.title: "Eine Hand voll Stahl"
 	quest.369134843E12B183.quest_desc: [
 		"Mittels diesem Tool kannst Du einem Storage Controller die einzelnen Drawer zuteilen und Netzwerke erstellen. "
 		"Es gibt Single-Mode und Multi-Mode, sowohl im adden als auch im removen. Lese Dir doch die Beschreibung des Items mal genauer durch."
@@ -1321,6 +1340,7 @@
 	quest.45189D8B5D0ABB7D.title: "End Steel I"
 	quest.4523B6508D0FE41F.quest_desc: ["Die \"Spitzhacke des Himmelssuchers\" bewirkt, dass alle abgebauten Gegenstände sofort in das Inventar des Benutzers gelangen, wodurch die Gefahr verringert wird, dass wertvolle Diamanten in die Lava darunter stürzen"]
 	quest.455EEC6211A5D6B1.quest_subtitle: "Eine unendliche Wasserquelle als Maschine!"
+	quest.4561534AF53E0D10.title: "Smithing Template"
 	quest.457C5E56D2C6603E.title: "Natur IV"
 	quest.45AC3B6AE5C814FE.quest_desc: ["Gebe etwas geladenen Certus, Redstone und Netherquartz in ein Wasserbecken und erhalte Fluixkristalle"]
 	quest.45B554092CB5ED7F.quest_desc: ["Ein Upgrade für u.A. deine Wireless Konsole. Du kannst entscheiden, ob Items direkt in dein ME-System transferiert werden, oder in dein Spieler-Inventar. Außerdem hast Du für beide Optionen einen White- oder Blacklist Filter."]
@@ -1752,6 +1772,7 @@
 	quest.5F98BAF82E1271EE.quest_desc: ["Um auch die stärksten Glyphen nutzen zu können, muss dein Zauberbuch nochmals geupgradet werden. Doch nur wer sich als würdig erweist, vermag das volle Potential zu entfesseln."]
 	quest.5F98BAF82E1271EE.quest_subtitle: "Der lange weiße Bart steht dir gut"
 	quest.5F98BAF82E1271EE.title: "Der Meister der Meister aller Meister"
+	quest.5FAB86380F99F739.title: "Creative Energy Cell"
 	quest.5FBE953877FCAC23.quest_desc: ["Dieses Regal verringert die Menge von &2Eterna&r und &cQuanta&r. Gut, um begrenzte Quantabereiche für bestimmte Verzauberungen zu erreichen."]
 	quest.5FBE953877FCAC23.title: "Süß und Wohltuend"
 	quest.5FDC46235AEB9551.title: "Leuchtstein III"
@@ -1785,6 +1806,7 @@
 	quest.61EB9141B7553921.title: "Schleimball I"
 	quest.6207186159232DB8.quest_desc: ["Mehr Filteroptionen!"]
 	quest.6207186159232DB8.quest_subtitle: "Feuchte Angelegenheit II"
+	quest.621DE3717291CA28.title: "Creative Source Jar"
 	quest.62428405522D18D8.quest_desc: ["Ist eine verbesserte Version vom \"Token of Sorrow\"."]
 	quest.6254DC67404FB690.title: "Redstone III"
 	quest.625BCE0C411DF831.quest_desc: ["In der Raketenwerkbank baust Du deine Raketen. Um zu anderen Planeten zu reisen, wirst Du dieses Item benötigen."]
@@ -1825,6 +1847,7 @@
 	quest.64E049BBFA47F794.quest_desc: ["Leider ein bisschen Buggy. Arbeitet nur Links vom Drawer."]
 	quest.654C023F49F46370.quest_desc: ["Mehr Optionen und Itemauswahl per klick auf das Mausrad!"]
 	quest.654C023F49F46370.quest_subtitle: "Ich brauche mehr II"
+	quest.65D8D04DA37EB00A.title: "Infinity Nuke"
 	quest.65E14369D16F30ED.quest_desc: [
 		"Neue Runenelemente wurden gefunden. Probiere doch mal gleich aus diese herzustellen. Sie sollen den Blut Altar signifikant verbessern."
 		""
@@ -2037,6 +2060,7 @@
 	quest.73F0DA7E5B71D4C9.quest_desc: ["Noch viel mehr stacken!"]
 	quest.73F0DA7E5B71D4C9.quest_subtitle: "MEEEEEEEHR III"
 	quest.7440341BEA541FE2.quest_desc: ["Redstone, eine wichtige Zutat im Prozessorbau."]
+	quest.746950E99AF97116.title: "Technik"
 	quest.749043D84EC00449.quest_subtitle: "Ist ein kleiner guide"
 	quest.749043D84EC00449.title: "Karte des Waldes "
 	quest.74B147C71A1D55E9.quest_subtitle: "Damit kann man Tier in die Twiglight Forst Tire umwandeln "
@@ -2198,17 +2222,23 @@
 		"Du gibst als Filter Redstone an, schmeißt die Karte in den Upgrade-Slot und es wird alles außer Redstone ausgewählt!"
 	]
 	reward.05D519F88C5EBAC7.title: "Rang 3. Woche freischalten"
+	reward.1126AF0DC68B5BD9.title: "Stage 1"
 	reward.2E96B6183FB01228.title: "Rang 1. Woche freischalten"
 	reward.496226723098CD38.title: "Rang 2. Woche freischalten"
 	reward.69D8BF511A6C798F.title: "Rang 4. Woche freischalten"
+	reward_table.10F53FF7F099DD94.title: "Stage3-Coins"
+	reward_table.113EA84F0E675AA2.title: "Apotheosis-Gems"
+	reward_table.1C1C3B504128EA08.title: "Stage2-Coins"
 	reward_table.24F63EB4DD5227DC.title: "Agriculture Tear3"
 	reward_table.39C63245F86C721B.title: "Agriculture Tear4"
 	reward_table.3E1ECF76C9475F78.title: "Agriculture Tear5"
+	reward_table.47A9DF594527DA2B.title: "Stage4-Coins"
 	reward_table.4A66DD99435F8E13.title: "Agriculture Tear1"
 	reward_table.4EF5D227C76B6843.title: "meka end "
 	reward_table.55EE8281FD1F72C7.title: "Meka Basic"
 	reward_table.5CA59D5BF413471C.title: "meka mid "
 	reward_table.67D5535CC0B3DD64.title: "Agriculture Tear2"
+	reward_table.7ECB6DBD269EDBAD.title: "Stage1-Coins"
 	task.009105FF3AC43AE2.title: "Functional Storage"
 	task.01BD2A1FE8967AB2.title: "Finde den Blinding Dungeon"
 	task.02645A08A79CA683.title: "Tier II"

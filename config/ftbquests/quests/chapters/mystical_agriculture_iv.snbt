@@ -4,6 +4,9 @@
 	default_quest_shape: ""
 	filename: "mystical_agriculture_iv"
 	group: "5137A643BD4C4882"
+	icon: {
+		id: "mysticalagriculture:imperium_essence"
+	}
 	id: "61690176D17563A1"
 	order_index: 3
 	quest_links: [ ]

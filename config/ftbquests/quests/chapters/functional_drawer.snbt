@@ -320,14 +320,23 @@
 		{
 			dependencies: ["0FC3F9706DE769F0"]
 			id: "0D1CE7A2E7381A55"
-			rewards: [{
-				id: "2171FAC7A2460317"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					id: "2171FAC7A2460317"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "1739A4FA92A4499D"
+					table_id: 9136516928215374765L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "0A6B4D921C239E2D"
 				item: { count: 1, id: "functionalstorage:netherite_upgrade" }

@@ -478,14 +478,23 @@
 				id: "minecraft:end_portal_frame"
 			}
 			id: "2C8AC35868B1A016"
-			rewards: [{
-				id: "32F4C350A13A2B04"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					id: "32F4C350A13A2B04"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "2CAAEAEC92E43CA7"
+					table_id: 9136516928215374765L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "1FD6CE4940D60707"
 				structure: "betterstrongholds:stronghold"

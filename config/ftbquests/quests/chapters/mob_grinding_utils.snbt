@@ -654,14 +654,23 @@
 		{
 			dependencies: ["77E66A772828FB98"]
 			id: "70C3DA48F8A84840"
-			rewards: [{
-				id: "7C17571CE09A6122"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					id: "7C17571CE09A6122"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "2D41B551A75ADA99"
+					table_id: 1221953208027045268L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "2633AA02A433F6CB"
 				item: { count: 1, id: "mob_grinding_utils:entity_spawner" }
