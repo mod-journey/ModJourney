@@ -53,6 +53,7 @@ if (events_server) {
             remove_item_by_tag(event, true);                    //Checking scipt of using
             stellaris_gated(event, true);
             occultism_gated(event, true);
+            funtionalStorage_gated(event, true)
 
 
         }
