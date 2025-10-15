@@ -62,8 +62,8 @@ if (events_server) {
         if (add_event) {
             add_ae2_fluix(event, true);
             add_ae2_skystellingot(event, true);
-            add_creativeitemsMagic(event, true);
-            add_creativeitemsTechnic(event, true);
+            add_creativeitemsMagic(event, false);   //deactivate recipe, while got it in MJ2
+            add_creativeitemsTechnic(event, false); //deactivate recipe, while got it in MJ2
             add_immersive_excavator(event, true);
             add_industrial_laser_fluidLaser(event, true);
             add_modjourney_antimatter(event, true);
