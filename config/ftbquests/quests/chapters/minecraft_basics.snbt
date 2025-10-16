@@ -15,20 +15,20 @@
 			id: "01256AFE747A1CBF"
 			rewards: [
 				{
-					id: "5619179DA7CB24C1"
-					item: {
-						count: 1
-						id: "mod_journey:copper_coin"
-					}
-					type: "item"
-				}
-				{
 					auto: "invisible"
 					id: "3E48017668866E36"
 					ignore_reward_blocking: true
 					stage: "intro"
 					team_reward: false
 					type: "gamestage"
+				}
+				{
+					id: "24661D0C8FBF1D06"
+					item: {
+						count: 1
+						id: "minecraft:bundle"
+					}
+					type: "item"
 				}
 			]
 			tasks: [{

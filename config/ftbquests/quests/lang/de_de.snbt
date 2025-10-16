@@ -272,7 +272,7 @@
 	quest.0C7450F1CB8EC522.quest_desc: ["Dieses Regal lässt dich mehr Verzauberungen in der Vorschau sehen. Es kann auch verwendet werden, um den negativen Effekten der Blazing Hellshelves entgegenzuwirken."]
 	quest.0C7450F1CB8EC522.title: "Das Magische Auge"
 	quest.0C90DC7193CB6550.title: "Eis IV"
-	quest.0C983259740701CA.title: "Sylikon III"
+	quest.0C983259740701CA.title: "Schwefel III"
 	quest.0C9A56AE665B29A7.quest_desc: ["ballert noch mehr wie der vorige."]
 	quest.0CCC99DA72026AD0.title: "Vibrant Legierung I"
 	quest.0CE6CBFD83DB97A7.title: "Yellorium I"
@@ -481,6 +481,7 @@
 	quest.15B5D3FBBC0461DB.title: "Obsidian II"
 	quest.1611A6F1787BD657.quest_desc: ["Um dieses Item zu erhalten müssen ein paar mehr zwischen Rituale gemacht werden. Welche du für die jeweiligen Items benötigst siehst du oben links bei JEI. "]
 	quest.1611A6F1787BD657.title: "Ein kleiner Sprung"
+	quest.162C1320D31EEB6F.title: "Meka Hose"
 	quest.16A2F679AEC22F43.quest_desc: [
 		"Willkommen auf dem Nachbarplaneten Venus."
 		"Es sollen spuren von Platin hier gesichtet worden sein."
@@ -628,7 +629,7 @@
 	quest.1E78C6170EC5067E.quest_subtitle: "Willkommen bei Ars Nouveau"
 	quest.1E86BC238F738A44.quest_desc: ["Graphit wird aus Kohle hergestellt. Das wirst Du brauchen. Viel sogar."]
 	quest.1E92F21F287903D5.title: "Erde I"
-	quest.1E93E151F2F50C99.title: "Sylikon IV"
+	quest.1E93E151F2F50C99.title: "Silizium IV"
 	quest.1EAA7A64D610694B.title: "Eisen II"
 	quest.1EEE1CC4BE9692A2.quest_subtitle: "Lava und Wasser / Eis Mischer"
 	quest.1F15419719279899.title: "Godforged Pearl"
@@ -819,10 +820,10 @@
 	quest.2AB8746017BEEEA3.quest_desc: ["Forgotten Nuggets, werden durch Forgotten Guardians gedroppt. Auch andere Mobs im Undergarden lassen diese Fallen, zu geringeren Chancen aber. "]
 	quest.2AF2078918509008.quest_desc: ["Konsolen, Import- \\& Exportbus, Schnittstellen usw. sind sogenannte Peripherie. Ein jenes solcher Zusatzteile, belegt ein Channel auf deinem Kabel."]
 	quest.2B1704E6CFC8CD70.title: "Schildkröte I"
-	quest.2B2392C030B04D14.title: " I"
+	quest.2B2392C030B04D14.title: "Silber I"
 	quest.2B3256EDDEB698CB.quest_desc: ["Ist eine verbesserte Version vom \"Token of Anger\"."]
 	quest.2B8B412085372EDD.title: "Kohle IV"
-	quest.2BCC5444F25D57DB.title: "Sylikon I"
+	quest.2BCC5444F25D57DB.title: "Silizium I"
 	quest.2C229F261B693DD1.title: "Himmelsstein II"
 	quest.2C4CAE3C053348BE.quest_desc: ["Die schiere Größe des \"Soulstrider's Blades\" kommt zum Tragen, wenn eine größere Gruppe von Monstern angegriffen wird. Wenn man mehrere Monster angreift, bleiben diese in einem ziemlich großen Bereich stecken, als ob sie mit einer mächtigeren Version von \"Sweeping Edge\" verzaubert wären. Natürlich schließen sich diese beiden Fähigkeiten auch nicht gegenseitig aus."]
 	quest.2C4E375C0BF9D7F6.title: "Nether Quartz I"
@@ -904,7 +905,7 @@
 		"NBTs sind mir doch egal. "
 		"Willst Du Rüstungen Filtern, Gems oder Bücher. Dann ist die Karte das Richtige für Dich. "
 	]
-	quest.304F55340F14DF7E.title: "Sylikon IV"
+	quest.304F55340F14DF7E.title: "Schwefel IV"
 	quest.308D5079C060F8E3.title: "Stein III"
 	quest.30BCA4DCF7A86182.quest_desc: ["Einfach ein paar Gräßer abbauen, um die Seeds zu bekommen. Diese können ganz normal vortgepflanzt werden."]
 	quest.30BCA4DCF7A86182.title: "Go touch some Grass!"
@@ -1138,12 +1139,13 @@
 	quest.3DA44DE3F547CCE6.quest_subtitle: "Wer will den S....ß I"
 	quest.3E2D2775E7DF1B39.quest_desc: ["Mit einer ME-Schnittstelle kannst Du eine gewisse Anzahl an Items bereit stellen, welche dort gelagert werden und auf Abruf bereit sind. Außerdem lassen sich Items in die Schnittstelle transferieren. Über eine Schnittstelle, lässt sich auch das ME-System auslesen."]
 	quest.3E48D0B7608F78BD.quest_desc: ["Mittels Enriched Uranium oder sogar Blutonium, kannst Du noch weitere Strecken schaffen."]
-	quest.3E4BA97E77B46B32.title: "Sulfur I"
+	quest.3E4BA97E77B46B32.title: "Schwefel I"
 	quest.3E6AC0930B347725.quest_desc: ["drawer loggen, oder Stückzahl anzeigen, oder das Icon des Inhaltes verstecken. dafür brauchst du das Item."]
 	quest.3E8BA9AC92928A5B.quest_desc: ["Erhält man durch das abbauen von Utherium Erz."]
 	quest.3EC2CF7E940184C9.quest_desc: ["Wer will einen Stonecutter to go haben? Du? Hier bitte."]
 	quest.3EC2CF7E940184C9.quest_subtitle: "Ich bin ein Meißel!"
 	quest.3EF6F71E82FC2B24.quest_desc: ["Rossinite + Benitoite "]
+	quest.3F05249D0715F115.title: "Meka Schuhe"
 	quest.3F07618A23C6659B.quest_desc: [
 		"Aus Lootchests und manchmal auch aus Mob Drops kann man diese Gems erhalten."
 		""
@@ -1309,7 +1311,7 @@
 		"&6-&rNether Quartz (Offhand): Gegenteiliger Effekt"
 		"kehrt Effekte oben genannter Items um"
 	]
-	quest.43C393C868DAE8D8.title: "Sylikon II"
+	quest.43C393C868DAE8D8.title: "Schwefel II"
 	quest.43EE4C5A2997ADF1.quest_desc: ["Mit dem Meteoritenkompass, lassen sich Meteoriten finden. Schnapp Dir einen, bevor die Wege relativ lang werden. Üblicherweise findest Du Meteoriten aber auch neben Dörfern. "]
 	quest.43F671F5C49EED69.quest_desc: [
 		"Mit Sourceberries kannst du zu Beginn deine Mana Regeneration aufbessern und so länger und mehr zaubern."
@@ -1383,7 +1385,7 @@
 		"Außerdem kann die Fertigungseinheit als Füllmaterial im Multiblock benutzt werden, um diesen zu Vervollständigen. Einen Vorteil bringen diese Blöcke aber im Multiblock nicht."
 	]
 	quest.481BD81783C94007.title: "Blei I"
-	quest.482618A095738D85.title: "Sylikon III"
+	quest.482618A095738D85.title: "Silizium III"
 	quest.4831F4DF254FE3E0.title: "Aluminium II"
 	quest.4834BF938B07C244.quest_desc: [
 		"In diesem Block können noch mehr Mengen an Verzauberungen gelagert werden als in seinem Vorgänger."
@@ -1548,6 +1550,7 @@
 	quest.51C82D53874A6455.quest_desc: ["Wird in \"Aura armer\" umgebung eingesammelt, wenn ihr mit einer Bottle and Cork, einen Rechtsklick in die Luft macht."]
 	quest.51D668BB5A301993.quest_desc: ["Du kannst mit der in den Tasks aufgelisteten Blöcken aktiv Wasser eingeben und Dampf rausziehen. Es gibt sogar einen Block der den Dampf umwandelt in Mekanism Dampf. Hiermit lassen sich Mekanism Turbinen betreiben."]
 	quest.51D668BB5A301993.title: "Aktivkühlung"
+	quest.51E2C148A1C8F5F9.title: "Meka Helm"
 	quest.5212A64D43DAD486.quest_desc: [
 		"Werden benötigt um auf Lebensfeindlichere Planeten vorzustoßen."
 		"Als ob das Vakuum nicht schon Lebensfeindlich genug ist. "
@@ -1669,7 +1672,7 @@
 		""
 		"Es wird gewiss einige Ressourcen mittels Void-Minern geben."
 	]
-	quest.59802E53AA9E6919.title: "Sylikon II"
+	quest.59802E53AA9E6919.title: "Silizium II"
 	quest.59A51F9358D6A234.quest_desc: ["Wird in \"Aura reicher\" umgebung &l&4im End&r&r eingesammelt, wenn ihr mit einer Bottle and Cork, einen Rechtsklick in die Luft macht."]
 	quest.59E92107A4481944.quest_desc: [
 		"Ab der zweiten Woche kannst du jetzt 50 Chunks (pro Spieler im Team) claimen."
@@ -1789,6 +1792,7 @@
 	]
 	quest.6092D820D8CA7DDF.title: "Die Schöne und das Biest"
 	quest.609F95DDAF6CF34E.title: "Kupfer Legierungsbarren III"
+	quest.60A7EA354D8DF67D.title: "Meka Rüstung"
 	quest.60B7003EF62EB651.quest_desc: [
 		"Das sind Wireless Empfänger von deinem Ender Netzwerk. Auch hier kannst du die Channel einstellen. Willst du die ID löschen, so lege den Plug einfach in ein Crafting-Terminal. Damit werden die NBT Daten des Users aus dem Item entfernt."
 		""
