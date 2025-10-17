@@ -1404,7 +1404,7 @@
 		"Ein Basismodul für Update-Karten."
 		""
 		""
-		"{ \"text\": \"Nähere Beschreibung\", \"underlined\": \"true\", \"color\": \"red\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0AB6B0BC4CDCB54F\" } }"
+		"{ \"text\": \"Nähere Beschreibung\", \"underlined\": true, \"color\": \"red\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0AB6B0BC4CDCB54F\" } }"
 	]
 	quest.4895CABDAE6FBC6B.title: "Nether Stern II"
 	quest.48A426951585B3E6.quest_desc: ["Ein Block welcher Energie aus Thermik herstellt. Den Heißen Block unter den Reaktor und den Reaktor aktiv mit Wasser kühlen. "]
@@ -1966,7 +1966,7 @@
 		"Ein Basismodul für Update-Karten."
 		""
 		""
-		"{ \"text\": \"Nähere Beschreibung\", \"underlined\": \"true\", \"color\": \"red\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6032E9282E0CB1DD\" } }"
+		"{ \"text\": \"Nähere Beschreibung\", \"underlined\": true, \"color\": \"red\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6032E9282E0CB1DD\" } }"
 	]
 	quest.6D367DEA55F87102.quest_desc: [
 		"Werden benötigt um auf Lebensfeindlichere Planeten vorzustoßen."
