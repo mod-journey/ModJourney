@@ -14,14 +14,22 @@
 		{
 			dependencies: ["22EAA39C771097BA"]
 			id: "3F43A51AF14B6FF9"
-			rewards: [{
-				id: "5FD30BFE2A65A808"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0406FB3BD61565EC"
+					table_id: 2498778483368621286L
+					type: "loot"
 				}
-				type: "item"
-			}]
+				{
+					id: "56F8B614566F8D73"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -36,7 +44,7 @@
 			dependencies: ["534AEFBDAFA3754C"]
 			id: "1D18FA062A8CDBDE"
 			rewards: [{
-				id: "7E052F672E3B64F7"
+				id: "1F04B7FCC4AA610B"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -61,7 +69,7 @@
 			]
 			id: "2EEB5D5E78C0F724"
 			rewards: [{
-				id: "2BFC2D58C61E43B9"
+				id: "2A9EAEF6E33753CF"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -85,7 +93,7 @@
 			]
 			id: "22EAA39C771097BA"
 			rewards: [{
-				id: "3C897C3848250AD4"
+				id: "13037565FC83D8B0"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -109,7 +117,7 @@
 			]
 			id: "01CEFF4178663647"
 			rewards: [{
-				id: "60960416D4344F70"
+				id: "012D72A68293141D"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -130,7 +138,7 @@
 			dependencies: ["1D18FA062A8CDBDE"]
 			id: "54C0801350CC8CE7"
 			rewards: [{
-				id: "1E507929C789FD34"
+				id: "43BA4FA0417DB48E"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -149,7 +157,7 @@
 			dependencies: ["1D18FA062A8CDBDE"]
 			id: "56805078D263672C"
 			rewards: [{
-				id: "5176C44EA292A3ED"
+				id: "7B5C17571F8889D3"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -168,7 +176,7 @@
 			dependencies: ["1D18FA062A8CDBDE"]
 			id: "6E0BCB8B71C2F9F5"
 			rewards: [{
-				id: "400219D7079B75E4"
+				id: "4914318BDDC98D36"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -187,7 +195,7 @@
 			dependencies: ["1D18FA062A8CDBDE"]
 			id: "5A557E0D8DFA312E"
 			rewards: [{
-				id: "31DD97625D6F911B"
+				id: "0B4AEB17CB5A8F93"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -206,7 +214,7 @@
 			dependencies: ["5A557E0D8DFA312E"]
 			id: "073EAA0D4341E3AC"
 			rewards: [{
-				id: "0E0254A14EDAB322"
+				id: "0C7405F4CA0F2021"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -228,7 +236,7 @@
 			]
 			id: "545E1A2C4F9C2E1E"
 			rewards: [{
-				id: "3DC0EDB29F6F37DC"
+				id: "159192CA15FCF158"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -241,7 +249,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["01CEFF4178663647"]
@@ -249,26 +257,19 @@
 			id: "62846CD8CD6D04F4"
 			rewards: [
 				{
-					id: "1244E5763691856D"
+					exclude_from_claim_all: true
+					id: "15FABB3E1903DE2C"
+					table_id: 2025559148286503432L
+					team_reward: true
+					type: "loot"
+				}
+				{
+					id: "05F49C7C5929021F"
 					item: {
 						count: 1
 						id: "mod_journey:copper_coin"
 					}
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "34001EBDB9908B69"
-					table_id: 2498778483368621286L
-					team_reward: true
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "77E973F2413E19B4"
-					table_id: 2025559148286503432L
-					team_reward: true
-					type: "loot"
 				}
 			]
 			size: 1.2d
@@ -284,7 +285,7 @@
 			dependencies: ["2EEB5D5E78C0F724"]
 			id: "3FDDCD291B208350"
 			rewards: [{
-				id: "4B3EF7F861B33A59"
+				id: "5426513FF5D45784"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -314,14 +315,27 @@
 				id: "patchouli:guide_book"
 			}
 			id: "534AEFBDAFA3754C"
-			rewards: [{
-				id: "4F7345125BCB9584"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					id: "4E10C67214F025F5"
+					item: {
+						components: {
+							"patchouli:book": "industrialforegoing:industrial_foregoing"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "33078EA0292F5EDD"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "28EC62C39CC6A2B5"
 				item: { count: 1, id: "immersiveengineering:circuit_board" }
@@ -338,7 +352,7 @@
 			}
 			id: "7D03336D79310C92"
 			rewards: [{
-				id: "4E672A4D7B04F34D"
+				id: "13EA59A13E7C9292"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
