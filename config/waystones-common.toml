@@ -61,7 +61,14 @@
 		"min_xp_cost(0)",
 		"max_level_cost(40)",
 		"[source_is_inventory_button] add_cooldown(inventory_button, 300)",
-		"[source_is_warp_stone] multiply_xp_cost(2) add_cooldown(warp_stone, 300)"
+		"[source_is_warp_stone] multiply_xp_cost(2) add_cooldown(warp_stone, 300)",
+		"[is_interdimensional, involves_dimension(stellaris:moon)] refuse(You can`t leave this planet)",
+		"[is_interdimensional, involves_dimension(stellaris:mars)] refuse(You can`t leave this planet)",
+		"[is_interdimensional, involves_dimension(stellaris:mercury)] refuse(You can`t leave this planet)",
+		"[is_interdimensional, involves_dimension(stellaris:venus)] refuse(You can`t leave this planet)",
+		"[is_interdimensional, involves_dimension(aether:the_aether)] refuse(You can`t leave this planet)",
+		"[is_interdimensional, involves_dimension(minecraft:the_nether)] refuse(You can`t leave this dimension)",
+		"[is_interdimensional, involves_dimension(ae2:spatial_storage)] refuse(You can`t leave this dimension)",
 	]
 	#Set to ENABLED to have nearby pets teleport with you. Set to SAME_DIMENSION to have nearby pets teleport with you only if you're not changing dimensions. Set to DISABLED to disable.
 	#Allowed Values: ENABLED, SAME_DIMENSION, DISABLED
