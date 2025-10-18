@@ -68,6 +68,8 @@
 		"[is_interdimensional, involves_dimension(stellaris:mercury)] refuse($waystones.message.refuse_planetary)",
 		"[is_interdimensional, involves_dimension(stellaris:venus)] refuse($waystones.message.refuse_planetary)",
 		"[is_interdimensional, involves_dimension(aether:the_aether)] refuse($waystones.message.refuse_planetary)",
+		"[is_interdimensional, involves_dimension(twilightforest:twilight_forest)] refuse($waystones.message.refuse_interdimensional)",
+		"[is_interdimensional, involves_dimension(undergarden:undergarden)] refuse($waystones.message.refuse_interdimensional)",
 		"[is_interdimensional, involves_dimension(minecraft:the_nether)] refuse($waystones.message.refuse_interdimensional)",
 		"[is_interdimensional, involves_dimension(minecraft:the_end)] refuse($waystones.message.refuse_interdimensional)",
 		"[is_interdimensional, involves_dimension(ae2:spatial_storage)] refuse($waystones.message.refuse_interdimensional)",
