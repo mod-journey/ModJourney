@@ -53,13 +53,15 @@
 	enableCooldowns = true
 	#List of warp requirements with comma-separated parameters in parentheses. Conditions can be defined as comma-separated list in square brackets. Will be applied in order.
 	warpRequirements = ["[is_not_interdimensional] scaled_add_xp_cost(distance, 0.01)",
-		"[is_interdimensional] scaled_add_xp_cost(distance, 0.01) add_xp_cost(30)",
+		"[is_interdimensional] scaled_add_xp_cost(distance, 0.1) add_xp_cost(30)",
+		"[source_is_portstone] multiply_xp_cost(0.25)",
 		"[source_is_warp_plate] multiply_xp_cost(0)",
 		"[target_is_global] multiply_xp_cost(0.1)",
+		"[target_is_sharestone] multiply_xp_cost(0.5)",
 		"min_xp_cost(0)",
 		"max_level_cost(40)",
 		"[source_is_inventory_button] add_cooldown(inventory_button, 300)",
-		"[source_is_warp_stone] add_cooldown(warp_stone, 300)"
+		"[source_is_warp_stone] multiply_xp_cost(2) add_cooldown(warp_stone, 300)"
 	]
 	#Set to ENABLED to have nearby pets teleport with you. Set to SAME_DIMENSION to have nearby pets teleport with you only if you're not changing dimensions. Set to DISABLED to disable.
 	#Allowed Values: ENABLED, SAME_DIMENSION, DISABLED
