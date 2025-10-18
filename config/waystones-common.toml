@@ -54,6 +54,7 @@
 	#List of warp requirements with comma-separated parameters in parentheses. Conditions can be defined as comma-separated list in square brackets. Will be applied in order.
 	warpRequirements = ["[is_not_interdimensional] scaled_add_xp_cost(distance, 0.01)",
 		"[is_interdimensional] scaled_add_xp_cost(distance, 0.1) add_xp_cost(30)",
+		"[is_interdimensional, source_is_not_warp_plate] add_cooldown(waystone, 900)",
 		"[source_is_portstone] multiply_xp_cost(0.25)",
 		"[source_is_warp_plate] multiply_xp_cost(0)",
 		"[target_is_global] multiply_xp_cost(0.1)",
