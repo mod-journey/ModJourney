@@ -60,5 +60,7 @@
   "item.mod_journey.lumber": "Bauholz",
   "item.mod_journey.nitro_cube": "Nitro Würfel",
   "item.mod_journey.platin_plate": "Platin Platte",
-  "item.mod_journey.steel_carrier": "Stahlträger"
+  "item.mod_journey.steel_carrier": "Stahlträger",
+  "waystones.message.refuse_interdimensional": "Du kannst diese Dimension nicht verlassen",
+  "waystones.message.refuse_planetary": "Du kannst diesen Planeten nicht verlassen"
 }
