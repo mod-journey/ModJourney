@@ -69,6 +69,7 @@
 		"[is_interdimensional, involves_dimension(stellaris:venus)] refuse($waystones.message.refuse_planetary)",
 		"[is_interdimensional, involves_dimension(aether:the_aether)] refuse($waystones.message.refuse_planetary)",
 		"[is_interdimensional, involves_dimension(minecraft:the_nether)] refuse($waystones.message.refuse_interdimensional)",
+		"[is_interdimensional, involves_dimension(minecraft:the_end)] refuse($waystones.message.refuse_interdimensional)",
 		"[is_interdimensional, involves_dimension(ae2:spatial_storage)] refuse($waystones.message.refuse_interdimensional)",
 	]
 	#Set to ENABLED to have nearby pets teleport with you. Set to SAME_DIMENSION to have nearby pets teleport with you only if you're not changing dimensions. Set to DISABLED to disable.
