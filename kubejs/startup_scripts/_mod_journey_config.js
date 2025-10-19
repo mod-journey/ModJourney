@@ -29,7 +29,7 @@ global.mjConfig = {
         },
         stage3: {
             core: 'mod_journey:staging/frame_core_4',
-            second: '',
+            second: 'enderio:pulsating_crystal', // Mid-game
             endgame: '',
             magic: {
                 early: 'ars_nouveau:source_gem',

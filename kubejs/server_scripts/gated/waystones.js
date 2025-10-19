@@ -6,25 +6,26 @@ function waystones_gated(event, active) {
     if (!active) return;
 
     event.forEachRecipe({ mod: 'waystones' }, r => {
-        let itemID = r.json.get("result").get('id').asString;
+        let itemID = r.getId()
         let replaceItem = false
 
-        if (itemID.endsWith('_portstone')) {
-            replaceItem = stages.mod_based.mobGrindingUtils.stick
-        } else {
-            console.log('___Other recipe: ' + r.id) // r.json)
+        if (itemID === 'waystones:warp_plate') {
+            replaceItem = stages.stage3.second
         }
-
+        else if (itemID.endsWith('_portstone')) {
+            replaceItem = stages.mod_based.mobGrindingUtils.stick
+        }
+        else if (itemID.endsWith('waystone') || itemID.endsWith('_sharestone')) {
+            replaceItem = stages.stage1.core
+        }
 
         if (replaceItem) {
             // Replace on top/middle
             replacer.replaceInputByPosition(
-                {id: '' + r.id},
+                {id: r.getId()},
                 1, 0,
                 replaceItem
             )
         }
     });
-
-
 }
