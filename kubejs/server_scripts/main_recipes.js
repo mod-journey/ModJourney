@@ -53,7 +53,7 @@ if (events_server) {
             stellaris_gated(event, true);
             occultism_gated(event, true);
             funtionalStorage_gated(event, true)
-
+            waystones_gated(event, true)
 
         }
 
