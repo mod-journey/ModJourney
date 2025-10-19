@@ -4,7 +4,7 @@
 <!--
 ## v2.0.1.6
 
-#### Mods updatet:
+#### Mods updated:
 
 #### Mods removed:
 - lootr
