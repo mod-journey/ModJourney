@@ -53,12 +53,12 @@ function apothSpawnerBuilder(type, mainhand, inverse) {
         createRecipe: function (event) {
             if (inverse) {
                 event.custom(recipe).id(recipe.type + "s/_inverse/" + type);
-                console.log(recipe)
+                //console.log(recipe)
                 return this;
             }
             else {
                 event.custom(recipe).id(recipe.type + "s/" + type);
-                console.log(recipe)
+                //console.log(recipe)
                 return this;
             }
 
