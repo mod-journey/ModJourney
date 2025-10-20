@@ -806,6 +806,7 @@
 			id: "06058D4919841D02"
 			optional: true
 			rewards: [{
+				auto: "disabled"
 				command: "/ftbranks add @p weekling"
 				exclude_from_claim_all: true
 				id: "2E96B6183FB01228"
@@ -829,6 +830,7 @@
 			id: "59E92107A4481944"
 			optional: true
 			rewards: [{
+				auto: "disabled"
 				command: "/ftbranks add @p double-weekling"
 				exclude_from_claim_all: true
 				id: "496226723098CD38"
@@ -852,6 +854,7 @@
 			id: "6E7B5D5F3EC952AD"
 			optional: true
 			rewards: [{
+				auto: "disabled"
 				command: "/ftbranks add @p triple-weekling"
 				exclude_from_claim_all: true
 				id: "05D519F88C5EBAC7"
@@ -875,6 +878,7 @@
 			id: "17F4AD786B66A4A7"
 			optional: true
 			rewards: [{
+				auto: "disabled"
 				command: "/ftbranks add @p monthling"
 				exclude_from_claim_all: true
 				id: "69D8BF511A6C798F"
@@ -932,6 +936,8 @@
 			id: "146D1D0765124A16"
 			optional: true
 			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
 				icon: {
 					id: "mod_journey:silver_coin"
 				}
