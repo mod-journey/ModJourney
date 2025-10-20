@@ -580,7 +580,7 @@
 			}]
 			tasks: [{
 				id: "144C5013F487FC2D"
-				item: { count: 1, id: "minecraft:shulker_box" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:shulker_boxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 16.0d
