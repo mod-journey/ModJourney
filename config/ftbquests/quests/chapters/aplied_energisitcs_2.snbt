@@ -663,7 +663,7 @@
 			}]
 			tasks: [{
 				id: "4B69D9AF940BCADB"
-				item: { count: 1, id: "ae2:interface" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ae2:interface)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -1374,18 +1374,11 @@
 				}
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "2FD43ACD12E51FF9"
-					item: { count: 1, id: "ae2:pattern_provider" }
-					type: "item"
-				}
-				{
-					id: "595F9B01F49AAB7D"
-					item: { count: 1, id: "ae2:cable_pattern_provider" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2FD43ACD12E51FF9"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ae2:pattern_provider)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: 16.0d
 			y: 3.727380952380951d
 		}
