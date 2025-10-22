@@ -49,4 +49,8 @@ let remove_apotheosis = (event, active, debug) => {
         .max(16)
         .value(2)
         .createRecipe(event)
+
+    //remove old nearby Recipe by ID, while Name Conversion !== type
+    event.remove({id: "apothic_spawners:spawner_modifiers/max_nearby"})
+
 };

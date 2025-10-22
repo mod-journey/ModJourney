@@ -1,7 +1,7 @@
 #Lighting
 [lights]
 	#Show the supporter message. This is set to false after the first time.
-	showSupporterMessage = true
+	showSupporterMessage = false
 	#If dynamic lights are enabled
 	lightsEnabled = false
 	#How bright the touch light is
@@ -28,7 +28,7 @@
 	#Y offset for the tooltip
 	# Default: 0
 	# Range: > -2147483648
-	yTooltip = 0
+	yTooltip = 50
 	#X offset for the Mana Bar
 	# Default: 0
 	# Range: > -2147483648

@@ -7,6 +7,6 @@ let cookingforblockhead_gated = (event, active, debug) => {
     replacer.replaceInputByPosition(
         { id: 'cookingforblockheads:sink' },
         1, 2,
-        { 'item': stages.stage2.core }
+        { 'item': stages.stage3.core }
     )
 }

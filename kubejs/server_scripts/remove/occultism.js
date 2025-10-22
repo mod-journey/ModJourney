@@ -30,5 +30,14 @@ let remove_occultism = (event, active, debug) => {
             });
         }
     });
-}
 
+    //remove Trinity Gem, while can pick up some Boss Mobs.
+    event.forEachRecipe({ mod: "occultism", type: "occultism:ritual" }, r => {
+        let output = r.json.get("result").get("id")
+        if (output !== null) {
+            if (output.getAsString().contains(('occultism:trinity_gem'))) {
+                event.remove(r.getId())
+            }
+        }
+    })
+}

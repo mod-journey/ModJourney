@@ -4,6 +4,7 @@
 let add_industrial_laser_fluidLaser = (event, active, debug) => {
     if (!active) return;
 
+    /*
         event.custom({
         type: "industrialforegoing:laser_drill_fluid",
         catalyst: {
@@ -12,7 +13,7 @@ let add_industrial_laser_fluidLaser = (event, active, debug) => {
         entity: "minecraft:empty",
         output: {
             amount: 10,
-            id: "stellaris:oil"
+            fluid: "stellaris:oil"
         },
         rarity: [
             {
@@ -32,5 +33,5 @@ let add_industrial_laser_fluidLaser = (event, active, debug) => {
             }
         ]
     }).id("mod_journey:fluid_laser/oil")
-
+*/
 }

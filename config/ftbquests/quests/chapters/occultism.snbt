@@ -7,16 +7,24 @@
 		id: "occultism:ritual_dummy/summon_foliot_crusher"
 	}
 	id: "0352CE84D4BC63C6"
-	order_index: 4
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"5FDF133E70DEC72B"
+				"1FAAFE2BCCDD025F"
+				"5902419C7421AA67"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "30BCA4DCF7A86182"
 			rewards: [{
-				id: "374A36D7CDC4C5E5"
+				id: "22AD61D3CDB6F9C8"
 				item: {
 					count: 1
-					id: "occultism:dictionary_of_spirits"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -39,6 +47,14 @@
 			dependencies: ["30BCA4DCF7A86182"]
 			hide_until_deps_complete: true
 			id: "016A7860CCA8F684"
+			rewards: [{
+				id: "429917ECD53DED44"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "05AAE2D9FA5FF59E"
 				type: "checkmark"
@@ -48,15 +64,16 @@
 		}
 		{
 			dependencies: ["30BCA4DCF7A86182"]
+			hide_details_until_startable: true
 			icon: {
 				id: "occultism:spirit_fire"
 			}
 			id: "689657DD70045DAA"
 			rewards: [{
-				id: "306D6E7AF6A7A606"
+				id: "6B6B2106336B9406"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -72,10 +89,10 @@
 			dependencies: ["689657DD70045DAA"]
 			id: "43803774A3915BAD"
 			rewards: [{
-				id: "567457576A103376"
+				id: "7809B04B983FE238"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -102,6 +119,14 @@
 		{
 			dependencies: ["43803774A3915BAD"]
 			id: "2D4373175C12C82D"
+			rewards: [{
+				id: "677A2E8561101D87"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0B36148C5D92BAA6"
 				type: "checkmark"
@@ -114,15 +139,23 @@
 			dependency_requirement: "one_completed"
 			id: "60BA461ED63506B5"
 			optional: true
-			tasks: [
-				{
-					id: "1D4C50D053757F4A"
-					item: { count: 1, id: "occultism:ritual_dummy/summon_foliot_crusher" }
-					type: "item"
+			rewards: [{
+				id: "405AB5D22AD1D540"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
+				type: "item"
+			}]
+			tasks: [
 				{
 					id: "4EFD62BFCF5BBD57"
 					item: { components: { "occultism:spirit_name": "Krlynder" }, count: 1, id: "occultism:book_of_binding_bound_foliot" }
+					type: "item"
+				}
+				{
+					id: "0BCDD3EC7D2C9B08"
+					item: { count: 1, id: "occultism:crushed_end_stone" }
 					type: "item"
 				}
 			]
@@ -133,11 +166,18 @@
 			dependencies: [
 				"2D4373175C12C82D"
 				"60BA461ED63506B5"
-				"56959F905714B915"
 			]
 			dependency_requirement: "one_completed"
 			id: "47B737F4DCE8510E"
 			min_required_dependencies: 2
+			rewards: [{
+				id: "00446A390BC09A5C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0E4724CD4BAB802C"
@@ -162,10 +202,10 @@
 			dependencies: ["47B737F4DCE8510E"]
 			id: "1611A6F1787BD657"
 			rewards: [{
-				id: "754C6C8419CF708A"
+				id: "621459480C37ADA9"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -183,10 +223,10 @@
 			id: "067DBD94BF6397E1"
 			optional: true
 			rewards: [{
-				id: "1305F0A1BD36B583"
+				id: "03F87EEF6DC828BF"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]

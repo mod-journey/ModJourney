@@ -1,10 +1,10 @@
 /*
+!/*.md
 !/kubejs/
 !/config/
 /config/luckperms/luckperms-h2-v2.mv.db
 /config/libraryferret_1.properties
 /config/bettervillage_1.properties
-/config/worldedit/worldedit.properties
 /config/luckperms/*
 /config/spark/*
 !/world/

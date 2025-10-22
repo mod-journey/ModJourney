@@ -1,0 +1,2663 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mystical_agriculture_iv"
+	group: "5137A643BD4C4882"
+	id: "61690176D17563A1"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"14DC9B8D23AA0489"
+				"08BDD4ADC8DDB9C2"
+			]
+			id: "14C1780F1770F90D"
+			tasks: [{
+				id: "2735E6D38254900E"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "091F295591375CA0"
+			rewards: [{
+				id: "1D0B4DBC9D5ABBC1"
+				item: {
+					count: 1
+					id: "mysticalagriculture:refined_glowstone_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "272240EDB8A43059"
+				item: { count: 1, id: "mekanism:ingot_refined_glowstone" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "396EDCC34DDEFE68"
+			rewards: [{
+				id: "01EC11CB2130322B"
+				item: {
+					count: 1
+					id: "mysticalagriculture:refined_obsidian_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "737C9526ACF80F84"
+				item: { count: 1, id: "mekanism:ingot_refined_obsidian" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "1A78DE0DABF021D3"
+			rewards: [{
+				id: "23DFBE04E5036C65"
+				item: {
+					count: 1
+					id: "mysticalagriculture:fluorite_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "5BD47D1239415F3B"
+				item: { count: 1, id: "mekanism:fluorite_gem" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "5EDA91512173BAF0"
+			rewards: [{
+				id: "2E673E05D44F8CD2"
+				item: {
+					count: 1
+					id: "mysticalagriculture:osmium_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "39391DCD9E11156E"
+				item: { count: 1, id: "alltheores:osmium_ingot" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "6850A7F1741E13AB"
+			rewards: [{
+				id: "5B9235CFFB0F80DB"
+				item: {
+					count: 1
+					id: "mysticalagriculture:blaze_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 1000L
+				id: "3068ED16EFA0CC1B"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "0DC22D1564557001"
+			rewards: [{
+				id: "3D9898359060D453"
+				item: {
+					count: 1
+					id: "mysticalagriculture:breeze_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 1000L
+				id: "1D371B77B9FC9DA2"
+				item: { count: 1, id: "minecraft:breeze_rod" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "360698DDBD4A0346"
+			rewards: [{
+				id: "7259758E73840E7E"
+				item: {
+					count: 1
+					id: "mysticalagriculture:experience_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 1000L
+				id: "379E34C903660B21"
+				item: { count: 1, id: "minecraft:experience_bottle" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "55F36A7440DFE77F"
+			rewards: [{
+				id: "253ED4C171D45970"
+				item: {
+					count: 1
+					id: "mysticalagriculture:end_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25000L
+				id: "4510CE335910293E"
+				item: { count: 1, id: "minecraft:end_stone" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "720794150D9F128A"
+			rewards: [{
+				id: "1E61F3FEF65ACAC7"
+				item: {
+					count: 1
+					id: "mysticalagriculture:knightmetal_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "6DD49B746DE975B7"
+				item: { count: 1, id: "twilightforest:knightmetal_ingot" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "375030A885E10D2F"
+			rewards: [{
+				id: "0C41B797E77F6FC6"
+				item: {
+					count: 1
+					id: "mysticalagriculture:soularium_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 1000L
+				id: "4984260D7562C70B"
+				item: { count: 1, id: "enderio:soularium_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "20AE5E130C5C87F2"
+			rewards: [{
+				id: "2CD1DE57CDF3DEC0"
+				item: {
+					count: 1
+					id: "mysticalagriculture:hop_graphite_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "1A9F5DCC3C85D8E2"
+				item: { count: 1, id: "immersiveengineering:ingot_hop_graphite" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "5C726576CD38C5C6"
+			rewards: [{
+				id: "75273D7E6E6030EC"
+				item: {
+					count: 1
+					id: "mysticalagriculture:soulium_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 1000L
+				id: "4924CC726DBDC687"
+				item: { count: 1, id: "mysticalagriculture:soulium_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "310087681D1B3487"
+			rewards: [{
+				id: "7DE9C2F15340309A"
+				item: {
+					count: 1
+					id: "mysticalagriculture:peridot_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "25DAF4E5C72B1692"
+				item: { count: 1, id: "alltheores:peridot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "17EB4BC5C1E4B2D0"
+			rewards: [{
+				id: "5604408BFC559549"
+				item: {
+					count: 1
+					id: "mysticalagriculture:sapphire_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "2217567AF16B6A1E"
+				item: { count: 1, id: "alltheores:sapphire" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "2A7A74E7C48B738A"
+			rewards: [{
+				id: "182CD1976D359389"
+				item: {
+					count: 1
+					id: "mysticalagriculture:ruby_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "21BD6C732E1CC529"
+				item: { count: 1, id: "alltheores:ruby" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "41FAB463ACBDCDCF"
+			rewards: [{
+				id: "1FA808BC502AB60D"
+				item: {
+					count: 1
+					id: "mysticalagriculture:uranium_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "7925558A13B7738B"
+				item: { count: 1, id: "alltheores:uranium_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "5C66E3321D071210"
+			rewards: [{
+				id: "4241628B9764571E"
+				item: {
+					count: 1
+					id: "mysticalagriculture:invar_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "7B27A43ED3B07949"
+				item: { count: 1, id: "alltheores:invar_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "52F38E28B153D3F9"
+			rewards: [{
+				id: "3C8EF23E8C9862A5"
+				item: {
+					count: 1
+					id: "mysticalagriculture:electrum_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 1000L
+				id: "42575E333BBB439C"
+				item: { count: 1, id: "alltheores:electrum_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "508577107A2BB492"
+			rewards: [{
+				id: "0C7971728511E1AC"
+				item: {
+					count: 1
+					id: "mysticalagriculture:lapis_lazuli_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25000L
+				id: "318798EA0A4FA5E3"
+				item: { count: 1, id: "minecraft:lapis_lazuli" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "5AAB055E111D5B10"
+			rewards: [{
+				id: "5BF058B2C6816778"
+				item: {
+					count: 1
+					id: "mysticalagriculture:ghast_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 100L
+				id: "03A454B90C1F17AE"
+				item: { count: 1, id: "minecraft:ghast_tear" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "2F036D2C2D0B40F7"
+			rewards: [{
+				id: "7BEF69EBD8E13C68"
+				item: {
+					count: 1
+					id: "mysticalagriculture:enderman_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "129EF01B7482C183"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "54E68465D09D57FA"
+			rewards: [{
+				id: "5F385A0B5BAEF7DB"
+				item: {
+					count: 1
+					id: "mysticalagriculture:fiery_ingot_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "62A3324D78820AD6"
+				item: { count: 1, id: "twilightforest:fiery_ingot" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "70274A39EE8E800A"
+			rewards: [{
+				id: "2C5414F88ABBADC8"
+				item: {
+					count: 1
+					id: "mysticalagriculture:fluix_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "1B5342AFF46787C4"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "49465BFF58D008FF"
+			rewards: [{
+				id: "11ECEE36B9510771"
+				item: {
+					count: 1
+					id: "mysticalagriculture:energized_steel_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "4F2560D77C98F143"
+				item: { count: 1, id: "powah:steel_energized" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "741E8F065D665DF0"
+			rewards: [{
+				id: "4415168D3DE5B768"
+				item: {
+					count: 1
+					id: "mysticalagriculture:dark_steel_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "486F655255E2C252"
+				item: { count: 1, id: "enderio:dark_steel_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "54FF54E34F9810EC"
+			rewards: [{
+				id: "44984A820618DE1A"
+				item: {
+					count: 1
+					id: "mysticalagriculture:pulsating_alloy_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "502BC27F0D26A592"
+				item: { count: 1, id: "enderio:pulsating_alloy_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "4A78E0911A6078FF"
+			rewards: [{
+				id: "532933DDF8E97A66"
+				item: {
+					count: 1
+					id: "mysticalagriculture:energetic_alloy_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "58D2DBE69536643F"
+				item: { count: 1, id: "enderio:energetic_alloy_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "04516FFE8E2E3060"
+			rewards: [{
+				id: "1E72B70C930333EF"
+				item: {
+					count: 1
+					id: "mysticalagriculture:constantan_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "6DA95E7A4A0B2E87"
+				item: { count: 1, id: "alltheores:constantan_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "25A5E5E30DD82614"
+			rewards: [{
+				id: "63FE00B0642B025F"
+				item: {
+					count: 1
+					id: "mysticalagriculture:nickel_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "36808B6C49136E10"
+				item: { count: 1, id: "alltheores:nickel_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "360C5D0923C2CCA2"
+			rewards: [{
+				id: "6FDE502FA170F5A7"
+				item: {
+					count: 1
+					id: "mysticalagriculture:steel_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "365559677F1E16B5"
+				item: { count: 1, id: "alltheores:steel_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["49465BFF58D008FF"]
+			id: "45D438A2E9578CED"
+			rewards: [{
+				id: "31B076BB16D64DF1"
+				item: {
+					count: 1
+					id: "mysticalagriculture:energized_steel_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "2BCC752EA51FA435"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["70274A39EE8E800A"]
+			id: "34A321DA1F0BA062"
+			rewards: [{
+				id: "541D00FE40F36C4A"
+				item: {
+					count: 1
+					id: "mysticalagriculture:fluix_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "3380A433B6758EFC"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["54E68465D09D57FA"]
+			id: "05055375AF889948"
+			rewards: [{
+				id: "592DDDA217524A47"
+				item: {
+					count: 1
+					id: "mysticalagriculture:fiery_ingot_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "2BD3C0E6A0F57C78"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["720794150D9F128A"]
+			id: "0AA78D00814BB00F"
+			rewards: [{
+				id: "3E1DDBBDFC23BC03"
+				item: {
+					count: 1
+					id: "mysticalagriculture:knightmetal_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "4983DDB6EDCAABC1"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["396EDCC34DDEFE68"]
+			id: "1BC9F7BEADBB4995"
+			rewards: [{
+				id: "02FF99457D3E58D3"
+				item: {
+					count: 1
+					id: "mysticalagriculture:refined_obsidian_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "0C90FD6D6C7B2A84"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["091F295591375CA0"]
+			id: "47ADCA8B4849A8C5"
+			rewards: [{
+				id: "1BB339FAC4514CBF"
+				item: {
+					count: 1
+					id: "mysticalagriculture:refined_glowstone_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "35ECFD4E9E6210C2"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1A78DE0DABF021D3"]
+			id: "31F3052CB43CC455"
+			rewards: [{
+				id: "561DD6BCDCE4D198"
+				item: {
+					count: 1
+					id: "mysticalagriculture:fluorite_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "4CBEA7651A07E2C7"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5EDA91512173BAF0"]
+			id: "3941B2538C39A14A"
+			rewards: [{
+				id: "32DF3D3D03933ED5"
+				item: {
+					count: 1
+					id: "mysticalagriculture:osmium_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "07D5A95B93554980"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6850A7F1741E13AB"]
+			id: "4D5540374416575C"
+			rewards: [{
+				id: "267B0EDF6BF8010E"
+				item: {
+					count: 1
+					id: "mysticalagriculture:blaze_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "5DF6A6930E3EAC16"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0DC22D1564557001"]
+			id: "249B2ACC871D5E1C"
+			rewards: [{
+				id: "532941C9934232F6"
+				item: {
+					count: 1
+					id: "mysticalagriculture:breeze_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "1B3E660BF5518DD2"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["360698DDBD4A0346"]
+			id: "02D784941DF43069"
+			rewards: [{
+				id: "7CD7251291206D55"
+				item: {
+					count: 1
+					id: "mysticalagriculture:experience_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "68F1E89909E8E5A7"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["55F36A7440DFE77F"]
+			id: "42637B82EE39E9DB"
+			rewards: [{
+				id: "1493B672FA9B9DDB"
+				item: {
+					count: 1
+					id: "mysticalagriculture:end_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "301A53A9AF23DD5F"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["508577107A2BB492"]
+			id: "52A8A23BEBCF1AA4"
+			rewards: [{
+				id: "281370AE19E715CF"
+				item: {
+					count: 1
+					id: "mysticalagriculture:lapis_lazuli_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "6A50FF243EC7B8BC"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5AAB055E111D5B10"]
+			id: "724147082F1AFE06"
+			rewards: [{
+				id: "131CA352659006C3"
+				item: {
+					count: 1
+					id: "mysticalagriculture:ghast_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "22BC4CC476A08B07"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2F036D2C2D0B40F7"]
+			id: "17CA87B136EB39D8"
+			rewards: [{
+				id: "289B6B666BDF642B"
+				item: {
+					count: 1
+					id: "mysticalagriculture:enderman_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "5B6DB8EE4D68C05D"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["360C5D0923C2CCA2"]
+			id: "4641BCF8C899BA0B"
+			rewards: [{
+				id: "266E6775B010A64E"
+				item: {
+					count: 1
+					id: "mysticalagriculture:steel_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "7CA5E9D650BA6F59"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["25A5E5E30DD82614"]
+			id: "38E170312715337A"
+			rewards: [{
+				id: "327C02B1E4B33FF2"
+				item: {
+					count: 1
+					id: "mysticalagriculture:nickel_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "663E20A53C8F0611"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["04516FFE8E2E3060"]
+			id: "304A81DA586C792E"
+			rewards: [{
+				id: "121DE2E3C353836B"
+				item: {
+					count: 1
+					id: "mysticalagriculture:constantan_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "6D7333B1D02DB96F"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["52F38E28B153D3F9"]
+			id: "4A3BC25245DB4293"
+			rewards: [{
+				id: "5DAD48DFB5371700"
+				item: {
+					count: 1
+					id: "mysticalagriculture:electrum_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "540629EEF4EA82E0"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5C66E3321D071210"]
+			id: "6AC0CC072FDBFCF4"
+			rewards: [{
+				id: "1E3CAE16DF88B379"
+				item: {
+					count: 1
+					id: "mysticalagriculture:invar_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "6C777A5717AD969A"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["41FAB463ACBDCDCF"]
+			id: "72E433524F2C2FBC"
+			rewards: [{
+				id: "7191976688D697CC"
+				item: {
+					count: 1
+					id: "mysticalagriculture:uranium_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "2388E0A280C5144A"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2A7A74E7C48B738A"]
+			id: "0A8062FBC689D5B1"
+			rewards: [{
+				id: "3E80B6C1A8D7AA5A"
+				item: {
+					count: 1
+					id: "mysticalagriculture:ruby_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "49EB087477E631F5"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["17EB4BC5C1E4B2D0"]
+			id: "2AE00AD29C05102C"
+			rewards: [{
+				id: "41FFD485AA4D5F43"
+				item: {
+					count: 1
+					id: "mysticalagriculture:sapphire_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "56A7BD57ED9DEFA2"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["310087681D1B3487"]
+			id: "4A4337E2DF49735C"
+			rewards: [{
+				id: "008EAE070822A582"
+				item: {
+					count: 1
+					id: "mysticalagriculture:peridot_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "0187BA463DDDD06D"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5C726576CD38C5C6"]
+			id: "2D42D9DC238C9701"
+			rewards: [{
+				id: "080995AD86A5FE7E"
+				item: {
+					count: 1
+					id: "mysticalagriculture:soulium_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "247CDAE24EDC66F3"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["20AE5E130C5C87F2"]
+			id: "56FF702B4A0444C2"
+			rewards: [{
+				id: "694F127026347A3C"
+				item: {
+					count: 1
+					id: "mysticalagriculture:hop_graphite_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "4E7B4A63B8102331"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["375030A885E10D2F"]
+			id: "063EBEF3B4049B31"
+			rewards: [{
+				id: "135F664296631D0E"
+				item: {
+					count: 1
+					id: "mysticalagriculture:soularium_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "4B37C301A7863AC8"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["741E8F065D665DF0"]
+			id: "759D34CDDC27EAD2"
+			rewards: [{
+				id: "2CAE7EDF21918646"
+				item: {
+					count: 1
+					id: "mysticalagriculture:dark_steel_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "6107FD0A62D5012B"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["54FF54E34F9810EC"]
+			id: "5FF9A21FAE550167"
+			rewards: [{
+				id: "6DF703165A1C9589"
+				item: {
+					count: 1
+					id: "mysticalagriculture:pulsating_alloy_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "42C96F1FAB2E079A"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4A78E0911A6078FF"]
+			id: "77B9BEF14C4EFDCD"
+			rewards: [{
+				id: "4866633CBB42113A"
+				item: {
+					count: 1
+					id: "mysticalagriculture:energetic_alloy_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "226E7DD82A6FD545"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["45D438A2E9578CED"]
+			id: "4D6F53F83A38F798"
+			rewards: [{
+				id: "77AD3B5F8D3E788C"
+				item: {
+					count: 1
+					id: "mysticalagriculture:energized_steel_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "47EA69004A53FB76"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["34A321DA1F0BA062"]
+			id: "63E9A9FA120C92F2"
+			rewards: [{
+				id: "6E2CE9FE6BF93F4B"
+				item: {
+					count: 1
+					id: "mysticalagriculture:fluix_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "4665774DDA6D2106"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["05055375AF889948"]
+			id: "41E4199487CB54B3"
+			rewards: [{
+				id: "35A529846F267829"
+				item: {
+					count: 1
+					id: "mysticalagriculture:fiery_ingot_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "2BD17216ED4826DD"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0AA78D00814BB00F"]
+			id: "5453C357B51FE851"
+			rewards: [{
+				id: "72A6A6840BB741EE"
+				item: {
+					count: 1
+					id: "mysticalagriculture:knightmetal_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "3E933553FBB9423C"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1BC9F7BEADBB4995"]
+			id: "7157846E91356441"
+			rewards: [{
+				id: "3E7409B3710D3CE4"
+				item: {
+					count: 1
+					id: "mysticalagriculture:refined_obsidian_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "54D4037FFBE92870"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["47ADCA8B4849A8C5"]
+			id: "3D22A9794DBFDC67"
+			rewards: [{
+				id: "3B37792C75F5E38B"
+				item: {
+					count: 1
+					id: "mysticalagriculture:refined_glowstone_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "5FFFFB12040CBF57"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["31F3052CB43CC455"]
+			id: "77A7B411356FF20C"
+			rewards: [{
+				id: "53F69F9465F5BBA6"
+				item: {
+					count: 1
+					id: "mysticalagriculture:fluorite_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "7F0DF825DDC85E3B"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3941B2538C39A14A"]
+			id: "79C7FD201363F16C"
+			rewards: [{
+				id: "4976A2B7E0589C41"
+				item: {
+					count: 1
+					id: "mysticalagriculture:osmium_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "784F3050C28CC0E4"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4D5540374416575C"]
+			id: "02F8759EB67D269A"
+			rewards: [{
+				id: "303E64FC92A038A4"
+				item: {
+					count: 1
+					id: "mysticalagriculture:blaze_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "499FE518C6B09F5B"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["249B2ACC871D5E1C"]
+			id: "73EA77315FB02FB1"
+			rewards: [{
+				id: "397EA0E2ABCB5126"
+				item: {
+					count: 1
+					id: "mysticalagriculture:breeze_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "2624E9CF9054647F"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["02D784941DF43069"]
+			id: "76EF23DD2E2E952A"
+			rewards: [{
+				id: "71F0BEC924777C70"
+				item: {
+					count: 1
+					id: "mysticalagriculture:experience_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "30297FF84E4C37E0"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["42637B82EE39E9DB"]
+			id: "4BEA108A0181D72B"
+			rewards: [{
+				id: "3EDB3EF62AF10F22"
+				item: {
+					count: 1
+					id: "mysticalagriculture:end_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "2D9ABF7B5564AA07"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["52A8A23BEBCF1AA4"]
+			id: "4484B7E64C3791A0"
+			rewards: [{
+				id: "6BF8B1EBC7598CCE"
+				item: {
+					count: 1
+					id: "mysticalagriculture:lapis_lazuli_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "4A00E388BF9D5AC6"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["724147082F1AFE06"]
+			id: "3D0BA9A4DF856283"
+			rewards: [{
+				id: "71FB65B7CD01FE34"
+				item: {
+					count: 1
+					id: "mysticalagriculture:ghast_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "35B7B7CEB5420595"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["17CA87B136EB39D8"]
+			id: "0690DE30EC18DC75"
+			rewards: [{
+				id: "05D3CAB972B0B26C"
+				item: {
+					count: 1
+					id: "mysticalagriculture:enderman_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "7159CAA1DE4C3395"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4641BCF8C899BA0B"]
+			id: "726DC86796C87DEF"
+			rewards: [{
+				id: "3BB2A29BFDF35A73"
+				item: {
+					count: 1
+					id: "mysticalagriculture:steel_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "2B510FC7A4781591"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["38E170312715337A"]
+			id: "28054BE15C0DE264"
+			rewards: [{
+				id: "5E0B30FC77618792"
+				item: {
+					count: 1
+					id: "mysticalagriculture:nickel_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "08AFA23820DCA4E5"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["304A81DA586C792E"]
+			id: "0BD3791A7021E940"
+			rewards: [{
+				id: "0193B6512B67BA90"
+				item: {
+					count: 1
+					id: "mysticalagriculture:constantan_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "7186C4ECF6F048AE"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4A3BC25245DB4293"]
+			id: "01FE26C424AA2995"
+			rewards: [{
+				id: "531F3DD8E076FDD4"
+				item: {
+					count: 1
+					id: "mysticalagriculture:electrum_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "2C381F970FAA2548"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6AC0CC072FDBFCF4"]
+			id: "0830F90462920224"
+			rewards: [{
+				id: "5A17B9956C78057A"
+				item: {
+					count: 1
+					id: "mysticalagriculture:invar_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "6F7DE319530648B4"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["72E433524F2C2FBC"]
+			id: "46CFEA7F9ACD8A81"
+			rewards: [{
+				id: "0F6F03CC7E39B11E"
+				item: {
+					count: 1
+					id: "mysticalagriculture:uranium_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "503B4FB7D18BE78A"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0A8062FBC689D5B1"]
+			id: "0E2155D94CE5729A"
+			rewards: [{
+				id: "59D795F6223871D9"
+				item: {
+					count: 1
+					id: "mysticalagriculture:ruby_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "67D27D71E2783A03"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2AE00AD29C05102C"]
+			id: "1FE2012B2762B5B8"
+			rewards: [{
+				id: "4955CCB4BF420018"
+				item: {
+					count: 1
+					id: "mysticalagriculture:sapphire_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "3318C340E9443059"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4A4337E2DF49735C"]
+			id: "0189056FA992B3FC"
+			rewards: [{
+				id: "4624BD0509CEEA5C"
+				item: {
+					count: 1
+					id: "mysticalagriculture:peridot_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "22BA2D1B16A417B3"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D42D9DC238C9701"]
+			id: "4C0B3A3FD37B0F5A"
+			rewards: [{
+				id: "1D33162367A24395"
+				item: {
+					count: 1
+					id: "mysticalagriculture:soulium_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "1B17C4B3F32E023E"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["56FF702B4A0444C2"]
+			id: "141DB0C14139E44C"
+			rewards: [{
+				id: "67041BA507280539"
+				item: {
+					count: 1
+					id: "mysticalagriculture:hop_graphite_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "0921987E989DC536"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["063EBEF3B4049B31"]
+			id: "744BCB54B5015584"
+			rewards: [{
+				id: "2C7B45279CFD96B4"
+				item: {
+					count: 1
+					id: "mysticalagriculture:soularium_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "7479FAE6B5805462"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["759D34CDDC27EAD2"]
+			id: "348F31DD84F5A640"
+			rewards: [{
+				id: "44C483A164D70FA3"
+				item: {
+					count: 1
+					id: "mysticalagriculture:dark_steel_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "6AC79F15CDC4309E"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5FF9A21FAE550167"]
+			id: "1C4D8A198403AE27"
+			rewards: [{
+				id: "72B5805FEEC3269D"
+				item: {
+					count: 1
+					id: "mysticalagriculture:pulsating_alloy_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "0381A15D64EE4659"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["77B9BEF14C4EFDCD"]
+			id: "5C98193CD14A5F70"
+			rewards: [{
+				id: "4CC4CCB02D2B1848"
+				item: {
+					count: 1
+					id: "mysticalagriculture:energetic_alloy_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "12DD150F3656F188"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D6F53F83A38F798"]
+			id: "46E77DF91A731FFF"
+			rewards: [{
+				id: "4369CC110C449F88"
+				item: {
+					count: 1
+					id: "mysticalagriculture:energized_steel_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7DA757FA535AD9AE"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["63E9A9FA120C92F2"]
+			id: "7E00887F78F6A5F6"
+			rewards: [{
+				id: "54B1B2DFB80ED6AE"
+				item: {
+					count: 1
+					id: "mysticalagriculture:fluix_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "15580527CAC98150"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["41E4199487CB54B3"]
+			id: "3A7A3383F5532A69"
+			rewards: [{
+				id: "65DA4FBBE00438B4"
+				item: {
+					count: 1
+					id: "mysticalagriculture:fiery_ingot_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "1B0545364A1F5DBF"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5453C357B51FE851"]
+			id: "469C62A288ED0420"
+			rewards: [{
+				id: "07255FF664FB963A"
+				item: {
+					count: 1
+					id: "mysticalagriculture:knightmetal_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7A3398F735E3C8A0"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7157846E91356441"]
+			id: "03368777F0A50657"
+			rewards: [{
+				id: "0E998CC403FCD8DE"
+				item: {
+					count: 1
+					id: "mysticalagriculture:refined_obsidian_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "46F050079A6124D5"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3D22A9794DBFDC67"]
+			id: "088D7A84A6F45B7F"
+			rewards: [{
+				id: "36CE27045118E4D9"
+				item: {
+					count: 1
+					id: "mysticalagriculture:refined_glowstone_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "67B7A40CF1E796CC"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["77A7B411356FF20C"]
+			id: "2F049B7123A4A226"
+			rewards: [{
+				id: "5AC8A1749FF79BDD"
+				item: {
+					count: 1
+					id: "mysticalagriculture:fluorite_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "2FE36B8E16B88EB9"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["79C7FD201363F16C"]
+			id: "4F5A915C850C516C"
+			rewards: [{
+				id: "3762CA7DFE54385F"
+				item: {
+					count: 1
+					id: "mysticalagriculture:osmium_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "23F82CF541BB065A"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["02F8759EB67D269A"]
+			id: "0AE98A1E54890233"
+			rewards: [{
+				id: "5A2105AEBF9E7A1D"
+				item: {
+					count: 1
+					id: "mysticalagriculture:blaze_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "593CB82C0B6973C3"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["73EA77315FB02FB1"]
+			id: "2CF8E64B0D2259EA"
+			rewards: [{
+				id: "687EE397C82BD76A"
+				item: {
+					count: 1
+					id: "mysticalagriculture:breeze_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "09F20F0E4E986546"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["76EF23DD2E2E952A"]
+			id: "54246921820E8420"
+			rewards: [{
+				id: "24FFB004B15A0CD5"
+				item: {
+					count: 1
+					id: "mysticalagriculture:experience_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "3F62C8ECC1D4B370"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4BEA108A0181D72B"]
+			id: "7CF3A450F180B5FD"
+			rewards: [{
+				id: "0DC7656A850DFF5F"
+				item: {
+					count: 1
+					id: "mysticalagriculture:end_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "6EA655DD11ECBE1E"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4484B7E64C3791A0"]
+			id: "7E4851AD89C45B7C"
+			rewards: [{
+				id: "139BD7E1C25FD3F6"
+				item: {
+					count: 1
+					id: "mysticalagriculture:lapis_lazuli_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "5BF278F634FD1AE7"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3D0BA9A4DF856283"]
+			id: "374274BC00EDF27B"
+			rewards: [{
+				id: "7450EC522AFB315B"
+				item: {
+					count: 1
+					id: "mysticalagriculture:ghast_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "34FC0C85EE6DFBD5"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0690DE30EC18DC75"]
+			id: "2795DCB3BA96386B"
+			rewards: [{
+				id: "7BB6CAF359231C58"
+				item: {
+					count: 1
+					id: "mysticalagriculture:enderman_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "3D087F18B45A7468"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5C98193CD14A5F70"]
+			id: "10737BA0073CF05F"
+			rewards: [{
+				id: "7F2891C6DE11A252"
+				item: {
+					count: 1
+					id: "mysticalagriculture:energetic_alloy_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "311F548441910453"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1C4D8A198403AE27"]
+			id: "2A85D7FBE2E33C2A"
+			rewards: [{
+				id: "25B72EEDB3480FF9"
+				item: {
+					count: 1
+					id: "mysticalagriculture:pulsating_alloy_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "4EBE4CC338891965"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["348F31DD84F5A640"]
+			id: "32C968ED6629793B"
+			rewards: [{
+				id: "19E355C291D76EBB"
+				item: {
+					count: 1
+					id: "mysticalagriculture:dark_steel_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "4D1782461C2C920C"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["744BCB54B5015584"]
+			id: "6ECD4071AB5F7BA0"
+			rewards: [{
+				id: "656153DA7CA3C463"
+				item: {
+					count: 1
+					id: "mysticalagriculture:soularium_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "18E965C226B3A13C"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["141DB0C14139E44C"]
+			id: "353F64BA62001C7D"
+			rewards: [{
+				id: "2E35BA7A2ACB18A8"
+				item: {
+					count: 1
+					id: "mysticalagriculture:hop_graphite_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "64D9A389EFC8A37F"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4C0B3A3FD37B0F5A"]
+			id: "7E8D21E0867A3158"
+			rewards: [{
+				id: "165AEB69204D5B3B"
+				item: {
+					count: 1
+					id: "mysticalagriculture:soulium_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "508C45784B19497B"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"273F8EA6BA2D86C9"
+				"0189056FA992B3FC"
+			]
+			id: "6D554D12D8D9CBC0"
+			rewards: [{
+				id: "2B4C1160A5A58B55"
+				item: {
+					count: 1
+					id: "mysticalagriculture:peridot_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "6BDE8521D639DB08"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1FE2012B2762B5B8"]
+			id: "226CE257994F2E25"
+			rewards: [{
+				id: "5254A181575B050D"
+				item: {
+					count: 1
+					id: "mysticalagriculture:sapphire_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "65E146EE048CDDFE"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0E2155D94CE5729A"]
+			id: "7800459BCB6F11DF"
+			rewards: [{
+				id: "6AAE36A08F70D70C"
+				item: {
+					count: 1
+					id: "mysticalagriculture:ruby_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "5725A0DDA7498914"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["46CFEA7F9ACD8A81"]
+			id: "524E8EFB1E06015D"
+			rewards: [{
+				id: "491679C61075319A"
+				item: {
+					count: 1
+					id: "mysticalagriculture:uranium_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "491A53D81C2A36BC"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0830F90462920224"]
+			id: "5388FDCF1BFE39B3"
+			rewards: [{
+				id: "2781BDC9101826E4"
+				item: {
+					count: 1
+					id: "mysticalagriculture:invar_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "5BC88E7AA186AFFC"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["01FE26C424AA2995"]
+			id: "3404937DD217057D"
+			rewards: [{
+				id: "68B1538A1BEC925D"
+				item: {
+					count: 1
+					id: "mysticalagriculture:electrum_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7A8B43DEE7D12CD1"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0BD3791A7021E940"]
+			id: "27DBC2B0E48745DA"
+			rewards: [{
+				id: "7BC2B0F04F423063"
+				item: {
+					count: 1
+					id: "mysticalagriculture:constantan_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "222B8EB35F3FAF58"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["28054BE15C0DE264"]
+			id: "4893B314B54A2972"
+			rewards: [{
+				id: "54E2DA5A76401022"
+				item: {
+					count: 1
+					id: "mysticalagriculture:nickel_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "5DF832589075A54B"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["726DC86796C87DEF"]
+			id: "2678B1773DDE0984"
+			rewards: [{
+				id: "7A5CC92F81C2630F"
+				item: {
+					count: 1
+					id: "mysticalagriculture:steel_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7C58F713DB0EAEA2"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["14C1780F1770F90D"]
+			id: "438F0B96FB0AA86E"
+			rewards: [{
+				id: "4646860BB906AD83"
+				item: {
+					count: 1
+					id: "mysticalagriculture:gold_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10000L
+				id: "11B3E1A11AA092C3"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["438F0B96FB0AA86E"]
+			id: "44FCEF190C1192DF"
+			rewards: [{
+				id: "567D816738BF19B5"
+				item: {
+					count: 1
+					id: "mysticalagriculture:gold_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 125L
+				id: "4560D226286B6D04"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["44FCEF190C1192DF"]
+			id: "451D2F4AD6A58DE1"
+			rewards: [{
+				id: "222BD1D37E98A5F8"
+				item: {
+					count: 1
+					id: "mysticalagriculture:gold_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 25L
+				id: "6DDD23E081F51C41"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 16.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["451D2F4AD6A58DE1"]
+			id: "2D21AC8253F2558A"
+			rewards: [{
+				id: "7606AB872F7298A3"
+				item: {
+					count: 1
+					id: "mysticalagriculture:gold_seeds"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "1C6D72212241AB15"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 18.5d
+		}
+	]
+}

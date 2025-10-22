@@ -22,7 +22,7 @@
 	#The x-coordinate of the accessories button in the inventory and accessories menus
 	"Button x-coordinate in inventory menus" = 27
 	#The y-coordinate of the accessories button in the inventory and accessories menus
-	"Button y-coordinate in inventory menus" = 68
+	"Button y-coordinate in inventory menus" = 24
 	#The x-coordinate of the accessories button in the creative menu
 	"Button x-coordinate in creative menu" = 74
 	#The y-coordinate of the accessories button in the creative menu

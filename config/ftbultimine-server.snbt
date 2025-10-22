@@ -23,12 +23,12 @@
 		
 		# Require a damageable tool, or an item in the 'ftbultimine:tools' tag, to ultimine.
 		# Default: false
-		require_tool: false
+		require_tool: true
 		
 		# Cooldown in ticks between successive uses of the Ultimine feature
 		# Default: 0
 		# Range: 0 ~ 9223372036854775807
-		ultimine_cooldown: 0L
+		ultimine_cooldown: 60L
 	}
 	features: {
 		# Right-click with an axe with the Ultimine key held to strip multiple logs and scrape/unwax copper blocks
@@ -51,6 +51,10 @@
 		# Right-click with a shovel with the Ultimine key held to flatten multiple grass/dirt blocks into dirt paths
 		# Default: true
 		right_click_shovel: true
+		
+		# When true, right-clicking a crop block without the Ultimine key held harvests it
+		# Default: true
+		single_crop_harvesting: true
 	}
 	misc: {
 		# If a block couldn't be broken (even though it should be), stop ultimining immediately instead of skipping to the next block.

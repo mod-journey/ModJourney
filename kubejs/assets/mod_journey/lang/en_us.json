@@ -60,5 +60,7 @@
   "item.mod_journey.lumber": "Lumber",
   "item.mod_journey.nitro_cube": "Nitro Cube",
   "item.mod_journey.platin_plate": "Platin Plate",
-  "item.mod_journey.steel_carrier": "Steel Carrier"
+  "item.mod_journey.steel_carrier": "Steel Carrier",
+  "waystones.message.refuse_interdimensional": "You can`t leave this dimension",
+  "waystones.message.refuse_planetary": "You can`t leave this planet"
 }

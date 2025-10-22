@@ -1,10 +1,17 @@
 let modjourney_gated_items = (event, active, debug) => {
     if (!active) return;
 
-    event.shapeless(
-        Item.of('mod_journey:nitro_cube', 1),
-        ['4 x powah:nitro_crystal_block']
-    ).id('mod_journey:shapless/nitro_crystal_block');
+    event.shaped(
+        'mod_journey:nitro_cube',
+        [
+            'NNN',
+            'NSN',
+            'NNN'
+        ], {
+            N: 'powah:crystal_nitro',
+            S: 'powah:niotic_crystal_block'
+        }
+    ).id('mod_journey:shapled/nitro_crystal_block')
 
     event.shapeless(
         Item.of('mod_journey:copperchunk', 8),
