@@ -837,33 +837,5 @@
 			x: -9.0d
 			y: 10.5d
 		}
-		{
-			can_repeat: true
-			dependencies: ["0E92633B7DC58B57"]
-			hide_until_deps_complete: true
-			id: "19788ED9A4D51815"
-			rewards: [{
-				command: "/scoreboard players set @s stage 1"
-				icon: {
-					components: {
-						"ftbquests:icon": "kubejs:textures/background/green_symboles/number/1.png"
-					}
-					id: "ftbquests:custom_icon"
-				}
-				id: "1126AF0DC68B5BD9"
-				permission_level: 2
-				silent: true
-				team_reward: false
-				type: "command"
-			}]
-			shape: "rsquare"
-			size: 1.5d
-			tasks: [{
-				id: "1F361E8CD8BA4D4F"
-				type: "checkmark"
-			}]
-			x: 16.5d
-			y: 3.5d
-		}
 	]
 }
