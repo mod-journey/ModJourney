@@ -16,6 +16,7 @@
 				"14DC9B8D23AA0489"
 				"08BDD4ADC8DDB9C2"
 			]
+			hide_until_deps_complete: true
 			id: "14C1780F1770F90D"
 			tasks: [{
 				id: "2735E6D38254900E"

@@ -4,7 +4,6 @@
 	default_quest_shape: ""
 	filename: "mystical_agriculture_ii"
 	group: "5137A643BD4C4882"
-	hide_quest_until_deps_complete: true
 	icon: {
 		id: "mysticalagriculture:prudentium_essence"
 	}
@@ -17,6 +16,7 @@
 				"7C1ADA6D4CFC09D7"
 				"7DC64335DF20BD93"
 			]
+			hide_until_deps_complete: true
 			id: "7CD4BB26A718C894"
 			tasks: [{
 				id: "02645A08A79CA683"
