@@ -59,9 +59,10 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 10000L
-				id: "7953E83E6406B054"
-				item: { count: 1, id: "minecraft:lapis_lazuli" }
+				id: "0104FD846783D666"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:dyes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -2.5d

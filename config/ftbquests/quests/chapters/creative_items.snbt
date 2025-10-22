@@ -58,6 +58,7 @@
 				id: "mekanism:creative_energy_cube"
 			}
 			id: "5FAB86380F99F739"
+			optional: true
 			rewards: [{
 				id: "74A58E5EDC58C681"
 				item: {
@@ -103,8 +104,8 @@
 				item: { count: 1, id: "mod_journey:gold_coin" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -5.5d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			can_repeat: true
@@ -128,8 +129,8 @@
 				item: { count: 1, id: "mod_journey:gold_coin" }
 				type: "item"
 			}]
-			x: -11.0d
-			y: -2.5d
+			x: -8.5d
+			y: -3.0d
 		}
 		{
 			can_repeat: true
@@ -153,7 +154,7 @@
 				item: { count: 1, id: "mod_journey:gold_coin" }
 				type: "item"
 			}]
-			x: -11.0d
+			x: -8.5d
 			y: 3.0d
 		}
 		{
@@ -178,8 +179,8 @@
 				item: { count: 1, id: "mod_journey:gold_coin" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.5d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
@@ -203,8 +204,8 @@
 				item: { count: 1, id: "mod_journey:gold_coin" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.5d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
@@ -228,8 +229,8 @@
 				item: { count: 1, id: "mod_journey:gold_coin" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.5d
+			x: -0.5d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
@@ -238,6 +239,7 @@
 				id: "mekanism:mekasuit_boots"
 			}
 			id: "3F05249D0715F115"
+			optional: true
 			rewards: [{
 				id: "5F80D19DD3D21AC1"
 				item: {
@@ -253,8 +255,8 @@
 				item: { count: 1, id: "mod_journey:gold_coin" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			can_repeat: true
@@ -263,6 +265,7 @@
 				id: "mekanism:mekasuit_pants"
 			}
 			id: "162C1320D31EEB6F"
+			optional: true
 			rewards: [{
 				id: "77C7162AA67BABFD"
 				item: {
@@ -278,8 +281,8 @@
 				item: { count: 1, id: "mod_journey:gold_coin" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -0.5d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
 			can_repeat: true
@@ -288,6 +291,7 @@
 				id: "mekanism:mekasuit_bodyarmor"
 			}
 			id: "60A7EA354D8DF67D"
+			optional: true
 			rewards: [{
 				id: "5B70CF6893999E3B"
 				item: {
@@ -304,7 +308,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			can_repeat: true
@@ -313,6 +317,7 @@
 				id: "mekanism:mekasuit_helmet"
 			}
 			id: "51E2C148A1C8F5F9"
+			optional: true
 			rewards: [{
 				id: "1A4D1D30B884EE4D"
 				item: {
@@ -328,7 +333,7 @@
 				item: { count: 1, id: "mod_journey:gold_coin" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: 1.0d
 		}
 		{
@@ -338,6 +343,7 @@
 				id: "mekanism:module_energy_unit"
 			}
 			id: "04B0074A709CF14C"
+			optional: true
 			rewards: [{
 				id: "79C19FB9976846CD"
 				item: {
@@ -354,7 +360,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
@@ -378,8 +384,8 @@
 				item: { count: 1, id: "mod_journey:gold_coin" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.5d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
 			can_repeat: true
@@ -415,8 +421,8 @@
 				item: { count: 1, id: "mod_journey:gold_coin" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -5.5d
+			x: -4.5d
+			y: 2.0d
 		}
 		{
 			can_repeat: true
@@ -440,14 +446,14 @@
 				item: { count: 1, id: "mod_journey:gold_coin" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.0d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["25CFBFA45F14C286"]
 			icon: {
-				id: "mekanism:ingot_steel"
+				id: "alltheores:steel_ingot"
 			}
 			id: "36573BD5A413B942"
 			rewards: [{
@@ -455,7 +461,7 @@
 				id: "44D2BE2ED9F20329"
 				item: {
 					count: 1
-					id: "mekanism:ingot_steel"
+					id: "alltheores:steel_ingot"
 				}
 				team_reward: true
 				type: "item"
@@ -470,7 +476,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["746950E99AF97116"]
+			dependencies: ["112FBC69511A5B70"]
 			icon: {
 				id: "mysticalagriculture:master_infusion_crystal"
 			}
@@ -490,8 +496,8 @@
 				item: { count: 1, id: "mod_journey:gold_coin" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 7.5d
+			x: -11.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1A68095FE4424786"]
@@ -539,7 +545,7 @@
 				id: "403D45E859663DE0"
 				type: "checkmark"
 			}]
-			x: -9.5d
+			x: -8.5d
 			y: 0.0d
 		}
 		{
@@ -580,8 +586,8 @@
 				item: { count: 1, id: "mod_journey:gold_coin" }
 				type: "item"
 			}]
-			x: -13.5d
-			y: -1.0d
+			x: -10.5d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
@@ -628,8 +634,8 @@
 				item: { count: 1, id: "mod_journey:gold_coin" }
 				type: "item"
 			}]
-			x: -13.5d
-			y: 1.0d
+			x: -11.5d
+			y: -1.0d
 		}
 		{
 			can_repeat: true
@@ -653,8 +659,85 @@
 				item: { count: 1, id: "mod_journey:gold_coin" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.0d
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["746950E99AF97116"]
+			icon: {
+				id: "ae2:creative_energy_cell"
+			}
+			id: "327C3EB7D3A292C7"
+			rewards: [{
+				id: "4C31FE4FA5AA860C"
+				item: {
+					count: 1
+					id: "ae2:creative_energy_cell"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "7C371316261EF002"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["746950E99AF97116"]
+			icon: {
+				id: "megacells:radioactive_chemical_cell"
+			}
+			id: "6E9E23CD83F0D2EE"
+			optional: true
+			rewards: [{
+				id: "2EB9B5F522AEDD20"
+				item: {
+					count: 1
+					id: "megacells:radioactive_chemical_cell"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "046760C3D64102FF"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["112FBC69511A5B70"]
+			icon: {
+				id: "ars_nouveau:annotated_codex"
+			}
+			id: "30478EE119C9F119"
+			rewards: [{
+				id: "2221DF43A3961755"
+				item: {
+					count: 1
+					id: "ars_nouveau:annotated_codex"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "514FDC84F5B78BD1"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.5d
 		}
 	]
 }

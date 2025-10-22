@@ -909,25 +909,16 @@
 			}
 			id: "38FCDBC67E137073"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "738C3631FA49D6B6"
-					item: {
-						count: 1
-						id: "mod_journey:copper_coin"
-					}
-					team_reward: false
-					type: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "738C3631FA49D6B6"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "55FF61DC4F29DB33"
-					table_id: 3711098186976156353L
-					team_reward: true
-					type: "loot"
-				}
-			]
+				team_reward: false
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:clock"

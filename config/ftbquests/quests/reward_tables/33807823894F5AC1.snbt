@@ -87,5 +87,13 @@
 			}
 			weight: 0.2f
 		}
+		{
+			id: "7AC5EF10CE9CF03C"
+			item: {
+				count: 1
+				id: "mysticalagriculture:turtle_seeds"
+			}
+			weight: 0.2f
+		}
 	]
 }

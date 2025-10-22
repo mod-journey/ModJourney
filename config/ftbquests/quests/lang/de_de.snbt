@@ -905,6 +905,7 @@
 		"NBTs sind mir doch egal. "
 		"Willst Du Rüstungen Filtern, Gems oder Bücher. Dann ist die Karte das Richtige für Dich. "
 	]
+	quest.30478EE119C9F119.title: "Kommentierter Kodex"
 	quest.304F55340F14DF7E.title: "Schwefel IV"
 	quest.308D5079C060F8E3.title: "Stein III"
 	quest.30BCA4DCF7A86182.quest_desc: ["Einfach ein paar Gräßer abbauen, um die Seeds zu bekommen. Diese können ganz normal vortgepflanzt werden."]
@@ -928,6 +929,8 @@
 	]
 	quest.325B0F0901FD93A8.quest_subtitle: "und das mit Stil!"
 	quest.325B0F0901FD93A8.title: "Der Drip"
+	quest.327C3EB7D3A292C7.quest_subtitle: "Unbegrenze Energy für dein ME-System"
+	quest.327C3EB7D3A292C7.title: "Kreative Energiezelle"
 	quest.32995C3E724DC7F4.title: "Wither Skellet I"
 	quest.32CCA4CEC3CE9954.title: "Turbine"
 	quest.3335E7346C35ABA4.title: "Spinne II"
@@ -1983,6 +1986,7 @@
 	quest.6E93D46AB70FC4EA.quest_desc: ["Richtig der Rucksack kann als Pumpe arbeiten. Wie? Keine Ahnung Frag jemand anderes!"]
 	quest.6E93D46AB70FC4EA.quest_subtitle: "Feuchte Angelegenheit I"
 	quest.6E9DAFBCD3D19E5B.quest_desc: ["Damit nicht alle in der Dimension von den Endboss Sounds mitbekommen, kannst Du die folgenden Blöcke dafür nutzen, die Sounds zu unterdrücken."]
+	quest.6E9E23CD83F0D2EE.title: "Radioaktive Speicherzelle"
 	quest.6EFAEE92801D584C.title: "Tiefenschiefer I"
 	quest.6F14BA01A20E3D8F.quest_desc: ["Du benötigst Iridium um ein besseres Rocket Upgrade zu bauen."]
 	quest.6F393C46B730C789.quest_desc: [
@@ -2150,6 +2154,7 @@
 	quest.7A9935BC07AA5F19.title: "Konduktiver Legierungsbarren II"
 	quest.7AD9631F43AD87FD.quest_desc: ["Aufgesammelte Items kommen direkt in den Rucksack."]
 	quest.7AD9631F43AD87FD.quest_subtitle: "Put it in I"
+	quest.7AECB62DC58378D5.title: "Lotterie"
 	quest.7AFD7B0DAA8D7791.quest_desc: ["Du benötigst den Catalyst, um den Undergarden besuchen zu können. Platziere Steinziegel, in einer mindestgröße wie ein Netherportal und rechtklicke mit dem Catalyst."]
 	quest.7AFFEA1B611A8CB9.quest_desc: ["Froststeel kann ab Höhe 80 gefunden werden. Findet man nur in kalten Biomen im Undergarden."]
 	quest.7AFFEA1B611A8CB9.title: "Froststeel"
@@ -2238,7 +2243,7 @@
 	reward_table.22AD71CAA19374E6.title: "Laserbohrer"
 	reward_table.247187814ADF8B4E.title: "Laserbohrer Bauteile"
 	reward_table.24F63EB4DD5227DC.title: "Agriculture Tear3"
-	reward_table.33807823894F5AC1.title: "Agriculture Base"
+	reward_table.33807823894F5AC1.title: "Lotterie"
 	reward_table.39C63245F86C721B.title: "Agriculture Tear4"
 	reward_table.3E1ECF76C9475F78.title: "Agriculture Tear5"
 	reward_table.47A9DF594527DA2B.title: "Stage4-Coins"
@@ -2249,6 +2254,7 @@
 	reward_table.67D5535CC0B3DD64.title: "Agriculture Tear2"
 	reward_table.7ECB6DBD269EDBAD.title: "Stage1-Coins"
 	task.009105FF3AC43AE2.title: "Functional Storage"
+	task.0104FD846783D666.title: "Alle Farbstoffe"
 	task.01BD2A1FE8967AB2.title: "Finde den Blinding Dungeon"
 	task.02645A08A79CA683.title: "Tier II"
 	task.03BC595DF682AD4B.title: "Everbright"
@@ -2318,6 +2324,7 @@
 	task.34E99BB60961DDF4.title: "Cyanite"
 	task.35D7180AD7FB5125.title: "Any Froststeel Tool"
 	task.39F041BF05060216.title: "Sky is the limit"
+	task.3B3FB291732E4A20.title: "Alle Baumstämme"
 	task.3C2B5623ACE2FBDF.title: "Gaten und Limits"
 	task.3C303F1062F62B16.title: "Tier IV"
 	task.3CC50E336A1E68EF.title: "Level 60"
