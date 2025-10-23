@@ -1,6 +1,10 @@
 let add_custom_machinary_seedplanter = (event, active, debug) => {
     if (!active) return;
 
+    //Define Objk variables for better reading.
+    let croptopia_obj = global.seeds.croptopia
+    let mystical_obj = global.seeds.mystical
+
     /**
      * @example seed_planter("seed", 0.25, "crop", 0.1, 200, 4000)
      * @param {String} seed
@@ -10,8 +14,7 @@ let add_custom_machinary_seedplanter = (event, active, debug) => {
      * @param {Int} time
      * @param {Int} energy
      */
-    let seed_planter = (seed, seed_chance, crop, crop_chance, time, energy) => {
-
+    let seedPlanterForCroptopia = (seed, seed_chance, crop, crop_chance, time, energy) => {
         event.recipes.custommachinery.custom_machine("mod_journey:seed_planter", time)
             .requireEnergy(energy)
             .requireFluid("1000 x minecraft:water")
@@ -22,9 +25,8 @@ let add_custom_machinary_seedplanter = (event, active, debug) => {
             .produceItem(`1x ${seed}`).chance(seed_chance)
     }
 
-    croptopia_obj.crops.forEach( id => {
-        seed_planter(id.seed, 0.25, id.crop, 0.5, 200, 4000)
+    croptopia_obj.forEach(id => {
+        seedPlanterForCroptopia(id.seed, 0.25, id.crop, 0.5, 200, 2400)
     })
-
 
 }
