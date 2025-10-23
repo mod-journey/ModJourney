@@ -1,27 +1,43 @@
 let add_custom_machinary_treeplanter = (event, active, debug) => {
     if (!active) return;
 
-    /**
-     *
-     * @param {String} sapling
-     * @param {float} sapling_chance
-     * @param {Array} log
-     * @param {String} log_chance
-     * @param {Int} time
-     * @example tree_planter("sapling", 0.1, "log", 0.2)
-     */
-    let tree_planter = (sapling, sapling_chance, log, log_chance, time) => {
+    let trees = global.seeds.trees
+    let vanillaTrees = trees.vanilla
+    let croptopiaTrees = trees.croptopia
+    let ArsTrees = trees.arsNoveau
+    let TwillightTrees = trees.twillight
 
+    /**
+     * @param {String} sapling
+     * @param {String} MainResult
+     * @param {String} SecondResult
+     * @param {Int} energy
+     * @param {Int} time
+     */
+    let TreePlanter = (sapling, MainResult, SecondResult, energy, time) => {
         event.recipes.custommachinery.custom_machine("mod_journey:tree_planter", time)
-            .requireFluid("1000 x #minecraft:water")
+            .requireEnergy(energy)
+            .requireFluid("1000 x minecraft:water")
             .requireItem(`1x ${sapling}`)
-            .produceItem(`2x ${log}`)
-            .produceItem(`1x ${log}`).chance(sapling_chance)
             .produceItem(`1x ${sapling}`)
-            .produceItem(`1x ${sapling}`).chance(log_chance)
+            .produceItem(`1x ${sapling}`).chance(0.1)
+            .produceItem(`2x ${MainResult}`)
+            .produceItem(`1x ${SecondResult}`).chance(0.1)
     }
 
-    croptopia_obj.trees.vanilla.forEach(id => {
-        tree_planter(id.sapling, 0.25, id.log, 0.5, 200)
+    vanillaTrees.forEach(tree => {
+        TreePlanter(tree.sapling, tree.log, tree.log, 4000, 800)
+    });
+
+    croptopiaTrees.forEach(tree => {
+        TreePlanter(tree.sapling, tree.result, tree.result, 4000, 800)
+    });
+
+    ArsTrees.forEach(tree => {
+        TreePlanter(tree.sapling, tree.result, tree.result, 4000, 800)
+    });
+
+    TwillightTrees.forEach(tree => {
+        TreePlanter(tree.sapling, tree.result.main, tree.result.second, 4000, 800)
     });
 }

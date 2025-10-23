@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "mod_journey:block/custom_machine/tree_planter",
-		"particle": "mod_journey:block/custom_machine/tree_planter"
+		"0": "mod_journey:block/custom_machine/brine_converter",
+		"particle": "mod_journey:block/custom_machine/brine_converter"
 	},
 	"elements": [
 		{
@@ -119,33 +119,26 @@
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [75, 45, 0],
-			"translation": [0, 2.5, 0],
-			"scale": [0.375, 0.375, 0.375]
+			"translation": [0, 1.5, -1.5],
+			"scale": [0.5, 0.5, 0.5]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [75, 45, 0],
-			"translation": [0, 2.5, 0],
-			"scale": [0.375, 0.375, 0.375]
+			"translation": [0, 1.5, -1.5],
+			"scale": [0.5, 0.5, 0.5]
 		},
 		"firstperson_righthand": {
-			"rotation": [0, 45, 0],
-			"scale": [0.4, 0.4, 0.4]
+			"scale": [0.5, 0.5, 0.5]
 		},
 		"firstperson_lefthand": {
-			"rotation": [0, -135, 0],
-			"scale": [0.4, 0.4, 0.4]
+			"scale": [0.5, 0.5, 0.5]
 		},
 		"ground": {
-			"translation": [0, 3, 0],
-			"scale": [0.25, 0.25, 0.25]
+			"translation": [0, 2.75, 0],
+			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
 			"rotation": [30, -135, 0],
 			"scale": [0.625, 0.625, 0.625]
-		},
-		"fixed": {
-			"scale": [0.5, 0.5, 0.5]
 		}
 	},
 	"groups": [

@@ -73,9 +73,8 @@ if (events_server) {
         if (customMachine_event) {
             add_custom_machinary_seedplanter(event, true)
             add_custom_machinary_treeplanter(event, true)
-            add_custom_machinary_coalgen(event, true)
-            add_custom_machinary_watergen(event, true)
-            add_custom_machinary_metalpress(event, false)
+            add_custom_machinary_metalpress(event, true)
+            add_custom_machinary_brine_converter(event, true)
         }
 
         /* "./remove/*" */

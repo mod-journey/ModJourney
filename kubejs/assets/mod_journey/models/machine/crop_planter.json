@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "mod_journey:block/custom_machine/tree_planter",
-		"particle": "mod_journey:block/custom_machine/tree_planter"
+		"0": "mod_journey:block/custom_machine/crop_planter",
+		"particle": "mod_journey:block/custom_machine/crop_planter"
 	},
 	"elements": [
 		{
