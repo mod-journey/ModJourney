@@ -84,6 +84,19 @@
       },
       "id": "output3",
       "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output4",
+      "mode": "output"
     }
   ],
   "gui": [
@@ -131,21 +144,27 @@
       "id": "output1",
       "priority": 3,
       "x": 145,
-      "y": 57
+      "y": 47
     },
     {
       "type": "custommachinery:slot",
       "id": "output2",
       "priority": 2,
       "x": 163,
-      "y": 57
+      "y": 47
     },
     {
       "type": "custommachinery:slot",
       "id": "output3",
       "priority": 1,
-      "x": 181,
-      "y": 57
+      "x": 145,
+      "y": 65
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output4",
+      "x": 163,
+      "y": 65
     },
     {
       "type": "custommachinery:text",
