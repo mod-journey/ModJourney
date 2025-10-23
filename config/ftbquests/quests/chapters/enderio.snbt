@@ -946,14 +946,23 @@
 			dependencies: ["3E6D24F69315E37B"]
 			dependency_requirement: "all_started"
 			id: "09D13F484D269069"
-			rewards: [{
-				id: "3CDCA9E5C8FBFF89"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					id: "3CDCA9E5C8FBFF89"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "1F1F90A36DC96726"
+					table_id: 1221953208027045268L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "3E0BC5CB4A1E5006"
 				item: { count: 1, id: "enderio:staff_of_travelling" }

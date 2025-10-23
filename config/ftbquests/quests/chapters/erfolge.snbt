@@ -132,5 +132,16 @@
 			x: -11.0d
 			y: 7.5d
 		}
+		{
+			hide_until_deps_visible: true
+			id: "0E92633B7DC58B57"
+			tasks: [{
+				id: "2AFFAB39055AD688"
+				stage: "intro"
+				type: "gamestage"
+			}]
+			x: -12.5d
+			y: 9.0d
+		}
 	]
 }

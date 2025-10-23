@@ -320,6 +320,8 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["0E92633B7DC58B57"]
+			hide_until_deps_complete: true
 			id: "3C28EE39F70494BD"
 			rewards: [{
 				id: "7BB452F27158D37F"
@@ -402,14 +404,23 @@
 			dependencies: ["7096BA5276670D56"]
 			hide_dependency_lines: true
 			id: "382870F3E8699127"
-			rewards: [{
-				id: "6B6AD6D3A2D4445E"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					id: "6B6AD6D3A2D4445E"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "1E8D088667ABFBCA"
+					table_id: 9136516928215374765L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{

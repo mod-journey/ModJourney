@@ -13,14 +13,24 @@
 	quests: [
 		{
 			id: "01256AFE747A1CBF"
-			rewards: [{
-				id: "5619179DA7CB24C1"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "3E48017668866E36"
+					ignore_reward_blocking: true
+					stage: "intro"
+					team_reward: false
+					type: "gamestage"
 				}
-				type: "item"
-			}]
+				{
+					id: "24661D0C8FBF1D06"
+					item: {
+						count: 1
+						id: "minecraft:bundle"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1C4F77DADCA06904"
 				type: "checkmark"
@@ -29,7 +39,11 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["01256AFE747A1CBF"]
+			dependencies: [
+				"01256AFE747A1CBF"
+				"0E92633B7DC58B57"
+			]
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "334735438DFE505B"
 			rewards: [{
@@ -464,14 +478,23 @@
 				id: "minecraft:end_portal_frame"
 			}
 			id: "2C8AC35868B1A016"
-			rewards: [{
-				id: "32F4C350A13A2B04"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					id: "32F4C350A13A2B04"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "2CAAEAEC92E43CA7"
+					table_id: 9136516928215374765L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "1FD6CE4940D60707"
 				structure: "betterstrongholds:stronghold"
@@ -543,6 +566,9 @@
 		{
 			dependencies: ["03F62F0E4DEE0C1C"]
 			hide_until_deps_visible: true
+			icon: {
+				id: "minecraft:shulker_box"
+			}
 			id: "3C8CDA5FB3B3E5DD"
 			rewards: [{
 				id: "64BFB079C058C073"
@@ -554,7 +580,7 @@
 			}]
 			tasks: [{
 				id: "144C5013F487FC2D"
-				item: { count: 1, id: "minecraft:shulker_box" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:shulker_boxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 16.0d
@@ -774,11 +800,16 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["49D841614CC15BE6"]
+			dependencies: [
+				"49D841614CC15BE6"
+				"0E92633B7DC58B57"
+			]
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "06058D4919841D02"
 			optional: true
 			rewards: [{
+				auto: "disabled"
 				command: "/ftbranks add @p weekling"
 				exclude_from_claim_all: true
 				id: "2E96B6183FB01228"
@@ -802,6 +833,7 @@
 			id: "59E92107A4481944"
 			optional: true
 			rewards: [{
+				auto: "disabled"
 				command: "/ftbranks add @p double-weekling"
 				exclude_from_claim_all: true
 				id: "496226723098CD38"
@@ -825,6 +857,7 @@
 			id: "6E7B5D5F3EC952AD"
 			optional: true
 			rewards: [{
+				auto: "disabled"
 				command: "/ftbranks add @p triple-weekling"
 				exclude_from_claim_all: true
 				id: "05D519F88C5EBAC7"
@@ -848,6 +881,7 @@
 			id: "17F4AD786B66A4A7"
 			optional: true
 			rewards: [{
+				auto: "disabled"
 				command: "/ftbranks add @p monthling"
 				exclude_from_claim_all: true
 				id: "69D8BF511A6C798F"
@@ -868,6 +902,8 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["0E92633B7DC58B57"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "mod_journey:copper_coin"
 			}
@@ -895,12 +931,16 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["0E92633B7DC58B57"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "mod_journey:silver_coin"
 			}
 			id: "146D1D0765124A16"
 			optional: true
 			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
 				icon: {
 					id: "mod_journey:silver_coin"
 				}

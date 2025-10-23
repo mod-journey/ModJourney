@@ -1,0 +1,14 @@
+{
+	id: "47A9DF594527DA2B"
+	loot_size: 1
+	order_index: 22
+	rewards: [{
+		count: 25
+		id: "1AAF8B091DD1B5E6"
+		item: {
+			count: 1
+			id: "mod_journey:silver_coin"
+		}
+		random_bonus: 10
+	}]
+}

@@ -1342,14 +1342,23 @@
 				"09DE61B54DE1E50E"
 			]
 			id: "2BF9B94510F1D3C1"
-			rewards: [{
-				id: "23024306593803ED"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					id: "23024306593803ED"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "18E92BFF977E57E3"
+					table_id: 5163904022262307371L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
