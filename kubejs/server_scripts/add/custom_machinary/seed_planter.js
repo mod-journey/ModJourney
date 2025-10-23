@@ -25,6 +25,23 @@ let add_custom_machinary_seedplanter = (event, active, debug) => {
             .produceItem(`1x ${seed}`).chance(seed_chance)
     }
 
+    /**
+     * @param {String} seed
+     * @param {String} result
+     * @param {float} second_result
+     * @param {Int} energy
+     * @param {Int} time
+     */
+    function seedPlanterForMystical(seed, result, second_result, energy, time) {
+        event.recipes.custommachinery.custom_machine("mod_journey:seed_planter", time)
+            .requireEnergy(energy)
+            .requireFluid("1000 x minecraft:water")
+            .requireItem(`1x ${seed}`)
+            .produceItem(`1x ${seed}`)
+            .produceItem(`1x ${result}`)
+            .produceItem(`1x ${result}`).chance(second_result)
+    }
+
     croptopia_obj.forEach(id => {
         seedPlanterForCroptopia(id.seed, 0.25, id.crop, 0.5, 200, 2400)
     })
