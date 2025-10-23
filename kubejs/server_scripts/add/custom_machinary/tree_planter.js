@@ -8,23 +8,21 @@ let add_custom_machinary_treeplanter = (event, active, debug) => {
     let TwillightTrees = trees.twillight
 
     /**
-     *
      * @param {String} sapling
-     * @param {float} sapling_chance
-     * @param {Array} log
-     * @param {String} log_chance
+     * @param {String} MainResult
+     * @param {String} SecondResult
+     * @param {Int} energy
      * @param {Int} time
-     * @example tree_planter("sapling", 0.1, "log", 0.2)
      */
-    let tree_planter = (sapling, sapling_chance, log, log_chance, time) => {
-
+    let TreePlanter = (sapling, MainResult, SecondResult, energy, time) => {
         event.recipes.custommachinery.custom_machine("mod_journey:tree_planter", time)
-            .requireFluid("1000 x #minecraft:water")
+            .requireEnergy(energy)
+            .requireFluid("1000 x minecraft:water")
             .requireItem(`1x ${sapling}`)
-            .produceItem(`2x ${log}`)
-            .produceItem(`1x ${log}`).chance(sapling_chance)
             .produceItem(`1x ${sapling}`)
-            .produceItem(`1x ${sapling}`).chance(log_chance)
+            .produceItem(`1x ${sapling}`).chance(0.1)
+            .produceItem(`2x ${MainResult}`)
+            .produceItem(`1x ${SecondResult}`).chance(0.1)
     }
 
     croptopia_obj.trees.vanilla.forEach(id => {
