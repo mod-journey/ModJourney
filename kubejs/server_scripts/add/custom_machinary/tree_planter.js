@@ -25,7 +25,19 @@ let add_custom_machinary_treeplanter = (event, active, debug) => {
             .produceItem(`1x ${SecondResult}`).chance(0.1)
     }
 
-    croptopia_obj.trees.vanilla.forEach(id => {
-        tree_planter(id.sapling, 0.25, id.log, 0.5, 200)
+    vanillaTrees.forEach(tree => {
+        TreePlanter(tree.sapling, tree.log, tree.log, 4000, 800)
+    });
+
+    croptopiaTrees.forEach(tree => {
+        TreePlanter(tree.sapling, tree.result, tree.result, 4000, 800)
+    });
+
+    ArsTrees.forEach(tree => {
+        TreePlanter(tree.sapling, tree.result, tree.result, 4000, 800)
+    });
+
+    TwillightTrees.forEach(tree => {
+        TreePlanter(tree.sapling, tree.result.main, tree.result.second, 4000, 800)
     });
 }
