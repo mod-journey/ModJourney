@@ -59,44 +59,44 @@
       "height": 192
     },
     {
-      "type": "custommachinery:player_inventory",
-      "x": 44,
-      "y": 104
+      "type": "custommachinery:energy",
+      "x": 56,
+      "y": 35,
+      "width": 19,
+      "height": 58
     },
     {
       "type": "custommachinery:fluid",
       "id": "input",
-      "x": 82,
+      "x": 96,
       "y": 55,
       "height": 35
     },
     {
       "type": "custommachinery:fluid",
       "id": "output",
-      "x": 144,
+      "x": 156,
       "y": 55,
       "width": 19,
       "height": 35,
-      "highlight": false,
-      "orientation": "LEFT"
+      "highlight": false
     },
     {
-      "type": "custommachinery:energy",
-      "orientation": "BOTTOM",
-      "x": 21,
-      "y": 32,
-      "width": 19,
-      "height": 58
+      "type": "custommachinery:player_inventory",
+      "x": 44,
+      "y": 104
     },
     {
       "type": "custommachinery:progress",
-      "x": 110,
-      "y": 64
+      "x": 122,
+      "y": 64,
+      "width": 23,
+      "height": 24
     },
     {
       "type": "custommachinery:text",
       "x": 59,
-      "y": 20,
+      "y": 15,
       "height": 14,
       "text": {
         "text": "Brine Converter",
