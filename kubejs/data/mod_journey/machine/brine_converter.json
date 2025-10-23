@@ -8,13 +8,32 @@
   },
   "components": [
     {
+      "type": "custommachinery:energy",
+      "max_output": 8000,
+      "capacity": 256000,
+      "max_input": 32000
+    },
+    {
       "type": "custommachinery:fluid",
-      "whitelist": "#minecraft:water",
       "mode": "input",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT",
+        "input": true
+      },
+      "min_output": 1000,
+      "whitelist": [
+        "#minecraft:water",
+        "#c:brine"
+      ],
+      "max_input": 128000,
+      "max_output": 16000,
       "id": "input",
-      "capacity": 512000,
-      "max_input": 16000,
-      "max_output": 16000
+      "capacity": 512000
     },
     {
       "type": "custommachinery:fluid",
@@ -27,16 +46,10 @@
         "BACK": "OUTPUT",
         "LEFT": "OUTPUT"
       },
-      "id": "output",
-      "capacity": 256000,
       "max_input": 0,
-      "max_output": 16000
-    },
-    {
-      "type": "custommachinery:energy",
-      "capacity": 256000,
-      "max_input": 8000,
-      "max_output": 8000
+      "max_output": 128000,
+      "id": "output",
+      "capacity": 512000
     }
   ],
   "gui": [
