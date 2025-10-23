@@ -1,6 +1,12 @@
 let add_custom_machinary_treeplanter = (event, active, debug) => {
     if (!active) return;
 
+    let trees = global.seeds.trees
+    let vanillaTrees = trees.vanilla
+    let croptopiaTrees = trees.croptopia
+    let ArsTrees = trees.arsNoveau
+    let TwillightTrees = trees.twillight
+
     /**
      *
      * @param {String} sapling
