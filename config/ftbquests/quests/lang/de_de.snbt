@@ -1036,7 +1036,7 @@
 	quest.38C03105A0BAA33C.quest_subtitle: "Ein Zerkleinerer mit Nebenprodukten"
 	quest.38C06A9C50CC10B4.quest_desc: ["Platziere einen Meister Ritual Stein und klicke mit dem Ritual Diviner mit Rechtsklick drauf. Dein Ritual baut sich automatsch zusammen, sofern keine Blöcke im Weg sind und Du genug normale Rituale Steine im Inventar hast."]
 	quest.38D86F6C307C1B49.title: "Creeper II"
-	quest.38FCDBC67E137073.quest_desc: ["Alle 4 Stunden kann dein Team eine Münze bekommen. Die Zeit zählt nur solange Du aktiv auf dem Server online bist."]
+	quest.38FCDBC67E137073.quest_desc: ["Für 4 Stunden Onlinezeit auf dem Server kann dein Team eine Münze bekommen. Die Zeit zählt für jedes eingeloggte Mitglied des Teams."]
 	quest.391C89DCEF97A976.quest_desc: [
 		"Der Raumanzug schützt dich vor dem Lebensfeindlichen Vakuum, der außerhalb der Atmosphäre liegt. "
 		"{@pagebreak}"
