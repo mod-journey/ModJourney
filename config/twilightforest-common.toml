@@ -20,7 +20,7 @@ cloudBlockPrecipitationDistance = 32
 #MORE_HEALTH: increases the health of each boss by 20 hearts for each player nearby when the fight starts.
 #MORE_LOOT_AND_HEALTH: does both of the above functions for each boss.
 #Allowed Values: NONE, MORE_LOOT, MORE_HEALTH, MORE_LOOT_AND_HEALTH
-multiplayerFightAdjuster = "NONE"
+multiplayerFightAdjuster = "MORE_LOOT_AND_HEALTH"
 
 #Settings that are not reversible without consequences.
 ["Dimension Settings"]
