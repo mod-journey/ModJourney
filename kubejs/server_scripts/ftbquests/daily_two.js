@@ -61,7 +61,7 @@ FTBQuestsEvents.customReward("65A83C70BA4FDE02", event => {
     let rewardItem = stages.coins.silver
 
     // Check if an item is defined as Icon (otherwise it is identical to altIcon)
-    if (event.reward.icon.equals(event.reward.altIcon)) {
+    if (!event?.reward?.icon || event.reward.icon.equals(event.reward.altIcon)) {
         console.warn('Quest-Fehler: Kein Quest Reward definiert');
     } else {
         rewardItem = event.reward.icon.ingredient

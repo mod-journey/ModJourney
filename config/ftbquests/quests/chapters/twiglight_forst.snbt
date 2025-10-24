@@ -11,7 +11,17 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0E92633B7DC58B57"]
+			hide_until_deps_complete: true
 			id: "52B7129CA651630E"
+			rewards: [{
+				id: "79ECF684C8253284"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
 				id: "3FE836304C19A910"
@@ -23,6 +33,14 @@
 		{
 			dependencies: ["52B7129CA651630E"]
 			id: "749043D84EC00449"
+			rewards: [{
+				id: "2C50104E6874EF78"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3E1C467BD95969F0"
 				item: { count: 1, id: "twilightforest:magic_map" }
@@ -34,6 +52,14 @@
 		{
 			dependencies: ["749043D84EC00449"]
 			id: "18D0831832FC3783"
+			rewards: [{
+				id: "333669B98EE2A97D"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "72FFCC2D3D4C5F8D"
 				item: { count: 1, id: "twilightforest:quest_ram_trophy" }
@@ -45,6 +71,14 @@
 		{
 			dependencies: ["749043D84EC00449"]
 			id: "48CF9B4938E075C3"
+			rewards: [{
+				id: "0891E874CC29345F"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "235EE412900FB19E"
 				item: { count: 1, id: "twilightforest:ore_magnet" }
@@ -56,6 +90,14 @@
 		{
 			dependencies: ["749043D84EC00449"]
 			id: "74B147C71A1D55E9"
+			rewards: [{
+				id: "2F0450BD9E703A89"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7CAAA28D87EBBB7D"
 				item: { count: 1, id: "twilightforest:transformation_powder" }
@@ -67,6 +109,14 @@
 		{
 			dependencies: ["749043D84EC00449"]
 			id: "6F7793C5284BE3AA"
+			rewards: [{
+				id: "740FC604731E2BEF"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "27AFE4D717336DFE"
 				item: { count: 1, id: "twilightforest:naga_trophy" }
@@ -78,6 +128,14 @@
 		{
 			dependencies: ["6F7793C5284BE3AA"]
 			id: "0AEF2BF3D306BD40"
+			rewards: [{
+				id: "2C0BAEABCD67DB0D"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "470F806F346D5612"
@@ -96,6 +154,14 @@
 		{
 			dependencies: ["6F7793C5284BE3AA"]
 			id: "3D48EF5B90DCEC58"
+			rewards: [{
+				id: "11F9E1209A4A2FC1"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E230613FBE36152"
 				item: { count: 1, id: "twilightforest:lich_trophy" }
@@ -107,6 +173,14 @@
 		{
 			dependencies: ["3D48EF5B90DCEC58"]
 			id: "7D012E6E2BAAA894"
+			rewards: [{
+				id: "76E92842889ABC24"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "71A77CA15D6C04EB"
 				item: { count: 1, id: "twilightforest:minoshroom_trophy" }
@@ -118,6 +192,14 @@
 		{
 			dependencies: ["7D012E6E2BAAA894"]
 			id: "76950DF183608C14"
+			rewards: [{
+				id: "66B1F534B84BE530"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "66580D28D4C8B1F1"
 				item: { count: 1, id: "twilightforest:hydra_trophy" }
@@ -129,6 +211,14 @@
 		{
 			dependencies: ["3D48EF5B90DCEC58"]
 			id: "313F0AE94B8D024A"
+			rewards: [{
+				id: "3002E0D0FF8ECDD0"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B102E1F2CBF1950"
 				item: { count: 1, id: "twilightforest:knight_phantom_trophy" }
@@ -140,6 +230,14 @@
 		{
 			dependencies: ["313F0AE94B8D024A"]
 			id: "1723FFB5419D44DE"
+			rewards: [{
+				id: "01570B4154985B07"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6CC4483212E9D0CA"
 				item: { count: 1, id: "twilightforest:ur_ghast_trophy" }
@@ -151,6 +249,14 @@
 		{
 			dependencies: ["3D48EF5B90DCEC58"]
 			id: "4B9CC6EB7E14CAD7"
+			rewards: [{
+				id: "6A169C623DF47004"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4756C52BF0B8B873"
 				item: { count: 1, id: "twilightforest:alpha_yeti_trophy" }
@@ -162,6 +268,14 @@
 		{
 			dependencies: ["4B9CC6EB7E14CAD7"]
 			id: "5280B2FB8CDB40A7"
+			rewards: [{
+				id: "44EEB718F172916D"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "56761F7993A9652E"
 				item: { count: 1, id: "twilightforest:snow_queen_trophy" }
@@ -177,6 +291,14 @@
 				"5280B2FB8CDB40A7"
 			]
 			id: "4DF15145C5B5DAF9"
+			rewards: [{
+				id: "089565600C135AAF"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "41BD2E2D26D48CD0"
 				item: { count: 1, id: "twilightforest:magic_beans" }
@@ -188,6 +310,23 @@
 		{
 			dependencies: ["4DF15145C5B5DAF9"]
 			id: "0A55D16D98903B07"
+			rewards: [
+				{
+					id: "5263A6D2D65AFEBF"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1002D76C7207C455"
+					table_id: 1221953208027045268L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "0F2D3FC48EC19354"
@@ -206,6 +345,14 @@
 		{
 			dependencies: ["3D48EF5B90DCEC58"]
 			id: "37DFFD79867D6F8F"
+			rewards: [{
+				id: "4C5AFC27506224A7"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C2197C0CF3E8B3F"
 				item: { count: 1, id: "twilightforest:charm_of_keeping_1" }
@@ -217,6 +364,14 @@
 		{
 			dependencies: ["37DFFD79867D6F8F"]
 			id: "2197D9C85349D768"
+			rewards: [{
+				id: "36C7D2135A251EDF"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F117051A3380984"
 				item: { count: 1, id: "twilightforest:charm_of_keeping_2" }
@@ -228,6 +383,14 @@
 		{
 			dependencies: ["2197D9C85349D768"]
 			id: "3BB2E4884DAA9AAC"
+			rewards: [{
+				id: "22C1A95EE69804DC"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "65879EE0CB7F2298"
 				item: { count: 1, id: "twilightforest:charm_of_keeping_3" }

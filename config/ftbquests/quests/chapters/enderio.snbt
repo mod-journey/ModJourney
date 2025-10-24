@@ -10,22 +10,16 @@
 		{
 			dependencies: ["4AED5A8C9C70A9C9"]
 			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "2F46349E2FB2FB5E"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "366DE9787815C241"
-					type: "loot"
+			rewards: [{
+				id: "313A3638F7B32994"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "6F2DF7DBEED7C8E0"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "3FCD42BFBF8E5A11"
 				item: { count: 1, id: "enderio:primitive_alloy_smelter" }
@@ -37,21 +31,14 @@
 		{
 			dependencies: ["2F46349E2FB2FB5E"]
 			id: "43EC5FE25FE59E04"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "342B530BC9762059"
-					type: "loot"
+			rewards: [{
+				id: "46853D25EC5D2EB5"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "70E2758FDCED74E6"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "665CA948342D570E"
 				item: { count: 1, id: "enderio:void_chassis" }
@@ -63,21 +50,14 @@
 		{
 			dependencies: ["43EC5FE25FE59E04"]
 			id: "27D6FC9CD8EB9972"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0BCAC79648042415"
-					type: "loot"
+			rewards: [{
+				id: "613826B37326A41D"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "02A0AAADFA4B5118"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "052ABD7FD728611F"
 				item: { count: 1, id: "enderio:alloy_smelter" }
@@ -89,21 +69,14 @@
 		{
 			dependencies: ["43EC5FE25FE59E04"]
 			id: "4C72FCF52B1BCF62"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "7F42C2358DCDE48A"
-					type: "loot"
+			rewards: [{
+				id: "361501E7F6F7457F"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "6E2C7D38B40B9B47"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "6FB0E6FF833F2007"
 				item: { count: 1, id: "enderio:stirling_generator" }
@@ -115,21 +88,14 @@
 		{
 			dependencies: ["43EC5FE25FE59E04"]
 			id: "09DE377FBFD4EEE6"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5A69E9BA53F0C7E6"
-					type: "loot"
+			rewards: [{
+				id: "74FA1526ADC04DEE"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "57659B1CB2F6193D"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "37B1ED1D03B8284E"
 				item: { count: 1, id: "enderio:sag_mill" }
@@ -141,21 +107,14 @@
 		{
 			dependencies: ["43EC5FE25FE59E04"]
 			id: "4DD6674128E5E84E"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "71E8B5C715744099"
-					type: "loot"
+			rewards: [{
+				id: "5EFC812FB62F4D47"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "755E2AA587ED257E"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "30874CBB78C324A8"
 				item: { count: 1, id: "enderio:impulse_hopper" }
@@ -167,21 +126,14 @@
 		{
 			dependencies: ["43EC5FE25FE59E04"]
 			id: "3C78EC2BA4D9C768"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4539155C5532E2F0"
-					type: "loot"
+			rewards: [{
+				id: "5DBE5CB770785048"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "1DB526103B3EFA8F"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "6734653B33AFEE5F"
 				item: { count: 1, id: "enderio:crafter" }
@@ -193,21 +145,14 @@
 		{
 			dependencies: ["43EC5FE25FE59E04"]
 			id: "1984B3E8D4571351"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "79CAF046CA92427C"
-					type: "loot"
+			rewards: [{
+				id: "04D55A31B3983587"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "6CE6BD21016060A0"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "099344A3366953CD"
 				item: { count: 1, id: "enderio:wired_charger" }
@@ -219,21 +164,14 @@
 		{
 			dependencies: ["43EC5FE25FE59E04"]
 			id: "0280DF9600A31C64"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "03AA9D9B8A124BC3"
-					type: "loot"
+			rewards: [{
+				id: "600778F5CBB92D18"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "2579B5AE5CDB6F1A"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "174C91B35DF37B66"
 				item: { count: 1, id: "enderio:painting_machine" }
@@ -245,21 +183,14 @@
 		{
 			dependencies: ["43EC5FE25FE59E04"]
 			id: "6961BD48A05266D3"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "25C07DF7E5476A7E"
-					type: "loot"
+			rewards: [{
+				id: "39D8E4077BB86D80"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "6080691DEBAE542B"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "106728410ECC8369"
 				item: { count: 1, id: "enderio:drain" }
@@ -271,21 +202,14 @@
 		{
 			dependencies: ["27D6FC9CD8EB9972"]
 			id: "2D5CF655D3B6B361"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "48F0C29D80B27B86"
-					type: "loot"
+			rewards: [{
+				id: "5A82A6A3759FBACF"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "0F7DC5C60FC869A1"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "6C3B7B71F7188A9E"
 				item: { count: 1, id: "enderio:copper_alloy_ingot" }
@@ -297,21 +221,14 @@
 		{
 			dependencies: ["27D6FC9CD8EB9972"]
 			id: "5FEDA60DCF0982AD"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3F6ABAD0A8B4815E"
-					type: "loot"
+			rewards: [{
+				id: "779F35D190327531"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "57CE05AFA1F9472D"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "4FD71B2D319A9333"
 				item: { count: 1, id: "enderio:energetic_alloy_ingot" }
@@ -323,21 +240,14 @@
 		{
 			dependencies: ["27D6FC9CD8EB9972"]
 			id: "5A802C9BD8C0E462"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "36FE243F9DCF13C7"
-					type: "loot"
+			rewards: [{
+				id: "570914CF10561296"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "423ABDC5E9E23557"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "1E55AA8A0CC3C173"
 				item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
@@ -349,21 +259,14 @@
 		{
 			dependencies: ["27D6FC9CD8EB9972"]
 			id: "47DA21CC25CC9E31"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "54EC066137F5E153"
-					type: "loot"
+			rewards: [{
+				id: "377519ED87706D6D"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "20A3AEA7E2A155FA"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "442BDFE8FD0FED4B"
 				item: { count: 1, id: "enderio:redstone_alloy_ingot" }
@@ -375,21 +278,14 @@
 		{
 			dependencies: ["27D6FC9CD8EB9972"]
 			id: "6FF44DFF744F00D2"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "60A19A0DDB118892"
-					type: "loot"
+			rewards: [{
+				id: "349A5B8A4332D577"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "53D41F66282DE272"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "7FDC996AB6743097"
 				item: { count: 1, id: "enderio:conductive_alloy_ingot" }
@@ -401,21 +297,14 @@
 		{
 			dependencies: ["27D6FC9CD8EB9972"]
 			id: "005D59ED47854E72"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4945958514200BD8"
-					type: "loot"
+			rewards: [{
+				id: "56964AD17AA4F402"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "336128AA79130297"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "7CEC0BA6335D2088"
 				item: { count: 1, id: "enderio:pulsating_alloy_ingot" }
@@ -427,21 +316,14 @@
 		{
 			dependencies: ["27D6FC9CD8EB9972"]
 			id: "35C09FD3A573FBE5"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1CFA430553D9C364"
-					type: "loot"
+			rewards: [{
+				id: "50764F610014D7B4"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "30DB97066D92D1F9"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "30E0F04FD48DCB38"
 				item: { count: 1, id: "enderio:soularium_ingot" }
@@ -453,21 +335,14 @@
 		{
 			dependencies: ["35C09FD3A573FBE5"]
 			id: "5AB9C7D5C08514D3"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "216AF68C7525074F"
-					type: "loot"
+			rewards: [{
+				id: "3CDA960E3A8E7102"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "4475B9B0DFDC7D44"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "2DD075F311617C8A"
 				item: { count: 1, id: "enderio:ensouled_chassis" }
@@ -479,21 +354,14 @@
 		{
 			dependencies: ["5AB9C7D5C08514D3"]
 			id: "2CA56084383CCE54"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0DDC8031E3E5E56B"
-					type: "loot"
+			rewards: [{
+				id: "36EF13C9F7D07F87"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "09D0B1668A19A7B6"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "33288E290AD475B3"
 				item: { count: 1, id: "enderio:slice_and_splice" }
@@ -505,21 +373,14 @@
 		{
 			dependencies: ["1FECF498C9884A41"]
 			id: "0F6BA187373980D6"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2AD24AA503D791AB"
-					type: "loot"
+			rewards: [{
+				id: "7334CDAB6C1701FC"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "46B922211B5C7F3E"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "3AD768C54FA319FB"
 				item: { count: 1, id: "enderio:soul_binder" }
@@ -531,26 +392,14 @@
 		{
 			dependencies: ["5999BDA8E21BF652"]
 			id: "0C2DA9F1898DDD23"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4E97D5FB3B95A06C"
-					type: "loot"
+			rewards: [{
+				id: "00E061D355AC0B4F"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "4D09318DD44FAE90"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "323474DC56EDB5EA"
-					type: "loot"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "34F5DD272F059BF9"
 				item: { count: 1, id: "enderio:powered_spawner" }
@@ -562,21 +411,14 @@
 		{
 			dependencies: ["1FECF498C9884A41"]
 			id: "2530D1CD2EB009FD"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "620767CA7364CB7F"
-					type: "loot"
+			rewards: [{
+				id: "2A7F1606EB50A35A"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "3D4CB91C6DCB2DE9"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "57D625BEAA0A25F7"
 				item: { count: 1, id: "enderio:soul_engine" }
@@ -588,26 +430,14 @@
 		{
 			dependencies: ["5AB9C7D5C08514D3"]
 			id: "1F8F537E56CCED3F"
-			rewards: [
-				{
-					id: "40636E663F9D2E5C"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
+			rewards: [{
+				id: "1B469ACB06D875AB"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "1D6470226A0C13D4"
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4E19A76F7D7CBD92"
-					type: "loot"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "7C32151A50AA50C1"
 				item: { count: 1, id: "enderio:xp_obelisk" }
@@ -617,22 +447,17 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["2F46349E2FB2FB5E"]
+			hide_dependency_lines: true
 			id: "5317D16EC35D2E6F"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "490F20CE0B8515AC"
-					type: "loot"
+			rewards: [{
+				id: "7FF5CFAF0E474AC2"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "5F46073E86A59E57"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "199AB05CA66B7446"
 				item: { count: 1, id: "enderio:conduit_binder_composite" }
@@ -644,21 +469,14 @@
 		{
 			dependencies: ["5317D16EC35D2E6F"]
 			id: "2FE5DB7958850DBB"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "285BBC25E809E438"
-					type: "loot"
+			rewards: [{
+				id: "112BBD54F2DAC0AA"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "6C6ED107D9CFE317"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "3ABE95DE8CE5EC40"
 				item: { count: 1, id: "enderio:conduit_binder" }
@@ -670,21 +488,14 @@
 		{
 			dependencies: ["2FE5DB7958850DBB"]
 			id: "266A20F09376D14B"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "712B982C68512FF4"
-					type: "loot"
+			rewards: [{
+				id: "5C51BC24235ED149"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "679FBF63FC0CF4B3"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "3BAE03D98B3D2A35"
 				item: { components: { "enderio:conduit": "enderio:energy" }, count: 1, id: "enderio:conduit" }
@@ -696,21 +507,14 @@
 		{
 			dependencies: ["2FE5DB7958850DBB"]
 			id: "77686E29A21BD2CF"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4A4AAC8AF24BDA1A"
-					type: "loot"
+			rewards: [{
+				id: "47181C15F00AD3A5"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "61892FBE39236549"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "525B76D8CD307F34"
 				item: { components: { "enderio:conduit": "enderio:fluid" }, count: 1, id: "enderio:conduit" }
@@ -722,21 +526,14 @@
 		{
 			dependencies: ["2FE5DB7958850DBB"]
 			id: "7D8477083E7E406B"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2C9504704791E3B0"
-					type: "loot"
+			rewards: [{
+				id: "665F60C145605993"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "1109A7AE5B879B26"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "5439622E64532007"
 				item: { components: { "enderio:conduit": "enderio:pressurized_fluid" }, count: 1, id: "enderio:conduit" }
@@ -748,21 +545,14 @@
 		{
 			dependencies: ["2FE5DB7958850DBB"]
 			id: "2880A9BBB43A3354"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "293A6DD0A20A3365"
-					type: "loot"
+			rewards: [{
+				id: "6D33DDB849E590DD"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "3DA2CD093B881FFD"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "320CE2E1C23B1801"
 				item: { components: { "enderio:conduit": "enderio:ender_fluid" }, count: 1, id: "enderio:conduit" }
@@ -774,21 +564,14 @@
 		{
 			dependencies: ["2FE5DB7958850DBB"]
 			id: "2549895C11DA2A72"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "576363968594526B"
-					type: "loot"
+			rewards: [{
+				id: "38857236FFEB6593"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "4EA63CD4270AF7D1"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "4FF9469476EFA496"
 				item: { components: { "enderio:conduit": "enderio:redstone" }, count: 1, id: "enderio:conduit" }
@@ -800,21 +583,14 @@
 		{
 			dependencies: ["2FE5DB7958850DBB"]
 			id: "4597219C75AC74FE"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "22664E7B7F186AC3"
-					type: "loot"
+			rewards: [{
+				id: "19EB7383267BE5DA"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "0E9897DD6A32B9BC"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "542ABDF838676327"
 				item: { components: { "enderio:conduit": "enderio:item" }, count: 1, id: "enderio:conduit" }
@@ -826,21 +602,14 @@
 		{
 			dependencies: ["2FE5DB7958850DBB"]
 			id: "600D1DCA8A309FA2"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "792720ABF891B0E9"
-					type: "loot"
+			rewards: [{
+				id: "7C1E5E732EC6EBC3"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "321AA32E888A3EE6"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "616111FD3BD2E751"
 				item: { components: { "enderio:conduit": "enderio:dense_me" }, count: 1, id: "enderio:conduit" }
@@ -852,21 +621,14 @@
 		{
 			dependencies: ["2FE5DB7958850DBB"]
 			id: "56F71D6AE8B46F84"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1D55F2BFCD7AD171"
-					type: "loot"
+			rewards: [{
+				id: "3441817AF9C7FD69"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "62ED4E070D8E9D1D"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "0990B1683E3DABD6"
 				item: { components: { "enderio:conduit": "enderio:me" }, count: 1, id: "enderio:conduit" }
@@ -878,21 +640,14 @@
 		{
 			dependencies: ["2FE5DB7958850DBB"]
 			id: "0D8911CE6BFF3641"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3389759EC07DFF93"
-					type: "loot"
+			rewards: [{
+				id: "60790E9E2552BBCE"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "3B7E2B9CCDE2B32F"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "15AD6B6264A553A6"
 				item: { components: { "enderio:conduit": "enderio:chemical" }, count: 1, id: "enderio:conduit" }
@@ -904,21 +659,14 @@
 		{
 			dependencies: ["2FE5DB7958850DBB"]
 			id: "124F5E06E6C28F5E"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3FD9019B28E04372"
-					type: "loot"
+			rewards: [{
+				id: "7158B26CFB7EE7CF"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "04E2932E055D0E1C"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "466E4C65E9CE136C"
 				item: { components: { "enderio:conduit": "enderio:ender_chemical" }, count: 1, id: "enderio:conduit" }
@@ -930,21 +678,14 @@
 		{
 			dependencies: ["2FE5DB7958850DBB"]
 			id: "35D0209045F7808D"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "34C61F7E02A12033"
-					type: "loot"
+			rewards: [{
+				id: "5EED869DABA6CB3B"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "2E06B2EF134978DB"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "095AC37DBF20415A"
 				item: { components: { "enderio:conduit": "enderio:heat" }, count: 1, id: "enderio:conduit" }
@@ -954,22 +695,17 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2F46349E2FB2FB5E"]
+			hide_dependency_lines: true
 			id: "711BD2AFB5308AC5"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5857FD9591F5BCB7"
-					type: "loot"
+			rewards: [{
+				id: "30B63996669CF01C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "081F380FC498D731"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "3BA010EDF39A3A0B"
 				item: { count: 1, id: "enderio:grains_of_infinity" }
@@ -981,21 +717,14 @@
 		{
 			dependencies: ["711BD2AFB5308AC5"]
 			id: "6D6BDB34D4A1234F"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5B0BEA794099BC0F"
-					type: "loot"
+			rewards: [{
+				id: "024FBEFFC2F39303"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "38B9407012654419"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "0848782F5CD57CD0"
 				item: { count: 1, id: "enderio:basic_capacitor" }
@@ -1007,21 +736,14 @@
 		{
 			dependencies: ["6D6BDB34D4A1234F"]
 			id: "10419829E1390C09"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "27EA06F9D5E69268"
-					type: "loot"
+			rewards: [{
+				id: "5AAC32B1C37464F7"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "424E5FF44777A2E3"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "06F5AEA450EE6F2C"
 				item: { count: 1, id: "enderio:double_layer_capacitor" }
@@ -1033,21 +755,14 @@
 		{
 			dependencies: ["6D6BDB34D4A1234F"]
 			id: "2ED3978C8CC2913E"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1D037108D30764D6"
-					type: "loot"
+			rewards: [{
+				id: "754869D508C16196"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "5A706FE7FF6DB305"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E60208FD6E3C56D"
 				item: { count: 1, id: "enderio:basic_capacitor_bank" }
@@ -1059,21 +774,14 @@
 		{
 			dependencies: ["10419829E1390C09"]
 			id: "7131127D8E70DE3A"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "796B152CABE2C94A"
-					type: "loot"
+			rewards: [{
+				id: "40CB31632B26ED9E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "4855D4FF83FF1F56"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "1BA0094EF52378C8"
 				item: { count: 1, id: "enderio:advanced_capacitor_bank" }
@@ -1085,26 +793,14 @@
 		{
 			dependencies: ["64F75C09E1330010"]
 			id: "519721DF1164FE4C"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "27E877251A1FDDD6"
-					type: "loot"
+			rewards: [{
+				id: "38F8E3B8D682E585"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "239F58D4520C2F6A"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "31490ABEF44B8AE6"
-					type: "loot"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E91D1398797DB61"
 				item: { count: 1, id: "enderio:vibrant_capacitor_bank" }
@@ -1116,21 +812,14 @@
 		{
 			dependencies: ["6D6BDB34D4A1234F"]
 			id: "2243B88F25C286AE"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "49935DD1335A19ED"
-					type: "loot"
+			rewards: [{
+				id: "3AD7E7791660DF60"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "3ED5B0859294BBF6"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "09BA167CC0225FF7"
 				item: { count: 1, id: "enderio:energetic_photovoltaic_module" }
@@ -1142,21 +831,14 @@
 		{
 			dependencies: ["10419829E1390C09"]
 			id: "09247D960B99AA44"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "61F1DFF241A245CA"
-					type: "loot"
+			rewards: [{
+				id: "47E36E8A6B63CF91"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "7C352A385225D66B"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "4E0B1F249656ADCD"
 				item: { count: 1, id: "enderio:pulsating_photovoltaic_module" }
@@ -1168,21 +850,14 @@
 		{
 			dependencies: ["64F75C09E1330010"]
 			id: "0B681B3613C89D7D"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5A047A8DF79B3DA0"
-					type: "loot"
+			rewards: [{
+				id: "70C5FA7F59305B07"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "39EB95A26C28089A"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "3725A41AABCA293C"
 				item: { count: 1, id: "enderio:vibrant_photovoltaic_module" }
@@ -1194,21 +869,14 @@
 		{
 			dependencies: ["2FE5DB7958850DBB"]
 			id: "2C17E9EA8E4934F2"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "33C80DD8796EC342"
-					type: "loot"
+			rewards: [{
+				id: "55B139FBE23421E3"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "52940562DF3B652C"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "04877F9798D0B635"
 				item: { count: 1, id: "enderio:yeta_wrench" }
@@ -1220,21 +888,14 @@
 		{
 			dependencies: ["2CA56084383CCE54"]
 			id: "1FECF498C9884A41"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6804C0B3A55B8D07"
-					type: "loot"
+			rewards: [{
+				id: "35DA0835582DFF79"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "516EEDDFA8E77314"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E79612594839F7A"
 				item: { count: 1, id: "enderio:zombie_electrode" }
@@ -1246,21 +907,14 @@
 		{
 			dependencies: ["2CA56084383CCE54"]
 			id: "5999BDA8E21BF652"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "70DBE9A9175F605A"
-					type: "loot"
+			rewards: [{
+				id: "31EB2E8C0BA0B0C5"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "610FCCBF309682ED"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E150EC8D262AAF7"
 				item: { count: 1, id: "enderio:z_logic_controller" }
@@ -1272,26 +926,14 @@
 		{
 			dependencies: ["005D59ED47854E72"]
 			id: "3E6D24F69315E37B"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "7AFA9207DA6F7DCE"
-					type: "loot"
+			rewards: [{
+				id: "69C07C838FD1C12A"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "24E04A1F81BC92E4"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6FC8834F94594896"
-					type: "loot"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "0E3F9CA4F56F201B"
 				item: { count: 1, id: "enderio:travel_anchor" }
@@ -1304,14 +946,23 @@
 			dependencies: ["3E6D24F69315E37B"]
 			dependency_requirement: "all_started"
 			id: "09D13F484D269069"
-			rewards: [{
-				id: "1C6ACC2EB39BBD9B"
-				item: {
-					count: 1
-					id: "minecraft:apple"
+			rewards: [
+				{
+					id: "3CDCA9E5C8FBFF89"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "1F1F90A36DC96726"
+					table_id: 1221953208027045268L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "3E0BC5CB4A1E5006"
 				item: { count: 1, id: "enderio:staff_of_travelling" }
@@ -1323,21 +974,14 @@
 		{
 			dependencies: ["27D6FC9CD8EB9972"]
 			id: "10382E88CA309FC9"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2B9250024D9FEBB3"
-					type: "loot"
+			rewards: [{
+				id: "541590202C5E97BB"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "6049EB83EA98BC34"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "45B0E86EAA7D1CAB"
 				item: { count: 1, id: "enderio:dark_steel_ingot" }
@@ -1349,21 +993,14 @@
 		{
 			dependencies: ["10382E88CA309FC9"]
 			id: "1C943785CEBDE751"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "72314AE013DB362B"
-					type: "loot"
+			rewards: [{
+				id: "020825DA82805B7E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "4A5724BBADF06F51"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "08A6B5430A42CE0C"
 				item: { count: 1, id: "enderio:dark_steel_sword" }
@@ -1379,21 +1016,14 @@
 				"2530D1CD2EB009FD"
 			]
 			id: "7E09B6005EC482B2"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "7A125B7AFDDB601A"
-					type: "loot"
+			rewards: [{
+				id: "3FC49204E5FD066D"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "13B195015166F4C0"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "58E53D98373BFEEF"
 				item: { count: 1, id: "enderio:empty_soul_vial" }
@@ -1408,21 +1038,14 @@
 				"5A3F197163224055"
 			]
 			id: "3563D0E47D3E64BD"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "46585A17A51E0E9E"
-					type: "loot"
+			rewards: [{
+				id: "41CA9409F6918979"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "56C0B650B0EEFA73"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "0571DBBB62FF9C0E"
 				item: { count: 1, id: "enderio:xp_juice_bucket" }
@@ -1434,21 +1057,14 @@
 		{
 			dependencies: ["3563D0E47D3E64BD"]
 			id: "43566D2C92804642"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "75FD178D836795FA"
-					type: "loot"
+			rewards: [{
+				id: "6A5B44F468E5AE8D"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "7C288B4AD8D769DF"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "5A303EE97C836137"
 				item: { count: 1, id: "enderio:fluid_tank" }
@@ -1460,21 +1076,14 @@
 		{
 			dependencies: ["7E09B6005EC482B2"]
 			id: "5A3F197163224055"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "47B1AA9449FB50E2"
-					type: "loot"
+			rewards: [{
+				id: "2141A04CF320B39E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "25919E3240D86DDD"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "3E53E12A5185ECCD"
 				item: { count: 1, id: "enderio:xp_vacuum" }
@@ -1487,10 +1096,10 @@
 			dependencies: ["10419829E1390C09"]
 			id: "64F75C09E1330010"
 			rewards: [{
-				id: "0734CD50A891CC99"
+				id: "0FA6E980C930F81A"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]

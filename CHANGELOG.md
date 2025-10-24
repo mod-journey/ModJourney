@@ -1,10 +1,12 @@
 # Changelog:
 
 ## NEXT RELEASE
+## v2.0.1.7-rc1
+
 <!--
 ## v2.0.1.6
 
-#### Mods updatet:
+#### Mods updated:
 
 #### Mods removed:
 - lootr
@@ -13,6 +15,19 @@
 - Fix some Grammer Issues in Questbook
 - Fix some dependencies in Questbook
 - Fix some Tasks in Questbook
+- Chunky Border now visible on Servers
+- Fix Industrial Fluid Laser pump Stellaris Oil
+- re-add Iron Farm from Easy Villagers
+  - smurf it.
+  - add to stage 2
+- re-balance Stage 4 Crafting Item
+- Add AE2 Gating, near to MJ1
+- re-balance Extended Crafting Staging.
+- remove Steel Block back crafting Recipe from Stellaris
+- remove crafting Recipe from Omega Upgrade (sophisticated), while add to creativ Shop.
+- re-add Ultimine bind ob tiered Tools.
+  - remove old Mods e.g. Blood-Magic and Blue-Skies
+  - add Mods e.g. Nature Aura, Occultism and Twillight-Forest
 -->
 
 <!--

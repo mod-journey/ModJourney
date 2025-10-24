@@ -45,8 +45,16 @@
 				"1037AFA7BDC22B53"
 			]
 			dependency_requirement: "one_completed"
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "67E0A85291DD6898"
+			rewards: [{
+				id: "2DEAB8998A11B572"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "5733EFA5095EC02E"
@@ -59,6 +67,14 @@
 		{
 			dependencies: ["67E0A85291DD6898"]
 			id: "213B59D4A4A2309C"
+			rewards: [{
+				id: "39789DF5C39F5C26"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0E8C49B4E5B87CE0"
 				item: { count: 1, id: "mekanism:metallurgic_infuser" }
@@ -70,6 +86,14 @@
 		{
 			dependencies: ["213B59D4A4A2309C"]
 			id: "79DAFA68FD4E2B02"
+			rewards: [{
+				id: "3F910098DDA93C7F"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5D81130DD6115F33"
 				item: { count: 1, id: "mekanism:alloy_infused" }
@@ -81,6 +105,14 @@
 		{
 			dependencies: ["213B59D4A4A2309C"]
 			id: "3A3882E12DCDE43B"
+			rewards: [{
+				id: "686F08C91DDD9334"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "58004D4CE0D6DCFB"
 				item: { count: 1, id: "mekanism:basic_control_circuit" }
@@ -92,6 +124,14 @@
 		{
 			dependencies: ["79DAFA68FD4E2B02"]
 			id: "7A75B6249AA7549C"
+			rewards: [{
+				id: "1F2DC5A8276EA1E5"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1782E07B5403A11A"
 				item: { count: 1, id: "mekanism:alloy_reinforced" }
@@ -103,6 +143,14 @@
 		{
 			dependencies: ["7A75B6249AA7549C"]
 			id: "77ABFA8CC2699810"
+			rewards: [{
+				id: "7C1EAE0700E5D760"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "654938AF42F03264"
 				item: { count: 1, id: "mekanism:alloy_atomic" }
@@ -117,6 +165,14 @@
 				"3A3882E12DCDE43B"
 			]
 			id: "339D55DA1B556CF6"
+			rewards: [{
+				id: "025EB8B1711F6505"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1BD487D10F09773F"
 				item: { count: 1, id: "mekanism:advanced_control_circuit" }
@@ -131,6 +187,14 @@
 				"339D55DA1B556CF6"
 			]
 			id: "76E4B46A1DD43D4A"
+			rewards: [{
+				id: "36E64F2B84083315"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1028B0ADD527CC94"
 				item: { count: 1, id: "mekanism:elite_control_circuit" }
@@ -145,6 +209,14 @@
 				"76E4B46A1DD43D4A"
 			]
 			id: "4986EFA770F41602"
+			rewards: [{
+				id: "1EEC4CB340366E72"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B739813BC934A31"
 				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
@@ -156,6 +228,14 @@
 		{
 			dependencies: ["5247B4D479B922A8"]
 			id: "3216B8401F5ECF46"
+			rewards: [{
+				id: "0076E15C5F6713FB"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5D32410E3D0A96BE"
 				item: { count: 1, id: "mekanism:enrichment_chamber" }
@@ -167,6 +247,14 @@
 		{
 			dependencies: ["67E0A85291DD6898"]
 			id: "6C5BE975156902BA"
+			rewards: [{
+				id: "2FA5BD6AA287EB12"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "57714D240D66B27F"
 				item: { count: 1, id: "mekanism:precision_sawmill" }
@@ -178,17 +266,25 @@
 		{
 			dependencies: ["3216B8401F5ECF46"]
 			id: "7754B3B038441488"
+			rewards: [{
+				id: "43BB43AD7495182A"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 4L
 					id: "64A2DD96297BD56E"
-					item: { count: 4, id: "alltheores:osmium_dust" }
+					item: { count: 1, id: "alltheores:osmium_dust" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "67D7D97A3C76987D"
-					item: { count: 4, id: "alltheores:iron_dust" }
+					item: { count: 1, id: "alltheores:iron_dust" }
 					type: "item"
 				}
 			]
@@ -198,6 +294,14 @@
 		{
 			dependencies: ["67E0A85291DD6898"]
 			id: "444FB8FF968762F5"
+			rewards: [{
+				id: "2F076ACF1872FEF8"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "074B09E21998ADD2"
 				item: { count: 1, id: "mekanism:crusher" }
@@ -209,6 +313,14 @@
 		{
 			dependencies: ["67E0A85291DD6898"]
 			id: "3A4BFC07D070A412"
+			rewards: [{
+				id: "45B127A333005ABC"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C1688DEA2C2162E"
 				item: { count: 1, id: "mekanism:osmium_compressor" }
@@ -220,6 +332,14 @@
 		{
 			dependencies: ["67E0A85291DD6898"]
 			id: "734F7DE4578DDD6E"
+			rewards: [{
+				id: "36BCFE2FF65F5473"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "44442D6D087941EE"
 				item: { count: 1, id: "mekanism:chemical_injection_chamber" }
@@ -231,6 +351,14 @@
 		{
 			dependencies: ["67E0A85291DD6898"]
 			id: "507AC04DB8B8A8B9"
+			rewards: [{
+				id: "609A5CD2810C503A"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6A735F68E38C27EA"
 				item: { count: 1, id: "mekanism:purification_chamber" }
@@ -242,6 +370,14 @@
 		{
 			dependencies: ["6C5BE975156902BA"]
 			id: "75EE38089094F5A0"
+			rewards: [{
+				id: "0078382CC9F2DF49"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6C2A217198581858"
 				item: { count: 1, id: "mekanism:sawdust" }
@@ -253,6 +389,14 @@
 		{
 			dependencies: ["75EE38089094F5A0"]
 			id: "6D2C5C59D1DF0F56"
+			rewards: [{
+				id: "68B7CC3C2BC70519"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D33C46033E491C2"
 				item: { count: 1, id: "mekanism:cardboard_box" }
@@ -264,6 +408,14 @@
 		{
 			dependencies: ["7754B3B038441488"]
 			id: "2610548C507F9BED"
+			rewards: [{
+				id: "7FD2198CB72AC72C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "12101FA4930BA4E5"
 				item: { count: 1, id: "mekanism:energized_smelter" }
@@ -275,17 +427,25 @@
 		{
 			dependencies: ["2610548C507F9BED"]
 			id: "33C76E3BA8A79D32"
+			rewards: [{
+				id: "3F163A4A1D81A9D7"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 4L
 					id: "1DA50BC442446037"
-					item: { count: 4, id: "minecraft:iron_ingot" }
+					item: { count: 1, id: "minecraft:iron_ingot" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "3A955484C8DAE35A"
-					item: { count: 4, id: "alltheores:osmium_ingot" }
+					item: { count: 1, id: "alltheores:osmium_ingot" }
 					type: "item"
 				}
 			]
@@ -295,6 +455,14 @@
 		{
 			dependencies: ["3A4BFC07D070A412"]
 			id: "3EC3809D0D7AA1C2"
+			rewards: [{
+				id: "637BD94E5C7EB719"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6AD3B1BE0C9AA32A"
 				item: { count: 1, id: "mekanism:ingot_refined_glowstone" }
@@ -306,6 +474,14 @@
 		{
 			dependencies: ["3A4BFC07D070A412"]
 			id: "0C75BC287EE0BB4B"
+			rewards: [{
+				id: "0BA7D83CA9E0CD33"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2D45277812F2066B"
 				item: { count: 1, id: "mekanism:ingot_refined_obsidian" }
@@ -318,6 +494,14 @@
 			dependencies: ["67E0A85291DD6898"]
 			hide_dependency_lines: true
 			id: "18EDBCF5CA37E870"
+			rewards: [{
+				id: "3685C3DD11692213"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "60A0436417211C30"
 				item: { count: 1, id: "mekanism:basic_tier_installer" }
@@ -329,6 +513,14 @@
 		{
 			dependencies: ["18EDBCF5CA37E870"]
 			id: "19CC9C771EDD4072"
+			rewards: [{
+				id: "59C16E71A0C07BEC"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C68D15FBC446698"
 				item: { count: 1, id: "mekanism:advanced_tier_installer" }
@@ -340,6 +532,14 @@
 		{
 			dependencies: ["19CC9C771EDD4072"]
 			id: "2284746EEBFEF940"
+			rewards: [{
+				id: "445969CFBC2410B4"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6C07ECDEA37249F5"
 				item: { count: 1, id: "mekanism:elite_tier_installer" }
@@ -351,6 +551,14 @@
 		{
 			dependencies: ["2284746EEBFEF940"]
 			id: "54BF246035509B5D"
+			rewards: [{
+				id: "244C33F0EE6FA4CC"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "054BA496B773CAE0"
 				item: { count: 1, id: "mekanism:ultimate_tier_installer" }
@@ -362,6 +570,14 @@
 		{
 			dependencies: ["213B59D4A4A2309C"]
 			id: "36807C2AED0608DA"
+			rewards: [{
+				id: "4E9C1E16BDB46081"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0CFE7ECB5B4E30B6"
 				item: { count: 1, id: "alltheores:steel_ingot" }
@@ -373,6 +589,14 @@
 		{
 			dependencies: ["36807C2AED0608DA"]
 			id: "23311CB164BCEB9A"
+			rewards: [{
+				id: "5FE453B4CD45CC8E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "70BD2DF44CB88525"
 				item: { count: 1, id: "mekanism:basic_universal_cable" }
@@ -384,6 +608,14 @@
 		{
 			dependencies: ["23311CB164BCEB9A"]
 			id: "773D7975E265FE2F"
+			rewards: [{
+				id: "7D7B6613E3653329"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2CF3FE9D4824177F"
 				item: { count: 1, id: "mekanism:advanced_universal_cable" }
@@ -395,6 +627,14 @@
 		{
 			dependencies: ["773D7975E265FE2F"]
 			id: "6837CF134BDE4A81"
+			rewards: [{
+				id: "475746741626B094"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "73156255D15E8CCD"
 				item: { count: 1, id: "mekanism:elite_universal_cable" }
@@ -406,6 +646,14 @@
 		{
 			dependencies: ["6837CF134BDE4A81"]
 			id: "6F510071BC9E3810"
+			rewards: [{
+				id: "0FF2767D86B696EF"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "732875FBD914FAE5"
 				item: { count: 1, id: "mekanism:ultimate_universal_cable" }
@@ -417,6 +665,14 @@
 		{
 			dependencies: ["36807C2AED0608DA"]
 			id: "309F57EE69A3B677"
+			rewards: [{
+				id: "7D02EF8BA0B6C684"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4F7A7D4975B980C9"
 				item: { count: 1, id: "mekanism:basic_mechanical_pipe" }
@@ -428,6 +684,14 @@
 		{
 			dependencies: ["309F57EE69A3B677"]
 			id: "5AEED23DAD299001"
+			rewards: [{
+				id: "39EC88EF4845D90A"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "18E27D46AAE07974"
 				item: { count: 1, id: "mekanism:advanced_mechanical_pipe" }
@@ -439,6 +703,14 @@
 		{
 			dependencies: ["5AEED23DAD299001"]
 			id: "0473B7BE861BB048"
+			rewards: [{
+				id: "3C67946AF865BD81"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E402491BA0E6E35"
 				item: { count: 1, id: "mekanism:elite_mechanical_pipe" }
@@ -450,6 +722,14 @@
 		{
 			dependencies: ["0473B7BE861BB048"]
 			id: "7DA99D9AEE02AA98"
+			rewards: [{
+				id: "4D271EF7AEE94A47"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1972BA8537FF155E"
 				item: { count: 1, id: "mekanism:ultimate_mechanical_pipe" }
@@ -461,6 +741,14 @@
 		{
 			dependencies: ["36807C2AED0608DA"]
 			id: "0BB92DD67B24AF05"
+			rewards: [{
+				id: "4703A0AA37CB2A5A"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "34571AF0DFC07F1D"
 				item: { count: 1, id: "mekanism:basic_thermodynamic_conductor" }
@@ -472,6 +760,14 @@
 		{
 			dependencies: ["0BB92DD67B24AF05"]
 			id: "0486E417847B3549"
+			rewards: [{
+				id: "510D32E7355529EF"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "558CFA972CB02B2A"
 				item: { count: 1, id: "mekanism:advanced_thermodynamic_conductor" }
@@ -483,6 +779,14 @@
 		{
 			dependencies: ["0486E417847B3549"]
 			id: "6ACD4B38513AF95F"
+			rewards: [{
+				id: "593DC104ECC7C830"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6C4FB70323769C4E"
 				item: { count: 1, id: "mekanism:elite_thermodynamic_conductor" }
@@ -494,6 +798,14 @@
 		{
 			dependencies: ["6ACD4B38513AF95F"]
 			id: "4F3DF87459965A20"
+			rewards: [{
+				id: "681C269E8EAF0B31"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3525BF4DC2889B33"
 				item: { count: 1, id: "mekanism:ultimate_thermodynamic_conductor" }
@@ -505,6 +817,14 @@
 		{
 			dependencies: ["73D3879E5C7F6A07"]
 			id: "0312460D3C29B7E0"
+			rewards: [{
+				id: "7C95A4D2CF33CFCC"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6BA4D67F4F05D086"
 				item: { count: 1, id: "mekanism:advanced_logistical_transporter" }
@@ -516,6 +836,14 @@
 		{
 			dependencies: ["36807C2AED0608DA"]
 			id: "73D3879E5C7F6A07"
+			rewards: [{
+				id: "58428BF05920CA22"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "39C8D02AA5214BD6"
 				item: { count: 1, id: "mekanism:basic_logistical_transporter" }
@@ -527,6 +855,14 @@
 		{
 			dependencies: ["0312460D3C29B7E0"]
 			id: "68D3B9F75B20C401"
+			rewards: [{
+				id: "310FB501450EB8E3"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F41609D7D2BFC1E"
 				item: { count: 1, id: "mekanism:elite_logistical_transporter" }
@@ -538,6 +874,14 @@
 		{
 			dependencies: ["68D3B9F75B20C401"]
 			id: "6F0C3AADB8F2B758"
+			rewards: [{
+				id: "6AEEC4C09CCF98AE"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "15F4C588C9BB9679"
 				item: { count: 1, id: "mekanism:ultimate_logistical_transporter" }
@@ -549,6 +893,14 @@
 		{
 			dependencies: ["36807C2AED0608DA"]
 			id: "4EEC191C021735AC"
+			rewards: [{
+				id: "75D2069AA269B565"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "593CF02B0833F10B"
 				item: { count: 1, id: "mekanism:basic_pressurized_tube" }
@@ -560,6 +912,14 @@
 		{
 			dependencies: ["4EEC191C021735AC"]
 			id: "3BAB8E182C35A0D3"
+			rewards: [{
+				id: "55BF5ADE03BBC9FF"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6DE6039687D71C7C"
 				item: { count: 1, id: "mekanism:advanced_pressurized_tube" }
@@ -571,6 +931,14 @@
 		{
 			dependencies: ["3BAB8E182C35A0D3"]
 			id: "080B95235CC280A6"
+			rewards: [{
+				id: "2B173F5041031F81"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2DEA8CFCF27D8E10"
 				item: { count: 1, id: "mekanism:elite_pressurized_tube" }
@@ -582,6 +950,14 @@
 		{
 			dependencies: ["080B95235CC280A6"]
 			id: "287B8847DBD842A2"
+			rewards: [{
+				id: "3C93FEF29168CF1D"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "612B90366B9066E2"
 				item: { count: 1, id: "mekanism:ultimate_pressurized_tube" }
@@ -593,6 +969,14 @@
 		{
 			dependencies: ["2E846156A5634DFA"]
 			id: "6DD5713724709FC3"
+			rewards: [{
+				id: "56D5DAFCD7B1D977"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A35580511BCC570"
 				item: { count: 1, id: "mekanismgenerators:wind_generator" }
@@ -604,6 +988,14 @@
 		{
 			dependencies: ["6DD5713724709FC3"]
 			id: "06269AB8ABA02861"
+			rewards: [{
+				id: "69250A8BF3B9AFF4"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1F21D04DA7DF6E79"
 				item: { count: 1, id: "mekanismgenerators:bio_generator" }
@@ -615,6 +1007,14 @@
 		{
 			dependencies: ["444FB8FF968762F5"]
 			id: "27879C38945E56BE"
+			rewards: [{
+				id: "7EEF02C7D812EBF1"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "65D3E8DFC66CEE0B"
 				item: { count: 1, id: "mekanism:bio_fuel" }
@@ -629,6 +1029,14 @@
 				"065688CB9CA86E9C"
 			]
 			id: "171FDBA7DA630086"
+			rewards: [{
+				id: "7683855BCF2F5124"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3C6EAB8B0C0369F4"
 				item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
@@ -640,6 +1048,14 @@
 		{
 			dependencies: ["27879C38945E56BE"]
 			id: "2F384A8A1FFF10EE"
+			rewards: [{
+				id: "180CFE1BBC5F1180"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "26980471E450F6A8"
 				item: { count: 1, id: "cookingforblockheads:sink" }
@@ -651,6 +1067,14 @@
 		{
 			dependencies: ["2F384A8A1FFF10EE"]
 			id: "065688CB9CA86E9C"
+			rewards: [{
+				id: "3D56C4B9A3974D07"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "415698D2480D3AE2"
 				item: { count: 1, id: "mekanism:electrolytic_separator" }
@@ -662,6 +1086,14 @@
 		{
 			dependencies: ["171FDBA7DA630086"]
 			id: "607F70C3549B4670"
+			rewards: [{
+				id: "4337084BC864BBD1"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "27F8343862936A3A"
 				item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
@@ -673,6 +1105,14 @@
 		{
 			dependencies: ["607F70C3549B4670"]
 			id: "1DE9163DBF3EC31C"
+			rewards: [{
+				id: "6B481CD71C958BEF"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0B0E62156BD1DD08"
 				item: { count: 1, id: "mekanism:substrate" }
@@ -684,6 +1124,14 @@
 		{
 			dependencies: ["1DE9163DBF3EC31C"]
 			id: "399BC8127957A534"
+			rewards: [{
+				id: "02415F85B4A76424"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6E548F35323079C5"
 				item: { count: 1, id: "mekanism:hdpe_sheet" }
@@ -695,53 +1143,61 @@
 		{
 			dependencies: ["1C84F8611AA48F76"]
 			id: "32CCA4CEC3CE9954"
+			rewards: [{
+				id: "55344F271DB0B77C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 81L
 					id: "3E3FFA79D7920EE9"
-					item: { count: 81, id: "mekanismgenerators:turbine_casing" }
+					item: { count: 1, id: "mekanismgenerators:turbine_casing" }
 					type: "item"
 				}
 				{
 					count: 46L
 					id: "247D5CD86501721A"
-					item: { count: 46, id: "mekanism:structural_glass" }
+					item: { count: 1, id: "mekanism:structural_glass" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "52C1B3F9EDD1FE6E"
-					item: { count: 4, id: "mekanismgenerators:turbine_rotor" }
+					item: { count: 1, id: "mekanismgenerators:turbine_rotor" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "3DBC043303E24555"
-					item: { count: 8, id: "mekanismgenerators:turbine_blade" }
+					item: { count: 1, id: "mekanismgenerators:turbine_blade" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "45D92B25D8A9CCE7"
-					item: { count: 2, id: "mekanismgenerators:turbine_valve" }
+					item: { count: 1, id: "mekanismgenerators:turbine_valve" }
 					type: "item"
 				}
 				{
 					count: 33L
 					id: "58B98D5B253B38CC"
-					item: { count: 33, id: "mekanismgenerators:turbine_vent" }
+					item: { count: 1, id: "mekanismgenerators:turbine_vent" }
 					type: "item"
 				}
 				{
 					count: 9L
 					id: "117095B227C0A1FC"
-					item: { count: 9, id: "mekanismgenerators:saturating_condenser" }
+					item: { count: 1, id: "mekanismgenerators:saturating_condenser" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "07A0120683FF9D25"
-					item: { count: 8, id: "mekanism:pressure_disperser" }
+					item: { count: 1, id: "mekanism:pressure_disperser" }
 					type: "item"
 				}
 				{
@@ -752,7 +1208,7 @@
 				{
 					count: 9L
 					id: "31BE7029F4CB6D23"
-					item: { count: 9, id: "mekanismgenerators:electromagnetic_coil" }
+					item: { count: 1, id: "mekanismgenerators:electromagnetic_coil" }
 					type: "item"
 				}
 			]
@@ -762,6 +1218,14 @@
 		{
 			dependencies: ["06269AB8ABA02861"]
 			id: "1C84F8611AA48F76"
+			rewards: [{
+				id: "0DC397EAF14D3425"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "30E881DEB66D1D4A"
@@ -771,13 +1235,13 @@
 				{
 					count: 3L
 					id: "02DFBD5708DA44A9"
-					item: { count: 3, id: "mekanismgenerators:fission_reactor_port" }
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_port" }
 					type: "item"
 				}
 				{
 					count: 10L
 					id: "30591B0A2D8E1885"
-					item: { count: 10, id: "mekanismgenerators:fission_reactor_casing" }
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
 					type: "item"
 				}
 				{
@@ -788,7 +1252,7 @@
 				{
 					count: 2L
 					id: "6ED0C9A727432E00"
-					item: { count: 2, id: "mekanismgenerators:reactor_glass" }
+					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
 					type: "item"
 				}
 			]
@@ -798,6 +1262,14 @@
 		{
 			dependencies: ["1C84F8611AA48F76"]
 			id: "015E570ECC1C439F"
+			rewards: [{
+				id: "74D9314467B75293"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "36AF030392BD4388"
 				item: { count: 1, id: "mekanism:solar_neutron_activator" }
@@ -809,17 +1281,25 @@
 		{
 			dependencies: ["015E570ECC1C439F"]
 			id: "04FE57976FCDA353"
+			rewards: [{
+				id: "2B5CA4CED7C1C030"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 84L
 					id: "6355972518B32CB6"
-					item: { count: 84, id: "mekanism:sps_casing" }
+					item: { count: 1, id: "mekanism:sps_casing" }
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "3E83B220CC1927D9"
-					item: { count: 3, id: "mekanism:sps_port" }
+					item: { count: 1, id: "mekanism:sps_port" }
 					type: "item"
 				}
 				{
@@ -830,7 +1310,7 @@
 				{
 					count: 102L
 					id: "0FFA06581D0AC600"
-					item: { count: 20, id: "mekanismgenerators:reactor_glass" }
+					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
 					type: "item"
 				}
 			]
@@ -840,6 +1320,14 @@
 		{
 			dependencies: ["67E0A85291DD6898"]
 			id: "09DE61B54DE1E50E"
+			rewards: [{
+				id: "1D7FFAA95C074492"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "721BC2A4ADB27F7F"
 				item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
@@ -854,6 +1342,23 @@
 				"09DE61B54DE1E50E"
 			]
 			id: "2BF9B94510F1D3C1"
+			rewards: [
+				{
+					id: "23024306593803ED"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18E92BFF977E57E3"
+					table_id: 5163904022262307371L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -870,6 +1375,14 @@
 				"50BA018956B58618"
 			]
 			id: "4B9318FBFB1FF36F"
+			rewards: [{
+				id: "73393C546B77120D"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [
@@ -881,19 +1394,19 @@
 				{
 					count: 43L
 					id: "710F0A139FB859E8"
-					item: { count: 43, id: "mekanismgenerators:fusion_reactor_frame" }
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_frame" }
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "7361927B4C199888"
-					item: { count: 3, id: "mekanismgenerators:fusion_reactor_port" }
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_port" }
 					type: "item"
 				}
 				{
 					count: 10L
 					id: "6250820F923804D5"
-					item: { count: 10, id: "mekanismgenerators:reactor_glass" }
+					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
 					type: "item"
 				}
 				{
@@ -908,6 +1421,14 @@
 		{
 			dependencies: ["6170EFC850A5AAEB"]
 			id: "45836C367537C4AF"
+			rewards: [{
+				id: "24A34B10FAF1EE88"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0443BA3FE62259A3"
 				item: { count: 1, id: "mekanism:advanced_chemical_tank" }
@@ -919,6 +1440,14 @@
 		{
 			dependencies: ["45836C367537C4AF"]
 			id: "0FAB392185132B64"
+			rewards: [{
+				id: "38E46BC12B26AD1C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "38A756B4A5D9D13E"
 				item: { count: 1, id: "mekanism:elite_chemical_tank" }
@@ -931,6 +1460,14 @@
 			dependencies: ["67E0A85291DD6898"]
 			hide_dependency_lines: true
 			id: "6170EFC850A5AAEB"
+			rewards: [{
+				id: "15316AA41569258C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2B2CC0F7685E3D8B"
 				item: { count: 1, id: "mekanism:basic_chemical_tank" }
@@ -942,6 +1479,14 @@
 		{
 			dependencies: ["0FAB392185132B64"]
 			id: "57D48EFBB96C0DCC"
+			rewards: [{
+				id: "69BFD9E14F4B05BC"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5930F9E092B73098"
 				item: { count: 1, id: "mekanism:ultimate_chemical_tank" }
@@ -954,6 +1499,14 @@
 			dependencies: ["67E0A85291DD6898"]
 			hide_dependency_lines: true
 			id: "42E3E1F38CFE5BFC"
+			rewards: [{
+				id: "13D063CB3952BF4D"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7CA817B4F48238DD"
 				item: { count: 1, id: "mekanism:basic_fluid_tank" }
@@ -965,6 +1518,14 @@
 		{
 			dependencies: ["42E3E1F38CFE5BFC"]
 			id: "615C7DFFA559D268"
+			rewards: [{
+				id: "6EF90D50EA0AB1C4"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "638FF882B767301F"
 				item: { count: 1, id: "mekanism:advanced_fluid_tank" }
@@ -976,6 +1537,14 @@
 		{
 			dependencies: ["457F332C16BA8F86"]
 			id: "4CB7800538327517"
+			rewards: [{
+				id: "738596E089D74FBA"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3EB9590F893B18BC"
 				item: { count: 1, id: "mekanism:ultimate_fluid_tank" }
@@ -987,6 +1556,14 @@
 		{
 			dependencies: ["615C7DFFA559D268"]
 			id: "457F332C16BA8F86"
+			rewards: [{
+				id: "5EA69E56D28CBE3D"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "346F861E2BBAD886"
 				item: { count: 1, id: "mekanism:elite_fluid_tank" }
@@ -1001,11 +1578,19 @@
 				"2ECA54B853CB0FDF"
 			]
 			id: "732256E339B0D5FC"
+			rewards: [{
+				id: "5F0CC448200F694E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 3L
 					id: "6B392065DB3123C3"
-					item: { count: 3, id: "mekanism:thermal_evaporation_valve" }
+					item: { count: 1, id: "mekanism:thermal_evaporation_valve" }
 					type: "item"
 				}
 				{
@@ -1016,7 +1601,7 @@
 				{
 					count: 33L
 					id: "5F3EE67CFEEFDB94"
-					item: { count: 33, id: "mekanism:thermal_evaporation_block" }
+					item: { count: 1, id: "mekanism:thermal_evaporation_block" }
 					type: "item"
 				}
 				{
@@ -1032,6 +1617,14 @@
 		{
 			dependencies: ["6DD5713724709FC3"]
 			id: "3378E519F502F56B"
+			rewards: [{
+				id: "797FE3D91CC2D0A6"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5A09363C5A2F28D8"
 				item: { count: 1, id: "mekanismgenerators:solar_generator" }
@@ -1043,6 +1636,14 @@
 		{
 			dependencies: ["3378E519F502F56B"]
 			id: "2ECA54B853CB0FDF"
+			rewards: [{
+				id: "2984096E1976A1D9"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "33B4542ADBF7E0F9"
 				item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" }
@@ -1055,6 +1656,14 @@
 			dependencies: ["67E0A85291DD6898"]
 			hide_dependency_lines: true
 			id: "27106D1C6E307236"
+			rewards: [{
+				id: "1CCD9E0D73FDD343"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7C3E66278A186167"
 				item: { count: 1, id: "mekanism:basic_energy_cube" }
@@ -1066,6 +1675,14 @@
 		{
 			dependencies: ["27106D1C6E307236"]
 			id: "2DB653325029C7BB"
+			rewards: [{
+				id: "4A65EE80438AC83B"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "66776DBEBA5B7368"
 				item: { count: 1, id: "mekanism:advanced_energy_cube" }
@@ -1077,6 +1694,14 @@
 		{
 			dependencies: ["2DB653325029C7BB"]
 			id: "52BB75B3E34ACE5E"
+			rewards: [{
+				id: "749171EE6D028B21"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "73D4CE2D9F9E0853"
 				item: { count: 1, id: "mekanism:elite_energy_cube" }
@@ -1088,6 +1713,14 @@
 		{
 			dependencies: ["52BB75B3E34ACE5E"]
 			id: "393615943DFBBD5C"
+			rewards: [{
+				id: "5CAC0DF5DB63CC5A"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F08E7B943222F8F"
 				item: { count: 1, id: "mekanism:ultimate_energy_cube" }
@@ -1103,6 +1736,14 @@
 			]
 			hide_dependency_lines: true
 			id: "2E846156A5634DFA"
+			rewards: [{
+				id: "079F951361975F8F"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "30EFD47497328081"
 				item: { count: 1, id: "mekanism:energy_tablet" }
@@ -1114,17 +1755,25 @@
 		{
 			dependencies: ["1C84F8611AA48F76"]
 			id: "50BA018956B58618"
+			rewards: [{
+				id: "4B114FBB2F1A03DE"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 2L
 					id: "785423EB856A57CE"
-					item: { count: 2, id: "mekanism:laser_amplifier" }
+					item: { count: 1, id: "mekanism:laser_amplifier" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "6DF5D8C34BCCA32C"
-					item: { count: 4, id: "mekanism:laser" }
+					item: { count: 1, id: "mekanism:laser" }
 					type: "item"
 				}
 			]
@@ -1134,6 +1783,14 @@
 		{
 			dependencies: ["2E846156A5634DFA"]
 			id: "50E017A67D63471B"
+			rewards: [{
+				id: "0B3691FB32EABC9C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "54840B2C45AB427D"
@@ -1143,7 +1800,7 @@
 				{
 					count: 2L
 					id: "418642CB67AD374D"
-					item: { count: 2, id: "mekanism:induction_port" }
+					item: { count: 1, id: "mekanism:induction_port" }
 					type: "item"
 				}
 				{
@@ -1164,6 +1821,14 @@
 			dependencies: ["67E0A85291DD6898"]
 			hide_dependent_lines: true
 			id: "63DFAA863BDA741A"
+			rewards: [{
+				id: "7BB92A87C93810E1"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A7B33BDC045C104"
 				item: { count: 1, id: "mekanism:combiner" }
@@ -1175,17 +1840,25 @@
 		{
 			dependencies: ["67E0A85291DD6898"]
 			id: "5247B4D479B922A8"
+			rewards: [{
+				id: "5F60B34C4C3BD230"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 2L
 					id: "7D1764A80650DE54"
-					item: { count: 2, id: "minecraft:raw_iron" }
+					item: { count: 1, id: "minecraft:raw_iron" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "1CB8BA6FFB55D2EB"
-					item: { count: 2, id: "mekanism:raw_osmium" }
+					item: { count: 1, id: "alltheores:raw_osmium" }
 					type: "item"
 				}
 			]
@@ -1196,6 +1869,14 @@
 			dependencies: ["0C75BC287EE0BB4B"]
 			id: "4DE9D19B2C01B348"
 			optional: true
+			rewards: [{
+				id: "79DC0CA46F04CD9B"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "41E330A7BD6F4DFC"
@@ -1225,6 +1906,14 @@
 			dependencies: ["0C75BC287EE0BB4B"]
 			id: "1E1AF7E8C99B85D4"
 			optional: true
+			rewards: [{
+				id: "49B966A24D7037E6"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "363D650308FB1A05"
@@ -1243,6 +1932,14 @@
 		{
 			dependencies: ["399BC8127957A534"]
 			id: "1BA37D24BDBA1C93"
+			rewards: [{
+				id: "08736431A1DCE8F5"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "16FEA64BC6BA3713"
 				item: { count: 1, id: "mekanism:module_base" }
@@ -1254,6 +1951,14 @@
 		{
 			dependencies: ["67E0A85291DD6898"]
 			id: "50A372B99AA60216"
+			rewards: [{
+				id: "35DD3F00CE7F001A"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3145B79A9899D054"
 				item: { count: 1, id: "mekanism:modification_station" }
@@ -1268,6 +1973,14 @@
 				"1BA37D24BDBA1C93"
 			]
 			id: "04037DF1C50C7CAB"
+			rewards: [{
+				id: "25ABA0032BF3D743"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "41C826A45092625D"
 				item: { count: 1, id: "mekanism:module_radiation_shielding_unit" }

@@ -64,6 +64,9 @@
   "mekanismcovers": {
     "cover_component": true
   },
+  "ftbquests": {
+    "barrier": true
+  },
   "immersiveengineering": {
     "multiblock_icon": true
   },
@@ -137,6 +140,9 @@
     "preservation_chamber": true,
     "milk_jar": true,
     "toaster": true
+  },
+  "toms_trading_network": {
+    "vending_machine": true
   },
   "enderchests": {
     "hud": true

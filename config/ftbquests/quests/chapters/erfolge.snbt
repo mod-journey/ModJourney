@@ -17,7 +17,7 @@
 			optional: true
 			tasks: [{
 				id: "1AA066707E0EF4B5"
-				item: { count: 1, id: "mod_journey:scroll1" }
+				item: { count: 1, id: "mod_journey:scroll_1" }
 				type: "item"
 			}]
 			x: -14.0d
@@ -27,7 +27,7 @@
 			id: "0B7B7C7A1366C9D1"
 			tasks: [{
 				id: "344255FBADB92524"
-				item: { count: 1, id: "mod_journey:scroll2" }
+				item: { count: 1, id: "mod_journey:scroll_2" }
 				type: "item"
 			}]
 			x: -12.5d
@@ -36,9 +36,8 @@
 		{
 			id: "429795EB7B105CB3"
 			tasks: [{
-				id: "4EFA8D4479207B6F"
-				item: { count: 1, id: "mod_journey:scroll3" }
-				type: "item"
+				id: "440518162912BD83"
+				type: "checkmark"
 			}]
 			x: -11.0d
 			y: 3.0d
@@ -47,7 +46,7 @@
 			id: "7C598C88ABF08E11"
 			tasks: [{
 				id: "2D9639F17DB8264A"
-				item: { count: 1, id: "mod_journey:scroll4" }
+				item: { count: 1, id: "mod_journey:scroll_4" }
 				type: "item"
 			}]
 			x: -14.0d
@@ -57,7 +56,7 @@
 			id: "12D3B4B92CA5252C"
 			tasks: [{
 				id: "4750AFCEE49CDF0F"
-				item: { count: 1, id: "mod_journey:scroll5" }
+				item: { count: 1, id: "mod_journey:scroll_5" }
 				type: "item"
 			}]
 			x: -12.5d
@@ -67,7 +66,7 @@
 			id: "54E91CBDA4D83EDE"
 			tasks: [{
 				id: "3307308966668DD6"
-				item: { count: 1, id: "mod_journey:scroll6" }
+				item: { count: 1, id: "mod_journey:scroll_6" }
 				type: "item"
 			}]
 			x: -11.0d
@@ -77,7 +76,7 @@
 			id: "4AED5A8C9C70A9C9"
 			tasks: [{
 				id: "79E2BBFB779AEA1A"
-				item: { count: 1, id: "mod_journey:scroll7" }
+				item: { count: 1, id: "mod_journey:scroll_7" }
 				type: "item"
 			}]
 			x: -14.0d
@@ -87,7 +86,7 @@
 			id: "401717FD15981E80"
 			tasks: [{
 				id: "791A2688CD5F77E3"
-				item: { count: 1, id: "mod_journey:scroll8" }
+				item: { count: 1, id: "mod_journey:scroll_8" }
 				type: "item"
 			}]
 			x: -12.5d
@@ -97,7 +96,7 @@
 			id: "1037AFA7BDC22B53"
 			tasks: [{
 				id: "7A28AA8977951CC7"
-				item: { count: 1, id: "mod_journey:scroll9" }
+				item: { count: 1, id: "mod_journey:scroll_9" }
 				type: "item"
 			}]
 			x: -11.0d
@@ -107,7 +106,7 @@
 			id: "5902419C7421AA67"
 			tasks: [{
 				id: "1FE272431646BEB3"
-				item: { count: 1, id: "mod_journey:magic_scroll_one" }
+				item: { count: 1, id: "mod_journey:magic_scroll_1" }
 				type: "item"
 			}]
 			x: -14.0d
@@ -117,7 +116,7 @@
 			id: "796D47D4DEDA277C"
 			tasks: [{
 				id: "08974BA2DB41845F"
-				item: { count: 1, id: "mod_journey:magic_scroll_two" }
+				item: { count: 1, id: "mod_journey:magic_scroll_2" }
 				type: "item"
 			}]
 			x: -12.5d
@@ -127,11 +126,22 @@
 			id: "25ADF4BACFFF9FB7"
 			tasks: [{
 				id: "471D86205B1114BB"
-				item: { count: 1, id: "mod_journey:magic_scroll_three" }
+				item: { count: 1, id: "mod_journey:magic_scroll_3" }
 				type: "item"
 			}]
 			x: -11.0d
 			y: 7.5d
+		}
+		{
+			hide_until_deps_visible: true
+			id: "0E92633B7DC58B57"
+			tasks: [{
+				id: "2AFFAB39055AD688"
+				stage: "intro"
+				type: "gamestage"
+			}]
+			x: -12.5d
+			y: 9.0d
 		}
 	]
 }

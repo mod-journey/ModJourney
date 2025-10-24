@@ -7,12 +7,20 @@
 		id: "aether:aether_portal_frame"
 	}
 	id: "10E1266DF64C997D"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["37706A8F418CE74C"]
 			id: "25D555627E5F7556"
+			rewards: [{
+				id: "2BD83A432DFB8CB7"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "4627D35561E99028"
@@ -22,10 +30,20 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["0E92633B7DC58B57"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "aether:aether_portal_frame"
 			}
 			id: "37706A8F418CE74C"
+			rewards: [{
+				id: "642263EAF8DB53BB"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "39F041BF05060216"
 				type: "checkmark"
@@ -36,6 +54,14 @@
 		{
 			dependencies: ["25D555627E5F7556"]
 			id: "5D196A5F5980E8D5"
+			rewards: [{
+				id: "787B5A84A309A5C0"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "21390B68698E9438"
 				item: { count: 1, id: "aether:skyroot_log" }
@@ -47,6 +73,14 @@
 		{
 			dependencies: ["5D196A5F5980E8D5"]
 			id: "0AEA6B7F3ED1C659"
+			rewards: [{
+				id: "785E8A4369CEF22C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1DDE93CE98C31741"
 				item: { components: { "ftbfiltersystem:filter": "or(item(aether:skyroot_sword)item(aether:skyroot_pickaxe)item(aether:skyroot_shovel)item(aether:skyroot_axe)item(aether:skyroot_hoe))", "minecraft:custom_name": "\"Aether Holz Tools\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -58,6 +92,14 @@
 		{
 			dependencies: ["5D196A5F5980E8D5"]
 			id: "4FD68CD56495BC8D"
+			rewards: [{
+				id: "1AADF5242FC7DA95"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "74CB5C3F334DF6F9"
 				item: { components: { "ftbfiltersystem:filter": "or(item(aether:holystone_sword)item(aether:holystone_pickaxe)item(aether:holystone_shovel)item(aether:holystone_axe)item(aether:holystone_hoe))", "minecraft:custom_name": "\"Aether Stone Tools\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -69,6 +111,14 @@
 		{
 			dependencies: ["4FD68CD56495BC8D"]
 			id: "27A8B343CD99EA6D"
+			rewards: [{
+				id: "7EF3601B392BC8C8"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "46181A5A2EC80EFA"
 				item: { components: { "ftbfiltersystem:filter": "or(item(aether:zanite_sword)item(aether:zanite_pickaxe)item(aether:zanite_shovel)item(aether:zanite_axe)item(aether:zanite_hoe))", "minecraft:custom_name": "\"Aether Iron Tools\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -83,6 +133,14 @@
 				"0390C2B9DD42D306"
 			]
 			id: "18DC444B569EA95E"
+			rewards: [{
+				id: "0006E9358ECDC056"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "20F816BCEE767165"
 				item: { count: 1, id: "aether:altar" }
@@ -94,6 +152,14 @@
 		{
 			dependencies: ["0AEA6B7F3ED1C659"]
 			id: "0390C2B9DD42D306"
+			rewards: [{
+				id: "68701F7A4D5182AF"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5EED7E9E0D7A9B59"
 				item: { count: 1, id: "aether:ambrosium_shard" }
@@ -105,6 +171,14 @@
 		{
 			dependencies: ["18DC444B569EA95E"]
 			id: "2C5CFE4579A1DF6E"
+			rewards: [{
+				id: "31C335775E0CDFC2"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 3L
 				id: "60F262FDBD0040F3"
@@ -117,6 +191,14 @@
 		{
 			dependencies: ["25D555627E5F7556"]
 			id: "6BF534C006E6947C"
+			rewards: [{
+				id: "5274C0366EDDA1F6"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B4209D59746B89D"
 				item: { count: 1, id: "aether:book_of_lore" }
@@ -128,6 +210,14 @@
 		{
 			dependencies: ["2C5CFE4579A1DF6E"]
 			id: "3B8EF9C3766DE216"
+			rewards: [{
+				id: "0C37E415454F6A76"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "aether:bronze_dungeon"
 				criterion: ""
@@ -140,6 +230,14 @@
 		{
 			dependencies: ["3B8EF9C3766DE216"]
 			id: "2E77ADF906B1850A"
+			rewards: [{
+				id: "02D5E79C627AE445"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "563A74C71DF421E8"
 				item: { count: 1, id: "aether:valkyrie_lance" }
@@ -151,6 +249,14 @@
 		{
 			dependencies: ["2E77ADF906B1850A"]
 			id: "5D2937781303426D"
+			rewards: [{
+				id: "38F99BE29D3DA3FD"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 10L
 				id: "51986CF71ECDBE87"
@@ -163,6 +269,14 @@
 		{
 			dependencies: ["5D2937781303426D"]
 			id: "05BD7F9376C6E8B3"
+			rewards: [{
+				id: "1C445EB39522457E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "aether:silver_dungeon"
 				criterion: ""
@@ -175,6 +289,14 @@
 		{
 			dependencies: ["05BD7F9376C6E8B3"]
 			id: "541AFC2144795998"
+			rewards: [{
+				id: "510DAFB226BE5053"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "32B6EB87A4386E54"
 				item: { count: 1, id: "aether:regeneration_stone" }
@@ -186,6 +308,14 @@
 		{
 			dependencies: ["541AFC2144795998"]
 			id: "372535099216FF16"
+			rewards: [{
+				id: "44078996E06CC7E2"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "aether:gold_dungeon"
 				criterion: ""
@@ -198,6 +328,23 @@
 		{
 			dependencies: ["372535099216FF16"]
 			id: "7EEBDA12D85434A5"
+			rewards: [
+				{
+					id: "650983ADEAA48A09"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E6166F8AB47DEBB"
+					table_id: 2025559148286503432L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				advancement: "aether:aether_sleep"
 				criterion: ""
@@ -210,6 +357,14 @@
 		{
 			dependencies: ["0390C2B9DD42D306"]
 			id: "0295BE21DA3E9D39"
+			rewards: [{
+				id: "5B403514A42D94DE"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2D4AA4D139251448"
 				item: { count: 1, id: "aether:ambrosium_torch" }
@@ -221,6 +376,14 @@
 		{
 			dependencies: ["20D09BE2E5AB2426"]
 			id: "6438BD6734F3676C"
+			rewards: [{
+				id: "16BA9E13DDEA0701"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "449905E3000236EC"
 				item: { count: 1, id: "aether:incubator" }
@@ -232,6 +395,14 @@
 		{
 			dependencies: ["0295BE21DA3E9D39"]
 			id: "20D09BE2E5AB2426"
+			rewards: [{
+				id: "3FB6ADE1E196C2D4"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F492EBF4069D00F"
 				item: { components: { "ftbfiltersystem:filter": "or(item(aether:blue_moa_egg)item(aether:white_moa_egg)item(aether:black_moa_egg))", "minecraft:custom_name": "\"Moa Eggs\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }

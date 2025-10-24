@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "naturs_aura"
 	group: "16F9BB65CBA165C2"
+	icon: {
+		id: "naturesaura:nature_altar"
+	}
 	id: "461A8BB591B8DA55"
 	images: [{
 		color: 170
@@ -19,6 +22,14 @@
 		{
 			dependencies: ["3C28EE39F70494BD"]
 			id: "4A2E58CD07F4ED0A"
+			rewards: [{
+				id: "0F22E42C2739632A"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "583472EB1EB94F7C"
 				item: { components: { "patchouli:book": "naturesaura:book" }, count: 1, id: "patchouli:guide_book" }
@@ -30,6 +41,14 @@
 		{
 			dependencies: ["4A2E58CD07F4ED0A"]
 			id: "2A1131AA06C836C5"
+			rewards: [{
+				id: "68E4A2CA2218411B"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "438AA6D6F3E6ABF9"
 				item: { count: 1, id: "naturesaura:gold_fiber" }
@@ -41,6 +60,14 @@
 		{
 			dependencies: ["2A1131AA06C836C5"]
 			id: "60C1C7062E5EA5FA"
+			rewards: [{
+				id: "4E87E8FF1F004607"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5C5354D9CDBF3DF7"
 				item: { count: 1, id: "naturesaura:gold_leaf" }
@@ -52,6 +79,14 @@
 		{
 			dependencies: ["60C1C7062E5EA5FA"]
 			id: "4718DB0B3EFC6628"
+			rewards: [{
+				id: "0AA42B23E8827B66"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "25F06504A578BC34"
 				item: { count: 1, id: "naturesaura:gold_powder" }
@@ -63,6 +98,14 @@
 		{
 			dependencies: ["4718DB0B3EFC6628"]
 			id: "0EE6AA97352EC588"
+			rewards: [{
+				id: "4F719366C22721BB"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4ABAB833203EB2AF"
 				item: { count: 1, id: "naturesaura:bottle_two_the_rebottling" }
@@ -74,6 +117,14 @@
 		{
 			dependencies: ["0EE6AA97352EC588"]
 			id: "1F526D7C3FD0C711"
+			rewards: [{
+				id: "338AA969ED2D6C7B"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0B493F02E49FBBB1"
 				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:overworld" } }, count: 1, id: "naturesaura:aura_bottle" }
@@ -85,6 +136,14 @@
 		{
 			dependencies: ["0EE6AA97352EC588"]
 			id: "51C82D53874A6455"
+			rewards: [{
+				id: "2D09FCAC0F1790B4"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "366760B4D15F3F42"
 				item: { count: 1, id: "naturesaura:vacuum_bottle" }
@@ -96,6 +155,14 @@
 		{
 			dependencies: ["0EE6AA97352EC588"]
 			id: "1F2977171C91D362"
+			rewards: [{
+				id: "3D846262FD510DDB"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "03D408B42D19FD43"
 				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:nether" } }, count: 1, id: "naturesaura:aura_bottle" }
@@ -107,6 +174,14 @@
 		{
 			dependencies: ["0EE6AA97352EC588"]
 			id: "59A51F9358D6A234"
+			rewards: [{
+				id: "3009B2BADEF17469"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7FA2FE26885EE056"
 				item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:end" } }, count: 1, id: "naturesaura:aura_bottle" }
@@ -118,18 +193,26 @@
 		{
 			dependencies: ["4718DB0B3EFC6628"]
 			id: "04443A6AB94C4DDA"
+			rewards: [{
+				id: "3AF6207E6CE529A5"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
 					count: 16L
 					id: "0D8012925099945C"
-					item: { count: 16, id: "naturesaura:gold_powder" }
+					item: { count: 1, id: "naturesaura:gold_powder" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "46624AB448BD53DD"
-					item: { count: 8, id: "naturesaura:wood_stand" }
+					item: { count: 1, id: "naturesaura:wood_stand" }
 					type: "item"
 				}
 				{
@@ -144,6 +227,14 @@
 		{
 			dependencies: ["04443A6AB94C4DDA"]
 			id: "5B684BF428FFE49C"
+			rewards: [{
+				id: "4E26CE42994F33EE"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5CE46284563D8D4A"
 				item: { count: 1, id: "naturesaura:token_joy" }
@@ -155,6 +246,14 @@
 		{
 			dependencies: ["04443A6AB94C4DDA"]
 			id: "3554956ABC829D50"
+			rewards: [{
+				id: "1457B9097793CFDF"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0CC1D4C9CDBD2B1F"
 				item: { count: 1, id: "naturesaura:token_sorrow" }
@@ -166,6 +265,14 @@
 		{
 			dependencies: ["04443A6AB94C4DDA"]
 			id: "58E52A58980F4FE4"
+			rewards: [{
+				id: "798E296D3995B58E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1D1C3EA9CC1EA753"
 				item: { count: 1, id: "naturesaura:token_anger" }
@@ -177,6 +284,14 @@
 		{
 			dependencies: ["04443A6AB94C4DDA"]
 			id: "09E64DB4A285FBD9"
+			rewards: [{
+				id: "28E5F72B1C9F223E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4F89298D5CB913D4"
 				item: { count: 1, id: "naturesaura:token_fear" }
@@ -188,6 +303,14 @@
 		{
 			dependencies: ["04443A6AB94C4DDA"]
 			id: "42CDE40BE2D20885"
+			rewards: [{
+				id: "005A04E5EF196F9C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "36E5C41852C6178F"
 				item: { count: 1, id: "naturesaura:eye" }
@@ -197,7 +320,17 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["0E92633B7DC58B57"]
+			hide_until_deps_complete: true
 			id: "3C28EE39F70494BD"
+			rewards: [{
+				id: "7BB452F27158D37F"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5BEE8836A83005FB"
 				type: "checkmark"
@@ -208,6 +341,14 @@
 		{
 			dependencies: ["1E23B241202FED55"]
 			id: "5FDF133E70DEC72B"
+			rewards: [{
+				id: "64B90E7560ADECCA"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -222,6 +363,14 @@
 		{
 			dependencies: ["1E23B241202FED55"]
 			id: "1FAAFE2BCCDD025F"
+			rewards: [{
+				id: "0AE8D590C833F76E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 20L
 				id: "153FED96881A067E"
@@ -234,6 +383,14 @@
 		{
 			dependencies: ["1E23B241202FED55"]
 			id: "71BB8757DBDC8B96"
+			rewards: [{
+				id: "66CC1F87EF72B589"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 250L
 				id: "183DC02911FCD929"
@@ -247,6 +404,23 @@
 			dependencies: ["7096BA5276670D56"]
 			hide_dependency_lines: true
 			id: "382870F3E8699127"
+			rewards: [
+				{
+					id: "6B6AD6D3A2D4445E"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E8D088667ABFBCA"
+					table_id: 9136516928215374765L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -261,6 +435,14 @@
 		{
 			dependencies: ["0F2CA9476A7B3550"]
 			id: "7096BA5276670D56"
+			rewards: [{
+				id: "50391E465819DC3C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -275,6 +457,14 @@
 		{
 			dependencies: ["04443A6AB94C4DDA"]
 			id: "1E23B241202FED55"
+			rewards: [{
+				id: "4CFEBD57DFC0D920"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "34FF25D8FDE6F06F"
@@ -287,6 +477,14 @@
 		{
 			dependencies: ["71BB8757DBDC8B96"]
 			id: "0F2CA9476A7B3550"
+			rewards: [{
+				id: "6F0689790FE63E22"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "07DBA9F6701B3DB5"
@@ -299,6 +497,14 @@
 		{
 			dependencies: ["0F2CA9476A7B3550"]
 			id: "4EC151D0B0E9DEBC"
+			rewards: [{
+				id: "64237BF99478061E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "09FC8E23CD050EB8"
 				item: { count: 1, id: "naturesaura:calling_spirit" }
@@ -310,6 +516,14 @@
 		{
 			dependencies: ["4EC151D0B0E9DEBC"]
 			id: "221C1CFCEA6FEC37"
+			rewards: [{
+				id: "0759CAFFD55DC638"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "570E36296D00C124"
 				item: { count: 1, id: "naturesaura:token_euphoria" }
@@ -321,6 +535,14 @@
 		{
 			dependencies: ["4EC151D0B0E9DEBC"]
 			id: "6027754B0CA152B6"
+			rewards: [{
+				id: "66196B41EB4F26E2"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "77B80823C9F12EAE"
 				item: { count: 1, id: "naturesaura:token_terror" }
@@ -332,6 +554,14 @@
 		{
 			dependencies: ["4EC151D0B0E9DEBC"]
 			id: "2B3256EDDEB698CB"
+			rewards: [{
+				id: "6D1F3E48B9979629"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "58F4C599FFD2CBCD"
 				item: { count: 1, id: "naturesaura:token_rage" }
@@ -343,6 +573,14 @@
 		{
 			dependencies: ["4EC151D0B0E9DEBC"]
 			id: "62428405522D18D8"
+			rewards: [{
+				id: "3EE86C82D566C689"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "72CBE0CEBFC8D5FD"
 				item: { count: 1, id: "naturesaura:token_grief" }
@@ -354,6 +592,14 @@
 		{
 			dependencies: ["04443A6AB94C4DDA"]
 			id: "5AE5065E8E3AC023"
+			rewards: [{
+				id: "2ABA9DA6D60FD1CA"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "33132DA0BD8B7515"
 				item: { count: 1, id: "naturesaura:ancient_sapling" }
@@ -365,6 +611,14 @@
 		{
 			dependencies: ["5AE5065E8E3AC023"]
 			id: "78A9440B51036626"
+			rewards: [{
+				id: "6564FEF4E4E6EE90"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 8L
 				id: "0D2C97AD4366035E"
@@ -377,6 +631,14 @@
 		{
 			dependencies: ["5FDF133E70DEC72B"]
 			id: "14C48A8ADAF19F56"
+			rewards: [{
+				id: "6F0001D7D8BD40EC"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "756EB35142764329"
 				item: { count: 1, id: "naturesaura:infused_iron_helmet" }
@@ -388,6 +650,14 @@
 		{
 			dependencies: ["5FDF133E70DEC72B"]
 			id: "54276DF73E1030C9"
+			rewards: [{
+				id: "1E2CD2FFA3284BC7"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5A28E739FB4E63CA"
 				item: { count: 1, id: "naturesaura:infused_iron_chest" }
@@ -399,6 +669,14 @@
 		{
 			dependencies: ["5FDF133E70DEC72B"]
 			id: "37A0E12BC86D04E0"
+			rewards: [{
+				id: "07864DD9A9A47529"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "512413464D9E73F6"
 				item: { count: 1, id: "naturesaura:infused_iron_pants" }
@@ -410,6 +688,14 @@
 		{
 			dependencies: ["5FDF133E70DEC72B"]
 			id: "399D56AFC3117C95"
+			rewards: [{
+				id: "5A1EF44A2D5F040C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "75A2300C6DEB6D74"
 				item: { count: 1, id: "naturesaura:infused_iron_shoes" }
@@ -421,6 +707,14 @@
 		{
 			dependencies: ["5FDF133E70DEC72B"]
 			id: "2705308BB7AB87CE"
+			rewards: [{
+				id: "48C123421E3C34D9"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "30F07BB259A6FB38"
 				item: { count: 1, id: "naturesaura:infused_iron_pickaxe" }
@@ -432,6 +726,14 @@
 		{
 			dependencies: ["5FDF133E70DEC72B"]
 			id: "6D0869A0B69E38BB"
+			rewards: [{
+				id: "668377EAD5600D58"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "356C63B53E4BC929"
 				item: { count: 1, id: "naturesaura:infused_iron_axe" }
@@ -443,6 +745,14 @@
 		{
 			dependencies: ["5FDF133E70DEC72B"]
 			id: "4AD6686953FB9B55"
+			rewards: [{
+				id: "60A87E212BC25576"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A02BE8AEC444E52"
 				item: { count: 1, id: "naturesaura:infused_iron_shovel" }
@@ -454,6 +764,14 @@
 		{
 			dependencies: ["5FDF133E70DEC72B"]
 			id: "44C743311C5523E3"
+			rewards: [{
+				id: "3BB0B311FFA053B0"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "62E079CB49781A16"
 				item: { count: 1, id: "naturesaura:infused_iron_hoe" }
@@ -465,6 +783,14 @@
 		{
 			dependencies: ["5FDF133E70DEC72B"]
 			id: "29E69EB1DEDC7921"
+			rewards: [{
+				id: "679D6B8C5DF6506F"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6EBD2F195DFC72F5"
 				item: { count: 1, id: "naturesaura:infused_iron_sword" }
@@ -476,6 +802,14 @@
 		{
 			dependencies: ["71BB8757DBDC8B96"]
 			id: "4DF7B98D4DD6AD2A"
+			rewards: [{
+				id: "74EC254150BA1123"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "018AEF62FBC0ED47"
@@ -488,6 +822,14 @@
 		{
 			dependencies: ["5FDF133E70DEC72B"]
 			id: "1FC7C4795C41F618"
+			rewards: [{
+				id: "1BB9C487D172ED6E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "016D2EDEABA8F15F"
 				item: { count: 1, id: "naturesaura:aura_cache" }
@@ -499,6 +841,14 @@
 		{
 			dependencies: ["5FDF133E70DEC72B"]
 			id: "6FF1DA16E004D886"
+			rewards: [{
+				id: "48A29F96E934CFE2"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0A5FD10DE0858C3D"
 				item: { count: 1, id: "naturesaura:range_visualizer" }
@@ -510,6 +860,14 @@
 		{
 			dependencies: ["7096BA5276670D56"]
 			id: "476F82802273C0FC"
+			rewards: [{
+				id: "3C0B554AE2F9F179"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "395810F32DAE2C3A"
 				item: { count: 1, id: "naturesaura:sky_helmet" }
@@ -521,6 +879,14 @@
 		{
 			dependencies: ["7096BA5276670D56"]
 			id: "26F7407D7F87E3AF"
+			rewards: [{
+				id: "3AED7BC443C1D370"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "73D85AFF734AF801"
 				item: { count: 1, id: "naturesaura:sky_chest" }
@@ -532,6 +898,14 @@
 		{
 			dependencies: ["7096BA5276670D56"]
 			id: "72F6647F47F3D23D"
+			rewards: [{
+				id: "4068D95901CA90D3"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "07A84A04ECA261AB"
 				item: { count: 1, id: "naturesaura:sky_shoes" }
@@ -543,6 +917,14 @@
 		{
 			dependencies: ["7096BA5276670D56"]
 			id: "28E3B5C9CAD88DCD"
+			rewards: [{
+				id: "209EE922D50A1812"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5C3745477991D33F"
 				item: { count: 1, id: "naturesaura:sky_pants" }
@@ -554,6 +936,14 @@
 		{
 			dependencies: ["7096BA5276670D56"]
 			id: "5D91187B8A1E706D"
+			rewards: [{
+				id: "4F073F0EB44AF6EE"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3DEDD668B539AF10"
 				item: { count: 1, id: "naturesaura:sky_sword" }
@@ -565,6 +955,14 @@
 		{
 			dependencies: ["7096BA5276670D56"]
 			id: "4523B6508D0FE41F"
+			rewards: [{
+				id: "781F06150FEA20C4"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "76692109CDB11B1C"
 				item: { count: 1, id: "naturesaura:sky_pickaxe" }
@@ -576,6 +974,14 @@
 		{
 			dependencies: ["7096BA5276670D56"]
 			id: "18C31864E2EE3129"
+			rewards: [{
+				id: "1F2B549967111BD9"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "45DDCB94605612BE"
 				item: { count: 1, id: "naturesaura:sky_axe" }
@@ -587,6 +993,14 @@
 		{
 			dependencies: ["7096BA5276670D56"]
 			id: "2DA1CC2FF00F8041"
+			rewards: [{
+				id: "17ED9DCDD92D32BC"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2A837AAF60628720"
 				item: { count: 1, id: "naturesaura:sky_hoe" }
@@ -598,6 +1012,14 @@
 		{
 			dependencies: ["7096BA5276670D56"]
 			id: "4CADDC5EBD079BE4"
+			rewards: [{
+				id: "6BE72D5BAF3354C2"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2AAC640AFB6A62CC"
 				item: { count: 1, id: "naturesaura:sky_shovel" }
@@ -609,6 +1031,14 @@
 		{
 			dependencies: ["382870F3E8699127"]
 			id: "4D344D73F53A625F"
+			rewards: [{
+				id: "7AD5981695C6D37B"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F346CA87A5BA53D"
 				item: { count: 1, id: "naturesaura:depth_helmet" }
@@ -620,6 +1050,14 @@
 		{
 			dependencies: ["382870F3E8699127"]
 			id: "6ACEC87CC8248AE2"
+			rewards: [{
+				id: "09F81097D4A950E1"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "30C49F1E43E45FFB"
 				item: { count: 1, id: "naturesaura:depth_chest" }
@@ -631,6 +1069,14 @@
 		{
 			dependencies: ["382870F3E8699127"]
 			id: "26EB29AFD6A72D19"
+			rewards: [{
+				id: "07E730E3A2BA852C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "60277FD516B301A5"
 				item: { count: 1, id: "naturesaura:depth_pants" }
@@ -642,6 +1088,14 @@
 		{
 			dependencies: ["382870F3E8699127"]
 			id: "3631ECB37FE26818"
+			rewards: [{
+				id: "12F5EC7FE535F278"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "69FE434A626EA8AE"
 				item: { count: 1, id: "naturesaura:depth_shoes" }
@@ -653,6 +1107,14 @@
 		{
 			dependencies: ["382870F3E8699127"]
 			id: "2C4CAE3C053348BE"
+			rewards: [{
+				id: "6CF5DFDFD2E5DBBF"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "64F0DA3EAD6B4126"
 				item: { count: 1, id: "naturesaura:depth_sword" }
@@ -664,6 +1126,14 @@
 		{
 			dependencies: ["382870F3E8699127"]
 			id: "77CFCEE9E0FAA2D4"
+			rewards: [{
+				id: "5CA97345DFC4415D"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "13D93D403B4AE9E9"
 				item: { count: 1, id: "naturesaura:depth_pickaxe" }
@@ -675,6 +1145,14 @@
 		{
 			dependencies: ["382870F3E8699127"]
 			id: "4320267CBCF92515"
+			rewards: [{
+				id: "04E47B2DA331C1B3"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B33C921B42ED1C4"
 				item: { count: 1, id: "naturesaura:depth_axe" }
@@ -686,6 +1164,14 @@
 		{
 			dependencies: ["382870F3E8699127"]
 			id: "6CE647CAC97FA5D8"
+			rewards: [{
+				id: "490358DFAA487017"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5581FF0DBD52DF34"
 				item: { count: 1, id: "naturesaura:depth_shovel" }
@@ -697,6 +1183,14 @@
 		{
 			dependencies: ["382870F3E8699127"]
 			id: "05C780534209ADC1"
+			rewards: [{
+				id: "10CAD89AA06BD91E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "461722AB8BC8B949"
 				item: { count: 1, id: "naturesaura:depth_hoe" }

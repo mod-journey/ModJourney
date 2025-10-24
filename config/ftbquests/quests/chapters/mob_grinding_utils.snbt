@@ -54,18 +54,26 @@
 			y: 7.196428571428569d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: [
-				"644466781495F7E7"
 				"25ADF4BACFFF9FB7"
+				"1611A6F1787BD657"
 			]
 			dependency_requirement: "one_completed"
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "5600D421C0F617A9"
+			rewards: [{
+				id: "128C6DAFB532EA16"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -76,8 +84,21 @@
 			y: -0.5272108843537424d
 		}
 		{
-			dependencies: ["5600D421C0F617A9"]
+			dependencies: [
+				"5600D421C0F617A9"
+				"25ADF4BACFFF9FB7"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			id: "776BA18F35EA7817"
+			rewards: [{
+				id: "7462A617F3DD8877"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "3C2B5623ACE2FBDF"
@@ -89,6 +110,14 @@
 		{
 			dependencies: ["53FA14DECBF4B405"]
 			id: "7600E42EC1039D65"
+			rewards: [{
+				id: "22F2AFAB29D2AC61"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "630B4F5DA2784349"
 				item: { count: 1, id: "mob_grinding_utils:entity_conveyor" }
@@ -100,6 +129,14 @@
 		{
 			dependencies: ["776BA18F35EA7817"]
 			id: "64AEF16D7BBA8717"
+			rewards: [{
+				id: "6A088C984344EF12"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3CD871C1CC0FB52D"
 				item: { count: 1, id: "mob_grinding_utils:xpsolidifier" }
@@ -111,6 +148,14 @@
 		{
 			dependencies: ["70C3DA48F8A84840"]
 			id: "41E3D818423C9002"
+			rewards: [{
+				id: "7A94CC9E68357317"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4BED88B518F69D36"
 				item: { count: 1, id: "mob_grinding_utils:spawner_upgrade_width" }
@@ -122,6 +167,14 @@
 		{
 			dependencies: ["70C3DA48F8A84840"]
 			id: "4B91378F01114966"
+			rewards: [{
+				id: "3D77DF913D2EE77B"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "29F430156EFC7A0E"
 				item: { count: 1, id: "mob_grinding_utils:spawner_upgrade_height" }
@@ -133,6 +186,14 @@
 		{
 			dependencies: ["70C3DA48F8A84840"]
 			id: "24CF3ABE17A5E8AD"
+			rewards: [{
+				id: "41AC38401FA7F3DC"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "261800CB71DE19ED"
 				item: { count: 1, id: "mob_grinding_utils:xp_solidifier_upgrade" }
@@ -144,6 +205,14 @@
 		{
 			dependencies: ["776BA18F35EA7817"]
 			id: "1595A8280A792BA3"
+			rewards: [{
+				id: "1A896A88F2004103"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "580D1FDB3D7F28B6"
 				item: { count: 1, id: "mob_grinding_utils:absorption_hopper" }
@@ -155,6 +224,14 @@
 		{
 			dependencies: ["1595A8280A792BA3"]
 			id: "06236B87230672E6"
+			rewards: [{
+				id: "6AE3ED8C15E150A1"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "672117364E646A94"
 				item: { count: 1, id: "mob_grinding_utils:absorption_upgrade" }
@@ -166,6 +243,14 @@
 		{
 			dependencies: ["0400DBB195284E8E"]
 			id: "4DBA3461786E55B4"
+			rewards: [{
+				id: "1F59E9614F08447C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "003041439CCA51E2"
 				item: { count: 1, id: "mob_grinding_utils:tank" }
@@ -177,6 +262,14 @@
 		{
 			dependencies: ["1595A8280A792BA3"]
 			id: "0400DBB195284E8E"
+			rewards: [{
+				id: "6586F8AEAC3FE7D9"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "46A0BB1540461F1E"
 				item: { count: 1, id: "mob_grinding_utils:tank_sink" }
@@ -188,6 +281,14 @@
 		{
 			dependencies: ["4DBA3461786E55B4"]
 			id: "17AF308CF5197526"
+			rewards: [{
+				id: "044BB92785A8D34D"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6914951656283145"
 				item: { count: 1, id: "mob_grinding_utils:xp_tap" }
@@ -199,6 +300,14 @@
 		{
 			dependencies: ["4DBA3461786E55B4"]
 			id: "7B63B6CB65BC3172"
+			rewards: [{
+				id: "5D0AB5BF8C08C991"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "32AE684C63B19DB4"
 				item: { count: 1, id: "mob_grinding_utils:jumbo_tank" }
@@ -211,6 +320,14 @@
 			dependencies: ["5600D421C0F617A9"]
 			hide_dependency_lines: true
 			id: "6E9DAFBCD3D19E5B"
+			rewards: [{
+				id: "6EED9A52B7A56D8B"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C6B957E698C9D3B"
 				type: "checkmark"
@@ -224,6 +341,14 @@
 				"6E9DAFBCD3D19E5B"
 			]
 			id: "3330D9F9B7E898CC"
+			rewards: [{
+				id: "0D23C1FC4EB8D778"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E3D68F8756B8F6D"
 				item: { count: 1, id: "mob_grinding_utils:dragon_muffler" }
@@ -238,6 +363,14 @@
 				"6E9DAFBCD3D19E5B"
 			]
 			id: "6B9497BCB6FDA0AE"
+			rewards: [{
+				id: "74A6B70B661BCE79"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "636BBE99FCA227D4"
 				item: { count: 1, id: "mob_grinding_utils:wither_muffler" }
@@ -249,6 +382,14 @@
 		{
 			dependencies: ["7600E42EC1039D65"]
 			id: "070E4C57EBA4CC18"
+			rewards: [{
+				id: "1BFDAAE558E08699"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "32E877F12D99860A"
 				item: { count: 1, id: "mob_grinding_utils:fan" }
@@ -260,6 +401,14 @@
 		{
 			dependencies: ["070E4C57EBA4CC18"]
 			id: "2330E243DDA687E9"
+			rewards: [{
+				id: "2BEDC4AD8355366C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3C5F5F16EF472347"
 				item: { count: 1, id: "mob_grinding_utils:fan_upgrade_speed" }
@@ -271,6 +420,14 @@
 		{
 			dependencies: ["070E4C57EBA4CC18"]
 			id: "42CF8AE80D8AB778"
+			rewards: [{
+				id: "6C623691155EC34D"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D0A44019592D1D5"
 				item: { count: 1, id: "mob_grinding_utils:fan_upgrade_width" }
@@ -282,6 +439,14 @@
 		{
 			dependencies: ["070E4C57EBA4CC18"]
 			id: "0D02FD3C537A6CBD"
+			rewards: [{
+				id: "6AA9C9CF8A1D9F25"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E3A28B0421D495F"
 				item: { count: 1, id: "mob_grinding_utils:fan_upgrade_height" }
@@ -293,6 +458,14 @@
 		{
 			dependencies: ["776BA18F35EA7817"]
 			id: "53FA14DECBF4B405"
+			rewards: [{
+				id: "6422BF006DA75770"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "10C0E84BF1C03CE8"
 				item: { count: 1, id: "mob_grinding_utils:spikes" }
@@ -304,6 +477,14 @@
 		{
 			dependencies: ["53FA14DECBF4B405"]
 			id: "041CD4FF5110FCD7"
+			rewards: [{
+				id: "514D57DCFDED41BB"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -317,6 +498,14 @@
 		{
 			dependencies: ["041CD4FF5110FCD7"]
 			id: "7FCA05C0B830CBC0"
+			rewards: [{
+				id: "7AB1516746DB3825"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "35A6F7E03FCBC36B"
 				item: { count: 1, id: "mob_grinding_utils:saw_upgrade_sharpness" }
@@ -328,6 +517,14 @@
 		{
 			dependencies: ["041CD4FF5110FCD7"]
 			id: "07F7E146A4368404"
+			rewards: [{
+				id: "7876935B924E73D9"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3E3467606C997649"
 				item: { count: 1, id: "mob_grinding_utils:saw_upgrade_arthropod" }
@@ -339,6 +536,14 @@
 		{
 			dependencies: ["041CD4FF5110FCD7"]
 			id: "1E856EA0F824D285"
+			rewards: [{
+				id: "6D52EF10EA11D8FB"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "09DD979C15E553F1"
 				item: { count: 1, id: "mob_grinding_utils:saw_upgrade_smite" }
@@ -350,6 +555,14 @@
 		{
 			dependencies: ["041CD4FF5110FCD7"]
 			id: "138F9BA2044CB771"
+			rewards: [{
+				id: "737617DC1063A716"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "49670E2C35C7BEEF"
 				item: { count: 1, id: "mob_grinding_utils:saw_upgrade_fire" }
@@ -361,6 +574,14 @@
 		{
 			dependencies: ["041CD4FF5110FCD7"]
 			id: "587C0314547F28A4"
+			rewards: [{
+				id: "704E4683DD6F8EE4"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -374,6 +595,14 @@
 		{
 			dependencies: ["041CD4FF5110FCD7"]
 			id: "5E82814E40451406"
+			rewards: [{
+				id: "5CEB267F11FA8549"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -387,6 +616,14 @@
 		{
 			dependencies: ["70C3DA48F8A84840"]
 			id: "40CBA9ECA122DDFA"
+			rewards: [{
+				id: "07E42A57EABFC195"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "639381BD6094CF20"
 				item: { count: 1, id: "mob_grinding_utils:mob_swab" }
@@ -398,6 +635,14 @@
 		{
 			dependencies: ["40CBA9ECA122DDFA"]
 			id: "4B2657B553F3E322"
+			rewards: [{
+				id: "0704BA76368C1601"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "04FC4B2C200A187A"
 				item: { count: 1, id: "mob_grinding_utils:gm_chicken_feed" }
@@ -409,6 +654,23 @@
 		{
 			dependencies: ["77E66A772828FB98"]
 			id: "70C3DA48F8A84840"
+			rewards: [
+				{
+					id: "7C17571CE09A6122"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D41B551A75ADA99"
+					table_id: 1221953208027045268L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "2633AA02A433F6CB"
 				item: { count: 1, id: "mob_grinding_utils:entity_spawner" }
@@ -420,6 +682,14 @@
 		{
 			dependencies: ["64AEF16D7BBA8717"]
 			id: "795E9E4C809D1EC2"
+			rewards: [{
+				id: "350FA7779621448F"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0728303E1F013089"
 				item: { count: 1, id: "mob_grinding_utils:solid_xp_mould_blank" }
@@ -431,6 +701,14 @@
 		{
 			dependencies: ["795E9E4C809D1EC2"]
 			id: "545CED820632EFB9"
+			rewards: [{
+				id: "04F628FB83F146DE"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "182F25FE21DCFAEF"
 				item: { count: 1, id: "mob_grinding_utils:solid_xp_mould_baby" }
@@ -442,6 +720,14 @@
 		{
 			dependencies: ["545CED820632EFB9"]
 			id: "77E66A772828FB98"
+			rewards: [{
+				id: "28CE7A7B77F4C290"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "72609F1C3103153C"
 				item: { count: 1, id: "mob_grinding_utils:solid_xp_baby" }

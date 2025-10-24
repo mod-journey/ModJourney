@@ -17,13 +17,13 @@
 				"08BDD4ADC8DDB9C2"
 			]
 			dependency_requirement: "one_completed"
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "04D1A0A91AE72503"
 			rewards: [{
-				id: "74ACEEE9AE6CC85A"
+				id: "1EF781F921BD4153"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -40,22 +40,14 @@
 		{
 			dependencies: ["15697EE0C7A58D46"]
 			id: "75611DC723B62AE4"
-			rewards: [
-				{
-					id: "576199E3FC981A29"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
+			rewards: [{
+				id: "27D7CF2F11C01416"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "3005AD78463DF1F9"
-					table_id: 4476243188742840184L
-					type: "loot"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "7FD6AEFF35253853"
 				item: { count: 1, id: "fluxnetworks:flux_plug" }
@@ -68,10 +60,10 @@
 			dependencies: ["15697EE0C7A58D46"]
 			id: "2677B43BE16309EC"
 			rewards: [{
-				id: "78CF3F3EC01299F8"
+				id: "13849F47C471CA89"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -90,10 +82,10 @@
 			]
 			id: "79ABB8A2C2D1AD3C"
 			rewards: [{
-				id: "5737F634AC21FE04"
+				id: "567330E555DFE6DC"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -109,10 +101,10 @@
 			dependencies: ["79ABB8A2C2D1AD3C"]
 			id: "01AEA72DE639B9C3"
 			rewards: [{
-				id: "7A688720201257B5"
+				id: "585328F43451A047"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -128,10 +120,10 @@
 			dependencies: ["01AEA72DE639B9C3"]
 			id: "42949BA4369F9B3F"
 			rewards: [{
-				id: "3A2F01EB369F9085"
+				id: "277F8CB2BD4C217F"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -147,10 +139,10 @@
 			dependencies: ["04D1A0A91AE72503"]
 			id: "15697EE0C7A58D46"
 			rewards: [{
-				id: "376B25FEE29B5303"
+				id: "032B7BF19090D140"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
@@ -165,14 +157,23 @@
 		{
 			dependencies: ["42949BA4369F9B3F"]
 			id: "7294DBAAA5588E92"
-			rewards: [{
-				id: "725D047664F4EC69"
-				item: {
-					count: 1
-					id: "minecraft:apple"
+			rewards: [
+				{
+					id: "701858DBDA604916"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "2E14EAF215FA7336"
+					table_id: 5163904022262307371L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "07B74821518C9932"
 				item: { count: 1, id: "fluxnetworks:flux_configurator" }
