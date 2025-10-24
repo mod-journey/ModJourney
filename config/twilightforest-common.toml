@@ -54,7 +54,7 @@ multiplayerFightAdjuster = "MORE_LOOT_AND_HEALTH"
 	#The max amount of water spaces the mod will check for when creating a portal. Very high numbers may cause performance issues.
 	# Default: 64
 	# Range: > 4
-	maxPortalSize = 64
+	maxPortalSize = 16
 
 #Settings for all things related to the Uncrafting Table.
 ["Uncrafting Table"]
