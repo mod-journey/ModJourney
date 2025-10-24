@@ -4,16 +4,740 @@
 	default_quest_shape: ""
 	filename: "creative_items"
 	group: "5137A643BD4C4882"
+	icon: {
+		id: "mod_journey:gold_coin"
+	}
 	id: "7E4C16B1CFFEA76C"
 	order_index: 5
 	quest_links: [ ]
-	quests: [{
-		id: "1A68095FE4424786"
-		tasks: [{
-			id: "5E9F04C4A41D0EBA"
-			type: "checkmark"
-		}]
-		x: 1.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			hide_until_deps_complete: true
+			id: "1A68095FE4424786"
+			tasks: [{
+				id: "5E9F04C4A41D0EBA"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["746950E99AF97116"]
+			icon: {
+				components: {
+					"mekanism:energy": {
+						energy_containers: [L;9223372036854775807L]
+					}
+					"mekanism:side_config": {
+						config: {
+							energy: {
+								eject: 1b
+								side: {
+									back: "output"
+									bottom: "output"
+									front: "output"
+									left: "output"
+									right: "output"
+									top: "output"
+								}
+							}
+							items: {
+								side: {
+									back: "input"
+									bottom: "input"
+									front: "output"
+									left: "input"
+									right: "input"
+									top: "input"
+								}
+							}
+						}
+					}
+				}
+				id: "mekanism:creative_energy_cube"
+			}
+			id: "5FAB86380F99F739"
+			optional: true
+			rewards: [{
+				id: "74A58E5EDC58C681"
+				item: {
+					components: {
+						"mekanism:energy": {
+							energy_containers: [L;9223372036854775807L]
+						}
+						"mekanism:side_config": {
+							config: {
+								energy: {
+									eject: 1b
+									side: {
+										back: "output"
+										bottom: "output"
+										front: "output"
+										left: "output"
+										right: "output"
+										top: "output"
+									}
+								}
+								items: {
+									side: {
+										back: "input"
+										bottom: "input"
+										front: "output"
+										left: "input"
+										right: "input"
+										top: "input"
+									}
+								}
+							}
+						}
+					}
+					count: 1
+					id: "mekanism:creative_energy_cube"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 100L
+				id: "37B7DC0266F67308"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["112FBC69511A5B70"]
+			icon: {
+				id: "apotheosis:augmenting_table"
+			}
+			id: "29DDB10166CCB978"
+			rewards: [{
+				id: "2648A7FAA0AA1E4E"
+				item: {
+					count: 1
+					id: "apotheosis:augmenting_table"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 30L
+				id: "5EDB105453AC4C87"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["112FBC69511A5B70"]
+			icon: {
+				id: "ars_nouveau:creative_source_jar"
+			}
+			id: "621DE3717291CA28"
+			rewards: [{
+				id: "7989247A716DBE44"
+				item: {
+					count: 1
+					id: "ars_nouveau:creative_source_jar"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 30L
+				id: "3C225914296EE9A9"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["746950E99AF97116"]
+			icon: {
+				id: "aeinfinitybooster:dimension_card"
+			}
+			id: "6B778897A7BC25B1"
+			rewards: [{
+				id: "5514C2A43F7FA0A6"
+				item: {
+					count: 1
+					id: "aeinfinitybooster:dimension_card"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "106778E2403B99EF"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["746950E99AF97116"]
+			icon: {
+				id: "extendedae:infinity_water_cell"
+			}
+			id: "113EE32339593A6B"
+			rewards: [{
+				id: "478D5EC99A3F5965"
+				item: {
+					count: 1
+					id: "extendedae:infinity_water_cell"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "096ACE22EEC67CD4"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["746950E99AF97116"]
+			icon: {
+				id: "extendedae:infinity_cobblestone_cell"
+			}
+			id: "69D3F7CF34936319"
+			rewards: [{
+				id: "1A5BE163046D2749"
+				item: {
+					count: 1
+					id: "extendedae:infinity_cobblestone_cell"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "3B5F408EA0042021"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["746950E99AF97116"]
+			icon: {
+				id: "mekanism:mekasuit_boots"
+			}
+			id: "3F05249D0715F115"
+			optional: true
+			rewards: [{
+				id: "5F80D19DD3D21AC1"
+				item: {
+					count: 1
+					id: "mekanism:mekasuit_boots"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 20L
+				id: "2AD654422388F618"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["746950E99AF97116"]
+			icon: {
+				id: "mekanism:mekasuit_pants"
+			}
+			id: "162C1320D31EEB6F"
+			optional: true
+			rewards: [{
+				id: "77C7162AA67BABFD"
+				item: {
+					count: 1
+					id: "mekanism:mekasuit_pants"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 20L
+				id: "7590206AAB0CFE6A"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["746950E99AF97116"]
+			icon: {
+				id: "mekanism:mekasuit_bodyarmor"
+			}
+			id: "60A7EA354D8DF67D"
+			optional: true
+			rewards: [{
+				id: "5B70CF6893999E3B"
+				item: {
+					count: 1
+					id: "mekanism:mekasuit_bodyarmor"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 20L
+				id: "4909973124C74BC9"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["746950E99AF97116"]
+			icon: {
+				id: "mekanism:mekasuit_helmet"
+			}
+			id: "51E2C148A1C8F5F9"
+			optional: true
+			rewards: [{
+				id: "1A4D1D30B884EE4D"
+				item: {
+					count: 1
+					id: "mekanism:mekasuit_helmet"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 20L
+				id: "1456EFEF11647CAF"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["746950E99AF97116"]
+			icon: {
+				id: "mekanism:module_energy_unit"
+			}
+			id: "04B0074A709CF14C"
+			optional: true
+			rewards: [{
+				id: "79C19FB9976846CD"
+				item: {
+					count: 1
+					id: "mekanism:module_energy_unit"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "68E4AB8A32636264"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["746950E99AF97116"]
+			icon: {
+				id: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+			}
+			id: "52FD3D9EB1FE3F9B"
+			rewards: [{
+				id: "7F5036129FD5F31F"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "0DAFB26C7AD9D809"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["746950E99AF97116"]
+			icon: {
+				components: {
+					"industrialforegoing:infinity_can_charge": 1b
+					"industrialforegoing:infinity_item_power": 0L
+					"industrialforegoing:infinity_item_selected_tier": "poor"
+					"industrialforegoing:infinity_item_special": 0b
+				}
+				id: "industrialforegoing:infinity_nuke"
+			}
+			id: "65D8D04DA37EB00A"
+			rewards: [{
+				id: "1F3C2469719666AF"
+				item: {
+					components: {
+						"industrialforegoing:infinity_can_charge": 1b
+						"industrialforegoing:infinity_item_power": 0L
+						"industrialforegoing:infinity_item_selected_tier": "poor"
+						"industrialforegoing:infinity_item_special": 0b
+					}
+					count: 1
+					id: "industrialforegoing:infinity_nuke"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 50L
+				id: "44EBA41853714E2D"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["746950E99AF97116"]
+			icon: {
+				id: "mekanism:digital_miner"
+			}
+			id: "6BA6F1F89FD7CF21"
+			rewards: [{
+				id: "28BD26678E39D8A0"
+				item: {
+					count: 1
+					id: "mekanism:digital_miner"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 15L
+				id: "6864481888049ED2"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["25CFBFA45F14C286"]
+			icon: {
+				id: "alltheores:steel_ingot"
+			}
+			id: "36573BD5A413B942"
+			rewards: [{
+				count: 20
+				id: "44D2BE2ED9F20329"
+				item: {
+					count: 1
+					id: "alltheores:steel_ingot"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E35050A6BAD6A66"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["112FBC69511A5B70"]
+			icon: {
+				id: "mysticalagriculture:master_infusion_crystal"
+			}
+			id: "40683ABAF2D69492"
+			rewards: [{
+				id: "14EC3AEAB7AF130F"
+				item: {
+					count: 1
+					id: "mysticalagriculture:master_infusion_crystal"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "3DE056C76919CBB9"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A68095FE4424786"]
+			hide_until_deps_complete: false
+			id: "25CFBFA45F14C286"
+			tasks: [{
+				id: "71EEA59EBB41FA69"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["25CFBFA45F14C286"]
+			icon: {
+				id: "industrialforegoing:laser_drill"
+			}
+			id: "20E7F0F41A8E64FB"
+			rewards: [{
+				id: "6AB6801DC216E335"
+				item: {
+					count: 1
+					id: "industrialforegoing:laser_drill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "041CBD2243EAD4C3"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1A68095FE4424786"
+				"4834BF938B07C244"
+			]
+			hide_until_deps_complete: false
+			id: "112FBC69511A5B70"
+			tasks: [{
+				id: "403D45E859663DE0"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1A68095FE4424786"
+				"4B9318FBFB1FF36F"
+			]
+			hide_until_deps_complete: false
+			id: "746950E99AF97116"
+			tasks: [{
+				id: "772B36E9DC21F35A"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["112FBC69511A5B70"]
+			icon: {
+				components: {
+					"apotheosis:gem": "apotheosis:core/warlord"
+					"apotheosis:purity": "perfect"
+				}
+				id: "apotheosis:gem"
+			}
+			id: "26A055E345983DE9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F187D678A65AC76"
+				table_id: 1242615604698372770L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				count: 5L
+				id: "781830BE32715378"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["25CFBFA45F14C286"]
+			icon: {
+				id: "minecraft:netherite_upgrade_smithing_template"
+			}
+			id: "4561534AF53E0D10"
+			rewards: [{
+				id: "0D1865AD968DF428"
+				item: {
+					count: 1
+					id: "minecraft:netherite_upgrade_smithing_template"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "6B10FCDD63F7E64E"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["112FBC69511A5B70"]
+			icon: {
+				id: "apotheosis:mythic_material"
+			}
+			id: "1F15419719279899"
+			rewards: [{
+				id: "77182E483BD454AD"
+				item: {
+					count: 1
+					id: "apotheosis:mythic_material"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "50D9D2D67EE2BCF2"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["746950E99AF97116"]
+			icon: {
+				id: "industrialforegoingsouls:soul_laser_base"
+			}
+			id: "2E36FAED85018C3D"
+			rewards: [{
+				id: "37F1D51838860A3D"
+				item: {
+					count: 1
+					id: "industrialforegoingsouls:soul_laser_base"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 15L
+				id: "5BC2413BDCE69ABF"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["746950E99AF97116"]
+			icon: {
+				id: "ae2:creative_energy_cell"
+			}
+			id: "327C3EB7D3A292C7"
+			rewards: [{
+				id: "4C31FE4FA5AA860C"
+				item: {
+					count: 1
+					id: "ae2:creative_energy_cell"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "7C371316261EF002"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["746950E99AF97116"]
+			icon: {
+				id: "megacells:radioactive_chemical_cell"
+			}
+			id: "6E9E23CD83F0D2EE"
+			optional: true
+			rewards: [{
+				id: "2EB9B5F522AEDD20"
+				item: {
+					count: 1
+					id: "megacells:radioactive_chemical_cell"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "046760C3D64102FF"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["112FBC69511A5B70"]
+			icon: {
+				id: "ars_nouveau:annotated_codex"
+			}
+			id: "30478EE119C9F119"
+			rewards: [{
+				id: "2221DF43A3961755"
+				item: {
+					count: 1
+					id: "ars_nouveau:annotated_codex"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "514FDC84F5B78BD1"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.5d
+		}
+	]
 }

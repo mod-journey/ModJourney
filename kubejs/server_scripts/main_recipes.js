@@ -44,7 +44,7 @@ if (events_server) {
             itemcollector_gated(event, true);
             laserio_gated(event, true);
             mekanism_gated(event, true);
-            mobgrindingutils(event, true);                     //much items like weapons and armor must replace, if we have new magic mods.
+            mobgrindingutils(event, true);
             mysticalagriculture_gated(event, true);
             powah_gated(event, true);
             rfttools_gated(event, true);
@@ -61,8 +61,6 @@ if (events_server) {
         if (add_event) {
             add_ae2_fluix(event, true);
             add_ae2_skystellingot(event, true);
-            add_creativeitemsMagic(event, false);   //deactivate recipe, while got it in MJ2
-            add_creativeitemsTechnic(event, false); //deactivate recipe, while got it in MJ2
             add_immersive_excavator(event, true);
             add_industrial_laser_fluidLaser(event, true);
             add_modjourney_antimatter(event, true);

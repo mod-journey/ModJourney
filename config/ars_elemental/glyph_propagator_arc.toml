@@ -3,9 +3,9 @@
 	#Is Enabled?
 	enabled = true
 	#Cost
-	# Default: 200
+	# Default: 150
 	# Range: > -2147483648
-	cost = 200
+	cost = 150
 	#Is Starter Glyph?
 	starter = false
 	#The maximum number of times this glyph may appear in a single spell

@@ -4,6 +4,9 @@
 	default_quest_shape: ""
 	filename: "mystical_agriculture_v"
 	group: "5137A643BD4C4882"
+	icon: {
+		id: "mysticalagriculture:supremium_essence"
+	}
 	id: "508F596567C2F7D1"
 	order_index: 4
 	quest_links: [ ]

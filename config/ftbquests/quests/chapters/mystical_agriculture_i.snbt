@@ -6,13 +6,15 @@
 	group: "5137A643BD4C4882"
 	hide_quest_until_deps_complete: true
 	icon: {
-		id: "mod_journey:gold_coin"
+		id: "mysticalagriculture:inferium_essence"
 	}
 	id: "0CDA1E160351B33E"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0E92633B7DC58B57"]
+			hide_until_deps_complete: true
 			id: "7C1ADA6D4CFC09D7"
 			tasks: [{
 				id: "75544F4E717B9CFC"
@@ -66,6 +68,9 @@
 		{
 			dependencies: ["7C1ADA6D4CFC09D7"]
 			hide_until_deps_visible: true
+			icon: {
+				id: "minecraft:oak_log"
+			}
 			id: "7BC484BE1CEB92D5"
 			rewards: [{
 				id: "1DCC9C3D1D87FFBA"
@@ -80,7 +85,7 @@
 				consume_items: true
 				count: 10000L
 				id: "3B3FB291732E4A20"
-				item: { count: 1, id: "minecraft:oak_log" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -444,6 +449,28 @@
 			}]
 			x: 9.5d
 			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7C1ADA6D4CFC09D7"]
+			icon: {
+				id: "minecraft:bundle"
+			}
+			id: "7AECB62DC58378D5"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CAE0FCC75F54EC0"
+				table_id: 3711098186976156353L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "05EAE3CAE3CC5B8E"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
 		}
 	]
 }

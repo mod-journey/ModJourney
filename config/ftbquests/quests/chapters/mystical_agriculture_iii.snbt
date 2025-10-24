@@ -5,6 +5,9 @@
 	filename: "mystical_agriculture_iii"
 	group: "5137A643BD4C4882"
 	hide_quest_until_deps_complete: true
+	icon: {
+		id: "mysticalagriculture:tertium_essence"
+	}
 	id: "14DC9B8D23AA0489"
 	order_index: 2
 	quest_links: [ ]
@@ -14,6 +17,7 @@
 				"7CD4BB26A718C894"
 				"2619E71D63B1B7FE"
 			]
+			hide_until_deps_complete: true
 			id: "1A92BA38712EA453"
 			tasks: [{
 				id: "5EB7540C6D142A16"

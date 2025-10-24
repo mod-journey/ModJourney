@@ -11,6 +11,8 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0E92633B7DC58B57"]
+			hide_until_deps_complete: true
 			id: "736169731670410F"
 			rewards: [{
 				id: "4200A5569793D54E"
@@ -626,14 +628,23 @@
 				"4FE30C332131292E"
 			]
 			id: "4834BF938B07C244"
-			rewards: [{
-				id: "4DB68DEF3B45AAD7"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					id: "4DB68DEF3B45AAD7"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "544ED474C3C8DC3E"
+					table_id: 5163904022262307371L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "7C55D2B29E0EC573"
 				item: { count: 1, id: "apothic_enchanting:ender_library" }

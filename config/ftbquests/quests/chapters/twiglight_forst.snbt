@@ -11,6 +11,8 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0E92633B7DC58B57"]
+			hide_until_deps_complete: true
 			id: "52B7129CA651630E"
 			rewards: [{
 				id: "79ECF684C8253284"
@@ -308,14 +310,23 @@
 		{
 			dependencies: ["4DF15145C5B5DAF9"]
 			id: "0A55D16D98903B07"
-			rewards: [{
-				id: "5263A6D2D65AFEBF"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					id: "5263A6D2D65AFEBF"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "1002D76C7207C455"
+					table_id: 1221953208027045268L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "0F2D3FC48EC19354"

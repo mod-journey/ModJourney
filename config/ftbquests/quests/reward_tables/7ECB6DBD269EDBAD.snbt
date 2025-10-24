@@ -1,0 +1,17 @@
+{
+	icon: {
+		id: "mod_journey:silver_coin"
+	}
+	id: "7ECB6DBD269EDBAD"
+	loot_size: 1
+	order_index: 21
+	rewards: [{
+		count: 5
+		id: "28AD0DCF63AECA41"
+		item: {
+			count: 1
+			id: "mod_journey:silver_coin"
+		}
+		random_bonus: 10
+	}]
+}

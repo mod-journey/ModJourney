@@ -157,14 +157,23 @@
 		{
 			dependencies: ["42949BA4369F9B3F"]
 			id: "7294DBAAA5588E92"
-			rewards: [{
-				id: "701858DBDA604916"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					id: "701858DBDA604916"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "2E14EAF215FA7336"
+					table_id: 5163904022262307371L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "07B74821518C9932"
 				item: { count: 1, id: "fluxnetworks:flux_configurator" }

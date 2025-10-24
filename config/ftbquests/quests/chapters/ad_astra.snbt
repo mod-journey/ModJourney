@@ -426,14 +426,23 @@
 		{
 			dependencies: ["005F625FCFC80A7B"]
 			id: "2619E71D63B1B7FE"
-			rewards: [{
-				id: "64D66F3A0C49720D"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					id: "64D66F3A0C49720D"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "3560280914B2FF55"
+					table_id: 2025559148286503432L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				advancement: "stellaris:mercury_land"
 				criterion: ""

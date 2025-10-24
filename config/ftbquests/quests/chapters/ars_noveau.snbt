@@ -12,8 +12,8 @@
 	quests: [
 		{
 			dependencies: [
-				"644466781495F7E7"
 				"796D47D4DEDA277C"
+				"60BA461ED63506B5"
 			]
 			dependency_requirement: "one_completed"
 			hide_until_deps_complete: true
@@ -651,14 +651,23 @@
 		{
 			dependencies: ["48C79ED35AC136C8"]
 			id: "5F98BAF82E1271EE"
-			rewards: [{
-				id: "3AA79653932D6B70"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					id: "3AA79653932D6B70"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "41776D9555DEF3A4"
+					table_id: 1221953208027045268L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "317CBB592D93EA69"
 				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
