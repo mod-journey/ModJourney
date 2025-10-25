@@ -2,6 +2,8 @@
 
 // Here you can define Mobs, which should protect from capturing.
 let bosses_blacklist = [
+    "cataclysm:maledictus",
+    "cataclysm:scylla",
     "cataclysm:the_harbinger",
     "cataclysm:the_leviathan",
     "cataclysm:amethyst_crab",
