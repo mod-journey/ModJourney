@@ -1,10 +1,10 @@
 {
   "name": {
-    "text": "item.mod_journey.machine.seed_planter",
+    "text": "Crop Planter",
     "color": "white"
   },
   "appearance": {
-    "custommachinery:block": "mod_journey:machine/seed_planter#standalone",
+    "custommachinery:block": "mod_journey:machine/crop_planter#standalone",
     "custommachinery:item": "mod_journey:machine/seed_planter#standalone"
   },
   "components": [

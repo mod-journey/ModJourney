@@ -1,10 +1,10 @@
 {
 	// Shrinking Device capacity
-	"shrinkingDeviceCapacity": 100000,
+	"shrinkingDeviceCapacity": 10000000,
 	// Shrinking Device cost
-	"shrinkingDeviceCost": 100,
+	"shrinkingDeviceCost": 1000000,
 	// Shrink Max Size
-	"maxSize": 10.0,
+	"maxSize": 2.0,
 	// Shrink Min Size
-	"minSize": -1.0
+	"minSize": -0.6
 }

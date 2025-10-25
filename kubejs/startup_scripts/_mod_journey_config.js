@@ -29,7 +29,7 @@ global.mjConfig = {
         },
         stage3: {
             core: 'mod_journey:staging/frame_core_4',
-            second: '',
+            second: 'enderio:pulsating_crystal', // Mid-game
             endgame: '',
             magic: {
                 early: 'ars_nouveau:source_gem',
@@ -76,5 +76,14 @@ global.mjConfig = {
 }
 
 for (let i=1; i<=4; i++) {
-    global.mjConfig.times[`week_${i}`] = global.mjConfig.times.projectStart + WEEK * i;
+    global.mjConfig.times[`week_${i}`] = global.mjConfig.times.projectStart + (WEEK/1000) * i;
 }
+
+/*
+// Debug Times
+Object.entries(global.mjConfig.times).forEach(([key, time]) => {
+    let date = new Date(time*1000)
+    console.log(`ProjectTimes ${key}: ${date.toString()}`)
+})
+*/
+

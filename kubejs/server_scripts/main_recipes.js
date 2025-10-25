@@ -16,7 +16,6 @@ if (events_server) {
     let remove_event = true;
     let add_event = true;
     let replace_ores = false;
-    let other_events = false;
     let replace_event = true;
     let customMachine_event = true;
 
@@ -45,7 +44,7 @@ if (events_server) {
             itemcollector_gated(event, true);
             laserio_gated(event, true);
             mekanism_gated(event, true);
-            mobgrindingutils(event, true);                     //much items like weapons and armor must replace, if we have new magic mods.
+            mobgrindingutils(event, true);
             mysticalagriculture_gated(event, true);
             powah_gated(event, true);
             rfttools_gated(event, true);
@@ -53,7 +52,8 @@ if (events_server) {
             remove_item_by_tag(event, true);                    //Checking scipt of using
             stellaris_gated(event, true);
             occultism_gated(event, true);
-
+            funtionalStorage_gated(event, true)
+            waystones_gated(event, true)
 
         }
 
@@ -61,13 +61,10 @@ if (events_server) {
         if (add_event) {
             add_ae2_fluix(event, true);
             add_ae2_skystellingot(event, true);
-            add_creativeitemsMagic(event, true);
-            add_creativeitemsTechnic(event, true);
             add_immersive_excavator(event, true);
             add_industrial_laser_fluidLaser(event, true);
             add_modjourney_antimatter(event, true);
             add_modjourney_scrolls(event, true);
-            add_cataclysm(event, false);                        //deactivate, while cataclysm is deactivated as mod, while throw a lot of errors.
             add_modjourneycoins(event, true);
             add_stellaris(event, true);
             easy_villagers_gated(event, true)
@@ -76,9 +73,8 @@ if (events_server) {
         if (customMachine_event) {
             add_custom_machinary_seedplanter(event, true)
             add_custom_machinary_treeplanter(event, true)
-            add_custom_machinary_coalgen(event, true)
-            add_custom_machinary_watergen(event, true)
-            add_custom_machinary_metalpress(event, false)
+            add_custom_machinary_metalpress(event, true)
+            add_custom_machinary_brine_converter(event, true)
         }
 
         /* "./remove/*" */
@@ -132,11 +128,6 @@ if (events_server) {
         }
         fixAlloyRecipes(event, true)
     })
-
-    if (other_events) {
-        remove_pickup_mobs(event);
-    };
-
 };
 
 

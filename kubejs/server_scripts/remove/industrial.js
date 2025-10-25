@@ -19,4 +19,8 @@ let remove_industrial = (event, active, debug) => {
             output: Item.of('industrialforegoing:infinity_' + element)
         })
     });
+
+    //remove Soul Laser Base, while add it to creativ Item Shop in QB.
+    event.remove({output: "industrialforegoingsouls:soul_laser_base"})
+
 };
