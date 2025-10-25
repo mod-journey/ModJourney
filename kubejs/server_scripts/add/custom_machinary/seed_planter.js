@@ -6,7 +6,7 @@ let add_custom_machinary_seedplanter = (event, active, debug) => {
     let mystical_obj = global.seeds.mystical
 
     //Crafting the Machine itselfs:
-    event.shaped('custommachinery:custom_machine_item[custommachinery:machine="mod_journey:seed_planter"]', [
+    event.shaped("mod_journey:seed_planter", [
         'ABA',
         'CDC',
         'EFE'

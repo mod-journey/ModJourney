@@ -2,7 +2,7 @@ let add_custom_machinary_brine_converter = (event, active, debug) => {
     if (!active) return;
 
     //Crafting the Machine itselfs:
-    event.shaped('custommachinery:custom_machine_item[custommachinery:machine="mod_journey:brine_converter"]', [
+    event.shaped("mod_journey:brine_converter", [
         'AAA',
         'BCB',
         'ADA'

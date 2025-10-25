@@ -8,7 +8,7 @@ let add_custom_machinary_treeplanter = (event, active, debug) => {
     let TwillightTrees = trees.twillight
 
         //Crafting the Machine itselfs:
-        event.shaped('custommachinery:custom_machine_item[custommachinery:machine="mod_journey:tree_planter"]', [
+        event.shaped("mod_journey:tree_planter", [
             'ABA',
             'CDC',
             'EFE'
