@@ -1,6 +1,7 @@
 //priority 10
 
-let ores_thermal_tag = (event) => {
+let ores_thermal_tag = (event, active, debug) => {
+    if (!active) return;
 
     let thermal_ores = [
         'tin',

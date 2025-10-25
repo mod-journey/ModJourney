@@ -1,6 +1,7 @@
-//priority 10
+//priority: 0
 
-ServerEvents.recipes(event => {
+let remove_extremeReactor = (event, active, debug) => {
+    if (!active) return;
 
     let extreme_remove = [
         //kreativgedöns
@@ -25,4 +26,4 @@ ServerEvents.recipes(event => {
     extreme_remove.forEach(remove_item => {
         event.remove({output: remove_item})
     });
-})
+};

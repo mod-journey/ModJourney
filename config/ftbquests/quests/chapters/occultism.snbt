@@ -1,0 +1,251 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "16F9BB65CBA165C2"
+	icon: {
+		id: "occultism:ritual_dummy/summon_foliot_crusher"
+	}
+	id: "0352CE84D4BC63C6"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5FDF133E70DEC72B"
+				"1FAAFE2BCCDD025F"
+				"5902419C7421AA67"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "30BCA4DCF7A86182"
+			rewards: [{
+				id: "22AD61D3CDB6F9C8"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4A203E38CBB87D1F"
+					item: { count: 1, id: "occultism:datura_seeds" }
+					type: "item"
+				}
+				{
+					id: "356EA84E2F0DBD56"
+					item: { count: 1, id: "occultism:datura" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30BCA4DCF7A86182"]
+			hide_until_deps_complete: true
+			id: "016A7860CCA8F684"
+			rewards: [{
+				id: "429917ECD53DED44"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "05AAE2D9FA5FF59E"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30BCA4DCF7A86182"]
+			hide_details_until_startable: true
+			icon: {
+				id: "occultism:spirit_fire"
+			}
+			id: "689657DD70045DAA"
+			rewards: [{
+				id: "6B6B2106336B9406"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "004CE5BE403CE09F"
+				item: { count: 1, id: "minecraft:flint_and_steel" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["689657DD70045DAA"]
+			id: "43803774A3915BAD"
+			rewards: [{
+				id: "7809B04B983FE238"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "410F4F8E5CCF97BA"
+					item: { count: 1, id: "occultism:spirit_attuned_gem" }
+					type: "item"
+				}
+				{
+					id: "0E3754FFABA749D3"
+					item: { count: 1, id: "occultism:otherstone" }
+					type: "item"
+				}
+				{
+					id: "08F58AB6DED89448"
+					item: { count: 1, id: "occultism:otherworld_sapling_natural" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["43803774A3915BAD"]
+			id: "2D4373175C12C82D"
+			rewards: [{
+				id: "677A2E8561101D87"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B36148C5D92BAA6"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2D4373175C12C82D"]
+			dependency_requirement: "one_completed"
+			id: "60BA461ED63506B5"
+			optional: true
+			rewards: [{
+				id: "405AB5D22AD1D540"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4EFD62BFCF5BBD57"
+					item: { components: { "occultism:spirit_name": "Krlynder" }, count: 1, id: "occultism:book_of_binding_bound_foliot" }
+					type: "item"
+				}
+				{
+					id: "0BCDD3EC7D2C9B08"
+					item: { count: 1, id: "occultism:crushed_end_stone" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2D4373175C12C82D"
+				"60BA461ED63506B5"
+			]
+			dependency_requirement: "one_completed"
+			id: "47B737F4DCE8510E"
+			min_required_dependencies: 2
+			rewards: [{
+				id: "00446A390BC09A5C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0E4724CD4BAB802C"
+					item: { count: 1, id: "occultism:chalk_yellow_impure" }
+					type: "item"
+				}
+				{
+					id: "3D31BA6BFB765AC2"
+					item: { count: 1, id: "occultism:chalk_purple_impure" }
+					type: "item"
+				}
+				{
+					id: "1713ADF68FC3480C"
+					item: { count: 1, id: "occultism:chalk_light_gray_impure" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["47B737F4DCE8510E"]
+			id: "1611A6F1787BD657"
+			rewards: [
+				{
+					id: "621459480C37ADA9"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45EE573DA1587421"
+					table_id: 2025559148286503432L
+					team_reward: true
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "1DCD159EC20BAC27"
+				item: { count: 1, id: "occultism:soul_gem" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["47B737F4DCE8510E"]
+			id: "067DBD94BF6397E1"
+			optional: true
+			rewards: [{
+				id: "03F87EEF6DC828BF"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "576A02270C11AA60"
+				item: { count: 1, id: "occultism:chalk_void" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+	]
+}

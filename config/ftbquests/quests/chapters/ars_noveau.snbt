@@ -1,87 +1,36 @@
 {
-	autofocus_id: "1E78C6170EC5067E"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ars_noveau"
 	group: "16F9BB65CBA165C2"
-	icon: "ars_nouveau:archmage_spell_book"
+	icon: {
+		id: "ars_nouveau:creative_spell_book"
+	}
 	id: "791B5B0012F48C8B"
-	images: [
-		{
-			color: 1019157
-			dependency: "1E78C6170EC5067E"
-			height: 1.0d
-			hover: ["grüner pointer"]
-			image: "ftbchunks:textures/waypoint_default.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 1.0d
-			y: 4.0d
-		}
-		{
-			color: 1019157
-			dependency: "1E78C6170EC5067E"
-			height: 1.0d
-			hover: ["grüner pointer"]
-			image: "ftbchunks:textures/waypoint_default.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 2.5d
-			y: 5.5d
-		}
-		{
-			color: 1019157
-			dependency: "1E78C6170EC5067E"
-			height: 1.0d
-			hover: ["grüner pointer"]
-			image: "ftbchunks:textures/waypoint_default.png"
-			rotation: 45.0d
-			width: 1.0d
-			x: 11.535714285714285d
-			y: 5.857142857142854d
-		}
-		{
-			color: 1019157
-			dependency: "1E78C6170EC5067E"
-			height: 1.0d
-			hover: ["grüner pointer"]
-			image: "ftbchunks:textures/waypoint_default.png"
-			rotation: 45.0d
-			width: 1.0d
-			x: 12.642857142857139d
-			y: -2.2142857142857153d
-		}
-	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: [
-				"644466781495F7E7"
 				"796D47D4DEDA277C"
+				"60BA461ED63506B5"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Zaubersprüche, Rituale, Magische Apparaturen und Tierbegleiter. Das und noch mehr bietet Ars Nouveau."]
-			hide: true
+			hide_until_deps_complete: true
 			icon: {
-				Count: 1
 				id: "ars_nouveau:arcanist_hood"
-				tag: {
-					Damage: 0
-				}
 			}
 			id: "1E78C6170EC5067E"
 			rewards: [{
-				id: "066E95FE50A1FE24"
-				item: "mod_journey:bronze_coin"
+				id: "6CBA0C4C917FFD56"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			shape: "hexagon"
-			size: 2.0d
-			subtitle: "Willkommen bei Ars Nouveau"
 			tasks: [{
 				id: "47B9EA7DBC0FE347"
-				title: "Los geht's!"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -89,47 +38,39 @@
 		}
 		{
 			dependencies: ["1E78C6170EC5067E"]
-			description: ["Gut, dass der Minecraft Charakter übermäßig stark ist. Jetzt muss nur noch in Intelligenz geskillt werden. Dafür brauchst du das &l&5Große Buch, wo alles drin steht&r. Mit dem ersten Spellbook kannst du Tier 1 Zauber wirken und hast jegliche Informationen gesammelt an einer Stelle."]
 			id: "77D31EC2C76058E2"
 			rewards: [{
-				id: "53D72757A676E1EA"
-				item: "mod_journey:bronze_coin"
+				id: "4E99DB0B79FF066C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			subtitle: "...und so ein dickes Buch auch."
 			tasks: [{
 				id: "24AF965390A4C6A8"
-				item: "ars_nouveau:novice_spell_book"
+				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
 				type: "item"
 			}]
-			title: "Aller Anfang ist schwer..."
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["77D31EC2C76058E2"]
-			description: [
-				"Öffne hierzu dein Spellbook in deiner Hand (Default: C)."
-				"Grundsätzlich gilt: Jeder Spell braucht mindestens eine Form (auf welche Weise wird der Effekt ausgeführt) und einen Effekt."
-				"Später können auch Modifikationen oder mehrere Formen/Effekte hinzugefügt werden."
-				""
-				"Die Formen, Effekte und Modifikationen heißen Glyphen."
-			]
 			icon: {
-				Count: 1
 				id: "ars_nouveau:spell_parchment"
-				tag: { }
 			}
 			id: "5C7D0094496E8E53"
 			rewards: [{
-				id: "16592DE910CA9F3B"
-				item: "mod_journey:bronze_coin"
+				id: "74D52E459C8C6BB3"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			subtitle: "Wie funktioniert das?"
 			tasks: [{
 				id: "24F8B896271FC943"
-				title: "Dein erster Spell"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -137,27 +78,20 @@
 		}
 		{
 			dependencies: ["77D31EC2C76058E2"]
-			description: [
-				"Das Wort Mana stammt aus dem Polynesischen und...achso, wie es hier funktioniert."
-				"Zum Wirken deiner Spells benötigst du Mana. Dieses siehst du in der Regel links unten neben deiner Inventarleiste. Glyphen und dessen Zusammensetzungen kosten mehr oder weniger Mana, je nach Stärke, Tier und Effekt."
-				"Die Menge an Mana und dessen Regeneration ist steigerbar durch Erlernen weiterer Glyphen, Magische Rüstung, Mana Potions etc."
-			]
 			icon: {
-				Count: 1
 				id: "minecraft:potion"
-				tag: {
-					Potion: "ars_nouveau:mana_regen_potion_long"
-				}
 			}
 			id: "5C36E3B78AB146C0"
 			rewards: [{
-				id: "11DC35F02D656B6C"
-				item: "mod_journey:bronze_coin"
+				id: "5B28E53FE8E5B1A5"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "5B9E238DC485BE38"
-				title: "Mana"
 				type: "checkmark"
 			}]
 			x: 1.0d
@@ -168,141 +102,112 @@
 				"5C7D0094496E8E53"
 				"5C36E3B78AB146C0"
 			]
-			description: ["Auch in Ars Nouveau gibt es eigene Holzarten, die für die verschiedensten Sachen benötigt werden. Die vier verschiedenen Archwood Baumarten sind überall in der Overworld zu finden. Jede von ihnen hat auch seine eigenen leckeren Früchte für die Frutarier unter euch."]
 			id: "18DAE72E4F2B32E0"
 			rewards: [{
-				id: "744A1133848C492C"
-				item: "mod_journey:bronze_coin"
+				id: "79A77D0DC51D0D71"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			subtitle: "Magische Materialien für magische Werkzeuge"
-			tasks: [
-				{
-					id: "1A3D083FE8DD2698"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:logs/archwood"
-						}
-					}
-					title: "Archwood"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "46F5091042DAC929"
-					item: "ars_nouveau:archwood_planks"
-					type: "item"
-				}
-			]
-			title: "Auf dem Holzweg"
+			tasks: [{
+				id: "559F657E5193AA89"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(ars_nouveau:blue_archwood_log)item(ars_nouveau:red_archwood_log)item(ars_nouveau:purple_archwood_log)item(ars_nouveau:green_archwood_log)item(ars_elemental:yellow_archwood_log))", "minecraft:custom_name": "\"Archwood\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["18DAE72E4F2B32E0"]
-			description: [
-				"Um weitere Glyphen zum Zaubern zu bekommen, brauchst du einen magischen Tisch, an dem du deine Studien im Spellbook festhalten kannst. Dazu stellst du den Tisch in die Welt und interagierst mit ihm, während du dein Spellbook in der Hand hast."
-				""
-				"Zum erlernen der Glyphen sind dann immer XP und bestimmte Items nötig, die aus deiner Hand auf den Tisch gelegt werden."
-			]
 			id: "4C813B4746E751B2"
 			rewards: [{
-				id: "7EDF3BA409964368"
-				item: "mod_journey:bronze_coin"
+				id: "069B72B571395C3E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			shape: "diamond"
-			size: 1.5d
 			tasks: [{
 				id: "4EAED3CC3D1DEE70"
-				item: "ars_nouveau:scribes_table"
+				item: { count: 1, id: "ars_nouveau:scribes_table" }
 				type: "item"
 			}]
-			title: "Mehr Glyphen, mehr Magie!"
 			x: 1.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["4C813B4746E751B2"]
-			description: [
-				"Die Imbuement Chamber wird benutzt, um verschiedene elementare Essenzen etc. herzustellen, indem Items mit der magischen Ressource \"Source\" durchdrungen werden."
-				"Dieser Block stellt selbstständig die nötige Source her, kann aber auch von außen beschleunigt werden."
-			]
 			id: "540D952C52F19CB4"
 			rewards: [{
-				id: "7ED5AE2CA3B7617C"
-				item: "mod_journey:bronze_coin"
+				id: "2AAB56944C3ADD1A"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "Ist das noch Magie oder schon Technik?"
 			tasks: [{
 				id: "64720B4A034165B1"
-				item: "ars_nouveau:imbuement_chamber"
+				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
 				type: "item"
 			}]
-			title: "Der erste Apparat"
 			x: 2.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["540D952C52F19CB4"]
-			description: ["Eines der wichtigsten Items, das in der Imbuement Chamber hergestellt wird, sind Source Gems. Dafür musst du nur ein Stück Lapis Lazuli oder eine Amethystscherbe hineinlegen und seine Magie wirken lassen."]
 			id: "30268E4E09E5A13C"
 			rewards: [{
-				id: "2B5852350A08FA49"
-				item: "mod_journey:bronze_coin"
+				id: "47D1759DB23F42EB"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			shape: "gear"
-			size: 1.5d
 			tasks: [{
 				id: "781F5BA89245D1C5"
-				item: "ars_nouveau:source_gem"
+				item: { count: 1, id: "ars_nouveau:source_gem" }
 				type: "item"
 			}]
-			title: "Uuuhh, Shiny!"
 			x: 5.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["30268E4E09E5A13C"]
-			description: [
-				"Bestimmt fragst du dich, ob es möglich ist, Source auch irgendwie zu sammeln und zu lagern."
-				"Sehet und staunet: Ein Source Jar."
-				""
-				"Besser als jedes Honigglas."
-			]
 			id: "0EE9BD17F58E71EC"
 			rewards: [{
-				id: "38CD9F1437476883"
-				item: "mod_journey:bronze_coin"
+				id: "4DB231E2DEE4D2CE"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7AC5EABB617B01E6"
-				item: "ars_nouveau:source_jar"
+				item: { count: 1, id: "ars_nouveau:source_jar" }
 				type: "item"
 			}]
-			title: "Flüssiges Gold? Flüssige Magie!"
 			x: 5.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["0EE9BD17F58E71EC"]
-			description: ["Source kann auf die unterschiedlichsten Arten und Weisen produziert und aus verschiedenen Quellen bezogen werden."]
 			id: "27DA0134EECFA2F7"
 			rewards: [{
-				id: "5023663C3578FDCC"
-				item: "mod_journey:bronze_coin"
+				id: "5F1F63379A3FFF23"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "04CF943E4A7B7748"
-				title: "Sourceproduktion"
 				type: "checkmark"
 			}]
 			x: 5.0d
@@ -310,111 +215,96 @@
 		}
 		{
 			dependencies: ["27DA0134EECFA2F7"]
-			description: [
-				"Source wächst nicht auf Bäumen...oder zumindest nicht direkt."
-				""
-				"Mit dieser Apparatur wird Source durch das natürliche Wachstum von Pflanzen und Bäumen produziert."
-				"Die Betonung liegt dabei auf &lNATÜRLICH!&r, also kein Knochenmehl oder dergleichen."
-			]
 			id: "5F442ACC0CCC3DEE"
 			rewards: [{
-				id: "642AE51E0EE439A9"
-				item: "mod_journey:bronze_coin"
+				id: "3990FD6B9146AE03"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "30B05F6BCE480392"
-				item: "ars_nouveau:agronomic_sourcelink"
+				item: { count: 1, id: "ars_nouveau:agronomic_sourcelink" }
 				type: "item"
 			}]
-			title: "Die Macht der Pflanzen"
 			x: 4.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["27DA0134EECFA2F7"]
-			description: [
-				"Diese Apparatur produziert Source aus Nahrungsquellen. Je besser die Nahrung, desto mehr Source wird daraus gemacht."
-				""
-				"Magische Nahrungsquellen aus Ars Nouveau bringen sogar noch mehr Source ein."
-			]
 			id: "41A2BB314608A5F0"
 			rewards: [{
-				id: "3C0DB61060929B93"
-				item: "mod_journey:bronze_coin"
+				id: "5CD17064BEF00353"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0CACEACA91C4034B"
-				item: "ars_nouveau:mycelial_sourcelink"
+				item: { count: 1, id: "ars_nouveau:mycelial_sourcelink" }
 				type: "item"
 			}]
-			title: "Die Macht der Nahrung"
 			x: 4.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["27DA0134EECFA2F7"]
-			description: [
-				"Diese Apparatur produziert Source aus brennbaren Materialien. Archwood bringt dabei größere Erträge, mit der Blazing Variante sogar noch mehr."
-				""
-				"Achtung: Nahe Steinblöcke können mit der Zeit zu Lava schmelzen!"
-				""
-				"Auf naher Lava können Lava Lilys erscheinen."
-			]
 			id: "3C50BD72E832D66A"
 			rewards: [{
-				id: "19D7BF796EDFA2EB"
-				item: "mod_journey:bronze_coin"
+				id: "45442CF28EE7040A"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "5D9E703771E5454C"
-				item: "ars_nouveau:volcanic_sourcelink"
+				item: { count: 1, id: "ars_nouveau:volcanic_sourcelink" }
 				type: "item"
 			}]
-			title: "Die Macht der Hitze"
 			x: 6.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["27DA0134EECFA2F7"]
-			description: ["Diese Apparatur produziert Source, wenn in dessen Nähe Mobs sterben oder Tiere sich vermehren."]
 			id: "4B03A47B6DCFAF22"
 			rewards: [{
-				id: "3F5A87BEE4DA2DBB"
-				item: "mod_journey:bronze_coin"
+				id: "384E97E6EA447D5C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "6818E55DD139D5DA"
-				item: "ars_nouveau:vitalic_sourcelink"
+				item: { count: 1, id: "ars_nouveau:vitalic_sourcelink" }
 				type: "item"
 			}]
-			title: "Die Macht der Lebensenergie"
 			x: 6.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["27DA0134EECFA2F7"]
-			description: [
-				"Diese Apparatur produziert Source aus Tränken, die sich in nahen Potion Jars befinden."
-				""
-				"Die Menge ist abhängig von den Tränken."
-			]
 			id: "0C2CF50BADD2E02D"
-			optional: true
 			rewards: [{
-				id: "29A369294F0409E2"
-				item: "mod_journey:bronze_coin"
+				id: "5A31CBAD4A0B92D5"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3A2EAE824DDE42FB"
-				item: "ars_nouveau:alchemical_sourcelink"
+				item: { count: 1, id: "ars_nouveau:alchemical_sourcelink" }
 				type: "item"
 			}]
-			title: "Die Macht der Alchemie"
 			x: 5.0d
 			y: 10.0d
 		}
@@ -424,342 +314,276 @@
 				"27DA0134EECFA2F7"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Genau das Richtige, um große Mengen an Tränken zu lagern und zu verarbeiten."]
 			id: "0D8E474F76C125F7"
 			rewards: [{
-				id: "47362A5D6BB9AC1F"
-				item: "mod_journey:bronze_coin"
+				id: "5EEF30AE43349360"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "21F6AEB9395E849B"
-				item: "ars_nouveau:potion_jar"
+				item: { count: 1, id: "ars_nouveau:potion_jar" }
 				type: "item"
 			}]
-			title: "Große Trankbehälter"
 			x: 5.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["30268E4E09E5A13C"]
-			description: ["Neben magischem Holz hat man auch die Möglichkeit, Stein magisch zu durchdringen und daraus dann weitere Apparaturen zu bauen."]
 			id: "0A9E71C0572B1CC8"
 			rewards: [{
-				id: "1F80B2BCF9B14DA9"
-				item: "mod_journey:bronze_coin"
+				id: "05B86EF380FE6823"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			subtitle: "Magisches Gestein"
 			tasks: [{
 				count: 8L
 				id: "36701298308E1133"
-				item: "ars_nouveau:sourcestone"
+				item: { count: 1, id: "ars_nouveau:sourcestone" }
 				type: "item"
 			}]
-			title: "Zwergenmagie"
 			x: 7.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["0A9E71C0572B1CC8"]
-			description: [
-				"Manche Items benötigen neben Source auch bestimmte andere Items, die in sie eingebettet werden. Und hier kommen die Pedestals ins Spiel. Stell diese einfach neben die jeweiligen Apparate auf, Items drauflegen und schon kann die Magie ihre Wirkung entfalten."
-				""
-				"&l&3WICHTIG!&r Rezepte für die Imbuement Chamber verbrauchen diese Items nicht. Im Gegensatz dazu werden Items für Enchanting Apparatus Rezepte verbraucht!"
-			]
 			id: "04AE7500461EC1F9"
 			rewards: [{
-				id: "7F2B15D3668C7BE5"
-				item: "mod_journey:bronze_coin"
+				id: "7F719437155C095E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
-				count: 8L
+				count: 4L
 				id: "3C04DF34DC091279"
-				item: "ars_nouveau:arcane_pedestal"
+				item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
 				type: "item"
 			}]
-			title: "Wie auf dem Silbertablett"
 			x: 9.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["04AE7500461EC1F9"]
-			description: [
-				"Mit dem Hexenzirkelzauberritualitemständer, oder einfach nur Ritualpodest, lassen sich verschiedene Rituale ausführen. Von Mobgefährten über Blöcke lokalisieren zu Bossspawning ist vieles dabei."
-				""
-				"Um ein Ritual auszuführen, muss das jeweilige Tablet (zu finden im Magischen Notizbuch) gecraftet und in das Ritualpodest gesetzt werden. Nun hat man noch die Chance, Modifikationen mit hinein zu werfen."
-				"Zum Aktivieren des Rituals muss das Podest nur noch mit der Hand benutzt werden und sein Effekt entfaltet sich."
-			]
 			id: "0F2A2629A9A933CA"
 			rewards: [{
-				id: "46AFE5ADF15F8F3E"
-				item: "mod_journey:bronze_coin"
+				id: "4396AEC391F695DB"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "Richtiger Zungenbrecher"
 			tasks: [{
 				id: "4CA1C20799C32F01"
-				item: "ars_nouveau:ritual_brazier"
+				item: { count: 1, id: "ars_nouveau:ritual_brazier" }
 				type: "item"
 			}]
-			title: "Hexenzirkelzauberritualitempodest"
 			x: 9.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["04AE7500461EC1F9"]
-			description: [
-				"Mit diesem Apparat kann du nicht nur verzauberte Bücher selbst herstellen, sondern auch deine magische Rüstung erhalten und verbessern, sowie zauberhafte Items wie Waffen, Charms und Utility craften. Baue den Apparatus dafür auf den Core und stell acht Pedestals drum herum."
-				""
-				"(Mehr dazu im magischen Notizbuch unter \"Magical Equipment\")"
-			]
 			id: "5E51716BBA7C0BE6"
 			rewards: [{
-				id: "233B230D920A8D75"
-				item: "mod_journey:bronze_coin"
+				id: "286134D5237B6D49"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			shape: "diamond"
-			size: 1.5d
 			tasks: [
 				{
 					id: "68BAFCD685BF0D86"
-					item: "ars_nouveau:enchanting_apparatus"
+					item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
 					type: "item"
 				}
 				{
 					id: "4117EC65D51C519B"
-					item: "ars_nouveau:arcane_core"
+					item: { count: 1, id: "ars_nouveau:arcane_core" }
 					type: "item"
 				}
 			]
-			title: "Verzauberungen 101"
 			x: 11.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["5E51716BBA7C0BE6"]
-			description: [
-				"Dieser Zauberstab wird allerdings nicht zum Zaubern selbst verwendet, sondern ermöglicht es dir, deine Apparate mit Lager-Jars oder Minions mit ihren Arbeitsblöcken miteinander zu verbinden, um eine Automatisierung zu erschaffen"
-				""
-				"Im magischen Notizbuch findest du mehr dazu."
-			]
 			id: "0B60EBFBF42F9C5C"
 			rewards: [{
-				id: "0123A61F98960296"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			subtitle: "Jeder Magier braucht doch einen Stab"
-			tasks: [{
-				id: "59E540EED6EB0B7A"
+				id: "5EBB71576D896333"
 				item: {
-					Count: 1
-					id: "ars_nouveau:dominion_wand"
-					tag: { }
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
-			title: "Magischer Stock"
+			tasks: [{
+				id: "59E540EED6EB0B7A"
+				item: { count: 1, id: "ars_nouveau:dominion_wand" }
+				type: "item"
+			}]
 			x: 11.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["77D31EC2C76058E2"]
-			description: [
-				"In diesem Buch kannst du allerlei Informationen zu jeglichen Items und Blöcken aus Ars Nouveau und dessen Benutzung in Erfahrung bringen."
-				""
-				"Dieses Buch ist nur optional, da es auch im Zauberbuch links oben mit integriert ist."
-				""
-				"{image:ars_nouveau:textures/gui/worn_book_bookmark.png width:100 height:100 align:center}"
-			]
 			id: "1A242A1A421B358B"
-			optional: true
 			rewards: [{
-				id: "53639DE3E1B505B3"
-				item: "mod_journey:bronze_coin"
+				id: "57B6174EAC1E89BA"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			subtitle: "Das uralte Wissen der alten Ahnen"
 			tasks: [{
 				id: "679BC2E8846EFD39"
-				item: "ars_nouveau:worn_notebook"
+				item: { count: 1, id: "ars_nouveau:worn_notebook" }
 				type: "item"
 			}]
-			title: "Das magische Notizbuch"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5E51716BBA7C0BE6"]
-			description: ["Mit diesen Seeds können Mageblooms angebaut werden, die dann verschiedene Einsatzmöglichkeiten von Rüstungsmaterial zu magischem Essen ermöglichen."]
 			id: "07BFBAE08D89B702"
 			rewards: [{
-				id: "765AC7A84947082F"
-				item: "mod_journey:bronze_coin"
+				id: "1A7CF3802E66D4C7"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "728528A5D4332AEC"
-				item: "ars_nouveau:magebloom_crop"
+				item: { count: 1, id: "ars_nouveau:magebloom_crop" }
 				type: "item"
 			}]
-			title: "Grüner Magiedaumen"
 			x: 13.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["325B0F0901FD93A8"]
-			description: [
-				"Die Fähigkeiten deiner magischen Rüstung lassen sich durch Threads erweitern. Der Tisch wird verwendet, um diese auf die Rüstung zu packen."
-				""
-				"Dazu nimmst du dein Rüstungsteil in die Hand und legst sie auf den Tisch. Nun kannst du die gewünschten Threads zur Hand nehmen und sie in die Slots einbringen."
-			]
 			id: "070DD06560D8888A"
 			rewards: [{
-				id: "2A30CC606FC2BF7F"
-				item: "mod_journey:bronze_coin"
+				id: "4DE0861BD919382E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			subtitle: "Eine...Nähmaschine?"
 			tasks: [{
 				id: "65123589D452BF01"
-				item: "ars_nouveau:alteration_table"
+				item: { count: 1, id: "ars_nouveau:alteration_table" }
 				type: "item"
 			}]
-			title: "Magische Threads"
 			x: 17.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["18DAE72E4F2B32E0"]
-			description: [
-				"An das Holz der verschiedenen Archwood-Bäume können ihre jeweiligen Früchte ähnlich wie Kakaobohnen angebaut werden. Jede Frucht kann nur an ihrer eigenen Holzart platziert werden, hat seine ganz eigenen Fähigkeiten und kann auch zu Tränken weiterverarbeitet werden, um diese besser zu entfalten."
-				""
-				"&aMendosteen&r zeichnet sich durch indirekte heilerische Aspekte aus. Sie sorgt dafür, dass jegliche Heilung verstärkt wird."
-				""
-				"&5Bastion Fruit&r stärkt die eigenen Abwehrkräfte und verringert erlittenen Schaden."
-				""
-				"&9Frostaya&r schmeckt nach Waldbeer-Eiscreme, aber Vorsicht vor Hirnfrost, der kann in Minecraft schmerzhaft sein."
-				""
-				"&4Bombegranate&r ist eine sehr scharfe Frucht, die beim Verzehr von Blähungen bis zu Explosionen führt."
-			]
 			id: "5D60F90E34176239"
-			min_required_tasks: 1
 			rewards: [{
-				id: "5E793A82506C2950"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			subtitle: "aber dafür voller magischer Eigenschaften"
-			tasks: [{
-				id: "5D1F4D5EC2E07B1B"
+				id: "74CA327DB0478D60"
 				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "ars_nouveau:shady_wizard_fruits"
-					}
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				title: "Archwood Frucht"
 				type: "item"
 			}]
-			title: "Ungespritzt und ohne Pestizide"
+			tasks: [{
+				id: "6B16E155DD241703"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:mendosteen_pod)item(ars_nouveau:bastion_pod)item(ars_nouveau:frostaya_pod)item(ars_nouveau:bombegranate_pod)item(ars_elemental:flashpine_pod))", "minecraft:custom_name": "\"Archwood Früchte\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: -1.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["325B0F0901FD93A8"]
-			description: [
-				"Mit wachsender Erfahrung im Arkanen wächst auch die Verantwortung und Macht des Magiers. So muss auch das Zauberbuch mitwachsen und verbessert werden."
-				""
-				"Das Zauberbuch des Magiers erlaubt dir, auch Tier 2 Glyphen zu benutzen und dein magisches Repertoire zu erweitern."
-			]
 			id: "1BCEF5B7D4A2DEA9"
 			rewards: [{
-				id: "26616615145EF7AC"
-				item: "mod_journey:bronze_coin"
+				id: "0B2867B49F96AEF1"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0C9AA87D5FD692BB"
-				item: "ars_nouveau:apprentice_spell_book"
+				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
 				type: "item"
 			}]
-			title: "Beförderung"
 			x: 15.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["5C36E3B78AB146C0"]
-			description: [
-				"Mit Sourceberries kannst du zu Beginn deine Mana Regeneration aufbessern und so länger und mehr zaubern."
-				""
-				"Die Beeren können aber auch zu besserer Nahrung und Tränken weiter gecraftet werden, um die Mana Regeneration noch stärker zu machen."
-			]
 			id: "43F671F5C49EED69"
 			rewards: [{
-				id: "5DB9BDF5FA8B0B30"
-				item: "mod_journey:bronze_coin"
+				id: "067C71594B5C55E1"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
-				count: 8L
 				id: "3DF69EF9634F4669"
-				item: "ars_nouveau:sourceberry_bush"
+				item: { count: 1, id: "ars_nouveau:sourceberry_bush" }
 				type: "item"
 			}]
-			title: "Essbares Mana"
 			x: 2.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["43F671F5C49EED69"]
-			description: ["Die Source Berry Roll bietet eine länger andauernde Mana Regeneration und sättigt gleichzeitig auch ordentlich. Das perfekte Mittagessen für jeden Zauberer, der was aus sich hält."]
 			id: "4B916435E4D68736"
 			rewards: [{
-				id: "7CCA5F8083F51F8A"
-				item: "mod_journey:bronze_coin"
+				id: "192182A02FF84F5C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3AEA72DB997153EF"
-				item: "ars_nouveau:source_berry_roll"
+				item: { count: 1, id: "ars_nouveau:source_berry_roll" }
 				type: "item"
 			}]
-			title: "Früchtebrot"
 			x: 3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["4B916435E4D68736"]
-			description: [
-				"&lEs war einmal in ei'm kleinen Städtchen, da"
-				""
-				"&lLebte ein Mädchen namens Barbara."
-				""
-				"&lUnd diese Barbara war im ganzen Land"
-				""
-				"&lFür ihren abartig guten Source Berry Kuchen bekannt."
-				""
-				""
-				"Mit diesem Kuchen wirst du nicht nur schnell satt, sondern regenerierst dein Mana sogar noch schneller als je zuvor!"
-			]
 			id: "0D945505970ACD00"
 			rewards: [{
-				id: "66572338BECD7756"
-				item: "mod_journey:bronze_coin"
+				id: "34EA6325DF85CF66"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0B9C26C803CEEA8E"
-				item: "ars_nouveau:source_berry_pie"
+				item: { count: 1, id: "ars_nouveau:source_berry_pie" }
 				type: "item"
 			}]
-			title: "Barbaras Rhabarberbar"
 			x: 4.0d
 			y: 3.0d
 		}
@@ -768,169 +592,150 @@
 				"45CE9D3D869EBBDD"
 				"251E5B47E2C62B8D"
 			]
-			description: [
-				"Unter den Wilden gibt es noch eine weitere weitaus stärkere Lebensform, Die Wilden Chimera. Eine wahrlich schreckliche Kreatur, die nur von den mächtigsten Zauberern erlegt werden kann."
-				"Nur den Bezwingern dieser Bestie ist es erlaubt, weiter in der Hierarchie der Zauberer aufzusteigen."
-				""
-				"&l&4ACHTUNG!&r Wenn die Wilden Chimera durch das Ritual gerufen wird, können Blöcke um das Ritualpodest herum zerstört werden, auch in Chunk-Claims!"
-			]
 			id: "6092D820D8CA7DDF"
 			rewards: [{
-				id: "21A4AB610D8F314D"
-				item: "mod_journey:bronze_coin"
+				id: "0D8307121BD9F208"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
-				entity: "ars_nouveau:wilden_boss"
-				icon: "ars_nouveau:wilden_tribute"
-				id: "1DD590172698F87D"
-				type: "kill"
-				value: 1L
+				id: "4A1128455A74AEE4"
+				item: { count: 1, id: "ars_nouveau:wilden_tribute" }
+				type: "item"
 			}]
-			title: "Die Schöne und das Biest"
 			x: 12.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1BCEF5B7D4A2DEA9"]
-			description: [
-				"So wie dein Zauberbuch können deine magischen Gewänder auch weiter geupgradet und verstärkt werden. Dazu benötigst du für jedes Rüstungsteil zwei Lohenruten (Blazerods), die über den Enchanting Apparatus hineingearbeitet werden."
-				""
-				"Dadurch erhöhen sich dein maximales Mana und deine Mana Regeneration. Außerdem werden auch die Threadslots verbessert und/oder weitere hinzugefügt."
-			]
-			icon: "minecraft:blaze_rod"
 			id: "251E5B47E2C62B8D"
 			rewards: [{
-				id: "350FE05235BE18B7"
-				item: "mod_journey:bronze_coin"
+				id: "1FD4E84AF1AF15B3"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 8L
 				id: "7901A7B361466A85"
-				item: "minecraft:blaze_rod"
+				item: { count: 1, id: "minecraft:blaze_rod" }
 				type: "item"
 			}]
-			title: "Upgrades, People! Upgrades!"
 			x: 15.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["0F2A2629A9A933CA"]
-			description: [
-				"Die verschiedenen Gattungen der Wilden können zwar in der freien Natur gefunden werden, um ihre Materialien zu sammeln."
-				""
-				"Aber man kann auch über dieses Ritual eine Hand voll von ihnen spawnen und bekämpfen."
-			]
 			id: "45CE9D3D869EBBDD"
 			rewards: [{
-				id: "3CACB32BABD0E38E"
-				item: "mod_journey:bronze_coin"
+				id: "3422D5F97CFF91C7"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "52C88471406E12F1"
-				item: "ars_nouveau:ritual_wilden_summon"
+				item: { count: 1, id: "ars_nouveau:ritual_wilden_summon" }
 				type: "item"
 			}]
-			title: "Wilde Bestien"
 			x: 9.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["48C79ED35AC136C8"]
-			description: ["Um auch die stärksten Glyphen nutzen zu können, muss dein Zauberbuch nochmals geupgradet werden. Doch nur wer sich als würdig erweist, vermag das volle Potential zu entfesseln."]
 			id: "5F98BAF82E1271EE"
 			rewards: [
 				{
-					id: "012EA3498ED59755"
-					item: "mod_journey:bronze_coin"
+					id: "3AA79653932D6B70"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
 					type: "item"
 				}
 				{
-					count: 10
-					id: "24C9F5C0571D8AF2"
-					item: "mod_journey:gold_coin"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "41776D9555DEF3A4"
+					table_id: 1221953208027045268L
+					team_reward: true
+					type: "loot"
 				}
 			]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "Der lange weiße Bart steht dir gut"
 			tasks: [{
 				id: "317CBB592D93EA69"
-				item: "ars_nouveau:archmage_spell_book"
+				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
 				type: "item"
 			}]
-			title: "Der Meister der Meister aller Meister"
 			x: 12.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["6092D820D8CA7DDF"]
-			description: ["Mit ein paar Materialien aus dem End kann deine magische Rüstung noch weiter verbessert werden, um noch mehr Mana und Mana Regeneration sowie die maximalen Threadslots zu bekommen."]
 			id: "48C79ED35AC136C8"
 			rewards: [{
-				id: "50C9E216E159D458"
-				item: "mod_journey:bronze_coin"
+				id: "554A94474FDD605B"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			subtitle: "doch die Leute, die die Kleider machen..."
 			tasks: [
 				{
-					count: 4L
+					count: 8L
 					id: "56F382FEE9DC6FE7"
-					item: "minecraft:chorus_fruit"
+					item: { count: 1, id: "minecraft:ender_pearl" }
 					type: "item"
 				}
 				{
-					count: 8L
+					count: 4L
 					id: "3BB85F19818ACDEF"
-					item: "minecraft:ender_pearl"
+					item: { count: 1, id: "minecraft:chorus_fruit" }
 					type: "item"
 				}
 			]
-			title: "Kleider machen Leute"
 			x: 12.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["0D8E474F76C125F7"]
-			description: [
-				"Der Potion Melder entnimmt die Tränke aus angebundenen Potion Jars und kombiniert diese zu einem Trank mit beiden Effekten in ein drittes Potion Jar."
-				"Dabei werden je 3 Portionen der beiden Tränke zu einem Trank zusammengeführt."
-			]
 			id: "6CD7BF6C4503FD98"
 			rewards: [{
-				id: "6E21267CAAF16D25"
-				item: "mod_journey:bronze_coin"
+				id: "03315FC91135B3AB"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "49F68E527B2216DB"
-				item: "ars_nouveau:potion_melder"
+				item: { count: 1, id: "ars_nouveau:potion_melder" }
 				type: "item"
 			}]
-			title: "Tränke mixen wie echte Hexen"
 			x: 5.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["0B60EBFBF42F9C5C"]
-			description: [
-				"Ars Nouveau bietet eine Reihe von magischen Waffen und Werkzeugen, die entweder magische Eigenschaften haben oder Glyphen wirken können."
-				""
-				"Lies dazu im Magischen Notizbuch unter \"Magical Equipment\" die Enchanter's Items durch, wie man Glyphen zu diesen hinzufügt."
-			]
 			id: "7CDC16333D2E3B89"
 			rewards: [{
-				id: "0DECC5A8AF4FC0B9"
-				item: "mod_journey:bronze_coin"
+				id: "1A797EF95C37457E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "467AEB4936A800F8"
-				title: "Zu den Waffen!"
 				type: "checkmark"
 			}]
 			x: 11.0d
@@ -938,188 +743,135 @@
 		}
 		{
 			dependencies: ["7CDC16333D2E3B89"]
-			description: [
-				"Der Enchanter's Wand hat von sich aus schon die Glyphen \"Projectile\" und \"Accelerate\", braucht also nur noch Effektglyphen, um zu funktionieren."
-				""
-				"Zum Binden von Glyphen erstellst du in deinem Zauberbuch einen Zauber &l&bOHNE!&r eine Form, legst den Stab auf den Scribe's Table und benutzt das Buch mit diesen Glyphen darauf, während du geduckt bist."
-			]
 			id: "70C06F01206CCE9B"
 			rewards: [{
-				id: "568D2284F5DA916B"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			subtitle: "Diesmal ein echter Zauberstab"
-			tasks: [{
-				id: "0D13D5620FF27733"
+				id: "65F3BA85B0D421F3"
 				item: {
-					Count: 1
-					id: "ars_nouveau:wand"
-					tag: { }
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
-			title: "Magischer Stock 2.0"
-			x: 11.0d
-			y: 10.0d
+			tasks: [{
+				id: "0D13D5620FF27733"
+				item: { count: 1, id: "ars_nouveau:wand" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7CDC16333D2E3B89"]
-			description: [
-				"Der Enchanter's Bow hüllt geschossene Pfeile mit den eingebundenen Glyphen. Wenn keine Pfeile im Inventar des Anwenders sind, so wird ein magischer Pfeil benutzt, der an für sich keinen Schaden verursacht. Hat der Anwender kein/nicht genug Mana für den Zauber zur Verfügung, so werden normale Pfeile ohne Zauber abgeschossen."
-				""
-				"Zum Binden von Glyphen erstellst du in deinem Zauberbuch einen Zauber &l&bOHNE!&r eine Form, legst den Bogen auf den Scribe's Table und benutzt das Buch mit diesen Glyphen darauf, während du geduckt bist."
-			]
 			id: "73258DB8AECFABE8"
 			rewards: [{
-				id: "66D10E92F28679C7"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			subtitle: "Zielen und Feuern"
-			tasks: [{
-				id: "5B44D72B4E3DDD8C"
+				id: "03BDB60F9EC00BB6"
 				item: {
-					Count: 1
-					id: "ars_nouveau:spell_bow"
-					tag: { }
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
-			title: "Scharfschützen-Magie"
+			tasks: [{
+				id: "5B44D72B4E3DDD8C"
+				item: { count: 1, id: "ars_nouveau:spell_bow" }
+				type: "item"
+			}]
 			x: 10.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["7CDC16333D2E3B89"]
-			description: [
-				"Der Enchanter's Crossbow hüllt geladene Pfeile mit den eingebundenen Glyphen. Wenn keine Pfeile im Inventar des Anwenders sind, so wird ein magischer Pfeil benutzt, der für sich keinen Schaden verursacht. Hat der Anwender kein/nicht genug Mana für den Zauber zur Verfügung, so werden normale Pfeile ohne Zauber geladen."
-				""
-				"Zum Binden von Glyphen erstellst du in deinem Zauberbuch einen Zauber &l&bOHNE!&r eine Form, legst die Armbrust auf den Scribe's Table und benutzt das Buch mit diesen Glyphen darauf, während du geduckt bist."
-			]
 			id: "0FD9CD79455004A5"
 			rewards: [{
-				id: "60C409F2B7569535"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			subtitle: "und Magie natürlich"
-			tasks: [{
-				id: "0A90C4CDC8FB89EE"
+				id: "615B11DFD3BB9E36"
 				item: {
-					Count: 1
-					id: "ars_nouveau:spell_crossbow"
-					tag: { }
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
-			title: "Hand, Arm und Brust"
+			tasks: [{
+				id: "0A90C4CDC8FB89EE"
+				item: { count: 1, id: "ars_nouveau:spell_crossbow" }
+				type: "item"
+			}]
 			x: 10.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["7CDC16333D2E3B89"]
-			description: [
-				"Das Enchanter's Sword hat von sich aus schon die Glyphen \"Touch\" und \"Amplify\", braucht also nur noch Effektglyphen, um zu funktionieren."
-				""
-				"Zum Binden von Glyphen erstellst du in deinem Zauberbuch einen Zauber &l&bOHNE!&r eine Form, legst das Schwert auf den Scribe's Table und benutzt das Buch mit diesen Glyphen darauf, während du geduckt bist."
-			]
 			id: "35E69FD0D9133061"
 			rewards: [{
-				id: "7FDCECFA9262897E"
-				item: "mod_journey:bronze_coin"
+				id: "34A42FA144CC241F"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "682B63F5C889CECD"
-				item: {
-					Count: 1
-					id: "ars_nouveau:enchanters_sword"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { count: 1, id: "ars_nouveau:enchanters_sword" }
 				type: "item"
 			}]
-			title: "Close and personal"
 			x: 12.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["7CDC16333D2E3B89"]
-			description: ["Der Enchanter's Shield funktioniert wie ein normaler Schild, gibt dem Anwender aber Mana Regeneration und Spell Damage nach dem Blocken eines Angriffs. Außerdem repariert dieser sich automatisch durch das eigene Mana."]
 			id: "0351CB5474F159D3"
 			rewards: [{
-				id: "6A1E80172BB5ECB3"
-				item: "mod_journey:bronze_coin"
+				id: "7261BEB45CE06381"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "79F441EBAF5B8B7E"
-				item: {
-					Count: 1
-					id: "ars_nouveau:enchanters_shield"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { count: 1, id: "ars_nouveau:enchanters_shield" }
 				type: "item"
 			}]
-			title: "Verteidigung ist die beste Verteidigung"
 			x: 12.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["7CDC16333D2E3B89"]
-			description: [
-				"Der Enchanter's Mirror wirkt die gebundenen Glyphen auf den Anwender selbst, verringert dabei die Mahnkosten und verlängert dessen Effekte."
-				""
-				"Zum Binden von Glyphen erstellst du in deinem Zauberbuch einen Zauber &l&bOHNE!&r eine Form, legst den Spiegel auf den Scribe's Table und benutzt das Buch mit diesen Glyphen darauf, während du geduckt bist."
-			]
 			id: "397AAFC8FCFF0CBD"
 			rewards: [{
-				id: "389E1350FC70728E"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			subtitle: "Ich seh' gut aus!"
-			tasks: [{
-				id: "59883E18E545300C"
+				id: "5B29613D933F1016"
 				item: {
-					Count: 1
-					id: "ars_nouveau:enchanters_mirror"
-					tag: { }
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
-			title: "Ein Spiegel?"
-			x: 10.0d
-			y: 8.0d
+			tasks: [{
+				id: "59883E18E545300C"
+				item: { count: 1, id: "ars_nouveau:enchanters_mirror" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["505227A456788448"]
 			dependency_requirement: "one_completed"
-			description: [
-				"Das Enchanter's Eye kann mit einem Scry Crystal verbunden werden, um den gebunden Zauber aus diesem heraus zu wirken."
-				""
-				"Zum Binden eines Zaubers erstellst du diesen in deinem Zauberbuch, legst das Auge auf den Scribe's Table und benutzt das Buch mit diesem Zauber darauf, während du geduckt bist."
-			]
 			id: "57E80A56E6D8784A"
 			rewards: [{
-				id: "6380519739162153"
-				item: "mod_journey:bronze_coin"
+				id: "46674D8467718782"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "185EDACE7DF1F496"
-				item: {
-					Count: 1
-					id: "ars_nouveau:enchanters_eye"
-					tag: { }
-				}
+				item: { count: 1, id: "ars_nouveau:enchanters_eye" }
 				type: "item"
 			}]
-			title: "Ich hab' ein Auge auf dich"
 			x: 13.0d
 			y: 10.0d
 		}
@@ -1129,257 +881,164 @@
 				"73258DB8AECFABE8"
 			]
 			dependency_requirement: "one_completed"
-			description: [
-				"Diese Pfeile modifizieren den Zauber, der durch den Enchanter's Bow oder Crossbow gewirkt wird."
-				""
-				"Amplify erhöht die Wirkstärke."
-				""
-				"Split lässt dich drei Pfeile auf einmal verschießen."
-				""
-				"Pierce lässt den Pfeil durch zwei Ziele hindurchfliegen. Ziele sind sowohl Entities als auch Blöcke."
-			]
 			id: "37A521C972CFAF9E"
 			rewards: [{
-				id: "53DE3ABA93BB29A7"
-				item: "mod_journey:bronze_coin"
+				id: "7D837050E54F7D7F"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "435965CB0DB0D3DB"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "nyfsquiver:quiver_items/arrows"
-					}
-				}
-				title: "Spezialmunition"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:amplify_arrow)item(ars_nouveau:split_arrow)item(ars_nouveau:pierce_arrow))", "minecraft:custom_name": "\"Spezial-Pfeile\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			title: "Spezialmunition"
 			x: 9.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["7CDC16333D2E3B89"]
-			description: ["Die Scryer Items erlauben dir, die Sicht des Crystals einzunehmen. Die Scroll wird an den Crystal gebunden und in die Nähe der Oculus auf ein Pedestal gelegt. Durch Interagieren mit der Oculus kann man nun die Sicht des Crystals sehen."]
 			id: "505227A456788448"
 			rewards: [{
-				id: "598197D7E8DF2217"
-				item: "mod_journey:bronze_coin"
+				id: "47D55EDC4A405100"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
-					count: 2L
 					id: "3EE349945CF681AB"
-					item: "ars_nouveau:scryers_crystal"
+					item: { count: 1, id: "ars_nouveau:scryers_oculus" }
 					type: "item"
 				}
 				{
 					id: "4C905BA1C24B9F5C"
-					item: "ars_nouveau:scryers_oculus"
+					item: { count: 1, id: "ars_nouveau:scryers_crystal" }
 					type: "item"
 				}
 				{
 					id: "42827188348E638B"
-					item: {
-						Count: 1
-						id: "ars_nouveau:scryer_scroll"
-						tag: { }
-					}
+					item: { count: 1, id: "ars_nouveau:blank_parchment" }
 					type: "item"
 				}
 			]
-			title: "Ich sehe dich!"
 			x: 12.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["07BFBAE08D89B702"]
-			description: [
-				"Du hast das Handwerk eines Magiers nun schon ziemlich gut drauf. Jetzt musst du nur noch wie einer aussehen. Doch wähle mit Bedacht!"
-				""
-				"Die Sorcerer-Rüstung bietet den geringsten normalen Schutz, hat aber dafür bessere Slots für Threads. "
-				""
-				"Die Arcanist-Rüstung bildet ein Mittelfeld zwischen normalem Schutz und Thread-Slots."
-				""
-				"Die Battlemage-Rüstung bietet den meisten normalen Schutz, aber dafür musst du auf stärkere Threads verzichten."
-				""
-				"Es spricht aber auch nichts dagegen, einzelne Teile miteinander zu kombinieren. Um mehr über die Thread-Slots und dessen Upgrades zu erfahren, lies die zugehörige Seite im magischen Notizbuch."
-			]
 			id: "325B0F0901FD93A8"
 			rewards: [{
-				id: "544EA8B880DC77D4"
-				item: "mod_journey:bronze_coin"
+				id: "3D7B1614EB291622"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			subtitle: "und das mit Stil!"
 			tasks: [
 				{
 					id: "13B202AF476EB4DE"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "ars_nouveau:sorcerer_hood"
-									tag: {
-										Damage: 0
-									}
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:arcanist_hood"
-									tag: {
-										Damage: 0
-									}
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:battlemage_hood"
-									tag: {
-										Damage: 0
-									}
-								}
-							]
-						}
-					}
-					title: "Kopf"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:sorcerer_hood)item(ars_nouveau:arcanist_hood)item(ars_nouveau:battlemage_hood))", "minecraft:custom_name": "\"AN Kopf\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "25870ACE1953A776"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "ars_nouveau:sorcerer_robes"
-									tag: {
-										Damage: 0
-									}
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:arcanist_robes"
-									tag: {
-										Damage: 0
-									}
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:battlemage_robes"
-									tag: {
-										Damage: 0
-									}
-								}
-							]
-						}
-					}
-					title: "Körper"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:sorcerer_robes)item(ars_nouveau:arcanist_robes)item(ars_nouveau:battlemage_robes))", "minecraft:custom_name": "\"AN Körper\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "6CDD9B822C49770E"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "ars_nouveau:sorcerer_leggings"
-									tag: {
-										Damage: 0
-									}
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:arcanist_leggings"
-									tag: {
-										Damage: 0
-									}
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:battlemage_leggings"
-									tag: {
-										Damage: 0
-									}
-								}
-							]
-						}
-					}
-					title: "Beine"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:sorcerer_leggings)item(ars_nouveau:arcanist_leggings)item(ars_nouveau:battlemage_leggings))", "minecraft:custom_name": "\"AN Beine\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "7C8EE3F77A7EF87B"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "ars_nouveau:sorcerer_boots"
-									tag: {
-										Damage: 0
-									}
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:arcanist_boots"
-									tag: {
-										Damage: 0
-									}
-								}
-								{
-									Count: 1b
-									id: "ars_nouveau:battlemage_boots"
-									tag: {
-										Damage: 0
-									}
-								}
-							]
-						}
-					}
-					title: "Füße"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:sorcerer_boots)item(ars_nouveau:arcanist_boots)item(ars_nouveau:battlemage_boots))", "minecraft:custom_name": "\"AN Füße\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
-			title: "Der Drip"
 			x: 15.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["5E51716BBA7C0BE6"]
-			description: [
-				"In Ars Nouveau gibt es eine Verzauberung, die nicht funktioniert, wenn sie erst als Buch gecraftet wird, so wie es das Crafting-Rezept zeigt."
-				"Zur Lösung dieses Problems wird statt einem Buch direkt das gewünschte Item in den Enchanting Apparatus gelegt."
-				""
-				"Das Rezept zeigt außerdem, dass man ein \"Spell Parchment\" benötigt. Auf diesem soll der gewünschte Zauber hinzugefügt werden, indem man ein \"Blank Parchment\" auf dem Scribe's Table legt und dann mit &lWICHTIG!&r der rechten Hälfte des Tisches, den Teil mit der Feder, geduckt mit dem Zauberbuch, das den gewünschten Zauber aktiv hat, in der Hand interagiert."
-			]
 			id: "7DDF9DAC7B62720D"
 			rewards: [{
-				id: "5E754866A1E983C8"
-				item: "mod_journey:bronze_coin"
+				id: "1D5F4A6A9D789468"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			subtitle: "Über die \"Reactive\" Verzauberung"
 			tasks: [{
 				id: "6A9AE588C09FF0A7"
-				title: "ACHTUNG!"
 				type: "checkmark"
 			}]
 			x: 11.0d
 			y: 4.5d
 		}
+		{
+			dependencies: ["7CDC16333D2E3B89"]
+			id: "20C84AF4F5FE3B66"
+			rewards: [{
+				id: "67A608ACA0DA226D"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "634EDA6569B1C793"
+				item: { count: 1, id: "ars_nouveau:enchanters_gauntlet" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7CDC16333D2E3B89"]
+			id: "3431F8258BFAE1F9"
+			rewards: [{
+				id: "2039BF8DE9E1729F"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "12D1B4D2C5E85775"
+				item: { count: 1, id: "ars_nouveau:enchanters_fishing_rod" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7CDC16333D2E3B89"]
+			id: "2430850475414E3D"
+			rewards: [{
+				id: "227C30D01D26947A"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B7B1E897FBEEE24"
+				item: { count: 1, id: "ars_elemental:spell_horn" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 11.0d
+		}
 	]
-	title: "ars noveau"
 }

@@ -1,1145 +1,744 @@
 {
-	autofocus_id: "280D95E313DDA71D"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "extreme_reactors"
 	group: "29AF41F0C879F47B"
-	icon: "bigreactors:basic_reactorfuelrod"
+	icon: {
+		id: "bigreactors:yellorium_ingot"
+	}
 	id: "5F4F40A7D501FDEE"
-	images: [
-		{
-			dependency: "280D95E313DDA71D"
-			height: 2.0d
-			hover: ["forge:uran"]
-			image: "alltheores:item/uranium_ingot"
-			rotation: 0.0d
-			width: 2.0d
-			x: -3.5d
-			y: -3.385714285714279d
-		}
-		{
-			dependency: "280D95E313DDA71D"
-			height: 2.0d
-			hover: ["forge:yellorium"]
-			image: "bigreactors:item/yellorium_ingot"
-			rotation: 0.0d
-			width: 2.0d
-			x: -0.5571428571428569d
-			y: -3.442857142857143d
-		}
-		{
-			dependency: "280D95E313DDA71D"
-			height: 1.0d
-			image: "kubejs:textures/background/green_symboles/letters/i.png"
-			rotation: 90.0d
-			width: 1.0d
-			x: -2.0775510204081797d
-			y: -3.1751700680272066d
-		}
-		{
-			dependency: "280D95E313DDA71D"
-			height: 1.0d
-			hover: ["gleichheitszeichen"]
-			image: "kubejs:textures/background/green_symboles/letters/i.png"
-			rotation: 90.0d
-			width: 1.0d
-			x: -2.0673469387755006d
-			y: -3.5d
-		}
-		{
-			height: 1.0d
-			image: "botania:block/alchemy_catalyst_overlay"
-			rotation: 0.0d
-			width: 0.14285714285714285d
-			x: 24.0d
-			y: 24.0d
-		}
-		{
-			dependency: "280D95E313DDA71D"
-			height: 2.0d
-			image: "botania:block/alchemy_catalyst_overlay"
-			rotation: 0.0d
-			width: 2.0d
-			x: 19.0d
-			y: 12.0d
-		}
-		{
-			color: 1019157
-			dependency: "280D95E313DDA71D"
-			height: 1.0d
-			hover: ["grüner pointer"]
-			image: "ftbchunks:textures/waypoint_default.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.019047619047611875d
-			y: 0.7238095238095283d
-		}
-	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: [
-				"0A07C47718CD1F80"
 				"12D3B4B92CA5252C"
+				"1D4986D36052E5D1"
 			]
 			dependency_requirement: "one_completed"
-			description: [
-				"Herzlich Willkommen in Extreme Reactors. Gut in unserem Modpack nicht ganz so Extrem."
-				"Gleich vorne Weg: "
-				"&2&lYellorium ist identisch zu Uran&r."
-			]
+			hide_until_deps_complete: true
 			id: "280D95E313DDA71D"
-			invisible_until_tasks: 1
-			rewards: [
-				{
-					id: "79398FEFDE1829F8"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "bigreactors:erguide"
-						}
-					}
-					type: "item"
+			rewards: [{
+				id: "684454755F8FDF36"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "5DC434C7C1A9A72E"
-					item: "mod_journey:bronze_coin"
-					type: "item"
-				}
-			]
-			shape: "pentagon"
-			size: 1.5d
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D0A3B350C73C428"
-				title: "Extreme Reactor"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: -1.0d
+			x: 8.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["3D755E72F89F3702"]
-			description: ["Dein erster Reaktor, mit einer maximal Größe von 5x5x5 und der kleinsten Größe von 3x3x3."]
+			dependencies: ["1E86BC238F738A44"]
 			id: "6BEAD403B7CB0490"
 			rewards: [{
-				id: "064E7086447772BE"
-				item: "mod_journey:bronze_coin"
+				id: "4915F61F7A649E68"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
-					id: "3A78A41E1797DB85"
-					item: "bigreactors:basic_reactorcontroller"
+					id: "6E28FB61F22920CE"
+					item: { count: 1, id: "bigreactors:basic_reactorfuelrod" }
 					type: "item"
 				}
 				{
-					id: "685AF51593FC0C57"
-					item: "bigreactors:basic_reactorfuelrod"
+					id: "53108B6305488F89"
+					item: { count: 1, id: "bigreactors:basic_reactorcontroller" }
+					type: "item"
+				}
+				{
+					id: "458A2A52274A9C1E"
+					item: { count: 1, id: "bigreactors:basic_reactorcontrolrod" }
 					type: "item"
 				}
 				{
 					count: 2L
-					id: "458543F3D40D831F"
-					item: "bigreactors:basic_reactorsolidaccessport"
-					type: "item"
-				}
-				{
-					id: "467957C94D183A88"
-					item: "bigreactors:basic_reactorcontrolrod"
-					type: "item"
-				}
-				{
-					id: "6AC033C6237366C8"
-					item: "bigreactors:basic_reactorpowertapfe_passive"
+					id: "03369C205620E720"
+					item: { count: 1, id: "bigreactors:basic_reactorsolidaccessport" }
 					type: "item"
 				}
 				{
 					count: 21L
-					id: "6D2D49D0A5751049"
-					item: "bigreactors:basic_reactorcasing"
+					id: "15A33D909C49AF88"
+					item: { count: 1, id: "bigreactors:basic_reactorcasing" }
+					type: "item"
+				}
+				{
+					id: "060249275444D45B"
+					item: { count: 1, id: "bigreactors:basic_reactorpowertapfe_passive" }
 					type: "item"
 				}
 			]
-			title: "Basic Reactor"
-			x: 1.5d
+			x: 8.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["280D95E313DDA71D"]
-			description: ["Graphit wird aus Kohle hergestellt. Das wirst Du brauchen. Viel sogar."]
 			id: "1E86BC238F738A44"
 			rewards: [{
-				id: "2E84CC666980B134"
-				item: "mod_journey:bronze_coin"
+				id: "72402E025E95220A"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
-				id: "414EEACD339EF3A3"
-				item: "bigreactors:graphite_ingot"
+				id: "13AB81629469ABDB"
+				item: { count: 1, id: "bigreactors:graphite_ingot" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["1E86BC238F738A44"]
-			description: ["mit den basic Reaktoren lassen sich Multiblöcke bis auf eine größe von 5x5x5 bauen. "]
-			id: "3D755E72F89F3702"
-			rewards: [
-				{
-					id: "79776EB0F782D4D1"
-					item: "mod_journey:bronze_coin"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1AB5D6CFDD963FB4"
-					table_id: 4163070181652591131L
-					team_reward: true
-					type: "loot"
-				}
-			]
-			tasks: [{
-				id: "3FFCF6ACDE04C9BF"
-				item: "bigreactors:basic_reactorcasing"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 1.5d
+			x: 8.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["68CBEF963313DC33"]
-			description: ["Die Access Ports sind die Zugangspunkte zum Reaktor. Diese kannst Du Rechtsklicken. In der GUI kannst Du einstellen, ob dieser als Eingabe- oder Ausgabepunkt dienen soll. Außerdem kannst Du hier manuell triggern, ob dieser In- oder Output Material ausgeben soll. Die Ausgabe erfolgt in Fester Form, also als Ingot."]
-			icon: "bigreactors:reinforced_reactorsolidaccessport"
 			id: "66DEEA92B5F386C0"
 			rewards: [{
-				id: "3831EB8086861DDF"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5FC19862AC343856"
+				id: "7343D2E10EBBEE13"
 				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "bigreactors:reinforced_reactorsolidaccessport"
-							}
-							{
-								Count: 1b
-								id: "bigreactors:basic_reactorsolidaccessport"
-							}
-						]
-					}
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				title: "Access Ports"
-				type: "item"
-			}]
-			title: "Any Access Port"
-			x: -2.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["68CBEF963313DC33"]
-			description: ["Du kannst hiermit deinen Reaktor verwandeln in einen aktiv gekühlten Reaktor. Somit generierst du Dampf. Diesen kannst Du nutzen um eine Turbine zu betreiben. Du brauchst 2 dieser Ports. Auch hier kannst Du definieren, dass es sich um ein Eingangs- oder Ausgangsport handelt. "]
-			id: "646646E999822E90"
-			rewards: [{
-				id: "6F41BCA56F2174D6"
-				item: "mod_journey:bronze_coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "2FFC4BAF4B3382CF"
-				item: "bigreactors:reinforced_reactorfluidaccessport"
+				id: "17BE9C541FF632B7"
+				item: { count: 1, id: "bigreactors:reinforced_reactorsolidaccessport" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.0d
+			x: 5.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["3D755E72F89F3702"]
-			description: ["Auch für die Turbine gibt es eine Basic Form. Mein Rat an der Stelle, solltet ihr in betracht ziehen über Extreme-Reactors Strom zu beziehen, baut direkt die Advanced Turbine. Spart Euch die Ressourcen. "]
+			dependencies: [
+				"6BEAD403B7CB0490"
+				"064778D724C27365"
+			]
 			id: "4B86830BAFA84372"
-			optional: true
 			rewards: [{
-				id: "7393325606512392"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "70BF93F210FDF0DD"
-				item: "bigreactors:basic_turbinecontroller"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["68CBEF963313DC33"]
-			description: ["Energy Ports sind die Schnittstelle für Energie. Hier kannst Du Energie aus dem Reaktor in dein Energienetzwerk einspeisen. Es gibt zwei Arten. Die Aktiven und Passiven Energy Ports. Der Unterschied liegt darin, dass man aktiv den Strom aus den passiven Ports rausziehen muss, während die aktiven versuchen diesen direkt an den Benachbarten Block abzugeben."]
-			id: "21A66CAA4865D3D0"
-			rewards: [{
-				id: "1253148AA3DE5C08"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "68E959AF3630EE80"
+				id: "327D1658E1226585"
 				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "bigreactors:reinforced_reactorpowertapfe_active"
-							}
-							{
-								Count: 1b
-								id: "bigreactors:reinforced_reactorpowertapfe_passive"
-							}
-						]
-					}
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
-			title: "Energy Ports"
-			x: -2.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["3D755E72F89F3702"]
-			description: ["Mit den Reinforced Reaktoren lassen sich in unserem Modpack Multiblöcke bis zu einer größe von 16x16x16 bauen."]
-			id: "68CBEF963313DC33"
-			rewards: [
-				{
-					id: "06B5355CD5171235"
-					item: "mod_journey:bronze_coin"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "59629FC1A0269EA0"
-					table_id: 4163070181652591131L
-					team_reward: true
-					type: "loot"
-				}
-			]
 			tasks: [{
-				id: "232D2252C3A0B094"
-				item: "bigreactors:reinforced_reactorcasing"
+				id: "16B96C7FB05267E0"
+				item: { count: 1, id: "bigreactors:basic_turbinecasing" }
 				type: "item"
-			}]
-			x: 0.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["68CBEF963313DC33"]
-			description: ["Prinzipiell spielt es keine Rolle, ob Du Glas oder Ramen benutzt. Wichtig an der Stelle ist, dass die Ecken und das außen Gerüst immer Frames enthalten. Der innen Bereich der Flächen kann ausgefüllt werden mit Glas, aus optischen Gründen."]
-			id: "50C6D9F519D225F4"
-			rewards: [{
-				id: "4CD72DABCEFE8C9B"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3FB587E9242CE09F"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "bigreactors:basic_reactorglass"
-							}
-							{
-								Count: 1b
-								id: "bigreactors:reinforced_reactorglass"
-							}
-						]
-					}
-				}
-				title: "Any Reactor-Glass"
-				type: "item"
-			}]
-			title: "Glas oder Ramen"
-			x: -2.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["280D95E313DDA71D"]
-			description: [
-				"Nimmst Du aktiv aus den Access Ports Ingots in die Hand und versuchst sie ins Inventar zu legen, wirst du mittels ESC das Menü verlassen müssen. Die Items kannst Du dennoch normal ins Inventar shiften."
-				"{@pagebreak}"
-				"Betätigst Du den SCRAM Button im Controll Interface, so wirst Du den reaktor starten müssen, an die Reactor-Controll-Rods gehen diesen Wert um mindestens 2% reduzieren und auf Change all drücken müssen. Anschließend kannst Du den Reaktor wieder mit 100% betreiben und dieser startet auch wieder. "
-				"{@pagebreak}"
-				"Hast Du deinen Reaktor vorher Aktiv gekühlt und stellst diesen dann auf Passiv um, wird der Reaktor seine Leistung (Verbrauchsreaktor) nicht mehr erreichen. Ich empfehle den Multiblock abzureißen und Neu zu bauen. "
-			]
-			hide_details_until_startable: true
-			hide_text_until_complete: true
-			id: "3154E80F60E99856"
-			rewards: [{
-				id: "128BDB7926C7C0E8"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "074D1299CC61739F"
-				title: "kleinere Bugs"
-				type: "checkmark"
-			}]
-			x: -0.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["280D95E313DDA71D"]
-			description: [
-				"entfällt bei uns im Modpack. Eine Zelle speichert knapp 700 T/FE. Der Draconic Reactor wäre neidisch auf den Multiblock. Ausgebaut entspräche der Multiblock ~ 1.8 Exa FE. Wurde die Maßeinheit schon erreicht?"
-				"{@pagebreak}"
-				"Um es greifbarer zu machen das wäre eine 1 gefolgt von 18 Nullen. "
-			]
-			hide_details_until_startable: true
-			hide_text_until_complete: true
-			id: "4D3EA87317F9F6BA"
-			rewards: [{
-				id: "1D457C951867DDBA"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			subtitle: "Der Energizer"
-			tasks: [{
-				id: "0734E682569CEA3F"
-				title: "Energizer"
-				type: "checkmark"
-			}]
-			x: -3.5d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"6CAB591C5279CFFB"
-				"1DB2485BC022595E"
-			]
-			description: [
-				"Du erhälst Blutonium. Davon brauchst du.... "
-				""
-				"...ja öhm - viel."
-			]
-			id: "4C65447B7738A05F"
-			rewards: [{
-				id: "60331C842BCCDC8C"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "4607EA68920C2AD1"
-				item: "bigreactors:reprocessorcontroller"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 8.5d
-		}
-		{
-			dependencies: ["4C65447B7738A05F"]
-			description: ["Das Blutonium wirst Du an drei Stellen brauchen."]
-			id: "4AB80401F1CA36D1"
-			rewards: [
-				{
-					id: "6D055E9948A2B26D"
-					item: "mod_journey:bronze_coin"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2631A0780F320126"
-					table_id: 4163070181652591131L
-					team_reward: true
-					type: "loot"
-				}
-			]
-			shape: "octagon"
-			tasks: [{
-				id: "299A67366DE25CEB"
-				item: "bigreactors:blutonium_ingot"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["13C1BA3695707A9D"]
-			description: ["Gebe Cyanite in Barrenform deinen Reprocessor hinzu."]
-			id: "6CAB591C5279CFFB"
-			rewards: [{
-				id: "44DA25FE0E3E1FB0"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				id: "41DA615D6CD7479C"
-				item: "bigreactors:cyanite_ingot"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 9.5d
-		}
-		{
-			dependencies: ["77EA9324D2593A1B"]
-			description: ["Du erhältst Ludicrite. Ein Moderator für deine Turbine"]
-			id: "072EB753A23476A3"
-			rewards: [{
-				id: "72B1326C9D858BE6"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				id: "71DE0E40F8B0CF69"
-				item: "bigreactors:ludicrite_ingot"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 15.0d
-		}
-		{
-			dependencies: ["6A538CD7EEA9C917"]
-			description: ["Auch schon ein solider Moderator für deine Turbine"]
-			id: "5534116F13F1FECC"
-			rewards: [{
-				id: "498F76B2E73DCEC5"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				id: "6FBF87B45C3B5824"
-				item: "bigreactors:ridiculite_ingot"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 14.0d
-		}
-		{
-			dependencies: ["280D95E313DDA71D"]
-			description: ["Die Think (Spülbecken) soll dein bester Freund sein."]
-			hide: true
-			hide_dependency_lines: true
-			id: "1DB2485BC022595E"
-			rewards: [{
-				id: "26F11EB338D3B5AA"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				id: "658964F8434ACEEB"
-				item: "minecraft:water_bucket"
-				type: "item"
-			}]
-			title: "Wasser"
-			x: 4.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["13C1BA3695707A9D"]
-			description: ["Blutonium plus Cyanite in den Reprocessor eingeben."]
-			icon: "bigreactors:cyanite_bucket"
-			id: "3B8445B5B7F0BA62"
-			rewards: [{
-				id: "1864CE35F2C8C89B"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				id: "443763D56F574F63"
-				title: "Cyanite"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: 13.0d
-		}
-		{
-			dependencies: [
-				"3B8445B5B7F0BA62"
-				"25D5F3B047CA75E4"
-			]
-			id: "77EA9324D2593A1B"
-			rewards: [{
-				id: "349E5A452E8A26F1"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "0F19C7C81193D62E"
-				item: "bigreactors:reprocessorcontroller"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["4AB80401F1CA36D1"]
-			description: ["Blutonium plus Cyanite in den Reprocessor eingeben."]
-			id: "25D5F3B047CA75E4"
-			rewards: [{
-				id: "1C9F6BED85614189"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				id: "699EE26E98714DD3"
-				item: "bigreactors:blutonium_ingot"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["4AB80401F1CA36D1"]
-			description: ["Gebe Blutonium deinem Fluidizer hinzu."]
-			id: "4ECD09ACFE16E99C"
-			rewards: [{
-				id: "277D5DD9AEB4AA8D"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				id: "14F7D224B90846D3"
-				item: "bigreactors:blutonium_ingot"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["280D95E313DDA71D"]
-			description: ["Füge Yellorium/Uran mit hinzu. "]
-			hide: true
-			hide_dependency_lines: true
-			id: "13A18FED2817D59A"
-			rewards: [{
-				id: "072207A23387D035"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				id: "7BEF413D6859D67E"
-				item: "bigreactors:yellorium_ingot"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["65EEF8159CC6B174"]
-			description: ["Anschließend erhältst Du Verderium"]
-			icon: "bigreactors:verderium_bucket"
-			id: "0DF5AEA45A614607"
-			rewards: [{
-				id: "24457509B127D3E6"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				id: "6CB436B0531DD31A"
-				title: "Verderium"
-				type: "checkmark"
-			}]
-			x: 10.0d
-			y: 7.5d
-		}
-		{
-			dependencies: [
-				"4ECD09ACFE16E99C"
-				"13A18FED2817D59A"
-			]
-			description: ["Achte darauf wie Du den Fluidizer baust. Dieser hat drei verschiedene Modi. "]
-			id: "65EEF8159CC6B174"
-			rewards: [{
-				id: "46C8A74A4F62856A"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "6DDDCE0171349167"
-				item: "bigreactors:fluidizercontroller"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["0DF5AEA45A614607"]
-			description: ["Das Verderium kannst Du wieder einen Reaktor hinzufügen."]
-			icon: "bigreactors:verderium_bucket"
-			id: "0E31ED057ED8CD24"
-			rewards: [{
-				id: "703E991A10F9B259"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				id: "514AB9B8B5329F9A"
-				title: "Verderium"
-				type: "checkmark"
-			}]
-			title: "Verderium"
-			x: 12.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["0E31ED057ED8CD24"]
-			description: ["Es muss nicht immer der größte Reaktor sein. "]
-			id: "68D70945E7B41457"
-			rewards: [{
-				id: "42C4576AD5E6ACEA"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "4A3A3D47B61C565B"
-				item: "bigreactors:reinforced_reactorcontroller"
-				type: "item"
-			}]
-			x: 13.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["68D70945E7B41457"]
-			description: ["Anschließend erhältst du Rossinite"]
-			icon: "bigreactors:rossinite_bucket"
-			id: "0B7096A5E53E67EF"
-			rewards: [{
-				id: "1D5FE1D615D27AC7"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				id: "03B8AFB323A53EDF"
-				type: "checkmark"
-			}]
-			title: "Rossinite"
-			x: 14.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["058F5156168C41AD"]
-			description: ["Wusstest Du, dass Du deinen Reaktor nicht kühlen musst? Der Verbrauch steigt dadurch und du kannst effektiver umwandeln. Wenn es nur darum geht."]
-			id: "6CBD102C9BA554AF"
-			rewards: [{
-				id: "365403D1786FBAAA"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "28E429B17342EB34"
-				item: "bigreactors:reinforced_reactorcontroller"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["4AB80401F1CA36D1"]
-			description: ["Hast Du das Blutonium in flüssiger Form, kannst du es deinem Reactor wieder hinzufügen. Natürlich geht das auch mit Ingots."]
-			icon: "bigreactors:blutonium_bucket"
-			id: "058F5156168C41AD"
-			rewards: [{
-				id: "778F6DE86E408962"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				id: "22B2B7D67662B9A7"
-				title: "Blutonium"
-				type: "checkmark"
 			}]
 			x: 7.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["6CBD102C9BA554AF"]
-			description: ["Anschließend erhältst Du Magentite. Achso das ME-System kann auch mit ExtremeReactors ganz gut."]
-			icon: "bigreactors:magentite_bucket"
-			id: "116CAD3989B3CCF5"
-			rewards: [{
-				id: "7588B37A724BDAE0"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				id: "207D84CA68012ECF"
-				title: "Magentite"
-				type: "checkmark"
-			}]
-			x: 9.0d
-			y: 11.0d
-		}
-		{
-			dependencies: [
-				"060309360F27D1EA"
-				"3C07F92EF68FCC33"
-			]
-			id: "6A538CD7EEA9C917"
-			rewards: [{
-				id: "3A63FB449836E672"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "4603F7CC08D0185E"
-				item: "bigreactors:reprocessorcontroller"
-				type: "item"
-			}]
-			x: 10.5d
-			y: 14.0d
-		}
-		{
-			dependencies: ["116CAD3989B3CCF5"]
-			description: ["Gebe Magentite und Ludicrite dem Reprocessor hinzu."]
-			icon: "bigreactors:magentite_bucket"
-			id: "060309360F27D1EA"
-			rewards: [{
-				id: "1140BC5D77008484"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				id: "5CC05D5D8620ACB6"
-				title: "Magentite"
-				type: "checkmark"
-			}]
-			x: 10.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["072EB753A23476A3"]
-			description: ["Gebe Magentite und Ludicrite dem Reprocessor hinzu."]
-			id: "3C07F92EF68FCC33"
-			rewards: [{
-				id: "0AE6F701710F18A7"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				id: "0B2D7FF6919FAEC2"
-				item: "bigreactors:ludicrite_ingot"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 15.0d
-		}
-		{
-			dependencies: [
-				"358328CB0AB4DF09"
-				"46D6CDBCAB067ECA"
-			]
-			id: "544531C0D2F7DCED"
-			rewards: [{
-				id: "4D091B3DF0B11377"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "032EA9BFF09429CA"
-				item: "bigreactors:reprocessorcontroller"
-				type: "item"
-			}]
-			x: 15.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["5534116F13F1FECC"]
-			description: ["Ridiculite und Rossinite mal wieder repocessen."]
-			id: "358328CB0AB4DF09"
-			rewards: [{
-				id: "6D10F3C2A594C5B1"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				id: "7929C9B067AF8C23"
-				item: "bigreactors:ridiculite_ingot"
-				type: "item"
-			}]
-			x: 14.5d
-			y: 13.0d
-		}
-		{
-			dependencies: ["0B7096A5E53E67EF"]
-			description: ["Ridiculite und Rossinite mal wieder repocessen."]
-			icon: "bigreactors:rossinite_bucket"
-			id: "46D6CDBCAB067ECA"
-			rewards: [{
-				id: "682793091945B693"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				id: "4077DBE330A0215A"
-				title: "Rossinite"
-				type: "checkmark"
-			}]
-			x: 14.5d
-			y: 11.0d
-		}
-		{
-			dependencies: [
-				"5C8E6D7BDD2F3D7C"
-				"60B95EE1477F2724"
-			]
-			id: "040C1D850A9C12DF"
-			rewards: [{
-				id: "37DECAECF8E70D09"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "2F91243D34DE2E4A"
-				item: "bigreactors:reprocessorcontroller"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["0B7096A5E53E67EF"]
-			description: ["Rossinite und Benitoite mal wieder reprocessen..."]
-			icon: "bigreactors:rossinite_bucket"
-			id: "5C8E6D7BDD2F3D7C"
-			rewards: [{
-				id: "6093258B3C3697D9"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				id: "1476B082F3227F86"
-				title: "Rossinite"
-				type: "checkmark"
-			}]
-			x: 18.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["280D95E313DDA71D"]
-			description: [
-				"Zu finden im Nether. "
-				"&5WIP:&r Wurde wohl auch auf Glacio schon gefunden."
-			]
-			hide: true
-			hide_dependency_lines: true
-			id: "60B95EE1477F2724"
-			rewards: [{
-				id: "67EB780A53ECF04C"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				id: "563C98530FC6A712"
-				item: "bigreactors:benitoite_crystal"
-				type: "item"
-			}]
-			x: 20.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["040C1D850A9C12DF"]
-			description: ["Super, das noch mit Inanite in die Werkbank."]
-			id: "47B6FC0234860B71"
-			rewards: [{
-				id: "54E5437145A6EB0A"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				id: "013661E13C8303F0"
-				item: "bigreactors:insanite_ingot"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 9.5d
-		}
-		{
-			dependencies: ["544531C0D2F7DCED"]
-			description: ["8 mal das ganze und man kann sich einen Inaniteblock craften. Vergess das Netherite nicht."]
-			id: "2685BD79EDA932C1"
-			rewards: [{
-				id: "01CD22947315CC08"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				id: "42B671F4FD869406"
-				item: "bigreactors:inanite_block"
-				type: "item"
-			}]
-			x: 16.5d
-			y: 12.0d
-		}
-		{
-			dependencies: [
-				"2685BD79EDA932C1"
-				"47B6FC0234860B71"
-			]
-			description: [
-				"Dein perfecter Moderator. "
-				"War es das wirklich Wert?"
-			]
-			id: "0B6F1727ECC8D86A"
-			rewards: [{
-				id: "42FEDE482791379F"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2E74AC4BB7647314"
-				item: "bigreactors:insanite_block"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["26B645871A11798E"]
-			description: ["Durch Spaltung wird aus dem Yellorium Cyanite gewonnen"]
-			id: "064778D724C27365"
-			rewards: [{
-				id: "32BBDA4D6BD79C92"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "16277502FDE0FA0F"
-				item: "bigreactors:reinforced_reactorcontroller"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 9.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["68CBEF963313DC33"]
-			description: ["Gebe Uran oder Yellorium in deinen Reaktor"]
-			icon: "bigreactors:yellorium_bucket"
-			id: "26B645871A11798E"
+			id: "21A66CAA4865D3D0"
 			rewards: [{
-				id: "6A551EA0F2CA88D2"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				id: "1CE806849D563B37"
-				title: "Yellorium"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 9.5d
-		}
-		{
-			dependencies: ["064778D724C27365"]
-			description: [
-				"Du entscheidest was für eine Ausgabe, in Fester oder Flüssiger Form."
-				"&6Merke:&r"
-				"Du kannst Feste Items jederzeit in eine Flüssigkeit mittels des Fluidizer umwandeln, aber nicht zurück!"
-			]
-			icon: "bigreactors:cyanite_bucket"
-			id: "13C1BA3695707A9D"
-			rewards: [{
-				id: "7B0E4CBE7D5B13DF"
-				item: "mod_journey:bronze_coin"
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				id: "34E99BB60961DDF4"
-				title: "Cyanite"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 9.5d
-		}
-		{
-			dependencies: ["3B859360824909AE"]
-			description: ["Du kannst mit der in den Tasks aufgelisteten Blöcken aktiv Wasser eingeben und Dampf rausziehen. Es gibt sogar einen Block der den Dampf umwandelt in Mekanism Dampf. Hiermit lassen sich Mekanism Turbinen betreiben."]
-			id: "51D668BB5A301993"
-			rewards: [{
-				id: "6E1A40D119A91A38"
-				item: "mod_journey:bronze_coin"
+				id: "4015DBBEFAC6E9E5"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
-					id: "345FF4181B947AB6"
-					item: "bigreactors:reinforced_reactorfluidport_mekanism_passive"
+					id: "24E3BBEB61EDA68B"
+					item: { count: 1, id: "bigreactors:reinforced_reactorpowertapfe_passive" }
 					type: "item"
 				}
 				{
-					id: "10B9F758C92D2B26"
-					item: "bigreactors:reinforced_reactorfluidport_forge_passive"
+					id: "26865543EB18265D"
+					item: { count: 1, id: "bigreactors:reinforced_reactorpowertapfe_active" }
 					type: "item"
 				}
 			]
-			title: "Aktivkühlung"
-			x: -4.5d
-			y: 5.0d
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6BEAD403B7CB0490"]
+			id: "68CBEF963313DC33"
+			rewards: [{
+				id: "65A0EB5B41616482"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B24D2D9E574F7F4"
+				item: { count: 1, id: "bigreactors:reinforced_reactorcontroller" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["68CBEF963313DC33"]
-			description: [
-				"Du kannst deinen Reaktor Aktiv oder Passiv kühlen, oder es auch einfach sein lassen. "
-				"Hast Du nur Luft mit der Du kühlst, wandelst Du schneller deine Verbraucher um. "
-				""
-				"Kühlst Du deinen Reaktor Passiv, Eisen, Gold oder Diamant, so sinkt der Verbrauch pro Tick. "
-				""
-				"Kühlst Du deinen Reaktor Aktiv, so generiert dein Reaktor keinen Strom mehr, diesen beziehst Du dann aus einer Turbine. "
+			id: "50C6D9F519D225F4"
+			rewards: [{
+				id: "34564CAC1B86D830"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "68BE262927B7956A"
+					item: { count: 1, id: "bigreactors:reinforced_reactorglass" }
+					type: "item"
+				}
+				{
+					id: "54AF027E66A2E4C1"
+					item: { count: 1, id: "bigreactors:reinforced_reactorcasing" }
+					type: "item"
+				}
 			]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["280D95E313DDA71D"]
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			id: "4D3EA87317F9F6BA"
+			rewards: [{
+				id: "043A97482B066D5D"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0734E682569CEA3F"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["13C1BA3695707A9D"]
+			id: "6CAB591C5279CFFB"
+			rewards: [{
+				id: "31F8F5656F6D76AD"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25BAB0CF2052C083"
+				item: { count: 1, id: "bigreactors:blutonium_ingot" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"13C1BA3695707A9D"
+				"6CAB591C5279CFFB"
+			]
+			id: "3B8445B5B7F0BA62"
+			rewards: [{
+				id: "4E770B1A618EDF64"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B64299FB790B881"
+				item: { count: 1, id: "bigreactors:ludicrite_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"3B8445B5B7F0BA62"
+				"116CAD3989B3CCF5"
+			]
+			id: "77EA9324D2593A1B"
+			rewards: [{
+				id: "5A4E2B5B1CE2087E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2690CFEA40882850"
+				item: { count: 1, id: "bigreactors:ridiculite_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["058F5156168C41AD"]
+			id: "0DF5AEA45A614607"
+			rewards: [{
+				id: "6F4E53D2B8A92D40"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CB436B0531DD31A"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0DF5AEA45A614607"]
+			id: "0B7096A5E53E67EF"
+			rewards: [{
+				id: "6EBBAB4E7FC5C1B3"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "03B8AFB323A53EDF"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["058F5156168C41AD"]
+			id: "6CBD102C9BA554AF"
+			rewards: [{
+				id: "7E48BE94ADCCED53"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11461B139F204B7E"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6CAB591C5279CFFB"]
+			id: "058F5156168C41AD"
+			rewards: [{
+				id: "03533CD0968850FA"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "22B2B7D67662B9A7"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["058F5156168C41AD"]
+			id: "116CAD3989B3CCF5"
+			rewards: [{
+				id: "6D637017DB688256"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "207D84CA68012ECF"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["26B645871A11798E"]
+			id: "064778D724C27365"
+			rewards: [{
+				id: "289CDBD3C409C0C2"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "258B134111210787"
+				item: { count: 1, id: "bigreactors:cyanite_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6BEAD403B7CB0490"]
+			dependency_requirement: "all_started"
+			id: "26B645871A11798E"
+			rewards: [{
+				id: "15537283A150BE18"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CE806849D563B37"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["064778D724C27365"]
+			id: "13C1BA3695707A9D"
+			rewards: [{
+				id: "76A0EB4F12E59183"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "34E99BB60961DDF4"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3B859360824909AE"]
+			id: "51D668BB5A301993"
+			rewards: [{
+				id: "47487D2660DCC3F1"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5A9D0C03F3385423"
+					item: { count: 1, id: "bigreactors:reinforced_reactorfluidport_forge_active" }
+					type: "item"
+				}
+				{
+					id: "17D5499F02FEBE61"
+					item: { count: 1, id: "bigreactors:reinforced_reactorfluidport_forge_passive" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["68CBEF963313DC33"]
 			id: "3B859360824909AE"
 			rewards: [{
-				id: "4DD8E54AE288CDB1"
-				item: "mod_journey:bronze_coin"
+				id: "6EDAB405D14E08CC"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7BD191F74C472357"
-				title: "Aktiv/Passiv"
 				type: "checkmark"
 			}]
-			x: -3.0d
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["66DEEA92B5F386C0"]
+			id: "6F85FEEE1707BF38"
+			rewards: [{
+				id: "78714D2ADA5FEF5E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BED98BB7A668558"
+				item: { count: 1, id: "bigreactors:reinforced_reactorfluidaccessport" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"77EA9324D2593A1B"
+				"0B7096A5E53E67EF"
+			]
+			id: "61CE90F54657E15F"
+			rewards: [{
+				id: "5AC67BA0B2AF1C0B"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E55062F906AF9C9"
+				item: { count: 1, id: "bigreactors:inanite_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"52BDD73ACE4C17D7"
+				"0B7096A5E53E67EF"
+			]
+			id: "3EF6F71E82FC2B24"
+			rewards: [
+				{
+					id: "7ACFA4FD98550A65"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44F8C6BAB7248393"
+					table_id: 1221953208027045268L
+					team_reward: true
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "4EC7D38C3BC6613F"
+				item: { count: 1, id: "bigreactors:insanite_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["280D95E313DDA71D"]
+			hide_dependency_lines: true
+			id: "52BDD73ACE4C17D7"
+			rewards: [{
+				id: "11C84CA99C0CF3D8"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "364B333643B951AA"
+				item: { count: 1, id: "bigreactors:benitoite_crystal" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"3EF6F71E82FC2B24"
+				"61CE90F54657E15F"
+			]
+			id: "3828E5EB05AA35F3"
+			rewards: [{
+				id: "4CE15AF7D6251276"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "61188571C8F8EEC2"
+				item: { count: 1, id: "bigreactors:insanite_block" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["26B645871A11798E"]
+			id: "0E98FD728C17E820"
+			rewards: [{
+				id: "534FD6E5B3A8B5DE"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D1C3450B464405B"
+				item: { count: 1, id: "bigreactors:fluidizercontroller" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["064778D724C27365"]
+			id: "4601700EA48A23A8"
+			rewards: [{
+				id: "6EE76A6813EFAFD9"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AF377AF69131B64"
+				item: { count: 1, id: "bigreactors:reprocessorcontroller" }
+				type: "item"
+			}]
+			x: 9.0d
 			y: 5.0d
 		}
+		{
+			dependencies: ["4B86830BAFA84372"]
+			id: "7573E4D1345E6922"
+			rewards: [{
+				id: "5124FB943F982AE9"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5429A1C432FAE61E"
+				item: { count: 1, id: "bigreactors:reinforced_turbinecontroller" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0E98FD728C17E820"]
+			id: "5A21339405F8A5A5"
+			require_sequential_tasks: false
+			rewards: [{
+				id: "5DE761C4AF79CB4F"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CA4A25A92BB8169"
+				item: { count: 1, id: "bigreactors:cryomisi_bucket" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0E98FD728C17E820"
+				"6BC62E21B31D6CB9"
+			]
+			id: "7ED15FE4EF0579C1"
+			rewards: [{
+				id: "1228D47FBFDFDDF8"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "645AE1E3A31F1A00"
+				item: { count: 1, id: "bigreactors:tangerium_bucket" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"7ED15FE4EF0579C1"
+				"5A21339405F8A5A5"
+			]
+			id: "4B5731EA58070191"
+			rewards: [{
+				id: "6D12D6A5771031F7"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A18256F31EAA6FE"
+				item: { count: 1, id: "bigreactors:redfrigium_bucket" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["280D95E313DDA71D"]
+			hide_dependency_lines: true
+			id: "6BC62E21B31D6CB9"
+			rewards: [{
+				id: "3E245991583E1EB1"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "03DAB7BEA9C38BB8"
+				item: { count: 1, id: "bigreactors:anglesite_crystal" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
 	]
-	title: "Extreme Reactors"
 }

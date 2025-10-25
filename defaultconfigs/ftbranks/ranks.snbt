@@ -3,6 +3,7 @@
 		name: "Member"
 		power: 1
 		condition: "always_active"
+		command.back: false
 		command.home: false
 		command.spawnpoint: false
 		command.tpa: false

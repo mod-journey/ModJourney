@@ -1,152 +1,89 @@
 {
-	autofocus_id: "37706A8F418CE74C"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "aether"
 	group: "12D6D4D26DC1B099"
-	icon: "aether:aether_portal_frame"
+	icon: {
+		id: "aether:aether_portal_frame"
+	}
 	id: "10E1266DF64C997D"
-	order_index: 3
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["37706A8F418CE74C"]
-			description: [
-				"\"Du, der den Aether betrittst! Wisse, dass diese Dimension meiner Kontrolle unterliegt! Mir, dem unvergleichlichen Sun Spirit!"
-				"Und wie es sich für einen wahren Herrscher gehört, habe ich die Naturgesetze nach meinen himmlischen Vorstellungen geformt!"
-				"Ich verbiete jegliche Materialien aus fremden Welten und toleriere diese in keinster Weise! Wer diese dennoch verwenden möchte, wird mit der Effizienz dieser einbüßen!"
-				"Und da mein Wille Gesetz ist, habe ich die Nacht aus dieser meiner Welt auf alle Ewigkeit verbannt! Möge meine Sonne und meine Macht euch erhellen und den Weg weisen!\""
-				""
-				""
-				"{@pagebreak}"
-				"&l&nÄnderungen zur Overworld:&r"
-				""
-				"&6-&rEwiger Tag bis der Gold Boss besiegt wurde"
-				""
-				"&6-&rBestimmte Vanilla Lichter funktionieren nicht im Aether (Fackeln, Laternen, Lagerfeuer, Kürbis-laternen; Ausnahmen: Soul Varianten)"
-				""
-				"&6-&rFeuer können nur auf Seelensand, Netherrack und Hellfire Stein gezündet werden"
-				""
-				"&6-&rUnverzauberte Werkzeuge aus Aether-fremdem Material bauen so schnell wie Hand ab, Aethermaterial wird benötigt"
-				""
-				"&6-&rLava wird zu Aerogel, wenn es auf den Boden und nicht in einen Kessel gesetzt wird"
-			]
 			id: "25D555627E5F7556"
-			invisible: true
-			subtitle: "Willkommen im Aether"
+			rewards: [{
+				id: "2BD83A432DFB8CB7"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
-				dimension: "aether:the_aether"
+				dimension: "minecraft:the_nether"
 				id: "4627D35561E99028"
 				type: "dimension"
 			}]
-			title: "Sky is the limit"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
-			description: [
-				"The Aether ist eine himmlische Dimension voller Sonnenschein, Ambrosia und goldenem Nektar. Und Fallschaden...sehr viel Fallschaden."
-				"Schnapp dir eine Sonnenbrille, geh zum Spawn und tritt durch das Himmelsportal."
-				"Wir Wünschen dir viel Spaß!"
-				""
-				"( •_•)>⌐■-■"
-				""
-				"(⌐■_■)"
-				""
-				"ヾ(⌐■_■)ノ♪"
-			]
-			icon: "aether:aether_portal_frame"
+			dependencies: ["0E92633B7DC58B57"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "aether:aether_portal_frame"
+			}
 			id: "37706A8F418CE74C"
-			subtitle: "Auf in den Aether!"
+			rewards: [{
+				id: "642263EAF8DB53BB"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "39F041BF05060216"
-				title: "Sky is the limit"
 				type: "checkmark"
 			}]
-			title: "Das güldene Portal"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["25D555627E5F7556"]
-			description: ["Sammle dein erstes Holz aus dem Aether um dir Holzwerkzeuge craften zu können...schon wieder."]
 			id: "5D196A5F5980E8D5"
-			subtitle: "Wieder hier?"
-			tasks: [{
-				count: 8L
-				id: "21390B68698E9438"
-				item: "aether:skyroot_log"
+			rewards: [{
+				id: "787B5A84A309A5C0"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			title: "Himmlisches Holz"
+			tasks: [{
+				id: "21390B68698E9438"
+				item: { count: 1, id: "aether:skyroot_log" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5D196A5F5980E8D5"]
-			description: [
-				"Auch wenn du wieder mit Holz arbeiten musst, so haben die Werkzeuge aus dem Aether durch ihre himmlischen Kräfte besondere Fähigkeiten."
-				""
-				"So können Skyroot Werkzeuge bestimmte Ressourcen beim Abbauen verdoppeln."
-				""
-				"{@pagebreak}"
-				"&6-&rSword: Verdoppelt Loot von Mobs"
-				""
-				"&6-&rPickaxe: Verdoppelt Drops von Holystone und Ambrosium-Erz"
-				""
-				"&6-&rShovel: Verdoppelt Drops von Aetherdirt und Quicksoil"
-				""
-				"&6-&rAxe: Verdoppelt Drops von Skyroot Bäumen"
-				""
-				"&6-&rHoe: Verdoppelt Drops von Pflanzen und organischen Blöcken"
-			]
 			id: "0AEA6B7F3ED1C659"
+			rewards: [{
+				id: "785E8A4369CEF22C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1DDE93CE98C31741"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "aether:skyroot_sword"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "aether:skyroot_pickaxe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "aether:skyroot_shovel"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "aether:skyroot_axe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "aether:skyroot_hoe"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
-					}
-				}
-				title: "Skyroot Ausrüstung"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aether:skyroot_sword)item(aether:skyroot_pickaxe)item(aether:skyroot_shovel)item(aether:skyroot_axe)item(aether:skyroot_hoe))", "minecraft:custom_name": "\"Aether Holz Tools\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -154,58 +91,18 @@
 		}
 		{
 			dependencies: ["5D196A5F5980E8D5"]
-			description: [
-				"Wie auch die Skyroot Werkzeuge, haben Werkzeuge aus Holystone auch besondere Fähigkeiten"
-				""
-				"Grundsätzlich haben diese eine Chance Ambrosium-Shards beim Benutzen/Abbauen zu droppen."
-			]
 			id: "4FD68CD56495BC8D"
+			rewards: [{
+				id: "1AADF5242FC7DA95"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "74CB5C3F334DF6F9"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "aether:holystone_sword"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "aether:holystone_pickaxe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "aether:holystone_shovel"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "aether:holystone_axe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "aether:holystone_hoe"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
-					}
-				}
-				title: "Getting an Upgrade 2.0"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aether:holystone_sword)item(aether:holystone_pickaxe)item(aether:holystone_shovel)item(aether:holystone_axe)item(aether:holystone_hoe))", "minecraft:custom_name": "\"Aether Stone Tools\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -213,15 +110,18 @@
 		}
 		{
 			dependencies: ["4FD68CD56495BC8D"]
-			description: [
-				"Zanite ist das himmlische Äquivalent zu Eisen."
-				""
-				"Werkzeuge aus Zanite haben die eigenartige Eigenschaft immer stärker und schneller zu werden, je mehr sie kaputt gehen"
-			]
 			id: "27A8B343CD99EA6D"
+			rewards: [{
+				id: "7EF3601B392BC8C8"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "46181A5A2EC80EFA"
-				item: "aether:zanite_gemstone"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aether:zanite_sword)item(aether:zanite_pickaxe)item(aether:zanite_shovel)item(aether:zanite_axe)item(aether:zanite_hoe))", "minecraft:custom_name": "\"Aether Iron Tools\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -232,61 +132,76 @@
 				"27A8B343CD99EA6D"
 				"0390C2B9DD42D306"
 			]
-			description: ["Die magischen und heilerischen Fähigkeiten von Ambrosium können in diesem Altar dazu genutzt werden, um bestimmte Items zu verzaubern oder Rüstungen/Waffen/Werkzeuge zu reparieren."]
 			id: "18DC444B569EA95E"
-			tasks: [{
-				id: "20F816BCEE767165"
-				item: "aether:altar"
+			rewards: [{
+				id: "0006E9358ECDC056"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			title: "Enchanting mit Ambrosium"
+			tasks: [{
+				id: "20F816BCEE767165"
+				item: { count: 1, id: "aether:altar" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["0AEA6B7F3ED1C659"]
-			description: ["Ambrosium, das himmlische Äquivalent zu Kohle. Besitzt heilerische Fähigkeiten und heilt ein halbes Herz wenn konsumiert."]
 			id: "0390C2B9DD42D306"
-			tasks: [{
-				id: "5EED7E9E0D7A9B59"
-				item: "aether:ambrosium_shard"
+			rewards: [{
+				id: "68701F7A4D5182AF"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			title: "Ambrosium, Speise der Götter"
+			tasks: [{
+				id: "5EED7E9E0D7A9B59"
+				item: { count: 1, id: "aether:ambrosium_shard" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["18DC444B569EA95E"]
-			description: [
-				"Gravitite gehört zum stärksten Material, das es im Aether zu finden gibt."
-				""
-				"&4Achtung:&r Das Erz ignoriert die Gesetze der Schwerkraft und schwebt geradewegs nach oben weg, wenn es nicht blockiert und dadurch daran gehindert wird! "
-				""
-				"Im Altar kann es dann für die Verwendung von Werkzeugen verzaubert werden."
-				""
-				"Werkzeuge aus Gravitite können bestimmte Blöcke und Gegner nach oben schweben lassen."
-			]
 			id: "2C5CFE4579A1DF6E"
-			tasks: [{
-				id: "60F262FDBD0040F3"
-				item: "aether:enchanted_gravitite"
+			rewards: [{
+				id: "31C335775E0CDFC2"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			title: "Kontrolliere die Schwerkraft"
+			tasks: [{
+				count: 3L
+				id: "60F262FDBD0040F3"
+				item: { count: 1, id: "aether:enchanted_gravitite" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["25D555627E5F7556"]
-			description: [
-				"Dieses Buch kann dir Informationen zu jeglichen Items und Blöcken aus The Aether geben."
-				"Lege diese dafür einfach in den Slot im Buch."
-			]
 			id: "6BF534C006E6947C"
+			rewards: [{
+				id: "5274C0366EDDA1F6"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B4209D59746B89D"
-				item: "aether:book_of_lore"
+				item: { count: 1, id: "aether:book_of_lore" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -294,223 +209,207 @@
 		}
 		{
 			dependencies: ["2C5CFE4579A1DF6E"]
-			description: [
-				"Es wird Zeit für den ersten Boss. Diesen findest du in Bronze Dungeons."
-				""
-				"Der Dungeon ist meist auf großen Inseln zu finden und nur dessen Eingang ist von außen sichtbar."
-				""
-				"Ruinen aus Holystone an der Oberfläche helfen dir auch beim Lokalisieren."
-				""
-				"&4Achtung:&r Der Boss hat eine besondere Fähigkeit, die ihn immun gegen herkömmlichen Schaden macht. Doch ist deine Wahl der Waffe nur schwer und spitz genug, lässt sich der Boss auch besiegen."
-			]
 			id: "3B8EF9C3766DE216"
-			tasks: [{
-				entity: "aether:slider"
-				icon: "aether:bronze_dungeon_key"
-				id: "34D62C6199CCF33C"
-				type: "kill"
-				value: 1L
+			rewards: [{
+				id: "0C37E415454F6A76"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
 			}]
-			title: "Der erste Boss"
+			tasks: [{
+				advancement: "aether:bronze_dungeon"
+				criterion: ""
+				id: "37629B9C0FCB610E"
+				type: "advancement"
+			}]
 			x: 8.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["3B8EF9C3766DE216"]
-			description: [
-				"Mit der Lanze der Walküre solltest du gut gerüstet sein, um den Silbernen Dungeon aufzusuchen. Diesen findest du meist weit oben gelegen und er sieht aus wie ein riesiger griechischer Tempel."
-				""
-				"Die Lanze ist in Bronze Dungeons zu finden."
-			]
 			id: "2E77ADF906B1850A"
-			tasks: [{
-				id: "563A74C71DF421E8"
+			rewards: [{
+				id: "02D5E79C627AE445"
 				item: {
-					Count: 1
-					id: "aether:valkyrie_lance"
-					tag: {
-						Damage: 0
-					}
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
 				type: "item"
 			}]
-			title: "Die Heilige Lanze"
+			tasks: [{
+				id: "563A74C71DF421E8"
+				item: { count: 1, id: "aether:valkyrie_lance" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["2E77ADF906B1850A"]
-			description: [
-				"Der nächste Boss wartet bereits auf dich, doch ist dieser noch nicht bereit, dich als würdigen Gegner anzusehen."
-				"Besiege erst die Untertanen und beweise dich."
-			]
 			id: "5D2937781303426D"
+			rewards: [{
+				id: "38F99BE29D3DA3FD"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 10L
 				id: "51986CF71ECDBE87"
-				item: "aether:victory_medal"
+				item: { count: 1, id: "aether:victory_medal" }
 				type: "item"
 			}]
-			title: "Die Qual der Wal...küre"
 			x: 8.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["5D2937781303426D"]
-			description: [
-				"Wenn du der Königin der Walküren nun 10 Victory Medals gibst, wird sie einem Kampf gegen dich zustimmen."
-				""
-				"Viel Erfolg, Abenteurer!"
-			]
 			id: "05BD7F9376C6E8B3"
-			tasks: [{
-				entity: "aether:valkyrie_queen"
-				icon: "aether:silver_dungeon_key"
-				id: "6405356F9AF473B4"
-				type: "kill"
-				value: 1L
+			rewards: [{
+				id: "1C445EB39522457E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
 			}]
-			title: "Stürze die Monarchin"
+			tasks: [{
+				advancement: "aether:silver_dungeon"
+				criterion: ""
+				id: "5F4C03CB6D82F0F3"
+				type: "advancement"
+			}]
 			x: 8.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["05BD7F9376C6E8B3"]
-			description: [
-				"Du hast es bald geschafft. Der Sun Spirit ist nicht mehr weit. "
-				""
-				"Doch um die Sonne zu besiegen brauchst du entweder Sonnencreme oder den Regenerationstein, den du in Silber Dungeons finden kannst."
-				""
-				"Der Effekt von mehreren Steinen kann sogar gestackt werden."
-			]
 			id: "541AFC2144795998"
-			tasks: [{
-				id: "32B6EB87A4386E54"
-				item: "aether:regeneration_stone"
+			rewards: [{
+				id: "510DAFB226BE5053"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			title: "Passive Heilung"
+			tasks: [{
+				id: "32B6EB87A4386E54"
+				item: { count: 1, id: "aether:regeneration_stone" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["541AFC2144795998"]
-			description: [
-				"Der Sun Spirit versteckt sich im Gold Dungeon. Dieser befindet sich auf runden Inseln, auf denen goldene Bäume wachsen."
-				""
-				"Befreie diese Dimension von dem immerwährenden Tag und lass die Sonne untergehen."
-			]
 			id: "372535099216FF16"
-			subtitle: "Besiege den Sun Spirit"
-			tasks: [{
-				entity: "aether:sun_spirit"
-				icon: "aether:gold_dungeon_key"
-				id: "49BC0635FB172315"
-				type: "kill"
-				value: 1L
+			rewards: [{
+				id: "44078996E06CC7E2"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
 			}]
-			title: "Feuerwehr"
+			tasks: [{
+				advancement: "aether:gold_dungeon"
+				criterion: ""
+				id: "04D3DC2B90F694A2"
+				type: "advancement"
+			}]
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["372535099216FF16"]
-			description: ["Benutze den Sun Altar und erlaube dem Tag-Nacht-Zyklus wieder frei zu laufen."]
 			id: "7EEBDA12D85434A5"
+			rewards: [
+				{
+					id: "650983ADEAA48A09"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E6166F8AB47DEBB"
+					table_id: 2025559148286503432L
+					team_reward: true
+					type: "loot"
+				}
+			]
 			tasks: [{
-				block: "aether:sun_altar"
-				block_type: 0
-				checkItem: false
-				id: "289C9B3C40AAFEB4"
-				isItemInteraction: false
-				type: "questsadditions:use"
-				value: 1L
+				advancement: "aether:aether_sleep"
+				criterion: ""
+				id: "256280562DD475BB"
+				type: "advancement"
 			}]
-			title: "Sonnenuntergang"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0390C2B9DD42D306"]
-			description: ["Diese Fackeln können im Aether als Lichtquelle hingestellt werden, wenn es Nacht...achja, da war ja was."]
 			id: "0295BE21DA3E9D39"
-			tasks: [{
-				count: 4L
-				id: "2D4AA4D139251448"
-				item: "aether:ambrosium_torch"
+			rewards: [{
+				id: "5B403514A42D94DE"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			title: "Es werde Licht"
+			tasks: [{
+				id: "2D4AA4D139251448"
+				item: { count: 1, id: "aether:ambrosium_torch" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["20D09BE2E5AB2426"]
-			description: ["Um einen Moa auszubrüten muss es die magische und wärmende Kraft von Ambrosium spüren. Der Inkubator nutzt die Ambrosiafackeln, um sie den Eiern zu Gute kommen zu lassen und so einen gesunden Moa hervorzubringen."]
 			id: "6438BD6734F3676C"
-			tasks: [{
-				id: "449905E3000236EC"
-				item: "aether:incubator"
+			rewards: [{
+				id: "16BA9E13DDEA0701"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			title: "Brutmaschine"
+			tasks: [{
+				id: "449905E3000236EC"
+				item: { count: 1, id: "aether:incubator" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["0295BE21DA3E9D39"]
-			description: ["Moa-Eier können verwendet werden, um weitere Moas auszubrüten und zu züchten. Jede Farbe der Moa hat unterschiedlich starke Fähigkeiten."]
 			id: "20D09BE2E5AB2426"
-			tasks: [{
-				id: "2F492EBF4069D00F"
+			rewards: [{
+				id: "3FB6ADE1E196C2D4"
 				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "aether:moa_eggs"
-					}
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				title: "Any #aether:moa_eggs"
 				type: "item"
 			}]
-			title: "Der beste Freund im Himmel"
+			tasks: [{
+				id: "2F492EBF4069D00F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aether:blue_moa_egg)item(aether:white_moa_egg)item(aether:black_moa_egg))", "minecraft:custom_name": "\"Moa Eggs\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 4.0d
 		}
-		{
-			dependencies: ["372535099216FF16"]
-			description: [
-				"Das ist der Platin Dungeon. Verloren geglaubt, ein Mythos, eine Legende. Und doch hast du ihn hier gefunden."
-				""
-				"Ein letzter Boss wartet noch auf dich. Bist du bereit?"
-			]
-			id: "48B1E0071D693851"
-			invisible: true
-			tasks: [{
-				id: "7A036A144184E16C"
-				structure: "lost_aether_content:platinum_dungeon"
-				title: "Noch ein Dungeon?"
-				type: "structure"
-			}]
-			x: 4.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["48B1E0071D693851"]
-			description: ["Glückwunsch, Abenteurer, für deine herausragende Leistung. Möge das Glück immer mit auf deinen Wegen sein."]
-			id: "585A1CA7B2EE72FA"
-			invisible: true
-			tasks: [{
-				entity: "lost_aether_content:aerwhale_king"
-				icon: "lost_aether_content:platinum_key"
-				id: "7A15FC66B28D9B85"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Das wahre Ende"
-			x: 6.0d
-			y: 2.0d
-		}
 	]
-	title: "The Aether"
 }

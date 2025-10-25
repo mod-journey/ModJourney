@@ -5,41 +5,8 @@
 Hier werden die Stages Items definiert!
 */
 /** Die Items schalten die nächst höhere Stage frei! */
-const stages = {
-    stage1 : {
-        core: 'immersiveengineering:circuit_board',
-        second:  '',
-        endgame: '',
-        magic: {
-            early:  'botania:manasteel_ingot',
-            mid:    'botania:elementium_ingot',
-            end:    'botania:terrasteel_ingot'
-        },
-    },
-    stage2 : {
-        core: 'ad_astra:glacio_stone',
-        // indirect gated via darksteel and ender io allow smelting
-        gear: 'enderio:dark_bimetal_gear',
-        second: '',
-        endgame: '',
-        magic: {
-            early:  'bloodmagic:life_essence_bucket',
-            mid:    'bloodmagic:largebloodstonebrick',
-            end:    'bloodmagic:hellforgedparts'
-        },
-    },
-    stage3 : {
-        core: 'powah:crystal_nitro',
-        second: '',
-        endgame: '',
-        magic: {
-            early:  'ars_nouveau:source_gem',
-            mid:    'ars_nouveau:archmage_spell_book',
-            end:    'apotheosis:ender_library'
-        },
-    }
-}
 
-/* Zugriff auf das Objekt mittels "stages.stage1.core" order stages.stage3.magic*/
+const stages = global.mjConfig.stages
 
-console.log("Laden der Staged Items.")
+
+console.info("Laden der Staged Items.")

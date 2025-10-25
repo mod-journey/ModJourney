@@ -1,0 +1,6 @@
+#Inventory sorter blacklists
+[blacklists]
+	#Container blacklist
+	containerBlacklist = ["titanium:addon_container"]
+	#Slot type blacklist
+	slotBlacklist = []

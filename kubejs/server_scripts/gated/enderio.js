@@ -1,29 +1,28 @@
 //priority 0
 
-console.log('Ändern der Gated EnderIO Items')
+let enerdeio_gated = (event, active, debug) => {
+    if (!active) return;
 
-ServerEvents.recipes(event => {
+    console.log('Ändern der Gated EnderIO Items')
 
     // Void Chassis
     event.replaceInput(
-        { id: 'enderio:void_chassis' },         // Filterung nach Rezept-ID.
-        'enderio:grains_of_infinity',            // Das Item, was ersetzt werden soll.
-        stages.stage2.core                 // Womit wird das Item ersetzt!
+        { id: 'enderio:void_chassis' },
+        'enderio:grains_of_infinity',
+        stages.stage2.core
     )
 
     // Primitive Alloy Smelter
     event.replaceInput(
-        { id: 'enderio:primitive_alloy_smelter' },   // Filterung nach Rezept-ID.
-        'enderio:grains_of_infinity',             // Das Item, was ersetzt werden soll
-        stages.stage2.core                  // Womit wird das Item ersetzt!
+        { id: 'enderio:primitive_alloy_smelter' },
+        'enderio:grains_of_infinity',
+        stages.stage2.core
     )
 
     // Conduid Binder Composite
     event.replaceInput(
-        { id: 'enderio:conduit_binder_composite' },   // Filterung nach Rezept-ID.
-        'minecraft:clay_ball',             // Das Item, was ersetzt werden soll
-        stages.stage2.core                  // Womit wird das Item ersetzt!
+        { id: 'enderio:conduit_binder_composite' },
+        'minecraft:clay_ball',
+        stages.stage2.core
     )
-
-
-})
+}

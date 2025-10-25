@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": "#mod_journey:remove_iridium_biomes",
+  "features": "alltheores:ore_iridium_placed",
+  "steps": ["underground_ores"]
+}

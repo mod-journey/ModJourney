@@ -1,0 +1,106 @@
+{
+  "name": {
+    "text": "Mechanical Press",
+    "color": "white"
+  },
+  "appearance": {
+    "custommachinery:block": "mod_journey:machine/metal_press#standalone"
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "max_output": 10000,
+      "capacity": 32000,
+      "max_input": 10000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "max_output": 1,
+      "whitelist": [
+        "immersiveengineering:mold_gear",
+        "immersiveengineering:mold_plate",
+        "immersiveengineering:mold_rod",
+        "immersiveengineering:mold_wire"
+      ],
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "mold",
+      "capacity": 2,
+      "max_input": 1
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "output": true,
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 85,
+      "y": 34
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 46,
+      "y": 103
+    },
+    {
+      "type": "custommachinery:progress",
+      "orientation": "BOTTOM",
+      "x": 120,
+      "y": 44,
+      "width": 16,
+      "height": 24
+    },
+    {
+      "type": "custommachinery:reset",
+      "tooltips": [],
+      "x": 177,
+      "y": 22
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input",
+      "x": 119,
+      "y": 22
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "mold",
+      "x": 144,
+      "y": 49
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "x": 119,
+      "y": 79
+    }
+  ]
+}

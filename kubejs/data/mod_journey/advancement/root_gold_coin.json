@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "mod_journey:gold_coin",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.mod_journey.main_root",
+      "color": "green"
+    },
+    "description": {
+      "translate": "advancement.mod_journey.gold_coin.desc",
+      "color": "white"
+    },
+    "background": "minecraft:textures/block/obsidian.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mod_journey:gold_coin"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

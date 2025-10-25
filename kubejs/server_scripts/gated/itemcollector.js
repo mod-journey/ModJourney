@@ -1,14 +1,13 @@
 //priority 0
 
-console.log('Ändern der Gated Item Collector Items')
+let itemcollector_gated = (event, active, debug) => {
+    if (!active) return;
 
-ServerEvents.recipes(event => {
+    console.log('Ändern der Gated Item Collector Items')
 
-    // Enderchest
     event.replaceInput(
-        { id: 'itemcollectors:basic_collector' },         // Filterung nach Rezept-ID.
-        'minecraft:obsidian',            // Das Item, was ersetzt werden soll.
-        stages.stage1.core                 // Womit wird das Item ersetzt!
+        { id: 'itemcollectors:basic_collector' },
+        'minecraft:obsidian',
+        stages.stage1.core
     )
-
-})
+}

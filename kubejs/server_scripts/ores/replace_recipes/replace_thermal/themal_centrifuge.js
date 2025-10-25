@@ -2,7 +2,7 @@
 
 //This Script replace Alloy_Dust recipes from the thermal centrifuge
 
-ServerEvents.recipes(event => {
+let ores_replace_thermal_centrifuge = event => {
 
     let thermal_alloy= [
         'bronze',
@@ -75,4 +75,4 @@ ServerEvents.recipes(event => {
         })
     });
 
-})
+}

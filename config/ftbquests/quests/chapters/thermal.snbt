@@ -1,10 +1,11 @@
 {
+	always_invisible: true
 	autofocus_id: "0524EAE590378B3C"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "thermal"
-	group: "4B1BD2A866D0526F"
-	icon: "thermal:machine_insolator"
+	group: "3E6C1980FD183851"
 	id: "54043FA86481F5EB"
 	images: [
 		{
@@ -70,14 +71,20 @@
 			id: "7A64B37068D86BEB"
 			rewards: [{
 				id: "5D965D71C809BAE1"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
 				id: "76B50964B9A08186"
-				item: "thermal:machine_frame"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_frame" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -88,13 +95,18 @@
 			id: "664DE4738DDB1F77"
 			rewards: [{
 				id: "163CD14D62641B38"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Eine Presse!"
 			tasks: [{
 				id: "6C8E059ACB88958D"
-				item: "thermal:machine_press"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_press" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -105,13 +117,18 @@
 			id: "586EFD2747910C1B"
 			rewards: [{
 				id: "6312CBFD9367DD83"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Rohstoff rein, Flüssigkeit raus."
 			tasks: [{
 				id: "388F709C45C771E9"
-				item: "thermal:machine_crucible"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_crucible" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -122,13 +139,18 @@
 			id: "26BC003C6E939699"
 			rewards: [{
 				id: "436CAF031D39B4A6"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Verbinde eine Flüssigkeit mit einem Feststoff"
 			tasks: [{
 				id: "709EC10D9D9AE86B"
-				item: "thermal:machine_bottler"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_bottler" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -139,13 +161,18 @@
 			id: "25F5FA0CC57EEBFD"
 			rewards: [{
 				id: "7A69269CB77980EA"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Eine mit Strom betriebene Sägemühle um mehr Holz zu bekommen"
 			tasks: [{
 				id: "68DF3B5FC8AB3553"
-				item: "thermal:machine_sawmill"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_sawmill" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -156,13 +183,18 @@
 			id: "23387B6FD57598D5"
 			rewards: [{
 				id: "16570B278CF0BD19"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Zerlegt einen Rohstoff in Einzelteile"
 			tasks: [{
 				id: "40E6C911DA35D23C"
-				item: "thermal:machine_centrifuge"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_centrifuge" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -173,13 +205,18 @@
 			id: "05CD468D86DA4DC1"
 			rewards: [{
 				id: "31A78C7841FB6B3D"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Ein mit Strom betriebener AutoCrafter"
 			tasks: [{
 				id: "6CE63B73C99040E6"
-				item: "thermal:machine_crafter"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_crafter" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -190,13 +227,18 @@
 			id: "11EFC2D1FB0C5479"
 			rewards: [{
 				id: "2BC0D79D77C46BD2"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Pflanzen und Bäume!"
 			tasks: [{
 				id: "7987FA27DE1D81A7"
-				item: "thermal:machine_insolator"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_insolator" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -207,13 +249,18 @@
 			id: "35CE63FDE38B74D2"
 			rewards: [{
 				id: "0ECA76C4EA9E71E9"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Flüssigkeit rein, Feststoff raus."
 			tasks: [{
 				id: "29BC6BB7C3B493F6"
-				item: "thermal:machine_chiller"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_chiller" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -224,13 +271,18 @@
 			id: "0B9F69583404896F"
 			rewards: [{
 				id: "0B3639994CF57153"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Brennbares Material rein um als Output verbranntes Material und Öl zu erhalten. "
 			tasks: [{
 				id: "7EA0B4F9DB959358"
-				item: "thermal:machine_pyrolyzer"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_pyrolyzer" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -241,13 +293,18 @@
 			id: "2D3254F9CAF5FD1C"
 			rewards: [{
 				id: "30F475024426C540"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Für die Trankherstellung!"
 			tasks: [{
 				id: "453AC7C0FA4491F0"
-				item: "thermal:machine_brewer"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_brewer" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -258,13 +315,18 @@
 			id: "0AEAF1A388DE10D7"
 			rewards: [{
 				id: "086B593E1FB1E8DC"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Ein mit Strom betriebener Ofen"
 			tasks: [{
 				id: "668D0F396E1D978E"
-				item: "thermal:machine_furnace"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_furnace" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -275,13 +337,18 @@
 			id: "013F4DF5BE81AFA4"
 			rewards: [{
 				id: "3523E4972F27E526"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Frakking!"
 			tasks: [{
 				id: "2B59BD86B87F70AC"
-				item: "thermal:machine_refinery"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_refinery" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -292,13 +359,18 @@
 			id: "38C03105A0BAA33C"
 			rewards: [{
 				id: "47480C0F97BEE6EF"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Ein Zerkleinerer mit Nebenprodukten"
 			tasks: [{
 				id: "2A5812C15A3AF607"
-				item: "thermal:machine_pulverizer"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_pulverizer" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -309,36 +381,44 @@
 			id: "038957C888562E9F"
 			rewards: [{
 				id: "26A28545CDD6136F"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Staub und Wasser werden zu Feststoff"
 			tasks: [{
 				id: "218FEF79ACC95057"
-				item: "thermal:machine_crystallizer"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_crystallizer" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -2.0d
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"7DC64335DF20BD93"
-				"429795EB7B105CB3"
-			]
+			dependencies: ["2969D63A060DCE42"]
 			dependency_requirement: "one_completed"
-			hide: true
+			hide_until_deps_visible: true
 			id: "0524EAE590378B3C"
 			rewards: [{
 				id: "0153D7F7D3A76D26"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "71BDE6201D0D5617"
-				item: "thermal:rf_coil"
+				item: { components: { "ftbquests:missing_item": "thermal:rf_coil" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -349,13 +429,18 @@
 			id: "77FB11E4F613C5D3"
 			rewards: [{
 				id: "2BCC62062C9B629D"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Verbindet mehrere Materialien zu einem"
 			tasks: [{
 				id: "636F12C74A52D8FC"
-				item: "thermal:machine_smelter"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_smelter" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -366,13 +451,19 @@
 			id: "359D3DE86C878B32"
 			rewards: [{
 				id: "693FD1C48536F86C"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "0B56F3D3B9C8DDAC"
-				item: "immersiveengineering:mold_gear"
+				item: { count: 1, id: "immersiveengineering:mold_gear" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -383,13 +474,19 @@
 			id: "3E3F87B3363B7A3B"
 			rewards: [{
 				id: "6AB224BCA3FA4692"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "70D31A97732B6F18"
-				item: "thermal:press_packing_2x2_die"
+				item: { components: { "ftbquests:missing_item": "thermal:press_packing_2x2_die" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -400,13 +497,19 @@
 			id: "6A517BFDDB6BA7D4"
 			rewards: [{
 				id: "6ED8C49B4FB5130B"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "696058082E46EBB3"
-				item: "thermal:press_packing_3x3_die"
+				item: { components: { "ftbquests:missing_item": "thermal:press_packing_3x3_die" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.5d
@@ -417,13 +520,19 @@
 			id: "536B7F5FC5DF83CC"
 			rewards: [{
 				id: "365AA837B653A583"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "60B006C49921AC60"
-				item: "thermal:press_unpacking_die"
+				item: { components: { "ftbquests:missing_item": "thermal:press_unpacking_die" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -435,18 +544,26 @@
 			rewards: [
 				{
 					id: "6F4B6AC4C27F7D6C"
-					item: "minecraft:acacia_sapling"
+					item: {
+						count: 1
+						id: "minecraft:acacia_sapling"
+					}
 					type: "item"
 				}
 				{
 					id: "68647C94AE92A698"
-					item: "mod_journey:bronze_coin"
+					item: {
+						components: {
+							"ftbquests:missing_item": "mod_journey:bronze_coin"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "492832BDF102DE3F"
-				title: "Probiere es aus mit einem Setzling!"
 				type: "checkmark"
 			}]
 			x: 7.0d
@@ -457,12 +574,18 @@
 			id: "49292699597CF33A"
 			rewards: [{
 				id: "5B071EDB2DC89C96"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0E690B924B5B361F"
-				item: "thermal:dynamo_stirling"
+				item: { components: { "ftbquests:missing_item": "thermal:dynamo_stirling" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -9.5d
@@ -473,12 +596,18 @@
 			id: "6AFAC4515F837869"
 			rewards: [{
 				id: "3673767910B5E85B"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "4487DE126504A91C"
-				item: "thermal:dynamo_compression"
+				item: { components: { "ftbquests:missing_item": "thermal:dynamo_compression" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -10.0d
@@ -489,12 +618,18 @@
 			id: "78313974B45B5432"
 			rewards: [{
 				id: "052FAA0A6CD86570"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "6854D5F77103C992"
-				item: "thermal:dynamo_magmatic"
+				item: { components: { "ftbquests:missing_item": "thermal:dynamo_magmatic" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -10.5d
@@ -506,7 +641,13 @@
 			rewards: [
 				{
 					id: "7CC978579B338A68"
-					item: "mod_journey:bronze_coin"
+					item: {
+						components: {
+							"ftbquests:missing_item": "mod_journey:bronze_coin"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
 					type: "item"
 				}
 				{
@@ -519,7 +660,7 @@
 			]
 			tasks: [{
 				id: "14A42175FF2755DD"
-				item: "thermal:dynamo_lapidary"
+				item: { components: { "ftbquests:missing_item": "thermal:dynamo_lapidary" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -10.5d
@@ -530,12 +671,18 @@
 			id: "602C4708D18EB1B0"
 			rewards: [{
 				id: "5A74C92FB5DC869B"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "11A8D048BBF69CEE"
-				item: "thermal:dynamo_disenchantment"
+				item: { components: { "ftbquests:missing_item": "thermal:dynamo_disenchantment" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -10.0d
@@ -546,12 +693,18 @@
 			id: "0E49EB43FDAEC452"
 			rewards: [{
 				id: "6CB1A50D6EC16B0C"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "6F023825A91B5428"
-				item: "thermal:dynamo_gourmand"
+				item: { components: { "ftbquests:missing_item": "thermal:dynamo_gourmand" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -9.5d
@@ -562,16 +715,19 @@
 			id: "7D49AA8CE68E9356"
 			rewards: [{
 				id: "23F93AF0E6A8BCEE"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Nachdem ihr die ersten Maschinen gebaut habt, könnt ihr diese nun mit Upgrades verstärken"
 			tasks: [{
 				id: "0690127887DF6BBF"
-				title: "Upgrades"
 				type: "checkmark"
 			}]
-			title: "Thermal Machine Upgrades"
 			x: 0.0d
 			y: 12.5d
 		}
@@ -580,12 +736,18 @@
 			id: "77E1C2D31E604A6E"
 			rewards: [{
 				id: "547B3AF3A450299E"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "768D959CB6108A70"
-				item: "thermal:xp_storage_augment"
+				item: { components: { "ftbquests:missing_item": "thermal:xp_storage_augment" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -596,12 +758,18 @@
 			id: "4A1F968E197F6AD8"
 			rewards: [{
 				id: "337A9411C898442A"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "21B8052FB3215453"
-				item: "thermal:rf_coil_augment"
+				item: { components: { "ftbquests:missing_item": "thermal:rf_coil_augment" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -612,12 +780,18 @@
 			id: "59F0D628A4E84692"
 			rewards: [{
 				id: "4A8B7AE3C13721AA"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0054263938F9A4E8"
-				item: "thermal:rf_coil_storage_augment"
+				item: { components: { "ftbquests:missing_item": "thermal:rf_coil_storage_augment" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -628,12 +802,18 @@
 			id: "0258595EB2057262"
 			rewards: [{
 				id: "3C44D7D7E50F1FAA"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "1C6DFAFB9F554933"
-				item: "thermal:rf_coil_xfer_augment"
+				item: { components: { "ftbquests:missing_item": "thermal:rf_coil_xfer_augment" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -644,12 +824,18 @@
 			id: "166109F4626F28C5"
 			rewards: [{
 				id: "72C0828952DB319C"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "2607A3C32A6B5705"
-				item: "thermal:fluid_tank_augment"
+				item: { components: { "ftbquests:missing_item": "thermal:fluid_tank_augment" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -660,12 +846,18 @@
 			id: "45700CEC500B09B4"
 			rewards: [{
 				id: "21BDBCFDA112F402"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "6B2AEE21CA5A1747"
-				item: "thermal:item_filter_augment"
+				item: { components: { "ftbquests:missing_item": "thermal:item_filter_augment" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -676,12 +868,18 @@
 			id: "2FA73A66ABA330E3"
 			rewards: [{
 				id: "7A7803A8FFDDC1F4"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3532F7E6272A2E9C"
-				item: "thermal:fluid_filter_augment"
+				item: { components: { "ftbquests:missing_item": "thermal:fluid_filter_augment" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -692,12 +890,18 @@
 			id: "1306834BBC79B363"
 			rewards: [{
 				id: "4247E06DC1AFAD66"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "258A8A44069C34F3"
-				item: "thermal:machine_speed_augment"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_speed_augment" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -708,12 +912,18 @@
 			id: "2C36398E0F9E5B18"
 			rewards: [{
 				id: "08F7DA5FE7FFE84C"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7D6BDF62AA04BC84"
-				item: "thermal:machine_efficiency_augment"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_efficiency_augment" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -724,12 +934,18 @@
 			id: "01A66B25FF6BB4D2"
 			rewards: [{
 				id: "71534468B29ED9D6"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "51B05710A8F751EB"
-				item: "thermal:machine_output_augment"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_output_augment" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -740,12 +956,18 @@
 			id: "0FFD285B2ABDC2B2"
 			rewards: [{
 				id: "366B98582696133B"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "52E09E75CF9BE688"
-				item: "thermal:machine_catalyst_augment"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_catalyst_augment" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -756,12 +978,18 @@
 			id: "17CBFC27A3BE726C"
 			rewards: [{
 				id: "313D94E190BAEF5C"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "5B145CE0851C2878"
-				item: "thermal:machine_cycle_augment"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_cycle_augment" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -772,12 +1000,18 @@
 			id: "615F3FA2D8E9F2D7"
 			rewards: [{
 				id: "6B65E9EDCD72602E"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "1A4CC3B096D1736A"
-				item: "thermal:dynamo_throttle_augment"
+				item: { components: { "ftbquests:missing_item": "thermal:dynamo_throttle_augment" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -15.5d
@@ -788,12 +1022,18 @@
 			id: "5F19EF913B235466"
 			rewards: [{
 				id: "27ECFE9654805E73"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "5B0E52B9BF72F2A4"
-				item: "thermal:machine_null_augment"
+				item: { components: { "ftbquests:missing_item": "thermal:machine_null_augment" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -804,12 +1044,18 @@
 			id: "39665DA9F761F6E5"
 			rewards: [{
 				id: "611EC5D9C2A886C7"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "319B063ABD82FE06"
-				item: "thermal:dynamo_output_augment"
+				item: { components: { "ftbquests:missing_item": "thermal:dynamo_output_augment" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -15.5d
@@ -820,12 +1066,18 @@
 			id: "6B0EABAE03B84120"
 			rewards: [{
 				id: "3AE2FA8DD1537252"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "24A4C41284E6C0BA"
-				item: "thermal:dynamo_fuel_augment"
+				item: { components: { "ftbquests:missing_item": "thermal:dynamo_fuel_augment" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -16.0d
@@ -842,19 +1094,23 @@
 				"49292699597CF33A"
 			]
 			dependency_requirement: "one_completed"
-			hide: true
+			hide_until_deps_visible: true
 			id: "4ECE88BDAF352ECC"
 			rewards: [{
 				id: "07A908AEEC7EA334"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "541BB6D3E0F66204"
-				title: "Upgrades für die Dynamos"
 				type: "checkmark"
 			}]
-			title: "Upgrades Thermal Dynamos"
 			x: -14.5d
 			y: 4.0d
 		}
@@ -863,12 +1119,18 @@
 			id: "20F217C091323EDF"
 			rewards: [{
 				id: "11019A91EB7FFAAD"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "009368991C4AF966"
-				item: "thermal:upgrade_augment_1"
+				item: { components: { "ftbquests:missing_item": "thermal:upgrade_augment_1" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -879,12 +1141,18 @@
 			id: "36ADB5C1CA364F5F"
 			rewards: [{
 				id: "0586CDBBF4ED8FDB"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "6A8FD646ACEEAA2B"
-				item: "thermal:upgrade_augment_2"
+				item: { components: { "ftbquests:missing_item": "thermal:upgrade_augment_2" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -895,12 +1163,18 @@
 			id: "4761467C94840C4A"
 			rewards: [{
 				id: "7101E92273A73423"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "4E021261174F000F"
-				item: "thermal:upgrade_augment_3"
+				item: { components: { "ftbquests:missing_item": "thermal:upgrade_augment_3" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -911,13 +1185,18 @@
 			id: "421053C942FFE45C"
 			rewards: [{
 				id: "2015CB96CF8C63FC"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Der Rahmen für den Energiespeicher!"
 			tasks: [{
 				id: "43C1077E93E5E429"
-				item: "thermal:energy_cell_frame"
+				item: { components: { "ftbquests:missing_item": "thermal:energy_cell_frame" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -932,7 +1211,13 @@
 			rewards: [
 				{
 					id: "30285FB767FD38AB"
-					item: "mod_journey:bronze_coin"
+					item: {
+						components: {
+							"ftbquests:missing_item": "mod_journey:bronze_coin"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
 					type: "item"
 				}
 				{
@@ -943,21 +1228,9 @@
 					type: "loot"
 				}
 			]
-			subtitle: "Energie Speichern!"
 			tasks: [{
 				id: "46F11E693D1D3CA1"
-				item: {
-					Count: 1
-					id: "thermal:energy_cell"
-					tag: {
-						BlockEntityTag: {
-							Energy: 0
-							EnergyMax: 1000000
-							EnergyRecv: 1000
-							EnergySend: 1000
-						}
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "thermal:energy_cell" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -969,14 +1242,20 @@
 			id: "1592FAC6A60177FC"
 			rewards: [{
 				id: "1EEAF7CDFBEA8389"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "1240A06F2A9193CE"
-				item: "thermal:redstone_servo"
+				item: { components: { "ftbquests:missing_item": "thermal:redstone_servo" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 14.5d
@@ -987,13 +1266,18 @@
 			id: "28CCBF0929A22DBC"
 			rewards: [{
 				id: "176744F93114D73B"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Lade mehrere Items gleichzeitig auf!"
 			tasks: [{
 				id: "480075F4336A6B32"
-				item: "thermal:charge_bench"
+				item: { components: { "ftbquests:missing_item": "thermal:charge_bench" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -7.5d
@@ -1004,26 +1288,18 @@
 			id: "764E50746BC2A66F"
 			rewards: [{
 				id: "0206E58782E78467"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Speicher für deine Flüssigkeiten!"
 			tasks: [{
 				id: "20A7D7DEFF5E92A9"
-				item: {
-					Count: 1
-					id: "thermal:fluid_cell"
-					tag: {
-						BlockEntityTag: {
-							TankInv: [{
-								Amount: 0
-								Capacity: 32000
-								FluidName: "minecraft:empty"
-								Tank: 0b
-							}]
-						}
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "thermal:fluid_cell" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 17.5d
@@ -1035,14 +1311,20 @@
 			id: "01F699F9E03C2A7A"
 			rewards: [{
 				id: "03AB2FD855565B75"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			shape: "circle"
 			size: 1.2d
 			tasks: [{
 				id: "369A7550949AD5E6"
-				item: "thermal:energy_duct"
+				item: { components: { "ftbquests:missing_item": "thermal:energy_duct" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -1054,14 +1336,20 @@
 			id: "31C8B45668806FBC"
 			rewards: [{
 				id: "6C1140D2E9A4C765"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			shape: "circle"
 			size: 1.2d
 			tasks: [{
 				id: "6BACEEBB8979B879"
-				item: "thermal:fluid_duct"
+				item: { components: { "ftbquests:missing_item": "thermal:fluid_duct" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -1073,13 +1361,19 @@
 			id: "5C7F8F068A111585"
 			rewards: [{
 				id: "3C7897092E4C90FB"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			size: 1.2d
 			tasks: [{
 				id: "01EC2DD91B9DDDFE"
-				item: "thermal:fluid_duct_windowed"
+				item: { components: { "ftbquests:missing_item": "thermal:fluid_duct_windowed" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -1090,13 +1384,18 @@
 			id: "1F70D2C20154A8B5"
 			rewards: [{
 				id: "7DCBB359DEF94491"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "BIENEN!!!"
 			tasks: [{
 				id: "4762463F3D0491F1"
-				item: "thermal:device_hive_extractor"
+				item: { components: { "ftbquests:missing_item": "thermal:device_hive_extractor" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 11.0d
@@ -1107,13 +1406,18 @@
 			id: "2DAD93848DABE5D6"
 			rewards: [{
 				id: "7A6A523207E11D2B"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Extrahiert Latex von Bäumen"
 			tasks: [{
 				id: "4F860AD17D93D3B1"
-				item: "thermal:device_tree_extractor"
+				item: { components: { "ftbquests:missing_item": "thermal:device_tree_extractor" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 11.5d
@@ -1124,13 +1428,18 @@
 			id: "35117936FBC60CA3"
 			rewards: [{
 				id: "288475A0BFEA7E43"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Eine Angelmaschine. Machst du den großen Fang?"
 			tasks: [{
 				id: "1C32DFE49EF05A54"
-				item: "thermal:device_fisher"
+				item: { components: { "ftbquests:missing_item": "thermal:device_fisher" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 11.5d
@@ -1143,19 +1452,27 @@
 				{
 					count: 20
 					id: "4DBEF1278A065729"
-					item: "minecraft:wheat_seeds"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
 					type: "item"
 				}
 				{
 					id: "63E99F82A759CB23"
-					item: "mod_journey:bronze_coin"
+					item: {
+						components: {
+							"ftbquests:missing_item": "mod_journey:bronze_coin"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
 					type: "item"
 				}
 			]
-			subtitle: "Pack doch mal ein paar Seeds rein und schau was passiert. "
 			tasks: [{
 				id: "62C6C8B755F2F59A"
-				item: "thermal:device_composter"
+				item: { components: { "ftbquests:missing_item": "thermal:device_composter" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 12.0d
@@ -1166,12 +1483,18 @@
 			id: "21A29EE0D6EDEC90"
 			rewards: [{
 				id: "60E7F2A379385228"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0C50C151245FD639"
-				item: "thermal:device_soil_infuser"
+				item: { components: { "ftbquests:missing_item": "thermal:device_soil_infuser" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -6.5d
@@ -1182,13 +1505,18 @@
 			id: "455EEC6211A5D6B1"
 			rewards: [{
 				id: "274FEE98DD1C7DB7"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Eine unendliche Wasserquelle als Maschine!"
 			tasks: [{
 				id: "154FD71FB8759F34"
-				item: "thermal:device_water_gen"
+				item: { components: { "ftbquests:missing_item": "thermal:device_water_gen" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 13.0d
@@ -1199,13 +1527,18 @@
 			id: "1EEE1CC4BE9692A2"
 			rewards: [{
 				id: "289F88AD174A4058"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Lava und Wasser / Eis Mischer"
 			tasks: [{
 				id: "0D42C0FB67AAADAB"
-				item: "thermal:device_rock_gen"
+				item: { components: { "ftbquests:missing_item": "thermal:device_rock_gen" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 14.0d
@@ -1216,13 +1549,18 @@
 			id: "4D795F9100DE385B"
 			rewards: [{
 				id: "7DD4E7031677C4FA"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Sammelt Items in der Nähe auf."
 			tasks: [{
 				id: "6975469FA35D888E"
-				item: "thermal:device_collector"
+				item: { components: { "ftbquests:missing_item": "thermal:device_collector" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 15.0d
@@ -1233,13 +1571,18 @@
 			id: "4D9501280F4CFE64"
 			rewards: [{
 				id: "28C299589CC64418"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Sammelt Experience auf und speichert diese als Flüssigkeit."
 			tasks: [{
 				id: "1A17357838363088"
-				item: "thermal:device_xp_condenser"
+				item: { components: { "ftbquests:missing_item": "thermal:device_xp_condenser" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 16.0d
@@ -1250,12 +1593,18 @@
 			id: "1083502594200DA4"
 			rewards: [{
 				id: "7E7135D5191EB1F9"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3780D580BEC6162E"
-				item: "thermal:device_potion_diffuser"
+				item: { components: { "ftbquests:missing_item": "thermal:device_potion_diffuser" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 17.5d
@@ -1266,13 +1615,18 @@
 			id: "0D454879B07A1A02"
 			rewards: [{
 				id: "6292E308F87EAF07"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Zerstört Items. Papierkorb eben. Vorher alles gespeichert?"
 			tasks: [{
 				id: "244E8AD59E1C2558"
-				item: "thermal:device_nullifier"
+				item: { components: { "ftbquests:missing_item": "thermal:device_nullifier" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 17.0d
@@ -1287,12 +1641,18 @@
 			id: "526A49825DAD715D"
 			rewards: [{
 				id: "4AACF315622FA75B"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "057392DFBBAE76BC"
-				item: "thermal:latex_bucket"
+				item: { components: { "ftbquests:missing_item": "thermal:latex_bucket" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -1303,12 +1663,18 @@
 			id: "4B3004A155733871"
 			rewards: [{
 				id: "0EBF3BB4AA091709"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "64E0D9E8213C269B"
-				item: "thermal:rubber"
+				item: { components: { "ftbquests:missing_item": "thermal:rubber" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -1320,12 +1686,18 @@
 			id: "69DA2DCDE346313D"
 			rewards: [{
 				id: "540EC1F597193700"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "61C704116FB66EEA"
-				item: "thermal:cured_rubber"
+				item: { components: { "ftbquests:missing_item": "thermal:cured_rubber" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -1336,18 +1708,18 @@
 			id: "17841E468664F33C"
 			rewards: [{
 				id: "676D9B2D0B509606"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "2C48FB215C7A9A4C"
-				item: {
-					Count: 1
-					id: "thermal:hazmat_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "thermal:hazmat_helmet" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 11.0d
@@ -1358,18 +1730,18 @@
 			id: "01E746A4EC0A3FCF"
 			rewards: [{
 				id: "55183A72D2BE70A1"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "789F19CD454F12F7"
-				item: {
-					Count: 1
-					id: "thermal:hazmat_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "thermal:hazmat_chestplate" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 10.5d
@@ -1380,18 +1752,18 @@
 			id: "5942B88EF1F80AB8"
 			rewards: [{
 				id: "0D6359D2F2C19170"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "5F41F50CCD365489"
-				item: {
-					Count: 1
-					id: "thermal:hazmat_leggings"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "thermal:hazmat_leggings" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -1402,18 +1774,18 @@
 			id: "07529215969E86E0"
 			rewards: [{
 				id: "6A324CD276DF4E04"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "16E27746093FB806"
-				item: {
-					Count: 1
-					id: "thermal:hazmat_boots"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "thermal:hazmat_boots" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -1424,16 +1796,18 @@
 			id: "71026DC5EF76BF76"
 			rewards: [{
 				id: "35DDE510F6F742C5"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0B20BDEF30AE8372"
-				item: {
-					Count: 1
-					id: "thermal:fluid_reservoir"
-					tag: { }
-				}
+				item: { components: { "ftbquests:missing_item": "thermal:fluid_reservoir" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 11.0d
@@ -1444,16 +1818,18 @@
 			id: "688630167FF9D4FA"
 			rewards: [{
 				id: "33CE35B4B655C2DB"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "6DD2B537E1A7489B"
-				item: {
-					Count: 1
-					id: "thermal:flux_drill"
-					tag: { }
-				}
+				item: { components: { "ftbquests:missing_item": "thermal:flux_drill" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -1464,21 +1840,31 @@
 			id: "38A752CCA59FC8E5"
 			rewards: [{
 				id: "16079BF314C3CA5F"
-				item: "mod_journey:bronze_coin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mod_journey:bronze_coin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0CC64766DA743E6A"
-				item: {
-					Count: 1
-					id: "thermal:flux_saw"
-					tag: { }
-				}
+				item: { components: { "ftbquests:missing_item": "thermal:flux_saw" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.0d
 			y: -1.0d
 		}
+		{
+			id: "2969D63A060DCE42"
+			tasks: [{
+				id: "63478662F77CE78C"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
 	]
-	title: "Thermal"
 }

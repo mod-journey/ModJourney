@@ -1,42 +1,35 @@
 //priority 0
 
-console.log('Ändern der Gated Ironjetpacks Items')
-
-ServerEvents.recipes(event => {
+let ironjetpacks_gated = (event, active, debug) => {
+    if (!active) return;
+    console.log('Ändern der Gated Ironjetpacks Items')
 
     // Basic Coil - Stage 2
     event.replaceInput(
-        { id: 'ironjetpacks:basic_coil' },         // Filterung nach Rezept-ID.
-        'minecraft:stick',            // Das Item, was ersetzt werden soll.
-        stages.stage1.core                 // Womit wird das Item ersetzt!
+        { id: 'ironjetpacks:basic_coil' },
+        'minecraft:stick',
+        stages.stage1.core
     )
 
     // Advanced Coil - Stage 3
     event.replaceInput(
-        { id: 'ironjetpacks:advanced_coil' },         // Filterung nach Rezept-ID.
-        'minecraft:stick',            // Das Item, was ersetzt werden soll.
-        stages.stage2.core                 // Womit wird das Item ersetzt!
+        { id: 'ironjetpacks:advanced_coil' },
+        'minecraft:stick',
+        stages.stage2.core
     )
 
     // Elite Coil - Stage 4
     event.replaceInput(
-        { id: 'ironjetpacks:elite_coil' },         // Filterung nach Rezept-ID.
-        'minecraft:stick',            // Das Item, was ersetzt werden soll.
-        stages.stage3.core                 // Womit wird das Item ersetzt!
+        { id: 'ironjetpacks:elite_coil' },
+        'minecraft:stick',
+        stages.stage3.core
     )
 
 
-   // Ultimate Coil - Stage 4
+    // Ultimate Coil - Stage 4
     event.replaceInput(
-        { id: 'ironjetpacks:ultimate_coil' },         // Filterung nach Rezept-ID.
-        'minecraft:stick',            // Das Item, was ersetzt werden soll.
-        stages.stage3.core                 // Womit wird das Item ersetzt!
+        { id: 'ironjetpacks:ultimate_coil' },
+        'minecraft:stick',
+        stages.stage3.core
     )
-
-
-})
-
-
-   
-
-   
+}

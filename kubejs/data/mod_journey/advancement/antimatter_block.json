@@ -1,0 +1,36 @@
+{
+  "parent": "mod_journey:antimatter_ingot",
+  "display": {
+    "title": {
+      "translate": "advancement.mod_journey.antimatter",
+      "color": "green"
+    },
+    "description": {
+      "color": "white",
+      "translate": "advancement.mod_journey.antimatter_block.desc"
+    },
+    "icon": {
+      "id": "mod_journey:antimatter_block"
+    },
+    "background": "minecraft:textures/block/obsidian.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["mod_journey:antimatter_block"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

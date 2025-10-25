@@ -1,6 +1,7 @@
 //priority 10
 
-let ores_immersive_tag = (event) => {
+let ores_immersive_tag = (event, active, debug) => {
+    if (!active) return;
 
     let immersive_ore = [
         'aluminum',

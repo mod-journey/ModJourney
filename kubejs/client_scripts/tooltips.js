@@ -1,69 +1,44 @@
-ItemEvents.tooltip(event => {
+let tooltips = event => {
 
-    //Ändert das Tooltip von 10 auf 3 beim Mob Masher Upgrade Looting
-    event.addAdvanced(['mob_grinding_utils:saw_upgrade_looting'], (item, advanced, text) => {
-        text.set(1, [
-            Text.of('Looting: +1. Max of 3.').yellow()
-        ])
+    // Ändert das Tooltip von 10 auf 3 beim Mob Masher Upgrade Looting
+    event.modify(['mob_grinding_utils:saw_upgrade_looting'], tooltip => {
+        tooltip.removeLine(1)
+        tooltip.insert(1, Text.translate('tooltip.sawupgrade_looting', '3').yellow())
     })
 
-    //Ändert das Tooltip von 10 auf 1 beim Mob Masher Upgrade Beheading
-    event.addAdvanced(['mob_grinding_utils:saw_upgrade_beheading'], (item, advanced, text) => {
-        text.set(1, [
-            Text.of('Beheading: +1. Max of 1.').yellow()
-        ])
-    })
-
-
-    //Antimatter Ingot
-
-    //Fügt den Scrolls eine Beschreibung hinzu
-    let mod_journey_items = [
-        'mod_journey:anti_ingot',
-        'mod_journey:antimatter_block'
-    ]
-    mod_journey_items.forEach(items => {
-        event.addAdvanced(items, (item, advanced, text) => {
-            if (!event.shift) {
-                text.add(1, [
-                    Text.gold('Hold '),
-                    Text.yellow('Shift '),
-                    Text.gold('to see more info.')
-                ])
-            }
-        })
-    });
-
-
-    //Antimaterie Ingot
-    event.addAdvanced('mod_journey:anti_ingot', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(1,[
-                Text.green("Hochkomprimiertes Ingot aus Antimaterie")
-            ])
-        }
-    })
-
-    //Antimaterie Block
-    event.addAdvanced('mod_journey:antimatter_block', (item, advanced, text) => {
-        if (event.shift) {
-            text.add(1,[
-                Text.green("Hochkomprimierter Block aus Antimaterie")
-            ])
-        }
+    // Ändert das Tooltip von 10 auf 1 beim Mob Masher Upgrade Beheading
+    event.modify(['mob_grinding_utils:saw_upgrade_beheading'], tooltip => {
+        tooltip.removeLine(1)
+        tooltip.insert(1, Text.translate('tooltip.sawupgrade_beheading', '1').yellow())
     })
 
 
+    // Antimatter Ingot und Ingot
+    event.add(/mod_journey:antimatter_(ingot|block)/, {shift: false}, [
+        Text.translate('item.mod_journey.tooltip.hold_key_for_info', [
+            Text.translate('button.mod_journey.shift').yellow()
+        ]).gold()
+    ])
 
-    event.addAdvanced('mod_journey:the_rod_of_real_life', (item, advanced, text) => {
-        text.add(1, [ Text.yellow('Using at own risk...') ])
-        text.add(2, [
-            Text.gold('Hold '),
-            Text.green('ALT '),
-            Text.gold('and '),
-            Text.green('F4 '),
-            Text.gold('to return to real life')
-        ])
-    })
 
-})
+    // Antimaterie Ingot
+    event.add('mod_journey:antimatter_ingot', {shift: true}, [
+        Text.translate('item.mod_journey.antimatter_ingot.tooltip').green()
+    ])
+
+    // Antimaterie Block
+    event.add('mod_journey:antimatter_block', {shift: true}, [
+        Text.translate('item.mod_journey.antimatter_block.tooltip').green()
+    ])
+
+
+
+    event.add('mod_journey:the_rod_of_real_life', [
+        Text.translate('item.mod_journey.the_rod_of_real_life.tooltip').yellow(),
+        Text.translate('item.mod_journey.the_rod_of_real_life.tooltip.hold_key', [
+            Text.green('ALT'),
+            Text.green('F4'),
+        ]).gold(),
+    ])
+
+};

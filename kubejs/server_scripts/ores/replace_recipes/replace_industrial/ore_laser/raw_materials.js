@@ -1,6 +1,6 @@
 //priority 50
 
-ServerEvents.recipes(event => {
+let ores_replace_laser = event => {
 
     let ores = [
         'uranium',
@@ -19,6 +19,4 @@ ServerEvents.recipes(event => {
             event.custom(r.json).id(r.getId())
         })
     });
-
-
-})
+}

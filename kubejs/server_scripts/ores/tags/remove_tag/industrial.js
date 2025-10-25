@@ -1,6 +1,7 @@
 //priority 10
 
-let ores_industrial_tag = (event) => {
+let ores_industrial_tag = (event, active, debug) => {
+    if (!active) return;
 
     let industrial_vanilla = [
         "gold",

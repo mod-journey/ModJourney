@@ -1,19 +1,20 @@
 {
-	icon: "mysticalagriculture:inferium_essence"
+	icon: {
+		id: "mysticalagriculture:inferium_essence"
+	}
 	id: "4A66DD99435F8E13"
 	loot_size: 1
 	order_index: 0
 	rewards: [
-		{ item: "mysticalagriculture:deepslate_seeds" }
-		{ item: "mysticalagriculture:inferium_seeds" }
-		{ item: "mysticalagriculture:stone_seeds" }
-		{ item: "mysticalagriculture:dirt_seeds" }
-		{ item: "mysticalagriculture:wood_seeds" }
-		{ item: "mysticalagriculture:ice_seeds" }
-		{ item: "mysticalagriculture:air_seeds" }
-		{ item: "mysticalagriculture:fire_seeds" }
-		{ item: "mysticalagriculture:earth_seeds" }
-		{ item: "mysticalagriculture:water_seeds" }
+		{ id: "2B55616C8F0D92A8", item: { count: 1, id: "mysticalagriculture:deepslate_seeds" } }
+		{ id: "257793B5E390B3BD", item: { count: 1, id: "mysticalagriculture:inferium_seeds" } }
+		{ id: "08EAFEC5C2684E0A", item: { count: 1, id: "mysticalagriculture:stone_seeds" } }
+		{ id: "62B8462714571C30", item: { count: 1, id: "mysticalagriculture:dirt_seeds" } }
+		{ id: "548FE5CF8339AF40", item: { count: 1, id: "mysticalagriculture:wood_seeds" } }
+		{ id: "669A55815CEEF5CB", item: { count: 1, id: "mysticalagriculture:ice_seeds" } }
+		{ id: "6D62DDB798C9C2C6", item: { count: 1, id: "mysticalagriculture:air_seeds" } }
+		{ id: "0F9E285F05BA122F", item: { count: 1, id: "mysticalagriculture:fire_seeds" } }
+		{ id: "36F963E004A392A4", item: { count: 1, id: "mysticalagriculture:earth_seeds" } }
+		{ id: "234CF7118836B248", item: { count: 1, id: "mysticalagriculture:water_seeds" } }
 	]
-	title: "Tier1"
 }

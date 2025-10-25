@@ -1,67 +1,74 @@
 {
-	autofocus_id: "19BDD9A98862D1F7"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "immsersive_engineering"
 	group: "00D014EB3FA9ED8A"
-	icon: "immersiveengineering:watermill"
+	icon: {
+		id: "immersiveengineering:watermill"
+	}
 	id: "486D38DC43A626CE"
-	images: [{
-		color: 1019157
-		height: 1.0d
-		hover: ["grüner pointer"]
-		image: "ftbchunks:textures/waypoint_default.png"
-		rotation: 0.0d
-		width: 1.0d
-		x: 2.5d
-		y: -1.5d
-	}]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["0B04E60647C11A1D"]
+			disable_recipe_mod: false
 			id: "7DC64335DF20BD93"
 			rewards: [
 				{
-					id: "4260FCB15A379741"
-					item: "mod_journey:bronze_coin"
+					id: "3F38BAEEF5B4AA2D"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
 					type: "item"
 				}
 				{
-					count: 10
-					id: "3E4CE6A5DAE3419B"
-					item: "mod_journey:gold_coin"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "2CFFD5C0B9D241DF"
+					table_id: 9136516928215374765L
+					team_reward: true
+					type: "loot"
 				}
 			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "59A70CC7D3087473"
-				item: "immersiveengineering:circuit_board"
+				item: { count: 1, id: "immersiveengineering:circuit_board" }
 				type: "item"
 			}]
 			x: -0.5d
 			y: 14.0d
 		}
 		{
-			description: [
-				"Mit dem &9Hammer&r können die ersten Metallplatten hergestellt und Multiblockstrukturen formiert werden."
-				""
-				"Mit dem &9Kabelschneider&r stellt man aus Metallplatten die ersten Kabel her und kann verlegte Kabel wieder abbauen."
-			]
+			dependencies: ["0E92633B7DC58B57"]
+			hide_until_deps_complete: true
 			id: "19BDD9A98862D1F7"
 			rewards: [
 				{
 					id: "2F82AD826A612B60"
-					item: "immersiveengineering:manual"
+					item: {
+						count: 1
+						id: "immersiveengineering:manual"
+					}
 					type: "item"
 				}
 				{
-					id: "04A1EA8FF7469EC2"
-					item: "mod_journey:bronze_coin"
+					id: "2DF714F5AB641380"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
 					type: "item"
+				}
+				{
+					command: "/scoreboard players add @s stage 1"
+					id: "4A1627548888A6D8"
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
 				}
 			]
 			shape: "rsquare"
@@ -69,28 +76,15 @@
 			tasks: [
 				{
 					id: "027E6B6FB00156F1"
-					item: {
-						Count: 1
-						id: "immersiveengineering:hammer"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { count: 1, id: "immersiveengineering:hammer" }
 					type: "item"
 				}
 				{
 					id: "72A46FCD79BB4453"
-					item: {
-						Count: 1
-						id: "immersiveengineering:wirecutter"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: { count: 1, id: "immersiveengineering:wirecutter" }
 					type: "item"
 				}
 			]
-			title: "Erste Werkzeuge"
 			x: 2.5d
 			y: -0.5d
 		}
@@ -98,15 +92,17 @@
 			dependencies: ["6F5C2EEF4E3ECCEA"]
 			id: "321F619E8B5074C1"
 			rewards: [{
-				id: "0CC4DEBE2C447AC5"
-				item: "mod_journey:bronze_coin"
+				id: "6C731D913361FE03"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				advancement: "immersiveengineering:main/mb_cokeoven"
 				criterion: ""
 				id: "21B304ED655A56D1"
-				title: "Coke Ofen"
 				type: "advancement"
 			}]
 			x: 2.5d
@@ -116,15 +112,20 @@
 			dependencies: ["6F5C2EEF4E3ECCEA"]
 			id: "55E997BC13673CDC"
 			rewards: [{
-				id: "4B651D9A893F4CB1"
-				item: "mod_journey:bronze_coin"
+				id: "12BF97A0561E5D31"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				advancement: "immersiveengineering:main/mb_blastfurnace"
 				criterion: ""
+				icon: {
+					id: "immersiveengineering:blast_furnace"
+				}
 				id: "5083BB2FD886AD79"
-				title: "Hochofen"
 				type: "advancement"
 			}]
 			x: -0.5d
@@ -134,17 +135,22 @@
 			dependencies: ["41D498DF0CB2E1F7"]
 			id: "49B65584F6D6176D"
 			rewards: [{
-				id: "6BEEF4C43CB46887"
-				item: "mod_journey:bronze_coin"
+				id: "29015DBF7360BF73"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_crusher"
 				criterion: ""
+				icon: {
+					id: "immersiveengineering:crusher"
+				}
 				id: "16B47C2D8B044D03"
 				type: "advancement"
 			}]
-			title: "Zerkleinerer"
 			x: -3.5d
 			y: -0.5d
 		}
@@ -152,15 +158,20 @@
 			dependencies: ["41D498DF0CB2E1F7"]
 			id: "6039F64AD027BA19"
 			rewards: [{
-				id: "681F70F9D0B91C5A"
-				item: "mod_journey:bronze_coin"
+				id: "16CBB5778C795D94"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_refinery"
 				criterion: ""
+				icon: {
+					id: "immersiveengineering:refinery"
+				}
 				id: "0D4ED9DB465D113A"
-				title: "Raffinerie"
 				type: "advancement"
 			}]
 			x: -3.5d
@@ -170,15 +181,20 @@
 			dependencies: ["41D498DF0CB2E1F7"]
 			id: "6DE018DFA945800B"
 			rewards: [{
-				id: "2D49E7E63E56CCFA"
-				item: "mod_journey:bronze_coin"
+				id: "08C1B683DBE3F9E6"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_fermenter"
 				criterion: ""
+				icon: {
+					id: "immersiveengineering:fermenter"
+				}
 				id: "4AAE59316F980F71"
-				title: "Fermenter"
 				type: "advancement"
 			}]
 			x: -9.0d
@@ -190,23 +206,17 @@
 				"19267DFA9EB783BF"
 			]
 			id: "0B04E60647C11A1D"
-			rewards: [
-				{
-					id: "50D43B810D3322FB"
-					item: "mod_journey:bronze_coin"
-					type: "item"
+			rewards: [{
+				id: "6666B953599AFAFC"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "44D526A26B9EC0FD"
-					table_id: 7481978013781056868L
-					team_reward: true
-					type: "loot"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "18B5C663F76F8B59"
-				item: "immersiveengineering:plate_duroplast"
+				item: { count: 1, id: "immersiveengineering:plate_duroplast" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -219,15 +229,20 @@
 			]
 			id: "637144EBE8BA9D39"
 			rewards: [{
-				id: "47312BE3F13F32C2"
-				item: "mod_journey:bronze_coin"
+				id: "04C3B20E755A37D9"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_metalpress"
 				criterion: ""
+				icon: {
+					id: "immersiveengineering:metal_press"
+				}
 				id: "32FF7AAA5FD69B16"
-				title: "Metallpresse"
 				type: "advancement"
 			}]
 			x: 5.5d
@@ -237,14 +252,16 @@
 			dependencies: ["55E997BC13673CDC"]
 			id: "41D498DF0CB2E1F7"
 			rewards: [{
-				id: "11307ACD21C67056"
-				item: "mod_journey:bronze_coin"
+				id: "2018B95F8D7AB90B"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "5AE347FA991EC91F"
-				item: "alltheores:steel_ingot"
-				title: "Stahl"
+				item: { count: 1, id: "alltheores:steel_ingot" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -257,14 +274,16 @@
 			]
 			id: "1ADAFCF3A4253B6E"
 			rewards: [{
-				id: "4BF2852482BD7C56"
-				item: "mod_journey:bronze_coin"
+				id: "14B5E23246E977BD"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "49DA294500A30649"
-				item: "immersiveengineering:phenolic_resin_bucket"
-				title: "Phenolic Resin-Eimer"
+				item: { count: 1, id: "immersiveengineering:phenolic_resin_bucket" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -277,14 +296,16 @@
 			]
 			id: "393D75C8A0E73B80"
 			rewards: [{
-				id: "31631D6573811A8A"
-				item: "mod_journey:bronze_coin"
+				id: "4F09DE1DCC1094CD"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7FF7A4FA8DCD1C7F"
-				item: "immersiveengineering:acetaldehyde_bucket"
-				title: "Acetaldehyde-Eimer"
+				item: { count: 1, id: "immersiveengineering:acetaldehyde_bucket" }
 				type: "item"
 			}]
 			x: -6.5d
@@ -294,19 +315,22 @@
 			dependencies: ["6DE018DFA945800B"]
 			id: "0E2EC3ABC7500783"
 			rewards: [{
-				id: "2D960CB92A8E2A48"
-				item: "mod_journey:bronze_coin"
+				id: "1707D75D26572C85"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "3498CB53CD79EAC7"
-					item: "immersiveengineering:ethanol_bucket"
+					item: { count: 1, id: "immersiveengineering:ethanol_bucket" }
 					type: "item"
 				}
 				{
 					id: "67E5D99595D14B0D"
-					item: "alltheores:silver_plate"
+					item: { count: 1, id: "alltheores:silver_plate" }
 					type: "item"
 				}
 			]
@@ -317,13 +341,16 @@
 			dependencies: ["0788F9E6D027F21F"]
 			id: "3F60E405CEADC649"
 			rewards: [{
-				id: "67B1D3F0E4E95553"
-				item: "mod_journey:bronze_coin"
+				id: "682717B05A94F5FC"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "5314CBF2A27F3517"
-				item: "immersiveengineering:dynamo"
+				item: { count: 1, id: "immersiveengineering:dynamo" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -333,15 +360,20 @@
 			dependencies: ["55E997BC13673CDC"]
 			id: "17016F720123E259"
 			rewards: [{
-				id: "73FCDB92442C6039"
-				item: "mod_journey:bronze_coin"
+				id: "2DAB91863B628F0C"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_improvedblastfurnace"
 				criterion: ""
+				icon: {
+					id: "immersiveengineering:advanced_blast_furnace"
+				}
 				id: "7F5AABAAC83CC66B"
-				title: "Verbesserter Hochofen"
 				type: "advancement"
 			}]
 			x: -0.5d
@@ -351,13 +383,16 @@
 			dependencies: ["637144EBE8BA9D39"]
 			id: "19267DFA9EB783BF"
 			rewards: [{
-				id: "7E5E5F31178D26E8"
-				item: "mod_journey:bronze_coin"
+				id: "0EA179CA51D08013"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "4CF4EA5B086B370F"
-				item: "immersiveengineering:mold_plate"
+				item: { count: 1, id: "immersiveengineering:mold_plate" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -366,23 +401,17 @@
 		{
 			dependencies: ["3F60E405CEADC649"]
 			id: "2E3BDF304CE0F4D2"
-			rewards: [
-				{
-					id: "6F7C310AEC0D991F"
-					item: "mod_journey:bronze_coin"
-					type: "item"
+			rewards: [{
+				id: "6783A640AC015CDE"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "3E28ED77A3187198"
-					table_id: 7481978013781056868L
-					team_reward: true
-					type: "loot"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "49C4C64AE7D0D567"
-				item: "immersiveengineering:watermill"
+				item: { count: 1, id: "immersiveengineering:watermill" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -392,54 +421,50 @@
 			dependencies: ["19BDD9A98862D1F7"]
 			id: "0788F9E6D027F21F"
 			rewards: [{
-				id: "3CBE9D11F845EEDC"
-				item: "mod_journey:bronze_coin"
+				id: "717B2DBD206C9F17"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					count: 2L
 					id: "241D11FF09860C60"
-					item: "immersiveengineering:connector_lv"
+					item: { count: 1, id: "immersiveengineering:connector_lv" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "7DAF3EEA29E56197"
-					item: "immersiveengineering:wirecoil_copper"
+					item: { count: 1, id: "immersiveengineering:wirecoil_copper" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "7A643B513592928A"
-					item: "immersiveengineering:connector_lv_relay"
+					item: { count: 1, id: "immersiveengineering:connector_lv_relay" }
 					type: "item"
 				}
 			]
-			title: "Verkabelung"
 			x: 5.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["3F60E405CEADC649"]
 			id: "18C4B2B100643801"
-			rewards: [
-				{
-					id: "06024038BCCA3689"
-					item: "mod_journey:bronze_coin"
-					type: "item"
+			rewards: [{
+				id: "43EB13F0B78D25CE"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "451981985C1D50F9"
-					table_id: 7481978013781056868L
-					team_reward: true
-					type: "loot"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "04D21A81AAA1824D"
-				item: "immersiveengineering:windmill"
+				item: { count: 1, id: "immersiveengineering:windmill" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -452,17 +477,20 @@
 				"115AB3F93465A685"
 			]
 			dependency_requirement: "one_completed"
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "6C7984DF59D8E26C"
 			rewards: [{
-				id: "2A43FC326BCC74CA"
-				item: "mod_journey:bronze_coin"
+				id: "35B4453B57BD77C5"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0BB78D5FDA226CFA"
-				item: "immersiveengineering:capacitor_lv"
+				item: { count: 1, id: "immersiveengineering:capacitor_lv" }
 				type: "item"
 			}]
 			x: 13.0d
@@ -471,32 +499,17 @@
 		{
 			dependencies: ["6C7984DF59D8E26C"]
 			id: "7A633DD4525F4618"
-			rewards: [
-				{
-					id: "791B97EDAC639A5C"
-					item: "mod_journey:bronze_coin"
-					type: "item"
+			rewards: [{
+				id: "41E81D07EEF7DFB7"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					id: "03132877FED4B8CF"
-					item: {
-						Count: 1
-						id: "thermal:energy_cell"
-						tag: {
-							BlockEntityTag: {
-								Energy: 0
-								EnergyMax: 1000000
-								EnergyRecv: 1000
-								EnergySend: 1000
-							}
-						}
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "0EA1872377FF538A"
-				item: "immersiveengineering:capacitor_mv"
+				item: { count: 1, id: "immersiveengineering:capacitor_mv" }
 				type: "item"
 			}]
 			x: 13.0d
@@ -505,33 +518,17 @@
 		{
 			dependencies: ["7A633DD4525F4618"]
 			id: "1342E29C40F48729"
-			rewards: [
-				{
-					id: "41A0BCE384161298"
-					item: "mod_journey:bronze_coin"
-					type: "item"
+			rewards: [{
+				id: "6C9B1368CC2DBC27"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "59A2EBE38E57EA83"
-					table_id: 7481978013781056868L
-					team_reward: true
-					type: "loot"
-				}
-				{
-					id: "6B359E53C9B78FA6"
-					item: "thermal:rf_coil_xfer_augment"
-					type: "item"
-				}
-				{
-					id: "471AF8D234D3F0E1"
-					item: "thermal:rf_coil_storage_augment"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "5788824EE9E73578"
-				item: "immersiveengineering:capacitor_hv"
+				item: { count: 1, id: "immersiveengineering:capacitor_hv" }
 				type: "item"
 			}]
 			x: 13.0d
@@ -539,19 +536,19 @@
 		}
 		{
 			dependencies: ["0788F9E6D027F21F"]
-			description: ["Plaziere etwas Heißes auf einer Seite der Maschine und etwas Kaltes auf der anderen um Strom zu produzieren"]
 			id: "115AB3F93465A685"
-			optional: true
+			invisible: true
 			rewards: [{
-				id: "19F15229D61AEDC6"
-				item: "mod_journey:bronze_coin"
+				id: "67EB447046010323"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			secret: true
-			subtitle: "Heiß gegen Kalt"
 			tasks: [{
 				id: "555BC7FB691206A3"
-				item: "immersiveengineering:thermoelectric_generator"
+				item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -561,13 +558,16 @@
 			dependencies: ["637144EBE8BA9D39"]
 			id: "3AD73917C403B8D4"
 			rewards: [{
-				id: "59273F9E54FA0B99"
-				item: "mod_journey:bronze_coin"
+				id: "20740330A87E92D0"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "6759DD3EE42EF4E6"
-				item: "immersiveengineering:mold_gear"
+				item: { count: 1, id: "immersiveengineering:mold_gear" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -577,13 +577,16 @@
 			dependencies: ["637144EBE8BA9D39"]
 			id: "190068EC7EA9328E"
 			rewards: [{
-				id: "6E3722E1A380EFA0"
-				item: "mod_journey:bronze_coin"
+				id: "33FCF6F2BE8D4BA3"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "51A15BA0D9F16886"
-				item: "immersiveengineering:mold_wire"
+				item: { count: 1, id: "immersiveengineering:mold_wire" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -594,19 +597,16 @@
 			hide_dependency_lines: true
 			id: "2CACA64616A52B62"
 			rewards: [{
-				id: "127BD12033E542BC"
-				item: "mod_journey:bronze_coin"
+				id: "4234EC9FB21AC0DB"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "529F8127290FFFEC"
-				item: {
-					Count: 1
-					id: "immersiveengineering:survey_tools"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { count: 1, id: "immersiveengineering:survey_tools" }
 				type: "item"
 			}]
 			x: -13.0d
@@ -614,25 +614,19 @@
 		}
 		{
 			dependencies: ["2CACA64616A52B62"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "344CBA812CE2EDA5"
-			rewards: [
-				{
-					id: "55A17FC337F6DD0A"
-					item: "mod_journey:bronze_coin"
-					type: "item"
+			rewards: [{
+				id: "0E120AE303A5D6DD"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "69FB534E5B4569C8"
-					table_id: 7481978013781056868L
-					team_reward: true
-					type: "loot"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C01C483F7852CBA"
-				item: "immersiveengineering:sample_drill"
+				item: { count: 1, id: "immersiveengineering:sample_drill" }
 				type: "item"
 			}]
 			x: -13.0d
@@ -640,11 +634,14 @@
 		}
 		{
 			dependencies: ["344CBA812CE2EDA5"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "74BB74DD34553BDC"
 			rewards: [{
-				id: "25585B10B2F2B6E3"
-				item: "mod_journey:bronze_coin"
+				id: "53BA896DE2097355"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -660,8 +657,11 @@
 			dependencies: ["19267DFA9EB783BF"]
 			id: "5DED0C844BACDB83"
 			rewards: [{
-				id: "70E1EB17F3875F2F"
-				item: "mod_journey:bronze_coin"
+				id: "020698365AA5BE57"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -677,14 +677,17 @@
 			dependencies: ["55E997BC13673CDC"]
 			id: "0609243607AE829F"
 			rewards: [{
-				id: "306832CD5120B24A"
-				item: "mod_journey:bronze_coin"
+				id: "1B4E1C19E70012F6"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 2L
 				id: "18870151FB1F8601"
-				item: "immersiveengineering:blastfurnace_preheater"
+				item: { count: 1, id: "immersiveengineering:blastfurnace_preheater" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -692,26 +695,147 @@
 		}
 		{
 			dependencies: ["19BDD9A98862D1F7"]
-			description: [
-				"Das &9Ingenieurshandbuch&r beschreibt, wie man aus vielen unterschiedlichen Blöcken große Maschinen zusammenbaut."
-				""
-				"Wenn die Blöcke der Maschine korrekt platziert sind, reicht ein Klick mit dem Ingenieurshandhammer, um die Blöcke in eine Multiblock-Maschine zu verwandeln."
-			]
 			id: "6F5C2EEF4E3ECCEA"
 			rewards: [{
-				id: "4E7BBBFAE9AC064B"
-				item: "mod_journey:bronze_coin"
+				id: "488DD7D22501A952"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
 				type: "item"
 			}]
-			subtitle: "Eine Maschine aus vielen Blöcken"
 			tasks: [{
 				id: "66A3304C4C6E7629"
-				title: "Multiblocks"
 				type: "checkmark"
 			}]
 			x: 2.5d
 			y: 2.0d
 		}
+		{
+			dependencies: ["0B04E60647C11A1D"]
+			id: "69FED45F23BC97C8"
+			rewards: [{
+				id: "50F8032B7C844FE1"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2640D9418D6FECA4"
+				item: { count: 1, id: "immersiveengineering:railgun" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["69FED45F23BC97C8"]
+			id: "41AC786E79F24EA5"
+			rewards: [{
+				id: "7AB8304C581BAE5E"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "43384D548E919D2B"
+				item: { count: 1, id: "alltheores:steel_rod" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["69FED45F23BC97C8"]
+			id: "74BC9D9625C7A3F6"
+			rewards: [{
+				id: "154007F0E3FB5869"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25AFD230A5767D9D"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["19BDD9A98862D1F7"]
+			hide_dependency_lines: true
+			id: "50476836CF31E575"
+			rewards: [{
+				id: "6BEB528B1749759B"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F9E3CC2613B37C1"
+				item: { count: 1, id: "immersiveengineering:revolver" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"0B04E60647C11A1D"
+				"50476836CF31E575"
+			]
+			id: "0D7A9326A779CF33"
+			min_required_dependencies: 2
+			rewards: [{
+				id: "0350EDCD1C644A39"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D890439AD631B07"
+				item: { count: 1, id: "immersiveengineering:speedloader" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["50476836CF31E575"]
+			id: "486C8E600D7D2750"
+			rewards: [{
+				id: "4C04994715E0E0D5"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "68BBB3BFF58B35F2"
+					item: { count: 1, id: "immersiveengineering:bullet_casull" }
+					type: "item"
+				}
+				{
+					id: "0122EC1E9884E72D"
+					item: { count: 1, id: "immersiveengineering:bullet_buckshot" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 10.5d
+		}
 	]
-	title: "Immersive Engineering"
 }

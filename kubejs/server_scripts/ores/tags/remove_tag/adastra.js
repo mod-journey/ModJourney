@@ -1,6 +1,7 @@
 //priority 10
 
-let ores_ad_astra_tag = (event) => {
+let ores_ad_astra_tag = (event, active, debug) => {
+    if (!active) return;
 
     let astra_plates = [
         "ad_astra:iron_plate",

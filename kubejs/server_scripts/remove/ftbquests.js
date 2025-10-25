@@ -1,4 +1,7 @@
-ServerEvents.recipes(event => {
+//priority: 0
+
+let remove_ftbquest = (event, active, debug) => {
+    if (!active) return;
 
     //ftbquests item remove
     let ftbquests_items = [
@@ -11,8 +14,11 @@ ServerEvents.recipes(event => {
         'ftbquests:screen_5',
         'ftbquests:screen_7',
         'ftbquests:task_screen_configurator',
-       ]
+    ]
+
     ftbquests_items.forEach(element => {
-        event.remove({ output: element});
+        event.remove(
+            { output: element}
+        );
     });
-})
+};

@@ -1,37 +1,38 @@
 {
-	icon: "mysticalagriculture:tertium_essence"
+	icon: {
+		id: "mysticalagriculture:tertium_essence"
+	}
 	id: "24F63EB4DD5227DC"
 	loot_size: 1
 	order_index: 3
 	rewards: [
-		{ item: "mysticalagriculture:iron_seeds" }
-		{ item: "mysticalagriculture:copper_seeds" }
-		{ item: "mysticalagriculture:nether_quartz_seeds" }
-		{ item: "mysticalagriculture:glowstone_seeds" }
-		{ item: "mysticalagriculture:redstone_seeds" }
-		{ item: "mysticalagriculture:obsidian_seeds" }
-		{ item: "mysticalagriculture:prismarine_seeds" }
-		{ item: "mysticalagriculture:zombie_seeds" }
-		{ item: "mysticalagriculture:skeleton_seeds" }
-		{ item: "mysticalagriculture:creeper_seeds" }
-		{ item: "mysticalagriculture:spider_seeds" }
-		{ item: "mysticalagriculture:rabbit_seeds" }
-		{ item: "mysticalagriculture:tin_seeds" }
-		{ item: "mysticalagriculture:bronze_seeds" }
-		{ item: "mysticalagriculture:zinc_seeds" }
-		{ item: "mysticalagriculture:brass_seeds" }
-		{ item: "mysticalagriculture:silver_seeds" }
-		{ item: "mysticalagriculture:lead_seeds" }
-		{ item: "mysticalagriculture:graphite_seeds" }
-		{ item: "mysticalagriculture:blizz_seeds" }
-		{ item: "mysticalagriculture:blitz_seeds" }
-		{ item: "mysticalagriculture:basalz_seeds" }
-		{ item: "mysticalagriculture:copper_alloy_seeds" }
-		{ item: "mysticalagriculture:redstone_alloy_seeds" }
-		{ item: "mysticalagriculture:conductive_alloy_seeds" }
-		{ item: "mysticalagriculture:manasteel_seeds" }
-		{ item: "mysticalagriculture:sky_stone_seeds" }
-		{ item: "mysticalagriculture:certus_quartz_seeds" }
+		{ id: "2E20C12F08780657", item: { count: 1, id: "mysticalagriculture:iron_seeds" } }
+		{ id: "7CC9DCFDE85E38D9", item: { count: 1, id: "mysticalagriculture:copper_seeds" } }
+		{ id: "50EB0D9FFEE034FA", item: { count: 1, id: "mysticalagriculture:nether_quartz_seeds" } }
+		{ id: "111D8B938F755C0C", item: { count: 1, id: "mysticalagriculture:glowstone_seeds" } }
+		{ id: "6961AA4F9C425B08", item: { count: 1, id: "mysticalagriculture:redstone_seeds" } }
+		{ id: "4324D5E16E29B5D1", item: { count: 1, id: "mysticalagriculture:obsidian_seeds" } }
+		{ id: "16EFCBE4A7784CA7", item: { count: 1, id: "mysticalagriculture:prismarine_seeds" } }
+		{ id: "44DC56426EBAF413", item: { count: 1, id: "mysticalagriculture:zombie_seeds" } }
+		{ id: "30ACE2D306F740EC", item: { count: 1, id: "mysticalagriculture:skeleton_seeds" } }
+		{ id: "5EAA0266328D9F41", item: { count: 1, id: "mysticalagriculture:creeper_seeds" } }
+		{ id: "1024A79F5C9E1C27", item: { count: 1, id: "mysticalagriculture:spider_seeds" } }
+		{ id: "055A8300CA81EAA1", item: { count: 1, id: "mysticalagriculture:rabbit_seeds" } }
+		{ id: "4A2C21A6582BBF4F", item: { count: 1, id: "mysticalagriculture:tin_seeds" } }
+		{ id: "72C60FF683F67784", item: { count: 1, id: "mysticalagriculture:bronze_seeds" } }
+		{ id: "156B179CD2B89A4A", item: { count: 1, id: "mysticalagriculture:zinc_seeds" } }
+		{ id: "674474D65589146D", item: { count: 1, id: "mysticalagriculture:brass_seeds" } }
+		{ id: "33CD82F839E0A57E", item: { count: 1, id: "mysticalagriculture:silver_seeds" } }
+		{ id: "2C42680895311D0C", item: { count: 1, id: "mysticalagriculture:lead_seeds" } }
+		{ id: "21F1AA710D651F59", item: { count: 1, id: "mysticalagriculture:graphite_seeds" } }
+		{ id: "75DF22EB3E32A353", item: { count: 1, id: "mysticalagriculture:blizz_seeds" } }
+		{ id: "1B76757F3A096AEA", item: { count: 1, id: "mysticalagriculture:blitz_seeds" } }
+		{ id: "71E8D6B9838B8C4C", item: { count: 1, id: "mysticalagriculture:basalz_seeds" } }
+		{ id: "43CAECB2445577D6", item: { count: 1, id: "mysticalagriculture:copper_alloy_seeds" } }
+		{ id: "2927FC30C83424FB", item: { count: 1, id: "mysticalagriculture:redstone_alloy_seeds" } }
+		{ id: "4B64BE51B204279B", item: { count: 1, id: "mysticalagriculture:conductive_alloy_seeds" } }
+		{ id: "1AC20441923CE8C8", item: { count: 1, id: "mysticalagriculture:manasteel_seeds" } }
+		{ id: "0122DB51A668BF94", item: { count: 1, id: "mysticalagriculture:sky_stone_seeds" } }
+		{ id: "11D27A5D74B0384C", item: { count: 1, id: "mysticalagriculture:certus_quartz_seeds" } }
 	]
-	title: "Tier3"
 }

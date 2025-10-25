@@ -2,7 +2,7 @@
 
 //This Script replace recipes from the thermal-smelter
 
-ServerEvents.recipes(event => {
+let ores_replace_thermal_smelter = event => {
 
     let thermal_ores = [
         'tin',
@@ -59,5 +59,4 @@ ServerEvents.recipes(event => {
             }
         })
     })
-})
-
+}

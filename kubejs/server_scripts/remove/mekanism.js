@@ -1,4 +1,5 @@
-ServerEvents.recipes(event => {
+let remove_mekanism = (event, active, debug) => {
+    if (!active) return;
     event.remove([
         { output: 'mekanismadditions:walkie_talkie' },
         { output: 'mekanism:upgrade_anchor' },
@@ -13,6 +14,8 @@ ServerEvents.recipes(event => {
         'mekanism:mekasuit_pants', // Meka Pants
         'mekanism:mekasuit_boots', // Meka Boots
         'mekanism:module_energy_unit', // Meka energy Unit
+        'mekanism:module_excavation_escalation_unit',   //from MekkaTools Addon
+        'mekanism:module_vein_mining_unit'  //from MekkaTools Addon
     ];
 
     // Entfernen aller definierten Rezepte
@@ -20,4 +23,4 @@ ServerEvents.recipes(event => {
         event.remove({ id: recipeId });
     });
     //event.remove({ id: 'minecraft:enchantment.mekanismadditions.walkie_talkie' })
-})
+};

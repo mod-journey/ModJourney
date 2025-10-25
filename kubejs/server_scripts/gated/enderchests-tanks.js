@@ -1,6 +1,8 @@
 //priority 0
 
-ServerEvents.recipes(event => {
+let enderchestandtank_gated = (event, active, debug) => {
+    if (!active) return;
+
     console.log('Ändern der Gated Enderchest Items')
 
     // Enderchest
@@ -12,10 +14,10 @@ ServerEvents.recipes(event => {
 
     // EnderTank
     event.forEachRecipe(
-        { id: 'endertanks:tank' },
+        { id: 'endertanks:ender_tank' },
         r => {
             // Replace `#' what stands for '#forge:rods/blaze'
-            r.json.get('key').add('#', { item: stages.stage1.core} )
+            r.json.get('key').add('#', { item: stages.stage1.core })
             // Add changed recipe as custom (because changes in json are NOT back-linked to the recipe-object)
             event.custom(r.json).id(r.getId())
         }
@@ -23,12 +25,12 @@ ServerEvents.recipes(event => {
 
     // EnderBucket
     event.forEachRecipe(
-        { id: 'endertanks:bucket' },
+        { id: 'endertanks:ender_bucket' },
         r => {
             // Replace `#' what stands for 'minecraft:blaze_powder'
-            r.json.get('key').add('#', { item: stages.stage1.core} )
+            r.json.get('key').add('#', { item: stages.stage1.core })
             // Add changed recipe as custom (because changes in json are NOT back-linked to the recipe-object)
             event.custom(r.json).id(r.getId())
         }
     )
-})
+}

@@ -1,6 +1,6 @@
 {
-  "_schemaVersion": 6,
-  "_lastMCVersionId": 763,
+  "_schemaVersion": 7,
+  "_lastMCVersionId": 767,
   "generalSettings": {
     "detectATLauncherInstance": true,
     "detectCurseManifest": true,
@@ -12,7 +12,7 @@
     "detectDimensionData": false,
     "detectWorldData": false,
     "clientId": "1271491623917977672",
-    "defaultIcon": "icon_512x512",
+    "defaultIcon": "logo_2_-2",
     "enableJoinRequests": false,
     "preferredClientLevel": 3,
     "resetTimeOnInit": false,
@@ -42,7 +42,9 @@
       "default": {
         "textOverride": "Playing on {server.motd.raw}"
       }
-    }
+    },
+    "pingRateInterval": 5,
+    "pingRateUnit": "minutes"
   },
   "statusMessages": {
     "mainMenuData": {
@@ -117,25 +119,18 @@
       "partyPrivacy": 1,
       "details": "{getFirst(menu.message, dimension.message)}",
       "gameState": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
-      "largeImageKey": "icon_512x512",
+      "largeImageKey": "logo_2_-2",
       "largeImageText": "{getFirst(menu.message, dimension.message)}",
       "smallImageKey": "{getFirst(server.icon, pack.icon)}",
       "smallImageText": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
-      "buttons": {
-        "default": {
-          "label": "Example Text",
-          "url": "https://google.com"
-        }
-      }
+      "buttons": {}
     },
     "dynamicIcons": {
-      "default": "https://via.placeholder.com/256.png",
       "localhost": "https://api.mcsrvstat.us/icon/localhost"
     },
     "dynamicVariables": {
-      "default": "Example Text",
       "mods": "{general.mods} Mod(s)",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",
       "players": "{server.players.current} / {server.players.max} Players",

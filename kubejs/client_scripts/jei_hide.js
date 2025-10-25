@@ -1,105 +1,7 @@
 // priority: 5
 
-JEIEvents.hideItems(event => {
-
-    //thermal series tnt removen
-
-    const tnt = [
-        'thermal:detonator',
-        'thermal:explosive_grenade',
-        'thermal:fire_tnt',
-        'thermal:ice_tnt',
-        'thermal:lightning_tnt',
-        'thermal:earth_tnt',
-        'thermal:ender_tnt',
-        'thermal:glowstone_tnt',
-        'thermal:redstone_tnt',
-        'thermal:slime_tnt',
-        'thermal:phyto_tnt',
-        'thermal:nuke_tnt',
-        'thermal:lightning_grenade',
-        'thermal:ice_grenade',
-        'thermal:explosive_grenade',
-        'thermal:phyto_grenade',
-        'thermal:fire_grenade',
-        'thermal:earth_grenade',
-        'thermal:ender_grenade'
-    ]
-
-    tnt.forEach(element => {
-        event.hide(element)
-    });
-
-    //thermal series hide florb
-    event.hide('thermal:florb')
-
-    //thermal series satchel
-    event.hide('thermal:satchel')
-
-    //thermal coins hide
-    const coins = [
-        'thermal:iron_coin',
-        'thermal:copper_coin',
-        'thermal:netherite_coin',
-        'thermal:tin_coin',
-        'thermal:lead_coin',
-        'thermal:nickel_coin',
-        'thermal:electrum_coin',
-        'thermal:invar_coin',
-        'thermal:constantan_coin',
-        'thermal:signalum_coin',
-        'thermal:lumium_coin',
-        'thermal:enderium_coin',
-        'thermal:gold_coin',
-        'thermal:silver_coin',
-        'thermal:bronze_coin'
-    ];
-
-    coins.forEach(element => {
-        event.hide(element);
-    });
-
-    //botania lenses removen
-
-    const lens = [
-        'botania:lens_explosive',
-        'botania:lens_piston',
-        'botania:lens_weight',
-        'botania:lens_mine'
-    ]
-
-    lens.forEach(element => {
-        event.hide(element)
-    });
-
-
-    //botania Staebe removen
-
-    let rods = [
-        'botania:terraform_rod',
-        'botania:exchange_rod',
-        'botania:water_rod'
-    ]
-
-    rods.forEach(element => {
-        event.hide(element)
-    });
-
-    //botania Laputa Shard removen
-    event.hide('botania:laputa_shard')
-
-
-    let mekanism_hide = [
-        'mekanismadditions:walkie_talkie',
-        'mekanism:upgrade_anchor',
-        'mekanismadditions:obsidian_tnt',
-        'mekanism:dimensional_stabilizer',
-        'mekanism:digital_miner'
-    ]
-    mekanism_hide.forEach((itemName) => {
-        event.hide(itemName)
-    })
-
+let jei_hide = (event, active, debug) => {
+    if(!active) return;
 
     // Mystical Agriculture
     let mystical_hide = [
@@ -126,15 +28,12 @@ JEIEvents.hideItems(event => {
      * @see https://wiki.latvian.dev/books/kubejs-legacy/page/item-and-ingredient
      */
     mystical_hide.push(Item.of('mysticalagriculture:soul_jar', '{Souls:0.5d,Type:"mysticalagriculture:fish"}'));
-    //event.hide(Item.withNBT('mysticalagriculture:soul_jar', '{Souls:0.5d,Type:"mysticalagriculture:fish"}'));
+    //event.remove(Item.withNBT('mysticalagriculture:soul_jar', '{Souls:0.5d,Type:"mysticalagriculture:fish"}'));
 
     mystical_hide.forEach((element) => {
-        event.hide(element)
+        event.remove(element)
     })
 
-
-    //immersive
-    event.hide('immersiveengineering:cloche')
 
 
     //Mob_Grinding_Utils
@@ -152,7 +51,7 @@ JEIEvents.hideItems(event => {
     ]
 
     mob_grinding.forEach((element) => {
-        event.hide(Item.of('mob_grinding_utils:' + element))
+        event.remove(Item.of('mob_grinding_utils:' + element))
     });
 
 
@@ -170,7 +69,7 @@ JEIEvents.hideItems(event => {
     ]
 
     structure_api.forEach((element) => {
-        event.hide(Item.of('structure_gel:' + element))
+        event.remove(Item.of('structure_gel:' + element))
     });
 
 
@@ -195,7 +94,7 @@ JEIEvents.hideItems(event => {
     ]
 
     remove.forEach((element) => {
-        event.hide(Item.of('rftoolsutility:' + element))
+        event.remove(Item.of('rftoolsutility:' + element))
     });
 
     //Industrial Foregoing
@@ -211,7 +110,7 @@ JEIEvents.hideItems(event => {
     ]
 
     infinty_hide.forEach((element) => {
-        event.hide(
+        event.remove(
             Item.of('industrialforegoing:infinity_' + element)
         )
     });
@@ -230,9 +129,9 @@ JEIEvents.hideItems(event => {
     ]
 
     cataclysm_boss_mobs.forEach(element => {
-        event.hide(Item.of('enderio:filled_soul_vial', '{BlockEntityTag:{EntityStorage:{Entity:{id:' + element + '}}}}'))
-        event.hide(Item.of('enderio:broken_spawner', '{BlockEntityTag:{EntityStorage:{Entity:{id:' + element + '}}}}'))
-        event.hide( element + '_spawn_egg' )
+        event.remove(Item.of('enderio:filled_soul_vial', '{BlockEntityTag:{EntityStorage:{Entity:{id:' + element + '}}}}'))
+        event.remove(Item.of('enderio:broken_spawner', '{BlockEntityTag:{EntityStorage:{Entity:{id:' + element + '}}}}'))
+        event.remove( element + '_spawn_egg' )
     });
 
     //removen der Concrete Botany Pots
@@ -256,8 +155,8 @@ JEIEvents.hideItems(event => {
     ]
 
     dyes.forEach(colour => {
-        event.hide(Item.of(`botanypots:${colour}_concrete_hopper_botany_pot`))
-        event.hide(Item.of(`botanypots:${colour}_concrete_botany_pot`))
+        event.remove(Item.of(`botanypots:${colour}_concrete_hopper_botany_pot`))
+        event.remove(Item.of(`botanypots:${colour}_concrete_botany_pot`))
     });
 
 
@@ -282,7 +181,7 @@ JEIEvents.hideItems(event => {
     ]
 
     extreme_remove.forEach(element => {
-        event.hide(Item.of(element))
+        event.remove(Item.of(element))
     });
 
 
@@ -306,7 +205,7 @@ JEIEvents.hideItems(event => {
     ]
 
     ars_remove.forEach(element => {
-        event.hide(Item.of(element))
+        event.remove(Item.of(element))
     });
 
     //alltheores - Other Ores werden removed
@@ -333,14 +232,12 @@ JEIEvents.hideItems(event => {
     ]
 
     other_oreToRemove.forEach((atm_ore) => {
-        event.hide(`alltheores:other_${ atm_ore }_ore`)
-        event.hide(Item.of('ae2:facade', '{item:"alltheores:other_' + atm_ore + '_ore"}'))
+        event.remove(`alltheores:other_${ atm_ore }_ore`)
+        event.remove(Item.of('ae2:facade', '{item:"alltheores:other_' + atm_ore + '_ore"}'))
     })
 
-    event.hide(Item.of('ae2:vibration_chamber'))
-    event.hide(Item.of('mekanism:creative_chemical_tank'))
-    event.hide(Item.of('easy_villagers:iron_farm'))
-    event.hide(Item.of('ae2wtlib:quantum_bridge_card'))
+    event.remove(Item.of('ae2:vibration_chamber'))
+    event.remove(Item.of('ae2wtlib:quantum_bridge_card'))
 
 
     //aether
@@ -350,7 +247,7 @@ JEIEvents.hideItems(event => {
     ]
 
     aether_ice.forEach(element => {
-        event.hide(element)
+        event.remove(element)
     });
 
 
@@ -374,7 +271,7 @@ JEIEvents.hideItems(event => {
     ]
 
     itemfilters_hide.forEach(element => {
-        event.hide(element)
+        event.remove(element)
     });
 
 
@@ -392,8 +289,7 @@ JEIEvents.hideItems(event => {
     ]
 
     ftbquests_hide.forEach(element => {
-        event.hide(element)
+        event.remove(element)
     });
 
-
-})
+};
