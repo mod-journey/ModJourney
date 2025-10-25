@@ -14,6 +14,7 @@ if (startup) {
 
     StartupEvents.registry('block', event => {
         block_add(event, true);
+        customAddToMJ(event, true);
     });
 
     StartupEvents.registry('item', event => {
