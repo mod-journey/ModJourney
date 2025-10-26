@@ -206,6 +206,8 @@
 	quest.09676AC0DBDF507F.quest_desc: ["Noch mehr Energie. Ist quasi ein Akku"]
 	quest.09878609373929E8.quest_desc: ["Deine erste Speicherkomponente. Daraus kannst Du dir deine ersten Speicherzellen oder deinen ersten Prozessor bauen um schnell größere herzustellen. Bedenke, das es nicht immer die größten Speicherkomponenten braucht um effektiv viele verschiedene Items zu Speichern."]
 	quest.09E64DB4A285FBD9.quest_desc: ["Zeichen der Angst"]
+	quest.0A55D16D98903B07.quest_desc: ["Die Riesen erreichst Du, indem Du die Bohnen auf die Hochwertige Erde pflanzt. "]
+	quest.0A55D16D98903B07.quest_subtitle: "Wachse Unkraut. WACHSE!"
 	quest.0A9E71C0572B1CC8.quest_desc: ["Neben magischem Holz hat man auch die Möglichkeit, Stein magisch zu durchdringen und daraus dann weitere Apparaturen zu bauen."]
 	quest.0A9E71C0572B1CC8.quest_subtitle: "Magisches Gestein"
 	quest.0A9E71C0572B1CC8.title: "Zwergenmagie"
@@ -530,7 +532,7 @@
 	quest.1869477CCFF568D5.title: "Spinne IV"
 	quest.18C31864E2EE3129.quest_desc: ["Die \"Handaxt des Himmelssuchers\" ist, wenn sie durch \"sneak Interaktion\" aktiviert wird, sehr effizient beim Fällen kleiner Bäume, und zwar mit einem Schlag!"]
 	quest.18C3353BB549027C.quest_desc: ["Halt dich kompakter."]
-	quest.18D0831832FC3783.quest_subtitle: "Bei dem schaff musst du alle woll farben die es in normalen Minecraft gibt auf das Schaf Rechtsklicken"
+	quest.18D0831832FC3783.quest_desc: ["Füge dem Schaaf alle Nativen Wollesorten hinzu. Sei gespannt was passiert."]
 	quest.18D30E75DBA755F4.quest_desc: [
 		"Mit dem Ritual-Diviner lassen sich  erste BloodMagic Rituale aufbauen. Mit shift + Recht oder Linksklick, bekommst Du die Rituale im Screen angezeigt. "
 		""
@@ -911,6 +913,10 @@
 	quest.30BCA4DCF7A86182.quest_desc: ["Einfach ein paar Gräßer abbauen, um die Seeds zu bekommen. Diese können ganz normal vortgepflanzt werden."]
 	quest.30BCA4DCF7A86182.title: "Go touch some Grass!"
 	quest.313B9F86BFAC170E.quest_desc: ["Kupfer gibt es genug in der Welt. Erhalte mehr Speicher durch das hinzufügen in deine Drawer."]
+	quest.313F0AE94B8D024A.quest_desc: [
+		"In den dichten Wäldern, findet man den Eingang zu dem Labyrinth"
+		"Lege einen erhaltenen Boss Kopf auf die Trophäensäule um Zugang zum Labyrinth zu erhalten"
+	]
 	quest.3172C2D525DD748A.title: "Prismarin IV"
 	quest.3253AC6BB40CD3AD.quest_desc: [
 		"Ein Guter Moderator für den "
@@ -1135,6 +1141,7 @@
 		"Die Anzahl der Bücher erhöht auch &2Eterna&r und &5Arcana&r."
 	]
 	quest.3D0065CD7EC0D9EF.title: "Filteroptionen"
+	quest.3D48EF5B90DCEC58.quest_desc: ["Der Lich lebt in einem Hexer Turm. Kannst Du Ihn von seinen Trugbildern unterscheiden?"]
 	quest.3D48EF5B90DCEC58.title: "Besige den Lich"
 	quest.3D9ECA51804963B2.quest_desc: ["Utherium kann ab Höhe 30 gefunden werden. Von der seltenheit her, gleichzusetzen wie Diamanten."]
 	quest.3D9ECA51804963B2.title: "Utherium"
@@ -1415,7 +1422,7 @@
 	quest.48C79ED35AC136C8.quest_desc: ["Mit ein paar Materialien aus dem End kann deine magische Rüstung noch weiter verbessert werden, um noch mehr Mana und Mana Regeneration sowie die maximalen Threadslots zu bekommen."]
 	quest.48C79ED35AC136C8.quest_subtitle: "doch die Leute, die die Kleider machen..."
 	quest.48C79ED35AC136C8.title: "Kleider machen Leute"
-	quest.48CF9B4938E075C3.quest_subtitle: "Damit kann man Erzes aus dem Boden saugen "
+	quest.48CF9B4938E075C3.quest_desc: ["Mittels dem Magneten lassen sich Erze aus dem Untergrund an die Oberfläche ziehen."]
 	quest.48F3472B18648E82.quest_desc: ["Ein Block, welcher aus Sonnenlicht Energie gewinnt. Wenn Du diesen mit einer Lens of Ender kombinierst, arbeitet die Solarpanele auch durch Blöcke hindurch und ist nicht mehr direkt auf Sonnenlicht angewiesen."]
 	quest.48F3472B18648E82.quest_subtitle: "Die Kraft der Sonne"
 	quest.49206D481FEDD5EC.title: "Fisch IV"
@@ -1470,6 +1477,7 @@
 	quest.4B916435E4D68736.title: "Früchtebrot"
 	quest.4B9318FBFB1FF36F.quest_subtitle: "Quasi unendlich strom"
 	quest.4B9318FBFB1FF36F.title: "Fusion Reaktor"
+	quest.4B9CC6EB7E14CAD7.quest_desc: ["Achtung Frostig!"]
 	quest.4BE494C590D81A5C.quest_desc: ["Finde Pyrope und Aquit auf ca. mittlerer Höhe unter der oberfläche"]
 	quest.4BE494C590D81A5C.title: "Grund Metalle?"
 	quest.4C64E64B22D90019.title: "Hühnchen IV"
@@ -1501,6 +1509,13 @@
 	quest.4DC4ACCA809BC11F.title: "Aluminium III"
 	quest.4DC77BE7D3BAF28D.title: "Drachen Ei III"
 	quest.4DE9D19B2C01B348.quest_subtitle: "Besser als Dia Rüstung"
+	quest.4DF15145C5B5DAF9.quest_desc: [
+		"Erst wenn Du den Ur-Ghast, die Schneekönigen und die Hydra besiegt hast, kommst Du ohne Schaden in die Nadelwälder!"
+		""
+		"Unter den Wolken, tief in den Nadelwäldern haben sich Zwerge und Kobolde versteckt. Schau hier "
+		"doch mal nach!"
+	]
+	quest.4DF15145C5B5DAF9.quest_subtitle: "Bohnen für die Wissenschaft!"
 	quest.4DF7B98D4DD6AD2A.quest_desc: ["Mit dem \"Altar of Birthing\" könnt ihr Tiere und Monster spawnen."]
 	quest.4DFDEFE480800211.title: "Zink II"
 	quest.4E2C63B99042440F.title: "Holz II"
@@ -1559,7 +1574,12 @@
 		"Als ob das Vakuum nicht schon Lebensfeindlich genug ist. "
 		"Hitze, höherer Atmosphärendruck und Säuren soll dieser Raumanzug abkönnen."
 	]
-	quest.52B7129CA651630E.quest_subtitle: "Willkommen im Twilight Forst Hier wird es viele Bosse und neue Biome geben "
+	quest.5280B2FB8CDB40A7.quest_desc: [
+		"Die  Schneekönigen befindet sich in einem Turm, auf einem gewaltigen Gletscher. "
+		"Zumeist anliegend an Schnee Biomen."
+	]
+	quest.5280B2FB8CDB40A7.quest_subtitle: "Achtung Frostiger!"
+	quest.52B7129CA651630E.quest_desc: ["Willkommen im Twillight Forst. Die Ideale Dimension um gegen neue Bosse  zu kämpfen und neue Biome kennen zu lernen."]
 	quest.52B7129CA651630E.title: "Der Twillight Forest"
 	quest.52BDD73ACE4C17D7.quest_desc: ["Findet man im nether (Tipp für eine max Turbine braucht ihr bisschen mehr davon. Also versuchst es garnicht ohne fortune xD)"]
 	quest.52BDD73ACE4C17D7.title: "Benitoite"
@@ -2001,6 +2021,7 @@
 		"Wenn die Blöcke der Maschine korrekt platziert sind, reicht ein Klick mit dem Ingenieurshandhammer, um die Blöcke in eine Multiblock-Maschine zu verwandeln."
 	]
 	quest.6F5C2EEF4E3ECCEA.quest_subtitle: "Eine Maschine aus vielen Blöcken"
+	quest.6F7793C5284BE3AA.quest_desc: ["Der erste Boss im Twillight Forest. Die Naga ist eine riesen Schlange."]
 	quest.6F7793C5284BE3AA.title: "Besige den Naga"
 	quest.6F85FEEE1707BF38.quest_desc: ["Mit diesem Block kannst du Brennstoff als Flüssigkeit in den reaktor ein/aus geben "]
 	quest.6F85FEEE1707BF38.title: "Fuel Injection Port"
@@ -2069,9 +2090,9 @@
 	quest.73F0DA7E5B71D4C9.quest_subtitle: "MEEEEEEEHR III"
 	quest.7440341BEA541FE2.quest_desc: ["Redstone, eine wichtige Zutat im Prozessorbau."]
 	quest.746950E99AF97116.title: "Technik"
-	quest.749043D84EC00449.quest_subtitle: "Ist ein kleiner guide"
+	quest.749043D84EC00449.quest_desc: ["Mit der magischen Karte, erhälst du überblick über Biome und deren Bossen welche dort Leben."]
 	quest.749043D84EC00449.title: "Karte des Waldes "
-	quest.74B147C71A1D55E9.quest_subtitle: "Damit kann man Tier in die Twiglight Forst Tire umwandeln "
+	quest.74B147C71A1D55E9.quest_desc: ["Es lassen sich Minecraft Tiere in bekannte Tiere des Twillight Forests umwandeln."]
 	quest.74BC9D9625C7A3F6.quest_subtitle: "Burns Enemys"
 	quest.750F56E678FF5641.title: "Platin I"
 	quest.753D0CFDD1A78040.quest_desc: [
@@ -2107,6 +2128,8 @@
 		"&2TIPP:&r"
 		"Beim landen, sollte die Space Taste gedrückt werden und aussteigen solltest Du aus der Rakete auch nicht während Du am fliegen bist. "
 	]
+	quest.76950DF183608C14.quest_desc: ["Du bist nun bereit für die Hydra! Das Fleisch ist ein warer Sattmacher."]
+	quest.76950DF183608C14.quest_subtitle: "Tank incomming!"
 	quest.7696FD7E9340DDEE.quest_desc: ["Einer mit der wichtigsten Schritte, zum Fluix und dem herstellen von Budding Certus Blöcken."]
 	quest.76CF23596EA32DCC.quest_desc: [
 		"Der Raumanzug schützt dich vor dem Lebensfeindlichen Vakuum, der außerhalb der Atmosphäre liegt. "
@@ -2175,6 +2198,10 @@
 		"Ars Nouveau bietet eine Reihe von magischen Waffen und Werkzeugen, die entweder magische Eigenschaften haben oder Glyphen wirken können."
 		""
 		"Lies dazu im Magischen Notizbuch unter \"Magical Equipment\" die Enchanter's Items durch, wie man Glyphen zu diesen hinzufügt."
+	]
+	quest.7D012E6E2BAAA894.quest_desc: [
+		"Ein Labyrinth, zum verlaufen. Es wurde in den Mangrovenwäldern gesichtet."
+		"Die Suppe soll gegen Hitze schützen."
 	]
 	quest.7D03336D79310C92.quest_desc: [
 		"Die Maschine kann Blöcke (z.b. Baumstämme) in die Welt platzieren."
