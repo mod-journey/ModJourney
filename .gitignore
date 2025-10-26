@@ -67,7 +67,7 @@ kubejs/config/web_server.json
 /config/voicechat/username-cache.json
 /config/ItemLocks/nodes/SP/
 /config/worldedit/sessions/
-/config/jei/world/local/
+/config/jei/world/
 /config/jei/jei-client.ini
 /config/ftbchunks-client.snbt
 /config/justzoom/config.txt

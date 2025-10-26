@@ -1,7 +1,13 @@
 # Changelog:
 
 ## NEXT RELEASE
+
 ## v2.0.1.7-rc1
+
+#### Some Changes:
+- re-add Iron Farm from Easy Villagers
+- Replace recipes for creative items with questbook shop
+- Improved translations
 
 <!--
 ## v2.0.1.6
@@ -139,31 +145,34 @@
 
 ### Migration to NeoForge and 1.21
 
+#### Mods replaced:
+- Ad Astra => Stellaris
+- Aether: Lost Content Addon => Aether Villages
+- Botania => Occultism
+- Blue Skies => The Twilight Forest / Undergarden Delight
+- Construction Wand => Construction Sticks
+- Item Filters => FTB Filter System
+- MrCrayfish's Furniture Mod (Legacy) => MrCrayfish's Furniture Mod: Refurbished
+- Simple Shops => Tom's Trading Network
+- WorldBorder => Chunky Border
+
 #### Mods added:
-- Aether Villages
 - Applied Flux
 - Ars Elemental
 - Ars Ocultas
 - BaguetteLib
-- Construction Sticks
 - Custom Machinery
 - Connectivity
 - Decorative Blocks
 - Macaw's Stairs
 - Mekanism Covers
 - Mekanism: Weapons
-- MrCrayfish's Furniture Mod
 - My Server Is Compatible
 - Oculus
 - Quests Additions
-- The Twilight Forest
 - Undergarden Additional Structures
-- Undergarden Delight
-- Toms Trading Network 1.21.1-0.3.3
 
 #### Mods removed:
-- Ad Astra
-- Aether: Lost Content
 - Alex's Delight
 - Alex's Mobs
 - AmbientSounds 6
@@ -171,7 +180,6 @@
 - Athena
 - Better Villages
 - Blood Magic
-- Blue Skies
 - Botania
   - Applied Botanics
   - Botanical Machinery
@@ -179,15 +187,12 @@
 - Botarium
 - Cataclysmic Combat
 - Citadel
-- Construction Wand
 - Embeddium
 - Embeddium++
 - Limit Mob Spawn
+- LootJS
 - Occultism
-- MrCrayfish's Furniture Mod: Refurbished
 - No-fly Zone
-- Simple Shops
-- Stellaris
 - RightClickHarvest
 - Thermal
   - CoFH Core
