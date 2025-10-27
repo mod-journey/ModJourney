@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
     craftingTypes.forEach(element => {
         console.log("_______________" + element + "_______________")
 
-        event.forEachRecipe([{ mod: "mekanism", mod: "alltheores" }], r => {
+        event.forEachRecipe({}, r => {
 
             function getType(name) {
                 if (r.json.get("type").toString() === name) {
@@ -45,28 +45,55 @@ ServerEvents.recipes(event => {
             }
 
             if (getType(element)) {
+                if (r.json.get("result") !== null) {
+                    if (r.json.get("result").get("id") !== null) {
+                    }
+                    else if (r.json.get("result").get("item") !== null) {
 
-                console.log(r.getId())
-                console.log(r.json)
+                    }
+                    else if (r.json.get("result").get("basePredicate") !== null) {
 
-            }
-            //console.log(getType("minecraft:crafting_shaped"))
-            // if (!getType('"minecraft:crafting_shapeless"') && !getType('"minecraft:crafting_shaped"')) {
-            //if (!craftingTypes.includes(r.json.get("type").toString())) {
+                    }
+                    else if (r.json.get("result").get("tag") !== null) {
 
+                    }
+                    else {
+                        console.log(r.getId())
+                        console.log(r.json.get("result"))
+                    }
+                }
+                else if ((r.json.get("results") !== null)) {
+                    if (r.json.get("results").size() === 1) {
+                        if (r.json.get("results").get(0).has("item")) {
 
+                        }
+                        else if (r.json.get("results").get(0).has("basePredicate")) {
 
+                        }
+                        else if (r.json.get("results").get(0).has("tag")) {
 
-        })
+                        }
+                        else if (r.json.get("results").get(0).has("id")) {
 
+                        }
+                        else {
+                            console.log(r.json.get("results").get(0))
+                        }
+                    }
+                }
+                else if (r.json.get("output") !== null) {
+                    if (r.json.get("output").has("id")) {
 
+                    } else {
+                        console.log(r.json.get("output"))
+                    }
+                }
+                else {
+                    console.log(r.getId())
+                    console.log(r.json)
+                };
 
+            };
+        });
     });
-
-
 })
-
-
-
-
-
