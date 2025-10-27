@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
         '"minecraft:crafting_shaped"'
     ]
 
-
+    let check = /^(?!"alltheores:).*(dust|ingot)/
 
     craftingTypes.forEach(element => {
         console.log("_______________" + element + "_______________")
@@ -47,6 +47,9 @@ ServerEvents.recipes(event => {
             if (getType(element)) {
                 if (r.json.get("result") !== null) {
                     if (r.json.get("result").get("id") !== null) {
+                        if (check.test(r.json.get("result").get("id"))) {
+                            console.log(r.json.get("result").get("id"))
+                        }
                     }
                     else if (r.json.get("result").get("item") !== null) {
 
