@@ -5,13 +5,13 @@ let mekanism_gated = (event, active, debug) => {
 
     console.log("Laden des Modules Mekanism Gating")
 
-    let mekanismCoreItem = stages.mod_based.mekanism;
+    let mekanismCoreItem = mjConfig.stages.mod_based.mekanism;
 
     // Void Chassis
     event.replaceInput(
         { id: mekanismCoreItem },
         'alltheores:osmium_ingot',
-        stages.stage3.core
+        mjConfig.stages.stage3.core
     )
 
     event.replaceInput([

@@ -16,7 +16,7 @@ let add_creativeitemsTechnic = (event,active,debug) => {
                 "item": "mod_journey:gold_coin"
             },
             "C": {
-                "item": stages.stage3.core
+                "item": mjConfig.stages.stage3.core
             },
             "B": {
                 "item": "minecraft:diamond_helmet"
@@ -44,7 +44,7 @@ let add_creativeitemsTechnic = (event,active,debug) => {
                 "item": "mod_journey:gold_coin"
             },
             "C": {
-                "item": stages.stage3.core
+                "item": mjConfig.stages.stage3.core
             },
             "B": {
                 "item": "minecraft:diamond_chestplate"
@@ -72,7 +72,7 @@ let add_creativeitemsTechnic = (event,active,debug) => {
                 "item": "mod_journey:gold_coin"
             },
             "C": {
-                "item": stages.stage3.core
+                "item": mjConfig.stages.stage3.core
             },
             "B": {
                 "item": "minecraft:diamond_leggings"
@@ -100,7 +100,7 @@ let add_creativeitemsTechnic = (event,active,debug) => {
                 "item": "mod_journey:gold_coin"
             },
             "C": {
-                "item": stages.stage3.core
+                "item": mjConfig.stages.stage3.core
             },
             "B": {
                 "item": "minecraft:diamond_boots"
@@ -126,7 +126,7 @@ let add_creativeitemsTechnic = (event,active,debug) => {
                 "item": "mod_journey:gold_coin"
             },
             "C": {
-                "item": stages.stage3.core
+                "item": mjConfig.stages.stage3.core
             }
         },
         "result": {
@@ -177,7 +177,7 @@ let add_creativeitemsTechnic = (event,active,debug) => {
                 "item": "mod_journey:gold_coin"
             },
             "C": {
-                "item": stages.stage3.core
+                "item": mjConfig.stages.stage3.core
             },
             "B": {
                 "item": "ae2:engineering_processor"
@@ -208,7 +208,7 @@ let add_creativeitemsTechnic = (event,active,debug) => {
                 "item": "ae2:dense_energy_cell"
             },
             "N": {
-                "item": stages.stage3.core
+                "item": mjConfig.stages.stage3.core
             }
         },
         "result": {

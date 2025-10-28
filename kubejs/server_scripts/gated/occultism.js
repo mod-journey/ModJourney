@@ -7,7 +7,7 @@ let occultism_gated = (event, active, debug) => {
             'BAB',
             'BBB'
         ], {
-            A: stages.stage1.magic.early,
+            A: mjConfig.stages.stage1.magic.early,
             B: 'occultism:otherstone'
         }).id('occultism:crafting/sacrificial_bowl')
 
@@ -15,7 +15,7 @@ let occultism_gated = (event, active, debug) => {
     replacer.replaceInputByPosition(
         {output: 'occultism:magic_lamp_empty'},
         0, 0,
-        { 'item': stages.stage1.magic.mid }
+        { 'item': mjConfig.stages.stage1.magic.mid }
     )
 
     //edit the book_of_binding_marid. #endgame
@@ -28,7 +28,7 @@ let occultism_gated = (event, active, debug) => {
         "key": {
             "y": { "item": "occultism:book_of_binding_empty" },
             "x": { "tag": "c:dyes/green"},
-            "z": {"item": stages.stage1.magic.end}
+            "z": {"item": mjConfig.stages.stage1.magic.end}
         },
         "pattern": [
             "zxz",

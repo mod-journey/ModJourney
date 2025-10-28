@@ -1,12 +1,8 @@
-//priority 5
-// Höhere Priority wird zuerst gelesen.
+//priority 200
+/**
+ * load mjConfig from global and create a local constant for better code hinting
+ */
 
-/*
-Hier werden die Stages Items definiert!
-*/
-/** Die Items schalten die nächst höhere Stage frei! */
-
+/** @deprecated use <code>mjConfig.stages</code> instead */
 const stages = global.mjConfig.stages
-
-
-console.info("Laden der Staged Items.")
+const mjConfig = global.mjConfig

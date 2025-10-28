@@ -6,6 +6,6 @@ let easy_villagers_gated = (event, active, debug) => {
     event.replaceInput(
         {id: "easy_villagers:iron_farm"},
         "minecraft:stone",
-        stages.stage1.core
+        mjConfig.stages.stage1.core
     )
 }

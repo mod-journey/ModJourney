@@ -7,7 +7,7 @@ let mysticalagriculture_gated = (event, active, debug) => {
     event.replaceInput(
         { output: 'mysticalagriculture:machine_frame' },
         '#c:stones',
-        stages.stage3.core
+        mjConfig.stages.stage3.core
     )
 
     // Replace middle item fir altars
@@ -16,6 +16,6 @@ let mysticalagriculture_gated = (event, active, debug) => {
         { id: 'mysticalagriculture:awakening_altar' }
     ],
         1, 1,
-        { 'item': stages.stage3.core }
+        { 'item': mjConfig.stages.stage3.core }
     )
 }

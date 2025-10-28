@@ -9,7 +9,7 @@ let powah_gated = (event, active, debug) => {
     event.replaceInput(
         { id: 'powah:crafting/dielectric_casing' },
         'minecraft:iron_ingot',
-        stages.stage2.core
+        mjConfig.stages.stage2.core
     )
 
 
@@ -17,6 +17,6 @@ let powah_gated = (event, active, debug) => {
     event.replaceInput(
         { id: 'powah:crafting/capacitor_basic' },
         'minecraft:redstone_block',
-        stages.stage2.core
+        mjConfig.stages.stage2.core
     )
 }
