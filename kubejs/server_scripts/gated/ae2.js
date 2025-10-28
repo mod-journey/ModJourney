@@ -9,7 +9,7 @@ let ae_gated = (event, active, debug) => {
     event.replaceInput(
         { id: 'ae2:network/blocks/inscribers' },
         'minecraft:piston',
-        stages.stage1.core
+        mjConfig.stages.stage1.core
     )
 
     //definieren der Items

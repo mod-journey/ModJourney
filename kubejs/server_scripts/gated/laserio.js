@@ -9,7 +9,7 @@ let laserio_gated = (event, active, debug) => {
     event.replaceInput(
         { id: 'laserio:logic_chip_raw' },
         'minecraft:gold_nugget',
-        stages.stage1.core
+        mjConfig.stages.stage1.core
     )
 }
 

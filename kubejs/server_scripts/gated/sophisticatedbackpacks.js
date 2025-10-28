@@ -6,24 +6,24 @@ let sophisticatedbackpacks_gated = (event, active, debug) => {
     // Replace center item in bottom of recipe with stage item
     replacer.replaceInputByPosition(
         { id: 'sophisticatedbackpacks:stack_upgrade_tier_2' },
-        1, 2, { 'item': stages.stage1.core }
+        1, 2, { 'item': mjConfig.stages.stage1.core }
     )
 
     replacer.replaceInputByPosition(
         { id: 'sophisticatedbackpacks:stack_upgrade_tier_3' },
-        1, 2, { 'item': stages.stage2.core }
+        1, 2, { 'item': mjConfig.stages.stage2.core }
     )
 
     replacer.replaceInputByPosition(
         { id: 'sophisticatedbackpacks:stack_upgrade_tier_4' },
-        1, 2, { 'item': stages.stage3.core }
+        1, 2, { 'item': mjConfig.stages.stage3.core }
     )
 
 
     // Exp upgrade limited to stage 3
     replacer.replaceInputByPosition(
         { id: 'sophisticatedbackpacks:xp_pump_upgrade' },
-        1, 2, { 'item': stages.stage2.core }
+        1, 2, { 'item': mjConfig.stages.stage2.core }
     )
 
     // 'sophisticatedbackpacks:everlasting_upgrade'

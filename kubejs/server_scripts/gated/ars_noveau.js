@@ -16,7 +16,7 @@ let arsnoveau_gated = (event, active, debug) => {
                     "x": { "item": "ars_nouveau:archwood_slab" },
                     "y": { "tag": "c:nuggets/gold" },
                     "z": { "tag": "c:logs/archwood" },
-                    "w": { "item": stages.stage2.magic.early }
+                    "w": { "item": mjConfig.stages.stage2.magic.early }
                 },
                 "pattern": [
                     "xwx",
@@ -41,7 +41,7 @@ let arsnoveau_gated = (event, active, debug) => {
                 "key": {
                     "x": { "item": "ars_nouveau:archwood_planks" },
                     "y": { "tag": "c:ingots/gold" },
-                    "w": { "item": stages.stage2.magic.early }
+                    "w": { "item": mjConfig.stages.stage2.magic.early }
                 },
                 "pattern": [
                     "xyx",
@@ -68,7 +68,7 @@ let arsnoveau_gated = (event, active, debug) => {
                     "g": { "tag": "c:ingots/gold" },
                     "n": { "tag": "c:nuggets/gold" },
                     "s": { "item": "ars_nouveau:sourcestone" },
-                    "w": { "item": stages.stage2.magic.mid }
+                    "w": { "item": mjConfig.stages.stage2.magic.mid }
                 },
                 "pattern": [
                     "nsn",
@@ -95,7 +95,7 @@ let arsnoveau_gated = (event, active, debug) => {
                     { "tag": "c:storage_blocks/source" },
                     { "tag": "c:ingots/gold" },
                     { "tag": "c:ingots/gold" },
-                    { "item": stages.stage2.magic.mid }
+                    { "item": mjConfig.stages.stage2.magic.mid }
                 ],
                 "result": {
                     "id": "ars_nouveau:ritual_brazier"
@@ -117,7 +117,7 @@ let arsnoveau_gated = (event, active, debug) => {
                     { item: "ars_nouveau:apprentice_spell_book" },
                     { tag: "c:ender_pearls" },
                     { tag: "c:gems/emerald" },
-                    { item: stages.stage2.magic.end },
+                    { item: mjConfig.stages.stage2.magic.end },
                     { tag: "c:gems/emerald" },
                     { item: "minecraft:totem_of_undying" },
                     { item: "minecraft:nether_star" },

@@ -19,7 +19,7 @@ let add_creativeitemsMagic = (event,active,debug) => {
                 "item": "mod_journey:gold_coin"
             },
             "C": {
-                "item": stages.stage3.magic.end
+                "item": mjConfig.stages.stage3.magic.end,
             },
             "B": {
                 "item": "apothic_enchanting:endshelf"
@@ -48,7 +48,7 @@ let add_creativeitemsMagic = (event,active,debug) => {
                 "item": "mod_journey:gold_coin"
             },
             "C": {
-                "item": stages.stage3.magic.end
+                "item": mjConfig.stages.stage3.magic.end
             },
             "B": {
                 "item": "ars_nouveau:arcane_pedestal"

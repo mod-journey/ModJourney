@@ -11,7 +11,7 @@ let mobgrindingutils = (event, active, debug) => {
         ' B ',
         'C  '
     ], {
-        B: stages.mod_based.mobGrindingUtils.stick,
+        B: mjConfig.stages.mod_based.mobGrindingUtils.stick,
         C: "#minecraft:wool"
     }).id('mob_grinding_utils:recipe_mob_swab')
 
@@ -29,7 +29,7 @@ let mobgrindingutils = (event, active, debug) => {
     event.replaceInput(
         { id: 'mob_grinding_utils:recipe_saw' },
         "minecraft:iron_sword",
-        Item.of(stages.mod_based.mobGrindingUtils.swords[1])
+        Item.of(mjConfig.stages.mod_based.mobGrindingUtils.swords[1])
     )
 
     //edit and gate the beheading Upgrade, with mix out of botania and blood_magic
@@ -38,10 +38,10 @@ let mobgrindingutils = (event, active, debug) => {
         'BDB',
         'CAC'
     ], {
-        A: Item.of(stages.mod_based.mobGrindingUtils.helmets[0]),
-        B: Item.of(stages.mod_based.mobGrindingUtils.helmets[1]),
-        C: stages.stage1.magic.early,
-        D: stages.stage2.magic.mid,
+        A: Item.of(mjConfig.stages.mod_based.mobGrindingUtils.helmets[0]),
+        B: Item.of(mjConfig.stages.mod_based.mobGrindingUtils.helmets[1]),
+        C: mjConfig.stages.stage1.magic.early,
+        D: mjConfig.stages.stage2.magic.mid,
     }).id('mob_grinding_utils:recipe_saw_upgrade_beheading')
 
     //edit the fortune upgrade to make it more diffculty
@@ -50,8 +50,8 @@ let mobgrindingutils = (event, active, debug) => {
         'ABA',
         'DAD'
     ], {
-        A: stages.stage3.magic.early,
-        B: stages.stage2.magic.mid,
-        D: stages.stage1.magic.early
+        A: mjConfig.stages.stage3.magic.early,
+        B: mjConfig.stages.stage2.magic.mid,
+        D: mjConfig.stages.stage1.magic.early
     }).id('mob_grinding_utils:recipe_saw_upgrade_looting')
 }

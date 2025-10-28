@@ -12,13 +12,13 @@ let industrialforegoing_gated = (event, active, debug) => {
 
     event.replaceInput({ id: 'industrialforegoing:laser_drill' },
         '#c:gears/gold',
-        stages.stage2.gear
+        mjConfig.stages.stage2.gear
     )
 
     // Void Chassis
     event.replaceInput(
         { id: 'industrialforegoing:machine_frame_pity' },
         'minecraft:redstone_block',
-        stages.stage1.core
+        mjConfig.stages.stage1.core
     )
 }

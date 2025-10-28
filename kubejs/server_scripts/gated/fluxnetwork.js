@@ -7,7 +7,7 @@ let fluxnetwork_gated = (event, active, debug) => {
     event.replaceInput(
         { id: 'fluxnetworks:flux_core' },
         'minecraft:ender_eye',
-        stages.stage3.core
+        mjConfig.stages.stage3.core
     )
 
 }
