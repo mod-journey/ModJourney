@@ -1,4 +1,4 @@
-export {};
+export { };
 
 declare global {
   namespace globalThis {
@@ -12,10 +12,22 @@ declare global {
       ores: string[];
       gems: string[];
       ato: {
-        vanilla: string[];
-        metall: string[];
-        alloy: string[];
-        gems: string[];
+        vanilla: Array[{
+          name: string;
+          regex: RegExp;
+        }];
+        metall: Object[{
+          name: string;
+          regex: RegExp;
+        }];
+        alloy: Array[{
+          name: string;
+          regex: RegExp;
+        }];
+        gems: Array[{
+          name: string;
+          regex: RegExp;
+        }];
         mold: {
           plate: string;
           gear: string;
@@ -24,8 +36,12 @@ declare global {
           packing_3: string;
           unpacking: string;
         };
+        types: Array[{
+
+        }];
         other: string[];
       };
+      craftingTypes: string[];
     }
 
     var mjOres: mjOres;
