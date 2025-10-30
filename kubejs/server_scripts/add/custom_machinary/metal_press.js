@@ -2,7 +2,7 @@ let add_custom_machinary_metalpress = (event, active, debug) => {
     if (!active) return;
 
     //Crafting the Machine itselfs:
-    event.shaped('custommachinery:custom_machine_item[custommachinery:machine="mod_journey:mechanical_press"]', [
+    event.shaped("mod_journey:mechanical_press", [
         'FAF',
         'BEC',
         'FDF'

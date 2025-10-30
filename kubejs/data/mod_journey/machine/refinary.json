@@ -1,0 +1,253 @@
+{
+  "name": {
+    "text": "Raffinerie",
+    "color": "white"
+  },
+  "appearance": {
+    "custommachinery:block": "mod_journey:antimatter_block"
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT",
+        "input": true
+      },
+      "capacity": 10000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT",
+        "input": true
+      },
+      "id": "input1",
+      "capacity": 10000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT",
+        "input": true
+      },
+      "id": "input2",
+      "capacity": 10000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "whitelist": "#c:phenolic_resin",
+      "id": "output1",
+      "capacity": 10000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "blacklist": "#c:phenolic_resin",
+      "id": "output2",
+      "capacity": 10000
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": "immersiveengineering:mold_plate",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT",
+        "input": true
+      },
+      "id": "in1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "blacklist": "immersiveengineering:mold_plate",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT",
+        "input": true
+      },
+      "id": "in2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": "immersiveengineering:mold_plate",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "out1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "blacklist": "immersiveengineering:mold_plate",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "out2",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:dump",
+      "x": 53,
+      "y": 82,
+      "width": 17,
+      "height": 8,
+      "tanks": "input1"
+    },
+    {
+      "type": "custommachinery:dump",
+      "x": 183,
+      "y": 82,
+      "width": 17,
+      "height": 8,
+      "tanks": "input2"
+    },
+    {
+      "type": "custommachinery:energy",
+      "orientation": "BOTTOM",
+      "x": 46,
+      "y": 37,
+      "width": 6,
+      "height": 29
+    },
+    {
+      "type": "custommachinery:energy",
+      "orientation": "BOTTOM",
+      "x": 201,
+      "y": 37,
+      "width": 6,
+      "height": 29
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "in1",
+      "priority": 1,
+      "x": 53,
+      "y": 37
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input2",
+      "priority": 1,
+      "x": 182,
+      "y": 37
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "output1",
+      "priority": 1,
+      "x": 109,
+      "y": 58,
+      "height": 24
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "output2",
+      "priority": 1,
+      "x": 127,
+      "y": 58,
+      "height": 24
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 47,
+      "y": 110
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 70,
+      "y": 66,
+      "width": 40
+    },
+    {
+      "type": "custommachinery:progress",
+      "orientation": "LEFT",
+      "x": 143,
+      "y": 66,
+      "width": 40
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "in1",
+      "x": 71,
+      "y": 37
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "in2",
+      "x": 164,
+      "y": 37
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "out1",
+      "x": 109,
+      "y": 37
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "out2",
+      "x": 127,
+      "y": 37
+    }
+  ]
+}
