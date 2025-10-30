@@ -115,12 +115,12 @@
 		# DEFAULT: allow force-loading IF the team has at least one player with the 'ftbchunks.chunk_load_offline' FTB Ranks permission.
 		# Default: "default"
 		# Valid values: "default", "always", "never"
-		force_load_mode: "default"
+		force_load_mode: "always"
 
 		# Hard limit for the number of chunks a team can force-load, regardless of how many members. Default of 0 means no hard limit.
 		# Default: 0
 		# Range: 0 ~ 2147483647
-		hard_team_force_limit: 0
+		hard_team_force_limit: 100
 
 		# Max force loaded chunks.
 		# You can override this with FTB Ranks 'ftbchunks.max_force_loaded' permission

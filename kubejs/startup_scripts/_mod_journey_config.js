@@ -2,7 +2,7 @@
 
 let WEEK = HOUR*24*7
 
-global.mjConfig = {
+const mjConfig = {
     stages: {
         stage1: {
             vanilla: "mod_journey:staging/frame_core_1",
@@ -76,8 +76,10 @@ global.mjConfig = {
 }
 
 for (let i=1; i<=4; i++) {
-    global.mjConfig.times[`week_${i}`] = global.mjConfig.times.projectStart + (WEEK/1000) * i;
+    mjConfig.times[`week_${i}`] = mjConfig.times.projectStart + (WEEK/1000) * i;
 }
+
+global.mjConfig = mjConfig
 
 /*
 // Debug Times

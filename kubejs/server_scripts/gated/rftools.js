@@ -9,13 +9,13 @@ let rfttools_gated = (event, active, debug) => {
     event.replaceInput(
         { id: 'rftoolsbase:machine_frame' },
         'minecraft:gold_nugget',
-        stages.stage1.core
+        mjConfig.stages.stage1.core
     )
 
     // Module Template
     event.replaceInput(
         { id: 'rftoolsutility:module_template' },
         'rftoolsbase:dimensionalshard',
-        stages.stage1.core
+        mjConfig.stages.stage1.core
     )
 }

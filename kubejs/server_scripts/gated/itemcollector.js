@@ -8,6 +8,6 @@ let itemcollector_gated = (event, active, debug) => {
     event.replaceInput(
         { id: 'itemcollectors:basic_collector' },
         'minecraft:obsidian',
-        stages.stage1.core
+        mjConfig.stages.stage1.core
     )
 }

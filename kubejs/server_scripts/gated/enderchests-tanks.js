@@ -9,7 +9,7 @@ let enderchestandtank_gated = (event, active, debug) => {
     event.replaceInput(
         { id: 'enderchests:ender_pouch' },
         'minecraft:leather',
-        stages.stage1.core
+        mjConfig.stages.stage1.core
     )
 
     // EnderTank
@@ -17,7 +17,7 @@ let enderchestandtank_gated = (event, active, debug) => {
         { id: 'endertanks:ender_tank' },
         r => {
             // Replace `#' what stands for '#forge:rods/blaze'
-            r.json.get('key').add('#', { item: stages.stage1.core })
+            r.json.get('key').add('#', { item: mjConfig.stages.stage1.core })
             // Add changed recipe as custom (because changes in json are NOT back-linked to the recipe-object)
             event.custom(r.json).id(r.getId())
         }
@@ -28,7 +28,7 @@ let enderchestandtank_gated = (event, active, debug) => {
         { id: 'endertanks:ender_bucket' },
         r => {
             // Replace `#' what stands for 'minecraft:blaze_powder'
-            r.json.get('key').add('#', { item: stages.stage1.core })
+            r.json.get('key').add('#', { item: mjConfig.stages.stage1.core })
             // Add changed recipe as custom (because changes in json are NOT back-linked to the recipe-object)
             event.custom(r.json).id(r.getId())
         }

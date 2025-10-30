@@ -11,7 +11,7 @@ let immersive_gated = (event, active, debug) => {
         let replace = r.json.get("key").get("c")
 
         replace.remove("tag")
-        replace.add("item", stages.stage1.vanilla)
+        replace.add("item", mjConfig.stages.stage1.vanilla)
         event.custom(r.json).id(r.getId())
     })
 }

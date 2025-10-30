@@ -299,11 +299,18 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "41BD2E2D26D48CD0"
-				item: { count: 1, id: "twilightforest:magic_beans" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "41BD2E2D26D48CD0"
+					item: { count: 1, id: "twilightforest:magic_beans" }
+					type: "item"
+				}
+				{
+					id: "76A70C3153B71AB9"
+					item: { count: 1, id: "twilightforest:uberous_soil" }
+					type: "item"
+				}
+			]
 			x: 13.0d
 			y: 0.0d
 		}

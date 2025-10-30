@@ -10,13 +10,13 @@ function waystones_gated(event, active) {
         let replaceItem = false
 
         if (itemID === 'waystones:warp_plate') {
-            replaceItem = stages.stage3.second
+            replaceItem = mjConfig.stages.stage3.second
         }
         else if (itemID.endsWith('_portstone')) {
-            replaceItem = stages.mod_based.mobGrindingUtils.stick
+            replaceItem = mjConfig.stages.mod_based.mobGrindingUtils.stick
         }
         else if (itemID.endsWith('waystone') || itemID.endsWith('_sharestone')) {
-            replaceItem = stages.stage1.core
+            replaceItem = mjConfig.stages.stage1.core
         }
 
         if (replaceItem) {

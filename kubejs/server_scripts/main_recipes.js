@@ -15,7 +15,7 @@ if (events_server) {
     let gated_event = true;
     let remove_event = true;
     let add_event = true;
-    let replace_ores = false;
+    let replace_ores = true;
     let replace_event = true;
     let customMachine_event = true;
 
@@ -100,24 +100,8 @@ if (events_server) {
         }
 
         if (replace_ores) {
-            event.remove({ output: "#ore:remove" })
-
-            change_gears(event)
-            change_plates(event)
-            change_rods(event)
-
-            ores_replace_immersive(event);
-            ores_replace_laser(event);
-            ores_replace_mekanism_main(event);
-            ores_replace_ore_duplication(event);
-            ores_replace_thermal_thermal(event);
-            ores_replace_thermal_centrifuge(event);
-            ores_replace_thermal_packing(event);
-            ores_replace_thermal_pulverizer(event);
-            ores_replace_thermal_smelter(event);
-            ores_replace_adastra(event);
-            ores_replace_steel(event);
-            ores_remove(event);
+            fixAlloyRecipes(event, true)
+            changeRecipeToATO(event, true)
         }
 
         if (replace_event) {
@@ -126,7 +110,7 @@ if (events_server) {
             replace_stellaris_steel(event, true);
             replace_stellaris_uran(event, true);
         }
-        fixAlloyRecipes(event, true)
+
     })
 };
 

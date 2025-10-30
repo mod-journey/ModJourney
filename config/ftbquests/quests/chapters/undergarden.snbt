@@ -270,7 +270,7 @@
 			}]
 			tasks: [{
 				id: "6DC206489437BCB8"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:forgotten_hoe)item(undergarden:forgotten_shovel)item(undergarden:forgotten_axe)item(undergarden:forgotten_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -7.5d
@@ -355,7 +355,7 @@
 			}]
 			tasks: [{
 				id: "35D7180AD7FB5125"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:froststeel_hoe)item(undergarden:froststeel_shovel)item(undergarden:froststeel_axe)item(undergarden:froststeel_pickaxe)item(undergarden:froststeel_sword))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 4.0d

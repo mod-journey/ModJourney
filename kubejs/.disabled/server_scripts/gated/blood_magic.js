@@ -9,7 +9,7 @@ let bloodmagic_gated = (event, active, debug) => {
     //Blood Altar, add manasteel instead of gold by key "c"
     event.forEachRecipe({ id: 'bloodmagic:blood_altar' },
         r => {
-            r.json.get('key').add('c', { item: stages.stage1.magic.early })
+            r.json.get('key').add('c', { item: mjConfig.stages.stage1.magic.early })
             event.custom(r.json).id(r.getId())
         }
     )
@@ -17,7 +17,7 @@ let bloodmagic_gated = (event, active, debug) => {
     //Ritual Diviner, add Elementium instead of diamonds, by key "d"
     event.forEachRecipe({ id: 'bloodmagic:ritual_diviner_0' },
         r => {
-            r.json.get('key').add('d', { item: stages.stage1.magic.mid })
+            r.json.get('key').add('d', { item: mjConfig.stages.stage1.magic.mid })
             event.custom(r.json).id(r.getId())
         }
     )
@@ -27,7 +27,7 @@ let bloodmagic_gated = (event, active, debug) => {
         r => {
             let change = r.json.get('input0')
             change.remove("tag")
-            change.add('item', stages.stage1.magic.end)
+            change.add('item', mjConfig.stages.stage1.magic.end)
             event.custom(r.json).id(r.getId())
             /* so a regular add, does not overwrite the value. It simple adds a second value.
                in thies case, I remove the tag and adds a new value. Time spent. ~1h ....

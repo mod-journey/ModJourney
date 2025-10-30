@@ -9,7 +9,7 @@ let extremereactor_gated = (event, active, debug) => {
     event.replaceInput(
         { id: 'bigreactors:reactor/basic/casing' },
         '#c:sands',
-        stages.stage2.core
+        mjConfig.stages.stage2.core
     )
 
     //beschränkung auf upgrade Rezept vom advanced Reactor

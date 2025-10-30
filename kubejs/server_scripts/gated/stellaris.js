@@ -8,7 +8,7 @@ let stellaris_gated = (event, active, debug) => {
     ]
 
     energy_gen.forEach(staged => {
-        event.replaceInput({ output: staged }, "minecraft:lapis_lazuli", stages.stage1.core)
+        event.replaceInput({ output: staged }, "minecraft:lapis_lazuli", mjConfig.stages.stage1.core)
     });
 
     event.remove({ id: "stellaris:misc/upgrades/radioactive_motor" })
@@ -25,5 +25,14 @@ let stellaris_gated = (event, active, debug) => {
         event.replaceInput({ output: new_cable }, "stellaris:cable", "pipez:energy_pipe")
     });
 
-
+    event.shaped("stellaris:rocket_station", [
+        'ABA',
+        'BCB',
+        'DDD'
+    ], {
+        A: 'minecraft:lapis_lazuli',
+        B: 'stellaris:heavy_metal_ingot',
+        C: global.mjConfig.stages.stage1.core,
+        D: 'stellaris:iron_plating_block'
+    }).id("stellaris:misc/rocket_station_block")
 }
