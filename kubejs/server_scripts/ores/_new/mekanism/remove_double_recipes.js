@@ -1,35 +1,12 @@
 ServerEvents.recipes(event => {
 
-    let craftingTypes = [
-        '"minecraft:smelting"',
-        '"minecraft:blasting"',
+    let ATO = global.mjOres.ato
+    let ATO_ALL = [ATO.metall, ATO.alloy, ATO.vanilla]
+    let metall = null
+    let form = null
+    let formSecond = null
+    let special = false
 
-        '"immersiveengineering:arc_furnace"',
-        '"immersiveengineering:crusher"',
-        '"immersiveengineering:metal_press"',
-        '"immersiveengineering:alloy"',
-
-        '"mekanism:enriching"',
-        '"mekanism:injecting"',
-        '"mekanism:purifying"',
-        '"mekanism:crushing"',
-        '"mekanism:washing"',
-        '"mekanism:crystallizing"',
-        '"mekanism:dissolution"',
-        '"mekanism:chemical_conversion"',
-
-        '"enderio:sag_milling"',
-        '"enderio:alloy_smelting"',
-
-
-
-        '"minecraft:crafting_shapeless"',
-        '"minecraft:crafting_shaped"'
-    ]
-
-    let check = /^(?!"alltheores:).*(dust|ingot)/
-
-    craftingTypes.forEach(element => {
         console.log("_______________" + element + "_______________")
 
         event.forEachRecipe({}, r => {
