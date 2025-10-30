@@ -42,35 +42,35 @@ global.mjOres = {
 
     ato: {
         vanilla: [
-            'gold',
-            'copper',
-            'iron'
+            { name: 'gold', regex: /(:gold_|_gold")/ },
+            { name: 'copper', regex: /(:copper_|_copper")/ },
+            { name: 'iron', regex: /(:iron_|_iron")/ }
         ],
         metall: [
-            'aluminum',
-            'iridium',
-            'lead',
-            'nickel',
-            'osmium',
-            'platinum',
-            'silver',
-            'tin',
-            'uranium',
-            'zinc'
+            { name: 'aluminum', regex: /(:aluminum_|_aluminum")/ },
+            { name: 'iridium', regex: /(:iridium_|_iridium")/ },
+            { name: 'lead', regex: /(:lead_|_lead")/ },
+            { name: 'nickel', regex: /(:nickel_|_nickel")/ },
+            { name: 'osmium', regex: /(:osmium_|_osmium")/ },
+            { name: 'platinum', regex: /(:platinum_|_platinum")/ },
+            { name: 'silver', regex: /(:silver_|_silver")/ },
+            { name: 'uranium', regex: /(:uranium_|_uranium")/ },
+            { name: 'zinc', regex: /(:zinc_|_zinc")/ },
+            { name: 'tin', regex: /(:tin_|_tin")/ },
         ],
         alloy: [
-            'brass',
-            'signalum',
-            'lumium',
-            'enderium',
-            'constantan',
-            'steel',
-            'invar',
-            'electrum',
-            'bronze'
+            { name: 'brass', regex: /(:brass_|_brass")/ },
+            { name: 'signalum', regex: /(:signalum_|_signalum")/ },
+            { name: 'lumium', regex: /(:lumium_|_lumium")/ },
+            { name: 'enderium', regex: /(:enderium_|_enderium")/ },
+            { name: 'constantan', regex: /(:constantan_|_constantan")/ },
+            { name: 'steel', regex: /(:steel_|_steel")/ },
+            { name: 'invar', regex: /(:invar_|_invar")/ },
+            { name: 'electrum', regex: /(:electrum_|_electrum")/ },
+            { name: 'bronze', regex: /(:bronze_|_bronze")/ },
         ],
         gems: [
-            'diamond'
+            { name: 'diamond', regex: /(:diamond_|_diamond")/ },
         ],
         mold: {
             plate: 'immersiveengineering:mold_plate',
@@ -80,6 +80,23 @@ global.mjOres = {
             packing_3: 'immersiveengineering:mold_packing_9',
             unpacking: 'immersiveengineering:mold_unpacking'
         },
+        types: [
+            { name: 'gear', regex: /(:gear_|_gear")/ },
+            { name: 'rod', regex: /(:rod_|_rod"|stick_)/ },
+            { name: 'plate', regex: /(:plate_|_plate")/ },
+            { name: 'ingot', regex: /(:ingot_|_ingot")/ },
+            { name: 'nugget', regex: /(:nugget_|_nugget")/ },
+            { name: 'dust', regex: /(:dust_|_dust")/ },
+            { name: 'ore', regex: /^(?!.*deepslate).*(_ore|_ore)/ },
+            { name: 'block', regex: /^(?!.*raw_).*(block.*)/ },
+            { name: 'raw', regex: /^(.*raw).*(block.*)|^(.*block).*(raw).*/ }, //raw storageblock
+            { name: 'raw', regex: /^(?!.*block).*(raw)/ }, //raw single ore
+            //{ name: 'deepslate', regex: /^(.*deepslate).*ore/ },
+            { name: 'dirty', regex: /^(.*dirty).*(dust).*/ },
+            { name: 'clump', regex: /(:clump_|_clump")/ },
+            { name: 'crystal', regex: /(:crystal_|_crystal")/ },
+            { name: 'shard', regex: /(:shard_|_shard")/ },
+        ],
         other: [
             'lapis'
         ]
