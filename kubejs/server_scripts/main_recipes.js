@@ -116,7 +116,6 @@ if (events_server) {
             ores_replace_thermal_pulverizer(event);
             ores_replace_thermal_smelter(event);
             ores_replace_adastra(event);
-            ores_replace_steel(event);
             ores_remove(event);
         }
 
