@@ -2,7 +2,7 @@
 
 ## NEXT RELEASE
 
-## v2.0.1.7-rc1
+## v2.0.1.8
 
 #### Some Changes:
 - re-add Iron Farm from Easy Villagers
