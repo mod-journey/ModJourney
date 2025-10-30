@@ -42,6 +42,7 @@ declare global {
         other: string[];
       };
       craftingTypes: string[];
+      excludeItemID: string[];
     }
 
     var mjOres: mjOres;

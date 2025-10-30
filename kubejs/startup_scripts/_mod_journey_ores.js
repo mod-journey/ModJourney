@@ -126,5 +126,8 @@ global.mjOres = {
 
         '"minecraft:crafting_shapeless"',
         '"minecraft:crafting_shaped"'
+    ],
+    excludeItemID: [
+        '"stellaris:steel_plating_block"'
     ]
 }
