@@ -12,7 +12,7 @@
 	# Range: 0 ~ 15
 	glowstoneLightLevel = 15
 	#If true, framed blocks are completely fire proof
-	fireproofBlocks = false
+	fireproofBlocks = true
 
 [powered_framing_saw]
 	#The amount of power the Powered Framing Saw can store
