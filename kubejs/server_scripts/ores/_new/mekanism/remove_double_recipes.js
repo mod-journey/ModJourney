@@ -7,6 +7,7 @@ ServerEvents.recipes(event => {
     let formSecond = null
     let special = false
 
+    /**
      * @param {String} output Die Item-ID z.b. r.json.get("output").get("item")
      * @returns {String} metall-Name aus ATO.type.name und bei außnahmen den zweiten String. Hardcoded
      */
@@ -69,73 +70,74 @@ ServerEvents.recipes(event => {
         //Nach Rezeptanlegung, werden Werte für den Nächsten lauf wieder genullt.
         form = null; metall = null; formSecond = null ; special = false
     }
+
+    /**
+     * Filtert alle bekannten types durch. Diese sind in global.mjOres.craftingTypes definiert. Anschließend kann
+     * man die vorhandenen Builder benutzen, oder auch eigene Filter mit anlegen. Funktionen, Auslagerung, der Übersichtlichkeit benutzen.
+     */
+    global.mjOres.craftingTypes.forEach(element => {
         console.log("_______________" + element + "_______________")
 
         event.forEachRecipe({}, r => {
+            if (!(r.json.get("type").toString() === element)) return;
 
-            function getType(name) {
-                if (r.json.get("type").toString() === name) {
-                    return true
-
-                } else {
-                    return false
-
+            if (r.json.get("result") !== null) {
+                if (r.json.get("result").get("id") !== null) {
+                    findOres(r.json.get("result").get("id"))
+                    changeOutput(r, r.json.get("result"), "id")
                 }
-            }
-
-            if (getType(element)) {
-                if (r.json.get("result") !== null) {
-                    if (r.json.get("result").get("id") !== null) {
-                        if (check.test(r.json.get("result").get("id"))) {
-                            console.log(r.json.get("result").get("id"))
-                        }
-                    }
-                    else if (r.json.get("result").get("item") !== null) {
-
-                    }
-                    else if (r.json.get("result").get("basePredicate") !== null) {
-
-                    }
-                    else if (r.json.get("result").get("tag") !== null) {
-
-                    }
-                    else {
-                        console.log(r.getId())
-                        console.log(r.json.get("result"))
-                    }
+                else if (r.json.get("result").get("item") !== null) {
+                    findOres(r.json.get("result").get("item"))
+                    changeOutput(r, r.json.get("result"), "item")
                 }
-                else if ((r.json.get("results") !== null)) {
-                    if (r.json.get("results").size() === 1) {
-                        if (r.json.get("results").get(0).has("item")) {
-
-                        }
-                        else if (r.json.get("results").get(0).has("basePredicate")) {
-
-                        }
-                        else if (r.json.get("results").get(0).has("tag")) {
-
-                        }
-                        else if (r.json.get("results").get(0).has("id")) {
-
-                        }
-                        else {
-                            console.log(r.json.get("results").get(0))
-                        }
-                    }
+                else if (r.json.get("result").get("basePredicate") !== null) {
+                    findOres(r.json.get("result").get("basePredicate").get("item"))
+                    changeOutput(r, r.json.get("result").get("basePredicate"), "item")
                 }
-                else if (r.json.get("output") !== null) {
-                    if (r.json.get("output").has("id")) {
-
-                    } else {
-                        console.log(r.json.get("output"))
-                    }
+                else if (r.json.get("result").get("tag") !== null) {
+                    //Hahahaha du mich auch!
                 }
                 else {
+                    console.log("Some Recipe-ID are not tracked with ouput \"result\":")
                     console.log(r.getId())
-                    console.log(r.json)
-                };
-
+                }
+            }
+            else if ((r.json.get("results") !== null)) {
+                if (r.json.get("results").size() === 1) {
+                    if (r.json.get("results").get(0).has("item")) {
+                        findOres(r.json.get("results").get(0).has("item"))
+                        changeOutput(r, r.json.get("results").get(0), "item")
+                    }
+                    else if (r.json.get("results").get(0).has("basePredicate")) {
+                        findOres(r.json.get("results").get(0).has("basePredicate"))
+                        changeOutput(r, r.json.get("results").get(0), "basePredicate")
+                    }
+                    else if (r.json.get("results").get(0).has("tag")) {
+                        //Hahahaha du mich auch!²
+                    }
+                    else if (r.json.get("results").get(0).has("id")) {
+                        findOres(r.json.get("results").get(0).get("id"))
+                        changeOutput(r, r.json.get("results").get(0), "id")
+                    }
+                    else {
+                        console.log("Some Recipe-ID are not tracked with ouput \"results\":")
+                        console.log(r.getId())
+                    }
+                }
+            }
+            else if (r.json.get("output") !== null) {
+                if (r.json.get("output").has("id")) {
+                    findOres(r.json.get("output").get("id"))
+                    changeOutput(r, r.json.get("output"), "id")
+                } else {
+                    console.log("Some Recipe-ID are not tracked with ouput \"output\":")
+                    console.log(r.getId())
+                }
+            }
+            else {
+                console.log("Some Recipe-ID are not tracked with ouput \"unknown\":")
+                console.log(r.getId())
             };
         });
     });
-})
+});
