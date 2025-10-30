@@ -19,6 +19,7 @@
 	chapter.488F73A73A492F5A.title: "Ad Astra"
 	chapter.498D9D93A15CB670.title: "Sophisticated Backbacks"
 	chapter.508F596567C2F7D1.title: "Mystical Agriculture V u. VI"
+	chapter.50D5A665905BB3E8.title: "lobby"
 	chapter.5130837EB7936D7C.title: "Mob Grinding Utils"
 	chapter.53C1E22F3D3647F5.title: "Functional Drawer"
 	chapter.54043FA86481F5EB.title: "Thermal"
@@ -68,6 +69,7 @@
 	quest.026B9FF404AEA42D.title: "Nur noch ein schritt ins Portal"
 	quest.0295BE21DA3E9D39.quest_desc: ["Diese Fackeln können im Aether als Lichtquelle hingestellt werden, wenn es Nacht...achja, da war ja was."]
 	quest.0295BE21DA3E9D39.title: "Es werde Licht"
+	quest.02F2C698E9AAF0D8.quest_desc: ["wenn die Lobby betreten werden darf, muss dieser Task in der Lobby gelöscht werden"]
 	quest.031506467C50A735.title: "Schildkröte II"
 	quest.0351CB5474F159D3.quest_desc: ["Der Enchanter's Shield funktioniert wie ein normaler Schild, gibt dem Anwender aber Mana Regeneration und Spell Damage nach dem Blocken eines Angriffs. Außerdem repariert dieser sich automatisch durch das eigene Mana."]
 	quest.0351CB5474F159D3.title: "Verteidigung ist die beste Verteidigung"
@@ -477,6 +479,7 @@
 		"6. Spirited"
 		"7. Nitro"
 	]
+	quest.151CC808784420E0.quest_desc: ["wenn der proxy server freigeschaltet werden soll, muss dieser Task gelöscht werden"]
 	quest.154B0F746470B712.quest_subtitle: "Energie Speichern!"
 	quest.15697EE0C7A58D46.quest_subtitle: "Aus dem neu gewonnen Flux Dust, kannst du nun einen Flux Core craften!"
 	quest.1595A8280A792BA3.quest_desc: ["Loot, oder XP können von diesem Item aufgenommen werden und in alle Richtungen aktiv abgegeben werden. "]
@@ -2418,6 +2421,7 @@
 	task.681C8F247C99A96F.title: "Level 80"
 	task.68C94AF9FDB6A1CD.title: "Commands"
 	task.68E447E6E606C6BF.title: "Finde eine End City"
+	task.68F82F274515476B.title: "delete_me"
 	task.6A9AE588C09FF0A7.title: "ACHTUNG!"
 	task.6B314ACDD4214084.title: "Supreme Black Hole Unit"
 	task.6B5753E62DA39A95.title: "Tier 5"
@@ -2428,6 +2432,7 @@
 	task.6DCBFF98F634FC05.title: "Any Undergarden Mushroom"
 	task.6DD47017596E7645.title: "moi"
 	task.6FF8DF5C6BA9E591.title: "Any #botania:generating_special_flowers"
+	task.7065FFFD8DBA14FA.title: "open_proxy_server"
 	task.7203F46653E6A739.title: "Dein Start mit Botania"
 	task.72A47B857312AED5.title: "hide blue_skies"
 	task.72B008863DBD6560.title: "Miners Entry"

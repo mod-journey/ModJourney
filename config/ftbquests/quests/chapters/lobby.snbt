@@ -1,0 +1,67 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lobby"
+	group: "138E6CC1C80F610D"
+	id: "50D5A665905BB3E8"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "02F2C698E9AAF0D8"
+			tasks: [{
+				id: "68F82F274515476B"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["02F2C698E9AAF0D8"]
+			id: "3EC5150179384E7B"
+			rewards: [{
+				auto: "invisible"
+				id: "4AC8777D8A4C71E6"
+				ignore_reward_blocking: true
+				stage: ""
+				type: "gamestage"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "1D2AC1026AD291B8"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "151CC808784420E0"
+			tasks: [{
+				id: "7065FFFD8DBA14FA"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["151CC808784420E0"]
+			id: "3F693CFB281190A8"
+			rewards: [{
+				auto: "enabled"
+				command: "/modjourney proxy open"
+				id: "1FD0ACBCF29C5DF8"
+				permission_level: 4
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "3797C693E20DE6E5"
+				type: "dimension"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+	]
+}
