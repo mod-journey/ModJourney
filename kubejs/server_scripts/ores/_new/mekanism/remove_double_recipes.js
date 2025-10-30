@@ -36,6 +36,39 @@ ServerEvents.recipes(event => {
             }
         });
     }
+
+    /**
+     *
+     * @param {$Gson} recipe Das gerade zu bearbeitende Rezept
+     * @param {*} ObjKeyVal der Pfad um Key zu entfernen
+     * @param {*} key der zu entfernende Key, Value wird aus findOres() ermittelt.
+     */
+    function changeOutput(recipe, ObjKeyVal, key) {
+        if (special && !(form === null) && !(metall === null)) {
+            if (!(["ingot", "nugget", "block", "raw", "ore", "dirty"].includes(form))) {
+                console.log("Start: " + ObjKeyVal)
+                ObjKeyVal.remove(key)
+                ObjKeyVal.add(key, `alltheores:${metall}_${form}`)
+                event.custom(recipe.json).id(recipe.getId())
+                console.log("Ende: " + ObjKeyVal)
+                form = null; metall = null; formSecond = null;
+            }
+        }
+        if (!(special) && !(form === null) && !(metall === null)) {
+            console.log("Start: " + ObjKeyVal)
+            ObjKeyVal.remove(key)
+
+            if (formSecond === null) {
+                ObjKeyVal.add(key, `alltheores:${metall}_${form}`)
+            } else if (formSecond === "dust" || formSecond === "block") {
+                ObjKeyVal.add(key, `alltheores:${form}_${metall}_${formSecond}`)
+            }
+            event.custom(recipe.json).id(recipe.getId())
+            console.log("Ende: " + ObjKeyVal)
+        }
+        //Nach Rezeptanlegung, werden Werte für den Nächsten lauf wieder genullt.
+        form = null; metall = null; formSecond = null ; special = false
+    }
         console.log("_______________" + element + "_______________")
 
         event.forEachRecipe({}, r => {
