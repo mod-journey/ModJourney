@@ -15,7 +15,7 @@ if (events_server) {
     let gated_event = true;
     let remove_event = true;
     let add_event = true;
-    let replace_ores = false;
+    let replace_ores = true;
     let replace_event = true;
     let customMachine_event = true;
 

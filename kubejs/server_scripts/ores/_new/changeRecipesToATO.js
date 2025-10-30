@@ -1,6 +1,6 @@
 let changeRecipeToATO = (event, active, debug) => {
     if (!active) return;
-    ServerEvents.recipes(event => {
+    //ServerEvents.recipes(event => {
         let ATO = global.mjOres.ato
         let ATO_ALL = [ATO.metall, ATO.alloy, ATO.vanilla]
         let metall = null
@@ -51,16 +51,16 @@ let changeRecipeToATO = (event, active, debug) => {
             }
             if (special && !(form === null) && !(metall === null)) {
                 if (!(["ingot", "nugget", "block", "raw", "ore", "dirty"].includes(form))) {
-                    console.log("Start: " + ObjKeyVal)
+                    //console.log("Start: " + ObjKeyVal)
                     ObjKeyVal.remove(key)
                     ObjKeyVal.add(key, `alltheores:${metall}_${form}`)
                     event.custom(recipe.json).id(recipe.getId())
-                    console.log("Ende: " + ObjKeyVal)
+                    //console.log("Ende: " + ObjKeyVal)
                     form = null; metall = null; formSecond = null;
                 }
             }
             if (!(special) && !(form === null) && !(metall === null)) {
-                //console.log("Start: " + ObjKeyVal)
+                console.log("Start: " + ObjKeyVal)
                 ObjKeyVal.remove(key)
 
                 if (formSecond === null) {
@@ -69,7 +69,7 @@ let changeRecipeToATO = (event, active, debug) => {
                     ObjKeyVal.add(key, `alltheores:${form}_${metall}_${formSecond}`)
                 }
                 event.custom(recipe.json).id(recipe.getId())
-                //console.log("Ende: " + ObjKeyVal)
+                console.log("Ende: " + ObjKeyVal)
             }
             //Nach Rezeptanlegung, werden Werte für den Nächsten lauf wieder genullt.
             form = null; metall = null; formSecond = null; special = false
@@ -144,5 +144,5 @@ let changeRecipeToATO = (event, active, debug) => {
                 };
             });
         });
-    });
+    //});
 }
