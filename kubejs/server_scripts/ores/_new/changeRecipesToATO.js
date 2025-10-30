@@ -60,7 +60,7 @@ let changeRecipeToATO = (event, active, debug) => {
                 }
             }
             if (!(special) && !(form === null) && !(metall === null)) {
-                console.log("Start: " + ObjKeyVal)
+                //console.log("Start: " + ObjKeyVal)
                 ObjKeyVal.remove(key)
 
                 if (formSecond === null) {
@@ -69,7 +69,7 @@ let changeRecipeToATO = (event, active, debug) => {
                     ObjKeyVal.add(key, `alltheores:${form}_${metall}_${formSecond}`)
                 }
                 event.custom(recipe.json).id(recipe.getId())
-                console.log("Ende: " + ObjKeyVal)
+                //console.log("Ende: " + ObjKeyVal)
             }
             //Nach Rezeptanlegung, werden Werte für den Nächsten lauf wieder genullt.
             form = null; metall = null; formSecond = null; special = false
