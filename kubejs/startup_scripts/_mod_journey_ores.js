@@ -90,7 +90,7 @@ global.mjOres = {
             { name: 'ore', regex: /^(?!.*deepslate).*(_ore|_ore)/ },
             { name: 'block', regex: /^(?!.*raw_).*(block.*)/ },
             { name: 'raw', regex: /^(.*raw).*(block.*)|^(.*block).*(raw).*/ }, //raw storageblock
-            { name: 'raw', regex: /^(?!.*block).*(raw)/ }, //raw single ore
+            //{ name: 'raw', regex: /^(?!.*block)[^:]+:raw_([a-z]+")/ }, //raw single ore name of raw_block, replace nach _ array 0
             //{ name: 'deepslate', regex: /^(.*deepslate).*ore/ },
             { name: 'dirty', regex: /^(.*dirty).*(dust).*/ },
             { name: 'clump', regex: /(:clump_|_clump")/ },
