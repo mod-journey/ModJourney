@@ -45,6 +45,9 @@ ServerEvents.recipes(event => {
      * @param {*} key der zu entfernende Key, Value wird aus findOres() ermittelt.
      */
     function changeOutput(recipe, ObjKeyVal, key) {
+        if (global.mjOres.excludeItemID.includes(ObjKeyVal.get(key) + '')) {
+            form = null; metall = null; formSecond = null; special = false
+        }
         if (special && !(form === null) && !(metall === null)) {
             if (!(["ingot", "nugget", "block", "raw", "ore", "dirty"].includes(form))) {
                 console.log("Start: " + ObjKeyVal)
@@ -68,7 +71,7 @@ ServerEvents.recipes(event => {
             console.log("Ende: " + ObjKeyVal)
         }
         //Nach Rezeptanlegung, werden Werte für den Nächsten lauf wieder genullt.
-        form = null; metall = null; formSecond = null ; special = false
+        form = null; metall = null; formSecond = null; special = false
     }
 
     /**
