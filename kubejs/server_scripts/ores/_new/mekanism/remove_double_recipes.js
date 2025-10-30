@@ -7,6 +7,35 @@ ServerEvents.recipes(event => {
     let formSecond = null
     let special = false
 
+     * @param {String} output Die Item-ID z.b. r.json.get("output").get("item")
+     * @returns {String} metall-Name aus ATO.type.name und bei außnahmen den zweiten String. Hardcoded
+     */
+    function findOres(output) {
+        let excludeATM = /^(?!"alltheores:).*/
+        if (!(excludeATM.test(output))) return;
+
+        ATO_ALL.forEach(_ATO => {
+            for (let i = 0; i < _ATO.length; i++) {
+                if (_ATO[i].regex.test(output)) {
+                    metall = _ATO[i].name
+                    //Prüfe ob Vanilla Erze, nur teilweise in ATM implementiert...
+                    if (["iron", "copper", "gold", "diamomd"].includes(metall)) {
+                        special = true
+                    }
+                    for (let j = 0; j < ATO.types.length; j++) {
+                        if (ATO.types[j].regex.test(output)) {
+                            form = ATO.types[j].name
+                            if (form === "dirty") {
+                                formSecond = "dust"
+                            } else if (form === "raw") {
+                                formSecond = "block"
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    }
         console.log("_______________" + element + "_______________")
 
         event.forEachRecipe({}, r => {
