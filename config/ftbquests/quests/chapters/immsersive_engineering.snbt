@@ -695,6 +695,12 @@
 		}
 		{
 			dependencies: ["19BDD9A98862D1F7"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/accept_gray"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "6F5C2EEF4E3ECCEA"
 			rewards: [{
 				id: "488DD7D22501A952"
@@ -704,10 +710,17 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "66A3304C4C6E7629"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "66A3304C4C6E7629"
+					type: "checkmark"
+				}
+				{
+					id: "63DBB12D10B32F84"
+					item: { count: 1, id: "mod_journey:staging/frame_core_1" }
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: 2.0d
 		}
