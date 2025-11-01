@@ -1,8 +1,8 @@
 {
 	autofocus_id: "120748C2D29DA6FC"
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
-	filename: "sophicated_bagbacks"
+	default_quest_shape: "",
+	filename: "sophisticated_backpacks",
 	group: "12D6D4D26DC1B099"
 	icon: {
 		id: "sophisticatedbackpacks:backpack"
