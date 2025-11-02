@@ -22,7 +22,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				dimension: "minecraft:the_nether"
+				dimension: "aether:the_aether"
 				id: "4627D35561E99028"
 				type: "dimension"
 			}]

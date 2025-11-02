@@ -472,7 +472,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -6.5d
+			y: -5.5d
 		}
 		{
 			can_repeat: true
@@ -532,7 +532,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -612,7 +612,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			can_repeat: true

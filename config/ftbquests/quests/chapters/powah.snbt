@@ -662,20 +662,31 @@
 			]
 			dependency_requirement: "one_completed"
 			hide_until_deps_complete: true
+			icon: {
+				id: "powah:dielectric_paste"
+			}
 			id: "012414144A7C0228"
-			rewards: [{
-				id: "37469F31530540FC"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					id: "37469F31530540FC"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "6FCBFBDD2BEBBDF0"
-				item: { count: 1, id: "powah:dielectric_paste" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "31116464635FBB32"
+					item: { count: 1, id: "mod_journey:staging/frame_core_3" }
+					type: "item"
+				}
+				{
+					id: "10BF8C6DE952AE20"
+					item: { count: 1, id: "powah:dielectric_paste" }
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -3.5d
 		}
