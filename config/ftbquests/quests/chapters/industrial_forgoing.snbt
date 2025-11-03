@@ -19,6 +19,7 @@
 					exclude_from_claim_all: true
 					id: "0406FB3BD61565EC"
 					table_id: 2498778483368621286L
+					team_reward: true
 					type: "loot"
 				}
 				{
