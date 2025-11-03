@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "Crop Planter",
+    "text": "item.mod_journey.machine.seed_planter",
     "color": "white"
   },
   "appearance": {

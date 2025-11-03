@@ -1,6 +1,6 @@
 {
   "name": {
-    "text": "Pulverizer",
+    "text": "item.mod_journey.machine.pulverizer",
     "color": "white"
   },
   "appearance": {
@@ -91,7 +91,7 @@
       "y": 12,
       "width": 94,
       "text": {
-        "text": "Pulverizer",
+        "text": "item.mod_journey.machine.pulverizer",
         "color": "black",
         "bold": true
       }
