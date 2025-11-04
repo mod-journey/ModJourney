@@ -24,7 +24,7 @@ let modjourney_gated_items = (event, active, debug) => {
         'WSW'
     ], {
         S: 'minecraft:slime_ball',
-        W: 'minecraft:oak_planks'
+        W: '#planks'
     }).id('mod_journey:shaped/lumber');
 
     event.shaped('mod_journey:steel_carrier', [
