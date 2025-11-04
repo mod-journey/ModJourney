@@ -234,7 +234,7 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7CD4BB26A718C894"]
@@ -381,27 +381,6 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["7CD4BB26A718C894"]
-			id: "6EFAEE92801D584C"
-			rewards: [{
-				id: "6C7C10047E33F42C"
-				item: {
-					count: 1
-					id: "mysticalagriculture:deepslate_seeds"
-				}
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				count: 50000L
-				id: "507A15511FE203DB"
-				item: { count: 1, id: "minecraft:cobbled_deepslate" }
-				type: "item"
-			}]
-			x: -11.0d
 			y: 3.0d
 		}
 		{
@@ -655,7 +634,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["129C8CD4FD0D1AFF"]
@@ -677,27 +656,6 @@
 			}]
 			x: -13.5d
 			y: 4.5d
-		}
-		{
-			dependencies: ["6EFAEE92801D584C"]
-			id: "2F3FCCA95F8EAE7A"
-			rewards: [{
-				id: "1E96F2852F9D8DB1"
-				item: {
-					count: 1
-					id: "mysticalagriculture:deepslate_seeds"
-				}
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				count: 75L
-				id: "0C657419C103AB61"
-				item: { count: 1, id: "mod_journey:copper_coin" }
-				type: "item"
-			}]
-			x: -13.5d
-			y: 3.0d
 		}
 		{
 			dependencies: ["3E4BA97E77B46B32"]
@@ -1120,27 +1078,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["2F3FCCA95F8EAE7A"]
-			id: "1313C7E06930DB69"
-			rewards: [{
-				id: "504D0DC1AE93B9BD"
-				item: {
-					count: 1
-					id: "mysticalagriculture:deepslate_seeds"
-				}
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				count: 15L
-				id: "5105D267D07FDD09"
-				item: { count: 1, id: "mod_journey:silver_coin" }
-				type: "item"
-			}]
-			x: -16.0d
-			y: 3.0d
-		}
-		{
 			dependencies: ["01DEF2DAFC937F8E"]
 			id: "7E644433778532BB"
 			rewards: [{
@@ -1180,7 +1117,7 @@
 				type: "item"
 			}]
 			x: -16.0d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
 			can_repeat: true
@@ -1382,28 +1319,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["1313C7E06930DB69"]
-			id: "22F7230A59AC0302"
-			rewards: [{
-				id: "49EBF5867D969922"
-				item: {
-					count: 1
-					id: "mysticalagriculture:deepslate_seeds"
-				}
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				count: 2L
-				id: "648088DC1359B243"
-				item: { count: 1, id: "mod_journey:gold_coin" }
-				type: "item"
-			}]
-			x: -18.5d
-			y: 3.0d
-		}
-		{
-			can_repeat: true
 			dependencies: ["7E644433778532BB"]
 			id: "014F159CFE840FB8"
 			rewards: [{
@@ -1444,7 +1359,7 @@
 				type: "item"
 			}]
 			x: -18.5d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
 			can_repeat: true
