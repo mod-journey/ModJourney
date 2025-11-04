@@ -188,10 +188,7 @@
 	quest.084F397A9654B3BB.quest_desc: ["Ein ME-Laufwerk bietet Dir die Möglichkeit, 10 Festplatten an dein System anzubinden. "]
 	quest.085524FB2AA3BAEF.quest_desc: ["wird weitaus mehr ballern wie die Rods zuvor."]
 	quest.08A02B295DC87498.title: "Prismarin II"
-	quest.08BDD4ADC8DDB9C2.quest_desc: [
-		"&4Zusätzlich:&r"
-		"Ab dem Einlösen der Quest, kannst Du zusätzlich im Technic-Shop einkaufen. "
-	]
+	quest.08BDD4ADC8DDB9C2.quest_desc: [""]
 	quest.08BDD4ADC8DDB9C2.title: "&4Nitro Kristall"
 	quest.08CD0F35FC56877F.title: "Wir brauchen Leder"
 	quest.08EA8E426B32DE48.quest_desc: ["Mit den Oxygen-Tanks kannst du Teile deines Raumanzugs craften. Außerdem benötigst Du sie um Sauerstoff nachzutanken. Hast Du vor auf andere Planeten zu fliegen? Nehm dir immer welche auf Vorrat mit. "]
@@ -1479,6 +1476,10 @@
 	quest.4B91378F01114966.quest_desc: ["Erhöht die Höhe des Entity Spawners"]
 	quest.4B916435E4D68736.quest_desc: ["Die Source Berry Roll bietet eine länger andauernde Mana Regeneration und sättigt gleichzeitig auch ordentlich. Das perfekte Mittagessen für jeden Zauberer, der was aus sich hält."]
 	quest.4B916435E4D68736.title: "Früchtebrot"
+	quest.4B9318FBFB1FF36F.quest_desc: [
+		"&4Zusätzlich:&r"
+		"Ab dem Einlösen der Quest, kannst Du zusätzlich im Technic-Shop einkaufen. "
+	]
 	quest.4B9318FBFB1FF36F.quest_subtitle: "Quasi unendlich strom"
 	quest.4B9318FBFB1FF36F.title: "Fusion Reaktor"
 	quest.4B9CC6EB7E14CAD7.quest_desc: ["Achtung Frostig!"]
