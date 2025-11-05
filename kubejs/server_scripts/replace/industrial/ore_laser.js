@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
                 for (let i = 0; i < rarityArray.size(); i++) {
                     let entry = rarityArray.get(i);     //holen der einzelnen Index vom array
 
-                    let newDimensionFilter = JSON.parse('{"whitelist": ["stellaris:venus"], "blacklist": []}'); //objekt welches ins array neu eingetragen wird
+                    let newDimensionFilter = JSON.parse('{"whitelist": ["stellaris:mars"], "blacklist": []}'); //objekt welches ins array neu eingetragen wird
                     entry.add("dimension_filter", newDimensionFilter);  //bauen des neuen objektes
                     rarityArray.set(i, entry);  //füge das neue objekt an index des zählers
                 }
@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
                 for (let i = 0; i < rarityArray.size(); i++) {
                     let entry = rarityArray.get(i);
 
-                    let newDimensionFilter = JSON.parse('{"whitelist": ["stellaris:mars"], "blacklist": []}');
+                    let newDimensionFilter = JSON.parse('{"whitelist": ["stellaris:venus"], "blacklist": []}');
                     entry.add("dimension_filter", newDimensionFilter);
                     rarityArray.set(i, entry);
                 }
