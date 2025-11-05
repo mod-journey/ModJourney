@@ -17,9 +17,9 @@ let add_custom_machinary_metalpress = (event, active, debug) => {
 
     let PRESSOBJECT = global.mjOres
 
-    function mechanical_press(mold, ingredient, ores, output, energy) {
+    function mechanical_press(mold, input, ingredient, ores, output, energy) {
         event.recipes.custommachinery.custom_machine("mod_journey:mechanical_press", 40)
-            .requireItemOnEnd(`2x #c:${ingredient}/${ores}`)
+            .requireItemOnEnd(`${input}x #c:${ingredient}/${ores}`)
             .requireItemOnEnd(mold, "mold")
             .produceItem(`alltheores:${ores}_${output}`)
             .produceItem(mold, "mold")
@@ -27,15 +27,15 @@ let add_custom_machinary_metalpress = (event, active, debug) => {
     }
 
     PRESSOBJECT.ores.forEach(ore => {
-        mechanical_press(PRESSOBJECT.mold.gear, "ingots", ore, "gear", 480)
-        mechanical_press(PRESSOBJECT.mold.plate, "ingots", ore, "plate", 480)
-        mechanical_press(PRESSOBJECT.mold.rod, "ingots", ore, "rod", 480)
+        mechanical_press(PRESSOBJECT.mold.gear, 2, "ingots", ore, "gear", 480)
+        mechanical_press(PRESSOBJECT.mold.plate, 1, "ingots", ore, "plate", 480)
+        mechanical_press(PRESSOBJECT.mold.rod, 1, "ingots", ore, "rod", 480)
     })
 
     PRESSOBJECT.gems.forEach(gem => {
-        mechanical_press(PRESSOBJECT.mold.gear, "gems", gem, "gear", 480)
-        mechanical_press(PRESSOBJECT.mold.plate, "gems", gem, "plate", 480)
-        mechanical_press(PRESSOBJECT.mold.rod, "gems", gem, "rod", 480)
+        mechanical_press(PRESSOBJECT.mold.gear, 2, "gems", gem, "gear", 480)
+        mechanical_press(PRESSOBJECT.mold.plate, 1, "gems", gem, "plate", 480)
+        mechanical_press(PRESSOBJECT.mold.rod, 1, "gems", gem, "rod", 480)
     })
     //mechanical_press(PRESSOBJECT.mold.wire, "ingots", "wire", 480)
 }
