@@ -57,35 +57,35 @@ let add_custom_machinary_seedplanter = (event, active, debug) => {
     }
 
     croptopia_obj.forEach(id => {
-        seedPlanterForCroptopia(id.seed, 0.25, id.crop, 0.5, 200, 2400)
+        seedPlanterForCroptopia(id.seed, 0.25, id.crop, 0.5, 200, 240)
     })
 
     mystical_obj.elemental.forEach(crop => {
-        seedPlanterForMystical(crop.seed, crop.result, 0.25, 1000, 1200)
+        seedPlanterForMystical(crop.seed, crop.result, 0.25, 1000, 120)
     });
 
     mystical_obj.tier1.forEach(crop => {
-        seedPlanterForMystical(crop.seed, crop.result, 0.25, 1000, 1200)
+        seedPlanterForMystical(crop.seed, crop.result, 0.25, 1000, 120)
     });
 
     mystical_obj.tier2.forEach(crop => {
-        seedPlanterForMystical(crop.seed, crop.result, 0.225, 2000, 1800)
+        seedPlanterForMystical(crop.seed, crop.result, 0.225, 2000, 180)
     });
 
     mystical_obj.tier3.forEach(crop => {
-        seedPlanterForMystical(crop.seed, crop.result, 0.2, 3000, 2400)
+        seedPlanterForMystical(crop.seed, crop.result, 0.2, 3000, 240)
     });
 
     mystical_obj.tier4.forEach(crop => {
-        seedPlanterForMystical(crop.seed, crop.result, 0.175, 4000, 3000)
+        seedPlanterForMystical(crop.seed, crop.result, 0.175, 4000, 300)
     });
 
     mystical_obj.tier5.forEach(crop => {
-        seedPlanterForMystical(crop.seed, crop.result, 0.15, 8000, 3600)
+        seedPlanterForMystical(crop.seed, crop.result, 0.15, 8000, 360)
     });
 
     mystical_obj.tier6.forEach(crop => {
-        seedPlanterForMystical(crop.seed, crop.result, 0.1, 10000, 4800)
+        seedPlanterForMystical(crop.seed, crop.result, 0.1, 10000, 480)
     });
 
 }
