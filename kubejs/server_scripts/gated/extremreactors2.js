@@ -14,4 +14,11 @@ let extremereactor_gated = (event, active, debug) => {
 
     //beschränkung auf upgrade Rezept vom advanced Reactor
     event.remove({ id: "bigreactors:reactor/reinforced/casing_upgrade" })
+
+    //staging des reinforced reactor casing mit basic casing.
+    event.replaceInput(
+        {id: 'bigreactors:reactor/reinforced/casing'},
+        'minecraft:iron_block',
+        'bigreactors:basic_reactorcasing'
+    )
 }
