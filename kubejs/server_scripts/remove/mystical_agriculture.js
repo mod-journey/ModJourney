@@ -16,7 +16,8 @@ let remove_mysticalAgriculture = (event, active, debug) => {
         'prudentium',
         'tertium',
         'imperium',
-        'supremium'
+        'supremium',
+        'awakened_supremium',
     ];
 
     remove_tiers.forEach(tier => {
