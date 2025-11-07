@@ -426,7 +426,6 @@
 	quest.12BCB3661FB6ED27.title: "Alchemie-Upgrade"
 	quest.12D3B4B92CA5252C.title: "Let's show: Extreme Reactor"
 	quest.12F3E577725BBD4B.quest_subtitle: "Hier könnt ihr Mystical Agriculture Seeds erwerben sofern ihr bei den Quests / durch Handel keinen Erfolg hattet. Für die Seeds wird der Grundrohstoff des Seeds in einer bestimmten Menge benötigt. Eine Farm solltet ihr dazu also bereits haben. "
-	quest.1313C7E06930DB69.title: "Tiefenschiefer III"
 	quest.132DF5DE67AFA20C.title: "Niotic Kristall I"
 	quest.13C1BA3695707A9D.quest_desc: [
 		"Du entscheidest was für eine Ausgabe, in Fester oder Flüssiger Form."
@@ -721,7 +720,6 @@
 		"Mittels des Füllstandsemitters, lassen sich Redstonesignale ausstoßen, während ein Item gefertigt wird oder um ein Item zu fertigen, in Kombination mit einer Fertigungskarte. "
 		"Ansonsten können damit Füllstände gemessen werden, welche ein Redstone-Signal ausgeben, bei erreichen oder Unterschreiten der angegebenen Menge."
 	]
-	quest.22F7230A59AC0302.title: "Tiefenschiefer IV"
 	quest.22F9E79A0AAB0990.quest_desc: ["Ein erneutes Upgrade für deine Rakete"]
 	quest.2330E243DDA687E9.quest_desc: ["Erweitert die Distanz des Lüfters"]
 	quest.23387B6FD57598D5.quest_subtitle: "Zerlegt einen Rohstoff in Einzelteile"
@@ -895,7 +893,6 @@
 	]
 	quest.2EA99850639C298A.title: "Phantom IV"
 	quest.2EC1511B23D8ABB9.title: "Tintenfisch I"
-	quest.2F3FCCA95F8EAE7A.title: "Tiefenschiefer II"
 	quest.2F43B87E319D7520.quest_desc: ["Nie wieder eine Werkbank craften, benutz deinen Rucksack dafür!"]
 	quest.2F43B87E319D7520.quest_subtitle: "Werkbank to go!"
 	quest.2F6ABA1EE21191DD.quest_desc: ["Wie der Name sagt. Überträgt Flüssigkeiten."]
@@ -2014,7 +2011,6 @@
 	quest.6E93D46AB70FC4EA.quest_subtitle: "Feuchte Angelegenheit I"
 	quest.6E9DAFBCD3D19E5B.quest_desc: ["Damit nicht alle in der Dimension von den Endboss Sounds mitbekommen, kannst Du die folgenden Blöcke dafür nutzen, die Sounds zu unterdrücken."]
 	quest.6E9E23CD83F0D2EE.title: "Radioaktive Speicherzelle"
-	quest.6EFAEE92801D584C.title: "Tiefenschiefer I"
 	quest.6F14BA01A20E3D8F.quest_desc: ["Du benötigst Iridium um ein besseres Rocket Upgrade zu bauen."]
 	quest.6F393C46B730C789.quest_desc: [
 		"Der ME-IO Port transferiert schnell Items von Festplatten auf ein vorhandenes System, oder auch umgekehrt. "

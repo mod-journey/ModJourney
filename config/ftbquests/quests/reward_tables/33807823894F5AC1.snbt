@@ -95,5 +95,46 @@
 			}
 			weight: 0.2f
 		}
+		{ id: "766C5BAEB1AB0AA5", item: { count: 1, id: "minecraft:bundle" } }
+		{
+			id: "0FA9F4FCA9E3DC1A"
+			item: {
+				count: 1
+				id: "waystones:blackstone_waystone"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "47F03A8A24329C82"
+			item: {
+				count: 1
+				id: "waystones:end_stone_waystone"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "21F37FE5850F24EF"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "273BA68C102FF61D"
+			item: {
+				count: 1
+				id: "minecraft:grass_block"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "75E1CCBC694C329C"
+			item: {
+				count: 1
+				id: "minecraft:sniffer_egg"
+			}
+			weight: 0.1f
+		}
 	]
 }
