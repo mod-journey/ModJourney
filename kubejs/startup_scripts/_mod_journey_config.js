@@ -1,6 +1,10 @@
 //priority: 200
 
 let WEEK = HOUR*24*7
+let SECONDS_PER_MINUTE = 60
+let SECONDS_PER_HOUR   = SECONDS_PER_MINUTE * 60
+let SECONDS_PER_DAY    = SECONDS_PER_HOUR * 24
+let SECONDS_PER_WEEK   = SECONDS_PER_DAY * 7
 
 const mjConfig = {
     stages: {

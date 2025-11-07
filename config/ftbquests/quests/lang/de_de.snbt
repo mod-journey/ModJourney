@@ -150,6 +150,7 @@
 	quest.05E2C9D1ECFFFB78.quest_desc: ["\"Mr. Smithers to go\" ist dein Schmiedetisch-Upgrade, für deinen Rucksack."]
 	quest.05E2C9D1ECFFFB78.quest_subtitle: "Mr. Smithers"
 	quest.05E2C9D1ECFFFB78.title: "Schmiede-Upgrade"
+	quest.06058D4919841D02.quest_desc: ["Ab Abschluss der ersten Woche erhältst du (pro Spieler im Team) 2 Münzen aus der täglichen Quest."]
 	quest.06236B87230672E6.quest_desc: ["Dein Hopper fehlt es an Reichweite, probiere es mit Upgrades."]
 	quest.06417ADE2F421986.quest_desc: ["Es schalten sich nun neue Runen frei, welche Du craften kannst. Außerdem sollte dein Blutaltar durch die neuen Möglichkeiten noch Leistungsstärker werden."]
 	quest.064778D724C27365.quest_desc: ["Durch Spaltung wird aus dem Yellorium Cyanite gewonnen"]
@@ -502,7 +503,7 @@
 	]
 	quest.1792B32FDBE2FAB9.title: "Redstone Legierungsbarren III"
 	quest.17AF308CF5197526.quest_desc: ["Schließe den Fluid Hahn an einen Tank an und Du kannst XP abpumpen."]
-	quest.17F4AD786B66A4A7.quest_desc: ["Ein Monat bist du bereits auf deiner Reise, um dein Gebiet weiter auszubauen kannst du ab jetzt 75 Chunks (pro Spieler im Team) claimen."]
+	quest.17F4AD786B66A4A7.quest_desc: ["Ein Monat bist du bereits auf deiner Reise, um dein Gebiet weiter auszubauen kannst du ab jetzt 75 Chunks (pro Spieler im Team) claimen, und du erhältst (pro Spieler im Team) 5 Münzen aus der täglichen Quest."]
 	quest.17FBD31E4EF0D639.title: "Nitro Kristall IV"
 	quest.181561179B55197E.quest_desc: [
 		"Ein Block, welcher UUID, also Spieler-gebunden ist. Dieser beinhaltet mehrere Channels, welche genutzt werden können. Dieser Block ist dein Wireless Input. Kann aber auch als Speicher benutzt werden. Die gesamt Speicherkapazität kann erhöht werden, durch Akkus. Die I/O Rate bleibt gleich. Mit den sogenannten Ender Gates, kann man den Strom, welcher in deinem Netzwerk gespeichert ist, Wireless an Maschinen übertragen. "
@@ -1703,7 +1704,7 @@
 	quest.59802E53AA9E6919.title: "Silizium II"
 	quest.59A51F9358D6A234.quest_desc: ["Wird in \"Aura reicher\" umgebung &l&4im End&r&r eingesammelt, wenn ihr mit einer Bottle and Cork, einen Rechtsklick in die Luft macht."]
 	quest.59E92107A4481944.quest_desc: [
-		"Ab der zweiten Woche kannst du jetzt 50 Chunks (pro Spieler im Team) claimen."
+		"Ab Abschluss der zweiten Woche kannst du 50 Chunks (pro Spieler im Team) claimen, und du erhältst (pro Spieler im Team) 3 Münzen aus der täglichen Quest."
 		""
 		"Außerdem werden die Befehle &9/back&r, &9/home&r, &9/tpa&r und &9/tpahere&r freigeschaltet."
 	]
@@ -2006,6 +2007,7 @@
 	quest.6D8C8F5FCCC086C0.quest_subtitle: "Pumpe den Nether leer."
 	quest.6DE4FDE401002D86.title: "Konduktiver Legierungsbarren I"
 	quest.6E087C2758FDEB6C.quest_desc: ["Drawer sind nun abhängig des Füllstands mit einem Komparator auslesbar."]
+	quest.6E7B5D5F3EC952AD.quest_desc: ["Ab Abschluss der dritten Woche erhältst du (pro Spieler im Team) 4 Münzen aus der täglichen Quest."]
 	quest.6E80082139A42376.quest_desc: ["2x2 Rezepte werden Platz sparend gelagert"]
 	quest.6E80082139A42376.quest_subtitle: "Mach mal kleiner I"
 	quest.6E93D46AB70FC4EA.quest_desc: ["Richtig der Rucksack kann als Pumpe arbeiten. Wie? Keine Ahnung Frag jemand anderes!"]
