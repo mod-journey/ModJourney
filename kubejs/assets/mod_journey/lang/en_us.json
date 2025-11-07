@@ -14,6 +14,8 @@
   "block.mod_journey.antimatter_block": "Antimatter Block",
   "block.mod_journey.clotted_bloodblock": "Clotted Blood Clump",
   "button.mod_journey.shift": "Shift",
+  "chat.message.quest.reward.coins": "You have successfully collected %s coin(s) for your team.",
+  "chat.message.quest.reward.failure": "Something went wrong when submitting the quest. Please contact the organizers immediately.",
   "item.mod_journey.antimatter_block.tooltip": "High compressed block of antimatter",
   "item.mod_journey.antimatter_ingot": "Antimatter Ingot",
   "item.mod_journey.antimatter_ingot.tooltip": "High compressed ingot of antimatter",

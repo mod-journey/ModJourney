@@ -76,10 +76,10 @@ FTBQuestsEvents.customReward("65A83C70BA4FDE02", event => {
 
         // Anzahl der Teammitglieder ausgeben
         console.log("Quest-Erfolg: " + event.player.name.getString() + " hat erfolgreich " + rewardCount + " '" + rewardItem + "' für sein Team abgeholt.");
-        event.player.tell("Du hast erfolgreich " + rewardCount + " Münze/n für dein Team abgeholt")
+        event.player.tell(Text.translate('chat.message.quest.reward.coins', Text.gold(`${rewardCount}`) ))
     } else {
         console.warn("Quest-Fehler: " + event.player.name.getString() + " hat nur ein '" + rewardItem + "' erhalten")
-        event.player.tell("Etwas ist bei der Abgabe der Quest schiefgelaufen, bitte Kontaktiere umgehend die Orga.")
+        event.player.tell(Text.translate('chat.message.quest.reward.failure').red())
     }
 
     for (let n = 1; n <= rewardCount; n++) {

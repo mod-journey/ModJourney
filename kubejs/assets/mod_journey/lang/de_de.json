@@ -14,6 +14,8 @@
   "block.mod_journey.antimatter_block": "Antimatterie Block",
   "block.mod_journey.clotted_bloodblock": "Geronnener Blutklumpen",
   "button.mod_journey.shift": "Umschalt",
+  "chat.message.quest.reward.coins": "Du hast erfolgreich %s Münze/n für dein Team abgeholt",
+  "chat.message.quest.reward.failure": "Etwas ist bei der Abgabe der Quest schiefgelaufen, bitte Kontaktiere umgehend die Orga.",
   "item.mod_journey.antimatter_block.tooltip": "Hoch komprimierter Block aus Antimaterie",
   "item.mod_journey.antimatter_ingot": "Antimatterie Barren",
   "item.mod_journey.antimatter_ingot.tooltip": "Hoch komprimierter Barren aus Antimaterie",
