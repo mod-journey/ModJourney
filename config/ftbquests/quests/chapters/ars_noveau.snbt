@@ -524,7 +524,7 @@
 			}]
 			tasks: [{
 				id: "0C9AA87D5FD692BB"
-				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
+				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
 				type: "item"
 			}]
 			x: 15.0d
