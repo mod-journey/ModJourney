@@ -500,12 +500,12 @@
 				}
 			]
 			tasks: [{
-				count: 10L
+				count: 20L
 				id: "0DAFB26C7AD9D809"
 				item: { count: 1, id: "mod_journey:gold_coin" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 3.0d
 		}
 		{
@@ -980,6 +980,29 @@
 			}]
 			x: -10.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["746950E99AF97116"]
+			icon: {
+				id: "sophisticatedbackpacks:inception_upgrade"
+			}
+			id: "6606BFA575C02116"
+			rewards: [{
+				id: "05F32C94CBF448A9"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:inception_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "08A68CF76D214602"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
 		}
 	]
 }
