@@ -58,6 +58,7 @@
 				"61690176D17563A1"
 				"4B9318FBFB1FF36F"
 			]
+			hide_until_deps_complete: true
 			id: "5EFEFB853D35D898"
 			tasks: [{
 				id: "1A1A2E917F4D01EF"

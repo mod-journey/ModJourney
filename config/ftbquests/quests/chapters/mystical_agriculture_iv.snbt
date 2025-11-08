@@ -13,7 +13,7 @@
 	quests: [
 		{
 			dependencies: [
-				"14DC9B8D23AA0489"
+				"1A92BA38712EA453"
 				"08BDD4ADC8DDB9C2"
 			]
 			hide_until_deps_complete: true
