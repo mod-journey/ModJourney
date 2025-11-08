@@ -23,7 +23,7 @@ let modjourney_gated_items = (event, active, debug) => {
         'SWS',
         'WSW'
     ], {
-        S: 'minecraft:slime_ball',
+        S: '#c:slime_balls',
         W: '#planks'
     }).id('mod_journey:shaped/lumber');
 
