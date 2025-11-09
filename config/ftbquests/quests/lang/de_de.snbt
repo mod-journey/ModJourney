@@ -919,7 +919,7 @@
 	quest.3172C2D525DD748A.title: "Prismarin IV"
 	quest.3253AC6BB40CD3AD.quest_desc: [
 		"Ein Guter Moderator für den "
-		"{ \"text\": \"Thermo Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"48A426951585B3E6\" } }"
+		"{ \"text\": \"Thermo Generator\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"48A426951585B3E6\" } }"
 	]
 	quest.325B0F0901FD93A8.quest_desc: [
 		"Du hast das Handwerk eines Magiers nun schon ziemlich gut drauf. Jetzt musst du nur noch wie einer aussehen. Doch wähle mit Bedacht!"
