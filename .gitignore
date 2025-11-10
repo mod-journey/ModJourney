@@ -1,5 +1,4 @@
 /*
-!/*.md
 !/kubejs/
 !/config/
 /config/luckperms/luckperms-h2-v2.mv.db
@@ -38,7 +37,8 @@
 # Dont ignore git meta-files
 !/.gitignore
 !/.gitattributes
-!README.md
+!/*.md
+!/manifest*.json
 
 
 # Dont ignore dev-tools
