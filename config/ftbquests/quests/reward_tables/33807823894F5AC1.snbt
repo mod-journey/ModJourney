@@ -13,7 +13,7 @@
 				count: 1
 				id: "mysticalagriculture:inferium_seeds"
 			}
-			weight: 0.2f
+			weight: 10.0f
 		}
 		{
 			id: "28DBE9261AB1B9C9"
@@ -21,7 +21,7 @@
 				count: 1
 				id: "mysticalagriculture:earth_seeds"
 			}
-			weight: 0.2f
+			weight: 2.0f
 		}
 		{
 			id: "5F6A281851FB037C"
@@ -29,7 +29,7 @@
 				count: 1
 				id: "mysticalagriculture:water_seeds"
 			}
-			weight: 0.2f
+			weight: 2.0f
 		}
 		{
 			id: "3AA395F5362E84A5"
@@ -37,7 +37,7 @@
 				count: 1
 				id: "mysticalagriculture:fire_seeds"
 			}
-			weight: 0.2f
+			weight: 2.0f
 		}
 		{
 			id: "62CDFCED1F165538"
@@ -45,7 +45,7 @@
 				count: 1
 				id: "mysticalagriculture:coral_seeds"
 			}
-			weight: 0.2f
+			weight: 5.0f
 		}
 		{
 			id: "590C7D158C4202CA"
@@ -53,7 +53,7 @@
 				count: 1
 				id: "mysticalagriculture:armadillo_seeds"
 			}
-			weight: 0.2f
+			weight: 5.0f
 		}
 		{
 			id: "21179C707C54FE3E"
@@ -61,7 +61,7 @@
 				count: 1
 				id: "mysticalagriculture:rubber_seeds"
 			}
-			weight: 0.2f
+			weight: 5.0f
 		}
 		{
 			id: "4C64BCF0EF885791"
@@ -69,7 +69,7 @@
 				count: 1
 				id: "mysticalagriculture:saltpeter_seeds"
 			}
-			weight: 0.2f
+			weight: 5.0f
 		}
 		{
 			id: "7EC84B432F72A8DE"
@@ -77,7 +77,7 @@
 				count: 1
 				id: "mysticalagriculture:apatite_seeds"
 			}
-			weight: 0.2f
+			weight: 5.0f
 		}
 		{
 			id: "3BE47882EBD77D22"
@@ -85,7 +85,7 @@
 				count: 1
 				id: "mysticalagriculture:air_seeds"
 			}
-			weight: 0.2f
+			weight: 2.0f
 		}
 		{
 			id: "7AC5EF10CE9CF03C"
@@ -93,16 +93,23 @@
 				count: 1
 				id: "mysticalagriculture:turtle_seeds"
 			}
-			weight: 0.2f
+			weight: 5.0f
 		}
-		{ id: "766C5BAEB1AB0AA5", item: { count: 1, id: "minecraft:bundle" } }
+		{
+			id: "766C5BAEB1AB0AA5"
+			item: {
+				count: 1
+				id: "minecraft:bundle"
+			}
+			weight: 4.0f
+		}
 		{
 			id: "0FA9F4FCA9E3DC1A"
 			item: {
 				count: 1
 				id: "waystones:blackstone_waystone"
 			}
-			weight: 0.5f
+			weight: 4.0f
 		}
 		{
 			id: "47F03A8A24329C82"
@@ -110,7 +117,7 @@
 				count: 1
 				id: "waystones:end_stone_waystone"
 			}
-			weight: 0.5f
+			weight: 4.0f
 		}
 		{
 			id: "21F37FE5850F24EF"
@@ -118,7 +125,7 @@
 				count: 1
 				id: "minecraft:golden_apple"
 			}
-			weight: 0.2f
+			weight: 2.5f
 		}
 		{
 			id: "273BA68C102FF61D"
@@ -134,7 +141,7 @@
 				count: 1
 				id: "minecraft:sniffer_egg"
 			}
-			weight: 0.1f
+			weight: 0.6f
 		}
 	]
 }
