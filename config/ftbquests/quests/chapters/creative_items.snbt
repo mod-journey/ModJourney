@@ -898,7 +898,7 @@
 			]
 			tasks: [{
 				consume_items: true
-				count: 10L
+				count: 100L
 				id: "7C371316261EF002"
 				item: { count: 1, id: "mod_journey:gold_coin" }
 				only_from_crafting: false
