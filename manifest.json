@@ -6,7 +6,8 @@
         "id": "neoforge-21.1.215",
         "primary": true
       }
-    ]
+    ],
+    "recommendedRam": 8000
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
@@ -32,11 +33,6 @@
     {
       "projectID": 348521,
       "fileID": 5729127,
-      "required": true
-    },
-    {
-      "projectID": 448233,
-      "fileID": 7078992,
       "required": true
     },
     {
@@ -67,11 +63,6 @@
     {
       "projectID": 419372,
       "fileID": 6137967,
-      "required": true
-    },
-    {
-      "projectID": 882495,
-      "fileID": 5513549,
       "required": true
     },
     {
@@ -237,11 +228,6 @@
     {
       "projectID": 378646,
       "fileID": 6146345,
-      "required": true
-    },
-    {
-      "projectID": 297038,
-      "fileID": 6860525,
       "required": true
     },
     {
@@ -475,11 +461,6 @@
       "required": true
     },
     {
-      "projectID": 431733,
-      "fileID": 5971552,
-      "required": true
-    },
-    {
       "projectID": 231951,
       "fileID": 6733669,
       "required": true
@@ -655,16 +636,6 @@
       "required": true
     },
     {
-      "projectID": 371813,
-      "fileID": 5993450,
-      "required": true
-    },
-    {
-      "projectID": 411045,
-      "fileID": 6775278,
-      "required": true
-    },
-    {
       "projectID": 892005,
       "fileID": 7064432,
       "required": true
@@ -677,11 +648,6 @@
     {
       "projectID": 661293,
       "fileID": 7055149,
-      "required": true
-    },
-    {
-      "projectID": 509575,
-      "fileID": 6697124,
       "required": true
     },
     {
@@ -712,11 +678,6 @@
     {
       "projectID": 289412,
       "fileID": 7029249,
-      "required": true
-    },
-    {
-      "projectID": 485681,
-      "fileID": 6383261,
       "required": true
     },
     {
@@ -965,18 +926,8 @@
       "required": true
     },
     {
-      "projectID": 470193,
-      "fileID": 6229173,
-      "required": false
-    },
-    {
       "projectID": 266515,
       "fileID": 7073719,
-      "required": true
-    },
-    {
-      "projectID": 974992,
-      "fileID": 5437062,
       "required": true
     },
     {
