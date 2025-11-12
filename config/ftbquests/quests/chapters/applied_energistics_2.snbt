@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "aplied_energisitcs_2"
+	filename: "applied_energistics_2"
 	group: "4B1BD2A866D0526F"
 	icon: {
 		id: "ae2:certus_quartz_wrench"
