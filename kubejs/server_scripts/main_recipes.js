@@ -67,7 +67,8 @@ if (events_server) {
             add_modjourney_scrolls(event, true);
             add_modjourneycoins(event, true);
             add_stellaris(event, true);
-            easy_villagers_gated(event, true)
+            easy_villagers_gated(event, true);
+            add_decoration_blocks(event, true);
         }
 
         if (customMachine_event) {
