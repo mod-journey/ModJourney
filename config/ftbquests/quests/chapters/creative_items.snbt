@@ -872,6 +872,7 @@
 			y: 3.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["746950E99AF97116"]
 			icon: {
 				id: "ae2:creative_energy_cell"
@@ -884,6 +885,7 @@
 						count: 1
 						id: "ae2:creative_energy_cell"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -982,17 +984,20 @@
 			y: 2.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["746950E99AF97116"]
 			icon: {
 				id: "sophisticatedbackpacks:inception_upgrade"
 			}
 			id: "6606BFA575C02116"
+			optional: true
 			rewards: [{
 				id: "05F32C94CBF448A9"
 				item: {
 					count: 1
 					id: "sophisticatedbackpacks:inception_upgrade"
-				}
+				},
+				team_reward: true,
 				type: "item"
 			}]
 			tasks: [{
