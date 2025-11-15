@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "mystical_agriculture_v"
 	group: "5137A643BD4C4882"
+	hide_quest_until_deps_complete: true
 	icon: {
 		id: "mysticalagriculture:supremium_essence"
 	}
@@ -58,7 +59,7 @@
 				"61690176D17563A1"
 				"4B9318FBFB1FF36F"
 			]
-			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "5EFEFB853D35D898"
 			tasks: [{
 				id: "1A1A2E917F4D01EF"
