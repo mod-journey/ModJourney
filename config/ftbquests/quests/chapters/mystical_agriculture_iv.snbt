@@ -81,8 +81,11 @@
 			}]
 			tasks: [{
 				count: 10000L
+				icon: {
+					id: "alltheores:fluorite"
+				}
 				id: "5BD47D1239415F3B"
-				item: { count: 1, id: "mekanism:fluorite_gem" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:gems/fluorite)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -2.0d

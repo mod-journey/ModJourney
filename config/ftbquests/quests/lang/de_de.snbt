@@ -586,6 +586,7 @@
 	quest.1A68095FE4424786.title: "Der Creative Shop"
 	quest.1A6F631FCF135230.quest_desc: ["Genau so viele Slots wie der Dia Rucksack, also 120, aber dafür 7 Upgrade Slots!"]
 	quest.1A6F631FCF135230.quest_subtitle: "None Plus Ultra Rucksack"
+	quest.1A78DE0DABF021D3.title: "10000 Fluorite"
 	quest.1A92BA38712EA453.title: "Mystical Agriculture Tier III"
 	quest.1AE43ACFEEF65B21.title: "Cyanite I"
 	quest.1B146865E684FAEC.title: "Kohle II"
@@ -2400,6 +2401,7 @@
 	task.5AADB98601C9615B.title: "Any Cloggrum Weapon"
 	task.5AE347FA991EC91F.title: "Stahl"
 	task.5B9E238DC485BE38.title: "Mana"
+	task.5BD47D1239415F3B.title: "Irgendein Fluorite"
 	task.5BEE8836A83005FB.title: "Aura Pflanzen"
 	task.5CC05D5D8620ACB6.title: "Magentite"
 	task.5E3D615666A2A3C0.title: "Level 45"
