@@ -919,7 +919,7 @@
 	]
 	quest.3172C2D525DD748A.title: "Prismarin IV"
 	quest.3253AC6BB40CD3AD.quest_desc: [
-		"Ein Guter Moderator für den ",
+		"Ein Guter Moderator für den "
 		"{ \"translate\": \"block.powah.thermo_generator_starter\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"48A426951585B3E6\" } }"
 	]
 	quest.325B0F0901FD93A8.quest_desc: [
@@ -2434,6 +2434,7 @@
 	task.6DC206489437BCB8.title: "Any Forgotten Tool"
 	task.6DCBFF98F634FC05.title: "Any Undergarden Mushroom"
 	task.6DD47017596E7645.title: "moi"
+	task.6E14EC223D839E32.title: "Any #powah:energy_cells"
 	task.6FF8DF5C6BA9E591.title: "Any #botania:generating_special_flowers"
 	task.7065FFFD8DBA14FA.title: "open_proxy_server"
 	task.7203F46653E6A739.title: "Dein Start mit Botania"

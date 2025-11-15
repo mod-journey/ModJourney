@@ -199,7 +199,7 @@
 			}]
 			tasks: [{
 				id: "6E14EC223D839E32"
-				item: { count: 1, id: "powah:energy_cell_starter" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:energy_cells)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 3.5d
