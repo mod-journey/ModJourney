@@ -23,6 +23,6 @@ let enerdeio_gated = (event, active, debug) => {
     event.replaceInput(
         { id: 'enderio:conduit_binder_composite' },
         'minecraft:clay_ball',
-        mjConfig.stages.stage2.core
+        mjConfig.stages.stage2.dust
     )
 }

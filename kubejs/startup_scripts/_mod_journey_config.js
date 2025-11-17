@@ -23,6 +23,7 @@ const mjConfig = {
             core: 'mod_journey:staging/frame_core_3',
             // indirect gated via darksteel and ender io allow smelting
             gear: 'enderio:dark_bimetal_gear',
+            dust: '#c:dusts/iridium',
             second: '',
             endgame: '',
             magic: {
