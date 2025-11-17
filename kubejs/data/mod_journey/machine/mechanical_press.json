@@ -4,7 +4,8 @@
     "color": "white"
   },
   "appearance": {
-    "custommachinery:block": "mod_journey:machine/metal_press#standalone"
+    "custommachinery:block": "mod_journey:machine/metal_press#standalone",
+    "custommachinery:keep_inventory": true,
   },
   "components": [
     {

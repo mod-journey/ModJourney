@@ -5,7 +5,8 @@
   },
   "appearance": {
     "custommachinery:block": "mod_journey:machine/crop_planter#standalone",
-    "custommachinery:item": "mod_journey:machine/seed_planter#standalone"
+    "custommachinery:item": "mod_journey:machine/seed_planter#standalone",
+    "custommachinery:keep_inventory": true,
   },
   "components": [
     {

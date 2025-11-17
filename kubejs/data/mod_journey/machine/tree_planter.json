@@ -6,6 +6,7 @@
   "appearance": {
     "custommachinery:block": "mod_journey:machine/tree_planter#standalone",
     "custommachinery:item": "mod_journey:machine/tree_planter#standalone",
+    "custommachinery:keep_inventory": true,
     "custommachinery:light": 4,
     "custommachinery:mining_level": "minecraft:needs_stone_tool",
     "custommachinery:requires_tool": false
