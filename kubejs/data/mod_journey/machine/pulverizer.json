@@ -7,7 +7,15 @@
     "custommachinery:ambient_sound": {
       "sound": "minecraft:"
     },
-    "custommachinery:block": "mod_journey:machine/pulverizer#standalone"
+    "custommachinery:block": "mod_journey:machine/pulverizer#standalone",
+    "custommachinery:mining_level": "minecraft:needs_diamond_tool",
+    "custommachinery:tool_type": [
+      "minecraft:mineable/pickaxe",
+      "minecraft:mineable/shovel",
+      "minecraft:mineable/hoe",
+      "minecraft:mineable/axe",
+      "c:mineable/paxel"
+    ]
   },
   "components": [
     {

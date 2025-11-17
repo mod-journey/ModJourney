@@ -6,6 +6,14 @@
   "appearance": {
     "custommachinery:block": "mod_journey:machine/metal_press#standalone",
     "custommachinery:keep_inventory": true,
+    "custommachinery:mining_level": "minecraft:needs_diamond_tool",
+    "custommachinery:tool_type": [
+      "minecraft:mineable/pickaxe",
+      "minecraft:mineable/hoe",
+      "minecraft:mineable/axe",
+      "minecraft:mineable/shovel",
+      "c:mineable/paxel"
+    ]
   },
   "components": [
     {

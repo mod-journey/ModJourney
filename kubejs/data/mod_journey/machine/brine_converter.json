@@ -4,7 +4,15 @@
     "color": "white"
   },
   "appearance": {
-    "custommachinery:block": "mod_journey:machine/brine_converter#standalone"
+    "custommachinery:block": "mod_journey:machine/brine_converter#standalone",
+    "custommachinery:mining_level": "minecraft:needs_diamond_tool",
+    "custommachinery:tool_type": [
+      "minecraft:mineable/pickaxe",
+      "minecraft:mineable/axe",
+      "minecraft:mineable/hoe",
+      "minecraft:mineable/shovel",
+      "c:mineable/paxel"
+    ]
   },
   "components": [
     {

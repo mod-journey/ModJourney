@@ -4,7 +4,15 @@
     "color": "white"
   },
   "appearance": {
-    "custommachinery:block": "mod_journey:antimatter_block"
+    "custommachinery:block": "mod_journey:antimatter_block",
+    "custommachinery:mining_level": "minecraft:needs_diamond_tool",
+    "custommachinery:tool_type": [
+      "minecraft:mineable/shovel",
+      "minecraft:mineable/axe",
+      "minecraft:mineable/hoe",
+      "minecraft:mineable/pickaxe",
+      "c:mineable/paxel"
+    ]
   },
   "components": [
     {
