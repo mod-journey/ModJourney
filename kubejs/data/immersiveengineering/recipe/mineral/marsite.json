@@ -54,7 +54,7 @@
       {
         "chance": 0.4,
         "output": {
-          "id": "stellaris:mars_stone"
+          "id": "stellaris:mars_cobblestone"
         }
       }
     ],

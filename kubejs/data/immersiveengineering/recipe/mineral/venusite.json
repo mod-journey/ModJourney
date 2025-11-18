@@ -49,13 +49,7 @@
       {
         "chance": 0.3,
         "output": {
-          "id": "stellaris:venus_stone"
-        }
-      },
-      {
-        "chance": 0.3,
-        "output": {
-          "id": "stellaris:venus_sandstone"
+          "id": "stellaris:venus_cobblestone"
         }
       }
     ],
