@@ -97,7 +97,7 @@
 			}
 			id: "26A870FC3228E17D"
 			rewards: [{
-				id: "1CCEB4FA11C82DC2"
+				id: "058BCFB98392064E"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -106,7 +106,7 @@
 			}]
 			tasks: [{
 				id: "491EB618A3195A42"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:cloggrum_boots)item(undergarden:cloggrum_leggings)item(undergarden:cloggrum_chestplate)item(undergarden:cloggrum_helmet))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -4.5d
@@ -119,7 +119,7 @@
 			}
 			id: "4B4A2387F7C307B6"
 			rewards: [{
-				id: "4B7D9A7E5997A0D6"
+				id: "08FD0A3FD846329C"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -128,7 +128,7 @@
 			}]
 			tasks: [{
 				id: "03D6F3D7B3CAF8DE"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:cloggrum_pickaxe)item(undergarden:cloggrum_axe)item(undergarden:cloggrum_shovel)item(undergarden:cloggrum_hoe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -7.5d
@@ -141,7 +141,7 @@
 			}
 			id: "46746A29EC0DB581"
 			rewards: [{
-				id: "75498EC84A1CAB32"
+				id: "7EC33E906B07EA9D"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -150,7 +150,7 @@
 			}]
 			tasks: [{
 				id: "5AADB98601C9615B"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:cloggrum_sword)item(undergarden:cloggrum_shield))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -6.5d
@@ -160,7 +160,7 @@
 			dependencies: ["1CFF5ED27DA0852A"]
 			id: "785AB01D2228B7A9"
 			rewards: [{
-				id: "75A986C41E6816BA"
+				id: "3B341570B5D17254"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -310,7 +310,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "3209864899ECF55C",
+				id: "3209864899ECF55C"
 				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:utherium_boots)item(undergarden:utherium_helmet)item(undergarden:utherium_chestplate)item(undergarden:utherium_leggings))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
@@ -332,7 +332,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "2826BBB3BCCA1C4D",
+				id: "2826BBB3BCCA1C4D"
 				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:utherium_pickaxe)item(undergarden:utherium_axe)item(undergarden:utherium_shovel)item(undergarden:utherium_hoe)item(undergarden:utherium_sword))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]

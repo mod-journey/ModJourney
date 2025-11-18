@@ -781,7 +781,6 @@
 	quest.2677B43BE16309EC.quest_subtitle: "Mit Hilfe des Flux Points kannst du Energie aus deinem Flux Network verwenden"
 	quest.26A055E345983DE9.title: "Apotheosis Gems"
 	quest.26A870FC3228E17D.quest_desc: ["Die Cloggrum Rüstung ist eine solide starter Rüstung."]
-	quest.26A870FC3228E17D.title: "Cloggrum Armor"
 	quest.26AFE523C18061F6.quest_desc: ["Ein seed den man entweder traden, oder durch das abbauen des mysteriösen Gloomer Kürbisses ercraften kann. "]
 	quest.26B645871A11798E.quest_desc: ["Gebe Uran oder Yellorium in deinen Reaktor"]
 	quest.26BC003C6E939699.quest_subtitle: "Verbinde eine Flüssigkeit mit einem Feststoff"
@@ -1381,7 +1380,6 @@
 	]
 	quest.460860A0F0CCC4E1.title: "Nur noch ein schritt ins Portal"
 	quest.46746A29EC0DB581.quest_desc: ["Mit dem Cloggrum Schwert, hast Du zusätzlich +3 Reichweite auf Mobs"]
-	quest.46746A29EC0DB581.title: "Cloggrum Weapons"
 	quest.4718DB0B3EFC6628.quest_desc: ["Wird für das \"Ritual des Waldes\" benötigt."]
 	quest.4759C2D9F4C40115.quest_desc: ["Flüssigkeiten kannst du jetzt auch mit deinem Rucksack transportieren!"]
 	quest.4759C2D9F4C40115.quest_subtitle: "Flasche to go!"
@@ -1468,7 +1466,6 @@
 	]
 	quest.4B31704D46F9D6BC.title: "Stein IV"
 	quest.4B4A2387F7C307B6.quest_desc: ["Crafte ein Cloggrum Werkzeug, du kannst es später noch veredeln!"]
-	quest.4B4A2387F7C307B6.title: "Cloggrum Tools"
 	quest.4B54C232723221A0.title: "Konduktiver Legierungsbarren  III"
 	quest.4B54E3EBF42EEE28.title: "Himmelsstein I"
 	quest.4B5731EA58070191.quest_desc: ["Dies ist die effizentiste flüssigkeit um deinen reactor passive zu kühlen"]
@@ -2298,7 +2295,7 @@
 	task.01BD2A1FE8967AB2.title: "Finde den Blinding Dungeon"
 	task.02645A08A79CA683.title: "Tier II"
 	task.03BC595DF682AD4B.title: "Everbright"
-	task.03D6F3D7B3CAF8DE.title: "Any Cloggrum Tool"
+	task.03D6F3D7B3CAF8DE.title: "Beliebiges Cloggrum Werkzeug"
 	task.04CF943E4A7B7748.title: "Sourceproduktion"
 	task.04FC7A177CB21CA6.title: "Tier V"
 	task.05AAE2D9FA5FF59E.title: "dictionary"
@@ -2384,7 +2381,7 @@
 	task.469026531D5B8C4E.title: "Advanced Black Hole Tank"
 	task.470552CCC5DF54DE.title: "Spawner"
 	task.47B9EA7DBC0FE347.title: "Los geht's!"
-	task.491EB618A3195A42.title: "Any Cloggrum Armor"
+	task.491EB618A3195A42.title: "Beliebige Cloggrum Rüstung"
 	task.492832BDF102DE3F.title: "Probiere es aus mit einem Setzling!"
 	task.49DA294500A30649.title: "Phenolic Resin-Eimer"
 	task.4A01A483B2C56682.title: "Nice to know"
@@ -2406,7 +2403,7 @@
 	task.58130F61425C0D83.title: "Garden"
 	task.58BEF53529013D68.title: "lol"
 	task.597813E4951FDC5E.title: "24h"
-	task.5AADB98601C9615B.title: "Any Cloggrum Weapon"
+	task.5AADB98601C9615B.title: "Beliebige Cloggrum Waffe"
 	task.5AE347FA991EC91F.title: "Stahl"
 	task.5B9E238DC485BE38.title: "Mana"
 	task.5BD47D1239415F3B.title: "Irgendein Fluorit"
