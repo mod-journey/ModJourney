@@ -277,7 +277,7 @@
 	quest.0C90DC7193CB6550.title: "Eis IV"
 	quest.0C983259740701CA.title: "Schwefel III"
 	quest.0C9A56AE665B29A7.quest_desc: ["ballert noch mehr wie der vorige."]
-	quest.0CCC99DA72026AD0.title: "Vibrant Legierung I"
+	quest.0CCC99DA72026AD0.title: "Pulsierende Legierung I"
 	quest.0CE6CBFD83DB97A7.title: "Yellorium I"
 	quest.0D02872448C4DA2F.quest_desc: ["Sind Die Quarzblüten voll Ausgewachsen, erhältst Du je nach Glück-Level Certusquatzkristalle."]
 	quest.0D02FD3C537A6CBD.quest_desc: ["Mehr Höhe für den Lüfter"]
@@ -586,7 +586,7 @@
 	quest.1A68095FE4424786.title: "Der Creative Shop"
 	quest.1A6F631FCF135230.quest_desc: ["Genau so viele Slots wie der Dia Rucksack, also 120, aber dafür 7 Upgrade Slots!"]
 	quest.1A6F631FCF135230.quest_subtitle: "None Plus Ultra Rucksack"
-	quest.1A78DE0DABF021D3.title: "10000 Fluorite"
+	quest.1A78DE0DABF021D3.title: "Fluorit I"
 	quest.1A92BA38712EA453.title: "Mystical Agriculture Tier III"
 	quest.1AE43ACFEEF65B21.title: "Cyanite I"
 	quest.1B146865E684FAEC.title: "Kohle II"
@@ -633,7 +633,7 @@
 	quest.1E78C6170EC5067E.quest_subtitle: "Willkommen bei Ars Nouveau"
 	quest.1E86BC238F738A44.quest_desc: ["Graphit wird aus Kohle hergestellt. Das wirst Du brauchen. Viel sogar."]
 	quest.1E92F21F287903D5.title: "Erde I"
-	quest.1E93E151F2F50C99.title: "Silizium IV"
+	quest.1E93E151F2F50C99.title: "Ton IV"
 	quest.1EAA7A64D610694B.title: "Eisen II"
 	quest.1EEE1CC4BE9692A2.quest_subtitle: "Lava und Wasser / Eis Mischer"
 	quest.1F15419719279899.title: "Godforged Pearl"
@@ -826,7 +826,7 @@
 	quest.2B2392C030B04D14.title: "Silber I"
 	quest.2B3256EDDEB698CB.quest_desc: ["Ist eine verbesserte Version vom \"Token of Anger\"."]
 	quest.2B8B412085372EDD.title: "Kohle IV"
-	quest.2BCC5444F25D57DB.title: "Silizium I"
+	quest.2BCC5444F25D57DB.title: "Ton I"
 	quest.2C229F261B693DD1.title: "Himmelsstein II"
 	quest.2C4CAE3C053348BE.quest_desc: ["Die schiere Größe des \"Soulstrider's Blades\" kommt zum Tragen, wenn eine größere Gruppe von Monstern angegriffen wird. Wenn man mehrere Monster angreift, bleiben diese in einem ziemlich großen Bereich stecken, als ob sie mit einer mächtigeren Version von \"Sweeping Edge\" verzaubert wären. Natürlich schließen sich diese beiden Fähigkeiten auch nicht gegenseitig aus."]
 	quest.2C4E375C0BF9D7F6.title: "Nether Quartz I"
@@ -894,6 +894,7 @@
 	]
 	quest.2EA99850639C298A.title: "Phantom IV"
 	quest.2EC1511B23D8ABB9.title: "Tintenfisch I"
+	quest.2F049B7123A4A226.title: "Fluorit IV"
 	quest.2F43B87E319D7520.quest_desc: ["Nie wieder eine Werkbank craften, benutz deinen Rucksack dafür!"]
 	quest.2F43B87E319D7520.quest_subtitle: "Werkbank to go!"
 	quest.2F6ABA1EE21191DD.quest_desc: ["Wie der Name sagt. Überträgt Flüssigkeiten."]
@@ -918,6 +919,7 @@
 		"Lege einen erhaltenen Boss Kopf auf die Trophäensäule um Zugang zum Labyrinth zu erhalten"
 	]
 	quest.3172C2D525DD748A.title: "Prismarin IV"
+	quest.31F3052CB43CC455.title: "Fluorit II"
 	quest.3253AC6BB40CD3AD.quest_desc: [
 		"Ein Guter Moderator für den "
 		"{ \"translate\": \"block.powah.thermo_generator_starter\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"48A426951585B3E6\" } }"
@@ -947,6 +949,7 @@
 	quest.33B13ABE54BF5054.title: "Skelett III"
 	quest.33B1489D36D5EEFC.quest_desc: ["Die Vergessenen Hallen sind ein semi starker Dungeon mit einer Hülle von Spawnern und Lootchests. Außerdem hausen hier schon längst vergessene Monster."]
 	quest.33C76E3BA8A79D32.title: "Ingots"
+	quest.344FA09BA1CFD6E5.title: "Pulsierende Legierung II"
 	quest.346963DA712EE10B.quest_desc: ["Es ist Zeit für etwas Party!"]
 	quest.346963DA712EE10B.quest_subtitle: "Dein Rave!"
 	quest.346963DA712EE10B.title: "Erweitertes Jukebox-Upgrade"
@@ -1395,7 +1398,7 @@
 		"Außerdem kann die Fertigungseinheit als Füllmaterial im Multiblock benutzt werden, um diesen zu Vervollständigen. Einen Vorteil bringen diese Blöcke aber im Multiblock nicht."
 	]
 	quest.481BD81783C94007.title: "Blei I"
-	quest.482618A095738D85.title: "Silizium III"
+	quest.482618A095738D85.title: "Ton III"
 	quest.4831F4DF254FE3E0.title: "Aluminium II"
 	quest.4834BF938B07C244.quest_desc: [
 		"In diesem Block können noch mehr Mengen an Verzauberungen gelagert werden als in seinem Vorgänger."
@@ -1699,7 +1702,7 @@
 		""
 		"Es wird gewiss einige Ressourcen mittels Void-Minern geben."
 	]
-	quest.59802E53AA9E6919.title: "Silizium II"
+	quest.59802E53AA9E6919.title: "Ton II"
 	quest.59A51F9358D6A234.quest_desc: ["Wird in \"Aura reicher\" umgebung &l&4im End&r&r eingesammelt, wenn ihr mit einer Bottle and Cork, einen Rechtsklick in die Luft macht."]
 	quest.59E92107A4481944.quest_desc: [
 		"Ab Abschluss der zweiten Woche kannst du 50 Chunks (pro Spieler im Team) claimen, und du erhältst (pro Spieler im Team) 3 Münzen aus der täglichen Quest."
@@ -1710,6 +1713,7 @@
 	quest.5A21339405F8A5A5.quest_desc: ["Redstone dust + Snow Block"]
 	quest.5A21339405F8A5A5.title: "Cryomisi"
 	quest.5A3F3F6A38B4C831.title: "Netherite I"
+	quest.5A4D322AEA3E2D59.title: "Pulsierende Legierung IV"
 	quest.5A83CAD196067494.title: "Die erste Rüstung"
 	quest.5AE5065E8E3AC023.quest_desc: ["Was hieraus wohl entsteht?"]
 	quest.5AE90AC31CD60938.quest_desc: ["Auch hier kann eine Fertigungskarte installiert werden. Mittels zusätzlicher Beschleunigungskarten, gibst Du die Chargengröße des Craftingprozesses an. "]
@@ -2148,6 +2152,7 @@
 	quest.776BA18F35EA7817.quest_desc: ["Du wirst feststellen das einige Items hier stärker gegatet sind, und es ein paar Limitierungen in der Mod gibt, darauf gehen wir hier auch ein. "]
 	quest.778B1BEFC6341B66.quest_desc: ["Dein Rucksack kann jetzt auch Strom speichern!"]
 	quest.778B1BEFC6341B66.quest_subtitle: "Elektrisierend!"
+	quest.77A7B411356FF20C.title: "Fluorit III"
 	quest.77AA85B028579CF6.quest_desc: ["Im Endless Realm gibt es einen Raum, welcher Dich noch tiefer in die Dungeons von Blood Magic führt. Hier erhältst Du noch stärkeren Loot um unter anderem einen noch besseren Altar zu bauen."]
 	quest.77CFCEE9E0FAA2D4.quest_desc: ["Die \"Spitzhacke des Seelenwanderers\", wenn sie durch schleichender Interaktion aktiviert wird, erlaubt sie dem Nutzer ein komplettes Erzvorkommen aufeinmal abzubauen."]
 	quest.77D31EC2C76058E2.quest_desc: ["Gut, dass der Minecraft Charakter übermäßig stark ist. Jetzt muss nur noch in Intelligenz geskillt werden. Dafür brauchst du das &l&5Große Buch, wo alles drin steht&r. Mit dem ersten Spellbook kannst du Tier 1 Zauber wirken und hast jegliche Informationen gesammelt an einer Stelle."]
@@ -2173,6 +2178,7 @@
 	]
 	quest.78D7575B8BFD8848.quest_subtitle: "Kein Bock zu tippen?"
 	quest.78D8DBFC816FE694.title: "Uraninite I"
+	quest.79139BC5631BB7F6.title: "Pulsierende Legierung III"
 	quest.795E9E4C809D1EC2.quest_desc: ["Kann weiter vercrafted werden. "]
 	quest.796D47D4DEDA277C.title: "Lets's show: Ars Nouveau"
 	quest.79A89B4305585A9B.title: "Eisen IV"
@@ -2401,7 +2407,7 @@
 	task.5AADB98601C9615B.title: "Any Cloggrum Weapon"
 	task.5AE347FA991EC91F.title: "Stahl"
 	task.5B9E238DC485BE38.title: "Mana"
-	task.5BD47D1239415F3B.title: "Irgendein Fluorite"
+	task.5BD47D1239415F3B.title: "Irgendein Fluorit"
 	task.5BEE8836A83005FB.title: "Aura Pflanzen"
 	task.5CC05D5D8620ACB6.title: "Magentite"
 	task.5E3D615666A2A3C0.title: "Level 45"
