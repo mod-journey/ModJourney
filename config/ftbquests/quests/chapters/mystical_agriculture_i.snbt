@@ -104,7 +104,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 100L
+				count: 10000L
 				id: "52B2996DFDD75055"
 				item: { count: 1, id: "minecraft:ice" }
 				type: "item"

@@ -336,7 +336,7 @@
 			tasks: [{
 				count: 50000L
 				id: "5EFFA12CC75F96F7"
-				item: { count: 1, id: "minecraft:clay" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:silicon)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -11.0d
@@ -682,6 +682,7 @@
 		{
 			dependencies: ["2BCC5444F25D57DB"]
 			id: "59802E53AA9E6919"
+			optional: true
 			rewards: [{
 				id: "31992DF0009F1744"
 				item: {
@@ -1039,6 +1040,7 @@
 		{
 			dependencies: ["59802E53AA9E6919"]
 			id: "482618A095738D85"
+			optional: true
 			rewards: [{
 				id: "213A20A16F7DA950"
 				item: {
@@ -1278,6 +1280,7 @@
 			can_repeat: true
 			dependencies: ["482618A095738D85"]
 			id: "1E93E151F2F50C99"
+			optional: true
 			rewards: [{
 				id: "008D081F2BF1411F"
 				item: {
@@ -1470,6 +1473,90 @@
 				type: "item"
 			}]
 			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7CD4BB26A718C894"]
+			id: "32ACFD3CBACCC1CE"
+			rewards: [{
+				id: "4978BB1DA6C28073"
+				item: {
+					count: 1
+					id: "mysticalagriculture:grains_of_infinity_seeds"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 1000L
+				id: "36F80F02EEB3671E"
+				item: { count: 1, id: "enderio:grains_of_infinity" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["32ACFD3CBACCC1CE"]
+			id: "5F98FFBC67AB4276"
+			optional: true
+			rewards: [{
+				id: "6857E78AA018A6FE"
+				item: {
+					count: 1
+					id: "mysticalagriculture:grains_of_infinity_seeds"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 75L
+				id: "73715511443CC187"
+				item: { count: 1, id: "mod_journey:copper_coin" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5F98FFBC67AB4276"]
+			id: "6A612F1D1464E3BC"
+			optional: true
+			rewards: [{
+				id: "132A7003DCEC05F8"
+				item: {
+					count: 1
+					id: "mysticalagriculture:grains_of_infinity_seeds"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 15L
+				id: "4EAFAA26A41EFDED"
+				item: { count: 1, id: "mod_journey:silver_coin" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6A612F1D1464E3BC"]
+			id: "33C01C628D7D3A67"
+			optional: true
+			rewards: [{
+				id: "3584653B6B6B9F77"
+				item: {
+					count: 1
+					id: "mysticalagriculture:grains_of_infinity_seeds"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "4152FFEBD0686328"
+				item: { count: 1, id: "mod_journey:gold_coin" }
+				type: "item"
+			}]
+			x: -18.5d
 			y: 6.0d
 		}
 	]

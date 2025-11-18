@@ -633,7 +633,7 @@
 	quest.1E78C6170EC5067E.quest_subtitle: "Willkommen bei Ars Nouveau"
 	quest.1E86BC238F738A44.quest_desc: ["Graphit wird aus Kohle hergestellt. Das wirst Du brauchen. Viel sogar."]
 	quest.1E92F21F287903D5.title: "Erde I"
-	quest.1E93E151F2F50C99.title: "Ton IV"
+	quest.1E93E151F2F50C99.title: "Silizium IV"
 	quest.1EAA7A64D610694B.title: "Eisen II"
 	quest.1EEE1CC4BE9692A2.quest_subtitle: "Lava und Wasser / Eis Mischer"
 	quest.1F15419719279899.title: "Godforged Pearl"
@@ -826,7 +826,7 @@
 	quest.2B2392C030B04D14.title: "Silber I"
 	quest.2B3256EDDEB698CB.quest_desc: ["Ist eine verbesserte Version vom \"Token of Anger\"."]
 	quest.2B8B412085372EDD.title: "Kohle IV"
-	quest.2BCC5444F25D57DB.title: "Ton I"
+	quest.2BCC5444F25D57DB.title: "Silizium I"
 	quest.2C229F261B693DD1.title: "Himmelsstein II"
 	quest.2C4CAE3C053348BE.quest_desc: ["Die schiere Größe des \"Soulstrider's Blades\" kommt zum Tragen, wenn eine größere Gruppe von Monstern angegriffen wird. Wenn man mehrere Monster angreift, bleiben diese in einem ziemlich großen Bereich stecken, als ob sie mit einer mächtigeren Version von \"Sweeping Edge\" verzaubert wären. Natürlich schließen sich diese beiden Fähigkeiten auch nicht gegenseitig aus."]
 	quest.2C4E375C0BF9D7F6.title: "Nether Quartz I"
@@ -940,6 +940,7 @@
 	quest.327C3EB7D3A292C7.quest_subtitle: "Unbegrenze Energy für dein ME-System"
 	quest.327C3EB7D3A292C7.title: "Kreative Energiezelle"
 	quest.32995C3E724DC7F4.title: "Wither Skellet I"
+	quest.32ACFD3CBACCC1CE.title: "Körner der Ewigkeit I"
 	quest.32CCA4CEC3CE9954.title: "Turbine"
 	quest.3335E7346C35ABA4.title: "Spinne II"
 	quest.334735438DFE505B.title: "Klopf auf Holz"
@@ -948,6 +949,7 @@
 	quest.33AA5240D8DC2EC9.quest_subtitle: "Voll machen bitte II"
 	quest.33B13ABE54BF5054.title: "Skelett III"
 	quest.33B1489D36D5EEFC.quest_desc: ["Die Vergessenen Hallen sind ein semi starker Dungeon mit einer Hülle von Spawnern und Lootchests. Außerdem hausen hier schon längst vergessene Monster."]
+	quest.33C01C628D7D3A67.title: "Körner der Ewigkeit IV"
 	quest.33C76E3BA8A79D32.title: "Ingots"
 	quest.344FA09BA1CFD6E5.title: "Pulsierende Legierung II"
 	quest.346963DA712EE10B.quest_desc: ["Es ist Zeit für etwas Party!"]
@@ -1398,7 +1400,7 @@
 		"Außerdem kann die Fertigungseinheit als Füllmaterial im Multiblock benutzt werden, um diesen zu Vervollständigen. Einen Vorteil bringen diese Blöcke aber im Multiblock nicht."
 	]
 	quest.481BD81783C94007.title: "Blei I"
-	quest.482618A095738D85.title: "Ton III"
+	quest.482618A095738D85.title: "Silizium III"
 	quest.4831F4DF254FE3E0.title: "Aluminium II"
 	quest.4834BF938B07C244.quest_desc: [
 		"In diesem Block können noch mehr Mengen an Verzauberungen gelagert werden als in seinem Vorgänger."
@@ -1702,7 +1704,7 @@
 		""
 		"Es wird gewiss einige Ressourcen mittels Void-Minern geben."
 	]
-	quest.59802E53AA9E6919.title: "Ton II"
+	quest.59802E53AA9E6919.title: "Silizium II"
 	quest.59A51F9358D6A234.quest_desc: ["Wird in \"Aura reicher\" umgebung &l&4im End&r&r eingesammelt, wenn ihr mit einer Bottle and Cork, einen Rechtsklick in die Luft macht."]
 	quest.59E92107A4481944.quest_desc: [
 		"Ab Abschluss der zweiten Woche kannst du 50 Chunks (pro Spieler im Team) claimen, und du erhältst (pro Spieler im Team) 3 Münzen aus der täglichen Quest."
@@ -1806,6 +1808,7 @@
 	quest.5F98BAF82E1271EE.quest_desc: ["Um auch die stärksten Glyphen nutzen zu können, muss dein Zauberbuch nochmals geupgradet werden. Doch nur wer sich als würdig erweist, vermag das volle Potential zu entfesseln."]
 	quest.5F98BAF82E1271EE.quest_subtitle: "Der lange weiße Bart steht dir gut"
 	quest.5F98BAF82E1271EE.title: "Der Meister der Meister aller Meister"
+	quest.5F98FFBC67AB4276.title: "Körner der Ewigkeit II"
 	quest.5FAB86380F99F739.title: "Kreativer Energie-Würfel"
 	quest.5FBE953877FCAC23.quest_desc: ["Dieses Regal verringert die Menge von &2Eterna&r und &cQuanta&r. Gut, um begrenzte Quantabereiche für bestimmte Verzauberungen zu erreichen."]
 	quest.5FBE953877FCAC23.title: "Süß und Wohltuend"
@@ -1956,6 +1959,7 @@
 		"Als ob das Vakuum nicht schon Lebensfeindlich genug ist. "
 		"Hitze, höherer Atmosphärendruck und Säuren soll dieser Raumanzug abkönnen."
 	]
+	quest.6A612F1D1464E3BC.title: "Körner der Ewigkeit III"
 	quest.6A8AA0E31C3F2F47.quest_desc: ["Auf der Venus findest Du immer wieder mal Platin. Sollte man mitnehmen."]
 	quest.6AB3A23E011C7A70.quest_desc: ["Wird aus Certus hergestellt."]
 	quest.6ACEC87CC8248AE2.quest_desc: ["Es lässt sich nicht nur wie die Himmelsucher Rüstung reparieren, sondern bietet auch einen Setbonus: Wenn man alle Teile der Rüstung trägt (oder den Brustpanzer gegen eine Elytra austauscht), bewirkt die Rüstung bei einem Treffer, dass alle Gegner in der Nähe für einige Sekunden mit dem Boden verschmelzen und völlig still stehen."]
@@ -2412,6 +2416,7 @@
 	task.5CC05D5D8620ACB6.title: "Magentite"
 	task.5E3D615666A2A3C0.title: "Level 45"
 	task.5EF66C8DDB6EC1D6.title: "und noch mehr"
+	task.5EFFA12CC75F96F7.title: "50000x Silizium"
 	task.5FC13B4C5F865F34.title: "Any #minecraft:logs"
 	task.6051587D5CD87E44.title: "Trade dir Ein Blaues Tagebuch"
 	task.6082C36859C795AE.title: "Regalium Erz"
