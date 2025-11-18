@@ -145,6 +145,19 @@
       },
       "id": "out2",
       "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "upgrade_1",
+      "capacity": 3
     }
   ],
   "gui": [
@@ -156,7 +169,7 @@
     {
       "type": "custommachinery:dump",
       "x": 53,
-      "y": 82,
+      "y": 98,
       "width": 17,
       "height": 8,
       "tanks": "input1"
@@ -164,7 +177,7 @@
     {
       "type": "custommachinery:dump",
       "x": 183,
-      "y": 82,
+      "y": 98,
       "width": 17,
       "height": 8,
       "tanks": "input2"
@@ -173,7 +186,7 @@
       "type": "custommachinery:energy",
       "orientation": "BOTTOM",
       "x": 46,
-      "y": 37,
+      "y": 53,
       "width": 6,
       "height": 29
     },
@@ -181,7 +194,7 @@
       "type": "custommachinery:energy",
       "orientation": "BOTTOM",
       "x": 201,
-      "y": 37,
+      "y": 53,
       "width": 6,
       "height": 29
     },
@@ -190,21 +203,21 @@
       "id": "in1",
       "priority": 1,
       "x": 53,
-      "y": 37
+      "y": 53
     },
     {
       "type": "custommachinery:fluid",
       "id": "input2",
       "priority": 1,
       "x": 182,
-      "y": 37
+      "y": 53
     },
     {
       "type": "custommachinery:fluid",
       "id": "output1",
       "priority": 1,
       "x": 109,
-      "y": 58,
+      "y": 74,
       "height": 24
     },
     {
@@ -212,7 +225,7 @@
       "id": "output2",
       "priority": 1,
       "x": 127,
-      "y": 58,
+      "y": 74,
       "height": 24
     },
     {
@@ -222,40 +235,64 @@
     },
     {
       "type": "custommachinery:progress",
-      "x": 70,
-      "y": 66,
-      "width": 40
+      "x": 71,
+      "y": 82,
+      "width": 37
     },
     {
       "type": "custommachinery:progress",
       "orientation": "LEFT",
-      "x": 143,
-      "y": 66,
-      "width": 40
+      "x": 145,
+      "y": 82,
+      "width": 37
     },
     {
       "type": "custommachinery:slot",
       "id": "in1",
       "x": 71,
-      "y": 37
+      "y": 53
     },
     {
       "type": "custommachinery:slot",
       "id": "in2",
       "x": 164,
-      "y": 37
+      "y": 53
     },
     {
       "type": "custommachinery:slot",
       "id": "out1",
       "x": 109,
-      "y": 37
+      "y": 53
     },
     {
       "type": "custommachinery:slot",
       "id": "out2",
       "x": 127,
-      "y": 37
+      "y": 53
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade_1",
+      "x": 189,
+      "y": 32,
+      "width": 18,
+      "height": 18,
+      "ghost": {
+        "items": {
+          "item": "minecraft:sugar"
+        },
+        "color": {
+          "alpha": 0.28627452
+        }
+      }
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 106,
+      "y": 8,
+      "text": {
+        "text": "Refinary"
+      }
     }
   ]
 }
