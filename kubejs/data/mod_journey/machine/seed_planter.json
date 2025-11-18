@@ -35,10 +35,19 @@
     {
       "type": "custommachinery:fluid",
       "mode": "input",
-      "id": "input",
-      "capacity": 32000,
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT",
+        "input": true
+      },
       "max_input": 1000,
-      "max_output": 1000
+      "max_output": 1000,
+      "id": "input",
+      "capacity": 32000
     },
     {
       "type": "custommachinery:item",
@@ -58,7 +67,6 @@
     {
       "type": "custommachinery:item",
       "config": {
-        "output": true,
         "TOP": "OUTPUT",
         "BOTTOM": "OUTPUT",
         "FRONT": "OUTPUT",
@@ -72,7 +80,6 @@
     {
       "type": "custommachinery:item",
       "config": {
-        "output": true,
         "TOP": "OUTPUT",
         "BOTTOM": "OUTPUT",
         "FRONT": "OUTPUT",
@@ -86,7 +93,6 @@
     {
       "type": "custommachinery:item",
       "config": {
-        "output": true,
         "TOP": "OUTPUT",
         "BOTTOM": "OUTPUT",
         "FRONT": "OUTPUT",
@@ -100,7 +106,6 @@
     {
       "type": "custommachinery:item",
       "config": {
-        "output": true,
         "TOP": "OUTPUT",
         "BOTTOM": "OUTPUT",
         "FRONT": "OUTPUT",
@@ -117,6 +122,11 @@
       "type": "custommachinery:background",
       "width": 256,
       "height": 192
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 230,
+      "y": 5
     },
     {
       "type": "custommachinery:energy",
