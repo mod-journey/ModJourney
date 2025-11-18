@@ -70,6 +70,11 @@
       "height": 192
     },
     {
+      "type": "custommachinery:config",
+      "x": 231,
+      "y": 4
+    },
+    {
       "type": "custommachinery:energy",
       "x": 85,
       "y": 34
