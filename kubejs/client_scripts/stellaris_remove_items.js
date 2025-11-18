@@ -21,8 +21,7 @@ let stellaris_remove_items = (event, active, debug) => {
         'stellaris:oil_finder',
         'stellaris:raw_uranium_block',
         'stellaris:uranium_block',
-        'stellaris:mercury_uranium_ore',
-        'stellaris:fuel_refinery'
+        'stellaris:mercury_uranium_ore'
     ]
 
     stellaris_to_remove.forEach(remove_items => {
