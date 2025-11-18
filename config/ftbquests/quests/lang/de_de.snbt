@@ -548,7 +548,6 @@
 	quest.19009C9588494133.quest_desc: ["Verlangsamt die Gegner die du angreifst."]
 	quest.19009C9588494133.title: "Froststeel Tools"
 	quest.1914C5782105712B.quest_desc: ["Eine solide Rüstung, mit der man durchaus eine lange Zeit gut klar kommt."]
-	quest.1914C5782105712B.title: "Utherium Armor"
 	quest.195971D0CE37082F.quest_desc: ["Das Forgotten Ingot erhältst Du durch das zusammen craften von 9 x Nuggets und benötigst Du um Forgotten Tools herzustellen. Dies basiert auf dem Schmiedevorlagen Rezept."]
 	quest.19B518EE50C960E0.title: "Zink III"
 	quest.19BDD9A98862D1F7.quest_desc: [
@@ -1207,7 +1206,6 @@
 	quest.40CBA9ECA122DDFA.quest_desc: ["Mit dem Mob-Swab kannst Du Dir DNA Abstriche von Entities/ Mobs holen. Wird benötigt um Spawneier daraus zu erstellen."]
 	quest.40EFD7E819501CF9.quest_desc: ["Der Bloodstone ist in unserem Pack ein gated-out Item. Außerdem benötigst du diese um deinen Blut Altar aufzuwerten. "]
 	quest.412036FA034F30EA.quest_desc: ["Utherium Tools sind Ultimine Fähig. Die Waffen verursachen gegen gewisse Gegner mehr Schaden. "]
-	quest.412036FA034F30EA.title: "Utherium Tools"
 	quest.413828EBD4CE1AA8.quest_desc: ["Eine Rune benutzt Du um dein Blutaltar zu vergrößern. Im Blut Magie Guide Book wirst Du zu diesen komplexen Strukturen bestimmt fündig. Den überlieferungen zu folge, soll der erste Blut Altar aus 8 weiteren Blanken Runensteinen bestehen."]
 	quest.413828EBD4CE1AA8.quest_subtitle: "Slates != Rune"
 	quest.413828EBD4CE1AA8.title: "Deine erste Runen"
@@ -2346,7 +2344,7 @@
 	task.256280562DD475BB.title: "Schlafe im Aether"
 	task.25870ACE1953A776.title: "Körper"
 	task.26A963D2B34DB6C0.title: "Any Froststeel Armor"
-	task.2826BBB3BCCA1C4D.title: "Any Utherium Tool"
+	task.2826BBB3BCCA1C4D.title: "Utherium Werkzeuge"
 	task.2B91BA2F29F2F6D6.title: "Die größe des Systems"
 	task.2CC503728D6D0642.title: "Everdawn"
 	task.2DB27A2902A994C4.title: "Mystical Agriculture"
@@ -2357,7 +2355,7 @@
 	task.30B3C8265D064CFC.title: "Level 54"
 	task.30C33DEDF6374D94.title: "Teams"
 	task.30D9E8CD52F44C9A.title: "4h"
-	task.3209864899ECF55C.title: "Any Utherium Armor"
+	task.3209864899ECF55C.title: "Utherium Rüstung"
 	task.324C1250EBBF7D1F.title: "Pity Black Hole Tank"
 	task.32A3B13F973EF6CA.title: "Backpack"
 	task.32FF7AAA5FD69B16.title: "Metallpresse"

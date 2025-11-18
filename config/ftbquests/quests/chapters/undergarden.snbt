@@ -310,8 +310,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "3209864899ECF55C"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				id: "3209864899ECF55C",
+				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:utherium_boots)item(undergarden:utherium_helmet)item(undergarden:utherium_chestplate)item(undergarden:utherium_leggings))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -1.5d
@@ -332,8 +332,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "2826BBB3BCCA1C4D"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				id: "2826BBB3BCCA1C4D",
+				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:utherium_pickaxe)item(undergarden:utherium_axe)item(undergarden:utherium_shovel)item(undergarden:utherium_hoe)item(undergarden:utherium_sword))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -0.5d
