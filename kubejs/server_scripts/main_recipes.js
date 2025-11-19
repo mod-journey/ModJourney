@@ -113,6 +113,10 @@ if (events_server) {
         }
 
     })
+
+    CustomMachineryEvents.upgrades(event => {
+        add_update_acceleration(event, true)
+    })
 };
 
 
