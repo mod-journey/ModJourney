@@ -78,4 +78,7 @@ let item_add = (event, active, debug) => {
             .texture(`mod_journey:item/staged/ingredient/${itemName}`)
     }
 
+    event.create('mod_journey:acceleration_card')
+        .tooltip('Modify the Production Speed in much MJ-Machines')
+
 };
