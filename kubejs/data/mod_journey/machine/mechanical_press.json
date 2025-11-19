@@ -128,6 +128,20 @@
       "id": "output",
       "x": 119,
       "y": 79
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade_1",
+      "x": 46,
+      "y": 83,
+      "ghost": {
+        "items": {
+          "item": "mod_journey:acceleration_card"
+        },
+        "color": {
+          "alpha": 0.25882354
+        }
+      }
     }
   ]
 }
