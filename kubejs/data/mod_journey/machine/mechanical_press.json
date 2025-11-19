@@ -61,6 +61,19 @@
       },
       "id": "output",
       "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "id": "upgrade_1",
+      "capacity": 3
     }
   ],
   "gui": [
