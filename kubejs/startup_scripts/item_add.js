@@ -84,7 +84,7 @@ let item_add = (event, active, debug) => {
 
     for (let i = 1; i < upgrades.length; i++) {
         event.create(`mod_journey:upgrades/acceleration_card_${i}`)
-            .tooltip(Text.translate(`item.mod_journey.acceleration_card_${i}.tooltip`))
+            .tooltip(Text.translate(`item.mod_journey.upgrades.acceleration_card_${i}.tooltip`))
             .tag("mod_journey:machine_updates")
             .tag("mod_journey:machine/upgrades/speed")
     }
