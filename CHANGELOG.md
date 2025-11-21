@@ -2,7 +2,68 @@
 
 ## NEXT RELEASE
 
-## v2.0.1.7-rc1
+## v2.0.2.0
+
+#### Changes from mod updates:
+- Fixed `/enderchest` command ([FTBTeam/FTB-Mods-Issues#1852])
+
+#### Mods updated:
+<details>
+<summary>47 Mods updated</summary>
+
+- Ars Elemental 0.7.6.1 => 0.7.6.8
+- Ars Nouveau 5.10.5 => 5.10.6
+- Applied Mekanistics 1.6.2 => 1.6.3
+- Apotheosis 8.4.0 => 8.4.1
+- BaguetteLib 1.1.2 => 1.1.3
+- Bookshelf 21.1.68 => 21.1.78
+- Collective 8.7 => 8.13
+- Cristel Lib 1.2.8 => 3.0.2.1
+- Cucumber Library 8.0.14 => 8.0.15
+- Domum Ornamentum 1.0.221 => 1.0.223
+- ExtendedAE 2.2.23 => 2.2.25
+- Extended Crafting 7.0.6 => 7.0.7
+- Extreme Reactors 2.4.25 => 2.4.26
+- FramedBlocks 10.5.0 => 10.5.1
+- Framework 0.9.6 => 0.13.1
+- FTB Chunks 2101.1.11 => 2101.1.13
+- FTB Essentials 2101.1.7 => 2101.1.8
+- FTB Library 2101.1.21 => 2101.1.26
+- FTB Quests 2101.1.16 => 2101.1.18
+- FTB Teams 2101.1.4 => 2101.1.7
+- FTB Teams 2101.1.4 => 2101.1.7
+- FTB Ultimine 2101.1.10 => 2101.1.12
+- GuideME 21.1.14 => 21.1.15
+- Iron Jetpacks 8.0.10 => 8.0.11
+- Inventory Sorter 24.0.20 => 24.2.24
+- Just Enough Immersive Multiblocks 1.0.4 => 1.0.6
+- Macaw's Furniture 3.3.0 => 3.4.0
+- Mekanism 10.7.16.82 => 10.7.16.83
+- Mekanism Additions 10.7.16.82 => 10.7.16.83
+- Mekanism Generators 10.7.16.82 => 10.7.16.83
+- Mekanism Tools 10.7.16.82 => 10.7.16.83
+- McJtyLib 9.0.14 => 9.0.17
+- MrCrayfish's Furniture Mod: Refurbished 1.0.16 => 1.0.20
+- Mystical Agradditions 8.0.9 => 8.0.10
+- Mystical Agriculture 8.0.19 => 8.0.20
+- Occultism 1.192.2 => 1.197.0
+- PolyLib 0.3.172 => 0.3.183
+- Puzzles Lib 21.1.38 => 21.1.39
+- RFToolsBase 6.0.8 => 6.0.9
+- Simple Backups 4.0.20 => 4.0.21
+- Simple Voice Chat 2.5.35 => 2.6.6
+- Sophisticated Backpacks 3.25.9.1390 => 3.25.14.1410
+- Sophisticated Core 1.3.87.1229 => 1.3.89.1239
+- Torchmaster 21.1.5-beta => 21.1.9
+- Towns and Towers 1.13.2 => 1.13.7
+- UniLib 1.1.1 => 1.2.0
+- ZeroCore 2 2.4.18 => 2.4.20
+</details>
+
+
+
+
+## v2.0.1.8
 
 #### Some Changes:
 - re-add Iron Farm from Easy Villagers
@@ -309,3 +370,5 @@
 - Add functional storage to carry on blacklist
 - Replace thermal with mod_journey coin
 - Fix ultimine tool-tags
+
+[FTBTeam/FTB-Mods-Issues#1852]: https://github.com/FTBTeam/FTB-Mods-Issues/issues/1852
