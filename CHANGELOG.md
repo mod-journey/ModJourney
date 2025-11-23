@@ -7,12 +7,18 @@
 #### Changes from mod updates:
 - Fixed `/enderchest` command ([FTBTeam/FTB-Mods-Issues#1852])
 
+#### Mods added:
+- Chloride 1.7.2
+- Iris Shaders 1.8.12
+- Just Enough Resources (JER) 1.6.0.17
+
 #### Mods updated:
 <details>
-<summary>47 Mods updated</summary>
+<summary>48 Mods updated</summary>
 
 - Ars Elemental 0.7.6.1 => 0.7.6.8
 - Ars Nouveau 5.10.5 => 5.10.6
+- Applied Energistics 2 Wireless Terminals 19.2.6 => 19.3.0
 - Applied Mekanistics 1.6.2 => 1.6.3
 - Apotheosis 8.4.0 => 8.4.1
 - BaguetteLib 1.1.2 => 1.1.3
