@@ -163,6 +163,14 @@
       "y": 56
     },
     {
+      "type": "custommachinery:reset",
+      "tooltips": [],
+      "x": 133,
+      "y": 76,
+      "width": 23,
+      "height": 9
+    },
+    {
       "type": "custommachinery:slot",
       "id": "input",
       "x": 100,
