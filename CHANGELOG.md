@@ -4,8 +4,36 @@
 
 ## v2.0.2.0
 
-#### Changes from mod updates:
+#### New Features:
+- Add custom machines tear 2
+- Add Upgrade modules for custom machines
+
+#### Fixes:
 - Fixed `/enderchest` command ([FTBTeam/FTB-Mods-Issues#1852])
+- Fixed staging of endertanks
+- Fixed uncraftable stellaris base module
+- Bugfixes and balancing changes in questbook dependencies
+
+#### Recipes Changes:
+- Add recipe for undergarden ashen deepturf
+- Replace core with iridium dust in conduit binder recipe to make it cheaper
+- Change lumber recipe to accept all plank types and alternative slime variants
+- Remove ato op recipes that dodges progress
+- Disable recycling recipes for immersive
+- Remove stellaris fuel refinery
+- Remove awakened supremium growth accelerator
+
+#### Config Changes:
+- Allow Prudentium Tools for Ultimine
+- Increase speed of seed planter and tree planter
+- Increase coins from daily quest depending on current week
+- Rebalanced lottery chances (increase chance to get elemental seeds)
+- Move ore laser veins for iridium and platinum to correct planets
+- Add immersive ore veins for iridium and platinum
+- Remove stellaris structure containing rockets and more stuff that bypasses quest stages
+- Fix/Add translations for custom machines
+
+
 
 #### Mods added:
 - Chloride 1.7.2
