@@ -53,13 +53,12 @@
       "type": "custommachinery:item",
       "whitelist": "#c:seeds",
       "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT",
-        "input": true
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
       },
       "id": "input",
       "mode": "input"
@@ -124,11 +123,6 @@
       "height": 192
     },
     {
-      "type": "custommachinery:config",
-      "x": 230,
-      "y": 5
-    },
-    {
       "type": "custommachinery:energy",
       "x": 46,
       "y": 45
@@ -156,10 +150,13 @@
       "y": 62,
       "ghost": {
         "items": {
-          "item": "minecraft:wheat_seeds"
+          "item": "minecraft:structure_void"
         },
         "color": {
-          "alpha": 0.24705882
+          "alpha": 0.4392157,
+          "red": 0.6666667,
+          "green": 0.0,
+          "blue": 0.0
         }
       }
     },
@@ -201,7 +198,7 @@
     },
     {
       "type": "custommachinery:text",
-      "x": 63,
+      "x": 22,
       "y": 27,
       "text": {
         "text": "item.mod_journey.machine.seed_planter.description",
