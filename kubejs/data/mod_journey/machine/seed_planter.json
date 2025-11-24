@@ -53,13 +53,14 @@
       "type": "custommachinery:item",
       "whitelist": "#c:seeds",
       "config": {
-        "TOP": "NONE",
-        "BOTTOM": "NONE",
-        "FRONT": "NONE",
-        "RIGHT": "NONE",
-        "BACK": "NONE",
-        "LEFT": "NONE"
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
       },
+      "locked": true,
       "id": "input",
       "mode": "input"
     },
