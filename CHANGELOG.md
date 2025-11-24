@@ -14,13 +14,13 @@
 
 #### Mods updated:
 <details>
-<summary>48 Mods updated</summary>
+<summary>47 Mods updated</summary>
 
-- Ars Elemental 0.7.6.1 => 0.7.6.8
-- Ars Nouveau 5.10.5 => 5.10.6
+- Apotheosis 8.4.0 => 8.4.1
 - Applied Energistics 2 Wireless Terminals 19.2.6 => 19.3.0
 - Applied Mekanistics 1.6.2 => 1.6.3
-- Apotheosis 8.4.0 => 8.4.1
+- Ars Elemental 0.7.6.1 => 0.7.6.8
+- Ars Nouveau 5.10.5 => 5.10.6
 - BaguetteLib 1.1.2 => 1.1.3
 - Bookshelf 21.1.68 => 21.1.78
 - Collective 8.7 => 8.13
@@ -37,18 +37,17 @@
 - FTB Library 2101.1.21 => 2101.1.26
 - FTB Quests 2101.1.16 => 2101.1.18
 - FTB Teams 2101.1.4 => 2101.1.7
-- FTB Teams 2101.1.4 => 2101.1.7
 - FTB Ultimine 2101.1.10 => 2101.1.12
 - GuideME 21.1.14 => 21.1.15
-- Iron Jetpacks 8.0.10 => 8.0.11
 - Inventory Sorter 24.0.20 => 24.2.24
+- Iron Jetpacks 8.0.10 => 8.0.11
 - Just Enough Immersive Multiblocks 1.0.4 => 1.0.6
 - Macaw's Furniture 3.3.0 => 3.4.0
+- McJtyLib 9.0.14 => 9.0.17
 - Mekanism 10.7.16.82 => 10.7.16.83
 - Mekanism Additions 10.7.16.82 => 10.7.16.83
 - Mekanism Generators 10.7.16.82 => 10.7.16.83
 - Mekanism Tools 10.7.16.82 => 10.7.16.83
-- McJtyLib 9.0.14 => 9.0.17
 - MrCrayfish's Furniture Mod: Refurbished 1.0.16 => 1.0.20
 - Mystical Agradditions 8.0.9 => 8.0.10
 - Mystical Agriculture 8.0.19 => 8.0.20
