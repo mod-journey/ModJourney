@@ -149,15 +149,15 @@
     {
       "type": "custommachinery:item_upgrade",
       "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT"
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
       },
       "id": "upgrade_1",
-      "capacity": 3
+      "capacity": 1
     }
   ],
   "gui": [
@@ -165,6 +165,11 @@
       "type": "custommachinery:background",
       "width": 256,
       "height": 192
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 227,
+      "y": 10
     },
     {
       "type": "custommachinery:dump",
@@ -273,16 +278,14 @@
     {
       "type": "custommachinery:slot",
       "id": "upgrade_1",
-      "x": 189,
-      "y": 32,
-      "width": 18,
-      "height": 18,
+      "x": 229,
+      "y": 37,
       "ghost": {
         "items": {
-          "item": "minecraft:sugar"
+          "item": "mod_journey:upgrades/acceleration_card_1"
         },
         "color": {
-          "alpha": 0.28627452
+          "alpha": 0.24705882
         }
       }
     },

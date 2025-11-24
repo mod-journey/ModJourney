@@ -115,6 +115,19 @@
       },
       "id": "output4",
       "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "id": "upgrade_1",
+      "capacity": 1
     }
   ],
   "gui": [
@@ -131,13 +144,13 @@
     {
       "type": "custommachinery:energy",
       "x": 46,
-      "y": 45
+      "y": 37
     },
     {
       "type": "custommachinery:fluid",
       "id": "input",
       "x": 64,
-      "y": 45
+      "y": 37
     },
     {
       "type": "custommachinery:player_inventory",
@@ -147,13 +160,13 @@
     {
       "type": "custommachinery:progress",
       "x": 133,
-      "y": 64
+      "y": 56
     },
     {
       "type": "custommachinery:slot",
       "id": "input",
       "x": 100,
-      "y": 62,
+      "y": 54,
       "ghost": {
         "items": {
           "item": "minecraft:wheat_seeds"
@@ -167,26 +180,40 @@
       "type": "custommachinery:slot",
       "id": "output1",
       "x": 172,
-      "y": 53
+      "y": 45
     },
     {
       "type": "custommachinery:slot",
       "id": "output2",
       "priority": 1,
       "x": 190,
-      "y": 53
+      "y": 45
     },
     {
       "type": "custommachinery:slot",
       "id": "output3",
       "x": 172,
-      "y": 71
+      "y": 63
     },
     {
       "type": "custommachinery:slot",
       "id": "output4",
       "x": 190,
-      "y": 71
+      "y": 63
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade_1",
+      "x": 46,
+      "y": 84,
+      "ghost": {
+        "items": {
+          "item": "mod_journey:upgrades/acceleration_card_1"
+        },
+        "color": {
+          "alpha": 0.24705882
+        }
+      }
     },
     {
       "type": "custommachinery:text",
