@@ -10,7 +10,7 @@ function add_update_acceleration(event, active, debug) {
 
     let upgradeableMachines = [
         "mod_journey:mechanical_press",
-        "mod_journey:seed_planter",
+        "mod_journey:seed_planter_v2",
         "mod_journey:tree_planter",
         "mod_journey:refinary",
         "mod_journey:brine_converter"
