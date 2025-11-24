@@ -6,18 +6,20 @@ let add_custom_machinary_seedplanter = (event, active, debug) => {
     let mystical_obj = global.seeds.mystical
 
     //Crafting the Machine itselfs:
-    event.shaped("mod_journey:seed_planter", [
-        'ABA',
-        'CDC',
-        'EFE'
-    ], {
-        A: 'industrialforegoing:plastic',
-        B: Item.of('industrialforegoing:plant_gatherer'),
-        C: 'minecraft:hopper',
-        D: '#c:seeds',
-        E: 'minecraft:bucket',
-        F: Item.of('industrialforegoing:plant_sower')
-    })
+    /**
+        event.shaped("mod_journey:seed_planter", [
+            'ABA',
+            'CDC',
+            'EFE'
+        ], {
+            A: 'industrialforegoing:plastic',
+            B: Item.of('industrialforegoing:plant_gatherer'),
+            C: 'minecraft:hopper',
+            D: '#c:seeds',
+            E: 'minecraft:bucket',
+            F: Item.of('industrialforegoing:plant_sower')
+        })
+    */
 
     /**
      * @example seed_planter("seed", 0.25, "crop", 0.1, 200, 4000)
