@@ -77,6 +77,7 @@ if (events_server) {
             add_custom_machinary_treeplanter(event, true)
             add_custom_machinary_metalpress(event, true)
             add_custom_machinary_brine_converter(event, true)
+            add_custom_machinary_crafting_acceleration_cards(event, true)
         }
 
         /* "./remove/*" */
