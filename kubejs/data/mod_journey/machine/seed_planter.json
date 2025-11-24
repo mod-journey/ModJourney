@@ -198,6 +198,19 @@
         "color": "black",
         "bold": true
       }
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 63,
+      "y": 27,
+      "text": {
+        "text": "item.mod_journey.machine.seed_planter.description",
+        "color": "dark_red"
+      },
+      "jei": true
     }
-  ]
+  ],
+  "tooltips": {
+    "text": "item.mod_journey.machine.seed_planter.jei"
+  }
 }
