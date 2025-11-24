@@ -5,6 +5,7 @@
   },
   "appearance": {
     "custommachinery:block": "mod_journey:antimatter_block",
+    "custommachinery:keep_inventory": true,
     "custommachinery:mining_level": "minecraft:needs_diamond_tool",
     "custommachinery:tool_type": [
       "minecraft:mineable/shovel",

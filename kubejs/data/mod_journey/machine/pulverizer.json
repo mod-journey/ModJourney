@@ -8,6 +8,7 @@
       "sound": "minecraft:"
     },
     "custommachinery:block": "mod_journey:machine/pulverizer#standalone",
+    "custommachinery:keep_inventory": true,
     "custommachinery:mining_level": "minecraft:needs_diamond_tool",
     "custommachinery:tool_type": [
       "minecraft:mineable/pickaxe",
@@ -158,17 +159,6 @@
       "y": 59
     },
     {
-      "type": "custommachinery:text",
-      "x": 79,
-      "y": 12,
-      "width": 94,
-      "text": {
-        "text": "item.mod_journey.machine.pulverizer",
-        "color": "black",
-        "bold": true
-      }
-    },
-    {
       "type": "custommachinery:slot",
       "id": "upgrade_1",
       "x": 46,
@@ -180,6 +170,17 @@
         "color": {
           "alpha": 0.24705882
         }
+      }
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 79,
+      "y": 12,
+      "width": 94,
+      "text": {
+        "text": "item.mod_journey.machine.pulverizer",
+        "color": "black",
+        "bold": true
       }
     }
   ]
