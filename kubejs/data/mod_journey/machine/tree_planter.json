@@ -116,6 +116,11 @@
       "height": 192
     },
     {
+      "type": "custommachinery:config",
+      "x": 227,
+      "y": 9
+    },
+    {
       "type": "custommachinery:dump",
       "x": 56,
       "y": 33,
