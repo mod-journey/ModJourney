@@ -73,9 +73,11 @@ if (events_server) {
 
         if (customMachine_event) {
             add_custom_machinary_seedplanter(event, true)
+            add_custom_machinary_seedplanter_v2(event, true)
             add_custom_machinary_treeplanter(event, true)
             add_custom_machinary_metalpress(event, true)
             add_custom_machinary_brine_converter(event, true)
+            add_custom_machinary_crafting_acceleration_cards(event, true)
         }
 
         /* "./remove/*" */
@@ -112,6 +114,10 @@ if (events_server) {
             replace_stellaris_uran(event, true);
         }
 
+    })
+
+    CustomMachineryEvents.upgrades(event => {
+        add_update_acceleration(event, true)
     })
 };
 

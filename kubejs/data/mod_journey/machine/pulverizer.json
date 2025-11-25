@@ -7,14 +7,33 @@
     "custommachinery:ambient_sound": {
       "sound": "minecraft:"
     },
-    "custommachinery:block": "mod_journey:machine/pulverizer#standalone"
+    "custommachinery:block": "mod_journey:machine/pulverizer#standalone",
+    "custommachinery:keep_inventory": true,
+    "custommachinery:mining_level": "minecraft:needs_diamond_tool",
+    "custommachinery:tool_type": [
+      "minecraft:mineable/pickaxe",
+      "minecraft:mineable/shovel",
+      "minecraft:mineable/hoe",
+      "minecraft:mineable/axe",
+      "c:mineable/paxel"
+    ]
   },
   "components": [
     {
       "type": "custommachinery:energy",
+      "max_output": 8000,
       "capacity": 256000,
-      "max_input": 8000,
-      "max_output": 8000
+      "max_input": 8000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_0",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_1",
+      "mode": "input"
     },
     {
       "type": "custommachinery:item_result",
@@ -56,16 +75,6 @@
       "mode": "output"
     },
     {
-      "type": "custommachinery:item",
-      "id": "input_0",
-      "mode": "input"
-    },
-    {
-      "type": "custommachinery:item",
-      "id": "input_1",
-      "mode": "input"
-    },
-    {
       "type": "custommachinery:item_result",
       "config": {
         "TOP": "INPUT",
@@ -77,6 +86,19 @@
       },
       "id": "output_3",
       "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "id": "upgrade_1",
+      "capacity": 1
     }
   ],
   "gui": [
@@ -84,6 +106,71 @@
       "type": "custommachinery:background",
       "width": 256,
       "height": 192
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 45,
+      "y": 36
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 45,
+      "y": 105
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 122,
+      "y": 52
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_0",
+      "x": 74,
+      "y": 51
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_1",
+      "x": 92,
+      "y": 51
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_0",
+      "x": 152,
+      "y": 41
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_1",
+      "x": 170,
+      "y": 41
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_2",
+      "x": 152,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_3",
+      "x": 170,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade_1",
+      "x": 46,
+      "y": 83,
+      "ghost": {
+        "items": {
+          "item": "mod_journey:upgrades/acceleration_card_1"
+        },
+        "color": {
+          "alpha": 0.24705882
+        }
+      }
     },
     {
       "type": "custommachinery:text",
@@ -95,57 +182,6 @@
         "color": "black",
         "bold": true
       }
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "output_2",
-      "x": 152,
-      "y": 69
-    },
-    {
-      "type": "custommachinery:player_inventory",
-      "x": 45,
-      "y": 105
-    },
-    {
-      "type": "custommachinery:energy",
-      "x": 45,
-      "y": 46
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "input_0",
-      "x": 74,
-      "y": 61
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "input_1",
-      "x": 92,
-      "y": 61
-    },
-    {
-      "type": "custommachinery:progress",
-      "x": 122,
-      "y": 62
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "output_0",
-      "x": 152,
-      "y": 51
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "output_1",
-      "x": 170,
-      "y": 51
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "output_3",
-      "x": 170,
-      "y": 69
     }
   ]
 }

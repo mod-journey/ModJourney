@@ -78,4 +78,14 @@ let item_add = (event, active, debug) => {
             .texture(`mod_journey:item/staged/ingredient/${itemName}`)
     }
 
+    let upgrades = [
+        null, 1, 2, 3
+    ]
+
+    for (let i = 1; i < upgrades.length; i++) {
+        event.create(`mod_journey:upgrades/acceleration_card_${i}`)
+            .tooltip(Text.translate(`item.mod_journey.upgrades.acceleration_card_${i}.tooltip`))
+            .tag("mod_journey:machine_updates")
+            .tag("mod_journey:machine/upgrades/speed")
+    }
 };

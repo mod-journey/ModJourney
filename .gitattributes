@@ -6,6 +6,7 @@ dev-tools/				export-ignore
 kubejs/kubejs-DOKUs/			export-ignore
 .disabled/				export-ignore
 jsconfig.json				export-ignore
+*.bbmodel				export-ignore
 #
 # Keep files with linux eol, because the mods create them with this eol
 #   use `find . -type f | xargs -L 1 -d '\n' dos2unix -i` to detect linebreak
