@@ -30,7 +30,7 @@
       {
         "chance": 0.2,
         "output": {
-            "id": "minecraft:blackstone"
+            "id": "stellaris:mercury_cobblestone"
         }
       }
     ],

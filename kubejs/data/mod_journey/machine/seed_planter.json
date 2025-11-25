@@ -1,40 +1,24 @@
 {
   "name": {
-    "text": "Crop Planter",
+    "text": "item.mod_journey.machine.seed_planter",
     "color": "white"
   },
   "appearance": {
     "custommachinery:block": "mod_journey:machine/crop_planter#standalone",
-    "custommachinery:item": "mod_journey:machine/seed_planter#standalone"
+    "custommachinery:item": "mod_journey:machine/seed_planter#standalone",
+    "custommachinery:keep_inventory": true,
+    "custommachinery:mining_level": "minecraft:needs_diamond_tool",
+    "custommachinery:tool_type": [
+      "minecraft:mineable/pickaxe",
+      "minecraft:mineable/axe",
+      "minecraft:mineable/hoe",
+      "minecraft:mineable/shovel",
+      "c:mineable/paxel"
+    ]
   },
   "components": [
     {
-      "type": "custommachinery:fluid",
-      "mode": "input",
-      "id": "input",
-      "capacity": 32000,
-      "max_input": 1000,
-      "max_output": 1000
-    },
-    {
-      "type": "custommachinery:item",
-      "whitelist": "#c:seeds",
-      "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT",
-        "input": true
-      },
-      "id": "input",
-      "mode": "input"
-    },
-    {
       "type": "custommachinery:energy",
-      "capacity": 32000,
-      "max_input": 500,
       "max_output": 0,
       "config": {
         "TOP": "INPUT",
@@ -44,12 +28,45 @@
         "BACK": "INPUT",
         "LEFT": "INPUT",
         "input": true
-      }
+      },
+      "capacity": 32000,
+      "max_input": 500
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT",
+        "input": true
+      },
+      "max_input": 1000,
+      "max_output": 1000,
+      "id": "input",
+      "capacity": 32000
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": "#c:seeds",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "locked": true,
+      "id": "input",
+      "mode": "input"
     },
     {
       "type": "custommachinery:item",
       "config": {
-        "output": true,
         "TOP": "OUTPUT",
         "BOTTOM": "OUTPUT",
         "FRONT": "OUTPUT",
@@ -63,7 +80,6 @@
     {
       "type": "custommachinery:item",
       "config": {
-        "output": true,
         "TOP": "OUTPUT",
         "BOTTOM": "OUTPUT",
         "FRONT": "OUTPUT",
@@ -77,7 +93,6 @@
     {
       "type": "custommachinery:item",
       "config": {
-        "output": true,
         "TOP": "OUTPUT",
         "BOTTOM": "OUTPUT",
         "FRONT": "OUTPUT",
@@ -91,7 +106,6 @@
     {
       "type": "custommachinery:item",
       "config": {
-        "output": true,
         "TOP": "OUTPUT",
         "BOTTOM": "OUTPUT",
         "FRONT": "OUTPUT",
@@ -110,20 +124,9 @@
       "height": 192
     },
     {
-      "type": "custommachinery:text",
-      "x": 65,
-      "y": 14,
-      "height": 14,
-      "text": {
-        "text": "item.mod_journey.machine.seed_planter",
-        "color": "black",
-        "bold": true
-      }
-    },
-    {
-      "type": "custommachinery:player_inventory",
+      "type": "custommachinery:energy",
       "x": 46,
-      "y": 104
+      "y": 45
     },
     {
       "type": "custommachinery:fluid",
@@ -132,9 +135,14 @@
       "y": 45
     },
     {
-      "type": "custommachinery:energy",
+      "type": "custommachinery:player_inventory",
       "x": 46,
-      "y": 45
+      "y": 104
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 133,
+      "y": 64
     },
     {
       "type": "custommachinery:slot",
@@ -143,17 +151,15 @@
       "y": 62,
       "ghost": {
         "items": {
-          "item": "minecraft:wheat_seeds"
+          "item": "minecraft:structure_void"
         },
         "color": {
-          "alpha": 0.24705882
+          "alpha": 0.4392157,
+          "red": 0.6666667,
+          "green": 0.0,
+          "blue": 0.0
         }
       }
-    },
-    {
-      "type": "custommachinery:progress",
-      "x": 133,
-      "y": 64
     },
     {
       "type": "custommachinery:slot",
@@ -179,6 +185,30 @@
       "id": "output4",
       "x": 190,
       "y": 71
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 65,
+      "y": 14,
+      "height": 14,
+      "text": {
+        "text": "item.mod_journey.machine.seed_planter",
+        "color": "black",
+        "bold": true
+      }
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 22,
+      "y": 27,
+      "text": {
+        "text": "item.mod_journey.machine.seed_planter.description",
+        "color": "dark_red"
+      },
+      "jei": true
     }
-  ]
+  ],
+  "tooltips": {
+    "text": "item.mod_journey.machine.seed_planter.jei"
+  }
 }

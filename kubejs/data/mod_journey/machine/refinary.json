@@ -4,7 +4,16 @@
     "color": "white"
   },
   "appearance": {
-    "custommachinery:block": "mod_journey:antimatter_block"
+    "custommachinery:block": "mod_journey:antimatter_block",
+    "custommachinery:keep_inventory": true,
+    "custommachinery:mining_level": "minecraft:needs_diamond_tool",
+    "custommachinery:tool_type": [
+      "minecraft:mineable/shovel",
+      "minecraft:mineable/axe",
+      "minecraft:mineable/hoe",
+      "minecraft:mineable/pickaxe",
+      "c:mineable/paxel"
+    ]
   },
   "components": [
     {
@@ -137,6 +146,19 @@
       },
       "id": "out2",
       "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "id": "upgrade_1",
+      "capacity": 1
     }
   ],
   "gui": [
@@ -146,9 +168,14 @@
       "height": 192
     },
     {
+      "type": "custommachinery:config",
+      "x": 227,
+      "y": 10
+    },
+    {
       "type": "custommachinery:dump",
       "x": 53,
-      "y": 82,
+      "y": 98,
       "width": 17,
       "height": 8,
       "tanks": "input1"
@@ -156,7 +183,7 @@
     {
       "type": "custommachinery:dump",
       "x": 183,
-      "y": 82,
+      "y": 98,
       "width": 17,
       "height": 8,
       "tanks": "input2"
@@ -165,7 +192,7 @@
       "type": "custommachinery:energy",
       "orientation": "BOTTOM",
       "x": 46,
-      "y": 37,
+      "y": 53,
       "width": 6,
       "height": 29
     },
@@ -173,7 +200,7 @@
       "type": "custommachinery:energy",
       "orientation": "BOTTOM",
       "x": 201,
-      "y": 37,
+      "y": 53,
       "width": 6,
       "height": 29
     },
@@ -182,21 +209,21 @@
       "id": "in1",
       "priority": 1,
       "x": 53,
-      "y": 37
+      "y": 53
     },
     {
       "type": "custommachinery:fluid",
       "id": "input2",
       "priority": 1,
       "x": 182,
-      "y": 37
+      "y": 53
     },
     {
       "type": "custommachinery:fluid",
       "id": "output1",
       "priority": 1,
       "x": 109,
-      "y": 58,
+      "y": 74,
       "height": 24
     },
     {
@@ -204,7 +231,7 @@
       "id": "output2",
       "priority": 1,
       "x": 127,
-      "y": 58,
+      "y": 74,
       "height": 24
     },
     {
@@ -214,40 +241,62 @@
     },
     {
       "type": "custommachinery:progress",
-      "x": 70,
-      "y": 66,
-      "width": 40
+      "x": 71,
+      "y": 82,
+      "width": 37
     },
     {
       "type": "custommachinery:progress",
       "orientation": "LEFT",
-      "x": 143,
-      "y": 66,
-      "width": 40
+      "x": 145,
+      "y": 82,
+      "width": 37
     },
     {
       "type": "custommachinery:slot",
       "id": "in1",
       "x": 71,
-      "y": 37
+      "y": 53
     },
     {
       "type": "custommachinery:slot",
       "id": "in2",
       "x": 164,
-      "y": 37
+      "y": 53
     },
     {
       "type": "custommachinery:slot",
       "id": "out1",
       "x": 109,
-      "y": 37
+      "y": 53
     },
     {
       "type": "custommachinery:slot",
       "id": "out2",
       "x": 127,
-      "y": 37
+      "y": 53
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade_1",
+      "x": 229,
+      "y": 37,
+      "ghost": {
+        "items": {
+          "item": "mod_journey:upgrades/acceleration_card_1"
+        },
+        "color": {
+          "alpha": 0.24705882
+        }
+      }
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 106,
+      "y": 8,
+      "text": {
+        "text": "Refinary"
+      }
     }
   ]
 }

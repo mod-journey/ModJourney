@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: "",
-	filename: "twilight_forest",
+	default_quest_shape: ""
+	filename: "twilight_forest"
 	group: "12D6D4D26DC1B099"
 	icon: {
 		id: "twilightforest:lich_trophy"

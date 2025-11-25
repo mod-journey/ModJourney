@@ -57,7 +57,8 @@ FTBQuestsEvents.customReward("65A83C70BA4FDE02", event => {
     const teamManager = FTB.getTeamManager();
     const playerUUID = event.player.getUuid();
     const teamOptional = teamManager.getTeamForPlayerID(playerUUID);
-    let memberCount = 1;
+    let rewardMultiplier = Math.floor(QuestBuilder.getRewardMultiplier())
+    let rewardCount = rewardMultiplier;
     let rewardItem = mjConfig.stages.coins.silver
 
     // Check if an item is defined as Icon (otherwise it is identical to altIcon)
@@ -71,17 +72,17 @@ FTBQuestsEvents.customReward("65A83C70BA4FDE02", event => {
         const team = teamOptional.get();
 
         // Mitglieder des Teams abrufen und Anzahl ermitteln
-        memberCount = team.getMembers().size();
+        rewardCount = team.getMembers().size() * rewardMultiplier;
 
         // Anzahl der Teammitglieder ausgeben
-        console.log("Quest-Erfolg: " + event.player.name.getString() + " hat erfolgreich " + memberCount + " '" + rewardItem + "' für sein Team abgeholt.");
-        event.player.tell("Du hast erfolgreich " + memberCount + " Münze/n für dein Team abgeholt")
+        console.log("Quest-Erfolg: " + event.player.name.getString() + " hat erfolgreich " + rewardCount + " '" + rewardItem + "' für sein Team abgeholt.");
+        event.player.tell(Text.translate('chat.message.quest.reward.coins', Text.gold(`${rewardCount}`) ))
     } else {
         console.warn("Quest-Fehler: " + event.player.name.getString() + " hat nur ein '" + rewardItem + "' erhalten")
-        event.player.tell("Etwas ist bei der Abgabe der Quest schiefgelaufen, bitte Kontaktiere umgehend die Orga.")
+        event.player.tell(Text.translate('chat.message.quest.reward.failure').red())
     }
 
-    for (let n = 1; n <= memberCount; n++) {
+    for (let n = 1; n <= rewardCount; n++) {
         event.player.give(rewardItem)
     }
 

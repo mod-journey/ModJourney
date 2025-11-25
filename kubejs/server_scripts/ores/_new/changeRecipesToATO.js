@@ -1,3 +1,8 @@
+/**
+ * @param {$RecipesKubeEvent} event
+ * @param {boolean} active
+ * @param {boolean} debug
+ */
 let changeRecipeToATO = (event, active, debug) => {
     if (!active) return;
     //ServerEvents.recipes(event => {
@@ -60,7 +65,7 @@ let changeRecipeToATO = (event, active, debug) => {
                 }
             }
             if (!(special) && !(form === null) && !(metall === null)) {
-                console.log("Start: " + ObjKeyVal)
+                //console.log("Start: " + ObjKeyVal)
                 ObjKeyVal.remove(key)
 
                 if (formSecond === null) {
@@ -69,7 +74,7 @@ let changeRecipeToATO = (event, active, debug) => {
                     ObjKeyVal.add(key, `alltheores:${form}_${metall}_${formSecond}`)
                 }
                 event.custom(recipe.json).id(recipe.getId())
-                console.log("Ende: " + ObjKeyVal)
+                //console.log("Ende: " + ObjKeyVal)
             }
             //Nach Rezeptanlegung, werden Werte für den Nächsten lauf wieder genullt.
             form = null; metall = null; formSecond = null; special = false
@@ -80,10 +85,16 @@ let changeRecipeToATO = (event, active, debug) => {
          * man die vorhandenen Builder benutzen, oder auch eigene Filter mit anlegen. Funktionen, Auslagerung, der Übersichtlichkeit benutzen.
          */
         global.mjOres.craftingTypes.forEach(element => {
-            console.log("_______________" + element + "_______________")
+            if (debug) console.log("_______________" + element + "_______________")
 
             event.forEachRecipe({}, r => {
                 if (!(r.json.get("type").toString() === element)) return;
+
+                // TODO move this to input replace section (when we have such a section)
+                if (r.getId() === 'stellaris:misc/modules/base_module_tier_2') {
+                    //console.log('___Was stimmt hier nicht?');
+                    event.replaceInput({id: r.getId()}, 'stellaris:steel_nugget', '#c:nuggets/steel');
+                }
 
                 if (r.json.get("result") !== null) {
                     if (r.json.get("result").get("id") !== null) {
@@ -102,8 +113,7 @@ let changeRecipeToATO = (event, active, debug) => {
                         //Hahahaha du mich auch!
                     }
                     else {
-                        console.log("Some Recipe-ID are not tracked with ouput \"result\":")
-                        console.log(r.getId())
+                        if (debug) console.log("Some Recipe-ID are not tracked with output \"result\": " + r.getId())
                     }
                 }
                 else if ((r.json.get("results") !== null)) {
@@ -124,8 +134,7 @@ let changeRecipeToATO = (event, active, debug) => {
                             changeOutput(r, r.json.get("results").get(0), "id")
                         }
                         else {
-                            console.log("Some Recipe-ID are not tracked with ouput \"results\":")
-                            console.log(r.getId())
+                            console.log("Some Recipe-ID are not tracked with output \"results\": " + r.getId())
                         }
                     }
                 }
@@ -134,13 +143,11 @@ let changeRecipeToATO = (event, active, debug) => {
                         findOres(r.json.get("output").get("id"))
                         changeOutput(r, r.json.get("output"), "id")
                     } else {
-                        console.log("Some Recipe-ID are not tracked with ouput \"output\":")
-                        console.log(r.getId())
+                        if (debug) console.log("Some Recipe-ID are not tracked with output \"output\": " + r.getId())
                     }
                 }
                 else {
-                    console.log("Some Recipe-ID are not tracked with ouput \"unknown\":")
-                    console.log(r.getId())
+                    if (debug) console.log("Some Recipe-ID are not tracked with output \"unknown\": " + r.getId())
                 };
             });
         });

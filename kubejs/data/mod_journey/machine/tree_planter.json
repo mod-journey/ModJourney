@@ -1,14 +1,21 @@
 {
   "name": {
-    "text": "Tree Planter",
+    "text": "item.mod_journey.machine.tree_planter",
     "color": "white"
   },
   "appearance": {
     "custommachinery:block": "mod_journey:machine/tree_planter#standalone",
     "custommachinery:item": "mod_journey:machine/tree_planter#standalone",
+    "custommachinery:keep_inventory": true,
     "custommachinery:light": 4,
-    "custommachinery:mining_level": "minecraft:needs_stone_tool",
-    "custommachinery:requires_tool": false
+    "custommachinery:mining_level": "minecraft:needs_diamond_tool",
+    "custommachinery:tool_type": [
+      "minecraft:mineable/pickaxe",
+      "minecraft:mineable/hoe",
+      "minecraft:mineable/axe",
+      "minecraft:mineable/shovel",
+      "c:mineable/paxel"
+    ]
   },
   "components": [
     {
@@ -62,12 +69,13 @@
     {
       "type": "custommachinery:item",
       "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT"
+        "output": true,
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
       },
       "id": "output2",
       "mode": "output"
@@ -75,12 +83,13 @@
     {
       "type": "custommachinery:item",
       "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT"
+        "output": true,
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
       },
       "id": "output3",
       "mode": "output"
@@ -88,15 +97,29 @@
     {
       "type": "custommachinery:item",
       "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT"
+        "output": true,
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
       },
       "id": "output4",
       "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "id": "upgrade_1",
+      "capacity": 1
     }
   ],
   "gui": [
@@ -106,22 +129,27 @@
       "height": 192
     },
     {
+      "type": "custommachinery:config",
+      "x": 227,
+      "y": 9
+    },
+    {
       "type": "custommachinery:dump",
-      "x": 56,
-      "y": 33,
+      "x": 50,
+      "y": 24,
       "width": 22,
       "height": 7
     },
     {
       "type": "custommachinery:energy",
-      "x": 50,
-      "y": 46
+      "x": 44,
+      "y": 37
     },
     {
       "type": "custommachinery:fluid",
       "id": "input",
-      "x": 68,
-      "y": 46
+      "x": 62,
+      "y": 37
     },
     {
       "type": "custommachinery:player_inventory",
@@ -130,41 +158,55 @@
     },
     {
       "type": "custommachinery:progress",
-      "x": 116,
-      "y": 58
+      "x": 110,
+      "y": 49
     },
     {
       "type": "custommachinery:slot",
       "id": "input",
-      "x": 93,
-      "y": 57
+      "x": 87,
+      "y": 48
     },
     {
       "type": "custommachinery:slot",
       "id": "output1",
       "priority": 3,
-      "x": 145,
-      "y": 47
+      "x": 139,
+      "y": 38
     },
     {
       "type": "custommachinery:slot",
       "id": "output2",
       "priority": 2,
-      "x": 163,
-      "y": 47
+      "x": 157,
+      "y": 38
     },
     {
       "type": "custommachinery:slot",
       "id": "output3",
       "priority": 1,
-      "x": 145,
-      "y": 65
+      "x": 139,
+      "y": 56
     },
     {
       "type": "custommachinery:slot",
       "id": "output4",
-      "x": 163,
-      "y": 65
+      "x": 157,
+      "y": 56
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade_1",
+      "x": 44,
+      "y": 84,
+      "ghost": {
+        "items": {
+          "item": "mod_journey:upgrades/acceleration_card_1"
+        },
+        "color": {
+          "alpha": 0.24705882
+        }
+      }
     },
     {
       "type": "custommachinery:text",

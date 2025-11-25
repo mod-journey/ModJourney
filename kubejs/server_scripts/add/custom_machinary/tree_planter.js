@@ -40,18 +40,18 @@ let add_custom_machinary_treeplanter = (event, active, debug) => {
     }
 
     vanillaTrees.forEach(tree => {
-        TreePlanter(tree.sapling, tree.log, tree.log, 4000, 800)
+        TreePlanter(tree.sapling, tree.log, tree.log, 4000, 80)
     });
 
     croptopiaTrees.forEach(tree => {
-        TreePlanter(tree.sapling, tree.result, tree.result, 4000, 800)
+        TreePlanter(tree.sapling, tree.result, tree.result, 4000, 80)
     });
 
     ArsTrees.forEach(tree => {
-        TreePlanter(tree.sapling, tree.result, tree.result, 4000, 800)
+        TreePlanter(tree.sapling, tree.result, tree.result, 4000, 80)
     });
 
     TwillightTrees.forEach(tree => {
-        TreePlanter(tree.sapling, tree.result.main, tree.result.second, 4000, 800)
+        TreePlanter(tree.sapling, tree.result.main, tree.result.second, 4000, 80)
     });
 }

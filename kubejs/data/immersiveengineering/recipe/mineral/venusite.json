@@ -20,6 +20,12 @@
         }
       },
       {
+        "chance": 1.0,
+        "output": {
+          "id": "mod_journey:venus_platinum_ore"
+        }
+      },
+      {
         "chance": 0.2,
         "output": {
           "id": "stellaris:venus_diamond_ore"
@@ -43,13 +49,7 @@
       {
         "chance": 0.3,
         "output": {
-          "id": "stellaris:venus_stone"
-        }
-      },
-      {
-        "chance": 0.3,
-        "output": {
-          "id": "stellaris:venus_sandstone"
+          "id": "stellaris:venus_cobblestone"
         }
       }
     ],

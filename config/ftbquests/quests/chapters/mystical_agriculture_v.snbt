@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "mystical_agriculture_v"
 	group: "5137A643BD4C4882"
+	hide_quest_until_deps_complete: true
 	icon: {
 		id: "mysticalagriculture:supremium_essence"
 	}
@@ -33,10 +34,7 @@
 			y: -7.5d
 		}
 		{
-			dependencies: [
-				"1A92BA38712EA453"
-				"5EFEFB853D35D898"
-			]
+			dependencies: ["5EFEFB853D35D898"]
 			id: "23F37812907090F7"
 			rewards: [{
 				id: "527A5DECE96F5672"
@@ -58,9 +56,10 @@
 		}
 		{
 			dependencies: [
-				"61690176D17563A1"
 				"4B9318FBFB1FF36F"
+				"14C1780F1770F90D"
 			]
+			hide_until_deps_visible: true
 			id: "5EFEFB853D35D898"
 			tasks: [{
 				id: "1A1A2E917F4D01EF"
@@ -70,10 +69,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"1A92BA38712EA453"
-				"5EFEFB853D35D898"
-			]
+			dependencies: ["5EFEFB853D35D898"]
 			id: "5A3F3F6A38B4C831"
 			rewards: [{
 				id: "65DEC45647B0B73E"
@@ -94,10 +90,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"1A92BA38712EA453"
-				"5EFEFB853D35D898"
-			]
+			dependencies: ["5EFEFB853D35D898"]
 			id: "32995C3E724DC7F4"
 			rewards: [{
 				id: "5B2DC49038B345F8"
@@ -118,10 +111,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"1A92BA38712EA453"
-				"5EFEFB853D35D898"
-			]
+			dependencies: ["5EFEFB853D35D898"]
 			id: "750F56E678FF5641"
 			rewards: [{
 				id: "3A27F33DDDB3B1FA"
@@ -142,10 +132,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"1A92BA38712EA453"
-				"5EFEFB853D35D898"
-			]
+			dependencies: ["5EFEFB853D35D898"]
 			id: "3595397DB0C6039C"
 			rewards: [{
 				id: "7DA013993461535A"

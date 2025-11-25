@@ -10,7 +10,8 @@ let remove_stellaris = (event, active, debug) => {
         'stellaris:pipe_t3',
         'stellaris:pumpjack',
         'stellaris:pumpjack_drill',
-        'stellaris:oil_finder'
+        'stellaris:oil_finder',
+        'stellaris:fuel_refinery'
     ]
 
     remove.forEach(element => {

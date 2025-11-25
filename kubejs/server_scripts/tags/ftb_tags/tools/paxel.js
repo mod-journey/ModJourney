@@ -14,9 +14,9 @@ let tools_paxel = {
         //`mekanismtools:refined_obsidian_paxel`,
         //`mekanismtools:steel_paxel`,
         `mysticalagradditions:inferium_paxel`,
-        `mysticalagradditions:prudentium_paxel`,
-        `mysticalagradditions:tertium_paxel`,
-        `mysticalagradditions:imperium_paxel`,
+        //`mysticalagradditions:prudentium_paxel`,
+        //`mysticalagradditions:tertium_paxel`,
+        //`mysticalagradditions:imperium_paxel`,
         //`mysticalagradditions:supremium_paxel`,
         //`mysticalagradditions:awakened_supremium_paxel`,
         //`mekanism:atomic_disassembler`

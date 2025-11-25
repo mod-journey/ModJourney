@@ -8,7 +8,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4AED5A8C9C70A9C9"]
+			dependencies: [
+				"4AED5A8C9C70A9C9"
+				"2619E71D63B1B7FE"
+			]
 			dependency_requirement: "one_completed"
 			hide_until_deps_complete: true
 			id: "2F46349E2FB2FB5E"

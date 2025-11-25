@@ -16,7 +16,7 @@
 	chapter.430393DC3F2A60F9.title: "Erfolge"
 	chapter.461A8BB591B8DA55.title: "Natur's Aura"
 	chapter.486D38DC43A626CE.title: "Immersive Engineering"
-	chapter.488F73A73A492F5A.title: "Ad Astra"
+	chapter.488F73A73A492F5A.title: "Stellaris"
 	chapter.498D9D93A15CB670.title: "Sophisticated Backbacks"
 	chapter.508F596567C2F7D1.title: "Mystical Agriculture V u. VI"
 	chapter.50D5A665905BB3E8.title: "lobby"
@@ -50,6 +50,7 @@
 	quest.0060F8847CDD18D9.quest_subtitle: "Ich brauche mehr I"
 	quest.00B3CE4A66835442.quest_desc: ["Finde 5 Horizonit etwas Tiefer unter der Erde"]
 	quest.00B3CE4A66835442.title: "Heißes Eisen?"
+	quest.012414144A7C0228.title: "Dein Start mit Powah"
 	quest.01256AFE747A1CBF.quest_desc: [
 		"Dieses Questbuch führt euch durch die Welt der Mods."
 		""
@@ -149,6 +150,7 @@
 	quest.05E2C9D1ECFFFB78.quest_desc: ["\"Mr. Smithers to go\" ist dein Schmiedetisch-Upgrade, für deinen Rucksack."]
 	quest.05E2C9D1ECFFFB78.quest_subtitle: "Mr. Smithers"
 	quest.05E2C9D1ECFFFB78.title: "Schmiede-Upgrade"
+	quest.06058D4919841D02.quest_desc: ["Ab Abschluss der ersten Woche erhältst du (pro Spieler im Team) 2 Münzen aus der täglichen Quest."]
 	quest.06236B87230672E6.quest_desc: ["Dein Hopper fehlt es an Reichweite, probiere es mit Upgrades."]
 	quest.06417ADE2F421986.quest_desc: ["Es schalten sich nun neue Runen frei, welche Du craften kannst. Außerdem sollte dein Blutaltar durch die neuen Möglichkeiten noch Leistungsstärker werden."]
 	quest.064778D724C27365.quest_desc: ["Durch Spaltung wird aus dem Yellorium Cyanite gewonnen"]
@@ -187,10 +189,7 @@
 	quest.084F397A9654B3BB.quest_desc: ["Ein ME-Laufwerk bietet Dir die Möglichkeit, 10 Festplatten an dein System anzubinden. "]
 	quest.085524FB2AA3BAEF.quest_desc: ["wird weitaus mehr ballern wie die Rods zuvor."]
 	quest.08A02B295DC87498.title: "Prismarin II"
-	quest.08BDD4ADC8DDB9C2.quest_desc: [
-		"&4Zusätzlich:&r"
-		"Ab dem Einlösen der Quest, kannst Du zusätzlich im Technic-Shop einkaufen. "
-	]
+	quest.08BDD4ADC8DDB9C2.quest_desc: [""]
 	quest.08BDD4ADC8DDB9C2.title: "&4Nitro Kristall"
 	quest.08CD0F35FC56877F.title: "Wir brauchen Leder"
 	quest.08EA8E426B32DE48.quest_desc: ["Mit den Oxygen-Tanks kannst du Teile deines Raumanzugs craften. Außerdem benötigst Du sie um Sauerstoff nachzutanken. Hast Du vor auf andere Planeten zu fliegen? Nehm dir immer welche auf Vorrat mit. "]
@@ -278,7 +277,7 @@
 	quest.0C90DC7193CB6550.title: "Eis IV"
 	quest.0C983259740701CA.title: "Schwefel III"
 	quest.0C9A56AE665B29A7.quest_desc: ["ballert noch mehr wie der vorige."]
-	quest.0CCC99DA72026AD0.title: "Vibrant Legierung I"
+	quest.0CCC99DA72026AD0.title: "Pulsierende Legierung I"
 	quest.0CE6CBFD83DB97A7.title: "Yellorium I"
 	quest.0D02872448C4DA2F.quest_desc: ["Sind Die Quarzblüten voll Ausgewachsen, erhältst Du je nach Glück-Level Certusquatzkristalle."]
 	quest.0D02FD3C537A6CBD.quest_desc: ["Mehr Höhe für den Lüfter"]
@@ -427,7 +426,6 @@
 	quest.12BCB3661FB6ED27.title: "Alchemie-Upgrade"
 	quest.12D3B4B92CA5252C.title: "Let's show: Extreme Reactor"
 	quest.12F3E577725BBD4B.quest_subtitle: "Hier könnt ihr Mystical Agriculture Seeds erwerben sofern ihr bei den Quests / durch Handel keinen Erfolg hattet. Für die Seeds wird der Grundrohstoff des Seeds in einer bestimmten Menge benötigt. Eine Farm solltet ihr dazu also bereits haben. "
-	quest.1313C7E06930DB69.title: "Tiefenschiefer III"
 	quest.132DF5DE67AFA20C.title: "Niotic Kristall I"
 	quest.13C1BA3695707A9D.quest_desc: [
 		"Du entscheidest was für eine Ausgabe, in Fester oder Flüssiger Form."
@@ -504,7 +502,7 @@
 	]
 	quest.1792B32FDBE2FAB9.title: "Redstone Legierungsbarren III"
 	quest.17AF308CF5197526.quest_desc: ["Schließe den Fluid Hahn an einen Tank an und Du kannst XP abpumpen."]
-	quest.17F4AD786B66A4A7.quest_desc: ["Ein Monat bist du bereits auf deiner Reise, um dein Gebiet weiter auszubauen kannst du ab jetzt 75 Chunks (pro Spieler im Team) claimen."]
+	quest.17F4AD786B66A4A7.quest_desc: ["Ein Monat bist du bereits auf deiner Reise, um dein Gebiet weiter auszubauen kannst du ab jetzt 75 Chunks (pro Spieler im Team) claimen, und du erhältst (pro Spieler im Team) 5 Münzen aus der täglichen Quest."]
 	quest.17FBD31E4EF0D639.title: "Nitro Kristall IV"
 	quest.181561179B55197E.quest_desc: [
 		"Ein Block, welcher UUID, also Spieler-gebunden ist. Dieser beinhaltet mehrere Channels, welche genutzt werden können. Dieser Block ist dein Wireless Input. Kann aber auch als Speicher benutzt werden. Die gesamt Speicherkapazität kann erhöht werden, durch Akkus. Die I/O Rate bleibt gleich. Mit den sogenannten Ender Gates, kann man den Strom, welcher in deinem Netzwerk gespeichert ist, Wireless an Maschinen übertragen. "
@@ -548,9 +546,7 @@
 	quest.18DC444B569EA95E.title: "Enchanting mit Ambrosium"
 	quest.18EDBCF5CA37E870.quest_subtitle: "Damit kannst du deine Maschinen verbessern"
 	quest.19009C9588494133.quest_desc: ["Verlangsamt die Gegner die du angreifst."]
-	quest.19009C9588494133.title: "Froststeel Tools"
 	quest.1914C5782105712B.quest_desc: ["Eine solide Rüstung, mit der man durchaus eine lange Zeit gut klar kommt."]
-	quest.1914C5782105712B.title: "Utherium Armor"
 	quest.195971D0CE37082F.quest_desc: ["Das Forgotten Ingot erhältst Du durch das zusammen craften von 9 x Nuggets und benötigst Du um Forgotten Tools herzustellen. Dies basiert auf dem Schmiedevorlagen Rezept."]
 	quest.19B518EE50C960E0.title: "Zink III"
 	quest.19BDD9A98862D1F7.quest_desc: [
@@ -588,6 +584,7 @@
 	quest.1A68095FE4424786.title: "Der Creative Shop"
 	quest.1A6F631FCF135230.quest_desc: ["Genau so viele Slots wie der Dia Rucksack, also 120, aber dafür 7 Upgrade Slots!"]
 	quest.1A6F631FCF135230.quest_subtitle: "None Plus Ultra Rucksack"
+	quest.1A78DE0DABF021D3.title: "Fluorit I"
 	quest.1A92BA38712EA453.title: "Mystical Agriculture Tier III"
 	quest.1AE43ACFEEF65B21.title: "Cyanite I"
 	quest.1B146865E684FAEC.title: "Kohle II"
@@ -722,7 +719,6 @@
 		"Mittels des Füllstandsemitters, lassen sich Redstonesignale ausstoßen, während ein Item gefertigt wird oder um ein Item zu fertigen, in Kombination mit einer Fertigungskarte. "
 		"Ansonsten können damit Füllstände gemessen werden, welche ein Redstone-Signal ausgeben, bei erreichen oder Unterschreiten der angegebenen Menge."
 	]
-	quest.22F7230A59AC0302.title: "Tiefenschiefer IV"
 	quest.22F9E79A0AAB0990.quest_desc: ["Ein erneutes Upgrade für deine Rakete"]
 	quest.2330E243DDA687E9.quest_desc: ["Erweitert die Distanz des Lüfters"]
 	quest.23387B6FD57598D5.quest_subtitle: "Zerlegt einen Rohstoff in Einzelteile"
@@ -784,7 +780,6 @@
 	quest.2677B43BE16309EC.quest_subtitle: "Mit Hilfe des Flux Points kannst du Energie aus deinem Flux Network verwenden"
 	quest.26A055E345983DE9.title: "Apotheosis Gems"
 	quest.26A870FC3228E17D.quest_desc: ["Die Cloggrum Rüstung ist eine solide starter Rüstung."]
-	quest.26A870FC3228E17D.title: "Cloggrum Armor"
 	quest.26AFE523C18061F6.quest_desc: ["Ein seed den man entweder traden, oder durch das abbauen des mysteriösen Gloomer Kürbisses ercraften kann. "]
 	quest.26B645871A11798E.quest_desc: ["Gebe Uran oder Yellorium in deinen Reaktor"]
 	quest.26BC003C6E939699.quest_subtitle: "Verbinde eine Flüssigkeit mit einem Feststoff"
@@ -896,7 +891,7 @@
 	]
 	quest.2EA99850639C298A.title: "Phantom IV"
 	quest.2EC1511B23D8ABB9.title: "Tintenfisch I"
-	quest.2F3FCCA95F8EAE7A.title: "Tiefenschiefer II"
+	quest.2F049B7123A4A226.title: "Fluorit IV"
 	quest.2F43B87E319D7520.quest_desc: ["Nie wieder eine Werkbank craften, benutz deinen Rucksack dafür!"]
 	quest.2F43B87E319D7520.quest_subtitle: "Werkbank to go!"
 	quest.2F6ABA1EE21191DD.quest_desc: ["Wie der Name sagt. Überträgt Flüssigkeiten."]
@@ -921,9 +916,10 @@
 		"Lege einen erhaltenen Boss Kopf auf die Trophäensäule um Zugang zum Labyrinth zu erhalten"
 	]
 	quest.3172C2D525DD748A.title: "Prismarin IV"
+	quest.31F3052CB43CC455.title: "Fluorit II"
 	quest.3253AC6BB40CD3AD.quest_desc: [
 		"Ein Guter Moderator für den "
-		"{ \"text\": \"Thermo Generator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"48A426951585B3E6\" } }"
+		"{ \"translate\": \"block.powah.thermo_generator_starter\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"48A426951585B3E6\" } }"
 	]
 	quest.325B0F0901FD93A8.quest_desc: [
 		"Du hast das Handwerk eines Magiers nun schon ziemlich gut drauf. Jetzt musst du nur noch wie einer aussehen. Doch wähle mit Bedacht!"
@@ -941,6 +937,7 @@
 	quest.327C3EB7D3A292C7.quest_subtitle: "Unbegrenze Energy für dein ME-System"
 	quest.327C3EB7D3A292C7.title: "Kreative Energiezelle"
 	quest.32995C3E724DC7F4.title: "Wither Skellet I"
+	quest.32ACFD3CBACCC1CE.title: "Körner der Ewigkeit I"
 	quest.32CCA4CEC3CE9954.title: "Turbine"
 	quest.3335E7346C35ABA4.title: "Spinne II"
 	quest.334735438DFE505B.title: "Klopf auf Holz"
@@ -949,7 +946,9 @@
 	quest.33AA5240D8DC2EC9.quest_subtitle: "Voll machen bitte II"
 	quest.33B13ABE54BF5054.title: "Skelett III"
 	quest.33B1489D36D5EEFC.quest_desc: ["Die Vergessenen Hallen sind ein semi starker Dungeon mit einer Hülle von Spawnern und Lootchests. Außerdem hausen hier schon längst vergessene Monster."]
+	quest.33C01C628D7D3A67.title: "Körner der Ewigkeit IV"
 	quest.33C76E3BA8A79D32.title: "Ingots"
+	quest.344FA09BA1CFD6E5.title: "Pulsierende Legierung II"
 	quest.346963DA712EE10B.quest_desc: ["Es ist Zeit für etwas Party!"]
 	quest.346963DA712EE10B.quest_subtitle: "Dein Rave!"
 	quest.346963DA712EE10B.title: "Erweitertes Jukebox-Upgrade"
@@ -1205,7 +1204,6 @@
 	quest.40CBA9ECA122DDFA.quest_desc: ["Mit dem Mob-Swab kannst Du Dir DNA Abstriche von Entities/ Mobs holen. Wird benötigt um Spawneier daraus zu erstellen."]
 	quest.40EFD7E819501CF9.quest_desc: ["Der Bloodstone ist in unserem Pack ein gated-out Item. Außerdem benötigst du diese um deinen Blut Altar aufzuwerten. "]
 	quest.412036FA034F30EA.quest_desc: ["Utherium Tools sind Ultimine Fähig. Die Waffen verursachen gegen gewisse Gegner mehr Schaden. "]
-	quest.412036FA034F30EA.title: "Utherium Tools"
 	quest.413828EBD4CE1AA8.quest_desc: ["Eine Rune benutzt Du um dein Blutaltar zu vergrößern. Im Blut Magie Guide Book wirst Du zu diesen komplexen Strukturen bestimmt fündig. Den überlieferungen zu folge, soll der erste Blut Altar aus 8 weiteren Blanken Runensteinen bestehen."]
 	quest.413828EBD4CE1AA8.quest_subtitle: "Slates != Rune"
 	quest.413828EBD4CE1AA8.title: "Deine erste Runen"
@@ -1381,7 +1379,6 @@
 	]
 	quest.460860A0F0CCC4E1.title: "Nur noch ein schritt ins Portal"
 	quest.46746A29EC0DB581.quest_desc: ["Mit dem Cloggrum Schwert, hast Du zusätzlich +3 Reichweite auf Mobs"]
-	quest.46746A29EC0DB581.title: "Cloggrum Weapons"
 	quest.4718DB0B3EFC6628.quest_desc: ["Wird für das \"Ritual des Waldes\" benötigt."]
 	quest.4759C2D9F4C40115.quest_desc: ["Flüssigkeiten kannst du jetzt auch mit deinem Rucksack transportieren!"]
 	quest.4759C2D9F4C40115.quest_subtitle: "Flasche to go!"
@@ -1468,7 +1465,6 @@
 	]
 	quest.4B31704D46F9D6BC.title: "Stein IV"
 	quest.4B4A2387F7C307B6.quest_desc: ["Crafte ein Cloggrum Werkzeug, du kannst es später noch veredeln!"]
-	quest.4B4A2387F7C307B6.title: "Cloggrum Tools"
 	quest.4B54C232723221A0.title: "Konduktiver Legierungsbarren  III"
 	quest.4B54E3EBF42EEE28.title: "Himmelsstein I"
 	quest.4B5731EA58070191.quest_desc: ["Dies ist die effizentiste flüssigkeit um deinen reactor passive zu kühlen"]
@@ -1478,6 +1474,10 @@
 	quest.4B91378F01114966.quest_desc: ["Erhöht die Höhe des Entity Spawners"]
 	quest.4B916435E4D68736.quest_desc: ["Die Source Berry Roll bietet eine länger andauernde Mana Regeneration und sättigt gleichzeitig auch ordentlich. Das perfekte Mittagessen für jeden Zauberer, der was aus sich hält."]
 	quest.4B916435E4D68736.title: "Früchtebrot"
+	quest.4B9318FBFB1FF36F.quest_desc: [
+		"&4Zusätzlich:&r"
+		"Ab dem Einlösen der Quest, kannst Du zusätzlich im Technic-Shop einkaufen. "
+	]
 	quest.4B9318FBFB1FF36F.quest_subtitle: "Quasi unendlich strom"
 	quest.4B9318FBFB1FF36F.title: "Fusion Reaktor"
 	quest.4B9CC6EB7E14CAD7.quest_desc: ["Achtung Frostig!"]
@@ -1644,7 +1644,6 @@
 	]
 	quest.545E1A2C4F9C2E1E.quest_subtitle: "Einen Wither melken"
 	quest.548F099E63C07C64.quest_desc: ["Zusätzliche Undergarden Bonis auf die Forgotten Tools. Außerdem kannst Du mit diesen auch Ultimine betreiben."]
-	quest.548F099E63C07C64.title: "Forgotten Tools"
 	quest.54E91CBDA4D83EDE.title: "Let's show: Powah!"
 	quest.5529F9D6301E78F4.quest_desc: ["Doppelt so viele Flüssigkeitstypen, aber nur halb so groß."]
 	quest.5562884ED74575FC.title: "Hühnchen I"
@@ -1701,7 +1700,7 @@
 	quest.59802E53AA9E6919.title: "Silizium II"
 	quest.59A51F9358D6A234.quest_desc: ["Wird in \"Aura reicher\" umgebung &l&4im End&r&r eingesammelt, wenn ihr mit einer Bottle and Cork, einen Rechtsklick in die Luft macht."]
 	quest.59E92107A4481944.quest_desc: [
-		"Ab der zweiten Woche kannst du jetzt 50 Chunks (pro Spieler im Team) claimen."
+		"Ab Abschluss der zweiten Woche kannst du 50 Chunks (pro Spieler im Team) claimen, und du erhältst (pro Spieler im Team) 3 Münzen aus der täglichen Quest."
 		""
 		"Außerdem werden die Befehle &9/back&r, &9/home&r, &9/tpa&r und &9/tpahere&r freigeschaltet."
 	]
@@ -1709,6 +1708,7 @@
 	quest.5A21339405F8A5A5.quest_desc: ["Redstone dust + Snow Block"]
 	quest.5A21339405F8A5A5.title: "Cryomisi"
 	quest.5A3F3F6A38B4C831.title: "Netherite I"
+	quest.5A4D322AEA3E2D59.title: "Pulsierende Legierung IV"
 	quest.5A83CAD196067494.title: "Die erste Rüstung"
 	quest.5AE5065E8E3AC023.quest_desc: ["Was hieraus wohl entsteht?"]
 	quest.5AE90AC31CD60938.quest_desc: ["Auch hier kann eine Fertigungskarte installiert werden. Mittels zusätzlicher Beschleunigungskarten, gibst Du die Chargengröße des Craftingprozesses an. "]
@@ -1801,6 +1801,7 @@
 	quest.5F98BAF82E1271EE.quest_desc: ["Um auch die stärksten Glyphen nutzen zu können, muss dein Zauberbuch nochmals geupgradet werden. Doch nur wer sich als würdig erweist, vermag das volle Potential zu entfesseln."]
 	quest.5F98BAF82E1271EE.quest_subtitle: "Der lange weiße Bart steht dir gut"
 	quest.5F98BAF82E1271EE.title: "Der Meister der Meister aller Meister"
+	quest.5F98FFBC67AB4276.title: "Körner der Ewigkeit II"
 	quest.5FAB86380F99F739.title: "Kreativer Energie-Würfel"
 	quest.5FBE953877FCAC23.quest_desc: ["Dieses Regal verringert die Menge von &2Eterna&r und &cQuanta&r. Gut, um begrenzte Quantabereiche für bestimmte Verzauberungen zu erreichen."]
 	quest.5FBE953877FCAC23.title: "Süß und Wohltuend"
@@ -1893,6 +1894,7 @@
 	]
 	quest.65E14369D16F30ED.quest_subtitle: "weniger ist nicht mehr"
 	quest.65E14369D16F30ED.title: "Mehr Runen"
+	quest.6606BFA575C02116.title: "Interception-Upgrade"
 	quest.663D58FDB00228B1.quest_desc: ["Ein Teil einer Multiblockstruktur. Diese kannst Du nutzen, um deine Orb in Fusing Rezepten mit Strom zu versorgen. Wie man dies mittels Autocrafting hinbekommt, lernst du in der folge Quest."]
 	quest.664C5992E6D9347E.title: "Leuchtstein IV"
 	quest.664DE4738DDB1F77.quest_subtitle: "Eine Presse!"
@@ -1917,7 +1919,6 @@
 	]
 	quest.67CAE51EBC46F9F1.title: "Level 1-30"
 	quest.67D770AFB8C867EB.quest_desc: ["Eine Anfängerrüstung, die dich pro Rüstungsteil mehr verlangsamt."]
-	quest.67D770AFB8C867EB.title: "Froststeel Armor"
 	quest.67E0A85291DD6898.quest_desc: ["Das ist das Staged-In Item für Mekanism"]
 	quest.67E0A85291DD6898.quest_subtitle: "Staged In"
 	quest.689657DD70045DAA.quest_desc: ["Wirf eine Demon Dream Fruit auf den Boden (am besten auf Cobble oder sonstigen nicht abbrenbaren Blöcken) und zünd es an. Dies wird das Spirit Fire erzeugen, welches Ewig hält und wie eine Art Trade-Portal funktioniert."]
@@ -1950,6 +1951,7 @@
 		"Als ob das Vakuum nicht schon Lebensfeindlich genug ist. "
 		"Hitze, höherer Atmosphärendruck und Säuren soll dieser Raumanzug abkönnen."
 	]
+	quest.6A612F1D1464E3BC.title: "Körner der Ewigkeit III"
 	quest.6A8AA0E31C3F2F47.quest_desc: ["Auf der Venus findest Du immer wieder mal Platin. Sollte man mitnehmen."]
 	quest.6AB3A23E011C7A70.quest_desc: ["Wird aus Certus hergestellt."]
 	quest.6ACEC87CC8248AE2.quest_desc: ["Es lässt sich nicht nur wie die Himmelsucher Rüstung reparieren, sondern bietet auch einen Setbonus: Wenn man alle Teile der Rüstung trägt (oder den Brustpanzer gegen eine Elytra austauscht), bewirkt die Rüstung bei einem Treffer, dass alle Gegner in der Nähe für einige Sekunden mit dem Boden verschmelzen und völlig still stehen."]
@@ -2004,13 +2006,13 @@
 	quest.6D8C8F5FCCC086C0.quest_subtitle: "Pumpe den Nether leer."
 	quest.6DE4FDE401002D86.title: "Konduktiver Legierungsbarren I"
 	quest.6E087C2758FDEB6C.quest_desc: ["Drawer sind nun abhängig des Füllstands mit einem Komparator auslesbar."]
+	quest.6E7B5D5F3EC952AD.quest_desc: ["Ab Abschluss der dritten Woche erhältst du (pro Spieler im Team) 4 Münzen aus der täglichen Quest."]
 	quest.6E80082139A42376.quest_desc: ["2x2 Rezepte werden Platz sparend gelagert"]
 	quest.6E80082139A42376.quest_subtitle: "Mach mal kleiner I"
 	quest.6E93D46AB70FC4EA.quest_desc: ["Richtig der Rucksack kann als Pumpe arbeiten. Wie? Keine Ahnung Frag jemand anderes!"]
 	quest.6E93D46AB70FC4EA.quest_subtitle: "Feuchte Angelegenheit I"
 	quest.6E9DAFBCD3D19E5B.quest_desc: ["Damit nicht alle in der Dimension von den Endboss Sounds mitbekommen, kannst Du die folgenden Blöcke dafür nutzen, die Sounds zu unterdrücken."]
 	quest.6E9E23CD83F0D2EE.title: "Radioaktive Speicherzelle"
-	quest.6EFAEE92801D584C.title: "Tiefenschiefer I"
 	quest.6F14BA01A20E3D8F.quest_desc: ["Du benötigst Iridium um ein besseres Rocket Upgrade zu bauen."]
 	quest.6F393C46B730C789.quest_desc: [
 		"Der ME-IO Port transferiert schnell Items von Festplatten auf ein vorhandenes System, oder auch umgekehrt. "
@@ -2146,6 +2148,7 @@
 	quest.776BA18F35EA7817.quest_desc: ["Du wirst feststellen das einige Items hier stärker gegatet sind, und es ein paar Limitierungen in der Mod gibt, darauf gehen wir hier auch ein. "]
 	quest.778B1BEFC6341B66.quest_desc: ["Dein Rucksack kann jetzt auch Strom speichern!"]
 	quest.778B1BEFC6341B66.quest_subtitle: "Elektrisierend!"
+	quest.77A7B411356FF20C.title: "Fluorit III"
 	quest.77AA85B028579CF6.quest_desc: ["Im Endless Realm gibt es einen Raum, welcher Dich noch tiefer in die Dungeons von Blood Magic führt. Hier erhältst Du noch stärkeren Loot um unter anderem einen noch besseren Altar zu bauen."]
 	quest.77CFCEE9E0FAA2D4.quest_desc: ["Die \"Spitzhacke des Seelenwanderers\", wenn sie durch schleichender Interaktion aktiviert wird, erlaubt sie dem Nutzer ein komplettes Erzvorkommen aufeinmal abzubauen."]
 	quest.77D31EC2C76058E2.quest_desc: ["Gut, dass der Minecraft Charakter übermäßig stark ist. Jetzt muss nur noch in Intelligenz geskillt werden. Dafür brauchst du das &l&5Große Buch, wo alles drin steht&r. Mit dem ersten Spellbook kannst du Tier 1 Zauber wirken und hast jegliche Informationen gesammelt an einer Stelle."]
@@ -2171,6 +2174,7 @@
 	]
 	quest.78D7575B8BFD8848.quest_subtitle: "Kein Bock zu tippen?"
 	quest.78D8DBFC816FE694.title: "Uraninite I"
+	quest.79139BC5631BB7F6.title: "Pulsierende Legierung III"
 	quest.795E9E4C809D1EC2.quest_desc: ["Kann weiter vercrafted werden. "]
 	quest.796D47D4DEDA277C.title: "Lets's show: Ars Nouveau"
 	quest.79A89B4305585A9B.title: "Eisen IV"
@@ -2288,7 +2292,7 @@
 	task.01BD2A1FE8967AB2.title: "Finde den Blinding Dungeon"
 	task.02645A08A79CA683.title: "Tier II"
 	task.03BC595DF682AD4B.title: "Everbright"
-	task.03D6F3D7B3CAF8DE.title: "Any Cloggrum Tool"
+	task.03D6F3D7B3CAF8DE.title: "Beliebiges Cloggrum Werkzeug"
 	task.04CF943E4A7B7748.title: "Sourceproduktion"
 	task.04FC7A177CB21CA6.title: "Tier V"
 	task.05AAE2D9FA5FF59E.title: "dictionary"
@@ -2333,8 +2337,8 @@
 	task.25227329FC77ED40.title: "Supreme Black Hole Tank"
 	task.256280562DD475BB.title: "Schlafe im Aether"
 	task.25870ACE1953A776.title: "Körper"
-	task.26A963D2B34DB6C0.title: "Any Froststeel Armor"
-	task.2826BBB3BCCA1C4D.title: "Any Utherium Tool"
+	task.26A963D2B34DB6C0.title: "Beliebige Froststahl Rüstung"
+	task.2826BBB3BCCA1C4D.title: "Utherium Werkzeuge"
 	task.2B91BA2F29F2F6D6.title: "Die größe des Systems"
 	task.2CC503728D6D0642.title: "Everdawn"
 	task.2DB27A2902A994C4.title: "Mystical Agriculture"
@@ -2345,14 +2349,14 @@
 	task.30B3C8265D064CFC.title: "Level 54"
 	task.30C33DEDF6374D94.title: "Teams"
 	task.30D9E8CD52F44C9A.title: "4h"
-	task.3209864899ECF55C.title: "Any Utherium Armor"
+	task.3209864899ECF55C.title: "Utherium Rüstung"
 	task.324C1250EBBF7D1F.title: "Pity Black Hole Tank"
 	task.32A3B13F973EF6CA.title: "Backpack"
 	task.32FF7AAA5FD69B16.title: "Metallpresse"
 	task.337557B85A9C9012.title: "Tier III"
 	task.3431FF0D1CEAA984.title: "Nice to know"
 	task.34E99BB60961DDF4.title: "Cyanite"
-	task.35D7180AD7FB5125.title: "Any Froststeel Tool"
+	task.35D7180AD7FB5125.title: "Beliebige Froststahl Werkzeuge"
 	task.39F041BF05060216.title: "Sky is the limit"
 	task.3B3FB291732E4A20.title: "Alle Baumstämme"
 	task.3C2B5623ACE2FBDF.title: "Gaten und Limits"
@@ -2374,7 +2378,7 @@
 	task.469026531D5B8C4E.title: "Advanced Black Hole Tank"
 	task.470552CCC5DF54DE.title: "Spawner"
 	task.47B9EA7DBC0FE347.title: "Los geht's!"
-	task.491EB618A3195A42.title: "Any Cloggrum Armor"
+	task.491EB618A3195A42.title: "Beliebige Cloggrum Rüstung"
 	task.492832BDF102DE3F.title: "Probiere es aus mit einem Setzling!"
 	task.49DA294500A30649.title: "Phenolic Resin-Eimer"
 	task.4A01A483B2C56682.title: "Nice to know"
@@ -2396,13 +2400,15 @@
 	task.58130F61425C0D83.title: "Garden"
 	task.58BEF53529013D68.title: "lol"
 	task.597813E4951FDC5E.title: "24h"
-	task.5AADB98601C9615B.title: "Any Cloggrum Weapon"
+	task.5AADB98601C9615B.title: "Beliebige Cloggrum Waffe"
 	task.5AE347FA991EC91F.title: "Stahl"
 	task.5B9E238DC485BE38.title: "Mana"
+	task.5BD47D1239415F3B.title: "Irgendein Fluorit"
 	task.5BEE8836A83005FB.title: "Aura Pflanzen"
 	task.5CC05D5D8620ACB6.title: "Magentite"
 	task.5E3D615666A2A3C0.title: "Level 45"
 	task.5EF66C8DDB6EC1D6.title: "und noch mehr"
+	task.5EFFA12CC75F96F7.title: "50000x Silizium"
 	task.5FC13B4C5F865F34.title: "Any #minecraft:logs"
 	task.6051587D5CD87E44.title: "Trade dir Ein Blaues Tagebuch"
 	task.6082C36859C795AE.title: "Regalium Erz"
@@ -2428,9 +2434,10 @@
 	task.6CB436B0531DD31A.title: "Verderium"
 	task.6CDD9B822C49770E.title: "Beine"
 	task.6D59E25590BD9BBD.title: "Budding Certus"
-	task.6DC206489437BCB8.title: "Any Forgotten Tool"
+	task.6DC206489437BCB8.title: "Beliebiges Vergessenes Werkzeug"
 	task.6DCBFF98F634FC05.title: "Any Undergarden Mushroom"
 	task.6DD47017596E7645.title: "moi"
+	task.6E14EC223D839E32.title: "Any #powah:energy_cells"
 	task.6FF8DF5C6BA9E591.title: "Any #botania:generating_special_flowers"
 	task.7065FFFD8DBA14FA.title: "open_proxy_server"
 	task.7203F46653E6A739.title: "Dein Start mit Botania"

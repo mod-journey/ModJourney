@@ -19,6 +19,7 @@
 					exclude_from_claim_all: true
 					id: "0406FB3BD61565EC"
 					table_id: 2498778483368621286L
+					team_reward: true
 					type: "loot"
 				}
 				{
@@ -338,7 +339,7 @@
 			]
 			tasks: [{
 				id: "28EC62C39CC6A2B5"
-				item: { count: 1, id: "immersiveengineering:circuit_board" }
+				item: { count: 1, id: "mod_journey:staging/frame_core_2" }
 				type: "item"
 			}]
 			x: -0.5d

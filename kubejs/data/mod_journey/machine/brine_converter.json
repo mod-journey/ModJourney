@@ -1,10 +1,19 @@
 {
   "name": {
-    "text": "Brine Converter",
+    "text": "item.mod_journey.machine.brine_converter",
     "color": "white"
   },
   "appearance": {
-    "custommachinery:block": "mod_journey:machine/brine_converter#standalone"
+    "custommachinery:block": "mod_journey:machine/brine_converter#standalone",
+    "custommachinery:keep_inventory": true,
+    "custommachinery:mining_level": "minecraft:needs_diamond_tool",
+    "custommachinery:tool_type": [
+      "minecraft:mineable/pickaxe",
+      "minecraft:mineable/axe",
+      "minecraft:mineable/hoe",
+      "minecraft:mineable/shovel",
+      "c:mineable/paxel"
+    ]
   },
   "components": [
     {
@@ -99,7 +108,7 @@
       "y": 15,
       "height": 14,
       "text": {
-        "text": "Brine Converter",
+        "text": "item.mod_journey.machine.brine_converter",
         "color": "black",
         "bold": true
       }

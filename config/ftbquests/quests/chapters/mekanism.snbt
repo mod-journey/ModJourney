@@ -41,26 +41,36 @@
 	quests: [
 		{
 			dependencies: [
-				"611F306A250EA20E"
 				"1037AFA7BDC22B53"
+				"08BDD4ADC8DDB9C2"
 			]
 			dependency_requirement: "one_completed"
 			hide_until_deps_complete: true
+			icon: {
+				id: "mekanism:steel_casing"
+			}
 			id: "67E0A85291DD6898"
 			rewards: [{
-				id: "2DEAB8998A11B572"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
-				}
-				type: "item"
+					id: "2DEAB8998A11B572"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
 			}]
 			size: 1.5d
-			tasks: [{
-				id: "5733EFA5095EC02E"
-				item: { count: 1, id: "mekanism:steel_casing" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5733EFA5095EC02E"
+					item: { count: 1, id: "mod_journey:staging/frame_core_4" }
+					type: "item"
+				}
+				{
+					id: "068F42DF1C93AB06"
+					item: { count: 1, id: "mekanism:steel_casing" }
+					type: "item"
+				}
+			]
 			x: -13.0d
 			y: -2.0d
 		}

@@ -1,10 +1,19 @@
 {
   "name": {
-    "text": "Mechanical Press",
+    "text": "item.mod_journey.machine.mechanical_press",
     "color": "white"
   },
   "appearance": {
-    "custommachinery:block": "mod_journey:machine/metal_press#standalone"
+    "custommachinery:block": "mod_journey:machine/metal_press#standalone",
+    "custommachinery:keep_inventory": true,
+    "custommachinery:mining_level": "minecraft:needs_diamond_tool",
+    "custommachinery:tool_type": [
+      "minecraft:mineable/pickaxe",
+      "minecraft:mineable/hoe",
+      "minecraft:mineable/axe",
+      "minecraft:mineable/shovel",
+      "c:mineable/paxel"
+    ]
   },
   "components": [
     {
@@ -52,6 +61,19 @@
       },
       "id": "output",
       "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "id": "upgrade_1",
+      "capacity": 1
     }
   ],
   "gui": [
@@ -61,9 +83,14 @@
       "height": 192
     },
     {
+      "type": "custommachinery:config",
+      "x": 231,
+      "y": 4
+    },
+    {
       "type": "custommachinery:energy",
       "x": 85,
-      "y": 34
+      "y": 36
     },
     {
       "type": "custommachinery:player_inventory",
@@ -74,7 +101,7 @@
       "type": "custommachinery:progress",
       "orientation": "BOTTOM",
       "x": 120,
-      "y": 44,
+      "y": 46,
       "width": 16,
       "height": 24
     },
@@ -82,25 +109,39 @@
       "type": "custommachinery:reset",
       "tooltips": [],
       "x": 177,
-      "y": 22
+      "y": 24
     },
     {
       "type": "custommachinery:slot",
       "id": "input",
       "x": 119,
-      "y": 22
+      "y": 24
     },
     {
       "type": "custommachinery:slot",
       "id": "mold",
       "x": 144,
-      "y": 49
+      "y": 51
     },
     {
       "type": "custommachinery:slot",
       "id": "output",
       "x": 119,
-      "y": 79
+      "y": 81
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade_1",
+      "x": 46,
+      "y": 83,
+      "ghost": {
+        "items": {
+          "item": "mod_journey:upgrades/acceleration_card_1"
+        },
+        "color": {
+          "alpha": 0.24705882
+        }
+      }
     }
   ]
 }

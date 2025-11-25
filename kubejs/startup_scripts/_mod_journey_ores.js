@@ -128,6 +128,9 @@ global.mjOres = {
         '"minecraft:crafting_shaped"'
     ],
     excludeItemID: [
-        '"stellaris:steel_plating_block"'
+        '"stellaris:steel_plating_block"',
+        '"aquaculture:gold_fishing_rod"',
+        '"aquaculture:diamond_fishing_rod"',
+        '"aquaculture:iron_fishing_rod"'
     ]
 }

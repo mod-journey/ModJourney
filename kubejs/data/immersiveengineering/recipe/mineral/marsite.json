@@ -8,6 +8,12 @@
     "fail_chance": 0.2,
     "ores": [
       {
+        "chance": 1.6,
+        "output": {
+          "id": "mod_journey:mars_iridium_ore"
+        }
+      },
+      {
         "chance": 0.3,
         "output": {
           "id": "stellaris:mars_diamond_ore"
@@ -48,7 +54,7 @@
       {
         "chance": 0.4,
         "output": {
-          "id": "stellaris:mars_stone"
+          "id": "stellaris:mars_cobblestone"
         }
       }
     ],

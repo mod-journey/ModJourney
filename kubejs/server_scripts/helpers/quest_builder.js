@@ -157,5 +157,21 @@ let QuestBuilder = {
         }
 
         return playerOrTeamStore.getCompound(questKey);
-    }
+    },
+
+
+    /**
+     * returns multiplier for quest rewards
+     * - 1 for first week
+     * - 2 for second week
+     * - and so on
+     *
+     * @returns {number}
+     */
+    getRewardMultiplier: () => {
+        let now = Date.now() / 1000;
+
+        let secondsPassed = now - mjConfig.times.projectStart;
+        return 1 + (secondsPassed / SECONDS_PER_WEEK);
+    },
 }

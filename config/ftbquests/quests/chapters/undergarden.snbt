@@ -15,7 +15,7 @@
 			hide_until_deps_complete: true
 			id: "7AFD7B0DAA8D7791"
 			rewards: [{
-				id: "55493487BDD253C6"
+				id: "001E23D73F304384"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -34,7 +34,7 @@
 			dependencies: ["37678FC28A608F68"]
 			id: "5D0614C216109F4F"
 			rewards: [{
-				id: "3E2D06F11C43CC85"
+				id: "5A3DACBEAFF1FB94"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -53,7 +53,7 @@
 			dependencies: ["5D0614C216109F4F"]
 			id: "67D770AFB8C867EB"
 			rewards: [{
-				id: "5B8EDD2AB931DCF3"
+				id: "46F7F4108D93A755"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -65,7 +65,7 @@
 					id: "undergarden:froststeel_helmet"
 				}
 				id: "26A963D2B34DB6C0"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:froststeel_helmet)item(undergarden:froststeel_chestplate)item(undergarden:froststeel_leggings)item(undergarden:froststeel_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -75,7 +75,7 @@
 			dependencies: ["5AF633DB1C78EDBD"]
 			id: "1CFF5ED27DA0852A"
 			rewards: [{
-				id: "5041A8CB6A8EA6D8"
+				id: "581D918B520525D4"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -97,7 +97,7 @@
 			}
 			id: "26A870FC3228E17D"
 			rewards: [{
-				id: "1CCEB4FA11C82DC2"
+				id: "058BCFB98392064E"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -106,7 +106,7 @@
 			}]
 			tasks: [{
 				id: "491EB618A3195A42"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:cloggrum_boots)item(undergarden:cloggrum_leggings)item(undergarden:cloggrum_chestplate)item(undergarden:cloggrum_helmet))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -4.5d
@@ -119,7 +119,7 @@
 			}
 			id: "4B4A2387F7C307B6"
 			rewards: [{
-				id: "4B7D9A7E5997A0D6"
+				id: "08FD0A3FD846329C"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -128,7 +128,7 @@
 			}]
 			tasks: [{
 				id: "03D6F3D7B3CAF8DE"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:cloggrum_pickaxe)item(undergarden:cloggrum_axe)item(undergarden:cloggrum_shovel)item(undergarden:cloggrum_hoe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -7.5d
@@ -141,7 +141,7 @@
 			}
 			id: "46746A29EC0DB581"
 			rewards: [{
-				id: "75498EC84A1CAB32"
+				id: "7EC33E906B07EA9D"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -150,7 +150,7 @@
 			}]
 			tasks: [{
 				id: "5AADB98601C9615B"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:cloggrum_sword)item(undergarden:cloggrum_shield))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -6.5d
@@ -160,7 +160,7 @@
 			dependencies: ["1CFF5ED27DA0852A"]
 			id: "785AB01D2228B7A9"
 			rewards: [{
-				id: "75A986C41E6816BA"
+				id: "3B341570B5D17254"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -180,7 +180,7 @@
 			hide_dependency_lines: true
 			id: "3E0EEFCE5F001FD4"
 			rewards: [{
-				id: "796310055CB4459D"
+				id: "08BA457339CBC2B1"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -203,7 +203,7 @@
 			]
 			id: "06962A36D95865FD"
 			rewards: [{
-				id: "5EF5623A3976F665"
+				id: "043F25FE1E13B986"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -227,7 +227,7 @@
 			id: "5937774ED0FCF478"
 			rewards: [
 				{
-					id: "2170A60AD426908A"
+					id: "2E90536154B47F63"
 					item: {
 						count: 1
 						id: "mod_journey:copper_coin"
@@ -261,7 +261,7 @@
 			}
 			id: "548F099E63C07C64"
 			rewards: [{
-				id: "1893D9343661E196"
+				id: "367BACD224F7FA22"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -280,7 +280,7 @@
 			dependencies: ["3E8BA9AC92928A5B"]
 			id: "29CA54BFB00443D1"
 			rewards: [{
-				id: "2ADC38C0D38E7FBF"
+				id: "377C1A9C1F303504"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -302,7 +302,7 @@
 			}
 			id: "1914C5782105712B"
 			rewards: [{
-				id: "6EFC3BE67F67A420"
+				id: "7C209730D9EBE7A0"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -311,7 +311,7 @@
 			}]
 			tasks: [{
 				id: "3209864899ECF55C"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:utherium_boots)item(undergarden:utherium_leggings)item(undergarden:utherium_chestplate)item(undergarden:utherium_helmet))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -1.5d
@@ -324,7 +324,7 @@
 			}
 			id: "412036FA034F30EA"
 			rewards: [{
-				id: "7D0FA8166A3B0C2F"
+				id: "42A819ED59AB541D"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -333,7 +333,7 @@
 			}]
 			tasks: [{
 				id: "2826BBB3BCCA1C4D"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:utherium_sword)item(undergarden:utherium_pickaxe)item(undergarden:utherium_axe)item(undergarden:utherium_shovel)item(undergarden:utherium_hoe)item(undergarden:utherium_sword))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -346,7 +346,7 @@
 			}
 			id: "19009C9588494133"
 			rewards: [{
-				id: "5E5CD1831E29C9EC"
+				id: "47F6FCC834FAD0D6"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -355,7 +355,7 @@
 			}]
 			tasks: [{
 				id: "35D7180AD7FB5125"
-				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:froststeel_hoe)item(undergarden:froststeel_shovel)item(undergarden:froststeel_axe)item(undergarden:froststeel_pickaxe)item(undergarden:froststeel_sword))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:froststeel_pickaxe)item(undergarden:froststeel_pickaxe)item(undergarden:froststeel_axe)item(undergarden:froststeel_shovel)item(undergarden:froststeel_hoe)item(undergarden:froststeel_sword))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -365,7 +365,7 @@
 			dependencies: ["7AFD7B0DAA8D7791"]
 			id: "67973447F729D73A"
 			rewards: [{
-				id: "57DF476C23221305"
+				id: "6B583F86CF5F76E0"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -384,7 +384,7 @@
 			dependencies: ["7AFD7B0DAA8D7791"]
 			id: "3D9ECA51804963B2"
 			rewards: [{
-				id: "272B77FA5CC5CCC1"
+				id: "24FFAD3DD6884D08"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -403,7 +403,7 @@
 			dependencies: ["7AFD7B0DAA8D7791"]
 			id: "7AFFEA1B611A8CB9"
 			rewards: [{
-				id: "5ECF6464541D787C"
+				id: "73428FDC909E8290"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -422,7 +422,7 @@
 			dependencies: ["7AFD7B0DAA8D7791"]
 			id: "06C275BDFA07CB4A"
 			rewards: [{
-				id: "439140DC01990D63"
+				id: "3B513C5670648870"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -441,7 +441,7 @@
 			dependencies: ["67973447F729D73A"]
 			id: "7AC068B90786F823"
 			rewards: [{
-				id: "19135413EE542D85"
+				id: "3823266A02745F4A"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -460,7 +460,7 @@
 			dependencies: ["3D9ECA51804963B2"]
 			id: "3E8BA9AC92928A5B"
 			rewards: [{
-				id: "2614DDE5D2CF7855"
+				id: "67FC9CB38F03AAAA"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -479,7 +479,7 @@
 			dependencies: ["7AFFEA1B611A8CB9"]
 			id: "37678FC28A608F68"
 			rewards: [{
-				id: "25B09C20228F88BD"
+				id: "2338FE7A8CB14134"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -498,7 +498,7 @@
 			dependencies: ["06C275BDFA07CB4A"]
 			id: "5AF633DB1C78EDBD"
 			rewards: [{
-				id: "59C7CB1E8F200952"
+				id: "26317F05FC4175B9"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -517,7 +517,7 @@
 			dependencies: ["33B1489D36D5EEFC"]
 			id: "2AB8746017BEEEA3"
 			rewards: [{
-				id: "7C8C89B56D3EDD53"
+				id: "0797A66C140EC025"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -536,7 +536,7 @@
 			dependencies: ["2AB8746017BEEEA3"]
 			id: "195971D0CE37082F"
 			rewards: [{
-				id: "69D0C77E70040ECE"
+				id: "5D2523BD44C0D842"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -555,7 +555,7 @@
 			dependencies: ["0C6E4A026A9AFDC1"]
 			id: "5D7DA053B6EB899D"
 			rewards: [{
-				id: "6D813E9F87A5DA63"
+				id: "13C4E307E9EC73E9"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -574,7 +574,7 @@
 			dependencies: ["7AFD7B0DAA8D7791"]
 			id: "0C6E4A026A9AFDC1"
 			rewards: [{
-				id: "4961320140F48073"
+				id: "60083D8D05800959"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -593,7 +593,7 @@
 			dependencies: ["0C6E4A026A9AFDC1"]
 			id: "1CCD659F19C544C6"
 			rewards: [{
-				id: "79581710C75C9B6A"
+				id: "2AB314CE38479DDE"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -612,7 +612,7 @@
 			dependencies: ["7AC068B90786F823"]
 			id: "0C02F4D3A4CD631B"
 			rewards: [{
-				id: "1D98A9566D335F35"
+				id: "299F5184CFA3855B"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -632,7 +632,7 @@
 			dependencies: ["7AFD7B0DAA8D7791"]
 			id: "03C95A4231EAF03D"
 			rewards: [{
-				id: "79B202D0FAE7AC03"
+				id: "2A5F08CEA6AC5EB7"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -651,7 +651,7 @@
 			dependencies: ["03C95A4231EAF03D"]
 			id: "3D10D465EA369E48"
 			rewards: [{
-				id: "3860C0D54EB9E6CD"
+				id: "529B13868FDFEACC"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -687,7 +687,7 @@
 			dependencies: ["7AFD7B0DAA8D7791"]
 			id: "33B1489D36D5EEFC"
 			rewards: [{
-				id: "632E8D0B0BC897EE"
+				id: "56828EF7D3910B9F"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -707,7 +707,7 @@
 			dependencies: ["1CCD659F19C544C6"]
 			id: "262C43DC57419CD4"
 			rewards: [{
-				id: "1F4A756B8AFDBACF"
+				id: "55919B0A23FE98CA"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -726,7 +726,7 @@
 			dependencies: ["1CCD659F19C544C6"]
 			id: "0DAEA91E14746AB6"
 			rewards: [{
-				id: "272FB3DEAB27EA67"
+				id: "498B5C25E6BD378F"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -748,14 +748,24 @@
 				"1CDF85C5A461F445"
 			]
 			id: "4256D1E40BD2250A"
-			rewards: [{
-				id: "1FDACA3DDD94834A"
-				item: {
-					count: 1
-					id: "mod_journey:copper_coin"
+			rewards: [
+				{
+					id: "53AD458360F85EB7"
+					item: {
+						count: 1
+						id: "minecraft:cake"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6C776D815A8F8E60"
+					item: {
+						count: 1
+						id: "mod_journey:copper_coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "64E5CDE70714F3F0"
 				item: { count: 1, id: "undergarden:gloomgourd_pie" }
@@ -768,7 +778,7 @@
 			dependencies: ["26AFE523C18061F6"]
 			id: "753D0CFDD1A78040"
 			rewards: [{
-				id: "4226259453B1E7CC"
+				id: "7F95F505C6CF60EB"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -787,7 +797,7 @@
 			dependencies: ["1CCD659F19C544C6"]
 			id: "26AFE523C18061F6"
 			rewards: [{
-				id: "5C49E9F89F111349"
+				id: "4C2D8BD043817B6F"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -806,7 +816,7 @@
 			dependencies: ["26AFE523C18061F6"]
 			id: "1CDF85C5A461F445"
 			rewards: [{
-				id: "797CDE7C80630148"
+				id: "0E9AB661E653C005"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -825,7 +835,7 @@
 			dependencies: ["26AFE523C18061F6"]
 			id: "75B1DFF177DB3EEB"
 			rewards: [{
-				id: "2AE986C8EBDFDDDC"
+				id: "22206D6D864A4F38"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"
@@ -844,7 +854,7 @@
 			dependencies: ["195971D0CE37082F"]
 			id: "4DB1B18A3B301D4E"
 			rewards: [{
-				id: "536B10E0DE30052E"
+				id: "2810F5A35392A507"
 				item: {
 					count: 1
 					id: "mod_journey:copper_coin"

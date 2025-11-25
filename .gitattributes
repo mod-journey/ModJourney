@@ -6,6 +6,7 @@ dev-tools/				export-ignore
 kubejs/kubejs-DOKUs/			export-ignore
 .disabled/				export-ignore
 jsconfig.json				export-ignore
+*.bbmodel				export-ignore
 #
 # Keep files with linux eol, because the mods create them with this eol
 #   use `find . -type f | xargs -L 1 -d '\n' dos2unix -i` to detect linebreak
@@ -31,6 +32,7 @@ config/megacells.json			text eol=lf
 # Add rules for custom diff-tools (requires local configuration to work)
 modlist.html				diff=sort
 manifest.json				diff=modlist-sort
+manifest-server.json			diff=modlist-sort
 # Add extra syntax highlight for certain file extensions - see https://docs.gitlab.com/ee/user/project/highlighting.html#override-syntax-highlighting-for-a-file-type
 *.snbt					gitlab-language=json
 *.jsonc					gitlab-language=json

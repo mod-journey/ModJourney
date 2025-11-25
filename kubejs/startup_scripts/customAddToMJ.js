@@ -8,7 +8,8 @@ let customAddToMJ = (event, active) => {
         "brine_converter",
         "mechanical_press",
         "pulverizer",
-        "refinary"
+        "refinary",
+        "seed_planter_v2"
     ];
 
     for (let i = 0; i < customMachines.length; i++) {
