@@ -11,7 +11,7 @@ echo "Building client archive"
 File_Mode="client"
 SCRIPT_DIR="$(realpath "$(dirname "$0")")"
 PROJECT_DIR="${SCRIPT_DIR}/../"
-Version_Number="$(cat "${PROJECT_DIR}/manifest.json" | head -n 14 | tail -n 1 | cut -d '"' -f 4)"
+Version_Number="$(cat "${PROJECT_DIR}/manifest.json" | grep "version" | tail -n 1 | cut -d '"' -f 4)"
 ARCHIVE_FILE_NAME=mod-journey-2-${File_Mode}-${Version_Number}.zip
 BUILD_DIR=$(realpath "${PROJECT_DIR}build/")
 mkdir -p "${SCRIPT_DIR}/logs/"

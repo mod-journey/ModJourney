@@ -1,5 +1,4 @@
 /*
-!/*.md
 !/kubejs/
 !/config/
 /config/luckperms/luckperms-h2-v2.mv.db
@@ -38,7 +37,8 @@
 # Dont ignore git meta-files
 !/.gitignore
 !/.gitattributes
-!README.md
+!/*.md
+!/manifest*.json
 
 
 # Dont ignore dev-tools
@@ -71,6 +71,7 @@ kubejs/config/web_server.json
 /config/jei/jei-client.ini
 /config/ftbchunks-client.snbt
 /config/justzoom/config.txt
+/config/sodium-fingerprint.json
 
 #This files always changed their order
 /config/jade/sort-order.json
