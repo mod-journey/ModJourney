@@ -33,8 +33,6 @@
 - Remove stellaris structure containing rockets and more stuff that bypasses quest stages
 - Fix/Add translations for custom machines
 
-
-
 #### Mods added:
 - Chloride 1.7.2
 - Iris Shaders 1.8.12
@@ -50,7 +48,7 @@
 - Ars Elemental 0.7.6.1 => 0.7.6.8
 - Ars Nouveau 5.10.5 => 5.10.6
 - BaguetteLib 1.1.2 => 1.1.3
-- Bookshelf 21.1.68 => 21.1.78
+- Bookshelf 21.1.68 => 21.1.69
 - Collective 8.7 => 8.13
 - Cristel Lib 1.2.8 => 3.0.2.1
 - Cucumber Library 8.0.14 => 8.0.15
