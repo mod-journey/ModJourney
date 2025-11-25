@@ -13,6 +13,7 @@
 - Fixed staging of endertanks
 - Fixed uncraftable stellaris base module
 - Bugfixes and balancing changes in questbook dependencies
+- Custom machines are mineable with paxel
 
 #### Recipes Changes:
 - Add recipe for undergarden ashen deepturf
@@ -37,6 +38,20 @@
 - Chloride 1.7.2
 - Iris Shaders 1.8.12
 - Just Enough Resources (JER) 1.6.0.17
+
+#### Mods removed:
+- Additional Structures
+- Chunky Border
+- Chunky
+- Comforts
+- Connectivity
+- CraftPresence
+- Crash Utilities
+- Entity Culling
+- fix GPU memory leak
+- Get It Together, Drops!
+- LuckPerms
+- Observable
 
 #### Mods updated:
 <details>
