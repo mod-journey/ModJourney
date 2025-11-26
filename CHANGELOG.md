@@ -43,7 +43,6 @@
 - Additional Structures
 - Chunky Border
 - Chunky
-- Comforts
 - Connectivity
 - CraftPresence
 - Crash Utilities
