@@ -41,7 +41,6 @@
 - Additional Structures
 - Chunky Border
 - Chunky
-- Comforts
 - Connectivity
 - CraftPresence
 - Crash Utilities
@@ -103,8 +102,6 @@
 - UniLib 1.1.1 => 1.2.0
 - ZeroCore 2 2.4.18 => 2.4.20
 </details>
-
-
 
 
 ## v2.0.1.8
