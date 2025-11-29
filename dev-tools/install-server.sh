@@ -4,6 +4,9 @@
 #
 # To use a specific Java runtime, set an environment variable named JAVA21_HOME to the path of your java home directory
 #
+NEOFORGE_VERSION=21.1.208
+INSTALLER="neoforge-${NEOFORGE_VERSION}-installer.jar"
+DOWNLOAD_URL="https://maven.neoforged.net/releases/net/neoforged/neoforge/${NEOFORGE_VERSION}/${INSTALLER}"
 
 if [[ -z "$JAVA21_HOME" ]]; then
     JAVA_BIN="java"
@@ -17,7 +20,7 @@ if ! command -v "$JAVA_BIN" >/dev/null 2>&1; then
     exit 1
 else
   # extract major version from e.g. "openjdk full version "21.0.7+6-LTS"" and check if java version is high enough
-  JAVA_VERSION=$($JAVA_BIN -fullversion 2>&1 | cut -d'"' -f2 | cut -d'.' -f1)
+  JAVA_VERSION=$("${JAVA_BIN}" -fullversion 2>&1 | cut -d'"' -f2 | cut -d'.' -f1)
   if [ ! "$JAVA_VERSION" -ge 21 ]; then
       echo "This server requires Java 21 - found Java $JAVA_VERSION"
       exit 1
@@ -25,6 +28,17 @@ else
 fi
 
 
+cd "$(dirname "$0")"
+if [ ! -f "$INSTALLER" ]; then
+  echo "No installer found, downloading now."
+  if command -v wget >/dev/null 2>&1; then
+      echo "Downloading $DOWNLOAD_URL"
+      wget -O "$INSTALLER" "$DOWNLOAD_URL"
+  else
+      echo "No wget found on your system. Please install one and try again"
+      exit 1
+  fi
+fi
 
-
-echo "Installing the server"
+echo "Running server installer"
+"${JAVA_BIN}" -jar $INSTALLER -installServer
