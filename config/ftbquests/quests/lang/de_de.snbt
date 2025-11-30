@@ -1824,8 +1824,7 @@
 		"Das sind Wireless Empfänger von deinem Ender Netzwerk. Auch hier kannst du die Channel einstellen. Willst du die ID löschen, so lege den Plug einfach in ein Crafting-Terminal. Damit werden die NBT Daten des Users aus dem Item entfernt."
 		""
 		"&l&4Siehe:&r"
-		""
-		"{ \"text\": \"Ender Cells\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"181561179B55197E\" } }"
+		"{ \"translate\": \"block.powah.ender_gate_starter\", \"underlined\": true, \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"181561179B55197E\" } }"
 	]
 	quest.60BA461ED63506B5.quest_desc: ["Unser erstes Ritual. Der Crusher wird hauptzächlich benötigt um Endstonedust herzustellen."]
 	quest.60C1C7062E5EA5FA.quest_desc: ["Wird für das \"Ritual des Waldes\" benötigt und ist bestandteil einiger Rezepte."]
