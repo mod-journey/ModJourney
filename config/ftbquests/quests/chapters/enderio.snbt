@@ -1051,7 +1051,7 @@
 			}]
 			tasks: [{
 				id: "0571DBBB62FF9C0E"
-				item: { count: 1, id: "enderio:xp_juice_bucket" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedcore:xp_bucket)item(enderio:xp_juice_bucket))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 3.5d
