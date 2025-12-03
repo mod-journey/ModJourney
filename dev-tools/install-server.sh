@@ -4,8 +4,24 @@
 #
 # To use a specific Java runtime, set an environment variable named JAVA21_HOME to the path of your java home directory
 #
-NEOFORGE_VERSION=21.1.208
-INSTALLER="neoforge-${NEOFORGE_VERSION}-installer.jar"
+SERVER_ROOT=$(dirname "$0")
+MANIFEST_FILE=manifest-server.json
+
+# Look one dir above (if manifest in not found)
+if [ ! -f "$MANIFEST_FILE" ]; then
+  SERVER_ROOT=$(realpath ../$SERVER_ROOT)
+  MANIFEST_FILE=${SERVER_ROOT}/${MANIFEST_FILE}
+
+  if [ ! -f "$MANIFEST_FILE" ]; then
+    echo "No manifest found"
+    exit 1
+  fi
+fi
+
+# extract launcher version from manifest
+INSTALLER_NAME=$(grep "modLoaders" -C3 $MANIFEST_FILE | grep "id" | cut -d: -f2 | cut -d\" -f2)
+NEOFORGE_VERSION=$(echo "$INSTALLER_NAME" | cut -d- -f2)
+INSTALLER=${INSTALLER_NAME}-installer.jar
 DOWNLOAD_URL="https://maven.neoforged.net/releases/net/neoforged/neoforge/${NEOFORGE_VERSION}/${INSTALLER}"
 
 if [[ -z "$JAVA21_HOME" ]]; then
@@ -28,7 +44,7 @@ else
 fi
 
 
-cd "$(dirname "$0")"
+cd "${SERVER_ROOT}"
 if [ ! -f "$INSTALLER" ]; then
   echo "No installer found, downloading now."
   if command -v wget >/dev/null 2>&1; then
