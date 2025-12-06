@@ -1,4 +1,8 @@
 /**
+ * This script replaces mod-specific ores and metals in recipes with their ATO counterpart
+ */
+
+/**
  * @param {$RecipesKubeEvent} event
  * @param {boolean} active
  * @param {boolean} debug
@@ -87,7 +91,7 @@ let changeRecipeToATO = (event, active, debug) => {
         global.mjOres.craftingTypes.forEach(element => {
             if (debug) console.log("_______________" + element + "_______________")
 
-            event.forEachRecipe({}, r => {
+            event.forEachRecipe({type: element.substring(1, element.length-1)}, r => {
                 if (!(r.json.get("type").toString() === element)) return;
 
                 // TODO move this to input replace section (when we have such a section)
@@ -148,7 +152,7 @@ let changeRecipeToATO = (event, active, debug) => {
                 }
                 else {
                     if (debug) console.log("Some Recipe-ID are not tracked with output \"unknown\": " + r.getId())
-                };
+                }
             });
         });
     //});
