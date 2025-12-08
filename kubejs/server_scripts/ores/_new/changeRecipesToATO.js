@@ -113,7 +113,8 @@ let changeRecipeToATO = (event, active, debug) => {
                         //Hahahaha du mich auch!
                     }
                     else {
-                        if (debug) console.log("Some Recipe-ID are not tracked with output \"result\": " + r.getId())
+                        if (debug) console.log("Some Recipe-ID are not tracked with output \"result\": " + r.getId());
+                        if (debug)   console.log(r.getId());
                     }
                 }
                 else if ((r.json.get("results") !== null)) {
@@ -134,7 +135,9 @@ let changeRecipeToATO = (event, active, debug) => {
                             changeOutput(r, r.json.get("results").get(0), "id")
                         }
                         else {
-                            console.log("Some Recipe-ID are not tracked with output \"results\": " + r.getId())
+                            console.log("Some Recipe-ID are not tracked with output \"results\": " + r.getId());
+                            if (debug) console.log(r.getId());
+
                         }
                     }
                 }
@@ -143,11 +146,15 @@ let changeRecipeToATO = (event, active, debug) => {
                         findOres(r.json.get("output").get("id"))
                         changeOutput(r, r.json.get("output"), "id")
                     } else {
-                        if (debug) console.log("Some Recipe-ID are not tracked with output \"output\": " + r.getId())
+                        if (debug) console.log("Some Recipe-ID are not tracked with output \"output\": " + r.getId());
+                        if (debug) console.log(r.getId())
+
                     }
                 }
                 else {
                     if (debug) console.log("Some Recipe-ID are not tracked with output \"unknown\": " + r.getId())
+                    if (debug) console.log(r.getId())
+
                 };
             });
         });
