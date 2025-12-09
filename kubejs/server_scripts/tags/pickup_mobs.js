@@ -21,7 +21,7 @@ let bosses_blacklist = [
 let occultism_summond_mobs = [
     "occultism:marid",
     "occultism:afrit",
-    "occultism:djini",
+    "occultism:djinni",
     "occultism:foliot"
 ]
 
