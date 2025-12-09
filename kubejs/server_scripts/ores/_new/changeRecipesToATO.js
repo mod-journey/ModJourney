@@ -202,3 +202,26 @@ let changeRecipeToATO = (event, active, debug) => {
         });
     //});
 }
+
+
+/**
+ * Adds recipes to craft each dust to ato dust
+ *
+ * @param {$RecipesKubeEvent} event
+ * @param {boolean} active
+ * @param {boolean} debug
+ */
+function addDustConvertRecipes(event, active, debug) {
+    if (!active) return;
+
+    // combine all 3 arrays
+    let ATO_ALL = []
+        .concat(global.mjOres.ato.metall)
+        .concat(global.mjOres.ato.alloy)
+        .concat(global.mjOres.ato.vanilla);
+
+    ATO_ALL.forEach(material => {
+        event.shapeless(`alltheores:${material.name}_dust`, `#c:dusts/${material.name}`)
+            .id(`mod_journey:shapeless/convert_${material.name}_dust`)
+    })
+}
