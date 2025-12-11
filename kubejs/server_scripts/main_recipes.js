@@ -105,6 +105,7 @@ if (events_server) {
         if (replace_ores) {
             fixAlloyRecipes(event, true)
             changeRecipeToATO(event, true)
+            addDustConvertRecipes(event, true)
             addSmeltingAndBlasting(event, true)
         }
 
