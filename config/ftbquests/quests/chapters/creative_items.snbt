@@ -996,8 +996,8 @@
 				item: {
 					count: 1
 					id: "sophisticatedbackpacks:inception_upgrade"
-				},
-				team_reward: true,
+				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{

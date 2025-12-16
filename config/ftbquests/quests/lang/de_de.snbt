@@ -123,6 +123,7 @@
 		"&l&3WICHTIG!&r Rezepte für die Imbuement Chamber verbrauchen diese Items nicht. Im Gegensatz dazu werden Items für Enchanting Apparatus Rezepte verbraucht!"
 	]
 	quest.04AE7500461EC1F9.title: "Wie auf dem Silbertablett"
+	quest.04B0074A709CF14C.title: "Meka Energie-Einheit"
 	quest.04B5F7C440645BFB.quest_desc: ["In Applied wird alles in Channel bemessen. Die Channel - Kapazität liegt standardgemäß bei 8 und 32. Ein einfaches Fluix Kabel, kann 8 Channel verwalten. Genauso auch ein schlaues Kabel. Hast Du ein System was unter 8 Channel braucht, also einfach nur Items von vllt. A nach B schicken soll, brauchst du keinen Controller. Dieser bietet dir 32 Channel, auf jeder Seite an. "]
 	quest.04D1A0A91AE72503.quest_subtitle: "Gehe auf Bedrock Ebene. Platziere 1 Redstone Dust auf Bedrock und platziere ein Obsidian."
 	quest.04FE57976FCDA353.title: "SPS"
@@ -408,6 +409,8 @@
 	quest.10552CFF145F722D.quest_desc: ["wird am meisten geballert haben wie die Rods zuvor."]
 	quest.111CC1558B0A992A.title: "Tiefenschiefer II"
 	quest.112FBC69511A5B70.title: "Magie"
+	quest.113EE32339593A6B.quest_subtitle: "Ein ganzer Ozean auf einer Festplatte"
+	quest.113EE32339593A6B.title: "Unendliche Wasser Speicherzelle"
 	quest.11440B533262C7FB.quest_desc: ["Functional Storage ist ungleich Storage Drawer. In den vergangen Packs wurde auf Storage Drawer gesetzt. Dies haben wir dieses Jahr geändert. Somit werden einige Vorteile, schon durch diese Mod erzeugt. Wireless-Crafting ist so nun möglich und stark vereinfacht."]
 	quest.115AB3F93465A685.quest_desc: ["Plaziere etwas Heißes auf einer Seite der Maschine und etwas Kaltes auf der anderen um Strom zu produzieren"]
 	quest.115AB3F93465A685.quest_subtitle: "Heiß gegen Kalt"
@@ -580,8 +583,8 @@
 		"&4&lTechnik:&r&r"
 		"Erst nach Abschluss von Mekanism kann in diesem Shop gekauft werden."
 	]
-	quest.1A68095FE4424786.quest_subtitle: "Der Shop fürs Early Game , Magie und Technik"
-	quest.1A68095FE4424786.title: "Der Creative Shop"
+	quest.1A68095FE4424786.quest_subtitle: "Der Markplatz fürs Early Game , Magie und Technik"
+	quest.1A68095FE4424786.title: "Der Kreativ-Markt"
 	quest.1A6F631FCF135230.quest_desc: ["Genau so viele Slots wie der Dia Rucksack, also 120, aber dafür 7 Upgrade Slots!"]
 	quest.1A6F631FCF135230.quest_subtitle: "None Plus Ultra Rucksack"
 	quest.1A78DE0DABF021D3.title: "Fluorit I"
@@ -697,7 +700,7 @@
 		"Dieser Vorgang funktioniert nur als Lv60 Verzauberung!"
 	]
 	quest.20E6914605CFDF69.title: "Level 70"
-	quest.20E7F0F41A8E64FB.title: "Drills für mehr Bohrkraft"
+	quest.20E7F0F41A8E64FB.title: "Mehr Bohrkraft"
 	quest.2110D091E58418EF.title: "Tauschen mit den Elfen"
 	quest.21631BCC49F3C8AA.quest_desc: ["Von Einem Launchpad aus kannst Du deine Rakete starten."]
 	quest.21A66CAA4865D3D0.quest_desc: ["Energy Ports sind die Schnittstelle für Energie. Hier kannst Du Energie aus dem Reaktor in dein Energienetzwerk einspeisen. Es gibt zwei Arten. Die Aktiven und Passiven Energy Ports. Der Unterschied liegt darin, dass man aktiv den Strom aus den passiven Ports rausziehen muss, während die aktiven versuchen diesen direkt an den Benachbarten Block abzugeben."]
@@ -877,6 +880,8 @@
 	quest.2DAD93848DABE5D6.quest_subtitle: "Extrahiert Latex von Bäumen"
 	quest.2DE28895E3897B29.quest_desc: ["Es gibt Funktionsblöcke, welche Energie speichern, verbrauchen oder abgeben"]
 	quest.2DE570D3BFF08F48.quest_desc: ["Ein Raketenbauteil."]
+	quest.2E36FAED85018C3D.quest_subtitle: "Kann fast jedes Gerät beschleunigen."
+	quest.2E36FAED85018C3D.title: "Seelen Laser Basis"
 	quest.2E452C251278767F.title: "Hölzerner Eisen Barren IV"
 	quest.2E77ADF906B1850A.quest_desc: [
 		"Mit der Lanze der Walküre solltest du gut gerüstet sein, um den Silbernen Dungeon aufzusuchen. Diesen findest du meist weit oben gelegen und er sieht aus wie ein riesiger griechischer Tempel."
@@ -1193,6 +1198,7 @@
 	]
 	quest.401717FD15981E80.title: "Let's show: Flux Network"
 	quest.4017EB0409B76AAF.quest_desc: ["Eine Karte aus dem Add-On Mega-Cells. Gebe Items im Filter an, um diese automatisch zu komprimieren."]
+	quest.40683ABAF2D69492.title: "Meister-Infusionskristall"
 	quest.4086F2F3E18117DC.quest_desc: [
 		"Ein Teil eines Mutliblocks, welcher benötigt wird, um Crafting-Rezepte Effizienter und schneller herzustellen."
 		"{@pagebreak}"
@@ -1353,7 +1359,8 @@
 	quest.45189D8B5D0ABB7D.title: "End Steel I"
 	quest.4523B6508D0FE41F.quest_desc: ["Die \"Spitzhacke des Himmelssuchers\" bewirkt, dass alle abgebauten Gegenstände sofort in das Inventar des Benutzers gelangen, wodurch die Gefahr verringert wird, dass wertvolle Diamanten in die Lava darunter stürzen"]
 	quest.455EEC6211A5D6B1.quest_subtitle: "Eine unendliche Wasserquelle als Maschine!"
-	quest.4561534AF53E0D10.title: "Schmiedevorlage"
+	quest.4561534AF53E0D10.quest_subtitle: "Was soll ich tun, wenn ich keine Bastion finde?"
+	quest.4561534AF53E0D10.title: "Schmiedevorlage: Netheritaufwertung"
 	quest.457C5E56D2C6603E.title: "Natur IV"
 	quest.45AC3B6AE5C814FE.quest_desc: ["Gebe etwas geladenen Certus, Redstone und Netherquartz in ein Wasserbecken und erhalte Fluixkristalle"]
 	quest.45B554092CB5ED7F.quest_desc: ["Ein Upgrade für u.A. deine Wireless Konsole. Du kannst entscheiden, ob Items direkt in dein ME-System transferiert werden, oder in dein Spieler-Inventar. Außerdem hast Du für beide Optionen einen White- oder Blacklist Filter."]
@@ -1597,6 +1604,7 @@
 		"Informationen zu Bossmechaniken, World Tiers etc. findest du im \"Chronical of Shadows\" Buch."
 	]
 	quest.52E473543B5F7E88.title: "Obsidian III"
+	quest.52FD3D9EB1FE3F9B.title: "Omega Stack Upgrade"
 	quest.53384F1CAA1193C0.quest_desc: [
 		"Ein Quantentunnel ermöglicht dir dein System Dimensions-übergreifen oder einfach auf Distanz zu bauen. Du benötigst 2 x8 Ringe. 2 x 1 Quantenkammer und ein parr quantenverschränkte Singularitäten. "
 		""
@@ -1877,6 +1885,7 @@
 	quest.64E049BBFA47F794.quest_desc: ["Leider ein bisschen Buggy. Arbeitet nur Links vom Drawer."]
 	quest.654C023F49F46370.quest_desc: ["Mehr Optionen und Itemauswahl per klick auf das Mausrad!"]
 	quest.654C023F49F46370.quest_subtitle: "Ich brauche mehr II"
+	quest.65D8D04DA37EB00A.quest_subtitle: "Willst du die ganze Welt brennen sehen?"
 	quest.65D8D04DA37EB00A.title: "Infinity Nuke"
 	quest.65E14369D16F30ED.quest_desc: [
 		"Neue Runenelemente wurden gefunden. Probiere doch mal gleich aus diese herzustellen. Sie sollen den Blut Altar signifikant verbessern."
@@ -1944,6 +1953,8 @@
 	quest.698A0693A35701ED.title: "Blei IV"
 	quest.698E9A5C4AA30FB0.title: "Creeper I"
 	quest.69C572DA0801C9E1.title: "Messing II"
+	quest.69D3F7CF34936319.quest_subtitle: "Wollen wir nicht alle stein-reich sein?"
+	quest.69D3F7CF34936319.title: "Unendliche Bruchstein Speicherzelle"
 	quest.6A2B6704E919F2BB.quest_desc: ["Jedes Crafting-Rezept braucht eine gewisse Anzahl an Bytes um verarbeitet zu werden. Somit gibt der Fertigungsspeicher an, wie groß dein Crafting-Rezept sein kann. Außerdem kann der Fertigungsspeicher standardgemäß ein Rezept nach dem anderen abarbeiten. Um paralleles Craften zu gewährleisten. Baue weitere Prozessoreinheiten."]
 	quest.6A342B58C9875174.quest_desc: [
 		"Werden benötigt um auf Lebensfeindlichere Planeten vorzustoßen."
@@ -1956,9 +1967,12 @@
 	quest.6ACEC87CC8248AE2.quest_desc: ["Es lässt sich nicht nur wie die Himmelsucher Rüstung reparieren, sondern bietet auch einen Setbonus: Wenn man alle Teile der Rüstung trägt (oder den Brustpanzer gegen eine Elytra austauscht), bewirkt die Rüstung bei einem Treffer, dass alle Gegner in der Nähe für einige Sekunden mit dem Boden verschmelzen und völlig still stehen."]
 	quest.6AEC7D9E608F9708.quest_desc: ["Eine wichtige Komponente in AE2 um Peripheriegeräte herzustellen."]
 	quest.6B2E7E1C06A8C219.title: "Hase III"
+	quest.6B778897A7BC25B1.quest_subtitle: "Weltweiter Empfang für tragbare ME-Terminals."
+	quest.6B778897A7BC25B1.title: "Dimension Card"
 	quest.6B826441604FE86F.quest_desc: ["Automatisch Tränke konsumieren. Hat mehr Filteroptionen für Effekte."]
 	quest.6B826441604FE86F.quest_subtitle: "Walter White aka Heisenberg"
 	quest.6B826441604FE86F.title: "Erweitertes Alchemie-Upgrade"
+	quest.6BA6F1F89FD7CF21.title: "Digitales Abbaugerät"
 	quest.6BC62E21B31D6CB9.quest_desc: ["Findet man im End"]
 	quest.6BC62E21B31D6CB9.title: "Anglesite"
 	quest.6BCF86700F5B2929.quest_desc: ["Wird aus Gold hergestellt"]
@@ -2011,6 +2025,12 @@
 	quest.6E93D46AB70FC4EA.quest_desc: ["Richtig der Rucksack kann als Pumpe arbeiten. Wie? Keine Ahnung Frag jemand anderes!"]
 	quest.6E93D46AB70FC4EA.quest_subtitle: "Feuchte Angelegenheit I"
 	quest.6E9DAFBCD3D19E5B.quest_desc: ["Damit nicht alle in der Dimension von den Endboss Sounds mitbekommen, kannst Du die folgenden Blöcke dafür nutzen, die Sounds zu unterdrücken."]
+	quest.6E9E23CD83F0D2EE.quest_desc: [
+		"&4HINWEIS:&r Die Zelle muss erst in einer "
+		"{ \"translate\": \"block.ae2.cell_workbench\"}"
+		"auf die gewünschte Chemikalie formatiert werden."
+	]
+	quest.6E9E23CD83F0D2EE.quest_subtitle: "Auto-Crafting mit Atommüll?"
 	quest.6E9E23CD83F0D2EE.title: "Radioaktive Speicherzelle"
 	quest.6F14BA01A20E3D8F.quest_desc: ["Du benötigst Iridium um ein besseres Rocket Upgrade zu bauen."]
 	quest.6F393C46B730C789.quest_desc: [
