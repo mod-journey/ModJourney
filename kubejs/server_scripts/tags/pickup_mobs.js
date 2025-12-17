@@ -22,7 +22,11 @@ let occultism_summond_mobs = [
     "occultism:marid",
     "occultism:afrit",
     "occultism:djinni",
-    "occultism:foliot"
+    "occultism:foliot",
+    "occultism:marid_wild",
+    "occultism:afrit_wild",
+    "occultism:djinni_wild",
+    "occultism:foliot_wild"
 ]
 
 // A list on Entity Tags, that will given, to protect it to capture them from every Pick-UP Method.
@@ -38,6 +42,7 @@ ServerEvents.tags('entity_type', event => {
         event.add('ars_nouveau:animal_summon_blacklist', blacklisted_mob)
         event.add('apothic_spawners:blacklisted_from_spawners', blacklisted_mob)
         event.add('c:capturing_not_supported', blacklisted_mob)     //occultism
+        event.add('enderio:spawner_blacklist', blacklisted_mob)
 
     });
 
@@ -46,9 +51,9 @@ ServerEvents.tags('entity_type', event => {
         event.add('industrialforegoing:mob_duplicator_blacklist', blacklisted_mob)
         event.add('mob_grinding_utils:no_swab', blacklisted_mob)
         event.add('mob_grinding_utils:no_spawn', blacklisted_mob)
-        event.add('ars_nouveau:jar_blacklist', blacklisted_mob)
-        event.add('ars_nouveau:animal_summon_blacklist', blacklisted_mob)
         event.add('apothic_spawners:blacklisted_from_spawners', blacklisted_mob)
+        event.add('enderio:spawner_blacklist', blacklisted_mob)
+
     });
 
 })
