@@ -107,4 +107,20 @@ let add_custom_machinary_seedplanter_v2 = (event, active, debug) => {
         seedPlanterForCroptopia(id.seed, 0.2, id.result, 0.2, 200, 240)
     });
 
+    otherMods_obj.immersive.forEach(id => {
+        seedPlanterForCroptopia(id.seed, 0.2, id.result, 0.2, 200, 240)
+    });
+
+    otherMods_obj.occultism.forEach(id => {
+        seedPlanterForCroptopia(id.seed, 0.2, id.result, 0.2, 200, 240)
+    });
+
+    otherMods_obj.arsNoveau.forEach(id => {
+        seedPlanterForCroptopia(id.seed, 0.2, id.result, 0.2, 200, 240)
+    });
+
+    otherMods_obj.undergarden.forEach(id => {
+        seedPlanterForCroptopia(id.seed, 0.2, id.result, 0.2, 200, 240)
+    });
+
 }

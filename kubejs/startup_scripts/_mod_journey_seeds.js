@@ -192,10 +192,32 @@ global.seeds = {
     ],
     other_mods: {
         aether: [
-            {seed: "aether:berry_bush_stem",    result: "aether:blue_berry"},
-            {seed: "aether:purple_flower",      result: "aether:purple_flower"},
-            {seed: "aether:white_flower",       result: "aether:white_flower"},
+            { seed: "aether:berry_bush_stem",        result: "aether:blue_berry" },
+            { seed: "aether:purple_flower",          result: "aether:purple_flower" },
+            { seed: "aether:white_flower",           result: "aether:white_flower" },
         ],
+        undergarden: [
+            { seed: "undergarden:gloomgourd_seeds",  result: "undergardendelight:gloomgourd_slice" },
+            { seed: "undergarden:glitterkelp",       result: "undergarden:glitterkelp" },
+            { seed: "undergarden:amorous_bristle",   result: "undergarden:amorous_bristle" },
+            { seed: "undergarden:shimmerweed",       result: "undergarden:shimmerweed" },
+            { seed: "undergarden:miserabell",        result: "undergarden:miserabell" },
+            { seed: "undergarden:butterbunch",       result: "undergarden:butterbunch" },
+            { seed: "undergarden:deepturf",          result: "undergarden:deepturf" },
+            { seed: "undergarden:droopvine_item",    result: "undergarden:droopvine_item" },
+            { seed: "undergarden:frozen_deepturf",   result: "undergarden:frozen_deepturf" }
+        ],
+        immersive: [
+            { seed: "immersiveengineering:seed",     result: "immersiveengineering:hemp_fiber" }
+        ],
+        occultism: [
+            { seed: "occultism:datura_seeds",        result: "occultism:datura" }
+        ],
+        arsNoveau: [
+            { seed: "ars_nouveau:magebloom_crop",    result: "ars_nouveau:magebloom" },
+            { seed: "ars_nouveau:sourceberry_bush",  result: "ars_nouveau:sourceberry_bush" }
+        ]
+    },
     trees : {
         vanilla: [
             { sapling: 'minecraft:oak_sapling',      log: 'minecraft:oak_log' },
