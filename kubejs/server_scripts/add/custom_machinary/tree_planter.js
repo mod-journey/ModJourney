@@ -7,20 +7,21 @@ let add_custom_machinary_treeplanter = (event, active, debug) => {
     let ArsTrees = trees.arsNoveau
     let TwillightTrees = trees.twillight
     let AetherTrees = trees.aether
+    let UndergardenTrees = trees.undergarden
 
-        //Crafting the Machine itselfs:
-        event.shaped("mod_journey:tree_planter", [
-            'ABA',
-            'CDC',
-            'EFE'
-        ], {
-            A: 'industrialforegoing:plastic',
-            B: Item.of('industrialforegoing:plant_gatherer'),
-            C: 'minecraft:hopper',
-            D: '#minecraft:saplings',
-            E: 'minecraft:bucket',
-            F: Item.of('industrialforegoing:plant_sower')
-        })
+    //Crafting the Machine itselfs:
+    event.shaped("mod_journey:tree_planter", [
+        'ABA',
+        'CDC',
+        'EFE'
+    ], {
+        A: 'industrialforegoing:plastic',
+        B: Item.of('industrialforegoing:plant_gatherer'),
+        C: 'minecraft:hopper',
+        D: '#minecraft:saplings',
+        E: 'minecraft:bucket',
+        F: Item.of('industrialforegoing:plant_sower')
+    })
 
     /**
      * @param {String} sapling
@@ -57,6 +58,10 @@ let add_custom_machinary_treeplanter = (event, active, debug) => {
     });
 
     AetherTrees.forEach(tree => {
+        TreePlanter(tree.sapling, tree.result.main, tree.result.second, 4000, 80)
+    });
+
+    UndergardenTrees.forEach(tree => {
         TreePlanter(tree.sapling, tree.result.main, tree.result.second, 4000, 80)
     });
 }

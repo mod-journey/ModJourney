@@ -260,10 +260,11 @@ global.seeds = {
             { sapling:'croptopia:almond_sapling',       result: 'croptopia:almond'}
         ],
         arsNoveau: [
-           { sapling: 'ars_nouveau:blue_archwood_sapling',   result: 'ars_nouveau:blue_archwood_log'},
-           { sapling: 'ars_nouveau:red_archwood_sapling',    result: 'ars_nouveau:red_archwood_log'},
-           { sapling: 'ars_nouveau:purple_archwood_sapling', result: 'ars_nouveau:purple_archwood_log'},
-           { sapling: 'ars_nouveau:green_archwood_sapling',  result: 'ars_nouveau:green_archwood_log'}
+           { sapling: 'ars_nouveau:blue_archwood_sapling',      result: 'ars_nouveau:blue_archwood_log'},
+           { sapling: 'ars_nouveau:red_archwood_sapling',       result: 'ars_nouveau:red_archwood_log'},
+           { sapling: 'ars_nouveau:purple_archwood_sapling',    result: 'ars_nouveau:purple_archwood_log'},
+           { sapling: 'ars_nouveau:green_archwood_sapling',     result: 'ars_nouveau:green_archwood_log'},
+           { sapling: 'ars_elemental:yellow_archwood_sapling',  result: 'ars_elemental:yellow_archwood_log'}
         ],
         twillight: [
             { sapling:'twilightforest:rainbow_oak_sapling',     result: { main: 'twilightforest:twilight_oak_log',  second: 'twilightforest:rainbow_oak_leaves' } },
@@ -281,6 +282,16 @@ global.seeds = {
             { sapling:'aether:skyroot_sapling',     result: { main: 'aether:skyroot_log',  second: 'aether:skyroot_log' } },
             { sapling:'aether:golden_oak_sapling',  result: { main: 'aether:skyroot_log',  second: 'aether:golden_oak_log' } },
 
+        ],
+        undergarden: [
+            { sapling:'undergarden:indigo_mushroom',    result: { main: 'undergarden:indigo_mushroom_stem', second: 'undergarden:indigo_mushroom_cap' } },
+            { sapling:'undergarden:blood_mushroom',     result: { main: 'undergarden:blood_mushroom_stem',  second: 'undergarden:engorged_blood_mushroom_cap' } },
+            { sapling:'undergarden:puff_mushroom',      result: { main: 'undergarden:puff_mushroom_stem',   second: 'undergarden:puff_mushroom_cap' } },
+            { sapling:'undergarden:veil_mushroom',      result: { main: 'undergarden:veil_mushroom_stem',   second: 'undergarden:veil_mushroom_cap' } },
+            { sapling:'undergarden:ink_mushroom',       result: { main: 'undergarden:ink_mushroom_stem',    second: 'undergarden:ink_mushroom_cap' } },
+            { sapling:'undergarden:smogstem_sapling',   result: { main: 'undergarden:smogstem_log',         second: 'undergarden:smogstem_log' } },
+            { sapling:'undergarden:wigglewood_sapling', result: { main: 'undergarden:wigglewood_log',       second: 'undergarden:wigglewood_log' } },
+            { sapling:'undergarden:grongle_sapling',    result: { main: 'undergarden:grongle_log',          second: 'undergarden:grongle_log' } },
         ]
     }
 }
