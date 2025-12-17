@@ -21,9 +21,7 @@ let remove_arsNoveau = (event, active, debug) => {
         'ars_nouveau:basic_spell_turret',
         'ars_nouveau:rotating_spell_turret'
     ]
-    let ars_tps_killer = [
-        'ars_nouveau:storage_lectern'
-    ]
+
     let ars_warped_scrolls = [
         'ars_nouveau:warp_scroll',
         'ars_nouveau:stable_warp_scroll',
@@ -31,7 +29,7 @@ let remove_arsNoveau = (event, active, debug) => {
         'ars_nouveau:ritual_warping'
     ]
 
-    ars_weather_and_time.concat(ars_biome_modification, ars_spell_maker, ars_tps_killer, ars_warped_scrolls).forEach(element => {
+    ars_weather_and_time.concat(ars_biome_modification, ars_warped_scrolls).forEach(element => {
         event.remove({output: element})
     });
 
