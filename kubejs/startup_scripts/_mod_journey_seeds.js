@@ -205,7 +205,9 @@ global.seeds = {
             { seed: "undergarden:butterbunch",       result: "undergarden:butterbunch" },
             { seed: "undergarden:deepturf",          result: "undergarden:deepturf" },
             { seed: "undergarden:droopvine_item",    result: "undergarden:droopvine_item" },
-            { seed: "undergarden:frozen_deepturf",   result: "undergarden:frozen_deepturf" }
+            { seed: "undergarden:frozen_deepturf",   result: "undergarden:frozen_deepturf" },
+            { seed: "undergarden:ditchbulb",         result: "undergarden:ditchbulb" },
+            { seed: "undergarden:underbeans",        result: "undergarden:underbeans" }
         ],
         immersive: [
             { seed: "immersiveengineering:seed",     result: "immersiveengineering:hemp_fiber" }
