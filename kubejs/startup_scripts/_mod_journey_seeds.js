@@ -193,6 +193,12 @@ global.seeds = {
         { seed: "minecraft:torchflower_seeds",  crop: "minecraft:torchflower"},
         { seed: "minecraft:wheat_seeds",        crop: "minecraft:wheat"}
     ],
+    other_mods: {
+        aether: [
+            {seed: "aether:berry_bush_stem",    crop: "aether:blue_berry"},
+            {seed: "aether:purple_flower",      crop: "aether:purple_flower"},
+            {seed: "aether:white_flower'",        crop: "aether:white_flower'"},
+        ],
     trees : {
         vanilla: [
             { sapling: 'minecraft:oak_sapling',      log: 'minecraft:oak_log' },
@@ -249,6 +255,11 @@ global.seeds = {
             { sapling:'twilightforest:time_sapling',            result: { main: 'twilightforest:time_log',          second: 'twilightforest:firefly' } },
             { sapling:'twilightforest:darkwood_sapling',        result: { main: 'twilightforest:dark_log',          second: 'twilightforest:firefly' } },
             { sapling:'twilightforest:hollow_oak_sapling',      result: { main: 'twilightforest:twilight_oak_log',  second: 'twilightforest:cicada' } }
+        ],
+        aether: [
+            { sapling:'aether:skyroot_sapling',     result: { main: 'aether:skyroot_log',  second: 'aether:skyroot_log' } },
+            { sapling:'aether:golden_oak_sapling',  result: { main: 'aether:skyroot_log',  second: 'aether:golden_oak_log' } },
+
         ]
     }
 }
