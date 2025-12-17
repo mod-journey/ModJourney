@@ -874,6 +874,9 @@
 		""
 		"Colored Chalks werden am häufigsten verwendet, aber ihre Farbe steht nicht direkt in Verbindung mit der Stärke, wie es bei den Foundation Chalks der Fall ist."
 	]
+	quest.2D602D6E04699173.quest_desc: ["Das Astronautenessen wirst Du brauchen, sodass Du nicht auf den Planeten verhungerst."]
+	quest.2D602D6E04699173.quest_subtitle: "Astronautenfutter"
+	quest.2D602D6E04699173.title: "Astronautenfutter"
 	quest.2D612605CD66AB82.title: "Nitro Kristall III"
 	quest.2D93732882C77D34.title: "Der Anfang von Etwas Kleinem (Blue Skies)"
 	quest.2DA1CC2FF00F8041.quest_desc: ["Die \"Hacke des Himmelssuchers\" hilft Bauern in zweierlei Hinsicht: Zum einen bearbeitet sie eine größere Fläche. Zum anderen führt die Zerstörung eines Stücks hohen Grases dazu, dass alle anderen buschartigen Blöcke in einem größeren Bereich ebenfalls zerstört werden."]
@@ -1553,6 +1556,7 @@
 	]
 	quest.4FE30C332131292E.quest_subtitle: "Das absolute Maximum"
 	quest.4FE30C332131292E.title: "Level 100"
+	quest.50216592806BE167.quest_desc: ["Mit dem Vacuumator kannst Du Astronautenessen herstellen."]
 	quest.5036FB6A4F808ECB.title: "Himmelsstein III"
 	quest.505227A456788448.quest_desc: ["Die Scryer Items erlauben dir, die Sicht des Crystals einzunehmen. Die Scroll wird an den Kristall gebunden und in die Nähe der Oculus auf ein Pedestal gelegt. Durch Interagieren mit der Oculus kann man nun die Sicht des Crystals sehen."]
 	quest.505227A456788448.title: "Ich sehe dich!"
@@ -2415,6 +2419,7 @@
 	task.52FDC27C93B7F6E3.title: "Töte es bevor es Eier legt (Arachnarch ist zu Besiegen)"
 	task.536D851BBD6A191B.title: "Black Hole Controller"
 	task.541BB6D3E0F66204.title: "Upgrades für die Dynamos"
+	task.553CE20F0DB8003F.title: "Any #c:foods"
 	task.559F657E5193AA89.title: "Archwood"
 	task.57C0868197229AD9.title: "Crafte Die Horizonitschmiede"
 	task.58130F61425C0D83.title: "Garden"
@@ -2423,6 +2428,7 @@
 	task.5AADB98601C9615B.title: "Beliebige Cloggrum Waffe"
 	task.5AE347FA991EC91F.title: "Stahl"
 	task.5B9E238DC485BE38.title: "Mana"
+	task.5BA7E36481CF158B.title: "Any #stellaris:can"
 	task.5BD47D1239415F3B.title: "Irgendein Fluorit"
 	task.5BEE8836A83005FB.title: "Aura Pflanzen"
 	task.5CC05D5D8620ACB6.title: "Magentite"
