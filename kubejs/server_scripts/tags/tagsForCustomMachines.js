@@ -4,30 +4,25 @@ let tagsForCustomMachines = (event, active, debug) => {
      Tag generating, that Filterd Custom Machine Input, will accept and show them in JEI.
     */
 
-    let addTagToCropsFromAether = global.seeds.other_mods.aether
-    let addTagToCropsFromUndergarden = global.seeds.other_mods.undergarden
-    let addTagToCropsFromOccultism = global.seeds.other_mods.occultism
-    let addTagToCropsFromArsNoveau = global.seeds.other_mods.arsNoveau
-    let addTagToCropsFromImmersive = global.seeds.other_mods.immersive
 
-    addTagToCropsFromAether.forEach(addTag => {
+    let CropTagForSeedPlanter = []
+        .concat(global.seeds.other_mods.aether)
+        .concat(global.seeds.other_mods.undergarden)
+        .concat(global.seeds.other_mods.occultism)
+        .concat(global.seeds.other_mods.arsNoveau)
+        .concat(global.seeds.other_mods.immersive);
+
+    CropTagForSeedPlanter.forEach(addTag => {
         event.add(`mj:seed_planter/input`, addTag.seed)
     })
 
-    addTagToCropsFromUndergarden.forEach(addTag => {
-        event.add(`mj:seed_planter/input`, addTag.seed)
-    })
 
-    addTagToCropsFromOccultism.forEach(addTag => {
-        event.add(`mj:seed_planter/input`, addTag.seed)
-    })
+    /* Add Tag for Tree Similiar Things like Mushrooms. */
+    let SaplingTagForTreePlanter = []
+        .concat(global.seeds.trees.undergarden);
 
-    addTagToCropsFromArsNoveau.forEach(addTag => {
-        event.add(`mj:seed_planter/input`, addTag.seed)
-    })
-
-    addTagToCropsFromImmersive.forEach(addTag => {
-        event.add(`mj:seed_planter/input`, addTag.seed)
+    SaplingTagForTreePlanter.forEach(addTag => {
+        event.add(`mj:tree_planter/input`, addTag.sapling)
     })
 
 }
