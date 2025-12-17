@@ -96,7 +96,7 @@ global.seeds = {
             { seed: 'mysticalagriculture:osmium_seeds',             result: 'mysticalagriculture:osmium_essence' },
             { seed: 'mysticalagriculture:fluorite_seeds',           result: 'mysticalagriculture:fluorite_essence' },
             { seed: 'mysticalagriculture:refined_glowstone_seeds',  result: 'mysticalagriculture:refined_glowstone_essence' },
-            { seed: 'mysticalagriculture:refined_obsidian_seeds',   result: 'mysticalagriculture:refined_obsidian_essence' },
+            { seed: 'mysticalagriculture:refined_obsidian_seeds',   result: 'mysticalagriculture:refined_obsidian_essence' }
         ],
         tier5: [
             { seed: 'mysticalagriculture:diamond_seeds',            result: 'mysticalagriculture:diamond_essence' },
@@ -111,21 +111,18 @@ global.seeds = {
             { seed: 'mysticalagriculture:cyanite_seeds',            result: 'mysticalagriculture:cyanite_essence' },
             { seed: 'mysticalagriculture:spirited_crystal_seeds',   result: 'mysticalagriculture:spirited_crystal_essence' },
             { seed: 'mysticalagriculture:niotic_crystal_seeds',     result: 'mysticalagriculture:niotic_crystal_essence' },
-            { seed: 'mysticalagriculture:uraninite_seeds',          result: 'mysticalagriculture:uraninite_essence' },
-
+            { seed: 'mysticalagriculture:uraninite_seeds',          result: 'mysticalagriculture:uraninite_essence' }
         ],
         tier6: [
             { seed: 'mysticalagriculture:nether_star_seeds',        result: 'mysticalagriculture:nether_star_essence' },
             { seed: 'mysticalagriculture:dragon_egg_seeds',         result: 'mysticalagriculture:dragon_egg_essence' },
-            { seed: 'mysticalagriculture:nitro_crystal_seeds',      result: 'mysticalagriculture:nitro_crystal_essence' },
-
+            { seed: 'mysticalagriculture:nitro_crystal_seeds',      result: 'mysticalagriculture:nitro_crystal_essence' }
         ],
         elemental: [
             { seed:'mysticalagriculture:air_seeds',                 result:  'mysticalagriculture:air_essence'},
             { seed:'mysticalagriculture:earth_seeds',               result:  'mysticalagriculture:earth_essence'},
             { seed:'mysticalagriculture:water_seeds',               result:  'mysticalagriculture:water_essence'},
-            { seed:'mysticalagriculture:fire_seeds',                result:  'mysticalagriculture:fire_essence'},
-
+            { seed:'mysticalagriculture:fire_seeds',                result:  'mysticalagriculture:fire_essence'}
         ]
     },
     croptopia: [
@@ -195,9 +192,9 @@ global.seeds = {
     ],
     other_mods: {
         aether: [
-            {seed: "aether:berry_bush_stem",    crop: "aether:blue_berry"},
-            {seed: "aether:purple_flower",      crop: "aether:purple_flower"},
-            {seed: "aether:white_flower'",        crop: "aether:white_flower'"},
+            {seed: "aether:berry_bush_stem",    result: "aether:blue_berry"},
+            {seed: "aether:purple_flower",      result: "aether:purple_flower"},
+            {seed: "aether:white_flower",       result: "aether:white_flower"},
         ],
     trees : {
         vanilla: [

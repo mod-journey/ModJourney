@@ -6,6 +6,7 @@ let add_custom_machinary_treeplanter = (event, active, debug) => {
     let croptopiaTrees = trees.croptopia
     let ArsTrees = trees.arsNoveau
     let TwillightTrees = trees.twillight
+    let AetherTrees = trees.aether
 
         //Crafting the Machine itselfs:
         event.shaped("mod_journey:tree_planter", [
@@ -52,6 +53,10 @@ let add_custom_machinary_treeplanter = (event, active, debug) => {
     });
 
     TwillightTrees.forEach(tree => {
+        TreePlanter(tree.sapling, tree.result.main, tree.result.second, 4000, 80)
+    });
+
+    AetherTrees.forEach(tree => {
         TreePlanter(tree.sapling, tree.result.main, tree.result.second, 4000, 80)
     });
 }
