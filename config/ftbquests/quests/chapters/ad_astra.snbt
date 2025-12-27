@@ -12,7 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["12A4F63F84843AA8"]
+			dependencies: ["2D602D6E04699173"]
 			id: "765CC36D1E9FC407"
 			rewards: [{
 				id: "32AE59FEC6F23F3F"
@@ -28,7 +28,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["625BCE0C411DF831"]
@@ -143,7 +143,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -286,7 +286,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0B83FB0E9BFBE96E"]
@@ -305,7 +305,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["625BCE0C411DF831"]
@@ -343,7 +343,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0B83FB0E9BFBE96E"]
@@ -362,7 +362,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["759B24F5EB490DB0"]
@@ -382,7 +382,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["16A2F679AEC22F43"]
@@ -401,7 +401,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["16A2F679AEC22F43"]
@@ -421,7 +421,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 8.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["005F625FCFC80A7B"]
@@ -450,7 +450,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 10.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["62C53AC440B3380E"]
@@ -470,7 +470,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["765CC36D1E9FC407"]
@@ -488,7 +488,7 @@
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["595FAE939128EC13"]
@@ -507,7 +507,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["595FAE939128EC13"]
@@ -526,7 +526,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["595FAE939128EC13"]
@@ -545,7 +545,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["595FAE939128EC13"]
@@ -564,7 +564,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["6A8AA0E31C3F2F47"]
@@ -583,7 +583,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["44D05D9F33C12F52"]
@@ -602,7 +602,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["005F625FCFC80A7B"]
@@ -621,7 +621,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 8.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["6F14BA01A20E3D8F"]
@@ -640,7 +640,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 8.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["22F9E79A0AAB0990"]
@@ -659,7 +659,66 @@
 				type: "item"
 			}]
 			x: 2.500000000000007d
-			y: 9.654761904761912d
+			y: 11.154761904761912d
+		}
+		{
+			dependencies: ["12A4F63F84843AA8"]
+			id: "50216592806BE167"
+			rewards: [{
+				id: "57D37C7DC2BB10D1"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1876BD4E09D18B11"
+				item: { count: 1, id: "stellaris:vacuumator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["50216592806BE167"]
+			icon: {
+				components: {
+					"minecraft:food": {
+						nutrition: 5
+						saturation: 6.0f
+					}
+				}
+				id: "stellaris:big_green_can"
+			}
+			id: "2D602D6E04699173"
+			rewards: [{
+				id: "3E92A482673C3590"
+				item: {
+					count: 1
+					id: "mod_journey:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5BA7E36481CF158B"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(stellaris:can)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "3CB6C35D6AB1EE1D"
+					item: { count: 1, id: "minecraft:glass_bottle" }
+					type: "item"
+				}
+				{
+					id: "553CE20F0DB8003F"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:foods)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 }
