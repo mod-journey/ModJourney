@@ -136,6 +136,7 @@
 		{
 			dependencies: ["30172BEE4E9270A4"]
 			id: "4D7AF05231F11F04"
+			optional: true
 			rewards: [{
 				id: "2AC8C62CEC1D4771"
 				item: {
@@ -158,6 +159,7 @@
 		{
 			dependencies: ["1E92F21F287903D5"]
 			id: "25B4005EAD00F8DA"
+			optional: true
 			rewards: [{
 				id: "08ACE2693A149E8B"
 				item: {
@@ -179,6 +181,7 @@
 		{
 			dependencies: ["7BC484BE1CEB92D5"]
 			id: "4E2C63B99042440F"
+			optional: true
 			rewards: [{
 				id: "43C88D0FB7EE3B07"
 				item: {
@@ -200,6 +203,7 @@
 		{
 			dependencies: ["126B23F2B57892F6"]
 			id: "58742DDCF0B46D9C"
+			optional: true
 			rewards: [{
 				id: "6874ADECA7BA1CCE"
 				item: {
@@ -222,6 +226,7 @@
 		{
 			dependencies: ["5EEED8BA75D222AC"]
 			id: "111CC1558B0A992A"
+			optional: true
 			rewards: [{
 				id: "69C3B522E3F151EC"
 				item: {
@@ -243,6 +248,7 @@
 		{
 			dependencies: ["4D7AF05231F11F04"]
 			id: "308D5079C060F8E3"
+			optional: true
 			rewards: [{
 				id: "3DDD73CA91C10DC7"
 				item: {
@@ -264,6 +270,7 @@
 		{
 			dependencies: ["25B4005EAD00F8DA"]
 			id: "45E0AD5F86CDA3CB"
+			optional: true
 			rewards: [{
 				id: "7E711C6BC363F25A"
 				item: {
@@ -285,6 +292,7 @@
 		{
 			dependencies: ["4E2C63B99042440F"]
 			id: "7E4DEA5FCB6C528A"
+			optional: true
 			rewards: [{
 				id: "6EF2707AA8C8D90C"
 				item: {
@@ -306,6 +314,7 @@
 		{
 			dependencies: ["58742DDCF0B46D9C"]
 			id: "1006F9B368BA6309"
+			optional: true
 			rewards: [{
 				id: "72366DD81B82B0F3"
 				item: {
@@ -327,6 +336,7 @@
 		{
 			dependencies: ["111CC1558B0A992A"]
 			id: "7FF75F8F056EFB98"
+			optional: true
 			rewards: [{
 				id: "437932EF54AF87AC"
 				item: {
@@ -349,6 +359,7 @@
 			can_repeat: true
 			dependencies: ["308D5079C060F8E3"]
 			id: "4B31704D46F9D6BC"
+			optional: true
 			rewards: [{
 				id: "4F5FA6A854EB39E2"
 				item: {
@@ -370,6 +381,7 @@
 			can_repeat: true
 			dependencies: ["45E0AD5F86CDA3CB"]
 			id: "50B7FD0D1883B624"
+			optional: true
 			rewards: [{
 				id: "216D14DF0EC84E2E"
 				item: {
@@ -391,6 +403,7 @@
 			can_repeat: true
 			dependencies: ["7E4DEA5FCB6C528A"]
 			id: "620B2F3319D3AE4B"
+			optional: true
 			rewards: [{
 				id: "7E8B5BBFC3512473"
 				item: {
@@ -412,6 +425,7 @@
 			can_repeat: true
 			dependencies: ["1006F9B368BA6309"]
 			id: "0C90DC7193CB6550"
+			optional: true
 			rewards: [{
 				id: "463358BC66ACEDE3"
 				item: {
@@ -433,6 +447,7 @@
 			can_repeat: true
 			dependencies: ["7FF75F8F056EFB98"]
 			id: "2865B9F662D4828B"
+			optional: true
 			rewards: [{
 				id: "7F764929EA5A7FD6"
 				item: {
