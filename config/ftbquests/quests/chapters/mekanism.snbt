@@ -1301,7 +1301,7 @@
 			}]
 			tasks: [
 				{
-					count: 84L
+					count: 60L
 					id: "6355972518B32CB6"
 					item: { count: 1, id: "mekanism:sps_casing" }
 					type: "item"
@@ -1318,7 +1318,7 @@
 					type: "item"
 				}
 				{
-					count: 102L
+					count: 123L
 					id: "0FFA06581D0AC600"
 					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
 					type: "item"
