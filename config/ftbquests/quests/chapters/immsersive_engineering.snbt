@@ -727,6 +727,7 @@
 		{
 			dependencies: ["0B04E60647C11A1D"]
 			id: "69FED45F23BC97C8"
+			optional: true
 			rewards: [{
 				id: "50F8032B7C844FE1"
 				item: {
@@ -746,6 +747,7 @@
 		{
 			dependencies: ["69FED45F23BC97C8"]
 			id: "41AC786E79F24EA5"
+			optional: true
 			rewards: [{
 				id: "7AB8304C581BAE5E"
 				item: {
@@ -765,6 +767,7 @@
 		{
 			dependencies: ["69FED45F23BC97C8"]
 			id: "74BC9D9625C7A3F6"
+			optional: true
 			rewards: [{
 				id: "154007F0E3FB5869"
 				item: {
@@ -785,6 +788,7 @@
 			dependencies: ["19BDD9A98862D1F7"]
 			hide_dependency_lines: true
 			id: "50476836CF31E575"
+			optional: true
 			rewards: [{
 				id: "6BEB528B1749759B"
 				item: {
@@ -808,6 +812,7 @@
 			]
 			id: "0D7A9326A779CF33"
 			min_required_dependencies: 2
+			optional: true
 			rewards: [{
 				id: "0350EDCD1C644A39"
 				item: {
@@ -827,6 +832,7 @@
 		{
 			dependencies: ["50476836CF31E575"]
 			id: "486C8E600D7D2750"
+			optional: true
 			rewards: [{
 				id: "4C04994715E0E0D5"
 				item: {

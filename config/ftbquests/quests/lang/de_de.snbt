@@ -700,7 +700,7 @@
 		"Dieser Vorgang funktioniert nur als Lv60 Verzauberung!"
 	]
 	quest.20E6914605CFDF69.title: "Level 70"
-	quest.20E7F0F41A8E64FB.title: "Mehr Bohrkraft"
+	quest.20E7F0F41A8E64FB.title: "Drills für mehr Bohrkraft"
 	quest.2110D091E58418EF.title: "Tauschen mit den Elfen"
 	quest.21631BCC49F3C8AA.quest_desc: ["Von Einem Launchpad aus kannst Du deine Rakete starten."]
 	quest.21A66CAA4865D3D0.quest_desc: ["Energy Ports sind die Schnittstelle für Energie. Hier kannst Du Energie aus dem Reaktor in dein Energienetzwerk einspeisen. Es gibt zwei Arten. Die Aktiven und Passiven Energy Ports. Der Unterschied liegt darin, dass man aktiv den Strom aus den passiven Ports rausziehen muss, während die aktiven versuchen diesen direkt an den Benachbarten Block abzugeben."]
@@ -2390,6 +2390,7 @@
 	task.3F5D84724A01A915.title: "Besiege den Beschwörer"
 	task.401DD48C11B715A0.title: "Any #minecraft:logs"
 	task.4077DBE330A0215A.title: "Rossinite"
+	task.41C826A45092625D.title: "Beliebige #mekanism:unit"
 	task.4233FA732EAB6049.title: "Besiege den Starlit Crusher"
 	task.427D6424FEBCAB27.title: "Mystical Agriculture"
 	task.4333D7E9404534D6.title: "Tier 4"

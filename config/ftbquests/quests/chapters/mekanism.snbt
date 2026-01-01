@@ -1942,6 +1942,7 @@
 		{
 			dependencies: ["399BC8127957A534"]
 			id: "1BA37D24BDBA1C93"
+			optional: true
 			rewards: [{
 				id: "08736431A1DCE8F5"
 				item: {
@@ -1961,6 +1962,7 @@
 		{
 			dependencies: ["67E0A85291DD6898"]
 			id: "50A372B99AA60216"
+			optional: true
 			rewards: [{
 				id: "35DD3F00CE7F001A"
 				item: {
@@ -1983,6 +1985,7 @@
 				"1BA37D24BDBA1C93"
 			]
 			id: "04037DF1C50C7CAB"
+			optional: true
 			rewards: [{
 				id: "25ABA0032BF3D743"
 				item: {
@@ -1993,7 +1996,7 @@
 			}]
 			tasks: [{
 				id: "41C826A45092625D"
-				item: { count: 1, id: "mekanism:module_radiation_shielding_unit" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(mekanism:unit)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -15.5d
