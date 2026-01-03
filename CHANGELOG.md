@@ -1,6 +1,40 @@
 # Changelog:
 
-## NEXT RELEASE
+<!-- ## NEXT RELEASE -->
+## v2.0.2.1
+
+#### Mods added:
+- Craftpresence 2.7.0
+
+#### Mods updated:
+<details>
+<summary>22 Mods updated</summary>
+- AEInfinityBooster 1.0.0.52 => 1.0.0.54
+- CarryOn 2.2.2.11 => 2.2.4.4
+- ExtendedAE 2.2.25 => 2.2.25
+- Extreme sound muffler 3.51 => 3.52
+- Framework 0.13.1 => 0.13.6
+- FTB Library 2101.1.26 => 2101.1.29
+- FTB Quests 2101.1.18 => 2101.1.20
+- FTB Teams 2101.1.7 => 2101.1.9
+- Fusion (Connected Textures) 1.2.11b => 1.2.11d
+- Just Enough Mekanism Multiblocks 7.11 => 7.12
+- Macaw's Fences and Walls 1.2.0 => 1.2.1
+- Macaw's Furniture 3.4.0 => 3.4.1
+- Macaw's Lights and Lamps 1.1.2 => 1.1.5
+- Macaw's Stairs 1.0.1 => 1.0.2
+- Macaw's Trapdoors 1.1.4 => 1.1.5
+- Macaw's Windows 2.4.1 => 2.4.2
+- McJtyLib 9.0.17 => 9.0.20
+- playerAnimator 2.0.1 => 2.0.4
+- RFTools Utility 7.0.9 => 7.0.10
+- RFToolsBase 6.0.9 => 6.0.10
+- Sophisticated Backpacks 3.25.14.1410 => 3.25.21.1475
+- Sophisticated Core 1.3.87.1239 => 1.3.100.1348
+- SuperMartijn642's Core Lib 1.1.18a => 1.1.18b
+- Tom's Trading Network 0.3.3 => 0.3.4
+- Waystones 21.1.23 => 21.1.25
+</details>
 
 ## v2.0.2.0
 
