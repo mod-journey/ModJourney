@@ -1,9 +1,15 @@
 let add_custom_machinary_seedplanter_v2 = (event, active, debug) => {
     if (!active) return;
+    /*
+     If Crop will not shown in Input Slot, pls check the Filter Settings in Custom Machines.
+     So i've added a custom tag, for Crops, that not match the c:seeds Tag in /server_scripts/tags/tagsForCustomMachines.js
+     with the Name, "mj:seed_planter/input"
+    */
 
     //Define Objk variables for better reading.
     let croptopia_obj = global.seeds.croptopia
     let mystical_obj = global.seeds.mystical
+    let otherMods_obj = global.seeds.other_mods
 
     //Crafting the Machine itselfs:
 
@@ -95,6 +101,26 @@ let add_custom_machinary_seedplanter_v2 = (event, active, debug) => {
 
     mystical_obj.tier6.forEach(crop => {
         seedPlanterForMystical(crop.seed, crop.result, 0.1, 10000, 480)
+    });
+
+    otherMods_obj.aether.forEach(id => {
+        seedPlanterForCroptopia(id.seed, 0.2, id.result, 0.2, 200, 240)
+    });
+
+    otherMods_obj.immersive.forEach(id => {
+        seedPlanterForCroptopia(id.seed, 0.2, id.result, 0.2, 200, 240)
+    });
+
+    otherMods_obj.occultism.forEach(id => {
+        seedPlanterForCroptopia(id.seed, 0.2, id.result, 0.2, 200, 240)
+    });
+
+    otherMods_obj.arsNoveau.forEach(id => {
+        seedPlanterForCroptopia(id.seed, 0.2, id.result, 0.2, 200, 240)
+    });
+
+    otherMods_obj.undergarden.forEach(id => {
+        seedPlanterForCroptopia(id.seed, 0.2, id.result, 0.2, 200, 240)
     });
 
 }

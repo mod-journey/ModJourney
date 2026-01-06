@@ -11,6 +11,7 @@ if (item_tags) {
         tag_fuer_event(event, true)
         item_stellaris(event, true)
         naturesAura_tags(event, true)
+        tagsForCustomMachines(event, true)
 
     })
 
