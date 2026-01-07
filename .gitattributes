@@ -33,6 +33,7 @@ config/megacells.json			text eol=lf
 modlist.html				diff=sort
 manifest.json				diff=modlist-sort
 manifest-server.json			diff=modlist-sort
+world-gen.json				diff=ore-sort
 # Add extra syntax highlight for certain file extensions - see https://docs.gitlab.com/ee/user/project/highlighting.html#override-syntax-highlighting-for-a-file-type
 *.snbt					gitlab-language=json
 *.jsonc					gitlab-language=json
