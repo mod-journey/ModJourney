@@ -69,6 +69,7 @@ if (events_server) {
             add_stellaris(event, true);
             easy_villagers_gated(event, true);
             add_decoration_blocks(event, true);
+            fix_immersive_recipes(event, true);
         }
 
         if (customMachine_event) {
