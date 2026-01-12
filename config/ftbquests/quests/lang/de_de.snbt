@@ -1359,7 +1359,7 @@
 	]
 	quest.44F60E7D88036BA5.title: "Lagerplatz für Verzauberungen"
 	quest.45151C385E22D3AF.title: "Prismarin I"
-	quest.45189D8B5D0ABB7D.title: "End Steel I"
+	quest.45189D8B5D0ABB7D.title: "End Stahl I"
 	quest.4523B6508D0FE41F.quest_desc: ["Die \"Spitzhacke des Himmelssuchers\" bewirkt, dass alle abgebauten Gegenstände sofort in das Inventar des Benutzers gelangen, wodurch die Gefahr verringert wird, dass wertvolle Diamanten in die Lava darunter stürzen"]
 	quest.455EEC6211A5D6B1.quest_subtitle: "Eine unendliche Wasserquelle als Maschine!"
 	quest.4561534AF53E0D10.quest_subtitle: "Was soll ich tun, wenn ich keine Bastion finde?"
@@ -1475,7 +1475,7 @@
 	]
 	quest.4B31704D46F9D6BC.title: "Stein IV"
 	quest.4B4A2387F7C307B6.quest_desc: ["Crafte ein Cloggrum Werkzeug, du kannst es später noch veredeln!"]
-	quest.4B54C232723221A0.title: "Konduktiver Legierungsbarren  III"
+	quest.4B54C232723221A0.title: "Leifähiger Legierungsbarren  III"
 	quest.4B54E3EBF42EEE28.title: "Himmelsstein I"
 	quest.4B5731EA58070191.quest_desc: ["Dies ist die effizentiste flüssigkeit um deinen reactor passive zu kühlen"]
 	quest.4B5731EA58070191.title: "Redfrigium"
@@ -1736,7 +1736,7 @@
 		"Zum Wirken deiner Spells benötigst du Mana. Dieses siehst du in der Regel links unten neben deiner Inventarleiste. Glyphen und dessen Zusammensetzungen kosten mehr oder weniger Mana, je nach Stärke, Tier und Effekt."
 		"Die Menge an Mana und dessen Regeneration ist steigerbar durch Erlernen weiterer Glyphen, Magische Rüstung, Mana Potions etc."
 	]
-	quest.5C55A49E1A2825AD.title: "Konduktiver Legierungsbarren IV"
+	quest.5C55A49E1A2825AD.title: "Leifähiger Legierungsbarren IV"
 	quest.5C748344B5226C9D.title: "Natur II"
 	quest.5C7D0094496E8E53.quest_desc: [
 		"Öffne hierzu dein Spellbook in deiner Hand (Default: C)."
@@ -2021,7 +2021,7 @@
 	quest.6D62D66820959C88.title: "Farbstoff I"
 	quest.6D8C8F5FCCC086C0.quest_desc: ["Wandelt Lava in Energie um."]
 	quest.6D8C8F5FCCC086C0.quest_subtitle: "Pumpe den Nether leer."
-	quest.6DE4FDE401002D86.title: "Konduktiver Legierungsbarren I"
+	quest.6DE4FDE401002D86.title: "Leifähiger Legierungsbarren I"
 	quest.6E087C2758FDEB6C.quest_desc: ["Drawer sind nun abhängig des Füllstands mit einem Komparator auslesbar."]
 	quest.6E7B5D5F3EC952AD.quest_desc: ["Ab Abschluss der dritten Woche erhältst du (pro Spieler im Team) 4 Münzen aus der täglichen Quest."]
 	quest.6E80082139A42376.quest_desc: ["2x2 Rezepte werden Platz sparend gelagert"]
@@ -2203,7 +2203,7 @@
 	quest.79ABB8A2C2D1AD3C.quest_subtitle: "Baue in deinem Flux Network einen Zwischenspeicher ein."
 	quest.79B146018D2682BB.title: "Kohle III"
 	quest.7A3A3B706CFB4440.title: "Bronze II"
-	quest.7A9935BC07AA5F19.title: "Konduktiver Legierungsbarren II"
+	quest.7A9935BC07AA5F19.title: "Leifähiger Legierungsbarren II"
 	quest.7AD9631F43AD87FD.quest_desc: ["Aufgesammelte Items kommen direkt in den Rucksack."]
 	quest.7AD9631F43AD87FD.quest_subtitle: "Put it in I"
 	quest.7AECB62DC58378D5.title: "Lotterie"
