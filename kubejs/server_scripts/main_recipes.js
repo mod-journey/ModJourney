@@ -108,6 +108,7 @@ if (events_server) {
             changeRecipeToATO(event, true)
             addDustConvertRecipes(event, true)
             addSmeltingAndBlasting(event, true)
+            modifyMetalpress(event, true, false)
         }
 
         if (replace_event) {
