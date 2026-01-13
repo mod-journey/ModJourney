@@ -106,7 +106,7 @@ if (events_server) {
             fixAlloyRecipes(event, true)
             changeRecipeToATO(event, true)
             addSmeltingAndBlasting(event, true)
-            removeMetallpressATO(event, true, false)
+            modifyMetalpress(event, true, false)
         }
 
         if (replace_event) {
