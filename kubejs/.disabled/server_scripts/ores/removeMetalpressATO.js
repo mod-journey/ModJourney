@@ -3,9 +3,11 @@
     Was mir dann z.B. noch aufgefallen ist, das ATO an der Stelle unique Rezpte für die Metallpresse mitliefert
     welche dann entfernt werden. Sind aber weiterhin dann craftable über Handcrafting oder die MJ MetallPress.
 
+    Info: this script currently removes all NON-Alt the ores recipes, and keeps the recipes with the bigger energy cost
+          This year we made the decision too keep all recipes and just adjust the energy costs
 */
 
-let removeMetallpressATO = (event, active, debug) => {
+let removeMetalpressATO = (event, active, debug) => {
 
     if (debug) {
         console.log("====> Loeschen von doppelten ATO Rezepten bei der Immersive-Presse <====")
