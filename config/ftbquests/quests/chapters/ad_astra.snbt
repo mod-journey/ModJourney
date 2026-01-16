@@ -8,6 +8,14 @@
 		id: "stellaris:space_suit_helmet"
 	}
 	id: "488F73A73A492F5A"
+	images: [{
+		height: 4.0d
+		image: "bigreactors:gui/multiblock/charging"
+		rotation: 45.0d
+		width: 4.0d
+		x: 5.442176870748305d
+		y: 5.166666666666664d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -266,7 +274,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["765CC36D1E9FC407"]
+			dependencies: [
+				"765CC36D1E9FC407"
+				"099AC6D408CD37DC"
+			]
 			id: "0B83FB0E9BFBE96E"
 			rewards: [{
 				id: "72F880436E8B85F2"
@@ -719,6 +730,17 @@
 			]
 			x: 0.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["625BCE0C411DF831"]
+			hide_dependency_lines: true
+			id: "099AC6D408CD37DC"
+			tasks: [{
+				id: "1F2506D3419AA7DD"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 5.0d
 		}
 	]
 }
