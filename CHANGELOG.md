@@ -1,7 +1,35 @@
 # Changelog:
 
 <!-- ## NEXT RELEASE -->
-## v2.0.2.1
+## v2.0.3.0
+
+#### New Features:
+- Added JER distribution list for all ores
+- Added new recipes to seed and tree planter
+  - aether trees and plants
+  - Undergarden and ArsElemental Trees
+  - Undergarden, Immersive, Ars Nouveau and Occultism seeds
+
+#### Fixes:
+- Add missing raw Storage Block recipes for furnace and blasting
+- Add missing stellaris sand recipe
+- Fix to high energy-costs in immersive metal-press
+
+- Add new food quest for stellaris.
+- Make coin quests in seed shop optional, to make this chapter complete-able
+- Fix incorrect item count for sps quest
+- Small fixes on text and descriptions in questbook
+
+#### Recipes Changes:
+- Fix stellaris uran is craftable to atm ingots.
+- Make immersive HOP graphite ingot craftable
+- Remove spartial anchor from me
+- Re-add lectern and turrets from Ars Nouveau
+- Make mystical furnace cheaper and staged the upgrades above tertium
+- Add recipe to convert enderIO dusts to ATO dusts
+
+#### Config Changes:
+- Deny wilds and summons occultism mobs from spawner, but not from capturing
 
 #### Mods added:
 - Craftpresence 2.7.0
