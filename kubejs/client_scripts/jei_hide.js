@@ -194,11 +194,6 @@ let jei_hide = (event, active, debug) => {
         'ars_nouveau:ritual_forestation',
         'ars_nouveau:ritual_flowering',
         'ars_nouveau:ritual_conjure_island_desert',
-        'ars_nouveau:spell_turret',
-        'ars_nouveau:timer_spell_turret',
-        'ars_nouveau:basic_spell_turret',
-        'ars_nouveau:rotating_spell_turret',
-        'ars_nouveau:storage_lectern',
         'ars_nouveau:warp_scroll',
         'ars_nouveau:stable_warp_scroll',
         'ars_nouveau:portal'

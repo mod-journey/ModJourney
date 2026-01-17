@@ -51,7 +51,10 @@
     },
     {
       "type": "custommachinery:item",
-      "whitelist": "#c:seeds",
+      "whitelist": [
+        "#c:seeds",
+        "#mj:seed_planter/input"
+      ],
       "config": {
         "TOP": "INPUT",
         "BOTTOM": "INPUT",

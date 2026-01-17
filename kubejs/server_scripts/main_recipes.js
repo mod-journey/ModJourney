@@ -69,6 +69,7 @@ if (events_server) {
             add_stellaris(event, true);
             easy_villagers_gated(event, true);
             add_decoration_blocks(event, true);
+            fix_immersive_recipes(event, true);
         }
 
         if (customMachine_event) {
@@ -105,6 +106,9 @@ if (events_server) {
         if (replace_ores) {
             fixAlloyRecipes(event, true)
             changeRecipeToATO(event, true)
+            addDustConvertRecipes(event, true)
+            addSmeltingAndBlasting(event, true)
+            modifyMetalpress(event, true, false)
         }
 
         if (replace_event) {

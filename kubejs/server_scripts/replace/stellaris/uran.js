@@ -25,7 +25,7 @@ let replace_stellaris_uran = (event, active, debug) => {
 
     }).id("mod_journey:misc/enriched_uranium_shaped")
 
-    event.smelting('1x stellaris:uranium_ingot', 'stellaris:raw_uranium',0.5,600)
-    event.blasting('1x stellaris:uranium_ingot', 'stellaris:raw_uranium',0.25,300)
+    event.smelting('1x stellaris:uranium_ingot', 'stellaris:raw_uranium', 0.5, 600).id("stellaris:misc/uranium_from_smelting_raw_uranium")
+    event.blasting('1x stellaris:uranium_ingot', 'stellaris:raw_uranium', 0.25, 300).id("stellaris:misc/uranium_from_blasting_raw_uranium")
 
 }

@@ -96,7 +96,7 @@ global.seeds = {
             { seed: 'mysticalagriculture:osmium_seeds',             result: 'mysticalagriculture:osmium_essence' },
             { seed: 'mysticalagriculture:fluorite_seeds',           result: 'mysticalagriculture:fluorite_essence' },
             { seed: 'mysticalagriculture:refined_glowstone_seeds',  result: 'mysticalagriculture:refined_glowstone_essence' },
-            { seed: 'mysticalagriculture:refined_obsidian_seeds',   result: 'mysticalagriculture:refined_obsidian_essence' },
+            { seed: 'mysticalagriculture:refined_obsidian_seeds',   result: 'mysticalagriculture:refined_obsidian_essence' }
         ],
         tier5: [
             { seed: 'mysticalagriculture:diamond_seeds',            result: 'mysticalagriculture:diamond_essence' },
@@ -111,21 +111,18 @@ global.seeds = {
             { seed: 'mysticalagriculture:cyanite_seeds',            result: 'mysticalagriculture:cyanite_essence' },
             { seed: 'mysticalagriculture:spirited_crystal_seeds',   result: 'mysticalagriculture:spirited_crystal_essence' },
             { seed: 'mysticalagriculture:niotic_crystal_seeds',     result: 'mysticalagriculture:niotic_crystal_essence' },
-            { seed: 'mysticalagriculture:uraninite_seeds',          result: 'mysticalagriculture:uraninite_essence' },
-
+            { seed: 'mysticalagriculture:uraninite_seeds',          result: 'mysticalagriculture:uraninite_essence' }
         ],
         tier6: [
             { seed: 'mysticalagriculture:nether_star_seeds',        result: 'mysticalagriculture:nether_star_essence' },
             { seed: 'mysticalagriculture:dragon_egg_seeds',         result: 'mysticalagriculture:dragon_egg_essence' },
-            { seed: 'mysticalagriculture:nitro_crystal_seeds',      result: 'mysticalagriculture:nitro_crystal_essence' },
-
+            { seed: 'mysticalagriculture:nitro_crystal_seeds',      result: 'mysticalagriculture:nitro_crystal_essence' }
         ],
         elemental: [
             { seed:'mysticalagriculture:air_seeds',                 result:  'mysticalagriculture:air_essence'},
             { seed:'mysticalagriculture:earth_seeds',               result:  'mysticalagriculture:earth_essence'},
             { seed:'mysticalagriculture:water_seeds',               result:  'mysticalagriculture:water_essence'},
-            { seed:'mysticalagriculture:fire_seeds',                result:  'mysticalagriculture:fire_essence'},
-
+            { seed:'mysticalagriculture:fire_seeds',                result:  'mysticalagriculture:fire_essence'}
         ]
     },
     croptopia: [
@@ -193,6 +190,36 @@ global.seeds = {
         { seed: "minecraft:torchflower_seeds",  crop: "minecraft:torchflower"},
         { seed: "minecraft:wheat_seeds",        crop: "minecraft:wheat"}
     ],
+    other_mods: {
+        aether: [
+            { seed: "aether:berry_bush_stem",        result: "aether:blue_berry" },
+            { seed: "aether:purple_flower",          result: "aether:purple_flower" },
+            { seed: "aether:white_flower",           result: "aether:white_flower" },
+        ],
+        undergarden: [
+            { seed: "undergarden:gloomgourd_seeds",  result: "undergardendelight:gloomgourd_slice" },
+            { seed: "undergarden:glitterkelp",       result: "undergarden:glitterkelp" },
+            { seed: "undergarden:amorous_bristle",   result: "undergarden:amorous_bristle" },
+            { seed: "undergarden:shimmerweed",       result: "undergarden:shimmerweed" },
+            { seed: "undergarden:miserabell",        result: "undergarden:miserabell" },
+            { seed: "undergarden:butterbunch",       result: "undergarden:butterbunch" },
+            { seed: "undergarden:deepturf",          result: "undergarden:deepturf" },
+            { seed: "undergarden:droopvine_item",    result: "undergarden:droopvine_item" },
+            { seed: "undergarden:frozen_deepturf",   result: "undergarden:frozen_deepturf" },
+            { seed: "undergarden:ditchbulb",         result: "undergarden:ditchbulb" },
+            { seed: "undergarden:underbeans",        result: "undergarden:underbeans" }
+        ],
+        immersive: [
+            { seed: "immersiveengineering:seed",     result: "immersiveengineering:hemp_fiber" }
+        ],
+        occultism: [
+            { seed: "occultism:datura_seeds",        result: "occultism:datura" }
+        ],
+        arsNoveau: [
+            { seed: "ars_nouveau:magebloom_crop",    result: "ars_nouveau:magebloom" },
+            { seed: "ars_nouveau:sourceberry_bush",  result: "ars_nouveau:sourceberry_bush" }
+        ]
+    },
     trees : {
         vanilla: [
             { sapling: 'minecraft:oak_sapling',      log: 'minecraft:oak_log' },
@@ -233,10 +260,11 @@ global.seeds = {
             { sapling:'croptopia:almond_sapling',       result: 'croptopia:almond'}
         ],
         arsNoveau: [
-           { sapling: 'ars_nouveau:blue_archwood_sapling',   result: 'ars_nouveau:blue_archwood_log'},
-           { sapling: 'ars_nouveau:red_archwood_sapling',    result: 'ars_nouveau:red_archwood_log'},
-           { sapling: 'ars_nouveau:purple_archwood_sapling', result: 'ars_nouveau:purple_archwood_log'},
-           { sapling: 'ars_nouveau:green_archwood_sapling',  result: 'ars_nouveau:green_archwood_log'}
+           { sapling: 'ars_nouveau:blue_archwood_sapling',      result: 'ars_nouveau:blue_archwood_log'},
+           { sapling: 'ars_nouveau:red_archwood_sapling',       result: 'ars_nouveau:red_archwood_log'},
+           { sapling: 'ars_nouveau:purple_archwood_sapling',    result: 'ars_nouveau:purple_archwood_log'},
+           { sapling: 'ars_nouveau:green_archwood_sapling',     result: 'ars_nouveau:green_archwood_log'},
+           { sapling: 'ars_elemental:yellow_archwood_sapling',  result: 'ars_elemental:yellow_archwood_log'}
         ],
         twillight: [
             { sapling:'twilightforest:rainbow_oak_sapling',     result: { main: 'twilightforest:twilight_oak_log',  second: 'twilightforest:rainbow_oak_leaves' } },
@@ -249,6 +277,21 @@ global.seeds = {
             { sapling:'twilightforest:time_sapling',            result: { main: 'twilightforest:time_log',          second: 'twilightforest:firefly' } },
             { sapling:'twilightforest:darkwood_sapling',        result: { main: 'twilightforest:dark_log',          second: 'twilightforest:firefly' } },
             { sapling:'twilightforest:hollow_oak_sapling',      result: { main: 'twilightforest:twilight_oak_log',  second: 'twilightforest:cicada' } }
+        ],
+        aether: [
+            { sapling:'aether:skyroot_sapling',     result: { main: 'aether:skyroot_log',  second: 'aether:skyroot_log' } },
+            { sapling:'aether:golden_oak_sapling',  result: { main: 'aether:skyroot_log',  second: 'aether:golden_oak_log' } },
+
+        ],
+        undergarden: [
+            { sapling:'undergarden:indigo_mushroom',    result: { main: 'undergarden:indigo_mushroom_stem', second: 'undergarden:indigo_mushroom_cap' } },
+            { sapling:'undergarden:blood_mushroom',     result: { main: 'undergarden:blood_mushroom_stem',  second: 'undergarden:engorged_blood_mushroom_cap' } },
+            { sapling:'undergarden:puff_mushroom',      result: { main: 'undergarden:puff_mushroom_stem',   second: 'undergarden:puff_mushroom_cap' } },
+            { sapling:'undergarden:veil_mushroom',      result: { main: 'undergarden:veil_mushroom_stem',   second: 'undergarden:veil_mushroom_cap' } },
+            { sapling:'undergarden:ink_mushroom',       result: { main: 'undergarden:ink_mushroom_stem',    second: 'undergarden:ink_mushroom_cap' } },
+            { sapling:'undergarden:smogstem_sapling',   result: { main: 'undergarden:smogstem_log',         second: 'undergarden:smogstem_log' } },
+            { sapling:'undergarden:wigglewood_sapling', result: { main: 'undergarden:wigglewood_log',       second: 'undergarden:wigglewood_log' } },
+            { sapling:'undergarden:grongle_sapling',    result: { main: 'undergarden:grongle_log',          second: 'undergarden:grongle_log' } },
         ]
     }
 }

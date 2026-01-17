@@ -17,7 +17,8 @@ let remove_ae2_removeComplete = (event, active, debug) => {
         'extendedae:io_bus_upgrade',             //upgrade, block craftbar aber gatet
         'extendedae:pattern_terminal_upgrade',   //upgrade, block craftbar aber gatet
         Item.of('extendedae:me_packing_tape'),  //Carry Mod gleiches Feature
-        'ae2wtlib:quantum_bridge_card'
+        'ae2wtlib:quantum_bridge_card',
+        'ae2:spatial_anchor'
     ]
 
     entfernen.forEach((element) => {

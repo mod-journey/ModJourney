@@ -39,7 +39,10 @@
     },
     {
       "type": "custommachinery:item",
-      "whitelist": "#minecraft:saplings",
+      "whitelist": [
+        "#minecraft:saplings",
+        "#mj:tree_planter/input"
+      ],
       "config": {
         "TOP": "INPUT",
         "BOTTOM": "INPUT",

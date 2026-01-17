@@ -1,4 +1,8 @@
 /**
+ * This script replaces mod-specific ores and metals in recipes with their ATO counterpart
+ */
+
+/**
  * @param {$RecipesKubeEvent} event
  * @param {boolean} active
  * @param {boolean} debug
@@ -80,6 +84,49 @@ let changeRecipeToATO = (event, active, debug) => {
             form = null; metall = null; formSecond = null; special = false
         }
 
+
+        /**
+         * This function replaces items in recipe inputs with tags
+         *
+         * @param {$KubeRecipe} r Das gerade zu bearbeitende Rezept
+         *
+         * TODO rewrite this to be re-usable for multiple recipes and item types (See "findOres()")
+         */
+        function replaceInputWithTags(r) {
+            let type = r.json.get("type").toString()
+            type = type.substring(1, type.length() -1)
+
+            // replace inputs for recipes of type crafting_shaped/ crafting_shapeless
+            if (type === 'minecraft:crafting_shaped') {
+                if (r.json.get('key') !== null) {
+                    //console.log('___Recipe: ' + r.json.get("type").toString() + ':' + r.getId());
+                    //console.log(r.json.get('key'));
+
+                    Object.values(r.json.get('key').getAsJsonObject().asMap()).forEach(entry => {
+
+                        if (entry.size() === 1) {
+                            if (entry.get('item')) {
+                                console.log('key with Item ' + entry.get('item').toString());
+                                // TODO Replace item with Tag
+                                //replaceInputWithTags()
+                            } /*else if (entry.get('tag')) {
+                                    // Skip tags
+                                }*/
+                        } else {
+                            console.log('TODO handle recipes with Array keys for recipe ' + r.getId())
+                            console.log(entry)
+                        }
+                    })
+                }
+            }
+            else if (type === 'minecraft:crafting_shapeless') {
+                console.log('TODO handle shapeless recipes: ' + r.getId());
+                console.log(r.json.get('ingredients'));
+            } else {
+                // Other recipe type are currently not supported
+            }
+        }
+
         /**
          * Filtert alle bekannten types durch. Diese sind in global.mjOres.craftingTypes definiert. Anschließend kann
          * man die vorhandenen Builder benutzen, oder auch eigene Filter mit anlegen. Funktionen, Auslagerung, der Übersichtlichkeit benutzen.
@@ -87,7 +134,7 @@ let changeRecipeToATO = (event, active, debug) => {
         global.mjOres.craftingTypes.forEach(element => {
             if (debug) console.log("_______________" + element + "_______________")
 
-            event.forEachRecipe({}, r => {
+            event.forEachRecipe({type: element.substring(1, element.length-1)}, r => {
                 if (!(r.json.get("type").toString() === element)) return;
 
                 // TODO move this to input replace section (when we have such a section)
@@ -95,6 +142,8 @@ let changeRecipeToATO = (event, active, debug) => {
                     //console.log('___Was stimmt hier nicht?');
                     event.replaceInput({id: r.getId()}, 'stellaris:steel_nugget', '#c:nuggets/steel');
                 }
+
+                //replaceInputWithTags(r);
 
                 if (r.json.get("result") !== null) {
                     if (r.json.get("result").get("id") !== null) {
@@ -148,8 +197,31 @@ let changeRecipeToATO = (event, active, debug) => {
                 }
                 else {
                     if (debug) console.log("Some Recipe-ID are not tracked with output \"unknown\": " + r.getId())
-                };
+                }
             });
         });
     //});
+}
+
+
+/**
+ * Adds recipes to craft each dust to ato dust
+ *
+ * @param {$RecipesKubeEvent} event
+ * @param {boolean} active
+ * @param {boolean} debug
+ */
+function addDustConvertRecipes(event, active, debug) {
+    if (!active) return;
+
+    // combine all 3 arrays
+    let ATO_ALL = []
+        .concat(global.mjOres.ato.metall)
+        .concat(global.mjOres.ato.alloy)
+        .concat(global.mjOres.ato.vanilla);
+
+    ATO_ALL.forEach(material => {
+        event.shapeless(`alltheores:${material.name}_dust`, `#c:dusts/${material.name}`)
+            .id(`mod_journey:shapeless/convert_${material.name}_dust`)
+    })
 }

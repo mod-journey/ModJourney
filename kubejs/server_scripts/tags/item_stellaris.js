@@ -9,6 +9,7 @@ let item_stellaris = (event, active, debug) => {
     let sand = [
         'stellaris:mars_sand',
         'stellaris:moon_sand',
+        'stellaris:venus_sand',
     ];
 
     uran.forEach(uran_tag => {
