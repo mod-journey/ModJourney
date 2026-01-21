@@ -14,7 +14,6 @@
 - Add missing raw Storage Block recipes for furnace and blasting
 - Add missing stellaris sand recipe
 - Fix to high energy-costs in immersive metal-press
-
 - Add new food quest for stellaris.
 - Make coin quests in seed shop optional, to make this chapter complete-able
 - Fix incorrect item count for sps quest
